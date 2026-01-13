@@ -2,6 +2,9 @@
 **Phase**: Rhetoric (The "Why")
 **Subject**: Arithmetic (Numbers)
 
+> [!NOTE]
+> This serves as the narrative opening for Chapter 1. It is designed to be accessible as a prologue but will evolve into a more complex structure to fully satisfy the rigorous criteria of a comprehensive educational curriculum.
+
 > *"To count is to define."*
 
 ## Narrative Arc: The Genesis of the Count
