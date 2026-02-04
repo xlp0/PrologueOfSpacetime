@@ -1,4 +1,4 @@
-# Reliability: The Practice of Continuous Presence
+# Reliability - Continuous Presence Practices
 
 > *"A system that cannot fail is a system that cannot serve. True reliability lies not in preventing all failures, but in recovering gracefully from inevitable breakdowns."*
 
