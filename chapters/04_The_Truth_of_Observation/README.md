@@ -15,9 +15,19 @@ We apply observation to **System Health**.
 *   **[Observation & Grafana](grafana_dashboard.md)**: The final step. Visualizing the heartbeat of the swarm we started building in Chapter 02.
 
 
-### 2. Hardware Integration: The Explorer (Drones)
+### 3. Hardware Integration: The Explorer (Drones)
 To find truth, we must go to it. We use **Drones and Rovers** to explore the "Unknown" (The Fog of War) and return with data.
 *   **[The Drone Explorer](drone_explorer.md)**: A guide to autonomous navigation, sensors, and surviving entropy.
+
+## 4. Observability Infrastructure
+
+Systems must observe themselves to know their own state. Truth emerges from verified observation.
+
+### Self-Observation
+*   **[Continuous Monitoring](continuous_monitoring.md)**: Self-observation through metrics, logs, and visualization. The system watches itself continuously.
+
+### Automated Awareness
+*   **[Automated Collection](automated_collection.md)**: Daily archiving workflows and automated reporting. Systems that preserve their own history.
 
 ## 🎯 Learning Objectives
 1.  **Understand Parallax**: How truth changes based on position.

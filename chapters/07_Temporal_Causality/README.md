@@ -21,3 +21,13 @@ To coordinate the Kinetic Swarm (from Ch 06), we cannot rely on synchronous HTTP
 ### 3. Project: Kinetic Node (Phase 5)
 We apply causality to **Communication**.
 *   **[MQTT & The Event Bus](mqtt_event_bus.md)**: Configuring the Node to "Speak" and "Listen" via a Broker.
+
+## 4. Reliability & Persistence
+
+To maintain causality across time, systems must survive failures and preserve their history.
+
+### Temporal Redundancy
+*   **[Backup & Recovery](backup_recovery.md)**: Time as a reversible function. Preserving state through snapshots and the 3-2-1 rule.
+
+### Spatial Redundancy
+*   **[High Availability](high_availability.md)**: Existence through replication. Maintaining service despite failures through strategic distribution.
