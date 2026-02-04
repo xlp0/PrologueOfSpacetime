@@ -20,6 +20,17 @@ The layout of the "Prologue of Spacetime" is a matrix of **Pedagogy (Rows)** $\t
 *   **Music:** Temporal Logic, Frequency, Audio Analysis.
 *   **Astrobiology:** Spacetime Integration, Complex Adaptive Systems.
 
+### 2.1 Hardware Integration Map
+
+We distribute hardware tools across the Quadrivium to ground abstract concepts in physical tasks:
+
+| Subject | Hardware Tool | Philosophical Role | Example Task |
+| :--- | :--- | :--- | :--- |
+| **Arithmetic** (Numbers) | **IoT (ESP32)** | **The Counter** | Digitizing physical events (water drops) into immutable types. |
+| **Geometry** (Space) | **3D Printing** | **The Reifier** | Transforming abstract types (CAD Models) into physical space. |
+| **Music** (Time) | **Mics / Speakers** | **The Resonator** | Analyzing frequency and generating feedback loops. |
+| **Astrobiology** (Spacetime)| **Drones / Rovers** | **The Explorer** | Autonomous navigation in complex environments. |
+
 ## 3. Methodology & Philosophy
 
 ### 3.1 GASing x Functional Programming
