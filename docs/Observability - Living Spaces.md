@@ -8,15 +8,6 @@ In the same way that Homotopy Type Theory treats types as **spaces** inhabited b
 
 ## Understanding Observability
 
-### What Observability Reveals
-
-Observability is the practice of making internal system states visible through external outputs. The PKC infrastructure observes:
-
-*   **System Health:** The vitality of cluster nodes, the availability of services, the responsiveness of applications
-*   **User Behavior:** How people navigate the application, which components they visit, where they encounter friction
-*   **Authentication Patterns:** Login flows, session lifecycles, security events
-*   **Resource Dynamics:** The ebb and flow of CPU usage, memory consumption, network traffic
-
 ### The Three Pillars
 
 Traditional observability rests on three foundations:
@@ -76,7 +67,7 @@ Each transformation preserves essential information while changing context—muc
 
 ---
 
-## Windows into System Behavior
+## System Behavior
 
 ### The Dashboard as Lens
 
@@ -84,28 +75,28 @@ The PKC infrastructure maintains over 30 dashboards, each offering a different p
 
 ### Categories of Observation
 
-**Infrastructure Awareness (15 dashboards)**  
+**Infrastructure Awareness**  
 These dashboards reveal the health of the underlying platform—the Kubernetes cluster that orchestrates all services. They answer questions like:
 *   Is the control plane responding quickly to requests?
 *   Are cluster resources distributed efficiently across nodes?
 *   Which applications consume the most compute power?
 *   How does network traffic flow between services?
 
-**Node Vitality (5 dashboards)**  
+**Node Vitality**  
 Individual machines form the foundation of the cluster. These dashboards monitor:
 *   The health status of each physical or virtual machine
 *   Resource utilization patterns across different nodes
 *   Network connectivity, especially for remote nodes accessed via ZeroTier VPN
 *   System-level metrics like disk usage, CPU load, and memory pressure
 
-**Authentication Flows (1 dashboard)**  
+**Authentication Flows**  
 A specialized dashboard tracks user authentication through ZITADEL:
 *   How many users are actively logged in
 *   Patterns in login attempts (successful and failed)
 *   Token generation and session lifecycle events
 *   Security-relevant events that might indicate issues
 
-**System Components (9+ dashboards)**  
+**System Components**  
 These observe the health of the observability system itself and supporting services:
 *   Prometheus metric collection performance
 *   Grafana dashboard rendering speed
@@ -132,15 +123,6 @@ Authentication is the gateway to the system. This dashboard tracks:
 *   OAuth2 flows and external authentication providers
 
 By monitoring authentication events, the system can detect both normal usage patterns and potential security concerns—failed login spikes, unusual token requests, or session anomalies.
-
-**The Prometheus Overview**  
-Since Prometheus collects metrics from all other components, monitoring Prometheus itself is essential. This meta-dashboard reveals:
-*   How efficiently Prometheus scrapes metrics from targets
-*   The volume of time-series data being stored
-*   Query performance and resource utilization
-*   Storage consumption trends
-
-When Prometheus struggles, all other dashboards suffer. This dashboard serves as an early warning system for the observability infrastructure itself.
 
 ---
 
@@ -267,7 +249,7 @@ Six of seven nodes report healthy status. The seventh—a network storage system
 
 ### From Data to Narrative
 
-Raw metrics tell incomplete stories. Numbers like "1,247 authentication events" lack context. The PKC system transforms metrics into narrative reports that explain what the numbers mean.
+Raw metrics tell incomplete stories. The PKC system transforms metrics into narrative reports that explain what the numbers mean.
 
 ### The ZITADEL Authentication Report
 
