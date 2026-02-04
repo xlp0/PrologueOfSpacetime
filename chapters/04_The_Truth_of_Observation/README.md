@@ -10,6 +10,11 @@ In the **Revived Quadrivium**, **Astrobiology** (formerly Astronomy) is the stud
 The "Observer" is the fundamental unit of Truth. It represents the point of view that collapses the probability wave. In our curriculum, we verify truth through **Consensus** and **Biosignatures**.
 *   **[MVP Card: The Observer](MVP_The_Observer.md)**: The philosophical definition of truth.
 
+### 2. Project: Kinetic Node (Phase 4)
+We apply observation to **System Health**.
+*   **[Observation & Grafana](grafana_dashboard.md)**: The final step. Visualizing the heartbeat of the swarm we started building in Chapter 02.
+
+
 ### 2. Hardware Integration: The Explorer (Drones)
 To find truth, we must go to it. We use **Drones and Rovers** to explore the "Unknown" (The Fog of War) and return with data.
 *   **[The Drone Explorer](drone_explorer.md)**: A guide to autonomous navigation, sensors, and surviving entropy.

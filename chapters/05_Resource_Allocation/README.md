@@ -11,6 +11,11 @@
 
 In the Prologue of Spacetime, **Tokens** are the fundamental atoms of meaning that flow through the system. Just as the "Drop" is the unit of water, the "Token" is the unit of thought.
 
+### 2. Project: Kinetic Node (Phase 2)
+We apply resource allocation to **Physical Energy**.
+*   **[IoT Motor Control](iot_motor_control.md)**: Allocating voltage to motors to animate the Ch 02 Frame.
+
+
 > **Video Resource:** [Most devs don't understand how LLM tokens work](https://www.youtube.com/watch?v=AtYtuVTZCQU)
 
 ### Why It Matters

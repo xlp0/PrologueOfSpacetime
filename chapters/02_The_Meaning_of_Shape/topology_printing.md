@@ -22,12 +22,15 @@ The 3D Printer is our **Reification Engine**. It forces us to confront the reali
 *   **Task**: Print a cross-section of a Klein Bottle.
 *   **Lesson**: Higher-dimensional geometry projected into 3D space.
 
-### Exercise C: The Voronoi Terrain
-*   **Concept**: Spatial Partitioning.
-*   **Task**: Generate a Voronoi pattern based on random "seeds" (simulating village centers) and print the resulting boundaries.
-*   **Lesson**: How "Shape" emerges from "Points" (Arithmetic).
+## 3. The Project: Printing the Kinetic Frame
 
-## 3. Technical Implementation
-*   **Slicer Settings**: Understanding "Infill" as density (Weight/Cost).
-*   **Supports**: The necessary "Scaffolding" to build complex truths.
-*   **Tolerance**: The gap between the "Ideal" (Model) and the "Real" (Print).
+> **Story Step 1: Defined Form**
+> *We start with the body. Without a body, the spirit has nowhere to dwell.*
+
+To build our **Kinetic Node**, we must first print the exoskeleton.
+*   **Task**: Print the `kinetic_node_frame.stl`.
+*   **Constraint**: Use 20% infill for strength/weight balance.
+
+### Next Step: Animation
+A static frame is just a sculpture. To give it **Agency**, we must add Energy.
+👉 **Proceed to [Chapter 05: IoT & Motors](../05_Resource_Allocation/iot_motor_control.md)** to install the nervous system.
