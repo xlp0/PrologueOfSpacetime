@@ -17,8 +17,9 @@ The layout of the "Prologue of Spacetime" is a matrix of **Pedagogy (Rows)** $\t
 
 *   **Arithmetic:** Naming Systems, Type Theory, Countable Invariants.
 *   **Geometry:** Spatial Analysis, Topology, Kinect Tracking Logic.
-*   **Music:** Temporal Logic, Frequency, Audio Analysis.
-*   **Astrobiology:** Spacetime Integration, Complex Adaptive Systems.
+*   **Music:** Temporal Logic, Frequency, Audio Analysis, **MQTT Event Streams**.
+*   **Astrobiology:** Spacetime Integration, Complex Adaptive Systems, **OpenClaw & MCP Skills**.
+
 
 ### 2.1 Hardware Integration Map
 
