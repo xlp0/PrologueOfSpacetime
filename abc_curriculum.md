@@ -43,7 +43,7 @@ The curriculum is gamified through a **Zero Trust** architecture where learning 
 ### 4.1 The Retail Lab Scenario
 The physical implementation is a **Convenience Store / Retail Lab**:
 *   **Sensors (Kinects/Mics):** Feed data into the "Geometry" and "Music" curriculum modules.
-*   **Fabrication (3D Printers):** Used for "Arithmetic" (precision) and construction assignments.
+*   **Fabrication (3D Printers):** Used for "Arithmetic" (precision) and construction assignments. Integrates with **SAM 3D** technology for converting image into 3D printable models/objects, enabling rapid prototyping from photographs.
 *   **IoT (ESP32):** Connects physical inventory to "Abstract" digital types.
 
 ## 5. Implementation Workflow

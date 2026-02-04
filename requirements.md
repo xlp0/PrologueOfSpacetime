@@ -32,6 +32,7 @@ The **Prologue of Spacetime** is an integrated hardware/software curriculum desi
         *   Drone chassis/parts.
         *   Ceiling mounts for Kinects.
         *   Cabinet/Rack for server equipment.
+    *   **Workflow Integration:** Supports **SAM 3D** (Segment Anything Model 3D) for AI-powered image-to-3D conversion, enabling rapid model generation from photographs for prototyping and fabrication.
 
 ### 2.5 Infrastructure
 *   **Server:** "White Little Computer" (Cubic Form Factor).
@@ -50,6 +51,7 @@ The **Prologue of Spacetime** is an integrated hardware/software curriculum desi
 
 ### 3.2 Fabrication Software
 *   **Non-Planar Slicing:** Software to generate G-code that follows object geometry (curved layers) for strength.
+*   **SAM 3D Integration:** AI-powered 3D reconstruction from 2D images (OBJ, GLB, PLY formats) for rapid model creation and prototyping workflows.
 
 ### 3.3 Communication
 *   **Push Notifications:** VAPID implementation for real-time browser updates.
