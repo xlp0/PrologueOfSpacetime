@@ -51,7 +51,7 @@ The framework is structured as a matrix of **Pedagogy (Reverse Trivium)** and **
 |                                   | **Arithmetic** (Numbers) | **Geometry** (Space)   | **Music** (Time)    | **Astrobiology** (Spacetime) |
 | --------------------------------- | ------------------------------ | ---------------------------- | ------------------------- | ---------------------------------- |
 | **Rhetoric** (Value/Why)    | Ch 1: The Value of Counting    | Ch 2: The Meaning of Shape   | Ch 3: The Power of Rhythm | Ch 4: The Truth of Observation     |
-| **Logic** (Process/What)    | Ch 5: Resource Allocation      | Ch 6: Network Pathfinding    | Ch 7: Temporal Causality  | Ch 8: Orbit Prediction             |
+| **Logic** (Process/What)    | [Ch 5: Resource Allocation](chapters/05_Resource_Allocation/README.md)      | [Ch 6: Network Pathfinding](chapters/06_Network_Pathfinding/README.md)    | Ch 7: Temporal Causality  | Ch 8: Orbit Prediction             |
 | **Grammar** (Structure/How) | Ch 9: Counting Water           | Ch 10: Rice Terrace Topology | Ch 11: Ceremonial Beats   | Ch 12: Calendar Coordination       |
 
 ### 2. Conversational Programming (Vibe Coding)
