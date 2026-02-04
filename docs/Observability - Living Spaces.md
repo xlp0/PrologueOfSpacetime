@@ -22,7 +22,7 @@ The PKC implementation extends this with a fourth pillar:
 
 ### Observability as Context Transformation
 
-In the framework of the Prologue of Spacetime, observability functions as a **type family** that maps system states to visualization contexts. Each dashboard is a **dependent function** where the displayed information depends on the current state of the infrastructure. When a node fails, the dashboard context transforms—new alerts appear, metrics shift, the visual representation adapts to reflect the changed reality.
+In the framework of the Prologue of Spacetime, observability functions as a **type** that maps system states to visualization contexts. Each dashboard is a **dependent function** where the displayed information depends on the current state of the infrastructure. When a node fails, the dashboard context transforms—new alerts appear, metrics shift, the visual representation adapts to reflect the changed reality.
 
 ---
 
@@ -34,18 +34,6 @@ The PKC observability infrastructure resembles the **nested universes** of Homot
 
 **The User Layer**  
 At the outermost layer, users interact with the PKC Landing Page through their browsers. Their actions—clicks, navigation, component visits—generate events that flow into the observability system. This is where experience becomes data.
-
-**The Collection Layer**  
-Beneath the user experience, collection mechanisms gather signals from multiple sources:
-*   **Faro SDK** captures user interactions and frontend performance
-*   **Prometheus** periodically samples system metrics from cluster nodes
-*   **Promtail** streams log entries from running applications
-
-**The Storage Layer**  
-Collected data flows into specialized storage systems:
-*   **Prometheus** holds recent time-series metrics (15 days)
-*   **Loki** aggregates logs with efficient indexing
-*   **Thanos** extends metric retention for historical analysis
 
 **The Visualization Layer**  
 Grafana queries these storage systems and renders dashboards—visual representations that transform raw data into comprehensible patterns. Each dashboard is a **projection** that extracts meaning from the underlying data space.
