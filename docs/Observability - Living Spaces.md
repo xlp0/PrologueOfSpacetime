@@ -1,6 +1,4 @@
-# Observability: Seeing Systems as Living Spaces
-
-## Introduction
+# Observability - Living Spaces
 
 Observability transforms how we understand running systems. Rather than treating infrastructure as opaque machinery, observability reveals the **living patterns** within—the flows of data, the rhythms of user interaction, the health of interconnected components. This document explores how the PKC Landing Page project implements observability as a practice of **continuous awareness**, where systems become visible, understandable, and responsive.
 
