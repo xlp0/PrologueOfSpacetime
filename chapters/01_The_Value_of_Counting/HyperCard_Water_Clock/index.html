@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 01: The Water Clock</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 { font-size: 1.5rem; margin-bottom: 1rem; color: #2c3e50; }
+        .counter-display {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #3498db;
+            margin: 2rem 0;
+        }
+        .bamboo-container {
+            width: 100%;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        .water-level {
+            height: 100%;
+            background-color: #3498db;
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+        button {
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+        button:hover { background-color: #34495e; }
+        .log {
+            margin-top: 1rem;
+            text-align: left;
+            font-size: 0.8rem;
+            color: #7f8c8d;
+            height: 100px;
+            overflow-y: auto;
+            border-top: 1px solid #eee;
+            padding-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>MVP Card: The Counter</h1>
+        <p><em>"To count is to define."</em></p>
+        
+        <div class="bamboo-container">
+            <div class="water-level" id="waterLevel"></div>
+        </div>
+        
+        <div class="counter-display" id="countDisplay">0</div>
+        
+        <button id="toggleBtn">Start Flow</button>
+        
+        <div class="log" id="log">
+            > System initialized.<br>
+            > Waiting for flow...
+        </div>
+    </div>
+
+    <script>
+        // The Counter Logic (Monadic State)
+        let state = {
+            count: 0,
+            water: 0,
+            capacity: 100,
+            isFlowing: false
+        };
+
+        const waterLevelEl = document.getElementById('waterLevel');
+        const countDisplayEl = document.getElementById('countDisplay');
+        const logEl = document.getElementById('log');
+        const toggleBtn = document.getElementById('toggleBtn');
+        let interval;
+
+        function log(msg) {
+            const line = document.createElement('div');
+            line.textContent = `> ${msg}`;
+            logEl.prepend(line);
+        }
+
+        function tick() {
+            if (!state.isFlowing) return;
+
+            // Accumulate Water (Continuous Flow)
+            state.water += 2; // flow rate
+            
+            // Update Visuals (Concrete Dimension)
+            waterLevelEl.style.width = `${(state.water / state.capacity) * 100}%`;
+
+            // The Counter Principle (Abstract -> Discrete)
+            if (state.water >= state.capacity) {
+                state.water = 0;
+                state.count++;
+                
+                // Side Effect (IO / Balanced Dimension)
+                countDisplayEl.textContent = state.count;
+                log(`CLICK! Count: ${state.count} (Fairness Verified)`);
+                
+                // Visual Reset
+                waterLevelEl.style.width = '0%';
+            }
+        }
+
+        toggleBtn.addEventListener('click', () => {
+            state.isFlowing = !state.isFlowing;
+            toggleBtn.textContent = state.isFlowing ? "Stop Flow" : "Start Flow";
+            
+            if (state.isFlowing) {
+                log("Flow started.");
+                interval = setInterval(tick, 50);
+            } else {
+                log("Flow stopped.");
+                clearInterval(interval);
+            }
+        });
+    </script>
+</body>
+</html>

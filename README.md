@@ -31,7 +31,7 @@ The following core documents are currently linked for active work:
 ### 1. The 12-Chapter Structure (Trivium × Quadrivium)
 The framework is structured as a matrix of **Pedagogy (Reverse Trivium)** and **Content (Revived Quadrivium)**:
 
-| | **Arithmetic** (Numbers) | **Geometry** (Space) | **Music** (Time) | **Astronomy** (Spacetime) |
+| | **Arithmetic** (Numbers) | **Geometry** (Space) | **Music** (Time) | **Astrobiology** (Spacetime) |
 |---|---|---|---|---|
 | **Rhetoric** (Value/Why) | Ch 1: The Value of Counting | Ch 2: The Meaning of Shape | Ch 3: The Power of Rhythm | Ch 4: The Truth of Observation |
 | **Logic** (Process/What) | Ch 5: Resource Allocation | Ch 6: Network Pathfinding | Ch 7: Temporal Causality | Ch 8: Orbit Prediction |
@@ -44,8 +44,30 @@ The Prologue teaches **Monadic Thinking** without requiring knowledge of Haskell
 *   **State Monad**: Evolving community conditions.
 *   **IO Monad**: The boundary between decision and action.
 
-### 3. Sovereign Operational Networks (SON)
+### 3. The Compositional Structure (Sum × Product)
+The entire Prologue is built from **two fundamental operations** that map to Type Theory and Arithmetic:
+
+| Mode | Type | Arithmetic | Example in Prologue |
+|------|------|------------|---------------------|
+| **Horizontal (×)** | Product Type | Multiplication | The Quadrivium: Ar × Ge × Mu × Ab |
+| **Vertical (+)** | Sum Type | Addition | The Trivium: Rh → Lo → Gr |
+
+*   **Counting (Ch 1)** is pure **Vertical Composition**: `1 + 1 + 1 + ...`.
+*   **Shape (Ch 2)** introduces **Horizontal Composition**: `Length × Width`.
+*   The **12 Chapters** = `3 × 4` = the full space of Trivium × Quadrivium.
+
+See [`docs/Monadic Composition - The Algebra of Types.md`](docs/Monadic%20Composition%20-%20The%20Algebra%20of%20Types.md) for the complete theory.
+
+### 4. Sovereign Operational Networks (SON)
 The story demonstrates that true sovereignty comes from owning the "Maxwell's Demon"—the decision-making intelligence of the network.
+
+### 5. Astrobiology: The Syntax of Life
+In the **Revived Quadrivium**, **Astrobiology** supersedes Astronomy as the study of "Number in Spacetime" (or Number in Recursion). It adds the essential dimension of **Functional Self-Preservation**—completing the circuit by asking not just how things move, but whether that motion produces life.
+
+*   **Arithmetic of Genetic Code**: Life manages content using a quaternary arithmetic system (A, T, C, G).
+*   **Recursive Types**: Life corresponds to **Recursive Types** ($\mu \alpha . T(\alpha)$), representing systems that define themselves and persist against entropy.
+*   **The Telescope & The Microscope**: Astrobiology integrates the "Far" pole (Astronomy/Exoplanets) with the "Near" pole (Biology/Extremophiles) to study Life as a Cosmic Phenomenon.
+
 
 ---
 *This project is part of the **PKC (Personal Knowledge Container)** ecosystem, dedicated to enabling **Computational Governance** and **Cultural Sovereignty** through open-source technology.*
