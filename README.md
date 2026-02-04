@@ -4,6 +4,22 @@
 
 **Prologue of Spacetime** is a "Meta-Game" of continuation that fuses interactive storytelling, cultural philosophy, and advanced distributed systems engineering.
 
+> **Core Philosophy**: The project is grounded in **Arithmetic-extended Logic**—the principle that all Logic (Process) emerges from Arithmetic (Structure/Type). By defining the "Number" (The Monad) first, we ensure that the resulting system is mathematically consistent and operationally sound.
+
+## 🎓 Methodology: GASing with Universality
+
+The project adopts the **GASing Methodology** (Gampang, Asyik, Menyenangkan) to operationalize complex theoretical concepts into a scalable learning framework:
+
+*   **Easy (Gampang) → Consistency (Arithmetic)**:
+    *   We use **Type Theory** and **Functional Programming** to make concepts "Easy" by ensuring they *just work*.
+    *   *Motto*: "If it compiles, it represents a valid truth."
+*   **Fun (Asyik) → Relevance (Logic)**:
+    *   We apply abstract math to **Real-World Systems** (e.g., Water Temples, Space Colonization).
+    *   *Motto*: "Logic is not a chore; it is the game of survival."
+*   **Enjoyable (Menyenangkan) → Timeliness (Rhetoric)**:
+    *   We use **Feedback Loops** and **Digital Synesthesia** to make the learning process rewarding in real-time.
+    *   *Motto*: "The joy of understanding is the highest reward."
+
 ## 🤖 CodeWiki Workspace
 
 This repository serves as a specialized **Project Workspace** designed for collaboration with **CodeWiki by Google**. It acts as an operational bridge between the user's personal knowledge base (DataVault) and the active development of the Prologue project.
