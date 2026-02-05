@@ -42,6 +42,7 @@ The following core documents are currently linked for active work:
 * **[`Prologue of Spacetime.md`](docs/Prologue%20of%20Spacetime.md)**: The core "Game" document. It establishes the philosophical and mathematical axioms, introducing concepts like **Time as a Non-Commutative Medium** and the **Monadic Mental Model**.
 * **[`Structure and Vision`](chapters/00_Structure_and_Vision.md)**: An overview of the project's architecture, explaining how the **12-Chapter Matrix** and **GASing Methodology** enable the "Brain Factory" vision.
 * **[`Meta-Narrative Framework for Prologue of Spacetime.md`](docs/Meta-Narrative%20Framework%20for%20Prologue%20of%20Spacetime.md)**: The "Dungeon Master's Guide" detailing the **12-Chapter Structure** and **Agentic Workflows**.
+* **[`Brain_Factory_Implementation_Case_Study.md`](chapters/Brain_Factory_Implementation_Case_Study.md)**: **Real-World Implementation**. A strategic case study demonstrating how the **Brain Factory** and **GASing** are being operationalized at national scale in Indonesia.
 
 ## 🗝 Key Concepts
 
