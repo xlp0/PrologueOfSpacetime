@@ -1,48 +1,43 @@
 ---
-title: "MVP Card: The Allocator"
-chapter: 05
-type: MVP (Most Valuable Participant)
-clm_dimensions:
-  abstract: "Logic x Arithmetic"
-  concrete: "The Water Divider (Weir)"
-  balanced: "Optimization (Best Use of Resources)"
+title: "MVP: The Allocator (Logic of Arithmetic)"
+chapter: 5
+matrix: Logic x Arithmetic
+role: The Scheduling Station
+artifact: PCard (Scheduler)
 ---
 
-# MVP Card: The Allocator
+# MVP: The Allocator
 
-> *"Logic is the morality of number. It dictates where the surplus must go."*
+> *"To possess is nothing; to allocate is everything. In the Brain Factory, we move resources from 'Idle' to 'Active'."*
 
-## 0. The Monad as Archetype
-**The Allocator** applies **Logic** to **Arithmetic**. It is the decision function $f: \text{Resources} \to \text{Distribution}$, converting "Scarcity" into "optimization".
+## 1. The Brain Factory Role: Optimization
+**The Allocator** is the logic engine that decides *where* the MCards (Inventory from Ch 1) go. It connects Supply to Demand.
+*   **Input**: A Queue of Tasks + A Pool of Assets.
+*   **Operation**: Matching and optimization (Knapsack Problem).
+*   **Output**: An **Allocation Schedule** (PCard Logic).
 
-### Logic x Arithmetic
-Arithmetic in the Logic layer is about **Resource Allocation**.
-*   **Scarcity**: In the Subak, water is finite. Who gets it first?
-*   **Computing**: In a network, CPU cycles are finite. Which process runs?
-*   **Modular Arithmetic**: Using cycles ($n \pmod k$) for crop rotation and load balancing.
+## 2. GASing Strategy
+*   **Menyenangkan (Rhetoric)**: "The perfect loadout." In games, you optimize your inventory for the mission.
+*   **Asyik (Logic)**: The "Game" of **Resource Management** (StarCraft, Civilization). Balancing economy vs. military.
+*   **Gampang (Grammar)**: The mathematics of Linear Programming and Inequality Constraints ($x + y \le C$).
 
-## 1. The Principle (Abstract Dimension)
-**The Allocator** represents **Yoneda Arithmetic** (Identity via Relation).
-*   **Relation**: You know an object by how it relates to others ($Water \to Field$).
-*   **Justice**: The allocation must satisfy the gods (ritual), people (fairness), and nature (sustainability).
+## 3. Historic Verification (The Commit Log)
+We ground this in the history of **Logistics** and **Kernels**.
 
-### GASing Perspective: Gampang (Easy/Consistent)
-*   **Concept**: Fairness is Math.
-*   **Why it's Easy**: Greed is complex; Division is simple. By trusting the arithmetic, we remove the emotional complexity.
-*   **Motto**: "Trust the math, not the mood."
+### Historical Anchors
+1.  **Leonid Kantorovich (1912–1986)**: The inventor of **Linear Programming**. He proved that allocation is a mathematical problem of optimization. We use his methods to solve the **Knapsack Problem** of GPU resource distribution.
+2.  **Frederick Winslow Taylor (1856–1915)**: The Father of **Scientific Management**. While controversial, his obsession with "Efficiency" drives the **Allocator's** logic to minimize waste ($0 cost implies Maximum Sovereignty).
+3.  **John von Neumann (1903–1957)**: The Architect. He defined the "Von Neumann Bottleneck" (Memory vs Compute). Our Allocator is designed specifically to overcome this by prioritizing **Data Locality** (Process near Data).
 
-## 2. The Character (Concrete Dimension)
-**Role**: The Steward.
-**Mechanism**:
-*   **The Divider**: Calculates needs ($Need = Area \times CropType$).
-*   **The Weir**: Physical gates that split flow proportionally.
+*   **The Granary**: The first centralized allocation system.
+*   **The Quartermaster**: Military supply chain.
+*   **The Scheduler (OS)**: Round-Robin vs. Priority.
+*   **Kubernetes**: The modern orchestrator of compute allocation.
 
-## 3. The Evidence (Balanced Dimension)
-**Verification**: No field is parched while another floods.
-*   **Audit Trail**: Every decision is recorded in a **Writer Monad** (Log), creating a history of fairness.
+## 4. Technical Implementation: The Scheduler Agent
+The **Allocator** is implemented as a Sovereign Agent.
+*   **Function**: Monitor MCardFS usage.
+*   **Policy**: "Local First." Prefer local GPU ($0 cost) over Cloud GPU ($ cost).
+*   **Outcome**: Maximum Sovereignty per Watt.
 
-## 4. Narrative Integration
-In **Chapter 5**, counting is not enough. We must decide.
-*   **The Problem**: "100 units of water, 200 units of need."
-*   **The Solution**: Deploy **The Allocator**.
-*   **The Lesson**: Logic provides the rule for handling Scarcity.
+> **"A Sovereign brain does not waste energy. Efficient allocation is the proof of mastery."**

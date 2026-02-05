@@ -1,49 +1,43 @@
 ---
-title: "MVP Card: The Navigator"
-chapter: 06
-type: MVP (Most Valuable Participant)
-clm_dimensions:
-  abstract: "Logic x Geometry"
-  concrete: "The Canal Map"
-  balanced: "Efficiency (Shortest Path)"
+title: "MVP: The Navigator (Logic of Geometry)"
+chapter: 6
+matrix: Logic x Geometry
+role: The Routing Station
+artifact: PCard (Router)
 ---
 
-# MVP Card: The Navigator
+# MVP: The Navigator
 
-> *"The shortest path is not always the wisest path."*
+> *"A map is useless if you cannot find a path. In the Brain Factory, we compute the route to sovereignty."*
 
-## 0. The Monad as Archetype
-**The Navigator** applies **Logic** to **Space**. It solves the graph traversal problem to minimize loss and latency.
+## 1. The Brain Factory Role: Connectivity
+**The Navigator** takes the Shape (Ch 2) and computes the **Flow**. It is the logic of connection.
+*   **Input**: A Network Topology (Shape) + A Destination ($V_{goal}$).
+*   **Operation**: Pathfinding (A*, Dijkstra).
+*   **Output**: A **Route** (A sequential list of Nodes).
 
-### Logic x Geometry
-Geometry becomes **Pathfinding**. It is not just about shape, but about **movement**.
-*   **Edge vs. Cloud**: The topology of decision.
-    *   **Cloud (King)**: Centralized, high latency.
-    *   **Edge (Subak)**: Distributed, low latency.
-*   **Sheaf Theory**: Gluing local truths (Farmer's view) into global consistency (Watershed view).
+## 2. GASing Strategy
+*   **Menyenangkan (Rhetoric)**: "The Journey." The adventure of getting from A to B.
+*   **Asyik (Logic)**: The "Game" of **Maze Solving** or **Delivery**. Uber/Grab logic.
+*   **Gampang (Grammar)**: Graph Theory. Shortest Path algorithms.
 
-## 1. The Principle (Abstract Dimension)
-**The Navigator** represents **Applied Topology**.
-*   **Path Independence**: In a resilient network, the destination matters more than the route.
-*   **Homotopy**: Different paths that enclose no obstacle are equivalent.
+## 3. Historic Verification (The Commit Log)
+We ground this in the history of **Exploration**.
 
-### GASing Perspective: Asyik (Fun/Relevance)
-*   **Concept**: Puzzle Solving.
-*   **Why it's Fun**: Routing is a maze. Finding the "Shortest Path" or "Maximum Flow" is the core game mechanic.
-*   **Motto**: "The water wants to flow; we just show it the way."
+### Historical Anchors
+1.  **Leonhmard Euler (1707–1783)**: The Solver of Königsberg. He invented **Graph Theory**, transforming "messy maps" into "Computable Geometry." He allows us to treat the Network as a verifiable logical structure.
+2.  **Edsger W. Dijkstra (1930–2002)**: The Pathfinder. His algorithm ($A*$) is the beating heart of our **Navigator**, proving that the "Shortest Path" is a known quantity, not a guess.
+3.  **Paul Baran (1926–2011)**: The inventor of **Packet Switching**. He designed the network to survive nuclear attack (distributed resilience). We use his "Hot Potato" routing logic to ensure Sovereignty survives infrastructure failure.
 
-## 2. The Character (Concrete Dimension)
-**Role**: The Engineer.
-**Mechanism**:
-*   **Canal Layout**: Designing for gravity and minimal evaporation.
-*   **Mesh Routing**: Rerouting water/data when a channel/node fails.
+*   **The Polynesian Wayfinders**: Navigating the ocean by interpreting waves.
+*   **The Silk Road**: The logic of trade routes.
+*   **TCP/IP**: The logic of packet switching.
+*   **Overlay VPNs**: The logic of sovereign tunnels.
 
-## 3. The Evidence (Balanced Dimension)
-**Verification**: Water reaches the furthest field.
-*   **Resilience**: The system functions even when parts of it are broken.
+## 4. Technical Implementation: The Pathfinding Agent
+In the **Brain Factory**, knowledge must move.
+*   **Scenario**: Student A needs a Skill that Student B has.
+*   **Router**: Finds the trusted path through the **Overlay VPN**.
+*   **Result**: Peer-to-Peer transfer without relying on central "Highways."
 
-## 4. Narrative Integration
-In **Chapter 6**, the User deals with network complexity.
-*   **The Problem**: "The water takes too long to get there."
-*   **The Solution**: Consult **The Navigator**.
-*   **The Lesson**: Good logic creates efficient paths.
+> **"The Navigator turns 'Distance' into 'Latency'. A well-routed network is a hyper-connected brain."**
