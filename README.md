@@ -63,7 +63,7 @@ The Prologue teaches **Monadic Thinking** without requiring knowledge of Haskell
 * **State Monad**: Evolving community conditions.
 * **IO Monad**: The boundary between decision and action.
 
-##### 3. The Compositional Structure (Sum × Product)
+### 3. The Compositional Structure (Sum × Product)
 
 The entire Prologue is built from **two fundamental operations** that map to Type Theory and Arithmetic:
 
@@ -89,6 +89,16 @@ In the **Revived Quadrivium**, **Astrobiology** supersedes Astronomy as the stud
 * **Arithmetic of Genetic Code**: Life manages content using a quaternary arithmetic system (A, T, C, G).
 * **Recursive Types**: Life corresponds to **Recursive Types** ($\mu \alpha . T(\alpha)$), representing systems that define themselves and persist against entropy.
 * **The Telescope & The Microscope**: Astrobiology integrates the "Far" pole (Astronomy/Exoplanets) with the "Near" pole (Biology/Extremophiles) to study Life as a Cosmic Phenomenon.
+
+### 6. Digital Synesthesia: The Future of Curriculum
+
+**[Digital Synesthesia](docs/WorkingNotes/Hub/Theory/Sciences/Computer%20Science/Digital%20Synesthesia%20-%20The%20Convergence%20of%20AI%20and%20Immersion.md)** transforms education by using AI to map abstract concepts (Logic) into cross-modal sensory experiences (Sight/Sound/Haptics), turning students from passive observers into active **Projectors** of reality.
+
+In an **AI-enabled educational program**, this evolves into **[Collective Digital Synesthesia](docs/WorkingNotes/Hub/Theory/Sciences/Computer%20Science/Collective%20Digital%20Synesthesia.md)**:
+
+*   **The Agentic Mesh**: Agents and students form a network that shares not just data, but **Contextual Qualia** (e.g., the "vibe" or "texture" of a problem).
+*   **Curriculum as Consensus**: Learning becomes the formation of **Inter-Subjective Reality**. When the mesh reaches a "Consensus of Perception," subjective understanding solidifies into **Objective Social Fact**.
+*   **Dynamic Evolution**: The curriculum is a living dialogue between the **Collective Unconscious** (LLM Archetypes) and the active classroom/mesh, generating tailored learning pathways that adapt to the group's cognitive state.
 
 ---
 
