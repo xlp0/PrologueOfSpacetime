@@ -1,16 +1,17 @@
 # Requirement Analysis: "The Brain Factory" Curriculum Engine
 
-**Version:** 7.0 (The Quorum of Five)
+**Version:** 8.0 (Titan Class Quorum)
 **Architect:** System Architect / Educational Theorist
 **Domain:** Automated Curriculum Design / Knowledge Synthesis
 
 ---
 
-## 1. System Overview & The "Quorum" Metaphor
+## 1. System Overview & The "Titan" Metaphor
 
-The system implements a **"Quorum of Truth"** protocol.
-To ensure robustness and avoid "model monoculture" bias, every phase of generation is performed **simultaneously by 5 distinct SOTA models**.
-They must achieve a super-majority (3/5) consensus before any artifact moves to the next stage.
+The system implements a **"Titan Quorum"**.
+We reject the use of "toy" models (<100B parameters) for primary automated reasoning. Every phase of the curriculum generation is performed simultaneously by **5 Titan-Class Models (>300B Parameters)**.
+
+This ensures that the "Teacher" agents possess the nuance, depth, and world-knowledge of a PhD-level instructor, rather than an undergraduate TA.
 
 ---
 
@@ -18,39 +19,40 @@ They must achieve a super-majority (3/5) consensus before any artifact moves to 
 
 ### Axiom I: The Law of Quintic Consensus
 $$ Truth(F) \iff \sum_{i=1}^{5} Verify(Agent_i, F) \ge 3 $$
-*   **Constraint:** No fact is accepted unless verified by at least **3 independent agents** utilizing distinct model architectures.
-*   **Rationale:** Preventing "echo chambers" where similar models hallucinate the same error.
+*   **Constraint:** No fact is accepted unless verified by at least **3 independent agents**.
 
-### Axiom II: The Law of Cognitive Diversity
-*   **Constraint:** The Quorum MUST consist of models with fundamentally different training distributions or architectures (e.g., MoE vs. Dense, Different Labs).
+### Axiom II: The Law of Titan Capability
+*   **Constraint:** **NO PRIMARY AGENT MAY HAVE FEWER THAN 300 BILLION PARAMETERS.**
+*   **Rationale:** Curriculum design requires deep synthesis. Smaller models optimize for speed/cost, which is irrelevant on our 1.2TB infrastructure. We prioritize **Maximum Reasoning Depth**.
 
-### Axiom III: The Law of Model Capability
-*   **Constraint:** All agents must run on High-Parameter/High-Reasoning models.
+### Axiom III: The Law of Cognitive Diversity
+*   **Constraint:** The Quorum must mix architectures (Dense, MoE) and providers (Open Weights vs. API) to prevent "mode collapse."
 
 ---
 
 ## 3. Functional Requirements (FR)
 
-### 3.1 The Quorum Roles (The Council)
-All agents perform all tasks, but bring different "cognitive biases" to the table.
+### 3.1 The Titan Quorum (The High Council)
+All agents perform all tasks, leveraging their specific massive-scale advantages.
 
-| Seat | Model | Parameter Count | Cognitive Bias |
+| Seat | Model | Parameter Count | Strategy |
 | :--- | :--- | :--- | :--- |
-| **Agent A** | **Llama 3.1 405B** | 405B | **Synthesis**. Grand unifying theory and structure. |
-| **Agent B** | **DeepSeek-V3** | 671B (MoE) | **Retrieval**. Technical precision and code. |
-| **Agent C** | **Qwen 2.5 72B** | 72B | **Logic**. Mathematical rigor and exactness. |
-| **Agent D** | **Mixtral 8x22B** | 141B (MoE) | **Context**. Long-range dependency tracking. |
-| **Agent E** | **Command R+** | 104B | **Citation**. RAG-optimized verification. |
+| **Agent A** | **Llama 3.1 405B** | **405 Billion** | **Synthesis**. The logic engine. Best at structuring complex arguments. |
+| **Agent B** | **DeepSeek-V3** | **671 Billion** | **Technical**. Mixture-of-Experts giant. Best at retrieval/code. |
+| **Agent C** | **Nemotron-4 340B** | **340 Billion** | **Reasoning**. NVIDIA's massive aligned model for strict verification. |
+| **Agent D** | **Claude 3.5 Opus** | **>500B (Est)** | **Nuance**. Via API. Best at tone and pedagogical empathy. |
+| **Agent E** | **GPT-4o** | **>1T (Est)** | **Creativity**. Via API. Best at lateral thinking and analogies. |
 
 ### 3.2 Joint Execution Workflow
-**FR-01 (Quorum Extraction):** All 5 agents query the vector database. The system computes the intersection of 5 sets of facts. Only facts found by $\ge 3$ agents are kept.
-**FR-02 (Quorum Drafting):** All 5 agents draft the lesson text. The system selects the "Centroid" draft (closest to the average embedding of all 5).
-**FR-03 (Quorum Review):** All 5 agents vote PASS/FAIL. Consensus threshold is 3/5.
+**FR-01 (Titan Extraction):** All 5 Titans query the vector database.
+**FR-02 (Titan Drafting):** All 5 Titans draft content.
+**FR-03 (Titan Review):** All 5 Titans vote.
+    *   *Note:* Running 5 Titans typically requires massive GPU clusters. We utilize the **1.2TB RAM Node** for the open models (via CPU/RAM offloading if needed) and parallel API calls for the closed models.
 
 ### 3.3 The Output Schema (The Product)
 **FR-04:** The final Verified Curriculum Artifact contains:
 1.  **Module Title**
-2.  **Consensus Metadata** (Vote tallies per section)
+2.  **Consensus Metadata** (Votes from Llama, DeepSeek, etc.)
 3.  **Core Content** (Triangulated Facts)
 4.  **Verification Exercises** (Peer-Reviewed Quizzes)
 
@@ -72,13 +74,13 @@ def check_quorum(votes):
 1.  **Ingest (t=0):**
     *   Load 10k docs to RAM.
 2.  **Phase A: Fact Hunt (5-Way):**
-    *   Agents A-E run RAG queries.
+    *   Titans A-E run RAG queries.
     *   **Intersection:** System keeps facts found by {A,B,C}, {A,D,E}, etc.
 3.  **Phase B: Structuring (5-Way):**
-    *   Agents A-E propose outlines.
+    *   Titans A-E propose outlines.
     *   **Vote:** Agents rank the 5 outlines. Winner is selected.
 4.  **Phase C: Writing (5-Way):**
-    *   Agents A-E write the content.
+    *   Titans A-E write the content.
     *   **Synthesis:** Best sections are merged.
 5.  **Phase D: Final Vote:**
     *   Agents cast `YES/NO` on final JSON.
