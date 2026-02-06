@@ -1,16 +1,16 @@
 # Requirement Analysis: "Space Time" Simulatory Engine
 
-**Version:** 2.0 (Axiomatic Revision)
+**Version:** 3.0 (Parallel Axioms)
 **Architect:** System Architect / Cosmologist
 **Domain:** Computational History / Generative Publishing
 
 ---
 
-## 1. System Overview & The "Dining Philosophers" Metaphor
+## 1. System Overview & The "Parallel Evolution" Metaphor
 
-The "Space Time" engine is not merely a chat bot; it is a **closed-loop historical simulator**. It utilizes a **"Dining Philosophers" topology** where the scarce resource is not food, but the **Context Window (Token Budget)**.
+The "Space Time" engine is a **Massively Parallel Historical Simulator**. It rejects the linear "Ring" of the Dining Philosophers in favor of a **"Many-Worlds" Tournament**.
 
-To prevent "intellectual stagnation" (deadlock), the system employs an evolutionary mechanism (The Swapping Gate) to rotate agent personas, ensuring the output is a divergent synthesis of ideas rather than a linear summary. We define this as a **Generative Adversarial Collaboration (GAC)** system.
+Utilizing high-ram infrastructure (1.2TB), the system spawns all 5-7 agents simultaneously in each epoch. They do not wait to speak; they speak at once, and then **vote** to decide which timeline becomes canonical. We define this as a **Darwinian Epistemology Engine**.
 
 ---
 
@@ -18,26 +18,25 @@ To prevent "intellectual stagnation" (deadlock), the system employs an evolution
 
 These assertions are fundamental to the system's operation and cannot be overridden by agent prompts.
 
-### Axiom I: The Law of Sequentiality (Round-Robin)
-$$ \forall t \in T, Speaker(t) = P_{(t \pmod 5)} $$
-*   The conversation MUST proceed in a strict ring: $P_0 \to P_1 \to P_2 \to P_3 \to P_4 \to P_0$.
-*   No agent may speak out of turn. "Interrupting" is architecturally impossible.
+### Axiom I: The Law of Simultaneity (The Burst)
+$$ \forall t \in T, P_{all} \to Generate(\Delta t) $$
+*   **Constraint:** All agents MUST generate their output for Epoch $N$ concurrently.
+*   **Rationale:** We do not want Agent B to be biased by Agent A's opening. We want 5 independent "takes" on history, which are then reconciled.
 
-### Axiom II: The Law of Entropy (Abel-Ruffini)
-$$ E(Turn) = \sum_{i=0}^{n} p_i \log_b p_i $$
-*   The system acknowledges that a 5-agent debate cannot be "solved" (converged) by simple linear summarization.
-*   **Constraint:** If `Entropy < Threshold` (Agents are agreeing too much), the system **MUST** inject a perturbation (e.g., a "Black Swan Event" prompt) to destabilize the equilibrium.
+### Axiom II: The Law of Darwinian Consensus (The Vote)
+$$ Winner_N = \max(Vote(P_i \to P_j)) $$
+*   **Constraint:** At the end of every Burst, every agent MUST cast a scored vote (0-10) for every peer's output.
+*   **Constraint:** The agent with the lowest aggregate score is **Deleted from Existence** (removed from memory) and replaced by a Reserve Agent.
 
 ### Axiom III: The Law of Finite Memory (Context Folding)
-*   The Universe (Context Window) is finite.
-*   **Constraint:** At the end of every Cycle (5 turns), the oldest Cycle MUST be compressed into a "Holographic Summary" (Vector Embedding) and removed from the active context.
+*   **Constraint:** Only the **Winning Persona's output** is written to the "Official History" (Context Window). The "Loser Timelines" are discarded (or archived in cold storage), preventing context pollution.
 
 ---
 
 ## 3. Functional Requirements (FR)
 
-### 3.1 The Pentagonal Persona Configuration
-The Table shall always be seated with 5 archetypes, initially defined as:
+### 3.1 The Tournament Roster
+The simulation supports up to 5-7 concurrent agents.
 
 | Seat | Archetype | Domain Focus | Bias Vector |
 | :--- | :--- | :--- | :--- |
@@ -46,66 +45,52 @@ The Table shall always be seated with 5 archetypes, initially defined as:
 | **P3** | **The Politician** | Geopolitics, funding (ARPA), national security | *Statist* |
 | **P4** | **The Mathematician** | Logic, complexity theory, algorithms | *Idealist* |
 | **P5** | **The Technologist** | Architecture, packet switching, implementation | *Constructivist* |
+| **P6** | **The Cyberneticist** | Feedback loops, control theory | *Systemic* |
+| **P7** | **The Labor Historian**| Union dynamics, automation impact | *Humanist* |
 
-### 3.2 Evolutionary Dynamics (The Swapping Gate)
-**FR-06:** The system MUST implement a **"Swapping Gate"** that triggers exactly every **5 rounds** (the "Quintic Threshold").
-
-At this Gate:
-1.  **Evaluate:** An external "Evaluator" scores each agent on **Information Gain (IG)**.
-    > *"Did this agent introduce new facts, or merely restate existing ones?"*
-2.  **Eliminate:** The agent with the lowest IG score is evited.
-3.  **Inject:** A new agent is drawn from the **Reserve Pool** (e.g., `LaborHistorian`, `Cyberneticist`, `Artist`) and seated in the empty slot.
-4.  **Rationale:** This ensures the conversation evolves from "How to build a computer" (Tech/Physics focus) to "How to live with a computer" (Society/Labor focus) over time.
+### 3.2 Evolutionary Dynamics (The Elimination Round)
+**FR-06:** The system triggers an **Elimination Event** after *every* Burst (not every 5 rounds).
+**FR-07:** The **Peer Review Protocol** masks the identities of the authors.
+    > *"Review these 4 drafts. Rate them on Insight and Novelty. Do not know who wrote them."*
+**FR-08:** The lowest performing agent is replaced immediately. This creates extreme pressure to perform or perish.
 
 ### 3.3 The Semantic Harvester ("Consensus Events")
-**FR-09:** A parallel daemon (The Harvester) MUST monitor the event stream.
-**FR-10:** It detects **"Consensus Events"**:
-> *Definition:* A Consensus Event occurs when $Agent_A$ (Thesis) and $Agent_B$ (Antithesis) are followed by $Agent_C$ providing a Synthesis that references both prior agents with positive sentiment.
-**FR-11:** Upon detection, the Harvester triggers the `generate_chapter_artifact` workflow.
+**FR-09:** A parallel daemon (The Harvester) monitors the **Voting Matrix**.
+**FR-10:** It detects **"Unanimous Acclaim"**:
+    > *Definition:* When >80% of agents vote for a single draft with a score >9/10.
+**FR-11:** This triggers the "Canonization" workflow, minting that draft as a permanent Chapter in the Book.
 
 ---
 
 ## 4. Mathematical Logic Specifications
 
-### 4.1 The Combination Index (CI)
-To determine if a turn is "harvestable," we calculate the Combination Index:
+### 4.1 The Divergence-Convergence Loop
+The flow follows a standard Map-Reduce pattern:
 
-```python
-def calculate_combination_index(turn, history):
-    # 1. Semantic Distance from previous turn (Novelty)
-    novelty = cosine_distance(turn.embedding, history[-1].embedding)
-    
-    # 2. Reference Density (Connection)
-    references = count_references(turn.content, history)
-    
-    # 3. Sentiment Alignment (Consensus)
-    sentiment = analyze_sentiment(turn.content)
-    
-    # CI = (Novelty * Connection) / Friction
-    ci = (novelty * references) / (1 + abs(sentiment.friction))
-    return ci
-```
+1.  **Diverge (Map):**
+    $$ Output_i = LLM(Context, Persona_i) $$
+    *(Run 7 times in parallel)*
 
-*   If $CI < 0.5$: **Stagnation.** Trigger "Objection" prompt.
-*   If $CI > 1.5$: **Chaos.** Trigger "Socratic" stabilization.
-*   If $0.8 < CI < 1.2$: **Synergy.** Harvest immediately.
+2.  **Converge (Reduce):**
+    $$ Score_i = \sum_{j \neq i} Vote(Agent_j, Output_i) $$
+
+3.  **Selection:**
+    $$ SurvivorSet = \{ A_i | Score_i > min(Scores) \} $$
 
 ---
 
-## 5. System Sequence Diagram (The Cycle)
+## 5. System Sequence Diagram (The Burst)
 
-1.  **Initialization:** The `DiningTableManager` seats P1-P5.
-2.  **Debate Loop (Turns 1-5):**
-    *   P1 holds token $\rightarrow$ Generates thought.
-    *   `Harvester` calculates CI.
-    *   Token passes to P2.
-3.  **The Quintic Gate (Turn 5):**
-    *   `Evaluator` runs `rank_agents()`.
-    *   *Result:* "The Mathematician is too abstract." $\rightarrow$ **EVICT**.
-    *   `ReservePool` selects "The Labor Unionist".
-    *   **INJECT** Labor Unionist into Seat P4.
-4.  **Context Folding:**
-    *   Turns 1-5 represent the "Vacuum Tube Era".
-    *   `Summarizer` compresses them into a single node: *"The physical limits of vacuum tubes (P1) forced a capital crisis (P2), resolved by government intervention (P3)."*
-    *   Raw turns are flushed from active memory.
-5.  **Next Epoch:** The cycle repeats with the new agent mix.
+1.  **Initialization:** The `TournamentDirector` loads 7 Agents.
+2.  **The Burst (t=0):**
+    *   Director sends `Task: "Explain the failure of the Babbage Engine"` to all 7 agents.
+    *   **ASYNC WAIT:** 7 Streams generate text.
+3.  **The Review (t=1):**
+    *   Director anonymizes the paragraphs.
+    *   Director sends `Task: "Vote on these 7 paragraphs"` to all agents.
+4.  **The Judgment (t=2):**
+    *   **The Financier** receives 3 votes (Winner).
+    *   **The Cyberneticist** receives 0 votes (Loser).
+    *   **Canonization:** The Financier's paragraph is written to the Book.
+    *   **Elimination:** The Cyberneticist is unloaded. **The Artist** is loaded from Reserve.
+5.  **Next Epoch:** The cycle repeats.
