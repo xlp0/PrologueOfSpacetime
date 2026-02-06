@@ -1,96 +1,108 @@
-# Execution Strategy: "The Brain Factory"
+# Execution Strategy: "The Committee of Truth" (Consensus)
 
-**Status:** Architecture v4.0 (Pedagogical RAG)
+**Status:** Architecture v6.0 (Multi-Agent Consensus)
 **Target Infrastructure:** Prologue of Spacetime / 1.2TB RAM Node
-**Architecture Pattern:** High-Throughput RAG (Retrieval-Augmented Generation)
+**Architecture Pattern:** Synchronous Consensus RAG (Triangulated Generation)
 
 ---
 
 ## 1. Technical Architecture & Stack
 
-The goal is to ingest 2,000+ documents and "manufacture" a structured curriculum. We will use a **Memory-Resident Vector Lake** to allow agents to "read" the entire library instantly.
+To ensure "PhD-level" accuracy from 10,000 documents, we replace the "handoff" model with a **"Unified Committee"** model.
+Every operation is performed by the **Trinity** (Pedagogue, Technologist, Critic) simultaneously. The system acts as the **Chairman**, aggregating their outputs and demanding consensus.
 
-### 1.1 Core Components
+### 1.1 The Committee (Shared Responsibility)
 
-| Component | Technology | Role in the Factory |
+| Role | Core Model | Function in Consensus |
 | :--- | :--- | :--- |
-| **Orchestrator** | **LangChain / AutoGen Hybrid** | **The Factory Foreman**. We use a **Supervisor-Worker** topology. The "Pedagogue" (Supervisor) delegates research tasks to "Technologist" instances (Workers). |
-| **Memory Lake** | **Qdrant (In-Memory)** | **The Library**. We load all 2,000+ documents into Qdrant running in `memory` mode (utilizing the 1.2TB RAM). This eliminates disk latency for retrieval. |
-| **Ingestion** | **Unstructured.io** | **The Shredder**. Parses PDFs, Markdown, and text files into clean chunks for embedding. |
-| **Quality Control** | **Guardrails AI** | **The Inspector**. Validates that output follows the strict JSON schema for curriculum modules (prevents hallucinated citations). |
+| **Role A** | **Llama 3.1 405B** | **Primary Synthesizer**. Adds structural depth and reasoning. |
+| **Role B** | **DeepSeek-V3** | **Primary Retrieval**. Adds technical precision and "needle" finding. |
+| **Role C** | **Claude 3.5 / GPT-4o** | **Primary Auditor**. Checks for logical fallacies and readability. |
 
-### 1.2 System Architecture Diagram (The Assembly Line)
+*Crucially: ALL roles participate in ALL steps.*
+
+### 1.2 System Architecture Diagram (The Conference Table)
 
 ```mermaid
 graph TD
-    subgraph "Raw Material (Ingestion)"
-        Docs[2000+ Documents] -->|Batch Process| Chunker[Unstructured.io]
-        Chunker -->|Embed| VectorRAM[(In-Memory Vector Lake)]
+    subgraph "Step 1: Triangulated Extraction"
+        Query[User Request] -->|Broadcast| Agents[Trinity: Llama + DeepSeek + GPT4]
+        Agents -->|Parallel Search| QdrantRAM[(50GB Vector Lake)]
+        QdrantRAM -->|Results A, B, C| ConvergenceEngine[Fact Intersector]
+        ConvergenceEngine -->|Verified Facts| FactSheet[Consensus Fact Sheet]
     end
 
-    subgraph "The Factory Floor (Agent Trinity)"
-        Pedagogue[The Pedagogue] -->|Request: 'Explain ARPANET'| Technologist[The Technologist]
-        Technologist -->|RAG Query| VectorRAM
-        VectorRAM -->|Retrieved Context| Technologist
-        Technologist -->|Synthesized Facts| Pedagogue
-        Pedagogue -->|Draft Lesson| Critic[The Critic]
-        Critic -->|Feedback: 'Too Complex'| Pedagogue
+    subgraph "Step 2: Competitive Drafting"
+        FactSheet -->|Prompt| Agents
+        Agents -->|Draft A, Draft B, Draft C| RankingEngine[Blind Peer Review]
+        RankingEngine -->|Select Best| Draft[Alpha Draft]
     end
 
-    subgraph "Finished Goods"
-        Pedagogue -->|Commit Module| Output[Curriculum JSON]
-        Output -->|Render| PDF[Lesson Plan PDF]
+    subgraph "Step 3: Unanimous Ratification"
+        Draft -->|Review| Agents
+        Agents -->|Vote| Decision{Is Consensus > 2/3?}
+        Decision -- No -->|Feedback Loop| RankingEngine
+        Decision -- Yes -->|Publish| JSON[Final Curriculum]
     end
 ```
 
 ---
 
-## 2. Ingestion Strategy (The 1.2TB Advantage)
+## 2. Execution Workflows
 
-Most systems struggle with 2,000 documents because they rely on slow disk-based vector DBs. We will use **Brute Force RAM**.
+### 2.1 The "Committee Meeting" Protocol
+This loop runs for every single module generation.
 
-### 2.1 The "Ramdisk" Protocol
-1.  **Boot Phase:**
-    *   Script iterates through `/docs/library`.
-    *   Parses and embeds all files.
-    *   Loads the entire collection into a `Qdrant` collection resident in RAM.
-    *   *Est. Size:* 2,000 docs $\approx$ 10GB Vector Index (trivial for 1.2TB machine).
-2.  **Query Phase:**
-    *   Agents can perform "exhaustive search" (HNSW optimized) with <10ms latency.
+#### Phase 1: The Fact Hunt (Extraction)
+1.  **Chairman:** "Topic is 'Packet Switching'. Agents, search the library."
+2.  **Trinity:** Each runs their own optimized RAG queries (approx 50 queries total).
+3.  **Chairman:** Aggregates results.
+    *   *Fact X found by 3/3 Agents* $\to$ **ACCEPTED**.
+    *   *Fact Y found by 1/3 Agents* $\to$ **REJECTED** (Potential Hallucination).
+
+#### Phase 2: The Outline Debate (Structuring)
+1.  **Chairman:** "Propose a lesson outline based on ACCEPTED facts."
+2.  **Trinity:** Generates 3 outlines.
+3.  **Chairman:** Asks Trinity to vote on the best one (Blind Vote).
+    *   *Result:* Llama 405B's outline wins. It becomes the **Governing Structure**.
+
+#### Phase 3: The Write-a-thon (Drafting)
+1.  **Chairman:** "Write Section 1 using Governing Structure and Accepted Facts."
+2.  **Trinity:** Generates 3 versions of the text.
+    *   *Technologist:* Too technical.
+    *   *Pedagogue:* Good balance.
+    *   *Critic:* Too simple.
+3.  **Chairman:** Selects the "Pedagogue" version but injects "Technologist" citations where missing.
+
+#### Phase 4: The Ratification (Review)
+1.  **Chairman:** "Review the final JSON. Vote PASS/FAIL."
+2.  **Trinity:**
+    *   *Technologist:* PASS.
+    *   *Pedagogue:* PASS.
+    *   *Critic:* FAIL (Citations malformed).
+3.  **Loop:** Chairman requests a fix for citations. Repeat Vote.
+4.  **Success:** Unanimous PASS.
 
 ---
 
-## 3. Data Schema: The Curriculum Module
+## 3. Data Schema: The Verified Artifact
 
-We stop treating output as "chat" and start treating it as "structured data."
+The output includes metadata about the consensus process.
 
 ```json
 {
   "module_id": "MOD-101",
   "title": "Origins of Network Theory",
-  "learning_objectives": [
-    "Define Packet Switching",
-    "Contrast Circuit Switching vs. Packet Switching",
-    "Identify key contributors (Baran, Davies, Roberts)"
-  ],
+  "consensus_metadata": {
+    "participating_models": ["Llama-3.1-405B", "DeepSeek-V3", "GPT-4o"],
+    "fact_agreement_rate": 0.92,
+    "iterations_to_pass": 2
+  },
   "content_blocks": [
     {
       "type": "concept_explanation",
-      "heading": "The Vampire Tap",
-      "text": "Early Ethernet used a physical piercing mechanism...",
-      "citations": ["doc_123.pdf", "doc_099.md"]
-    },
-    {
-      "type": "analogy",
-      "text": "Think of Circuit Switching like a telephone call, and Packet Switching like a postcard system..."
-    }
-  ],
-  "quiz": [
-    {
-      "question": "Which researcher proposed the distributed mesh?",
-      "options": ["Paul Baran", "Vint Cerf", "Tim Berners-Lee"],
-      "correct_answer": "Paul Baran",
-      "source": "doc_44.pdf"
+      "text": "Packet switching decomposed messages...",
+      "verified_by": ["Role A", "Role B", "Role C"]
     }
   ]
 }
@@ -98,36 +110,16 @@ We stop treating output as "chat" and start treating it as "structured data."
 
 ---
 
-## 4. Workflows
+## 4. Development Roadmap
 
-### 4.1 The "Lesson Plan" Workflow
-1.  **User Input:** "Generate a module on the history of TCP/IP."
-2.  **Pedagogue (Architect):** Decomposes topic into sub-concepts: (1) NCR, (2) Packet Switching, (3) IMPs.
-3.  **Technologist (Miner):** Runs parallel RAG queries for each sub-concept.
-    *   `query("NCR 1968")`
-    *   `query("Imp Interface Message Processor specs")`
-4.  **Pedagogue (Writer):** Assembles retrieved facts into the JSON structure.
-5.  **Critic (Inspector):** Scans the JSON.
-    *   *Check:* Are all "learning_objectives" covered in "content_blocks"?
-    *   *Check:* Do all "content_blocks" have valid citations?
-6.  **Finalize:** Save to disk.
+### Phase 1: The "Intersector" (Days 1-2)
+*   **Goal:** Build the logic to find commonality between 3 JSON lists of facts.
+*   **Deliverable:** Python script `intersect_facts(list_a, list_b, list_c) -> list_verified`.
 
-### 4.2 The "Missing Material" Report
-If the Technologist cannot find facts for a requested topic:
-*   It generates a `MISSING_DATA` alert: *"We have no documents covering 'AlohaNet Protocol details'. Please upload relevant PDFs."*
+### Phase 2: The "Voting Booth" (Days 3-4)
+*   **Goal:** Allow agents to read text and output a score (0-10) reliably.
+*   **Deliverable:** Scoring prompt engineering for Llama 405B.
 
----
-
-## 5. Development Roadmap
-
-### Phase 1: Ingestion Engine (Day 1)
-*   **Goal:** Load 2,000 sample docs into Qdrant RAM.
-*   **Deliverable:** `ingest.py` script that handles PDF/MD parsing and embedding without crashing.
-
-### Phase 2: The Trinity (Days 2-3)
-*   **Goal:** Basic Agent Loop.
-*   **Deliverable:** AutoGen config with "Pedagogue", "Technologist", and "Critic" passing messages.
-
-### Phase 3: The Factory (Days 4-5)
-*   **Goal:** End-to-End Generation.
-*   **Deliverable:** Run the system on "Topic X" and get a valid `module.json` out.
+### Phase 3: The Chairman (Days 5+)
+*   **Goal:** Automate the full loop.
+*   **Deliverable:** Main execution loop handling the State Machine of the meeting.
