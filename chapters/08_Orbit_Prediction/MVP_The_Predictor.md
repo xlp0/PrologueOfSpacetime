@@ -40,4 +40,11 @@ The **Brain Factory** runs simulations before physical manufacturing.
 *   **Function**: "Run the factory in Fast-Forward."
 *   **Goal**: Detect bottlenecks before they happen.
 
-> **"Sovereignty is the ability to predict the consequences of your own actions. We simulate to survive."**
+### 4.1 Polynomial Architecture & The Economic Horizon ($P(X) \approx f(x)$)
+In the **Universal Grammar**, The Predictor represents the **Taylor Series Expansion**:
+$$ P(X) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n $$
+*   **The Cost of the Future**: Simulating the future consumes the Energy of the Present.
+*   **The Horizon**: The **Region of Convergence (ROC)** is the point where the cost of calculation exceeds the value of the prediction. Beyond this, we are blind, and we accept it.
+*   **Bounded Rationality**: We do not try to be "Laplace's Demon" (Infinite knowledge). We try to be a "Rational Steersman" (Actionable foresight). We dampen long-term anxiety with **Laplace Damping**.
+
+> **"Sovereignty is not knowing everything; it is knowing enough to make the next move safely."**

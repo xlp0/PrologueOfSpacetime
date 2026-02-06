@@ -40,4 +40,11 @@ The **Historian** ensures the Brain Factory learns from mistakes.
 *   **Logic**: If the factory fails, replay the VCards to find the "Bad Input."
 *   **Sovereignty**: We own our history; no one can edit our logs (Immutable History).
 
-> **"To debug is to exercise power over time. The Sovereign remembers everything."**
+### 4.1 Polynomial Architecture & Historical Compression ($P(X) = H_0 \times X^{\Delta}$)
+In the **Universal Grammar**, The Historian represents the **Series Expansion** of Time:
+$$ P(X) = \text{Genesis} + \sum \text{Event}_i \times X^i $$
+*   **The Cost of History**: Storing every event is infinite. We apply **Boundedness** by "Compressing" history into **Snapshots** (Checkpoints) and **Deltas**.
+*   **Causal Accounting**: We verify the *chain*, not just the *state*.
+*   **Pruning**: Events outside the **Region of Relevance** (Old Logs) are aggressively pruned or archived to "Cold Storage." A Sovereign Brain does not clutter its RAM with the past; it keeps only the **Lesson** (The Compressed Wisdom).
+
+> **"To debug is to exercise power over time. The Sovereign remembers what matters and forgets what is noise."**

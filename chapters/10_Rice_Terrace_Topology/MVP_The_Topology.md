@@ -40,4 +40,11 @@ The **Brain Factory** is a **Mesh Network**.
 *   **Protocol**: **Overlay VPN** (WireGuard + Headscale).
 *   **Grammar**: The IP Addressing Scheme (IPv6) that identifies every Sovereign Node.
 
-> **"A Sovereign Nation must own its wires. The Topology is the physical manifestation of the Social Contract."**
+### 4.1 Polynomial Architecture & Maintenance Costs ($P(X) = M \times X^{\Omega}$)
+In the **Universal Grammar**, The Topology represents the **Manifold**:
+$$ P(X) = \text{LocalAtlas} \to \text{GlobalShape} $$
+*   **The Cost of Connection**: Every link in the Mesh has a "Keep-Alive" cost.
+*   **Sheaf Consistency**: Local truths must "glue" together. If the cost of gluing (Synchronization) exceeds the value of the connection, the Sheaf breaks.
+*   **Bounded Topology**: We design the network to minimize "Long-Distance" links (High Latency/Cost). The **Rice Terrace** works because water flows via gravity (Zero Cost); we aim for the same "Gravity-Fed" information flow.
+
+> **"A Sovereign Nation must own its wires. The Topology is the physical manifestation of the Energy Budget."**

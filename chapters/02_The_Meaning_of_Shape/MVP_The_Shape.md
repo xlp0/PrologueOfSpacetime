@@ -40,8 +40,16 @@ The **Brain Factory** uses Geometry to build **Scale-Free Networks**.
 *   **The Edge**: A verified relationship (Teacher/Peer).
 *   **The Cluster**: A Sovereign Community (School/Village).
 
+### 4.1 Polynomial Architecture & Boundedness ($P(X) = G \times X^T$)
+In the **Universal Grammar**, The Shape represents the Group Action:
+$$ P(X) = \text{Geometry} \times X^{\text{Transform}} $$
+*   **$A$ (Position)**: The **Geometric State** (Grid, Mandala).
+*   **$X^B$ (Direction)**: The **Transformation Group** (Rotation, Scaling, Translation).
+*   **Spatial Boundedness**: Infinite space requires infinite addressing. We strictly define the **Shape** of our network (the Topology) to fit within our **Memory Budget**.
+*   **The Invariant**: Following Klein's **Erlangen Program**, the "Truth" of a Shape is defined by its **Invariants** under transformation. We only deploy geometries whose maintenance cost is invariant (sustainable).
+
 ## 5. Reverse Mathematics Proof
 *   **Theorem**: "We can distribute knowledge without a central bottle-neck."
 *   **Weakest Subsystem**: **WKL₀** (Weak König's Lemma) + **Graph Theory**. We need the ability to navigate binary trees (paths) in a finite space.
 
-> **"The Shape of the network determines the Shape of the society. We build Distributed Geometries to ensure Distributed Power."**
+> **"The Shape of the network determines the Shape of the society. We build Bounded Geometries to ensure Distributed Power."**

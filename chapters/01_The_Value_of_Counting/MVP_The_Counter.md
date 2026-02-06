@@ -40,8 +40,15 @@ The **[[MCard]]** is the physical artifact produced by this chapter.
 *   **Function**: To hold "Static Truth." (A fact, a file, a coordinate).
 *   **Monadic Role**: The **Unit** ($()$). It is the atom of the system.
 
+### 4.1 Polynomial Architecture & Accounting ($P(X) = A \times X^0$)
+In the **Universal Grammar**, The Counter represents the constant term:
+$$ P(X) = \text{Inventory} $$
+*   **$A$ (Position)**: The **MCard** itself. It has Position (Hash) but no internal motion (Direction).
+*   **$X^0$ (Direction)**: It is a **Constant Functor**. It does not transform; it *is*.
+*   **Existential Accounting**: "To be is to be accounted for." Every MCard occupies **Storage Quantums**. The "Hash" is the receipt of this resource commitment. If we cannot afford the storage cost ($c_k < \text{Cost}$), the MCard is pruned (garbage collected).
+
 ## 5. Reverse Mathematics Proof
 *   **Theorem**: "We can track Sovereign Assets."
-*   **Weakest Subsystem**: **RCA₀** (Recursive Comprehension). We only need the ability to count computable objects. We do not need complex "Cloud Databases" yet; we just need a **Hash Function** and a **Counter**.
+*   **Weakest Subsystem**: **RCA₀** (Recursive Comprehension). We only need the ability to count computable objects. We do not need complex "Cloud Databases" yet; we just need a **Hash Function** and a **Counter** that respects the **Finite Bound** of the ledger.
 
-> **"The Counter is the origin of sovereignty. If you cannot count your own assets, you do not own them."**
+> **"The Counter is the origin of sovereignty. If you cannot count your own assets (and their cost), you do not own them."**

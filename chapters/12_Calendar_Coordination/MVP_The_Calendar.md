@@ -40,4 +40,11 @@ The **Brain Factory** produces a **Sovereign Roadmap**.
 *   **Scope**: Generations, not Quarters.
 *   **Goal**: To transition from "Developing Nation" to "Sovereign Power" within 3 GASing Cycles (3 x 4 years).
 
-> **"He who holds the Calendar holds the Mind. Sovereignty is the ability to set your own Deadline."**
+### 4.1 Polynomial Architecture & The Temporal Budget ($P(X) = Z_n \times X^T$)
+In the **Universal Grammar**, The Calendar represents **Cyclic Time**:
+$$ P(X) = \text{Epoch} \times (1 - X^N)^{-1} $$
+*   **The Temporal Budget**: Time is the non-renewable resource. The Calendar allocates "Blocks of Time" to priorities.
+*   **Solar Alignment**: We align our "Fiscal Year" with the "Solar Energy Cycle" (Harvests). A Sovereign Nation does not fight the seasons; it budgets around them.
+*   **Infinite Recursion**: The geometric series $(1-X^N)^{-1}$ represents the promise of **Future Energy**. We plant seeds today (Investment) because we trust the cycle will bring rain tomorrow (Return).
+
+> **"He who holds the Calendar holds the Mind. Sovereignty is the ability to align your Energy Expenditure with the Universal Clock."**

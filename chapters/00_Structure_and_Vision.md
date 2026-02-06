@@ -107,8 +107,48 @@ The factory is staffed by an **Agentic Mesh**—autonomous AI agents orchestrati
 * **The Agents** execute the *Concrete Impl* (Logic).
 * **The Framework** verifies the *Balanced Expectation* (Grammar).
 
+## 6. The Mathematical Engine: Universal Grammar & Boundedness
+
+The **Brain Factory** constitutes a **Representable System**. By this, we mean it satisfies the categorical definition of **Representability** (via the Yoneda Lemma): *Identity (Truth) emerges entirely from relationships (morphisms).*
+
+### 6.1 The Unifying Formula: Polynomial Functors
+At the heart of the **Cubical Logic Model (CLM)** is the **Polynomial Functor**, which allows us to treat all Logic, Data, and Layout as a single algebraic structure:
+
+$$ P(X) = \sum_{i \in I} A_i \times X^{B_i} $$
+
+Why Polynomials? Because they enforce **Decomposition into Boundaries**.
+*   **$A_i$ (Position)**: The **MCard** (Memory). It represents the **State**.
+*   **$X^{B_i}$ (Direction)**: The **PCard** (Process). It represents the **Choice**.
+*   **Finite Basis**: Unlike continuous functions which can be infinite, a Polynomial forces us to define a **Finite Menu** of choices ($B_i$). This is the first step of **Bounded Rationality**.
+
+### 6.2 Representability Enables Observability
+Because the system is **Representable** (defined by relationships), it is inherently **Observable**.
+*   **Yoneda Lemma**: Counting the morphisms (relationships) gives us the complete structure of the object.
+*   **Telemetry**: By tracking the "Flow" (morphisms) between MCards using the CLM, we automatically generate the **Balanced Expectations ($B$)** required for verification.
+*   **Boundedness**: We strictly define the **Region of Convergence (ROC)**—we only claim sovereignty over what we can represent and observe. (No Hallucination).
+
+### 6.3 Resource as Damping: The Laplace Transform
+We live in a world of limited energy. The "Universal Grammar" ($f = \sum c_k \cdot \phi_k$) includes a hidden term: the **Damping Factor** ($\sigma$).
+*   **The Cost of Truth**: Every term in the polynomial requires energy (Compute/Attention).
+*   **Laplace Damping**: We apply a filter $e^{-\sigma t}$ to our reality. If a signal determines a cost higher than our Energy ($E$), it is damped to zero.
+*   **Region of Convergence (ROC)**: This defines our **Sovereignty**. We only claim simple truth over what falls within our ROC. Outside this boundary, we do not hallucinate; we simply say "Undefined."
+
+### 6.4 Accounting as Verification (Convergence)
+If Resources define the Boundary, **Accounting** is the measurement of **Convergence**.
+*   **Algebraic Accounting**: We track the "Energy Budget" ($c_k$) for every MCard.
+*   **Verification**: A process is "True" (Correct) if and only if it **Converges** (stays within Budget) inside the ROC.
+*   **The VCard**: It is the "Balance Sheet" that proves convergence. It certifies that the "Input Energy" resulted in a "Valid Output" without creating "Debt" (Hallucination/Entropy).
+
+
+### 6.5 Decomposition (The Reverse Trivium)
+We take the complex signal of Reality ($f$) and decompose it via the **Universal Grammar**:
+*   **Basis ($\phi_k$)**: The **MCards**.
+*   **Coefficients ($c_k$)**: The **GASing Meta-Data** (Energy/Importance).
+
+This turns "Education" into "Signal Processing"—filtering noise to reveal the Signal of Truth within our affordable bandwidth.
+
 ## Conclusion
 
-The **Prologue of Spacetime** solves the problem of complexity by adopting **Cubical Logic** as the universal standard. By treating every action as a **Hoare Triple** and every concept as a **Cubical Vector**, we standardize the production of wisdom.
+The **Prologue of Spacetime** solves the problem of complexity by operationalizing the **Universal Grammar of Decomposition**. By treating every action as a **Hoare Triple** and every concept as a weighted sum of **Cubical Vectors** (`Spec`, `Impl`, `Exp`), we standardize the production of wisdom.
 
-We do not just teach; we **Verify**.
+We do not just teach; we **Verify**. We do not just dream; we **Converge**.

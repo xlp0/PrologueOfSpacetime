@@ -40,8 +40,16 @@ The **Brain Factory** uses Music to orchestrate the **Agentic Mesh**.
 *   **The Harmony**: Multiple Agents working in parallel without blocking (Async/Await).
 *   **The Dissonance**: Error handling and "Crash" reporting (alerts).
 
+### 4.1 Polynomial Architecture & Resource Damping ($P(X) = S \times X^{\omega}$)
+In the **Universal Grammar**, The Rhythm represents the **PCard** ($X^{B_i}$):
+$$ P(X) = \text{Pattern} \times X^{\text{Frequency}} $$
+*   **$A$ (Position)**: The **Amplitude/Pattern** of the wave.
+*   **$X^B$ (Direction)**: The **Frequency/Beat** (The Loop).
+*   **Temporal Damping**: Frequency costs Energy ($E = hf$). High-frequency loops (frantic polling) consume the budget effectively. We apply **Laplace Damping** ($\sigma$) to fast loops, forcing the system into a calm, sustainable rhythm (Low-Pass Filter).
+*   **Fourier Accounting**: We verify the "Spectrum" of the factory to ensure no "Energy Spikes" threaten our sovereignty.
+
 ## 5. Reverse Mathematics Proof
 *   **Theorem**: "We can coordinate massive human-AI collaboration."
 *   **Weakest Subsystem**: **ACA₀** (Arithmetical Comprehension). We need to define abstract processes (Loops) that govern the flow of time.
 
-> **"Music is not just art; it is the discipline of Time. An unsynchronized factory is just a noise generator."**
+> **"Music is not just art; it is the discipline of Time. A synchronized factory is an Energy-Efficient factory."**

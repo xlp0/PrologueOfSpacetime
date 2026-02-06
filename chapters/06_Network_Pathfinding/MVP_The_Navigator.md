@@ -40,4 +40,11 @@ In the **Brain Factory**, knowledge must move.
 *   **Router**: Finds the trusted path through the **Overlay VPN**.
 *   **Result**: Peer-to-Peer transfer without relying on central "Highways."
 
-> **"The Navigator turns 'Distance' into 'Latency'. A well-routed network is a hyper-connected brain."**
+### 4.1 Polynomial Architecture & Impedance Matching ($P(X) = G \times X^{\pi}$)
+In the **Universal Grammar**, The Navigator represents the **Composition** of Morphisms:
+$$ P(X) = \text{Network} \times X^{\text{Traverse}} $$
+*   **Path Energy**: Moving data is not free. $Cost = \text{Distance} \times \text{Bandwidth}$.
+*   **Impedance Matching**: A route is only valid if the "Sender's Output" matches the "Receiver's Input Capacity" (Boundedness).
+*   **Digital Synesthesia**: We map "Latency" to "Friction" and "Bandwidth" to "Width." The Navigator avoids "High Friction" paths to conserve the system's total Energy.
+
+> **"The Navigator turns 'Distance' into 'Latency'. A well-routed network is a hyper-connected brain that conserves its calories."**

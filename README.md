@@ -89,18 +89,43 @@ This repository serves as a specialized **Project Workspace** for the **Prologue
 *   Relatedness is measured by **Cosine Similarity**.
 *   **Consensus** is achieved via **Pre-Established Harmony** (Vector Alignment), not negotiation.
 
-### 2. Content-Addressable Handles
+### 9. Development Status & Updates
+*   **[2026-02-06: The Polynomial Architecture Update](docs/Update_History/2026-02-06_Polynomial_Architecture.md)**: A major refactor integrating Boundedness, Laplace Damping, and Economic Accounting into the core MVP logic.
+*   **[2026-01-26: Initial Release](docs/Update_History/2026-01-26_Initial_Release.md)**: The launch of the Prologue of Spacetime vision.
+
+### 2. The Universal Grammar (Polynomial Functors)
+The project operationalizes the **[Universal Grammar of Decomposition](docs/WorkingNotes/Hub/Theory/Integration/The%20Universal%20Grammar%20of%20Decomposition.md)** via **Polynomial Functors**:
+$$ P(X) = \sum A_i \times X^{B_i} $$
+*   **$A_i$ (Position)**: The **MCard** (Abstract Spec / Memory).
+*   **$X^{B_i}$ (Direction)**: The **PCard** (Concrete Impl / Process).
+*   **Boundedness**: We respect the **Region of Convergence (ROC)**. Resources ($c_k$) act as the **Laplace Damping** factor. If you cannot afford the verification cost, the truth is "Undefined."
+
+### 3. Accounting as Verification
+*   **Algebraic Accounting** is not just about money; it is about **Energy Conservation**.
+*   A **VCard** is a "Balance Sheet" that proves a computation **Converged** within its Energy Budget.
+*   **Sovereignty** = The ability to audit your own Energy inputs and outputs.
+
+### 4. Representability Enables Observability
+*   Because the system is **Representable** (via the **Yoneda Lemma**), identifying truth through relationships, it is inherently **Observable**.
+*   **Telemetry** is the "Accounting Ledger" of these relationships.
+
+### 5. Monad-Polynomial Duality
+*   **Invariant Container (Monad)**: The Runtime (PTR) that enforces Safety and Context.
+*   **Variant Content (Polynomial)**: The MVP Cards that hold Data and Logic.
+*   This duality ensures **Systematic Compression**, allowing us to represent infinite complexity compactly within finite resources.
+
+### 6. Content-Addressable Handles
 *   Every asset has a **unique identifier**.
 *   The fallback is always the **SHA-3 Content Hash**.
-*   This guarantees **Experimental-Operational Symmetry (EOS)**: the same hash in development is the same behavior in production.
+*   This guarantees **Experimental-Operational Symmetry (EOS)**.
 
-### 3. Sovereign Operational Networks (SON)
-*   The story demonstrates that true sovereignty comes from owning the **decision-making intelligence** (The "Maxwell's Demon") of the network.
-*   The CLM ensures that this intelligence is **verifiable** and **auditable**.
+### 7. Sovereign Operational Networks (SON)
+*   The story demonstrates that true sovereignty comes from owning the **decision-making intelligence** (The "Maxwell's Demon").
+*   The CLM ensures that this intelligence is **verifiable** via Conscientious Accounting.
 
-### 4. Digital Synesthesia
+### 8. Digital Synesthesia
 *   The CLM enables **Digital Synesthesia**—mapping abstract data (`Spec`) into sensory experience (`Exp`).
-*   Students "feel" the correctness of a system rather than just reading logs.
+*   Students "feel" the correctness of a system via the **Rhythm of Convergence**.
 
 ---
 

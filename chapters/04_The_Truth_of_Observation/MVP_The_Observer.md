@@ -40,8 +40,16 @@ The **[[VCard]]** is the "Diploma" or "Certificate" of the Brain Factory.
 *   **Result**: What was produced? (MCard Hash).
 *   **Signature**: Who verified it? (Teacher/Oracle Signature).
 
+### 4.1 Representability & The Cost of Truth ($P(X) = \text{Truth}$)
+In the **Universal Grammar**, The Observer represents the **Evaluation** ($P(X)$):
+$$ P(X) = \sum \text{Witnesses} $$
+*   **Yoneda Lemma**: An object is completely determined by its relationships.
+*   **The Cost of Observation**: "True Identity" is expensive to calculate. Every Witness ($VCard$) requires compute.
+*   **Balanced Accountability**: We limit observation to the **Region of Convergence**. We do not verify everything; we verify only what is critical to Sovereignty.
+*   **The VCard**: It is the **Receipt**. It proves that the resource cost of verification was paid and the result converged (no hallucination).
+
 ## 5. Reverse Mathematics Proof
 *   **Theorem**: "We can trust distributed work."
-*   **Weakest Subsystem**: **$\Pi^1_1$-CA₀** (Strong Comprehension). We need the ability to verify properties of arbitrary structures (Universal Verification). Note: In practice, we optimize this down to simple **Hash Verification** (RCA₀) for efficiency.
+*   **Weakest Subsystem**: **$\Pi^1_1$-CA₀** (Strong Comprehension). We need the ability to verify properties of arbitrary structures. In practice, we optimize this down to simple **Hash Verification** (RCA₀) to keep the "Truth Budget" low.
 
-> **"The Observer implies the Observed. Sovereignty is the ability to Observationally Verify your own reality."**
+> **"The Observer implies the Observed. Sovereignty is the ability to Pay for the Verification of your own reality."**

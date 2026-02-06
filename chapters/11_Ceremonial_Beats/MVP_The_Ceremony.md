@@ -39,6 +39,13 @@ The **Brain Factory** runs on **Pipelines**.
 *   **The Daily Standup**: A synchronization ritual.
 *   **The Build Script**: A compilation ritual.
 *   **The Deployment**: A release ritual.
-*   **Sovereignty**: We write our own Rituals; we do not just copy the "Agile Manifesto" blindly.
+*   **Sovereignty**: We write our own Rituals; we do not accept the "Agile Manifesto" blindly.
 
-> **"Discipline is freedom. The Protocol liberates the mind from the anxiety of 'What next?'"**
+### 4.1 Polynomial Architecture & The Ritual Economy ($P(X) = S \times X^{\sigma}$)
+In the **Universal Grammar**, The Ceremony represents the **Finite State Automaton**:
+$$ P(X) = \text{States} \times X^{\text{Transitions}} $$
+*   **Ritual as Efficiency**: "Thinking" is expensive. "Habit" is cheap. We invest energy to turn complex decisions into **O(1) Rituals**.
+*   **The Liturgy**: A highly formalized Polynomial that has been replaying for 2,000 years. Its stability comes from its "Low Energy State"—it requires no negotiation, only execution.
+*   **Bounded Transitions**: We limit the number of allowable states to ensure the "State Machine" fits in the brain's RAM. Complexity is the enemy of Sovereignty.
+
+> **"Discipline is freedom. The Protocol liberates the mind from the energy cost of deciding 'What next?'"**

@@ -40,4 +40,11 @@ The **Allocator** is implemented as a Sovereign Agent.
 *   **Policy**: "Local First." Prefer local GPU ($0 cost) over Cloud GPU ($ cost).
 *   **Outcome**: Maximum Sovereignty per Watt.
 
-> **"A Sovereign brain does not waste energy. Efficient allocation is the proof of mastery."**
+### 4.1 Polynomial Architecture & Laplace Damping ($P(X) \le E$)
+In the **Universal Grammar**, The Allocator applies the **Transform**:
+$$ \mathscr{L}\{f(t)\} = \int f(t) e^{-\sigma t} $$
+*   **The Sigma ($\sigma$)**: This is the **Resource Cost**. Every MCard and PCard has a "Tax".
+*   **Boundedness (ROC)**: Truth is expensive. We only claim as "True" what fits within our Energy Budget. If $Cost > Budget$, the probability of that future is damped to Zero.
+*   **Rationality**: This implements **Bounded Rationality**. We do not optimize for the "Best Possible World" (Infinite Compute); we optimize for the "Best Affordable World" within our ROC.
+
+> **"A Sovereign brain does not waste energy. To Allocate is to draw the boundary between the Possible and the Real."**

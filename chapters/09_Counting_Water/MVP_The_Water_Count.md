@@ -40,4 +40,13 @@ The **Brain Factory** enforces strict typing.
 *   **Role**: Ensures that an "Agent Skill" printed in Jakarta works in Papua.
 *   **Sovereignty**: We define our own Types; we do not accept the "API of the Colonizer" blindly.
 
-> **"If you define the Schema, you define the Reality. Sovereignty is the right to define your own Types."**
+### 4.1 Polynomial Architecture & The Type Economy ($P(X) = \Sigma \times \Pi$)
+In the **Universal Grammar**, The Schema defines the **Term Algebra**:
+$$ P(X) = \text{SumTypes} + \text{ProductTypes} $$
+*   **Types as Budgets**: A Schema is not just a shape; it is a **Cost Constraint**.
+    *   **Int8**: "I dedicate 8 bits of energy to this truth."
+    *   **String**: "I dedicate variable energy (bounded by MAX_LEN)."
+*   **Bounded Inputs**: The Schema rejects "Unbounded" inputs (Infinite Loops, overflows) at the gate. It is the **Customs Officer** of the Region of Convergence.
+*   **Curry-Howard Economics**: A Type is a Promise; a Program is the Payment.
+
+> **"If you define the Schema, you define the Cost Structure. Sovereignty is the right to reject data you cannot afford to process."**
