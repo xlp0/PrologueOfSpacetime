@@ -31,7 +31,7 @@ graph TD
         Query[User Request] -->|Broadcast| Quorum[Llama 405B, DeepSeek 671B, Nemotron 340B, Opus, GPT-4o]
         Quorum -->|Parallel Search| QdrantRAM[(50GB Vector Lake)]
         QdrantRAM -->|Results x5| ConvergenceEngine[Fact Intersector]
-        ConvergenceEngine -->|Verified Facts| FactSheet[Consensus Fact Sheet (3+ votes)]
+        ConvergenceEngine -->|Verified Facts| FactSheet["Consensus Fact Sheet (3+ votes)"]
     end
 
     subgraph "Step 2: Competitive Drafting"
