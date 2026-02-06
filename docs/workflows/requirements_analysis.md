@@ -1,98 +1,85 @@
 # Requirement Analysis: "The Brain Factory" Curriculum Engine
 
-**Version:** 6.0 (Committee of Truth Consensus)
+**Version:** 7.0 (The Quorum of Five)
 **Architect:** System Architect / Educational Theorist
 **Domain:** Automated Curriculum Design / Knowledge Synthesis
 
 ---
 
-## 1. System Overview & The "Committee" Metaphor
+## 1. System Overview & The "Quorum" Metaphor
 
-The system rejects the "Assembly Line" where work is handed off. Instead, we implement a **"Committee of Truth"**.
-Every distinct phase of generation (Extraction, Structuring, Writing, Reviewing) is performed **simultaneously by all 3 agents**. They must achieve consensus before the artifact moves to the next stage.
-
-**Why?** To eliminate hallucinations. If the *Technologist* hallucinates a fact, the *Pedagogue* and *Critic* will catch it during the consensus check.
+The system implements a **"Quorum of Truth"** protocol.
+To ensure robustness and avoid "model monoculture" bias, every phase of generation is performed **simultaneously by 5 distinct SOTA models**.
+They must achieve a super-majority (3/5) consensus before any artifact moves to the next stage.
 
 ---
 
 ## 2. Axiomatic Constraints (Immutable Laws)
 
-### Axiom I: The Law of Triangulation
-$$ Truth(F) \iff \exists \{A_1, A_2\} \in Agents : Verify(A_1, F) \land Verify(A_2, F) $$
-*   **Constraint:** No fact ($F$) is accepted into the curriculum unless at least **two independent agents** verify its existence in the source text.
-*   **Rationale:** Single-agent hallucinations are common. Multi-agent hallucinations are statistically rare.
+### Axiom I: The Law of Quintic Consensus
+$$ Truth(F) \iff \sum_{i=1}^{5} Verify(Agent_i, F) \ge 3 $$
+*   **Constraint:** No fact is accepted unless verified by at least **3 independent agents** utilizing distinct model architectures.
+*   **Rationale:** Preventing "echo chambers" where similar models hallucinate the same error.
 
-### Axiom II: The Law of Pedagogical Clarity
-$$ Clarity(Lesson) > Threshold_{comprehension} $$
-*   **Constraint:** All output MUST be formatted as structured learning materials. Complex topics must be approved by the **Critic** as "Teachable".
+### Axiom II: The Law of Cognitive Diversity
+*   **Constraint:** The Quorum MUST consist of models with fundamentally different training distributions or architectures (e.g., MoE vs. Dense, Different Labs).
 
 ### Axiom III: The Law of Model Capability
-*   **Constraint:** The Committee MUST utilize **High-Parameter Models** (Llama 3.1 405B, DeepSeek-V3) for all consensus steps.
-*   **Constraint:** Agents must share the 1.2TB RAM context to validate each other's work without re-ingesting data.
+*   **Constraint:** All agents must run on High-Parameter/High-Reasoning models.
 
 ---
 
 ## 3. Functional Requirements (FR)
 
-### 3.1 The Committee Roles (The Peers)
-Roles utilize specific models but share the workload.
+### 3.1 The Quorum Roles (The Council)
+All agents perform all tasks, but bring different "cognitive biases" to the table.
 
-| Role | Responsibility | Target Model |
-| :--- | :--- | :--- |
-| **The Technologist** | **Proposal Generator**. Suggests facts, structures, and quiz questions. | **DeepSeek-V3** |
-| **The Pedagogue** | **Proposal Generator**. Suggests facts, structures, and quiz questions. | **Llama 3.1 405B** |
-| **The Critic** | **Proposal Generator**. Suggests facts, structures, and quiz questions. | **Claude 3.5 / GPT-4o** |
-
-*> Note: All agents perform ALL tasks. The 'Role' mainly defines their personality/prompt bias during the debate.*
+| Seat | Model | Parameter Count | Cognitive Bias |
+| :--- | :--- | :--- | :--- |
+| **Agent A** | **Llama 3.1 405B** | 405B | **Synthesis**. Grand unifying theory and structure. |
+| **Agent B** | **DeepSeek-V3** | 671B (MoE) | **Retrieval**. Technical precision and code. |
+| **Agent C** | **Qwen 2.5 72B** | 72B | **Logic**. Mathematical rigor and exactness. |
+| **Agent D** | **Mixtral 8x22B** | 141B (MoE) | **Context**. Long-range dependency tracking. |
+| **Agent E** | **Command R+** | 104B | **Citation**. RAG-optimized verification. |
 
 ### 3.2 Joint Execution Workflow
-**FR-01 (Joint Extraction):** All 3 agents query the vector database independently. The system computes the **Intersection Set** of their findings.
-**FR-02 (Joint Drafting):** All 3 agents draft the lesson text. The system selects the version with the highest **Comprehension Score** (or merges them).
-**FR-03 (Joint Review):** All 3 agents review the final artifact. It is only released if `Unanimous_Vote == True`.
+**FR-01 (Quorum Extraction):** All 5 agents query the vector database. The system computes the intersection of 5 sets of facts. Only facts found by $\ge 3$ agents are kept.
+**FR-02 (Quorum Drafting):** All 5 agents draft the lesson text. The system selects the "Centroid" draft (closest to the average embedding of all 5).
+**FR-03 (Quorum Review):** All 5 agents vote PASS/FAIL. Consensus threshold is 3/5.
 
 ### 3.3 The Output Schema (The Product)
-**FR-04:** The final output is NOT a chat log. It is a **Verified Curriculum Artifact** (JSON/Markdown) containing:
+**FR-04:** The final Verified Curriculum Artifact contains:
 1.  **Module Title**
-2.  **Learning Objectives** (Consensus-Approved)
+2.  **Consensus Metadata** (Vote tallies per section)
 3.  **Core Content** (Triangulated Facts)
 4.  **Verification Exercises** (Peer-Reviewed Quizzes)
 
 ---
 
-## 4. Mathematical Logic: The Consensus Threshold
+## 4. Mathematical Logic: The Super-Majority
 
 ```python
-def check_consensus(proposals):
-    # Cluster proposals by semantic similarity
-    clusters = cluster_vectors(proposals)
-    
-    # Identify the 'Majority View'
-    dominant_cluster = max(clusters, key=len)
-    
-    # If majority < 66% (2/3 agents), Trigger Debate Loop
-    if len(dominant_cluster) < 2:
-        return trigger_debate(proposals)
-    
-    return synthesis(dominant_cluster)
+def check_quorum(votes):
+    # votes = [True, True, False, True, False]
+    yeas = sum(votes)
+    return yeas >= 3
 ```
 
 ---
 
-## 5. System Sequence Diagram (The Committee Meeting)
+## 5. System Sequence Diagram (The Council Meeting)
 
 1.  **Ingest (t=0):**
     *   Load 10k docs to RAM.
-2.  **Phase A: Fact Finding (Parallel):**
-    *   **Technologist:** Finds 50 facts.
-    *   **Pedagogue:** Finds 45 facts.
-    *   **Critic:** Finds 48 facts.
-    *   **System:** Merges to keep the 42 facts found by everyone.
-3.  **Phase B: Structuring (Parallel):**
-    *   All 3 agents propose an outline.
-    *   **Vote:** Agents vote on the best outline. (Winner: Pedagogue's Outline).
-4.  **Phase C: Writing (Parallel):**
-    *   All 3 agents write the content for "Section 1" using the verified facts.
-    *   **Synthesis:** The best paragraph from each is combined.
-5.  **Phase D: Final Sign-off:**
-    *   Agents cast a simple `YES/NO` vote on the final JSON.
-    *   If 3/3 YES -> **Visualize**.
+2.  **Phase A: Fact Hunt (5-Way):**
+    *   Agents A-E run RAG queries.
+    *   **Intersection:** System keeps facts found by {A,B,C}, {A,D,E}, etc.
+3.  **Phase B: Structuring (5-Way):**
+    *   Agents A-E propose outlines.
+    *   **Vote:** Agents rank the 5 outlines. Winner is selected.
+4.  **Phase C: Writing (5-Way):**
+    *   Agents A-E write the content.
+    *   **Synthesis:** Best sections are merged.
+5.  **Phase D: Final Vote:**
+    *   Agents cast `YES/NO` on final JSON.
+    *   If 3/5 YES -> **Visualize**.

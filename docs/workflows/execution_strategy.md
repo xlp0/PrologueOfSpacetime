@@ -1,46 +1,46 @@
-# Execution Strategy: "The Committee of Truth" (Consensus)
+# Execution Strategy: "The Quorum of Five" (Consensus)
 
-**Status:** Architecture v6.0 (Multi-Agent Consensus)
+**Status:** Architecture v7.0 (5-Agent Quorum)
 **Target Infrastructure:** Prologue of Spacetime / 1.2TB RAM Node
-**Architecture Pattern:** Synchronous Consensus RAG (Triangulated Generation)
+**Architecture Pattern:** Synchronous Consensus RAG (Quintic Validation)
 
 ---
 
 ## 1. Technical Architecture & Stack
 
-To ensure "PhD-level" accuracy from 10,000 documents, we replace the "handoff" model with a **"Unified Committee"** model.
-Every operation is performed by the **Trinity** (Pedagogue, Technologist, Critic) simultaneously. The system acts as the **Chairman**, aggregating their outputs and demanding consensus.
+To ensure "PhD-level" accuracy from 10,000 documents, we implement a **"Quorum of Truth"**.
+Every operation is performed by **5 Distinct High-Parameter Models** simultaneously. The system acts as the **Chairman**, aggregating their outputs and demanding a super-majority (3/5).
 
-### 1.1 The Committee (Shared Responsibility)
+### 1.1 The Quorum (Cognitive Diversity)
 
-| Role | Core Model | Function in Consensus |
+| Seat | Model Specification | Cognitive Specialization |
 | :--- | :--- | :--- |
-| **Role A** | **Llama 3.1 405B** | **Primary Synthesizer**. Adds structural depth and reasoning. |
-| **Role B** | **DeepSeek-V3** | **Primary Retrieval**. Adds technical precision and "needle" finding. |
-| **Role C** | **Claude 3.5 / GPT-4o** | **Primary Auditor**. Checks for logical fallacies and readability. |
+| **Agent A** | **Llama 3.1 405B** | **Synthesis**. The "Chair". Best at weaving disparate facts into coherent narratives. |
+| **Agent B** | **DeepSeek-V3** | **Technical**. Best at code analysis and finding "needle in haystack" technical specs. |
+| **Agent C** | **Qwen 2.5 72B** | **Logic**. Strict mathematical and logical reasoning. Ensures axiomatic consistency. |
+| **Agent D** | **Mixtral 8x22B** | **Context**. Excellent at handling long-context dependencies across chapters. |
+| **Agent E** | **Command R+** | **Citation**. Optimized specifically for RAG and citation verification. |
 
-*Crucially: ALL roles participate in ALL steps.*
-
-### 1.2 System Architecture Diagram (The Conference Table)
+### 1.2 System Architecture Diagram (The Council)
 
 ```mermaid
 graph TD
-    subgraph "Step 1: Triangulated Extraction"
-        Query[User Request] -->|Broadcast| Agents[Trinity: Llama + DeepSeek + GPT4]
-        Agents -->|Parallel Search| QdrantRAM[(50GB Vector Lake)]
-        QdrantRAM -->|Results A, B, C| ConvergenceEngine[Fact Intersector]
-        ConvergenceEngine -->|Verified Facts| FactSheet[Consensus Fact Sheet]
+    subgraph "Step 1: Quintic Extraction"
+        Query[User Request] -->|Broadcast| Quorum[Agents A, B, C, D, E]
+        Quorum -->|Parallel Search| QdrantRAM[(50GB Vector Lake)]
+        QdrantRAM -->|Results x5| ConvergenceEngine[Fact Intersector]
+        ConvergenceEngine -->|Verified Facts| FactSheet[Consensus Fact Sheet (3+ votes)]
     end
 
     subgraph "Step 2: Competitive Drafting"
-        FactSheet -->|Prompt| Agents
-        Agents -->|Draft A, Draft B, Draft C| RankingEngine[Blind Peer Review]
-        RankingEngine -->|Select Best| Draft[Alpha Draft]
+        FactSheet -->|Prompt| Quorum
+        Quorum -->|Draft A..E| RankingEngine[Blind Peer Review]
+        RankingEngine -->|Vote Matrix| BestDraft[Selected Alpha Draft]
     end
 
-    subgraph "Step 3: Unanimous Ratification"
-        Draft -->|Review| Agents
-        Agents -->|Vote| Decision{Is Consensus > 2/3?}
+    subgraph "Step 3: Ratification"
+        BestDraft -->|Review| Quorum
+        Quorum -->|Vote| Decision{Yeas >= 3?}
         Decision -- No -->|Feedback Loop| RankingEngine
         Decision -- Yes -->|Publish| JSON[Final Curriculum]
     end
@@ -50,59 +50,54 @@ graph TD
 
 ## 2. Execution Workflows
 
-### 2.1 The "Committee Meeting" Protocol
-This loop runs for every single module generation.
+### 2.1 The "Council Request" Protocol
 
 #### Phase 1: The Fact Hunt (Extraction)
 1.  **Chairman:** "Topic is 'Packet Switching'. Agents, search the library."
-2.  **Trinity:** Each runs their own optimized RAG queries (approx 50 queries total).
+2.  **Quorum:** 5 Search streams execute parallel queries.
 3.  **Chairman:** Aggregates results.
-    *   *Fact X found by 3/3 Agents* $\to$ **ACCEPTED**.
-    *   *Fact Y found by 1/3 Agents* $\to$ **REJECTED** (Potential Hallucination).
+    *   *Fact:* "Baran published On Distributed Communications in 1964."
+    *   *Verification:* Found by {A, B, D, E}.
+    *   *Result:* **ACCEPTED (4/5)**.
 
 #### Phase 2: The Outline Debate (Structuring)
-1.  **Chairman:** "Propose a lesson outline based on ACCEPTED facts."
-2.  **Trinity:** Generates 3 outlines.
-3.  **Chairman:** Asks Trinity to vote on the best one (Blind Vote).
-    *   *Result:* Llama 405B's outline wins. It becomes the **Governing Structure**.
+1.  **Chairman:** "Propose a lesson outline."
+2.  **Quorum:** 5 Outlines generated.
+3.  **Vote:** "Rank these 5 outlines."
+    *   *Result:* Agent A (Llama 405B) wins with 4 votes.
 
 #### Phase 3: The Write-a-thon (Drafting)
-1.  **Chairman:** "Write Section 1 using Governing Structure and Accepted Facts."
-2.  **Trinity:** Generates 3 versions of the text.
-    *   *Technologist:* Too technical.
-    *   *Pedagogue:* Good balance.
-    *   *Critic:* Too simple.
-3.  **Chairman:** Selects the "Pedagogue" version but injects "Technologist" citations where missing.
+1.  **Chairman:** "Write Section 1 using Outline A."
+2.  **Quorum:** 5 Drafts generated.
+    *   *Synthesis:* The Chairman takes the structure of A, the technical details of B, and the citations of E.
 
 #### Phase 4: The Ratification (Review)
-1.  **Chairman:** "Review the final JSON. Vote PASS/FAIL."
-2.  **Trinity:**
-    *   *Technologist:* PASS.
-    *   *Pedagogue:* PASS.
-    *   *Critic:* FAIL (Citations malformed).
-3.  **Loop:** Chairman requests a fix for citations. Repeat Vote.
-4.  **Success:** Unanimous PASS.
+1.  **Chairman:** "Review final JSON. Vote PASS/FAIL."
+2.  **Quorum:**
+    *   A: PASS
+    *   B: PASS
+    *   C: FAIL (Logic error in quiz)
+    *   D: PASS
+    *   E: PASS
+3.  **Result:** 4/5 PASS. **PUBLISH**.
 
 ---
 
 ## 3. Data Schema: The Verified Artifact
-
-The output includes metadata about the consensus process.
 
 ```json
 {
   "module_id": "MOD-101",
   "title": "Origins of Network Theory",
   "consensus_metadata": {
-    "participating_models": ["Llama-3.1-405B", "DeepSeek-V3", "GPT-4o"],
-    "fact_agreement_rate": 0.92,
-    "iterations_to_pass": 2
+    "quorum_agreement": 0.80,
+    "votes": {"A": true, "B": true, "C": false, "D": true, "E": true}
   },
   "content_blocks": [
     {
       "type": "concept_explanation",
       "text": "Packet switching decomposed messages...",
-      "verified_by": ["Role A", "Role B", "Role C"]
+      "verified_by": ["Llama-405B", "DeepSeek-V3", "Mixtral-8x22B", "Command-R+"]
     }
   ]
 }
@@ -112,14 +107,14 @@ The output includes metadata about the consensus process.
 
 ## 4. Development Roadmap
 
-### Phase 1: The "Intersector" (Days 1-2)
-*   **Goal:** Build the logic to find commonality between 3 JSON lists of facts.
-*   **Deliverable:** Python script `intersect_facts(list_a, list_b, list_c) -> list_verified`.
+### Phase 1: The "Pentagon" (Days 1-2)
+*   **Goal:** Serve 5 models simultaneously.
+*   **Deliverable:** `vllm serve --model llama-405b` + API connectors for others.
 
-### Phase 2: The "Voting Booth" (Days 3-4)
-*   **Goal:** Allow agents to read text and output a score (0-10) reliably.
-*   **Deliverable:** Scoring prompt engineering for Llama 405B.
+### Phase 2: The "Vote Counter" (Days 3-4)
+*   **Goal:** Logic to tallied votes from 5 sources.
+*   **Deliverable:** `vote_aggregator.py`.
 
 ### Phase 3: The Chairman (Days 5+)
-*   **Goal:** Automate the full loop.
-*   **Deliverable:** Main execution loop handling the State Machine of the meeting.
+*   **Goal:** End-to-end loop.
+*   **Deliverable:** 5 agents generating a validated module.
