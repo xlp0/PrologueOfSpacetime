@@ -76,6 +76,53 @@ Each chapter produces an **MVP Card** that is indexed into the CLM:
 
 ---
 
+## 🏛 The Social Dimension: Lessig's Four Modalities as Space/Time Boundaries
+
+The Quadrivium gives us the **physical** axes of Space and Time. But the **Prologue of Spacetime** is also a social system—a Brain Factory where humans coordinate. How are **social** boundaries organized?
+
+**Lawrence Lessig's Four Modalities of Regulation** (from *Code v2*) provide the answer. Lessig identified four forces that constrain human behavior: **Law**, **Norms**, **Market**, and **Architecture (Code)**. These four modalities decompose along the same two axes that organize the Quadrivium:
+
+| | **Space (Near / Far)** | **Time (Before / After)** |
+| :--- | :--- | :--- |
+| **Near × Before** | **Architecture (Code)** — Prevents at source | Proactive, structural |
+| **Near × After** | **Law** — Punishes after violation | Reactive, direct |
+| **Far × Before** | **Norms** — Shapes expectations | Proactive, cultural |
+| **Far × After** | **Market** — Adjusts via prices | Reactive, distributed |
+
+```
+                        ╭─────────────╮
+                        │   MARKET    │
+                        │ Far × After │
+                        ╰──────┬──────╯
+                               │
+                               ▼
+  ╭───────────────╮      ╭────────────╮      ╭─────────────╮
+  │ ARCHITECTURE  │      │            │      │     LAW     │
+  │ Near × Before │─────▶│     ●      │◀─────│ Near × After│
+  │ (West Coast)  │      │            │      │(East Coast) │
+  ╰───────────────╯      ╰────────────╯      ╰─────────────╯
+                               ▲
+                               │
+                        ╭──────┴──────╮
+                        │    NORMS    │
+                        │ Far × Before│
+                        ╰─────────────╯
+```
+
+> *Lessig's "pathetic dot": the regulated individual sits at the center, constrained by all four forces simultaneously — each force occupying a distinct position in the Space × Time quadrant.*
+
+### Why This Matters for the Prologue
+
+This reveals that the Quadrivium's **Geometry (Space)** and **Music (Time)** are not merely physical concepts—they are the **same axes** that organize all social regulation:
+
+- **Geometry (Space) → Near/Far**: How *directly* does a constraint touch you? Architecture is a wall you cannot walk through; Market is a price signal from a distant exchange.
+- **Music (Time) → Before/After**: *When* does regulation act? Norms shape you before you act (socialization); Law judges you after you act (enforcement).
+- **Astronomy (Spacetime) → Full Governance**: Complete governance requires *both* axes simultaneously, just as Astronomy composes Space and Time into orbital dynamics.
+
+> **The Deep Insight**: *Regulation is the social manifestation of Space/Time boundaries.* The choice of how to govern is isomorphic to the choice of where to draw boundaries in Space and Time—the same boundaries the Quadrivium teaches us to reason about mathematically.
+
+---
+
 ## 🤖 CodeWiki Workspace
 
 This repository serves as a specialized **Project Workspace** for the **Prologue of Spacetime**, designed for collaboration with **CodeWiki by Google**.
@@ -93,6 +140,7 @@ This repository serves as a specialized **Project Workspace** for the **Prologue
 *   **[`Prologue of Spacetime.md`](docs/Prologue%20of%20Spacetime.md)**: The core "Game" document (CLM: `Spec`).
 *   **[`Structure and Vision`](chapters/00_Structure_and_Vision.md)**: The project architecture (CLM: `Spec + Impl`).
 *   **[`Brain_Factory_Implementation_Case_Study.md`](chapters/Brain_Factory_Implementation_Case_Study.md)**: Real-world validation (CLM: `Exp`).
+*   **[`Strategic_Validation_Reverse_Mathematics_of_the_Brain_Factory.md`](chapters/Strategic_Validation_Reverse_Mathematics_of_the_Brain_Factory.md)**: Proof-theoretic validation of the Brain Factory strategy (CLM: `Exp`).
 *   **[`Cubical Logic Model — Monadic Patterns and Consensus.md`](docs/Cubical%20Logic%20Model%20—%20Monadic%20Patterns%20and%20Consensus.md)**: The formal definition of the CLM.
 
 ---
@@ -103,10 +151,6 @@ This repository serves as a specialized **Project Workspace** for the **Prologue
 *   All content is a vector in a 3D space: (`Spec`, `Impl`, `Exp`).
 *   Relatedness is measured by **Cosine Similarity**.
 *   **Consensus** is achieved via **Pre-Established Harmony** (Vector Alignment), not negotiation.
-
-### 9. Development Status & Updates
-*   **[2026-02-06: The Polynomial Architecture Update](docs/Update_History/2026-02-06_Polynomial_Architecture.md)**: A major refactor integrating Boundedness, Laplace Damping, and Economic Accounting into the core MVP logic.
-*   **[2026-01-26: Initial Release](docs/Update_History/2026-01-26_Initial_Release.md)**: The launch of the Prologue of Spacetime vision.
 
 ### 2. The Universal Grammar (Polynomial Functors)
 The project operationalizes the **[Universal Grammar of Decomposition](docs/WorkingNotes/Hub/Theory/Integration/The%20Universal%20Grammar%20of%20Decomposition.md)** via **Polynomial Functors**:
@@ -141,6 +185,16 @@ $$ P(X) = \sum A_i \times X^{B_i} $$
 ### 8. Digital Synesthesia
 *   The CLM enables **Digital Synesthesia**—mapping abstract data (`Spec`) into sensory experience (`Exp`).
 *   Students "feel" the correctness of a system via the **Rhythm of Convergence**.
+
+### 9. Social Governance via Space/Time Boundaries
+*   **Lessig's Four Modalities** (Law, Norms, Market, Architecture) decompose along the Quadrivium's axes: **Near/Far (Space)** and **Before/After (Time)**.
+*   This means the Prologue does not merely *teach* Space and Time as physical concepts—it provides the **same formal axes** needed to reason about social regulation and governance.
+*   Complete governance = **Chronomorphism** (temporal: Architecture + Norms) × **Toposmorphism** (spatial: Law + Market).
+*   See the full framework in [Structure and Vision §5.5](chapters/00_Structure_and_Vision.md).
+
+### 10. Development Status & Updates
+*   **[2026-02-06: The Polynomial Architecture Update](docs/Update_History/2026-02-06_Polynomial_Architecture.md)**: A major refactor integrating Boundedness, Laplace Damping, and Economic Accounting into the core MVP logic.
+*   **[2026-01-26: Initial Release](docs/Update_History/2026-01-26_Initial_Release.md)**: The launch of the Prologue of Spacetime vision.
 
 ---
 

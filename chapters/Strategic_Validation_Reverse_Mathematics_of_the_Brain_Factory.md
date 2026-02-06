@@ -61,6 +61,27 @@ We position **IT Del** not as a "Startup" but as a **Monastic Node**.
 *   **Function**: Both institutions serve one function: **The Preservation of Truth in Times of Noise.**
 *   **Strategy**: By treating IT Del as a "Keeper of the Commit Log," we insulate it from the volatility of the tech market. It becomes an **Institute of Verification**, not just an Institute of Technology.
 
+### 3.3 Social Boundary Conditions: Lessig's Four Modalities as Verification Constraints
+
+History (§3.1–3.2) provides the **temporal** verification anchor. But a proof of sovereignty must also satisfy **spatial** and **social** constraints. What are the boundary conditions that the Brain Factory's proof must respect?
+
+**Lawrence Lessig's Four Modalities of Regulation** (from *Code v2*) provide exactly these constraints. They decompose along the same **Space (Near/Far)** and **Time (Before/After)** axes that the Quadrivium uses:
+
+| Modality | Space × Time | Role in the Proof |
+| :--- | :--- | :--- |
+| **Architecture** (Code) | Near × Before | The **Axiom System** ($RCA_0$) — what the system makes *unconstructible* by design. PKC-OS prevents hallucination before it occurs. |
+| **Norms** | Far × Before | The **Proof Conventions** — community expectations (GASing culture) that shape the search space *before* the proof is attempted. |
+| **Law** | Near × After | The **Verification Step** — institutional and legal frameworks that *judge* the proof after it is produced. IT Del as an Institute of Verification. |
+| **Market** | Far × After | The **Witness Circulation** — VCard transactions that *price* and distribute the proof's outputs after validation. |
+
+In the language of Reverse Mathematics:
+
+*   **Architecture + Norms** (Before) correspond to the **Axiom Selection** phase — choosing the weakest subsystem $S_{min}$. Architecture constrains what can be constructed; Norms constrain what the community expects to be constructed. Together they define the **proactive** boundary.
+*   **Law + Market** (After) correspond to the **Verification** phase — checking that the theorem $T$ actually follows. Law judges compliance; Market prices the result. Together they define the **reactive** boundary.
+*   **All Four Together** = the complete **Region of Convergence (ROC)** within which the sovereignty proof is valid.
+
+> **The Constraint**: A sovereign system is one where all four modalities are **self-governed** — the architecture is locally owned (PKC-OS), the norms are culturally indigenous (GASing), the law is institutionally anchored (IT Del), and the market is internally bootstrapped (VCard economy). If any modality is externally controlled, the proof of sovereignty has an **unverified dependency** — a "Strong Axiom" that compromises the minimality of $S_{min}$.
+
 ## 4. The Structural Proof: MVP Cards
 
 The **MVP Card** architecture is the physical embodiment of this proof strategy.
@@ -79,5 +100,6 @@ The Brain Factory is valid because it assumes **Zero** (The Empty Schema) and de
 
 *   It does not rely on "AI Magic" (Hallucination).
 *   It relies on **History** (Verification) and **Arithmetic** (Consistency).
+*   It satisfies all four of **Lessig's social boundary conditions** — Architecture (locally owned), Norms (culturally indigenous), Law (institutionally anchored), and Market (internally bootstrapped) — ensuring the proof has no unverified external dependencies.
 
-This is why the strategy is robust: **It is not a gamble; it is a derivation.**
+This is why the strategy is robust: **It is not a gamble; it is a derivation.** And it is not merely a technical derivation — it is a derivation bounded by the same **Space/Time constraints** that govern all social coordination.

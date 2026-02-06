@@ -51,6 +51,27 @@ Aligned with the **Prologue's** 12-Chapter structure, we serve four operational 
 *   **Music (Time)**: The **Agentic Rhythm** (Synchronization of Man and Machine).
 *   **Astronomy (Spacetime)**: The **Sovereign Vision** (Planetary Coordination).
 
+### 3.3 The Social Governance Layer: Lessig's Four Modalities
+
+The Quadrivium (§3.2) provides the **physical** operational modes. But the Brain Factory also operates within a **social** environment—communities, institutions, markets, and legal systems. How do these social forces decompose along the same Space/Time axes?
+
+**Lawrence Lessig's Four Modalities of Regulation** (from *Code v2*) map precisely onto the Quadrivium's dimensions of Space (Near/Far) and Time (Before/After):
+
+| Modality | Space × Time | Indonesian Implementation |
+| :--- | :--- | :--- |
+| **Architecture** (Code) | Near × Before | **PKC-OS** itself — prevents data loss and hallucination *by construction*. West Coast Code. |
+| **Norms** | Far × Before | **GASing culture** — community expectations around learning shaped *before* action (Menyenangkan). |
+| **Law** | Near × After | **Institutional agreements** — IT Del governance, IP frameworks that judge *after* the fact. East Coast Code. |
+| **Market** | Far × After | **VCard transactions** — students selling PCard Skills, price signals that adjust *after* exchange. |
+
+This means the Brain Factory's strategic alignment is not just technological—it is a **complete governance design** across all four modalities:
+
+*   **Geometry (Space)** governs the *directness* of constraint: PKC-OS architecture is a wall you cannot walk through (Near); market price signals from distant communities are indirect (Far).
+*   **Music (Time)** governs the *timing* of regulation: GASing norms shape learners before they act (Before); legal and market consequences follow after (After).
+*   **Astronomy (Spacetime)** is the composition: a sovereign Brain Factory requires *all four modalities operating simultaneously*—architecture that prevents, norms that shape, law that judges, and markets that price.
+
+> **Strategic Implication**: Indonesia's Brain Factory succeeds not by relying on any single modality (e.g., not just "Code is Law"), but by **balancing all four** within the same Space/Time framework the Quadrivium teaches. This is what makes it a *sovereign* system rather than a dependent one.
+
 ## 4. The Grammar (What): PKC-OS and MVP Architecture
 
 To realize the Brain Factory, we deploy the **PKC-OS**—a distributed operating system where **Code = Data**.

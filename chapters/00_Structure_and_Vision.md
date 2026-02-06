@@ -142,7 +142,56 @@ Why Arithmetic? Because it is the only domain that is purely **Representable** (
 
 This delineation is critical: We do not study these subjects as "Arts"; we study them as **Computational Primitives**.
 
-### 5.5 The Agentic Mesh: The Workforce
+### 5.5 Social Governance: Lessig's Four Modalities as Space/Time Boundaries
+
+The Quadrivium (§5.3–5.4) gives us the **physical** dimensions of Space and Time. But the Brain Factory is also a **social** system—humans coordinating under constraints. The question becomes: *how do social boundaries decompose along the same Space/Time axes?*
+
+**Lawrence Lessig's Four Modalities of Regulation** (from *Code v2*) answer this precisely. Lessig identified four forces that regulate behavior—**Law**, **Norms**, **Market**, and **Architecture (Code)**—and these map onto two orthogonal axes that mirror the Quadrivium:
+
+| Axis | Quadrivium Analog | Governance Meaning |
+| :--- | :--- | :--- |
+| **Near / Far** | **Geometry** (Space) | How *directly* does the constraint touch the individual? |
+| **Before / After** | **Music** (Time) | *When* does regulation act—proactively or reactively? |
+
+#### The Governance Quadrant
+
+| | **Before** (Proactive) | **After** (Reactive) |
+| :--- | :--- | :--- |
+| **Near** (Direct) | **Architecture** (Code) — Prevents by construction | **Law** — Punishes after violation |
+| **Far** (Indirect) | **Norms** — Shapes expectations via socialization | **Market** — Adjusts via price signals |
+
+```mermaid
+quadrantChart
+    title "Social Regulation as Space/Time Boundaries"
+    x-axis "Before (Proactive)" --> "After (Reactive)"
+    y-axis "Far (Indirect)" --> "Near (Direct)"
+    quadrant-1 "LAW (East Coast Code)"
+    quadrant-2 "ARCHITECTURE (West Coast Code)"
+    quadrant-3 "NORMS (Community)"
+    quadrant-4 "MARKET (Commerce)"
+```
+
+#### Connection to the Quadrivium and CLM
+
+This decomposition reveals that the Quadrivium's axes are not merely physical—they are the **same axes** that organize all social regulation:
+
+*   **Geometry (Space) → Near/Far**: Architecture is a wall you cannot walk through (Near); Market is a price signal from a distant exchange (Far). The *spatial proximity* of the constraint determines its modality.
+*   **Music (Time) → Before/After**: Norms shape you *before* you act (socialization, expectation); Law judges you *after* you act (enforcement, sanction). The *temporal position* of the constraint determines its character.
+*   **Astronomy (Spacetime) → Full Governance**: Complete governance requires *both* axes simultaneously—just as Astronomy composes Geometry and Music into orbital dynamics. In recursion-scheme terms, this is the product of **Chronomorphism** (temporal: Architecture + Norms) and **Toposmorphism** (spatial: Law + Market).
+
+In the CLM, each modality maps to a verifiable dimension:
+
+| Lessig Modality | CLM Dimension | Hoare Component |
+| :--- | :--- | :--- |
+| **Architecture** | Abstract Spec | Precondition $\{P\}$ — what the system *prevents* |
+| **Norms** | Abstract Spec | Precondition $\{P\}$ — what the community *expects* |
+| **Law** | Balanced Expectations | Postcondition $\{Q\}$ — what is *judged* after the fact |
+| **Market** | Balanced Expectations | Postcondition $\{Q\}$ — what *price* is exacted |
+| **All Four** | Concrete Impl | Command $C$ — the regulated *action* itself |
+
+> **The Deep Insight**: *Regulation is the social manifestation of Space/Time boundaries.* The choice of how to govern a system is isomorphic to the choice of where to draw boundaries in Space (Near/Far) and Time (Before/After)—the same boundaries the Quadrivium teaches us to reason about with Arithmetic. This means the Brain Factory does not merely *teach* Space and Time; it *governs* by Space and Time.
+
+### 5.6 The Agentic Mesh: The Workforce
 
 The factory is staffed by an **Agentic Mesh**—autonomous AI agents orchestrating the workflow.
 
@@ -203,4 +252,6 @@ This turns "Education" into "Signal Processing"—filtering noise to reveal the 
 
 The **Prologue of Spacetime** solves the problem of complexity by operationalizing the **Universal Grammar of Decomposition**. By treating every action as a **Hoare Triple** and every concept as a weighted sum of **Cubical Vectors** (`Spec`, `Impl`, `Exp`), we standardize the production of wisdom.
 
-We do not just teach; we **Verify**. We do not just dream; we **Converge**.
+Moreover, by recognizing that **Lessig's Four Modalities of Regulation** decompose along the Quadrivium's own axes—**Space (Near/Far)** and **Time (Before/After)**—we unify the physical and social dimensions of the project. The Brain Factory does not merely *teach* Space and Time as abstract subjects; it *governs* by Space and Time, using Architecture, Norms, Law, and Market as the four boundary conditions of any coordinated human activity.
+
+We do not just teach; we **Verify**. We do not just dream; we **Converge**. We do not just regulate; we **Govern by the same Space/Time boundaries we teach**.
