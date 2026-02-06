@@ -54,6 +54,21 @@ The entire curriculum is structured as a **3 × 4 Matrix**, a demonstrative exam
 | **Logic** (Impl)      | Ch 5: Allocation        | Ch 6: Pathfinding    | Ch 7: Causality  | Ch 8: Prediction          |
 | **Grammar** (Exp)     | Ch 9: Schema            | Ch 10: Topology      | Ch 11: Lifecycle | Ch 12: Coordination       |
 
+### 1. The Revived Quadrivium (Arithmetic as Foundation)
+We do not treat the "Arts" as decorative. We treat them as **Computational Primitives**, with **Arithmetic** as the common mechanism to reason about reality.
+
+```mermaid
+graph TD
+    AR[**Arithmetic**<br/>Pure Number] --> GEO[**Geometry**<br/>Number in Space]
+    AR --> MUS[**Music**<br/>Number in Time]
+    GEO --> AST[**Astrobiology**<br/>Composition in Spacetime]
+    MUS --> AST
+```
+*   **Arithmetic**: The discrete mechanism of **Representability**.
+*   **Geometry**: Reasoning about **Structure** and **Boundary**.
+*   **Music**: Reasoning about **Frequency** and **Cost/Energy**.
+*   **Astrobiology**: The composition of Structure and Energy = **Life/Evolution**.
+
 Each chapter produces an **MVP Card** that is indexed into the CLM:
 *   **MCard (Memory)**: The `Spec` (Static Truth).
 *   **PCard (Process)**: The `Impl` (Transformation Logic).
