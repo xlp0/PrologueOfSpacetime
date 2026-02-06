@@ -1,6 +1,6 @@
 # Requirement Analysis: "The Brain Factory" Curriculum Engine
 
-**Version:** 9.0 (OpenClaw Orchestration)
+**Version:** 10.0 (Titan Grading Rubric)
 **Architect:** System Architect / Educational Theorist
 **Domain:** Automated Curriculum Design / Knowledge Synthesis
 
@@ -25,9 +25,15 @@ $$ Truth(F) \iff \sum_{i=1}^{5} Verify(Agent_i, F) \ge 3 $$
 *   **Constraint:** The Quorum must mix architectures (Dense, MoE) and providers.
 
 ### Axiom IV: The Law of Automata
-*   **Constraint:** The system must run **Headless**.
-*   **Rationale:** Managing 5 Titans manually is impossible. **OpenClaw** acts as the runtime, triggering the standard MCP tools (`search`, `draft`, `vote`) automatically based on the consensus state machine.
-*   **Threshold:** Human intervention is ONLY permitted if Consensus drops below 3/5 for >3 consecutive cycles (Deadlock).
+*   **Constraint:** The system must run **Headless** via OpenClaw.
+
+### Axiom V: The Law of Evaluation
+*   **Constraint:** No draft is published unless it achieves a **Titan Score > 8.0/10** from at least 3 peers.
+*   **Rationale:** "Consensus" is too binary. We need "Excellence." High agreement on mediocrity is unacceptable.
+*   **The Rubric:**
+    1.  **Accuracy:** Factual verification against the Vector Lake.
+    2.  **Depth:** Synthesis complexity (PhD-level vs. Wiki-summary).
+    3.  **Pedagogy:** Teachability and clarity.
 
 ---
 

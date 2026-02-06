@@ -1,6 +1,6 @@
 # Execution Strategy: OpenClaw & The Titan Quorum
 
-**Status:** Architecture v9.0 (OpenClaw Orchestration)
+**Status:** Architecture v10.0 (Titan Grading Rubric)
 **Target Infrastructure:** Prologue of Spacetime / 1.2TB RAM Node
 **Architecture Pattern:** Agentic Runtime (MCP Tools + Titan Models)
 
@@ -8,8 +8,8 @@
 
 ## 1. Technical Architecture & Stack
 
-To ensure "PhD-level" accuracy and "Self-Driving" automation, we integrate **OpenClaw** as the Event Bus and Tool Provider.
-The Titans (models) do not run scripts; they satisfy requests from OpenClaw by calling MCP Tools.
+To ensure "PhD-level" accuracy, we utilize **Titan Rubric Scoring**.
+The Titans do not just "vote"; they submit a detailed **Scorecard** via MCP.
 
 ### 1.1 The Titan Quorum (The Minds)
 
@@ -21,9 +21,7 @@ The Titans (models) do not run scripts; they satisfy requests from OpenClaw by c
 | **Agent D** | **Claude 3.5 Opus** | >500B | Nuance |
 | **Agent E** | **GPT-4o** | >1T | Creativity |
 
-### 1.2 The Brain Stem (OpenClaw Skills)
-
-Instead of vague "actions," the system defines rigorous JSON-Schema Skills (MCP).
+### 1.2 The Brain Stem (MCP Skill Definitions)
 
 #### Skill 1: `skill_qdrant_search`
 *   **Description:** "Retrieves verified facts from the 10k document lake."
@@ -35,10 +33,21 @@ Instead of vague "actions," the system defines rigorous JSON-Schema Skills (MCP)
 *   **Input:** `{"section_id": "string", "content": "markdown_string"}`
 *   **Output:** `{"draft_id": "uuid", "status": "pending_vote"}`
 
-#### Skill 3: `skill_cast_vote`
-*   **Description:** "Submits a pass/fail judgment on a specific draft."
-*   **Input:** `{"target_draft_id": "uuid", "verdict": "PASS|FAIL", "rationale": "string"}`
-*   **Output:** `{"current_tally": "3/5"}`
+#### Skill 3: `skill_cast_vote` (The Evaluation)
+*   **Description:** "Submits a strict 0-10 scorecard on a specific draft."
+*   **Input Schema:**
+```json
+{
+  "target_draft_id": "uuid",
+  "scorecard": {
+    "accuracy": 9, // 1-10: Factual correctness
+    "depth": 8,    // 1-10: Complexity of synthesis
+    "pedagogy": 10 // 1-10: Teachability
+  },
+  "rationale": "Chain-of-Thought explanation for the score..."
+}
+```
+*   **Output:** `{"current_average": 8.7, "consensus_met": true}`
 
 ---
 
@@ -48,23 +57,22 @@ The entire loop is managed by the OpenClaw Event Bus.
 
 ### Phase 1: The Trigger
 1.  **MQTT Event:** `factory/order` -> "Generate Module: Quantum Gravity".
-2.  **OpenClaw:** Instantiates 5 Model Contexts (Agents A-E).
-3.  **OpenClaw:** Injects System Prompt: *"You are Agent X. Use `skill_qdrant_search` to find facts about Quantum Gravity."*
+2.  **OpenClaw:** Instantiates 5 Model Contexts.
 
 ### Phase 2: The Action
-4.  **Agents A-E:** (Simultaneously) Call `skill_qdrant_search`.
-5.  **OpenClaw:** Executes valid queries against Qdrant(RAM). Returns results.
+4.  **Agents A-E:** Call `skill_qdrant_search`.
+5.  **OpenClaw:** Returns results.
 
 ### Phase 3: The Consensus
-6.  **OpenClaw:** Updates System Prompt: *"Facts retrieved. Use `skill_broadcast_draft` to propose an outline."*
-7.  **Agents A-E:** call `skill_broadcast_draft`.
-8.  **OpenClaw:** Aggregates drafts. Asks for Votes.
+6.  **Agents A-E:** call `skill_broadcast_draft`.
+7.  **OpenClaw:** Aggregates drafts. Asks for Judgement.
 
-### Phase 4: The Ratification
-9.  **Agents A-E:** Call `skill_cast_vote`.
-10. **OpenClaw:** Checks Tally.
-    *   If `YES >= 3`: **PUBLISH** to `fs/curriculum/quantum_gravity.md`.
-    *   If `YES < 3`: **RETRY** (Loop back to Phase 2 with feedback).
+### Phase 4: The Ratification (Titan Judge)
+9.  **Agents A-E:** Call `skill_cast_vote` with Scorecards.
+10. **OpenClaw:** Calculates Weighted Average.
+    *   **Threshold:** Average > 8.0 AND Min 3 Votes.
+    *   If Pass: **PUBLISH**.
+    *   If Fail: **RETRY** with feedback from rationale.
 
 ---
 
@@ -76,14 +84,14 @@ The entire loop is managed by the OpenClaw Event Bus.
   "title": "Quantum Gravity",
   "orchestrator": "OpenClaw v2.1",
   "consensus_metadata": {
-    "quorum_agreement": 0.80,
-    "votes": {"Llama-405B": true, "DeepSeek-671B": true, "Nemotron-340B": false, "Claude-Opus": true, "GPT-4o": true}
+    "average_score": 9.2,
+    "scores": {"Llama-405B": 9, "DeepSeek-671B": 10, "Nemotron-340B": 8, "Claude-Opus": 9}
   },
   "content_blocks": [
     {
       "type": "concept_explanation",
       "text": "Loop quantum gravity proposes...",
-      "verified_by": ["Llama-405B", "DeepSeek-671B", "Claude-Opus", "GPT-4o"]
+      "verified_by": ["Llama-405B", "DeepSeek-671B", "Claude-Opus"]
     }
   ]
 }
@@ -94,13 +102,10 @@ The entire loop is managed by the OpenClaw Event Bus.
 ## 4. Development Roadmap
 
 ### Phase 1: The "Skill Forge" (Days 1-2)
-*   **Goal:** Write the 3 OpenClaw Skills in Python/TypeScript (MCP compliant).
-*   **Deliverable:** `skills/qdrant.py`, `skills/consensus.py`.
+*   **Goal:** Update `skills/consensus.py` to parse JSON Scorecards.
 
 ### Phase 2: The "Bus Driver" (Days 3-4)
-*   **Goal:** Configure OpenClaw to listen to MQTT and trigger the skills.
-*   **Deliverable:** `openclaw_config.yaml`.
+*   **Goal:** Configure OpenClaw to reject drafts with score < 8.0.
 
 ### Phase 3: The "Titan Link" (Days 5+)
-*   **Goal:** Connect the vLLM/API endpoints to OpenClaw.
-*   **Deliverable:** End-to-end generation.
+*   **Goal:** End-to-end generation with grading.
