@@ -1,113 +1,133 @@
-# Execution Strategy: "Space Time" Generative Engine
+# Execution Strategy: "The Brain Factory"
 
-**Status:** Architecture Refactor v3.0 (Parallel Tournament)
-**Target Infrastructure:** Prologue of Spacetime / High-Compute Node (1.2TB RAM)
-**Architecture Pattern:** Parallel Evolutionary Tournament (Map-Reduce-Vote)
+**Status:** Architecture v4.0 (Pedagogical RAG)
+**Target Infrastructure:** Prologue of Spacetime / 1.2TB RAM Node
+**Architecture Pattern:** High-Throughput RAG (Retrieval-Augmented Generation)
 
 ---
 
 ## 1. Technical Architecture & Stack
 
-To leverage your machine's massive memory (1.2TB), we are abandoning the sequential "Round Robin" model for a **Maximum Concurrency** approach. We will simulate "Many Worlds" simultaneously and collapse them via peer voting.
+The goal is to ingest 2,000+ documents and "manufacture" a structured curriculum. We will use a **Memory-Resident Vector Lake** to allow agents to "read" the entire library instantly.
 
 ### 1.1 Core Components
 
-| Component | Technology | Role in "Space Time" Cosmology |
+| Component | Technology | Role in the Factory |
 | :--- | :--- | :--- |
-| **Orchestrator** | **AutoGen `AsyncGroupChat`** | **The Tournament Director**. Orchestrates the parallel execution of 5-7 agents. Instead of $A \to B$, it triggers `await asyncio.gather(A, B, C, D, E)`. |
-| **State Fabric** | **PostgreSQL + pgvector** | **The Akasjic Record**. Now specifically optimized for **Batch Inserts**. It stores the "Multiverse" of potential chapters before the "Collapse" (Vote) occurs. |
-| **Observability** | **Streamlit** | **The Epistemic Deck**. Visualizes the "Voting Matrix" in real-time, showing who voted for whom and who is currently "on the chopping block." |
-| **Harvester** | **Python Asyncio Daemon** | **The Reaper**. Removes the eliminated agent's state and injects the replacement persona seamlessly. |
+| **Orchestrator** | **LangChain / AutoGen Hybrid** | **The Factory Foreman**. We use a **Supervisor-Worker** topology. The "Pedagogue" (Supervisor) delegates research tasks to "Technologist" instances (Workers). |
+| **Memory Lake** | **Qdrant (In-Memory)** | **The Library**. We load all 2,000+ documents into Qdrant running in `memory` mode (utilizing the 1.2TB RAM). This eliminates disk latency for retrieval. |
+| **Ingestion** | **Unstructured.io** | **The Shredder**. Parses PDFs, Markdown, and text files into clean chunks for embedding. |
+| **Quality Control** | **Guardrails AI** | **The Inspector**. Validates that output follows the strict JSON schema for curriculum modules (prevents hallucinated citations). |
 
-### 1.2 System Architecture Diagram (The "Burst" Topology)
+### 1.2 System Architecture Diagram (The Assembly Line)
 
 ```mermaid
 graph TD
-    subgraph "Parallel Generation Phase (The Burst)"
-        Start((Start Cycle)) -->|Async Trigger| P1[Physicist]
-        Start -->|Async Trigger| P2[Financier]
-        Start -->|Async Trigger| P3[Politician]
-        Start -->|Async Trigger| P4[Mathematician]
-        Start -->|Async Trigger| P5[Technologist]
+    subgraph "Raw Material (Ingestion)"
+        Docs[2000+ Documents] -->|Batch Process| Chunker[Unstructured.io]
+        Chunker -->|Embed| VectorRAM[(In-Memory Vector Lake)]
     end
 
-    subgraph "The Evaluation Phase (The Vote)"
-        P1 & P2 & P3 & P4 & P5 -->|Submit Drafts| VotingEngine[Peer Review Matrix]
-        VotingEngine -->|Calculate Elo| Rankings{Rank Agents}
+    subgraph "The Factory Floor (Agent Trinity)"
+        Pedagogue[The Pedagogue] -->|Request: 'Explain ARPANET'| Technologist[The Technologist]
+        Technologist -->|RAG Query| VectorRAM
+        VectorRAM -->|Retrieved Context| Technologist
+        Technologist -->|Synthesized Facts| Pedagogue
+        Pedagogue -->|Draft Lesson| Critic[The Critic]
+        Critic -->|Feedback: 'Too Complex'| Pedagogue
     end
 
-    subgraph "Darwinian Event"
-        Rankings -->|Lowest Score| Eliminated[Eliminate Agent]
-        Rankings -->|Highest Score| Winner[Commit to Book]
-        Eliminated -->|Replace| Reserve[Reserve Pool]
-        Reserve -->|New Persona| Start
+    subgraph "Finished Goods"
+        Pedagogue -->|Commit Module| Output[Curriculum JSON]
+        Output -->|Render| PDF[Lesson Plan PDF]
     end
 ```
 
 ---
 
-## 2. Data Schema Specification
+## 2. Ingestion Strategy (The 1.2TB Advantage)
 
-The schema now focuses on **Parallel Epochs** and **Voting Vectors**.
+Most systems struggle with 2,000 documents because they rely on slow disk-based vector DBs. We will use **Brute Force RAM**.
 
-### 2.1 The Epoch Container (`simulation_epochs`)
-Tracks the simultaneous bursts of creativity.
-```sql
-CREATE TABLE simulation_epochs (
-    epoch_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    start_time TIMESTAMP DEFAULT NOW(),
-    active_agent_ids UUID[], -- The 5-7 agents currently alive
-    winner_agent_id UUID,     -- Determining the "Canon" reality
-    loser_agent_id UUID       -- Determining the "Eviction"
-);
-```
+### 2.1 The "Ramdisk" Protocol
+1.  **Boot Phase:**
+    *   Script iterates through `/docs/library`.
+    *   Parses and embeds all files.
+    *   Loads the entire collection into a `Qdrant` collection resident in RAM.
+    *   *Est. Size:* 2,000 docs $\approx$ 10GB Vector Index (trivial for 1.2TB machine).
+2.  **Query Phase:**
+    *   Agents can perform "exhaustive search" (HNSW optimized) with <10ms latency.
 
-### 2.2 The Voting Matrix (`peer_votes`)
-The raw data of the "Social Consensus."
-```sql
-CREATE TABLE peer_votes (
-    vote_id UUID PRIMARY KEY,
-    epoch_id UUID REFERENCES simulation_epochs(epoch_id),
-    voter_agent VARCHAR(50),
-    target_agent VARCHAR(50),
-    
-    -- Making the vote rigorous
-    insight_score INT, -- 1-10
-    latency_penalty FLOAT, -- Lower is better
-    rationale TEXT, -- "I voted for Mathematician because..."
-    
-    UNIQUE(epoch_id, voter_agent, target_agent)
-);
+---
+
+## 3. Data Schema: The Curriculum Module
+
+We stop treating output as "chat" and start treating it as "structured data."
+
+```json
+{
+  "module_id": "MOD-101",
+  "title": "Origins of Network Theory",
+  "learning_objectives": [
+    "Define Packet Switching",
+    "Contrast Circuit Switching vs. Packet Switching",
+    "Identify key contributors (Baran, Davies, Roberts)"
+  ],
+  "content_blocks": [
+    {
+      "type": "concept_explanation",
+      "heading": "The Vampire Tap",
+      "text": "Early Ethernet used a physical piercing mechanism...",
+      "citations": ["doc_123.pdf", "doc_099.md"]
+    },
+    {
+      "type": "analogy",
+      "text": "Think of Circuit Switching like a telephone call, and Packet Switching like a postcard system..."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which researcher proposed the distributed mesh?",
+      "options": ["Paul Baran", "Vint Cerf", "Tim Berners-Lee"],
+      "correct_answer": "Paul Baran",
+      "source": "doc_44.pdf"
+    }
+  ]
+}
 ```
 
 ---
 
-## 3. Risk Mitigation: The "Deadlock" of Plenty
+## 4. Workflows
 
-With 5+ agents speaking at once, the risk isn't silence—it's noise.
+### 4.1 The "Lesson Plan" Workflow
+1.  **User Input:** "Generate a module on the history of TCP/IP."
+2.  **Pedagogue (Architect):** Decomposes topic into sub-concepts: (1) NCR, (2) Packet Switching, (3) IMPs.
+3.  **Technologist (Miner):** Runs parallel RAG queries for each sub-concept.
+    *   `query("NCR 1968")`
+    *   `query("Imp Interface Message Processor specs")`
+4.  **Pedagogue (Writer):** Assembles retrieved facts into the JSON structure.
+5.  **Critic (Inspector):** Scans the JSON.
+    *   *Check:* Are all "learning_objectives" covered in "content_blocks"?
+    *   *Check:* Do all "content_blocks" have valid citations?
+6.  **Finalize:** Save to disk.
 
-### 3.1 The "Filibuster" Trap (Resource Hogging)
-*   **Risk:** One agent generates 10,000 tokens while others generate 500, delaying the sync step.
-*   **Mitigation:** **Hard Token Caps per Burst**.
-*   **Implementation:** `client.generate(max_tokens=2048)`. If an agent hits the limit, their thought is truncated, and they receive a **mandatory -5 point penalty** in the voting phase for "lack of brevity."
-
-### 3.2 The "Clique" Trap (Strategic Voting)
-*   **Risk:** The 'Politician' and 'Financier' form a voting block to continually eliminate the 'Physicist'.
-*   **Mitigation:** **Blind Review**.
-*   **Implementation:** When Agent A votes on Agent B's output, the identity of Agent B is masked (`Anonymous_Philosopher_3`). They vote purely on the *merit of the text*, not the persona.
+### 4.2 The "Missing Material" Report
+If the Technologist cannot find facts for a requested topic:
+*   It generates a `MISSING_DATA` alert: *"We have no documents covering 'AlohaNet Protocol details'. Please upload relevant PDFs."*
 
 ---
 
-## 4. Development Roadmap
+## 5. Development Roadmap
 
-### Phase 1: The Parallel Engine (Days 1-2)
-*   **Goal:** Prove we can run 7 LLM streams simultaneously on your hardware.
-*   **Deliverable:** Python script using `asyncio` to blast 7 requests to your inference engine and collect responses.
+### Phase 1: Ingestion Engine (Day 1)
+*   **Goal:** Load 2,000 sample docs into Qdrant RAM.
+*   **Deliverable:** `ingest.py` script that handles PDF/MD parsing and embedding without crashing.
 
-### Phase 2: The Judgment (Days 3-4)
-*   **Goal:** The Voting Logic.
-*   **Deliverable:** A function that takes 7 text blocks, feeds them back to the agents (anonymized), and parses their JSON votes.
+### Phase 2: The Trinity (Days 2-3)
+*   **Goal:** Basic Agent Loop.
+*   **Deliverable:** AutoGen config with "Pedagogue", "Technologist", and "Critic" passing messages.
 
-### Phase 3: The Reaper (Days 5-6)
-*   **Goal:** Hot-Swapping Agents.
-*   **Deliverable:** Logic that unloads "Physicist" from memory and loads "Cyberneticist" without stopping the simulation loop.
+### Phase 3: The Factory (Days 4-5)
+*   **Goal:** End-to-End Generation.
+*   **Deliverable:** Run the system on "Topic X" and get a valid `module.json` out.
