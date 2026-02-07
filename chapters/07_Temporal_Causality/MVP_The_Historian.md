@@ -19,7 +19,7 @@ artifact: VCard (Log)
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "What happened?" The story of the incident.
 *   **Asyik (Logic)**: The "Game" of **Investigation**. Replaying the game recording to see where you died.
-*   **Gampang (Grammar)**: Temporal Logic. "If A happened before B, and A implies B..."
+*   **Gampang (Grammar)**: Temporal Logic. "If A happened before B, and A implies B..." This reflects the **Kenosis of Memory**: To live in the present, one must "forget" the noise of the past. Perfect memory is paralysis; we keep only the **Lesson**.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Storytelling** and **Forensics**.
@@ -40,11 +40,12 @@ The **Historian** ensures the Brain Factory learns from mistakes.
 *   **Logic**: If the factory fails, replay the VCards to find the "Bad Input."
 *   **Sovereignty**: We own our history; no one can edit our logs (Immutable History).
 
-### 4.1 Polynomial Architecture & Historical Compression ($P(X) = H_0 \times X^{\Delta}$)
-In the **Universal Grammar**, The Historian represents the **Series Expansion** of Time:
-$$ P(X) = \text{Genesis} + \sum \text{Event}_i \times X^i $$
-*   **The Cost of History**: Storing every event is infinite. We apply **Boundedness** by "Compressing" history into **Snapshots** (Checkpoints) and **Deltas**.
-*   **Causal Accounting**: We verify the *chain*, not just the *state*.
-*   **Pruning**: Events outside the **Region of Relevance** (Old Logs) are aggressively pruned or archived to "Cold Storage." A Sovereign Brain does not clutter its RAM with the past; it keeps only the **Lesson** (The Compressed Wisdom).
+### 4.1 Universal Grammar: Expansion of Time ($P(t) \approx \sum c_k \cdot t^k$)
+In the **Universal Grammar**, The Historian represents the **Taylor Series Expansion** of Reality:
+$$ \text{History}(t) = \text{Genesis} + \sum \frac{f^{(k)}(0)}{k!} t^k $$
+*   **The Coefficients ($c_k$)**: The **Deltas** or "Changes" recorded in the log.
+*   **The Cost of History**: Storing infinite terms ($k \to \infty$) is impossible.
+*   **Entropic Pruning**: By **Landauer's Principle**, erasing history generates heat. We aggressively "Compress" history into **Snapshots** (Checkpoints) and archive old logs to "Cold Storage."
+*   **Boundedness**: We only keep the terms ($t^k$) that are within the **Region of Relevance**. A Sovereign Brain does not clutter its RAM with the past; it keeps only the **Integral** (The Accumulated Wisdom).
 
 > **"To debug is to exercise power over time. The Sovereign remembers what matters and forgets what is noise."**

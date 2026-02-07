@@ -19,7 +19,7 @@ artifact: PCard (Model)
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "What if?" The power of imagination and sci-fi.
 *   **Asyik (Logic)**: The "Game" of **Simulation** (SimCity, Kerbal Space Program). Testing designs before building them.
-*   **Gampang (Grammar)**: Differential Equations and Recursive Functions.
+*   **Gampang (Grammar)**: Differential Equations and Recursive Functions. This reflects the **Kenosis of Prophecy**: To predict, one must accept the **Horizon**. We can see the "Climate" (General Trend) but must surrender the "Weather" (Chaos) to God/Entropy.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Prophecy** and **Modeling**.
@@ -40,11 +40,12 @@ The **Brain Factory** runs simulations before physical manufacturing.
 *   **Function**: "Run the factory in Fast-Forward."
 *   **Goal**: Detect bottlenecks before they happen.
 
-### 4.1 Polynomial Architecture & The Economic Horizon ($P(X) \approx f(x)$)
-In the **Universal Grammar**, The Predictor represents the **Taylor Series Expansion**:
-$$ P(X) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n $$
-*   **The Cost of the Future**: Simulating the future consumes the Energy of the Present.
-*   **The Horizon**: The **Region of Convergence (ROC)** is the point where the cost of calculation exceeds the value of the prediction. Beyond this, we are blind, and we accept it.
-*   **Bounded Rationality**: We do not try to be "Laplace's Demon" (Infinite knowledge). We try to be a "Rational Steersman" (Actionable foresight). We dampen long-term anxiety with **Laplace Damping**.
+### 4.1 Universal Grammar: Analytic Continuation & The Born-Infeld Bound
+In the **Universal Grammar**, Prediction is **Analytic Continuation** via the Taylor Series:
+$$ P(t) = \sum_{n=0}^{\infty} \frac{f^{(n)}(\text{now})}{n!} (t-\text{now})^n $$
+*   **Region of Convergence (ROC)**: The radius within which our Taylor Series is valid. Identifying this boundary is critical.
+*   **Born-Infeld Limit**: Just as the electric field has a maximum strength $b$, our predictive capacity has a maximum **Curvature**. Attempting to predict past a "Singularity" (Chaos) results in infinite energy cost.
+*   **D-Brane Action**: In String Theory, the Born-Infeld action minimizes the "World Volume." Our Predictor minimizes the "Surprise Volume"—seeking the smoothest, lowest-energy path into the future.
+*   **Laplace Damping**: We apply a filter $e^{-\sigma t}$ to distant predictions. The further the future, the less weight we give it. This is **Rational Humble Foresight**.
 
 > **"Sovereignty is not knowing everything; it is knowing enough to make the next move safely."**

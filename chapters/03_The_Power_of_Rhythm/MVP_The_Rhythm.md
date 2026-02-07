@@ -17,9 +17,9 @@ artifact: PCard (Process)
 *   **Output**: A **[[PCard]]** (Process Card)—an executable Agent or Schedule.
 
 ## 2. GASing Strategy
-*   **Menyenangkan (Rhetoric)**: "Feel the Beat." The joy of **Flow State**. Being "in the zone."
+*   **Menyenangkan (Rhetoric)**: "Feel the Beat." The joy of **Flow State**. Being "in the zone." This is **Digital Synesthesia**—feeling the correctness of a system through its rhythm.
 *   **Asyik (Logic)**: The "Game" of **Rhythm Games** (Guitar Hero) or **Optimization** (Factorio). Hitting the right note at the right time.
-*   **Gampang (Grammar)**: The mathematics of Waves and Frequencies ($f = 1/T$).
+*   **Gampang (Grammar)**: The mathematics of Waves and Frequencies ($f = 1/T$). This is the **Kenosis of Time**—surrendering individual agency to the collective Pulse.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Automation** and **Coordination**.
@@ -40,13 +40,13 @@ The **Brain Factory** uses Music to orchestrate the **Agentic Mesh**.
 *   **The Harmony**: Multiple Agents working in parallel without blocking (Async/Await).
 *   **The Dissonance**: Error handling and "Crash" reporting (alerts).
 
-### 4.1 Polynomial Architecture & Resource Damping ($P(X) = S \times X^{\omega}$)
-In the **Universal Grammar**, The Rhythm represents the **PCard** ($X^{B_i}$):
-$$ P(X) = \text{Pattern} \times X^{\text{Frequency}} $$
-*   **$A$ (Position)**: The **Amplitude/Pattern** of the wave.
-*   **$X^B$ (Direction)**: The **Frequency/Beat** (The Loop).
-*   **Temporal Damping**: Frequency costs Energy ($E = hf$). High-frequency loops (frantic polling) consume the budget effectively. We apply **Laplace Damping** ($\sigma$) to fast loops, forcing the system into a calm, sustainable rhythm (Low-Pass Filter).
-*   **Fourier Accounting**: We verify the "Spectrum" of the factory to ensure no "Energy Spikes" threaten our sovereignty.
+### 4.1 Universal Grammar of Decomposition ($f(t) = \sum c_k \cdot e^{i\omega_k t}$)
+In the **Universal Grammar**, The Rhythm represents the **Frequency Domain**:
+$$ \text{Process} = \sum \text{Energy}_k \cdot \text{Frequency}_k $$
+*   **Frequency ($\omega_k$)**: The **PCard** (Loop/Pattern). The speed of the cycle.
+*   **Energy ($c_k$)**: The **Amplitude**. How much resource is dedicated to this loop.
+*   **Thermodynamic Cost ($E = hf$)**: High-frequency loops (frantic polling) consume high Energy.
+*   **Laplace Damping**: We apply a **Low-Pass Filter** ($e^{-\sigma t}$) to the system. High-energy noise is damped; only sustainable, resonant rhythms survive. This is how we ensure **Operational Sovereignty**—we do not run faster than we can afford.
 
 ## 5. Reverse Mathematics Proof
 *   **Theorem**: "We can coordinate massive human-AI collaboration."

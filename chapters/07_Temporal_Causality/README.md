@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, **Temporal Causality** is the Logic of Music. It 
 ### 1. The Historian (The Monad)
 The "Historian" is the keeper of the Log. In distributed systems, there is no Global Clock. There is only the **Event Log**.
 *   **[MVP Card: The Historian](MVP_The_Historian.md)**: The philosophical definition of linear time.
+*   **Kenosis (Memory)**: To remember implies to forget. We prune the past to keep only the **Lesson** (The Integral).
+*   **Universal Grammar**: History is the **Taylor Series Expansion** of reality. We keep the derivatives (deltas) to reconstruct the function.
 
 ## 2. Technical Implementation: MQTT Event Bus
 

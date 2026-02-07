@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, this is **Music** in the **Grammar Phase**. It an
 ### 1. The Ceremony (The Monad)
 The "Ceremony" is the ritual of time. It is the Strict Schedule.
 *   **[MVP Card: The Ceremony](MVP_The_Ceremony.md)**: The definition of cyclical time.
+*   **Kenosis (Habit)**: We remove the burden of "Choice" to free the mind. Ritual is O(1) decision making.
+*   **Thermodynamics**: Habit minimizes **Free Energy**. A disciplined system is a low-entropy system.
 
 ### 2. Project: Kinetic Node (Phase 9 - Heartbeats)
 We apply Grammar to **Time**.

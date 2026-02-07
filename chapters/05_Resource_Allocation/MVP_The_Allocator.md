@@ -17,9 +17,9 @@ artifact: PCard (Scheduler)
 *   **Output**: An **Allocation Schedule** (PCard Logic).
 
 ## 2. GASing Strategy
-*   **Menyenangkan (Rhetoric)**: "The perfect loadout." In games, you optimize your inventory for the mission.
+*   **Menyenangkan (Rhetoric)**: "The perfect loadout." In games, you optimize your inventory for the mission. This is the **Joy of Sufficiency**.
 *   **Asyik (Logic)**: The "Game" of **Resource Management** (StarCraft, Civilization). Balancing economy vs. military.
-*   **Gampang (Grammar)**: The mathematics of Linear Programming and Inequality Constraints ($x + y \le C$).
+*   **Gampang (Grammar)**: The mathematics of Linear Programming and Inequality Constraints ($x + y \le C$). This reflects the **Kenosis of Stewardship**: Resources are not owned; they are flowed. Hoarding leads to deadlock; flow leads to life.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Logistics** and **Kernels**.
@@ -40,11 +40,13 @@ The **Allocator** is implemented as a Sovereign Agent.
 *   **Policy**: "Local First." Prefer local GPU ($0 cost) over Cloud GPU ($ cost).
 *   **Outcome**: Maximum Sovereignty per Watt.
 
-### 4.1 Polynomial Architecture & Laplace Damping ($P(X) \le E$)
-In the **Universal Grammar**, The Allocator applies the **Transform**:
-$$ \mathscr{L}\{f(t)\} = \int f(t) e^{-\sigma t} $$
-*   **The Sigma ($\sigma$)**: This is the **Resource Cost**. Every MCard and PCard has a "Tax".
-*   **Boundedness (ROC)**: Truth is expensive. We only claim as "True" what fits within our Energy Budget. If $Cost > Budget$, the probability of that future is damped to Zero.
-*   **Rationality**: This implements **Bounded Rationality**. We do not optimize for the "Best Possible World" (Infinite Compute); we optimize for the "Best Affordable World" within our ROC.
+### 4.1 Universal Grammar: Setting the Coefficients ($c_k$)
+In the **Universal Grammar**, The Allocator determines the **Coefficients**:
+$$ \text{Reality} = \sum c_k \cdot \phi_k $$
+*   **$c_k$ (Allocation)**: The weight assigned to a specific Basis ($\phi_k$).
+    *   If $c_k = 0$, the capability exists ($\phi_k$) but is *unfunded*.
+    *   If $c_k > 0$, the capability is *active*.
+*   **Laplace Damping ($\sigma$)**: We apply a **Cost Filter** $e^{-\sigma t}$. Every coefficient has a thermodynamic price.
+*   **Bounded Rationality**: We maximize the "Signal Power" ($\sum c_k^2$) subject to the Energy Constraint ($\sum c_k \cdot \text{Cost}_k \le E$). This implies we must "damp" (set to zero) any truth that is too expensive to maintain.
 
 > **"A Sovereign brain does not waste energy. To Allocate is to draw the boundary between the Possible and the Real."**

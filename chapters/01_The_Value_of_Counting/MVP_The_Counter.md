@@ -17,9 +17,9 @@ In the **Brain Factory** assembly line, **The Counter** is the first station. Be
 *   **Output**: An **[[MCard]]** (Memory Card)—an immutable, content-addressed record of existence.
 
 ## 2. GASing Strategy
-*   **Menyenangkan (Rhetoric)**: "Why count?" Because **Ownership requires Accounting**. Without a count, you are not a Sovereign; you are a resource to be exploited by others who *can* count.
+*   **Menyenangkan (Rhetoric)**: "Why count?" Because **Ownership requires Accounting**. Without a count, you are not a Sovereign. This aligns with the **Kenosis of Surrender**—acknowledging the "Cost" of existence.
 *   **Asyik (Logic)**: The "Game" of accumulation. Seeing the numbers go up (XP, Gold, Savings).
-*   **Gampang (Grammar)**: The strict rules of the Natural Numbers ($\mathbb{N}$). $1+1=2$ is the first promise of the universe.
+*   **Gampang (Grammar)**: The strict rules of the Natural Numbers ($\mathbb{N}$). $1+1=2$ is the first promise of the universe. This is the **Kenosis of Emptying**—we strip away ambiguity to reach pure Arithmetic Truth.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **The Ledger**.
@@ -40,12 +40,12 @@ The **[[MCard]]** is the physical artifact produced by this chapter.
 *   **Function**: To hold "Static Truth." (A fact, a file, a coordinate).
 *   **Monadic Role**: The **Unit** ($()$). It is the atom of the system.
 
-### 4.1 Polynomial Architecture & Accounting ($P(X) = A \times X^0$)
-In the **Universal Grammar**, The Counter represents the constant term:
-$$ P(X) = \text{Inventory} $$
-*   **$A$ (Position)**: The **MCard** itself. It has Position (Hash) but no internal motion (Direction).
-*   **$X^0$ (Direction)**: It is a **Constant Functor**. It does not transform; it *is*.
-*   **Existential Accounting**: "To be is to be accounted for." Every MCard occupies **Storage Quantums**. The "Hash" is the receipt of this resource commitment. If we cannot afford the storage cost ($c_k < \text{Cost}$), the MCard is pruned (garbage collected).
+### 4.1 Universal Grammar of Decomposition ($f = \sum c_k \cdot \phi_k$)
+In the **Universal Grammar**, The Counter represents the extraction of the **Coefficient ($c_k$)**:
+$$ \text{Inventory} = \sum c_k \cdot \text{MCard}_k $$
+*   **$c_k$ (Quantity/Weight)**: The count itself. It represents the "Energy" or "Importance" attached to the object.
+*   **$\phi_k$ (Basis)**: The **MCard** (Type/Identity). It is the unit vector of meaning.
+*   **Existential Accounting**: "To be is to be accounted for." Every MCard occupies **Storage Quantums** (Energy). The "Hash" is the receipt of this resource commitment. If we cannot afford the storage cost ($c_k < \text{Cost}$), the MCard is pruned (garbage collected). This is **Laplace Damping** applied to memory.
 
 ## 5. Reverse Mathematics Proof
 *   **Theorem**: "We can track Sovereign Assets."

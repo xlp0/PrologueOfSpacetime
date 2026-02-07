@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, **Arithmetic** is the Logic of Naming. It answers
 ### 1. The Counter (The Monad)
 The "Counter" is the fundamental unit of Agency. It observes the chaotic flow of reality and collapses it into discrete "Drops".
 *   **[MVP Card: The Counter](MVP_The_Counter.md)**: The philosophical definition of value.
+*   **Kenosis (Emptying)**: To count effectively, we must first "empty" our biases. $1$ must equal $1$.
+*   **Universal Grammar**: In the decomposition $f = \sum c_k \phi_k$, counting is the determination of the **Coefficient ($c_k$)**—the *quantity* of existence.
 
 ### 2. From Drops to Tokens
 In this chapter, we count **Drops** (Physical Water).

@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, **Orbit Prediction** is the Logic of Spacetime. I
 ### 1. The Predictor (The Monad)
 The "Predictor" is the Intelligence of the system. It takes **History** (Ch 07) and extrapolates it into **Future State**.
 *   **[MVP Card: The Predictor](MVP_The_Predictor.md)**: The philosophical definition of foresight.
+*   **Kenosis (Prophecy)**: We accept the **Horizon**. We cannot predict past the chaotic singularity (**Born-Infeld Bound**).
+*   **Universal Grammar**: Prediction is **Analytic Continuation**. We extend the Taylor Series into the future.
 
 ## 2. Technical Implementation: OpenClaw & MCP
 

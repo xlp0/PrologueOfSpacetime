@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, this is **Astrobiology** in the **Grammar Phase**
 ### 1. The Calendar (The Monad)
 The "Calendar" is the alignment of cycles. It is where Biology (Deep Sleep), Physics (Orbit), and Economy (Market Days) meet.
 *   **[MVP Card: The Calendar](MVP_The_Calendar.md)**: The philosophical definition of consensus.
+*   **Kenosis (Sovereignty)**: To rule, we succumb. The King must align his laws with the **Cosmic Clock**.
+*   **Universal Grammar**: Consensus is **Phase Synchronization**. We achieve unity through **Vector Alignment**, not endless debate.
 
 ### 2. Project: Kinetic Node (Phase 10 - The Mission)
 We apply Grammar to **Spacetime**.

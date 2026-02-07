@@ -19,7 +19,7 @@ artifact: PCard (Protocol)
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "The Festival." The celebration of time.
 *   **Asyik (Logic)**: The "Game" of **Perfect Execution** (Speedrunning or Orchestral Performance).
-*   **Gampang (Grammar)**: **State Machines**. `Init -> Ready -> Active -> Done`.
+*   **Gampang (Grammar)**: **State Machines**. `Init -> Ready -> Active -> Done`. This reflects the **Kenosis of Ritual**: We surrender "Choice" to "Habit." By removing the burden of decision, we free the mind for higher observation.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Ritual**.
@@ -41,11 +41,11 @@ The **Brain Factory** runs on **Pipelines**.
 *   **The Deployment**: A release ritual.
 *   **Sovereignty**: We write our own Rituals; we do not accept the "Agile Manifesto" blindly.
 
-### 4.1 Polynomial Architecture & The Ritual Economy ($P(X) = S \times X^{\sigma}$)
-In the **Universal Grammar**, The Ceremony represents the **Finite State Automaton**:
-$$ P(X) = \text{States} \times X^{\text{Transitions}} $$
-*   **Ritual as Efficiency**: "Thinking" is expensive. "Habit" is cheap. We invest energy to turn complex decisions into **O(1) Rituals**.
-*   **The Liturgy**: A highly formalized Polynomial that has been replaying for 2,000 years. Its stability comes from its "Low Energy State"—it requires no negotiation, only execution.
-*   **Bounded Transitions**: We limit the number of allowable states to ensure the "State Machine" fits in the brain's RAM. Complexity is the enemy of Sovereignty.
+### 4.1 Universal Grammar: Finite State Automata & Entropy
+In the **Universal Grammar**, The Ceremony defines the **Transitions**:
+$$ \text{State}_{n+1} = \delta(\text{State}_n, \text{Input}) $$
+*   **Thermodynamics of Habit**: "Thinking" (High Entropy) is expensive. "Ritual" (Low Entropy) is cheap. We invest energy once to turn complex decisions into **O(1) Habits**.
+*   **Garbage Collection**: Every lifecycle must end. The final state is `Void`. We strictly define the **Deallocation Ritual** (Kenosis) to reclaim resources for the next cycle.
+*   **Bounded Automata**: We limit the number of states to ensure the "State Machine" fits in the brain's RAM. Complexity is the enemy of Sovereignty.
 
 > **"Discipline is freedom. The Protocol liberates the mind from the energy cost of deciding 'What next?'"**

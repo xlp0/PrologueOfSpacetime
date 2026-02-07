@@ -19,7 +19,7 @@ artifact: MCard (Graph)
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "The Golden Bridge." Connecting islands.
 *   **Asyik (Logic)**: The "Game" of **Bridge Building** (Poly Bridge).
-*   **Gampang (Grammar)**: **Graph Theory**. Nodes, Edges, Connectivity, Cuts.
+*   **Gampang (Grammar)**: **Graph Theory**. Nodes, Edges, Connectivity, Cuts. This reflects the **Kenosis of Connection**: To be part of a network, a node must surrender its isolation. It must accept the protocol (Grammar) of the whole.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Infrastructure**.
@@ -40,11 +40,12 @@ The **Brain Factory** is a **Mesh Network**.
 *   **Protocol**: **Overlay VPN** (WireGuard + Headscale).
 *   **Grammar**: The IP Addressing Scheme (IPv6) that identifies every Sovereign Node.
 
-### 4.1 Polynomial Architecture & Maintenance Costs ($P(X) = M \times X^{\Omega}$)
-In the **Universal Grammar**, The Topology represents the **Manifold**:
-$$ P(X) = \text{LocalAtlas} \to \text{GlobalShape} $$
-*   **The Cost of Connection**: Every link in the Mesh has a "Keep-Alive" cost.
-*   **Sheaf Consistency**: Local truths must "glue" together. If the cost of gluing (Synchronization) exceeds the value of the connection, the Sheaf breaks.
-*   **Bounded Topology**: We design the network to minimize "Long-Distance" links (High Latency/Cost). The **Rice Terrace** works because water flows via gravity (Zero Cost); we aim for the same "Gravity-Fed" information flow.
+### 4.1 Universal Grammar: Sheaves and Gluing
+In the **Universal Grammar**, The Topology is defined by **Sheaf Theory**:
+$$ \text{GlobalTruth} = \text{Limit}(\text{LocalTruth}_i) $$
+*   **Gluing Condition**: Local truths ($\phi_i$) can be "glued" into a global truth only if they agree on their overlaps.
+*   **Cohomology**: This measures the "Obstruction" to gluing. If Cohomology $\ne 0$, there are "Holes" in the consensus.
+*   **Cost of Connection**: Maintaining a link has a "Keep-Alive" energy cost.
+*   **Bounded Topology (Compactness)**: We equate "Compactness" with "Knowability." An infinite, unbounded network cannot be fully known. We design **Finite Coverings**—networks that can be audited within a finite energy budget.
 
 > **"A Sovereign Nation must own its wires. The Topology is the physical manifestation of the Energy Budget."**

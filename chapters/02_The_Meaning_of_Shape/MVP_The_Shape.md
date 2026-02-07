@@ -19,7 +19,7 @@ artifact: MCard (Spatial)
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "Where do I belong?" The psychological need for **Place**. My village, my school, my server.
 *   **Asyik (Logic)**: The "Game" of **Tetris** or **Minecraft**. Fitting things together perfectly.
-*   **Gampang (Grammar)**: The axioms of Vector Space and Graph Theory. Connectivity implies access.
+*   **Gampang (Grammar)**: The axioms of Vector Space and Graph Theory. Connectivity implies access. This reflects the **Kenosis of Space**: We must create "Empty Space" (Vacuum/Structure) to allow "Content" (Matter/Data) to exist.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **GovTech** and **Urban Planning**.
@@ -40,12 +40,12 @@ The **Brain Factory** uses Geometry to build **Scale-Free Networks**.
 *   **The Edge**: A verified relationship (Teacher/Peer).
 *   **The Cluster**: A Sovereign Community (School/Village).
 
-### 4.1 Polynomial Architecture & Boundedness ($P(X) = G \times X^T$)
-In the **Universal Grammar**, The Shape represents the Group Action:
-$$ P(X) = \text{Geometry} \times X^{\text{Transform}} $$
-*   **$A$ (Position)**: The **Geometric State** (Grid, Mandala).
-*   **$X^B$ (Direction)**: The **Transformation Group** (Rotation, Scaling, Translation).
-*   **Spatial Boundedness**: Infinite space requires infinite addressing. We strictly define the **Shape** of our network (the Topology) to fit within our **Memory Budget**.
+### 4.1 Universal Grammar of Decomposition ($f = \sum c_k \cdot \phi_k$)
+In the **Universal Grammar**, The Shape defines the **Basis Functions ($\phi_k$)**:
+$$ \text{Structure} = \text{Span}(\phi_1, \phi_2, \dots, \phi_n) $$
+*   **$\phi_k$ (Type/Direction)**: The fundamental "Shapes" or "types" available in our universe (e.g., Sine waves in Fourier, Digits in Decimal, Classes in Code).
+*   **Arithmetization of Space**: Following Descartes, we turn "Shape" into "Numbers" (Coordinates). Geometry is simply Arithmetic extended into $N$-dimensions.
+*   **Spatial Boundedness**: Infinite space requires infinite addressing. We strictly define the **Region of Convergence** (ROC) for our basis.
 *   **The Invariant**: Following Klein's **Erlangen Program**, the "Truth" of a Shape is defined by its **Invariants** under transformation. We only deploy geometries whose maintenance cost is invariant (sustainable).
 
 ## 5. Reverse Mathematics Proof

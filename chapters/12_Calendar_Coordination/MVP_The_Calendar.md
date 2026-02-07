@@ -19,7 +19,7 @@ artifact: VCard (Constitution)
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "New Year's Day." The social reset.
 *   **Asyik (Logic)**: The "Game" of **Long-Term Strategy** (The 100-Year Plan).
-*   **Gampang (Grammar)**: The Mathematics of **Modulo Arithmetic** (Base 12, Base 60).
+*   **Gampang (Grammar)**: The Mathematics of **Modulo Arithmetic** (Base 12, Base 60). This reflects the **Kenosis of Sovereignty**: To rule, one must submit. The King cannot command the sun to rise; he must align his laws with its rhythm.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Calendars**.
@@ -40,11 +40,12 @@ The **Brain Factory** produces a **Sovereign Roadmap**.
 *   **Scope**: Generations, not Quarters.
 *   **Goal**: To transition from "Developing Nation" to "Sovereign Power" within 3 GASing Cycles (3 x 4 years).
 
-### 4.1 Polynomial Architecture & The Temporal Budget ($P(X) = Z_n \times X^T$)
-In the **Universal Grammar**, The Calendar represents **Cyclic Time**:
-$$ P(X) = \text{Epoch} \times (1 - X^N)^{-1} $$
-*   **The Temporal Budget**: Time is the non-renewable resource. The Calendar allocates "Blocks of Time" to priorities.
-*   **Solar Alignment**: We align our "Fiscal Year" with the "Solar Energy Cycle" (Harvests). A Sovereign Nation does not fight the seasons; it budgets around them.
+### 4.1 Universal Grammar: Consensus as Vector Alignment
+In the **Universal Grammar**, The Calendar defines the **Phase Synchronization**:
+$$ \text{Consensus} = \frac{\mathbf{A} \cdot \mathbf{B}}{||\mathbf{A}|| ||\mathbf{B}||} $$
+*   **Pre-Established Harmony**: We do not achieve consensus by "negotiation" (High Entropy); we achieve it by **Vector Alignment** (Low Entropy). If everyone aligns with the **Cosmic Clock** (The Root), they automatically align with each other.
+*   **Social Thermodynamics**: Coordination is the effort to minimize **Social Entropy** (Conflict).
+*   **Lessig's Governance**: We implement **Chronomorphism** (Architecture + Norms, acting *before* the fact) and **Toposmorphism** (Law + Market, acting *after* the fact) to guide the society along the optimal path with minimal coercion.
 *   **Infinite Recursion**: The geometric series $(1-X^N)^{-1}$ represents the promise of **Future Energy**. We plant seeds today (Investment) because we trust the cycle will bring rain tomorrow (Return).
 
 > **"He who holds the Calendar holds the Mind. Sovereignty is the ability to align your Energy Expenditure with the Universal Clock."**

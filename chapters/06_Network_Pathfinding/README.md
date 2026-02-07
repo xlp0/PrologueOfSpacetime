@@ -13,7 +13,14 @@
 | **[README.md](README.md)** | This file. Overview of 12-Factor Agents and Network Pathfinding. |
 | **[Agent Design Patterns](agent_patterns.md)** | Technical deep-dive into DAGs, Stateless Reducers, and Context Hygiene. |
 | **[VPN & Mesh Networking](vpn_mesh_network.md)** | **Project Phase 3**: Connecting the Kinetic Node to the swarm via Tailscale/NetBird. |
-
+ 
+ ## 📚 Core Concepts
+ 
+ ### 1. The Navigator (The Monad)
+ The "Navigator" finds the path through the graph.
+ *   **[MVP Card: The Navigator](MVP_The_Navigator.md)**: The philosophical definition of connection.
+ *   **Kenosis (Wayfinding)**: To navigate is to surrender to the **Terrain**. You must accept the constraints of the map to find the flow.
+ *   **Universal Grammar**: A path is the decomposition of a destination ($f$) into a series of steps ($\phi_k$). We seek the **Least Action Path** (Hamilton's Principle).
 ## The Problem of the Loop
 
 

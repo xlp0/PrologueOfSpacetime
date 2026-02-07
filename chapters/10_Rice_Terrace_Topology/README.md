@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, this is **Geometry** in the **Grammar Phase**. It
 ### 1. The Topology (The Monad)
 The "Topology" is the hierarchy of connection. It defines how individual nodes relate to the whole.
 *   **[MVP Card: The Topology](MVP_The_Topology.md)**: The definition of the Subak system.
+*   **Kenosis (Connection)**: To join the network, the node surrenders its isolation. The whole is greater than the sum.
+*   **Universal Grammar**: Topology is **Sheaf Theory**. We "glue" local truths into a global structure if Cohomology = 0.
 
 ### 2. Project: Kinetic Node (Phase 8 - Scaling)
 We apply Grammar to **The Fleet**.

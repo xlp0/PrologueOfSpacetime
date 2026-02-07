@@ -8,8 +8,10 @@
 > This chapter serves as the "Logic" phase of the Arithmetic column. It deals with how we allocate and optimize the fundamental units (Tokens) defined in the system.
 
 ## The Currency of Intelligence
-
-In the Prologue of Spacetime, **Tokens** are the fundamental atoms of meaning that flow through the system. Just as the "Drop" is the unit of water, the "Token" is the unit of thought.
+In the Prologue of Spacetime, **Tokens** are the fundamental atoms of meaning.
+*   **Universal Grammar**: Allocation is the setting of **Coefficients ($c_k$)** in the polynomial $f = \sum c_k \phi_k$.
+*   **Kenosis (Stewardship)**: To allocate is to flow. Hoarding resources ($c_k \to \infty$) creates a singularity; distributing them creates life.
+*   **The Token**: Just as the "Drop" is the unit of water, the "Token" is the unit of thought-energy.
 
 ### 2. Project: Kinetic Node (Phase 2)
 We apply resource allocation to **Physical Energy**.

@@ -19,7 +19,7 @@ artifact: MCard (Schema)
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "The Rules of the Game." Every game needs rules to be fair.
 *   **Asyik (Logic)**: The "Game" of **Parsing**. Fitting the square peg in the square hole.
-*   **Gampang (Grammar)**: **Type Theory**. `data Water = Liters Float | Drops Int`.
+*   **Gampang (Grammar)**: **Type Theory**. `data Water = Liters Float | Drops Int`. This reflects the **Kenosis of Language**: To mean something specific, you must surrender the ability to mean everything else. Constraints create meaning.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Standardization**.
@@ -40,13 +40,13 @@ The **Brain Factory** enforces strict typing.
 *   **Role**: Ensures that an "Agent Skill" printed in Jakarta works in Papua.
 *   **Sovereignty**: We define our own Types; we do not accept the "API of the Colonizer" blindly.
 
-### 4.1 Polynomial Architecture & The Type Economy ($P(X) = \Sigma \times \Pi$)
-In the **Universal Grammar**, The Schema defines the **Term Algebra**:
-$$ P(X) = \text{SumTypes} + \text{ProductTypes} $$
-*   **Types as Budgets**: A Schema is not just a shape; it is a **Cost Constraint**.
-    *   **Int8**: "I dedicate 8 bits of energy to this truth."
-    *   **String**: "I dedicate variable energy (bounded by MAX_LEN)."
-*   **Bounded Inputs**: The Schema rejects "Unbounded" inputs (Infinite Loops, overflows) at the gate. It is the **Customs Officer** of the Region of Convergence.
-*   **Curry-Howard Economics**: A Type is a Promise; a Program is the Payment.
+### 4.1 Universal Grammar: The Arithmetization of Correctness
+In the **Universal Grammar**, The Schema defines the **Region of Convergence**:
+$$ \text{Correctness} = \text{Integrability} + \text{Boundedness} $$
+*   **Empty Schema Principle**: We start with the **Unit Type** ($\top$)—the empty container. We only add complexity (fields) if we can afford the verification cost.
+*   **Types as Budgets**: A Schema is not just a shape; it is a **Thermodynamic Constraint**.
+    *   **Int8**: "I dedicate exactly 8 bits of entropy to this truth."
+    *   **String(N)**: "I dedicate variable energy bounded by $N$."
+*   **Curry-Howard Economics**: A Type is a Promise; a Program is the Proof. A Schema is a contract that guarantees the program will terminate (converge) within the energy budget.
 
 > **"If you define the Schema, you define the Cost Structure. Sovereignty is the right to reject data you cannot afford to process."**

@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, **Geometry** is the study of **Number in Space**.
 ### 1. The Shape (The Monad)
 The "Shape" is the fundamental unit of Geometry. In our curriculum, we move beyond Euclidean planes to understand **Topics**, **Graphs**, and **Networks**.
 *   **[MVP Card: The Shape](MVP_The_Shape.md)**: The philosophical definition of space.
+*   **Kenosis (Space)**: Space is the emptiness that allows form. We create "Vacuum" to deploy structure.
+*   **Universal Grammar**: In $f = \sum c_k \phi_k$, shape defines the **Basis Functions ($\phi_k$)**—the structural types we build with.
 
 ### 2. Hardware Integration: The Reifier (3D Printing)
 To understand abstract topology, we must make it physical. We use **3D Printing** to "reify" (make real) our abstract types.

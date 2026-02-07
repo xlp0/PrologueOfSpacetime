@@ -17,8 +17,8 @@ As established in **[[Hub/Theory/Integration/Reverse Mathematics and Reverse Tri
 
 *   **The Theorem ($T$)**: "Indonesia becomes a Sovereign Producer of Agentic Skills." (The Rhetoric).
 *   **The Goal**: Find the **Weakest Subsystem** ($S_{min}$)—the minimal set of axioms and infrastructure—necessary and sufficient to prove $T$.
-
-We reject "Strong Axioms" (e.g., "Full dependency on Silicon Valley Cloud", "Western Academic Credentials") because they are **too strong**—they prove the theorem but introduce unnecessary dependencies (Logical Bloat) that compromise sovereignty.
+*   **Kenosis of Axioms**: This aligns with the **Kenosis Principle**. We strip away "Strong Axioms" (e.g., "Full dependency on Silicon Valley Cloud", "Western Academic Credentials") because they are **too strong**—they prove the theorem but introduce unnecessary dependencies (Logical Bloat) that compromise sovereignty.
+*   **Born-Infeld Limit**: Strong axioms often exceed the **Born-Infeld Bound** of the local energy budget. We cannot verify them, so we cannot trust them.
 
 ## 2. The Strategy: The Reverse Trivium Execution Loop
 
@@ -81,6 +81,8 @@ In the language of Reverse Mathematics:
 *   **All Four Together** = the complete **Region of Convergence (ROC)** within which the sovereignty proof is valid.
 
 > **The Constraint**: A sovereign system is one where all four modalities are **self-governed** — the architecture is locally owned (PKC-OS), the norms are culturally indigenous (GASing), the law is institutionally anchored (IT Del), and the market is internally bootstrapped (VCard economy). If any modality is externally controlled, the proof of sovereignty has an **unverified dependency** — a "Strong Axiom" that compromises the minimality of $S_{min}$.
+>
+> **Arithmetization of Correctness**: We define Sovereignty not as a boolean "Flag", but as the **Region of Convergence (ROC)** of this coupled system. If the cost of maintaining Architecture, Norms, Law, and Market exceeds the generated Energy ($E$), the series diverges, and Sovereignty is lost.
 
 ## 4. The Structural Proof: MVP Cards
 

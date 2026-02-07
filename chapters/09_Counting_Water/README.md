@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, we return to **Arithmetic**, but this time in the
 ### 1. The Water Count (The Monad)
 The "Water Count" is the system of **Verification**. It is not enough to count; one must count *correctly*.
 *   **[MVP Card: The Water Count](MVP_The_Water_Count.md)**: The strict definition of inventory.
+*   **Kenosis (Language)**: To mean something, we must surrender the ability to mean anything else. Constraints create Meaning.
+*   **Universal Grammar**: A Schema is a **Bounded Proof**. It defines the **Region of Convergence** for data types.
 
 ### 2. Project: Kinetic Node (Phase 7 - Calibration)
 We apply Grammar to **Sensors**.

@@ -9,6 +9,8 @@ In the **Revived Quadrivium**, **Astrobiology** (formerly Astronomy) is the stud
 ### 1. The Observer (The Monad)
 The "Observer" is the fundamental unit of Truth. It represents the point of view that collapses the probability wave. In our curriculum, we verify truth through **Consensus** and **Biosignatures**.
 *   **[MVP Card: The Observer](MVP_The_Observer.md)**: The philosophical definition of truth.
+*   **Maxwell's Demon**: The Observer is the agent that sorts Entropy from Information.
+*   **Thermodynamics**: Verification costs Energy ($k_B T \ln 2$). We only verify what we can afford (**Born-Infeld Bound**).
 
 ### 2. Project: Kinetic Node (Phase 4)
 We apply observation to **System Health**.

@@ -18,8 +18,8 @@ artifact: VCard (Witness)
 
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "The Overview Effect." Seeing the whole system from orbit. The feeling of **Truth**.
-*   **Asyik (Logic)**: The "Game" of **Detective Work** or **Bug Hunting**. Finding the anomaly.
-*   **Gampang (Grammar)**: The laws of Consensus and Cryptography. Hash chains differ if one bit flips.
+*   **Asyik (Logic)**: The "Game" of **Detective Work** or **Bug Hunting**. Finding the anomaly. This is playing the role of **Maxwell's Demon**—sorting order from chaos.
+*   **Gampang (Grammar)**: The laws of Consensus and Cryptography. Hash chains differ if one bit flips. This is the **Arithmetic of Truth**—exact alignment or failure.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Science** and **Navigation**.
@@ -40,13 +40,13 @@ The **[[VCard]]** is the "Diploma" or "Certificate" of the Brain Factory.
 *   **Result**: What was produced? (MCard Hash).
 *   **Signature**: Who verified it? (Teacher/Oracle Signature).
 
-### 4.1 Representability & The Cost of Truth ($P(X) = \text{Truth}$)
-In the **Universal Grammar**, The Observer represents the **Evaluation** ($P(X)$):
-$$ P(X) = \sum \text{Witnesses} $$
-*   **Yoneda Lemma**: An object is completely determined by its relationships.
-*   **The Cost of Observation**: "True Identity" is expensive to calculate. Every Witness ($VCard$) requires compute.
-*   **Balanced Accountability**: We limit observation to the **Region of Convergence**. We do not verify everything; we verify only what is critical to Sovereignty.
-*   **The VCard**: It is the **Receipt**. It proves that the resource cost of verification was paid and the result converged (no hallucination).
+### 4.1 Thermodynamic Verification ($E \ge k_B T \ln 2$)
+In the **Universal Grammar**, The Observer acts as the **Operator**:
+$$ \text{Verification} = \langle \text{Kernel} | \text{State} \rangle $$
+*   **Maxwell's Demon**: The Observer is a physical demon that sorts "True" from "False."
+*   **Landauer's Principle**: To reset the state (verify), the demon must pay Energy ($E$). Every **VCard** represents a thermodynamic cost paid to reduce entropy.
+*   **The Kernel**: The VCard defines the **Null Space**—everything that must be "annihilated" (rejected) to maintain system purity (Zero Trust).
+*   **Born-Infeld Bound**: There is a maximum "Field Strength" for observation. If the complexity exceeds our energy budget (The Singularity), the VCard returns "Undefined." We respect the limits of our own perception.
 
 ## 5. Reverse Mathematics Proof
 *   **Theorem**: "We can trust distributed work."

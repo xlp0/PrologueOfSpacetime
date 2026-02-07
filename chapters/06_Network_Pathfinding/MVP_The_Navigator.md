@@ -19,7 +19,7 @@ artifact: PCard (Router)
 ## 2. GASing Strategy
 *   **Menyenangkan (Rhetoric)**: "The Journey." The adventure of getting from A to B.
 *   **Asyik (Logic)**: The "Game" of **Maze Solving** or **Delivery**. Uber/Grab logic.
-*   **Gampang (Grammar)**: Graph Theory. Shortest Path algorithms.
+*   **Gampang (Grammar)**: Graph Theory. Shortest Path algorithms. This reflects the **Kenosis of Wayfinding**: To find the path, one must surrender to the terrain. You cannot walk through walls; you must respect the constraints of Reality.
 
 ## 3. Historic Verification (The Commit Log)
 We ground this in the history of **Exploration**.
@@ -40,10 +40,12 @@ In the **Brain Factory**, knowledge must move.
 *   **Router**: Finds the trusted path through the **Overlay VPN**.
 *   **Result**: Peer-to-Peer transfer without relying on central "Highways."
 
-### 4.1 Polynomial Architecture & Impedance Matching ($P(X) = G \times X^{\pi}$)
-In the **Universal Grammar**, The Navigator represents the **Composition** of Morphisms:
-$$ P(X) = \text{Network} \times X^{\text{Traverse}} $$
-*   **Path Energy**: Moving data is not free. $Cost = \text{Distance} \times \text{Bandwidth}$.
+### 4.1 Universal Grammar: Pathfinding as Decomposition
+In the **Universal Grammar**, The Navigator decomposes the **Target Destination ($f$)** into a valid sequence of **Basis Movements ($\phi_k$)**:
+$$ \text{Target} = \sum_{k=1}^{N} \text{Step}_k $$
+*   **Basis ($\phi_k$)**: The available "Edges" or "Transitions" in the graph.
+*   **Least Action Principle**: We seek the path that minimizes the **Action** (Energy $\times$ Time).
+    *   $S = \int L \, dt$. The Navigator solves for the path where $\delta S = 0$.
 *   **Impedance Matching**: A route is only valid if the "Sender's Output" matches the "Receiver's Input Capacity" (Boundedness).
 *   **Digital Synesthesia**: We map "Latency" to "Friction" and "Bandwidth" to "Width." The Navigator avoids "High Friction" paths to conserve the system's total Energy.
 
