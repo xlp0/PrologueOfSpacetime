@@ -16,6 +16,8 @@ In the Prologue of Spacetime, **Tokens** are the fundamental atoms of meaning.
 ### 2. Project: Kinetic Node (Phase 2)
 We apply resource allocation to **Physical Energy**.
 *   **[IoT Motor Control](iot_motor_control.md)**: Allocating voltage to motors to animate the Ch 02 Frame.
+*   **[Nitinol VR Goggles](nitinol_vr_goggles.md)**: Using "Memory Metal" to create silent, organic actuation (Synthetic Muscle).
+
 
 
 > **Video Resource:** [Most devs don't understand how LLM tokens work](https://www.youtube.com/watch?v=AtYtuVTZCQU)

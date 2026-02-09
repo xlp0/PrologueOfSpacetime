@@ -31,6 +31,8 @@ We distribute hardware tools across the Quadrivium to ground abstract concepts i
 | **Geometry** (Space) | **3D Printing** | **The Reifier** | Transforming abstract types (CAD Models) into physical space. |
 | **Music** (Time) | **Mics / Speakers** | **The Resonator** | Analyzing frequency and generating feedback loops. |
 | **Astrobiology** (Spacetime)| **Drones / Rovers** | **The Explorer** | Autonomous navigation in complex environments. |
+| **Material Science** (Physics) | **Nitinol (SMA)** | **The Muscle** | Converting Energy (Tokens) into Form (Motion). |
+
 
 ## 3. Methodology & Philosophy
 
