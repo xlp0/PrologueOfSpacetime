@@ -71,67 +71,63 @@ The **10,000 files** are not just sitting in a folder. Each file is stored as an
 
 ---
 
-## 3. How It Works (The 24/7 Loop)
+## 3. How It Works (The 24/7 Recursive Loop)
 
-The machine runs in a circle, over and over again, turning the **10,000 files** into the **Prologue of Spacetime**.
+The machine doesn't just "react" to commands. It has a **Goal**. It wakes up every day and asks: *"What is missing?"*
 
-### Step 1: The Treasure Hunt (Research)
-*The Librarian finds the facts and shares them with the Planner.*
+### 3.1 The Three Inputs (The Fuel)
+Every time the machine wakes up, it reads 3 things:
+1.  **The ABC Curriculum:** The Master Plan. (e.g., "We need 12 Chapters explaining Spacetime.")
+2.  **The Daily Log:** The Newest Orders. (e.g., "The CEO just said we need to focus on MCP today.")
+3.  **The 10,000 Documents:** The Source of Truth. (e.g., "Here is the new code we wrote yesterday.")
+
+### 3.2 The Execution Cycle (The Engine)
+Once it has the inputs, it runs a 4-step loop. It never stops.
+
+**Step 1: Gap Analysis (The Brain)**
+*   **Action:** The Planner (Llama) compares the *Curriculum* (Goal) with the *10k Docs* (Reality).
+*   **Question:** "What chapters are unfinished? What new code is undocumented?"
+*   **Output:** A list of "Missing Links."
+
+**Step 2: The Checklist (The Plan)**
+*   **Action:** The Planner creates a specific **ToDo List** for this cycle.
+*   **Example:**
+    *   [ ] Read the new `mcp_server.py` file.
+    *   [ ] Draft a new section for Chapter 4 about MCP.
+    *   [ ] Update the Daily Log.
+*   **Tool:** It uses **OpenClaw** to create this plan.
+
+**Step 3: Execution (The Work)**
+*   **Action:** The Giants (DeepSeek, Qwen) do the work.
+*   **RAG Power:** They use the **MCard RAG Engine** to search the 10k docs for facts.
+*   **Writing:** They write the new content.
+
+**Step 4: The Recursive Update (The Loop)**
+*   **Action:** The new work is saved to the archive.
+*   **Loop:** The system updates the Daily Log and restarts Step 1.
+*   **Result:** The machine gets smarter every single loop.
 
 ```mermaid
-sequenceDiagram
-    autonumber
-    participant Boss as 🤖 The Boss (OpenClaw)
-    participant Lib as 🔎 Librarian (DeepSeek)
-    participant Plan as 📋 Planner (Llama)
-    participant Archive as 🗄️ The 10,000 Files
-
-    Note over Boss, Archive: "We need a chapter on Gravity."
-    Boss->>Lib: 1. "Go find the truth about Gravity!"
+graph TD
+    Input1[ABC Curriculum] --> Planner{Gap Analysis}
+    Input2[Daily Log] --> Planner
+    Input3[10k Documents] --> Planner
     
-    loop Deep Research
-        Lib->>Archive: 2. Search for "Gravity"
-        Archive-->>Lib: 3. Returns 50 files
-        Lib->>Lib: 4. Reads & Analyzes
-    end
+    Planner -->|Identify Missing Links| Checklist[Generate Checklist]
+    Checklist -->|Task 1| OpenClaw[OpenClaw Agent]
     
-    Lib->>Plan: 5. "Hey Planner! Here are the facts I found."
-    Plan-->>Boss: 6. "Facts received. Ready to write!"
+    OpenClaw -->|Search| RAG[(MCard RAG)]
+    RAG -->|Facts| Giants[Titan Quorum]
+    
+    Giants -->|Write & Verify| Output[New Chapter/Code]
+    Output -->|Save| Archive[(10k Documents)]
+    
+    Archive -->|Update State| Input2
+    Output -->|Next Cycle| Planner
 ```
 
----
-
-### Step 2: The Tournament (Drafting & Review)
-*Instead of one writer, **ALL 5 Giants** write a story at the same time. Then they critique each other.*
-
-```mermaid
-sequenceDiagram
-    autonumber
-    participant Boss as 🤖 The Boss
-    participant Team as 🏛️ The 5 Giants
-    participant Pool as � The Draft Pool
-
-    Boss->>Team: 1. "Write a chapter on Gravity! GO!"
-    
-    par Parallel Sprint
-        Team->>Pool: 2. Each Giant writes their own Draft (5 Drafts total)
-    end
-    
-    Note right of Team: Peer Review Phase
-    
-    loop Critique & Fix
-        Team->>Pool: 3. Read other drafts
-        Team->>Team: 4. "Your draft is good, but check this fact..."
-        Team->>Team: 5. Fix mistakes & Improve
-    end
-    
-    Team-->>Boss: 6. "We are ready to vote!"
-```
-
----
-
-### Step 3: The Vote (Selection)
-*They vote on the Best Draft. The winner becomes the official chapter.*
+### Step 5: The Vote (Selection)
+*Once the work is done, they vote on the Best Draft. The winner becomes the official chapter.*
 
 ```mermaid
 sequenceDiagram
@@ -148,7 +144,7 @@ sequenceDiagram
     
     Boss->>Drafts: 3. Publish Draft B to Prologue of Spacetime
 ```
-    
+
 ### What if there is a tie? (The Fusion)
 If two Giants have the same score, they don't fight. They **Combine Forces**.
 1.  **Merge:** They take the best research from *both* drafts.
