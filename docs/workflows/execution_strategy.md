@@ -110,8 +110,8 @@ The entire loop is managed by the OpenClaw Event Bus.
 ### Phase 3: The "Titan Link" (Days 5+)
 *   **Goal:** End-to-end generation with grading.
 
-### Phase 4: The "Tribunal" (Evolution)
-*   **Goal:** Implement `skill_reincarnate` and automated prompt optimization.
+### Phase 4: The "Council of Survivors" (Evolution)
+*   **Goal:** Implement `skill_synthesize_soul` for collaborative prompt engineering.
 
 ---
 
@@ -133,11 +133,11 @@ The "Soul" of an agent is its System Prompt + Few-Shot Examples. We treat Souls 
     base_critic.md
 ```
 
-### 5.2 Skill: `skill_reincarnate`
-*   **Description:** "Generates a new System Prompt based on the 'Winner's Traits'."
-*   **Input:** `{"archived_agent_id": "string", "winning_agent_ids": ["string"]}`
+### 5.2 Skill: `skill_synthesize_soul`
+*   **Description:** "Allows the 4 Survivors to collaboratively draft a new System Prompt."
+*   **Input:** `{"collaborators": ["Agent A", ...], "goal": "Fix failures of Agent E"}`
 *   **Process:**
-    1.  Read `winning_agent_ids` recent drafts.
-    2.  Extract stylistic patterns (e.g., "Uses short sentences", "Cites frequently").
-    3.  Write `souls/active/agent_a_v5.md` with these patterns explicitly instructed.
-*   **Output:** `{"new_soul_path": "souls/active/agent_a_v5.md", "status": "born"}`
+    1.  OpenClaw opens a shared context (The "Soul Forge").
+    2.  Agents discuss defects of the previous agent.
+    3.  Survivors vote on the final text of `souls/active/agent_new.md`.
+*   **Output:** `{"new_soul_path": "souls/active/agent_e_v2.md", "status": "born"}`

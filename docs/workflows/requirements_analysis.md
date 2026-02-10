@@ -35,10 +35,11 @@ $$ Truth(F) \iff \sum_{i=1}^{5} Verify(Agent_i, F) \ge 3 $$
     2.  **Depth:** Synthesis complexity (PhD-level vs. Wiki-summary).
     3.  **Pedagogy:** Teachability and clarity.
 
-### Axiom VI: The Law of Evolution (The Soul Cycle)
-*   **Constraint:** The Quorum is **Not Static**. Every $N$ cycles (The Tribunal), the lowest-performing agent is **Terminated**.
-*   **Soul Creation:** A new agent ("The Novice") is instantiated with a **New Soul** (Optimized System Prompt + Fine-Tuned Memory) based on the best-performing traits of the previous cycle.
-*   **Rationale:** To prevent stagnation and force continuous improvement via Darwinian selection.
+### Axiom VI: The Law of Evolution (Autonomous Peer Review)
+*   **Constraint:** The Quorum manages its own membership. Every $N$ cycles, the agents **review their own performance scores**.
+*   **The Execution:** The 4 top-performing agents vote to **Terminate** the lowest performer.
+*   **The Reincarnation:** The "Council of Survivors" collaboratively drafts the **New Soul** (System Prompt) for the replacement agent, instructing it to avoid the failures of the deceased.
+*   **Rationale:** True sovereignty requires the ability to self-correct and self-optimize without external intervention.
 
 ### Axiom VII: The Law of Sovereignty (Self-Hosting)
 *   **Constraint:** **NO PROPRIETARY API MODELS.** All agents must be capable of running on local hardware (or self-hosted clouds).

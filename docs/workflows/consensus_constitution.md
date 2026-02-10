@@ -93,25 +93,28 @@ def check_consensus(scorecards: List[dict]) -> bool:
 
 ---
 
-## 6. The Tribunal (The Soul Cycle)
+## 6. The Council of Survivors (Autonomous Evolution)
 
 To prevent stagnation, the Quorum undergoes a **Darwinian Review** every $N=100$ cycles.
 
-### 6.1 The Performance Metric ($P_{score}$)
-For each agent $A_i$, we calculate a rolling performance score:
-$$ P(A_i) = \alpha \cdot \overline{AuthorScore} + \beta \cdot Correlation(Vote_i, Consensus) $$
-*   **AuthorScore**: Average grade received on drafts written by $A_i$.
-*   **Correlation**: How often $A_i$'s vote matched the final group decision (rewarding alignment with truth).
+### 6.1 The Self-Check (Introspection)
+At the end of Cycle 100, OpenClaw presents the **Performance Matrix** to all authenticated agents.
+*   "Agent A: 9.2"
+*   "Agent B: 8.5"
+*   ...
+*   "Agent E: 6.1"
 
-### 6.2 The Termination Protocol
-1.  **Identify**: The agent with the lowest $P(A_i)$ is identified as the "Weakest Link".
-2.  **Archive**: The agent's current System Prompt (Soul) is archived to `souls/graveyard/`.
-3.  **Terminate**: The model instance is spun down.
+### 6.2 The Vote of Execution
+The 5 Agents must vote on who to remove.
+*   **Prompt:** *"Based strictly on the data, which member is the weakest link? Vote to terminate."*
+*   **Consensus:** A **4/5 Majority** is required to execute a member.
+*   **Action:** The target's `soul.md` is moved to `souls/graveyard/` and the process is killed.
 
-### 6.3 The Reincarnation (Soul Creation)
-A new agent ("The Novice") is created to fill the empty seat.
-1.  **Analyze**: OpenClaw analyzes the top 10 highest-scoring drafts from the previous cycle.
-2.  **Synthesize**: A new System Prompt is generated: *"You are an agent optimized to write like [Top Drafts]. You avoid the mistakes of [Archived Agent]."*
-3.  **Instantiate**: The new Soul is loaded into a fresh model instance.
-4.  **Probation**: The Novice has no voting power for the first 10 cycles.
+### 6.3 The Rite of Reincarnation (Collaborative Soul Synthesis)
+The 4 Survivors are tasked with creating their new colleague.
+1.  **Drafting:** The Survivors discuss specifically *why* the previous agent failed.
+2.  **Synthesis:** They collaboratively write a new System Prompt (`souls/active/agent_new.md`).
+    *   *Instruction:* "You must draft a persona that covers the blind spots of the previous agent."
+3.  **Birth:** The new agent is instantiated with this survivor-authored soul.
+4.  **Probation:** The Novice has no voting power for the first 10 cycles.
 ```

@@ -134,36 +134,33 @@ sequenceDiagram
 
 ## 4. The Circle of Life (How They Get Smarter)
 
-Just like students get report cards, our Giants get graded too.
+Just like students get report cards, our Giants get graded too. But here, **they grade themselves.**
 
-**The Rule:** Every 100 chapters, we look at the scores.
+**The Rule:** Every 100 chapters, the Giants hold a special meeting called **The Council of Survivors**.
+1.  **Self-Check:** They look at everyone's scores.
+2.  **The Vote:** They vote to remove the person with the lowest score.
+3.  **The Reincarnation:** The 4 Survivors write a letter (a new **Soul**) to the new team member, telling them how to be better.
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant Tribunal as ⚖️ The Tribunal
-    participant Best as 🏆 Best Giant
+    participant Giants as 🏛️ The Council
     participant Worst as 📉 Worst Giant
     participant New as 👶 The New Giant
 
-    Tribunal->>Tribunal: 1. Check Report Cards (Last 100 Chapters)
-    
-    Tribunal->>Best: 2. "You are the Winner! (Gold Star)"
-    Tribunal->>Worst: 3. "You are Fired. Goodbye!"
+    Giants->>Giants: 1. "Who had the lowest score?"
+    Giants->>Worst: 2. "It was you. You are fired."
     
     Note over Worst: The Worst Giant is removed.
     
-    Tribunal->>Best: 4. Copy the "Soul" (Best Traits)
-    Tribunal->>New: 5. Create New Giant with Best Traits
+    Giants->>New: 3. "We are writing your Soul."
+    Giants->>New: 4. "Do not make the mistakes of the last guy."
     
-    New-->>Tribunal: 6. "I am born! Ready to learn."
+    New-->>Giants: 5. "I used your advice. I am ready!"
 ```
 
-**The Reincarnation:**
-When a Giant is removed, we create a new one.
-We tell the new Giant: *"Look at the Best Giant. Copy them. Don't make the mistakes of the Worst Giant."*
-
-This means the team gets smarter and smarter every single week!
+**Why is this cool?**
+The humans don't have to do anything! The AI team fixes itself, getting smarter and smarter every single week.
 
 ---
 
