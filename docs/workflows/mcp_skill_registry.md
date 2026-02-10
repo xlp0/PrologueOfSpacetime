@@ -14,7 +14,7 @@ This registry defines the **Model Context Protocol (MCP)** tools exposed by Open
 ## 2. Skill Registry
 
 ### 2.1 `skill_qdrant_search` (Retrieval)
-Allows the agent to query the Memory-Resident Vector Lake.
+Allows the agent to query the Memory-Resident Vector Lake using Hybrid Search (Dense + Sparse).
 
 *   **Permission:** Read-Only
 *   **Authorized Agents:** All (I-V)
@@ -23,7 +23,7 @@ Allows the agent to query the Memory-Resident Vector Lake.
 ```json
 {
   "name": "skill_qdrant_search",
-  "description": "Semantic search over the 10,000 document vector index.",
+  "description": "Hybrid search (Vector + BM25) over the 10,000 document index.",
   "inputSchema": {
     "type": "object",
     "properties": {
@@ -36,9 +36,14 @@ Allows the agent to query the Memory-Resident Vector Lake.
         "description": "Max results to return (Default: 5).",
         "maximum": 20
       },
-      "threshold": {
+      "mode": {
+        "type": "string",
+        "enum": ["hybrid", "dense", "sparse"],
+        "description": "Retrieval mode. 'hybrid' uses RRF (Reciprocal Rank Fusion). Default: 'hybrid'"
+      },
+      "alpha": {
         "type": "number",
-        "description": "Minimum similarity score (0.0 - 1.0). Default: 0.75"
+        "description": "Weighting for Dense vs Sparse (0.0 = BM25 only, 1.0 = Vector only). Default: 0.5"
       }
     },
     "required": ["query"]

@@ -55,7 +55,7 @@ While the *Titan Quorum* provides the intelligence, **OpenClaw (The Brain Stem)*
 OpenClaw exposes the "Body" of the factory to the "Minds" of the Titans.
 
 **FR-01 (Tool Exposure):** OpenClaw must expose high-level MCP Tools:
-*   `skill_qdrant_search(query)`
+*   `skill_qdrant_search(query, mode="hybrid")`  // Hybrid = Vector/BM25 Fusion
 *   `skill_submit_candidate(content)`
 *   `skill_peer_review(target, feedback)`
 *   `skill_submit_fusion(collaborators, content)`
