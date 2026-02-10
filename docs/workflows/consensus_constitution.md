@@ -44,6 +44,13 @@ Agents consume the peer feedback and perform **Targeted Research** to fix their 
 Agents vote on the **Best Candidate** (excluding their own).
 *   **Winner:** The draft with the highest geometric mean score becomes the **Official Chapter**.
 
+### 3.5 Stage 5: The Runoff (Tie-Breaker Synthesis)
+If the top 2 drafts are within **0.5 points** of each other:
+1.  **Action:** The two authors enter a "Fusion State".
+2.  **Context:** They receive the **Combined Research Context** of both drafts.
+3.  **Synthesis:** They declare a truce and co-author a single **Joint Draft** ($D_{Fusion}$).
+4.  **Ratification:** The Council votes strictly Up/Down on the Fusion Draft.
+
 ---
 
 ## 4. The Titan Grading Rubric (0-10)

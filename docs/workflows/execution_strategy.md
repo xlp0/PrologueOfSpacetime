@@ -81,6 +81,12 @@ The entire loop is managed by the OpenClaw Event Bus.
     *   **Winner:** Highest score wins.
     *   **Publish:** The winning draft is written to `curriculum/completed/`.
 
+### Phase 6: The Synthesis Round (Conditional)
+*Triggered if Top 2 Scores < 0.5 delta.*
+11. **OpenClaw:** Merges context from Draft A and Draft B.
+12. **Authors A & B:** Call `skill_submit_fusion` to create a Joint Draft.
+13. **Agents C-E:** Vote Up/Down on the Fusion Draft.
+
 ---
 
 ## 3. Data Schema: The Verified Artifact

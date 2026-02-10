@@ -124,8 +124,11 @@ sequenceDiagram
     
     Note over Boss: Winner: Draft B (Score: 9.8)
     
-    Boss->>Drafts: 3. Publish Draft B to Prologue of Spacetime
-```
+### What if there is a tie? (The Fusion)
+If two Giants have the same score, they don't fight. They **Combine Forces**.
+1.  **Merge:** They take the best research from *both* drafts.
+2.  **Write:** They write a new "Super Draft" together.
+3.  **Vote:** The team votes on the Super Draft.
 
 ---
 
