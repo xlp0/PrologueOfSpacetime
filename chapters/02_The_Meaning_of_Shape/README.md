@@ -16,7 +16,13 @@ The "Shape" is the fundamental unit of Geometry. In our curriculum, we move beyo
 To understand abstract topology, we must make it physical. We use **3D Printing** to "reify" (make real) our abstract types.
 *   **[Topology & 3D Printing](topology_printing.md)**: A guide to slicing, non-Euclidean geometry, and physicalizing code.
 
+### 3. Hardware Integration: The Perceiver (Xbox Kinect)
+To define a Shape, we must first **observe** it. The Printer writes space; the Kinect reads space. They are dual operations.
+*   **[Depth Sensing & Kinect](depth_sensing_kinect.md)**: A guide to structured light, depth maps, skeleton tracking, and the Arithmetization of Space.
+*   **The Duality**: `Kinect (Space → Type)` is the inverse of `Printer (Type → Space)`. Together they close the round-trip of Geometry.
+
 ## 🎯 Learning Objectives
 1.  **Understand Topology**: How connectedness matters more than distance.
 2.  **Fabrication**: Learning to operate the "Reifier" (3D Printer).
-3.  **Spatial Logic**: Defining boundaries that are enforceable (Smart Contracts).
+3.  **Depth Perception**: Learning to operate the "Perceiver" (Xbox Kinect) for spatial sensing and 3D reconstruction.
+4.  **Spatial Logic**: Defining boundaries that are enforceable (Smart Contracts).
