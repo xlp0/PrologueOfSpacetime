@@ -86,9 +86,9 @@ sequenceDiagram
 sequenceDiagram
     autonumber
     participant Boss as 🤖 The Boss
-    participant Plan as 📋 Planner
-    participant Teach as 👨‍🏫 Teacher
-    participant Art as 🎨 Artist
+    participant Plan as 📋 Planner (Llama)
+    participant Teach as 👨‍🏫 Teacher (Qwen)
+    participant Art as 🎨 Artist (Mistral)
     participant Desk as 📝 The Writing Desk
 
     Boss->>Plan: 1. "Write a chapter using ABC."
@@ -137,8 +137,27 @@ sequenceDiagram
 Just like students get report cards, our Giants get graded too.
 
 **The Rule:** Every 100 chapters, we look at the scores.
-*   **The Best Giant:** Gets a gold star.
-*   **The Worst Giant:** Is **Removed** (fired).
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Tribunal as ⚖️ The Tribunal
+    participant Best as 🏆 Best Giant
+    participant Worst as 📉 Worst Giant
+    participant New as 👶 The New Giant
+
+    Tribunal->>Tribunal: 1. Check Report Cards (Last 100 Chapters)
+    
+    Tribunal->>Best: 2. "You are the Winner! (Gold Star)"
+    Tribunal->>Worst: 3. "You are Fired. Goodbye!"
+    
+    Note over Worst: The Worst Giant is removed.
+    
+    Tribunal->>Best: 4. Copy the "Soul" (Best Traits)
+    Tribunal->>New: 5. Create New Giant with Best Traits
+    
+    New-->>Tribunal: 6. "I am born! Ready to learn."
+```
 
 **The Reincarnation:**
 When a Giant is removed, we create a new one.
