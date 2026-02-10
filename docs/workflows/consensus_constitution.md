@@ -32,6 +32,28 @@ We do not iterate on a single draft. We select the fittest from a population of 
 All 5 Agents receive the prompt simultaneously.
 *   **Action:** Each agent generates a unique draft ($D_A, D_B, D_C, D_D, D_E$) independently.
 
+```mermaid
+graph TD
+    Start([Prompt Received]) --> Sprint{Parallel Sprint}
+    Sprint -->|Agent A| DraftA[Draft A]
+    Sprint -->|Agent B| DraftB[Draft B]
+    Sprint -->|Agent C| DraftC[Draft C]
+    Sprint -->|Agent D| DraftD[Draft D]
+    Sprint -->|Agent E| DraftE[Draft E]
+    
+    DraftA --> Critique[Cross-Critique]
+    DraftB --> Critique
+    DraftC --> Critique
+    DraftD --> Critique
+    DraftE --> Critique
+    
+    Critique --> Refine[Refinement & Research]
+    Refine --> FinalVote{Final Vote}
+    
+    FinalVote -->|Winner > 0.5 Delta| Publish([Publish Winner])
+    FinalVote -->|Tie < 0.5 Delta| Runoff([Trigger Runoff])
+```
+
 ### 3.2 Stage 2: The Cross-Critique
 Each agent reads the other 4 drafts.
 *   **Action:** They generate a `Critique` for each peer: *"Your section on gravity is accurate, but your analogy is weak. See Draft C for a better example."*
@@ -50,6 +72,17 @@ If the top 2 drafts are within **0.5 points** of each other:
 2.  **Context:** They receive the **Combined Research Context** of both drafts.
 3.  **Synthesis:** They declare a truce and co-author a single **Joint Draft** ($D_{Fusion}$).
 4.  **Ratification:** The Council votes strictly Up/Down on the Fusion Draft.
+
+```mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> TieDetected: Delta < 0.5
+    TieDetected --> FusionState: Authors A & B Lock In
+    FusionState --> MergeContext: Combine Research
+    MergeContext --> JointDraft: Write Draft AB
+    JointDraft --> Ratification: Up/Down Vote
+    Ratification --> [*]: Published
+```
 
 ---
 
@@ -111,6 +144,18 @@ def check_consensus(scorecards: List[dict]) -> bool:
 ## 6. The Council of Survivors (Autonomous Evolution)
 
 To prevent stagnation, the Quorum undergoes a **Darwinian Review** every $N=100$ cycles.
+
+```mermaid
+stateDiagram-v2
+    [*] --> CycleStart: Cycle 100 Reached
+    CycleStart --> SelfCheck: Present Scores
+    SelfCheck --> VoteExecution: Identify Weakest Link
+    VoteExecution --> Graveyard: Move Old Soul
+    Graveyard --> Reincarnation: Survivors Draft New Soul
+    Reincarnation --> Birth: Instantiate New Agent
+    Birth --> Probation: No Voting (10 Cycles)
+    Probation --> [*]: Return to Quorum
+```
 
 ### 6.1 The Self-Check (Introspection)
 At the end of Cycle 100, OpenClaw presents the **Performance Matrix** to all authenticated agents.
