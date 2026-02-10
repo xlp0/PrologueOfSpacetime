@@ -29,7 +29,7 @@ We have a team of super-smart AIs. Think of them like a group project at school,
 
 ## 2. The Tools They Use
 
-To make sure the story is perfect, the Giants use two special tools.
+To make sure the story is perfect, the Giants use three special tools.
 
 ### Tool A: The Magic Cube (Cubical Logic Model - CLM)
 Every idea must fit into a perfect **3-Sided Block**. If an idea is missing a side, the Giants throw it away.
@@ -46,6 +46,15 @@ The Giants use this ruler to measure if a chapter is good enough to teach.
 1.  **A is for Abstract:** Can we name it? (Grammar)
 2.  **B is for Behavior:** Can we show how it moves? (Logic)
 3.  **C is for Composition:** Can we make it sing? (Rhetoric)
+
+### Tool C: The Memory Card (MCard Python Library)
+The **10,000 files** are not just sitting in a folder. Each file is stored as an **MCard** — a special card with a unique fingerprint (SHA-256 hash) and a timestamp (`g_time`). Think of it like a library card that can never be forged.
+
+*   **Perfect Memory:** The Librarian searches the archive using **MCard RAG** (smart search that understands meaning, not just keywords).
+*   **Honest Citations:** When the Librarian says "I found this fact in File #42," it gives the file's fingerprint. Anyone can check if the citation is real.
+*   **Version History:** Every time a chapter is updated, the old version is kept. You can always go back and see what changed.
+
+*Imagine a magic filing cabinet: every document has an unbreakable seal. If someone tries to change a document, the seal breaks and everyone knows.*
 
 ---
 

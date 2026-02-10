@@ -96,6 +96,21 @@ Evaluation is not binary. It is scalar.
 *   **5**: One hallucinated fact or misattributed quote. **(Rejection Threshold)**
 *   **1**: Total fabrication.
 
+**MCard Citation Verification:** Accuracy scoring is backed by the **MCard Python library** (`mcard v0.1.46`). Every source document in the 10,000-file archive is an immutable MCard with a SHA-256 content hash. When an agent cites a source, it must include the MCard hash — a cryptographic proof that the cited content exists verbatim in the archive. The Auditor can verify any citation by calling `collection.get(hash)` and comparing the retrieved content against the claim. Hallucinated citations (hashes that don't resolve) are automatically detectable.
+
+```python
+from mcard import CardCollection
+
+archive = CardCollection(db_path="prologue.db")
+
+def verify_citation(claimed_hash: str, claimed_text: str) -> bool:
+    """Verify that a citation matches the actual MCard content."""
+    card = archive.get(claimed_hash)
+    if card is None:
+        return False  # Hash doesn't exist — hallucinated citation
+    return claimed_text in card.get_content(as_text=True)
+```
+
 ### 4.2 Dimension B: Depth (The "PhD" Score)
 *   **10**: Synthesis of >3 sources. Identification of second-order effects. Novel insight.
 *   **8**: Solid summary of sources. Good structure.

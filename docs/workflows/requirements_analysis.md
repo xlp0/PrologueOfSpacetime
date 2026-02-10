@@ -51,7 +51,40 @@ While the *Titan Quorum* provides the intelligence, **OpenClaw (The Brain Stem)*
 
 ## 3. Functional Requirements (FR)
 
-### 3.1 The Agentic Runtime (OpenClaw)
+### 3.1 The Data Backbone (MCard Python Library)
+The **MCard Python library** (`mcard v0.1.46`) provides the immutable, content-addressable storage layer that underpins the entire factory. Every file in the 10,000-document archive, every draft, every scorecard, and every published chapter is an **MCard**.
+
+**FR-00 (Content-Addressable Storage):** All data artifacts must be stored as MCards.
+*   **MCard:** Immutable container — `content` → SHA-256 `hash` + `g_time` (global timestamp).
+*   **CardCollection:** CRD-only persistent store (Create, Read, Delete — no UPDATE). Content is immutable.
+*   **Handles:** Stable names (e.g., `chapter/gravity/latest`) that point to the *current* MCard hash. Handles are mutable; content is not.
+*   **Handle History:** Full audit trail `(handle, previous_hash, current_hash, changed_at)` for every version change.
+*   **MCard RAG Engine:** Semantic vector search + FTS hybrid retrieval over the MCard collection, with Ollama embeddings (`nomic-embed-text`, 768d) and SQLite `sqlite-vec` KNN.
+*   **GraphRAG Engine:** Automatic entity extraction and knowledge graph construction from MCard content, enabling multi-hop reasoning across the archive.
+*   **Semantic Versioning:** Track how a handle's content evolves over time using embedding-based similarity deltas.
+
+```python
+from mcard import MCard, CardCollection
+from mcard.rag import MCardRAGEngine, GraphRAGEngine
+
+# Initialize the archive
+archive = CardCollection(db_path="prologue.db")
+
+# Ingest a source document
+doc = MCard("The speed of light is 299,792,458 m/s.")
+archive.add_with_handle(doc, "source/physics/speed_of_light")
+
+# Semantic search over the archive
+rag = MCardRAGEngine(archive)
+rag.index_all()
+results = rag.search("speed of light", k=5, hybrid=True)
+
+# GraphRAG: entity-aware multi-hop retrieval
+graph_rag = GraphRAGEngine(vector_db_path="prologue_vectors.db")
+response = graph_rag.query("How does the speed of light relate to relativity?")
+```
+
+### 3.2 The Agentic Runtime (OpenClaw)
 OpenClaw exposes the "Body" of the factory to the "Minds" of the Titans.
 
 **FR-01 (Tool Exposure):** OpenClaw must expose high-level MCP Tools:
@@ -63,7 +96,7 @@ OpenClaw exposes the "Body" of the factory to the "Minds" of the Titans.
 
 **FR-02 (State Management):** OpenClaw maintains the `consensus_state` in PostgreSQL/Redis. It knows *who* has voted and *what* the current tally is.
 
-### 3.2 The Titan Quorum (The High Council)
+### 3.3 The Titan Quorum (The High Council)
 All agents must be **Open Weights** and capable of local inference.
 
 | Seat | Model | Parameters | Role |
@@ -74,7 +107,7 @@ All agents must be **Open Weights** and capable of local inference.
 | **Agent D** | **Qwen-2.5 72B** | **72B** | **Nuance** |
 | **Agent E** | **Mistral 8x22B** | **176B** | **Creativity** |
 
-### 3.3 The Output Schema (The Product)
+### 3.4 The Output Schema (The Product)
 **FR-04:** The final Artifact is a **Machine-Verified JSON** signed by the OpenClaw cryptographic key (attesting to the vote tally).
 
 ---

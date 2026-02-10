@@ -96,11 +96,51 @@ The entire loop is managed by the OpenClaw Event Bus.
 
 ## 3. Data Schema: The Verified Artifact
 
+Every artifact produced by the Titan Quorum is persisted as an **MCard** — an immutable, content-addressable data container from the `mcard` Python library (`v0.1.46`). MCard provides the cryptographic backbone that makes citations verifiable and tamper-proof.
+
+### 3.1 MCard Python Library: Core Primitives
+
+| Primitive | Description | Prologue Role |
+| :--- | :--- | :--- |
+| **`MCard`** | Immutable container: `content` → SHA-256 `hash` + `g_time` | Every draft, critique, scorecard, and published chapter is an MCard |
+| **`CardCollection`** | CRD-only store (Create, Read, Delete — no UPDATE) | The 10,000-file archive + all generated artifacts |
+| **`Handle`** | Stable name → mutable pointer to the *current* MCard hash | `chapter/gravity/latest` always resolves to the winning draft |
+| **`handle_history`** | Version log: `(handle, previous_hash, current_hash, changed_at)` | Full audit trail of every chapter revision |
+
+**Key Properties:**
+*   **Content-Addressable:** Same content always produces the same hash. The Librarian can cite *exactly* which source it used.
+*   **Collision-Safe:** If two different contents produce the same hash, MCard auto-upgrades the hash algorithm.
+*   **Temporal Ordering:** `g_time` provides a global timestamp, so the Planner knows *when* each fact was ingested.
+
+```python
+from mcard import MCard, CardCollection
+
+# Store a verified chapter as an MCard
+collection = CardCollection(db_path="prologue.db")
+chapter = MCard("Loop quantum gravity proposes that spacetime is discrete...")
+hash_value = collection.add(chapter)
+
+# Retrieve by cryptographic hash (the verifiable citation)
+retrieved = collection.get(hash_value)
+print(retrieved.get_content(as_text=True))
+
+# Use handles for stable references
+collection.add_with_handle(chapter, "chapter/gravity/latest")
+current = collection.get_by_handle("chapter/gravity/latest")
+
+# Version history: track how a chapter evolves
+history = collection.get_handle_history("chapter/gravity/latest")
+```
+
+### 3.2 The Verified Artifact Schema
+
 ```json
 {
   "module_id": "MOD-101",
   "title": "Quantum Gravity",
   "orchestrator": "OpenClaw v2.1",
+  "mcard_hash": "sha256-a1b2c3d4e5f6...",
+  "mcard_handle": "chapter/quantum_gravity/latest",
   "consensus_metadata": {
     "average_score": 9.2,
     "scores": {"Llama-405B": 9, "DeepSeek-671B": 10, "Nemotron-340B": 8, "Qwen-72B": 9}
@@ -109,7 +149,8 @@ The entire loop is managed by the OpenClaw Event Bus.
     {
       "type": "concept_explanation",
       "text": "Loop quantum gravity proposes...",
-      "verified_by": ["Llama-405B", "DeepSeek-671B", "Qwen-72B"]
+      "verified_by": ["Llama-405B", "DeepSeek-671B", "Qwen-72B"],
+      "source_hashes": ["sha256-f7e8d9c0...", "sha256-b1a2c3d4..."]
     }
   ]
 }

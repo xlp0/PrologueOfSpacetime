@@ -9,12 +9,50 @@
 ## 1. Overview
 This registry defines the **Model Context Protocol (MCP)** tools exposed by OpenClaw. These tools allow the Titan Agents (Llama, DeepSeek, etc.) to interact with the database, the file system, and each other.
 
+### 1.1 The MCard Data Layer
+
+All skills operate on top of the **MCard Python library** (`mcard v0.1.46`), which provides the content-addressable storage backbone. Every document in the 10,000-file archive, every draft, critique, and published chapter is stored as an immutable **MCard** (content → SHA-256 hash + `g_time` timestamp).
+
+| MCard Component | Skill Layer Role |
+| :--- | :--- |
+| **`CardCollection`** | Persistent store for all documents and artifacts (CRD-only: Create, Read, Delete) |
+| **`MCard.hash`** | Cryptographic citation — agents reference sources by their exact content hash |
+| **`MCard.g_time`** | Temporal ordering — the Planner knows *when* each fact was ingested |
+| **`Handle`** | Stable name → current hash pointer (e.g., `chapter/gravity/latest`) |
+| **`handle_history`** | Full version audit trail for every handle update |
+| **`mcard.rag.MCardRAGEngine`** | Vector + FTS hybrid search engine powering `skill_qdrant_search` |
+| **`mcard.rag.GraphRAGEngine`** | Entity extraction + knowledge graph traversal for multi-hop reasoning |
+
+```python
+from mcard import MCard, CardCollection
+from mcard.rag import MCardRAGEngine, GraphRAGEngine
+
+# The archive: all 10,000 files as MCards
+archive = CardCollection(db_path="prologue.db")
+
+# RAG engine for semantic retrieval (backs skill_qdrant_search)
+rag = MCardRAGEngine(archive)
+rag.index_all()  # Index all MCards with vector embeddings
+
+# GraphRAG for entity-aware retrieval
+graph_rag = GraphRAGEngine(vector_db_path="prologue_vectors.db")
+```
+
 ---
 
 ## 2. Skill Registry
 
 ### 2.1 `skill_qdrant_search` (Retrieval)
 Allows the agent to query the Memory-Resident Vector Lake using Hybrid Search (Dense + Sparse).
+
+The retrieval layer is backed by the MCard RAG engine (`mcard.rag`), which provides:
+*   **Vector Search:** Ollama embeddings (`nomic-embed-text`, 768 dimensions) stored in SQLite with `sqlite-vec` KNN
+*   **Full-Text Search (FTS):** BM25 via SQLite FTS5 for keyword matching
+*   **Hybrid Search:** Combined vector + FTS with configurable weighting (default: 0.7 vector / 0.3 FTS)
+*   **GraphRAG:** Entity extraction and knowledge graph traversal for multi-hop reasoning across documents
+*   **Chunking:** Long documents are split into overlapping chunks (default: 1000 chars, 200 overlap) for precise retrieval
+
+Every search result includes the **source MCard hash** — a cryptographic proof of which document the fact came from. This is what makes the Fact-Checker's job possible: citations are verifiable, not hallucinated.
 
 *   **Permission:** Read-Only
 *   **Authorized Agents:** All (I-V)
@@ -49,6 +87,24 @@ Allows the agent to query the Memory-Resident Vector Lake using Hybrid Search (D
     "required": ["query"]
   }
 }
+```
+
+**MCard RAG Backing (Python):**
+```python
+from mcard.rag import MCardRAGEngine
+
+rag = MCardRAGEngine(archive)
+
+# Hybrid search: vector similarity + BM25 keyword matching
+results = rag.search("history of packet switching", k=5, hybrid=True)
+for r in results:
+    print(f"Hash: {r.hash}, Score: {r.score:.4f}, Chunk: {r.chunk_text[:80]}")
+
+# Full RAG query: search + LLM generation with cited sources
+response = rag.query("Explain the history of packet switching")
+print(response.answer)
+print(f"Sources: {response.sources}")  # List of MCard hashes
+print(f"Confidence: {response.confidence:.2f}")
 ```
 
 ### 2.2 `skill_submit_candidate` (Tournament Entry)
