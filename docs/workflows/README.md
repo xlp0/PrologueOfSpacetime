@@ -13,6 +13,19 @@ This document explains how our team of **5 AI Giants** works together to verify 
 
 ---
 
+## 🗺️ Documentation Map (Start Here)
+
+This README is the **High-Level Overview**. For specific technical details, please refer to the core documents:
+
+| Document | Purpose | Target Audience |
+| :--- | :--- | :--- |
+| **[Consensus Constitution](./consensus_constitution.md)** | **The Laws:** Voting rules, grading rubrics, and the "Runoff Protocol". | Architects & Policy Makers |
+| **[Execution Strategy](./execution_strategy.md)** | **The Mechanics:** Step-by-step workflow, phases, and data pipelines. | Engineers & Developers |
+| **[Requirements Analysis](./requirements_analysis.md)** | **The Logic:** Axioms, constraints (e.g., "No API Models"), and theory. | Systems Analysts |
+| **[MCP Skill Registry](./mcp_skill_registry.md)** | **The API:** JSON schemas for tools like `qdrant_search` and `cast_vote`. | Integration Specialists |
+
+---
+
 ## 1. The Team (The 5 Giants)
 We have a team of super-smart AIs. Think of them like a group project at school, but everyone is a genius.
 
