@@ -21,7 +21,12 @@ We apply observation to **System Health**.
 To find truth, we must go to it. We use **Drones and Rovers** to explore the "Unknown" (The Fog of War) and return with data.
 *   **[The Drone Explorer](drone_explorer.md)**: A guide to autonomous navigation, sensors, and surviving entropy.
 
-## 4. Observability Infrastructure
+### 4. Architectural Principle: Local-First Sovereignty
+The Sovereign Observer owns their own instrument. **Local-first** is the architectural principle that places the primary copy of data on the user's device—not the cloud. The server is a mirror, not the master.
+*   **[Local-First: Data Sovereignty as Ground Truth](local_first_sovereignty.md)**: CRDTs, sync engines, the seven ideals, and why PKC is a local-first system by design.
+*   **The Zero Trust Connection**: Trust no server to be available. Trust only your own device. Sync when you can; work always.
+
+## 5. Observability Infrastructure
 
 Systems must observe themselves to know their own state. Truth emerges from verified observation.
 
@@ -36,3 +41,4 @@ Systems must observe themselves to know their own state. Truth emerges from veri
 2.  **Exploration**: Operating autonomous agents (Drones) in hostile environments.
 3.  **Biosignatures**: Distinguishing "Signal" (Life) from "Noise" (Entropy).
 4.  **Consensus**: When two observers disagree, who is right? (The Byzantine Generals Problem).
+5.  **Data Sovereignty**: Understanding local-first architecture—why the Observer must own the instrument.
