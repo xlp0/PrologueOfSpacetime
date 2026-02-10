@@ -132,7 +132,23 @@ sequenceDiagram
 
 ---
 
-## 4. Why do we do this?
+## 4. The Circle of Life (How They Get Smarter)
+
+Just like students get report cards, our Giants get graded too.
+
+**The Rule:** Every 100 chapters, we look at the scores.
+*   **The Best Giant:** Gets a gold star.
+*   **The Worst Giant:** Is **Removed** (fired).
+
+**The Reincarnation:**
+When a Giant is removed, we create a new one.
+We tell the new Giant: *"Look at the Best Giant. Copy them. Don't make the mistakes of the Worst Giant."*
+
+This means the team gets smarter and smarter every single week!
+
+---
+
+## 5. Why do we do this?
 
 *   **24/7 Non-Stop:** Humans need to sleep. The Machine creates content all night long.
 *   **Perfect Memory:** It never forgets a fact from the **10,000 files**.

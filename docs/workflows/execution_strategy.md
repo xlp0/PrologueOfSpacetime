@@ -109,3 +109,35 @@ The entire loop is managed by the OpenClaw Event Bus.
 
 ### Phase 3: The "Titan Link" (Days 5+)
 *   **Goal:** End-to-end generation with grading.
+
+### Phase 4: The "Tribunal" (Evolution)
+*   **Goal:** Implement `skill_reincarnate` and automated prompt optimization.
+
+---
+
+## 5. The Soul Layer (Prompt Engineering)
+
+The "Soul" of an agent is its System Prompt + Few-Shot Examples. We treat Souls as **Code Artifacts**.
+
+### 5.1 Soul Directory Structure
+```text
+/souls
+  /active
+    agent_a_v4.md # Current Llama 3.1 Soul
+    agent_b_v2.md
+  /graveyard
+    agent_a_v1.md # Fired for hallucinations
+    agent_a_v2.md # Fired for low creativity
+  /templates
+    base_synthesis.md
+    base_critic.md
+```
+
+### 5.2 Skill: `skill_reincarnate`
+*   **Description:** "Generates a new System Prompt based on the 'Winner's Traits'."
+*   **Input:** `{"archived_agent_id": "string", "winning_agent_ids": ["string"]}`
+*   **Process:**
+    1.  Read `winning_agent_ids` recent drafts.
+    2.  Extract stylistic patterns (e.g., "Uses short sentences", "Cites frequently").
+    3.  Write `souls/active/agent_a_v5.md` with these patterns explicitly instructed.
+*   **Output:** `{"new_soul_path": "souls/active/agent_a_v5.md", "status": "born"}`

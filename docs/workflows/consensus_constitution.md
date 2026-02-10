@@ -90,4 +90,28 @@ def check_consensus(scorecards: List[dict]) -> bool:
     global_average = total_score / valid_votes
     
     return global_average >= 8.0
+
+---
+
+## 6. The Tribunal (The Soul Cycle)
+
+To prevent stagnation, the Quorum undergoes a **Darwinian Review** every $N=100$ cycles.
+
+### 6.1 The Performance Metric ($P_{score}$)
+For each agent $A_i$, we calculate a rolling performance score:
+$$ P(A_i) = \alpha \cdot \overline{AuthorScore} + \beta \cdot Correlation(Vote_i, Consensus) $$
+*   **AuthorScore**: Average grade received on drafts written by $A_i$.
+*   **Correlation**: How often $A_i$'s vote matched the final group decision (rewarding alignment with truth).
+
+### 6.2 The Termination Protocol
+1.  **Identify**: The agent with the lowest $P(A_i)$ is identified as the "Weakest Link".
+2.  **Archive**: The agent's current System Prompt (Soul) is archived to `souls/graveyard/`.
+3.  **Terminate**: The model instance is spun down.
+
+### 6.3 The Reincarnation (Soul Creation)
+A new agent ("The Novice") is created to fill the empty seat.
+1.  **Analyze**: OpenClaw analyzes the top 10 highest-scoring drafts from the previous cycle.
+2.  **Synthesize**: A new System Prompt is generated: *"You are an agent optimized to write like [Top Drafts]. You avoid the mistakes of [Archived Agent]."*
+3.  **Instantiate**: The new Soul is loaded into a fresh model instance.
+4.  **Probation**: The Novice has no voting power for the first 10 cycles.
 ```

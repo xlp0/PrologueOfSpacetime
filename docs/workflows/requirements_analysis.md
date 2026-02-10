@@ -35,6 +35,11 @@ $$ Truth(F) \iff \sum_{i=1}^{5} Verify(Agent_i, F) \ge 3 $$
     2.  **Depth:** Synthesis complexity (PhD-level vs. Wiki-summary).
     3.  **Pedagogy:** Teachability and clarity.
 
+### Axiom VI: The Law of Evolution (The Soul Cycle)
+*   **Constraint:** The Quorum is **Not Static**. Every $N$ cycles (The Tribunal), the lowest-performing agent is **Terminated**.
+*   **Soul Creation:** A new agent ("The Novice") is instantiated with a **New Soul** (Optimized System Prompt + Fine-Tuned Memory) based on the best-performing traits of the previous cycle.
+*   **Rationale:** To prevent stagnation and force continuous improvement via Darwinian selection.
+
 ---
 
 ## 3. Functional Requirements (FR)
