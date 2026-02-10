@@ -28,10 +28,15 @@ The Titans do not just "vote"; they submit a detailed **Scorecard** via MCP.
 *   **Input:** `{"query": "string", "limit": "integer"}`
 *   **Output:** `[{"text": "...", "source": "doc_id.md"}]`
 
-#### Skill 2: `skill_broadcast_draft`
-*   **Description:** "Publishes a structural outline or text draft to the Council."
-*   **Input:** `{"section_id": "string", "content": "markdown_string"}`
-*   **Output:** `{"draft_id": "uuid", "status": "pending_vote"}`
+#### Skill 2: `skill_submit_candidate`
+*   **Description:** "Submits a draft candidate to the Tournament Pool."
+*   **Input:** `{"topic": "Gravity", "content": "markdown_string"}`
+*   **Output:** `{"candidate_id": "uuid", "status": "awaiting_peer_review"}`
+
+#### Skill 3: `skill_peer_review`
+*   **Description:** "Critiques another agent's draft."
+*   **Input:** `{"target_candidate_id": "uuid", "feedback": "Your analogy is weak..."}`
+*   **Output:** `{"review_id": "uuid", "status": "sent"}`
 
 #### Skill 3: `skill_cast_vote` (The Evaluation)
 *   **Description:** "Submits a strict 0-10 scorecard on a specific draft."
@@ -63,16 +68,18 @@ The entire loop is managed by the OpenClaw Event Bus.
 4.  **Agents A-E:** Call `skill_qdrant_search`.
 5.  **OpenClaw:** Returns results.
 
-### Phase 3: The Consensus
-6.  **Agents A-E:** call `skill_broadcast_draft`.
-7.  **OpenClaw:** Aggregates drafts. Asks for Judgement.
+### Phase 3: The Parallel Sprint (Tournament)
+6.  **Agents A-E (Parallel):** Call `skill_submit_candidate`.
+7.  **OpenClaw:** Distributes all 5 drafts to all 5 agents.
 
-### Phase 4: The Ratification (Titan Judge)
-9.  **Agents A-E:** Call `skill_cast_vote` with Scorecards.
-10. **OpenClaw:** Calculates Weighted Average.
-    *   **Threshold:** Average > 8.0 AND Min 3 Votes.
-    *   If Pass: **PUBLISH**.
-    *   If Fail: **RETRY** with feedback from rationale.
+### Phase 4: The Peer Review & Iteration
+8.  **Agents A-E:** Call `skill_peer_review` on 4 peers.
+9.  **Agents A-E:** Read feedback, perform targeted research (`skill_qdrant_search`), and submit Final Candidate.
+
+### Phase 5: The Final Vote
+10. **Agents A-E:** Vote on the best Final Candidate.
+    *   **Winner:** Highest score wins.
+    *   **Publish:** The winning draft is written to `curriculum/completed/`.
 
 ---
 

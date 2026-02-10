@@ -15,8 +15,10 @@ While the *Titan Quorum* provides the intelligence, **OpenClaw (The Brain Stem)*
 
 ## 2. Axiomatic Constraints (Immutable Laws)
 
-### Axiom I: The Law of Quintic Consensus
-$$ Truth(F) \iff \sum_{i=1}^{5} Verify(Agent_i, F) \ge 3 $$
+### Axiom I: The Law of Parallel Competition
+*   **Constraint:** For every topic, **ALL 5 AGENTS must generate a unique draft simultaneously.**
+*   **The Iteration:** Agents must read each other's drafts, provide **Peer Feedback**, and then perform a second round of research ("The Refinement Loop") before the final vote.
+*   **Rationale:** "Survival of the Fittest." We select the best draft from 5 options, rather than polishing one mediocre draft.
 
 ### Axiom II: The Law of Titan Capability
 *   **Constraint:** **NO PRIMARY AGENT MAY HAVE FEWER THAN 300 BILLION PARAMETERS.**

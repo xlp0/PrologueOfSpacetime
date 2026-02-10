@@ -79,55 +79,52 @@ sequenceDiagram
 
 ---
 
-### Step 2: Writing the Story (Drafting)
-*The Giants talk to each other to write the perfect chapter.*
+### Step 2: The Tournament (Drafting & Review)
+*Instead of one writer, **ALL 5 Giants** write a story at the same time. Then they critique each other.*
 
 ```mermaid
 sequenceDiagram
     autonumber
     participant Boss as 🤖 The Boss
-    participant Plan as 📋 Planner (Llama)
-    participant Teach as 👨‍🏫 Teacher (Qwen)
-    participant Art as 🎨 Artist (Mistral)
-    participant Desk as 📝 The Writing Desk
+    participant Team as 🏛️ The 5 Giants
+    participant Pool as � The Draft Pool
 
-    Boss->>Plan: 1. "Write a chapter using ABC."
+    Boss->>Team: 1. "Write a chapter on Gravity! GO!"
     
-    Note right of Plan: Teamwork Time!
-    Plan->>Teach: 2. "Here is the plan. Make it simple (A & B)."
-    Teach->>Art: 3. "It is simple now. Make it fun (C)!"
-    Art->>Desk: 4. Writes the final draft
+    par Parallel Sprint
+        Team->>Pool: 2. Each Giant writes their own Draft (5 Drafts total)
+    end
     
-    Desk-->>Boss: 5. "Draft is ready for grading!"
+    Note right of Team: Peer Review Phase
+    
+    loop Critique & Fix
+        Team->>Pool: 3. Read other drafts
+        Team->>Team: 4. "Your draft is good, but check this fact..."
+        Team->>Team: 5. Fix mistakes & Improve
+    end
+    
+    Team-->>Boss: 6. "We are ready to vote!"
 ```
 
 ---
 
-### Step 3: The Test (Grading)
-*They check if the story fits the **Magic Cube** (CLM).*
+### Step 3: The Vote (Selection)
+*They vote on the Best Draft. The winner becomes the official chapter.*
 
 ```mermaid
 sequenceDiagram
     autonumber
     participant Boss as 🤖 The Boss
-    participant Draft as 📝 The Draft
-    participant Checker as 🛡️ Fact-Checker
-    participant All as 🏛️ All Giants
+    participant Drafts as 📝 The 5 Candidates
+    participant Team as 🏛️ The 5 Giants
 
-    Boss->>All: 1. "Vote on this draft!"
+    Boss->>Team: 1. "Pick the winner!"
     
-    par Blind Voting (They don't talk!)
-        Checker->>Draft: 2. Checks Facts (Accuracy)
-        All->>Draft: 3. Checks Depth (PhD Level?)
-        All->>Draft: 4. Checks Teaching (ABC Ruler)
-    end
+    Team->>Drafts: 2. Vote for the best one (Cannot vote for self)
     
-    Checker-->>Boss: 5. "I give it a 9/10."
-    All-->>Boss: 6. "I give it a 8." / "I give it a 9."
+    Note over Boss: Winner: Draft B (Score: 9.8)
     
-    Note over Boss: Average = 8.6 (PASS!)
-    
-    Boss->>Draft: 7. Publish to Prologue of Spacetime
+    Boss->>Drafts: 3. Publish Draft B to Prologue of Spacetime
 ```
 
 ---

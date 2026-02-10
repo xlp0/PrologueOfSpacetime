@@ -24,17 +24,25 @@ The Quorum consists of 5 distinct high-parameter **Open Weights** models.
 
 ---
 
-## 3. The Law of Quintic Consensus
+## 3. The Tournament Protocol (Parallel Competition)
 
-### 3.1 The Standard Vote
-For binary decisions (Pass/Fail), a proposal triggers a vote.
-$$ V_{result} = \sum_{i=1}^{5} v_i $$
-*   Where $v_i \in \{0, 1\}$ (Fail/Pass).
-*   **Threshold:** A motion passes iff $V_{result} \ge 3$.
+We do not iterate on a single draft. We select the fittest from a population of 5.
 
-### 3.2 The Weighted Tie-Breaker (Nuclear Option)
-In the event of a persistent deadlock (e.g., 2 Pass / 2 Fail / 1 Abstain) for >3 cycles:
-The **Chair (Llama 405B)** is granted a weighted vote ($w=1.5$) to force resolution.
+### 3.1 Stage 1: The Parallel Sprint
+All 5 Agents receive the prompt simultaneously.
+*   **Action:** Each agent generates a unique draft ($D_A, D_B, D_C, D_D, D_E$) independently.
+
+### 3.2 Stage 2: The Cross-Critique
+Each agent reads the other 4 drafts.
+*   **Action:** They generate a `Critique` for each peer: *"Your section on gravity is accurate, but your analogy is weak. See Draft C for a better example."*
+
+### 3.3 Stage 3: The Refinement
+Agents consume the peer feedback and perform **Targeted Research** to fix their weak points.
+*   **Action:** They generate their Final Candidate ($D'_i$).
+
+### 3.4 Stage 4: The Final Vote
+Agents vote on the **Best Candidate** (excluding their own).
+*   **Winner:** The draft with the highest geometric mean score becomes the **Official Chapter**.
 
 ---
 
