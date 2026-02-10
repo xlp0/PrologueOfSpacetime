@@ -1,119 +1,118 @@
-# The Brain Factory: Workflow Overview
+# The Story Machine: How We Write the Prologue of Spacetime
 
 **Welcome to the Engine Room.**
-This directory contains the technical blueprints for the "Prologue of Spacetime" curriculum engine.
 
-This document works as a **Simple Map** to help you understand how our 5 AI Giants (The Titan Quorum) work together to write the story.
+Imagine you have a **Giant Library with 10,000 books** (files).
+You want to write a new, amazing story based on these books.
+But you can't read them all yourself—it would take forever!
+
+So, we built a **Machine** to do it for us.
+This machine runs **24 hours a day, 7 days a week**. It never sleeps. It reads the books, writes the chapters, and checks its own work.
+
+This document explains how our team of **5 AI Giants** works together to write the *Prologue of Spacetime*.
 
 ---
 
-## 1. The Components (The Cast)
+## 1. The Team (The 5 Giants)
+We have a team of super-smart AIs. Think of them like a group project at school, but everyone is a genius.
 
-Imagine a factory with 5 workers and 1 manager.
-
-*   **The Manager (OpenClaw):** The "Brain Stem". It doesn't write the book; it tells the workers what to do. It handles the database, the files, and the voting.
-*   **The Workers (The Titan Quorum):** 5 super-intelligent AIs who do the actual work.
-
-| Worker Name | Real Identity | Job Description |
+| Who are they? | Their Real Name | What is their job? |
 | :--- | :--- | :--- |
-| **The Chair** | **Llama 405B** | Keeps the story organized. |
-| **The Miner** | **DeepSeek 671B** | Digs for facts in the database. |
-| **The Auditor** | **Nemotron 340B** | Checks the facts. |
-| **The Professor**| **Claude Opus** | Makes it easy to learn. |
-| **The Vizier** | **GPT-4o** | Add creative flair. |
+| **The Boss** | **OpenClaw** | The Brain Stem. It wakes everyone up and keeps the factory running 24/7. |
+| **The Planner** | **Llama 3.1** | Keeps the story organized. |
+| **The Librarian** | **DeepSeek V3** | Runs into the library to find facts in the **10,000 files**. |
+| **The Fact-Checker** | **Nemotron** | Makes sure nobody is lying. |
+| **The Teacher** | **Claude Opus** | Explains things simply (like this!). |
+| **The Artist** | **GPT-4o** | Adds creativity and flair. |
 
 ---
 
-## 2. The Process (The Diagrams)
+## 2. How It Works (The 3 Magic Steps)
 
-We break the workflow into 3 simple steps: **Research**, **Drafting**, and **Voting**.
+Every time we want to write a new part of the story, the Giants do these 3 steps.
 
-### Step 1: The Research Loop
-*The Manager gets an order and tells the Giants to start digging.*
+### Step 1: The Treasure Hunt (Research)
+*The Boss tells the Librarian to find the right pages in the 10,000 books.*
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant User as 👤 User
-    participant Manager as 🤖 OpenClaw
-    participant Quorum as 🏛️ The Titans
-    participant Database as 🗄️ Vector Lake
+    participant Boss as 🤖 The Boss (OpenClaw)
+    participant Giants as 🏛️ The Giants
+    participant Library as � The 10,000 Books
 
-    Note over User, Manager: "We need a chapter on Gravity."
-    User->>Manager: 1. Send Topic ("Gravity")
+    Note over Boss, Library: "We need to explain Gravity."
+    Boss->>Giants: 1. "Go find the truth about Gravity!"
     
-    Manager->>Quorum: 2. "Wake up! Search for Gravity facts."
-    
-    loop Deep Research
-        Quorum->>Database: 3. Search(Query="Newton vs Einstein")
-        Database-->>Quorum: 4. Returns 50 verified documents
-        Quorum->>Quorum: 5. Read & Analyze
+    loop Reading the Books
+        Giants->>Library: 2. Search for "Gravity"
+        Library-->>Giants: 3. Here are 50 pages from the 10,000 files
+        Giants->>Giants: 4. Read and Remember
     end
     
-    Quorum-->>Manager: 6. "We have the facts."
+    Giants-->>Boss: 5. "We have the facts!"
 ```
 
 ---
 
-### Step 2: The Drafting Loop
-*The Giants write the chapter using the facts they found.*
+### Step 2: Writing the Story (Drafting)
+*The Giants work together to write a first draft.*
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant Manager as 🤖 OpenClaw
-    participant Titans as 🏛️ The Titans
-    participant Staging as 📝 Draft Board
+    participant Boss as 🤖 The Boss
+    participant Giants as 🏛️ The Giants
+    participant Desk as 📝 The Writing Desk
 
-    Manager->>Titans: 1. "Write a draft based on these facts."
+    Boss->>Giants: 1. "Write a chapter using those facts."
     
-    Note right of Titans: The Titans think...
-    Titans->>Titans: 2. Synthesize & Structure
+    Note right of Giants: The Giants think hard...
+    Giants->>Giants: 2. Connect the dots
     
-    Titans->>Staging: 3. Write Draft #101
-    Staging-->>Manager: 4. Notify: "New Draft Ready"
-    
-    Manager->>Titans: 5. "Review Draft #101. Is it good?"
+    Giants->>Desk: 3. Put a Draft on the desk
+    Desk-->>Boss: 4. "Draft is ready for grading!"
 ```
 
 ---
 
-### Step 3: The Voting Loop (The Judgment)
-*This is the most important part. They grade each other's work.*
-
-**The Rule:** A draft needs an average score of **8/10** to pass.
+### Step 3: The Test (Grading)
+*This is the most important part. The Giants grade each other's work. If it's not perfect (8/10), they trash it and start over.*
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant Manager as 🤖 OpenClaw
-    participant Draft as 📝 Draft #101
-    participant Judges as ⚖️ The Judges (Titans)
-    participant Final as ✅ Completed Folder
+    participant Boss as 🤖 The Boss
+    participant Draft as 📝 The Draft
+    participant Judges as ⚖️ The Judges
+    participant Book as ✅ The Final Book
 
-    Manager->>Judges: 1. "Grade this draft (0-10)"
+    Boss->>Judges: 1. "Grade this work (0 to 10)."
     
-    par Blind Voting
-        Judges->>Judges: 2. Check Facts (Accuracy)
-        Judges->>Judges: 3. Check Depth (PhD Level?)
-        Judges->>Judges: 4. Check Teaching (Is it clear?)
+    par Blind Grading
+        Judges->>Judges: 2. Is it True? (Accuracy)
+        Judges->>Judges: 3. Is it Smart? (Depth)
+        Judges->>Judges: 4. Can a kid understand it? (Teaching)
     end
     
-    Judges-->>Manager: 5. Submit Scorecards (e.g., 9, 8, 9, 7, 9)
+    Judges-->>Boss: 5. Scores: 9, 8, 9, 7, 9
     
-    Note over Manager: Average = 8.4 (PASS!)
+    Note over Boss: Average = 8.4 (PASS!)
     
-    Manager->>Final: 6. Publish "Chapter_Gravity.md"
-    Manager-->>Draft: 7. Mark as APPROVED
+    Boss->>Book: 6. Add it to the Prologue!
 ```
 
 ---
 
-## 3. Where to go next?
+## 3. Why do we do this?
 
-Now that you understand the high-level flow, you can read the detailed technical documents:
+*   **24/7 Non-Stop:** Humans need to sleep. The Machine creates content all night long.
+*   **Perfect Memory:** It never forgets a fact from the **10,000 files**.
+*   **No Mistakes:** Because 5 Giants check the work, it's much safer than just 1 AI guessing.
 
-1.  **[The Constitution](consensus_constitution.md)**: The strict laws and math behind the voting.
-2.  **[The Skill Registry](mcp_skill_registry.md)**: The exact computer code (JSON) used to talk to the Manager.
-3.  **[Requirements Analysis](requirements_analysis.md)**: The deep "Why" and "What" of the system.
-4.  **[Execution Strategy](execution_strategy.md)**: The detailed "How" it runs on the servers.
+---
+
+### Want to see the complicated rules?
+If you are an engineer, check these files:
+*   **[The Constitution](consensus_constitution.md)** (The Rules)
+*   **[The Skill Code](mcp_skill_registry.md)** (The Code)
