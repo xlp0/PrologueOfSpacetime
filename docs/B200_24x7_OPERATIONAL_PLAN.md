@@ -11,7 +11,7 @@
 
 This document provides a comprehensive operational plan for maintaining **24x7 uptime** of the NVIDIA B200 GPU cluster deployed at Institut Teknologi Del. The B200 represents critical infrastructure for the Brain Factory implementation, powering local AI inference for the OpenClaw platform running on PKC-OS.
 
-**Uptime Target**: 99.9% (Maximum 8.76 hours downtime per year)
+**Uptime Target**: 99.9%
 
 ### Critical Success Factors
 
