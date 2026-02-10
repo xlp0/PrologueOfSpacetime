@@ -54,48 +54,51 @@ The Giants use this ruler to measure if a chapter is good enough to teach.
 The machine runs in a circle, over and over again, turning the **10,000 files** into the **Prologue of Spacetime**.
 
 ### Step 1: The Treasure Hunt (Research)
-*The Boss tells the Librarian to find the right files in the archive.*
+*The Librarian finds the facts and shares them with the Planner.*
 
 ```mermaid
 sequenceDiagram
     autonumber
     participant Boss as 🤖 The Boss (OpenClaw)
-    participant Giants as 🏛️ The Giants
+    participant Lib as 🔎 Librarian (DeepSeek)
+    participant Plan as 📋 Planner (Llama)
     participant Archive as 🗄️ The 10,000 Files
 
     Note over Boss, Archive: "We need a chapter on Gravity."
-    Boss->>Giants: 1. "Go find the truth about Gravity!"
+    Boss->>Lib: 1. "Go find the truth about Gravity!"
     
     loop Deep Research
-        Giants->>Archive: 2. Search for "Gravity"
-        Archive-->>Giants: 3. Here are 50 files (notes, code, history)
-        Giants->>Giants: 4. Read & Analyze using CLM
+        Lib->>Archive: 2. Search for "Gravity"
+        Archive-->>Lib: 3. Returns 50 files
+        Lib->>Lib: 4. Reads & Analyzes
     end
     
-    Giants-->>Boss: 5. "We have the facts!"
+    Lib->>Plan: 5. "Hey Planner! Here are the facts I found."
+    Plan-->>Boss: 6. "Facts received. Ready to write!"
 ```
 
 ---
 
 ### Step 2: Writing the Story (Drafting)
-*The Giants use the **ABC Ruler** to write the chapter.*
+*The Giants talk to each other to write the perfect chapter.*
 
 ```mermaid
 sequenceDiagram
     autonumber
     participant Boss as 🤖 The Boss
-    participant Giants as 🏛️ The Giants
+    participant Plan as 📋 Planner
+    participant Teach as 👨‍🏫 Teacher
+    participant Art as 🎨 Artist
     participant Desk as 📝 The Writing Desk
 
-    Boss->>Giants: 1. "Write a chapter using ABC."
+    Boss->>Plan: 1. "Write a chapter using ABC."
     
-    Note right of Giants: The Giants think hard...
-    Giants->>Giants: 2. A: Define it (Abstract)
-    Giants->>Giants: 3. B: Show it moving (Behavior)
-    Giants->>Giants: 4. C: Make it fun (Composition)
+    Note right of Plan: Teamwork Time!
+    Plan->>Teach: 2. "Here is the plan. Make it simple (A & B)."
+    Teach->>Art: 3. "It is simple now. Make it fun (C)!"
+    Art->>Desk: 4. Writes the final draft
     
-    Giants->>Desk: 5. Put a Draft on the desk
-    Desk-->>Boss: 6. "Draft is ready for grading!"
+    Desk-->>Boss: 5. "Draft is ready for grading!"
 ```
 
 ---
@@ -108,20 +111,23 @@ sequenceDiagram
     autonumber
     participant Boss as 🤖 The Boss
     participant Draft as 📝 The Draft
-    participant Judges as ⚖️ The Judges
-    participant Book as ✅ The Final Book
+    participant Checker as 🛡️ Fact-Checker
+    participant All as 🏛️ All Giants
 
-    Boss->>Judges: 1. "Grade this work (0 to 10)."
+    Boss->>All: 1. "Vote on this draft!"
     
-    par Blind Grading
-        Judges->>Judges: 2. Is the "Why" clear? (Abstract)
-        Judges->>Judges: 3. Is the "How" correct? (Concrete)
-        Judges->>Judges: 4. Is the "What" proven? (Balanced)
+    par Blind Voting (They don't talk!)
+        Checker->>Draft: 2. Checks Facts (Accuracy)
+        All->>Draft: 3. Checks Depth (PhD Level?)
+        All->>Draft: 4. Checks Teaching (ABC Ruler)
     end
     
-    Judges-->>Boss: 5. Final Score: 9/10 (Pass!)
+    Checker-->>Boss: 5. "I give it a 9/10."
+    All-->>Boss: 6. "I give it a 8." / "I give it a 9."
     
-    Boss->>Book: 6. Publish to Prologue of Spacetime
+    Note over Boss: Average = 8.6 (PASS!)
+    
+    Boss->>Draft: 7. Publish to Prologue of Spacetime
 ```
 
 ---
