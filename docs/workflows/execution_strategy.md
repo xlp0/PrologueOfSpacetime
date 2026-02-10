@@ -18,8 +18,8 @@ The Titans do not just "vote"; they submit a detailed **Scorecard** via MCP.
 | **Agent A** | **Llama 3.1 405B** | 405B | Synthesis |
 | **Agent B** | **DeepSeek-V3** | 671B | Retrieval |
 | **Agent C** | **Nemotron-4 340B** | 340B | Verification |
-| **Agent D** | **Claude 3.5 Opus** | >500B | Nuance |
-| **Agent E** | **GPT-4o** | >1T | Creativity |
+| **Agent D** | **Qwen-2.5 72B** | 72B | Nuance |
+| **Agent E** | **Mistral 8x22B** | 176B | Creativity |
 
 ### 1.2 The Brain Stem (MCP Skill Definitions)
 
@@ -85,13 +85,13 @@ The entire loop is managed by the OpenClaw Event Bus.
   "orchestrator": "OpenClaw v2.1",
   "consensus_metadata": {
     "average_score": 9.2,
-    "scores": {"Llama-405B": 9, "DeepSeek-671B": 10, "Nemotron-340B": 8, "Claude-Opus": 9}
+    "scores": {"Llama-405B": 9, "DeepSeek-671B": 10, "Nemotron-340B": 8, "Qwen-72B": 9}
   },
   "content_blocks": [
     {
       "type": "concept_explanation",
       "text": "Loop quantum gravity proposes...",
-      "verified_by": ["Llama-405B", "DeepSeek-671B", "Claude-Opus"]
+      "verified_by": ["Llama-405B", "DeepSeek-671B", "Qwen-72B"]
     }
   ]
 }

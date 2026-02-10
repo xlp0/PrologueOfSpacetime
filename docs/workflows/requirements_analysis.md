@@ -40,6 +40,10 @@ $$ Truth(F) \iff \sum_{i=1}^{5} Verify(Agent_i, F) \ge 3 $$
 *   **Soul Creation:** A new agent ("The Novice") is instantiated with a **New Soul** (Optimized System Prompt + Fine-Tuned Memory) based on the best-performing traits of the previous cycle.
 *   **Rationale:** To prevent stagnation and force continuous improvement via Darwinian selection.
 
+### Axiom VII: The Law of Sovereignty (Self-Hosting)
+*   **Constraint:** **NO PROPRIETARY API MODELS.** All agents must be capable of running on local hardware (or self-hosted clouds).
+*   **rationale:** If we cannot host it, we do not own the intelligence. We are building a "Brain Factory," not renting one.
+
 ---
 
 ## 3. Functional Requirements (FR)
@@ -55,15 +59,15 @@ OpenClaw exposes the "Body" of the factory to the "Minds" of the Titans.
 **FR-02 (State Management):** OpenClaw maintains the `consensus_state` in PostgreSQL/Redis. It knows *who* has voted and *what* the current tally is.
 
 ### 3.2 The Titan Quorum (The High Council)
-All agents perform all tasks via the OpenClaw Tools.
+All agents must be **Open Weights** and capable of local inference.
 
 | Seat | Model | Parameters | Role |
 | :--- | :--- | :--- | :--- |
 | **Agent A** | **Llama 3.1 405B** | **405B** | **Synthesis** |
 | **Agent B** | **DeepSeek-V3** | **671B** | **Retrieval** |
 | **Agent C** | **Nemotron-4 340B** | **340B** | **Verification** |
-| **Agent D** | **Claude 3.5 Opus** | **>500B** | **Nuance** |
-| **Agent E** | **GPT-4o** | **>1T** | **Creativity** |
+| **Agent D** | **Qwen-2.5 72B** | **72B** | **Nuance** |
+| **Agent E** | **Mistral 8x22B** | **176B** | **Creativity** |
 
 ### 3.3 The Output Schema (The Product)
 **FR-04:** The final Artifact is a **Machine-Verified JSON** signed by the OpenClaw cryptographic key (attesting to the vote tally).

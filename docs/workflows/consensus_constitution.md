@@ -12,15 +12,15 @@ This document defines the mathematical and logical frameworks governing the **Ti
 ---
 
 ## 2. The Quorum Members
-The Quorum consists of 5 distinct high-parameter models.
+The Quorum consists of 5 distinct high-parameter **Open Weights** models.
 
 | Seat | Role | Model | Bias |
 | :--- | :--- | :--- | :--- |
 | **I** | **Chair** | Llama 3.1 405B | Structural Integrity |
 | **II** | **Miner** | DeepSeek-V3 671B | Technical Precision |
 | **III** | **Auditor** | Nemotron-4 340B | Compliance/Safety |
-| **IV** | **Professor** | Claude 3.5 Opus | Empathy/Nuance |
-| **V** | **Vizier** | GPT-4o | Creativity/Lateral Thinking |
+| **IV** | **Professor** | Qwen-2.5 72B | Empathy/Nuance |
+| **V** | **Vizier** | Mistral 8x22B | Creativity/Lateral Thinking |
 
 ---
 

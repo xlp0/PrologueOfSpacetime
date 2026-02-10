@@ -22,8 +22,8 @@ We have a team of super-smart AIs. Think of them like a group project at school,
 | **The Planner** | **Llama 3.1** | Keeps the story organized. |
 | **The Librarian** | **DeepSeek V3** | Runs into the archive to find facts in the **10,000 files**. |
 | **The Fact-Checker** | **Nemotron** | Makes sure nobody is lying. |
-| **The Teacher** | **Claude Opus** | Explains things simply (using the ABC Ruler). |
-| **The Artist** | **GPT-4o** | Adds creativity and flair. |
+| **The Teacher** | **Qwen-2.5** | Explains things simply (using the ABC Ruler). |
+| **The Artist** | **Mistral** | Adds creativity and flair. |
 
 ---
 
