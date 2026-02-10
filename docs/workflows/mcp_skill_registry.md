@@ -46,8 +46,8 @@ Allows the agent to query the Memory-Resident Vector Lake.
 }
 ```
 
-### 2.2 `skill_broadcast_draft` (Synthesis)
-Allows an agent to submit a curriculum unit draft for review.
+### 2.2 `skill_submit_candidate` (Tournament Entry)
+Allows an agent to submit a draft candidate to the Parallel Sprint.
 
 *   **Permission:** Write (Staging)
 *   **Authorized Agents:** All (I-V)
@@ -55,25 +55,65 @@ Allows an agent to submit a curriculum unit draft for review.
 **JSON Schema:**
 ```json
 {
-  "name": "skill_broadcast_draft",
-  "description": "Submits a drafted section to the Quorum for peer review.",
+  "name": "skill_submit_candidate",
+  "description": "Submits a draft candidate to the Tournament Pool.",
   "inputSchema": {
     "type": "object",
     "properties": {
       "topic_id": { "type": "string" },
-      "section_title": { "type": "string" },
-      "markdown_content": { 
-        "type": "string",
-        "description": "The full text content with citations."
-      }
+      "markdown_content": { "type": "string" }
     },
     "required": ["topic_id", "markdown_content"]
   }
 }
 ```
 
-### 2.3 `skill_cast_vote` (Evaluation)
-Allows an agent to grade a peer's draft using the Titan Rubric.
+### 2.3 `skill_peer_review` (Critique)
+Allows an agent to critique a peer's candidate.
+
+*   **Permission:** Read/Write (Critique Ledger)
+*   **Authorized Agents:** All (I-V)
+
+**JSON Schema:**
+```json
+{
+  "name": "skill_peer_review",
+  "description": "Submits structured feedback on a peer's draft.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "target_candidate_id": { "type": "string" },
+      "feedback": { "type": "string", "description": "Constructive criticism." }
+    },
+    "required": ["target_candidate_id", "feedback"]
+  }
+}
+```
+
+### 2.4 `skill_submit_fusion` (Tie-Breaker)
+Allows 2 agents to submit a joint draft during a Runoff.
+
+*   **Permission:** Write (Fusion Layer)
+*   **Authorized Agents:** All (I-V)
+
+**JSON Schema:**
+```json
+{
+  "name": "skill_submit_fusion",
+  "description": "Submits a co-authored draft from two agents.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "collaborator_ids": { "type": "array", "items": { "type": "string" } },
+      "markdown_content": { "type": "string" }
+    },
+    "required": ["collaborator_ids", "markdown_content"]
+  }
+}
+```
+
+### 2.5 `skill_cast_vote` (Evaluation)
+Allows an agent to grade a peer's Final Candidate.
 
 *   **Permission:** Write (Consensus Ledger)
 *   **Authorized Agents:** All (I-V)
@@ -96,12 +136,28 @@ Allows an agent to grade a peer's draft using the Titan Rubric.
         },
         "required": ["accuracy", "depth", "pedagogy"]
       },
-      "rationale": {
-        "type": "string",
-        "description": "Chain-of-Thought explanation for the given scores."
-      }
+      "rationale": { "type": "string" }
     },
     "required": ["target_draft_id", "scores", "rationale"]
+  }
+}
+```
+
+### 2.6 `skill_synthesize_soul` (Evolution)
+Allows the Council of Survivors to draft a new System Prompt.
+
+**JSON Schema:**
+```json
+{
+  "name": "skill_synthesize_soul",
+  "description": "Collaboratively writes a new agent persona.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "goal": { "type": "string" },
+      "system_prompt_content": { "type": "string" }
+    },
+    "required": ["system_prompt_content"]
   }
 }
 ```

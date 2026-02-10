@@ -38,7 +38,12 @@ The Titans do not just "vote"; they submit a detailed **Scorecard** via MCP.
 *   **Input:** `{"target_candidate_id": "uuid", "feedback": "Your analogy is weak..."}`
 *   **Output:** `{"review_id": "uuid", "status": "sent"}`
 
-#### Skill 3: `skill_cast_vote` (The Evaluation)
+#### Skill 4: `skill_submit_fusion` (Tie-Breaker)
+*   **Description:** "Submits a co-authored draft from two agents."
+*   **Input:** `{"collaborator_ids": ["Agent A", "Agent B"], "markdown_content": "..."}`
+*   **Output:** `{"fusion_id": "uuid", "status": "pending_ratification"}`
+
+#### Skill 5: `skill_cast_vote` (The Evaluation)
 *   **Description:** "Submits a strict 0-10 scorecard on a specific draft."
 *   **Input Schema:**
 ```json

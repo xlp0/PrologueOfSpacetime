@@ -55,9 +55,11 @@ While the *Titan Quorum* provides the intelligence, **OpenClaw (The Brain Stem)*
 OpenClaw exposes the "Body" of the factory to the "Minds" of the Titans.
 
 **FR-01 (Tool Exposure):** OpenClaw must expose high-level MCP Tools:
-*   `read_vector_lake(query)`
-*   `propose_draft(content)`
-*   `commit_vote(target_id, verdict)`
+*   `skill_qdrant_search(query)`
+*   `skill_submit_candidate(content)`
+*   `skill_peer_review(target, feedback)`
+*   `skill_submit_fusion(collaborators, content)`
+*   `skill_cast_vote(target, verdict)`
 
 **FR-02 (State Management):** OpenClaw maintains the `consensus_state` in PostgreSQL/Redis. It knows *who* has voted and *what* the current tally is.
 
@@ -99,12 +101,19 @@ def orchestrate_cycle(max_retries=3):
 ## 5. System Sequence Diagram (The OpenClaw Loop)
 
 1.  **Event (t=0):** OpenClaw receives `MQTT: /factory/order {topic: "Gravity"}`.
-2.  **Dispatch (t=1):** OpenClaw calls the 5 Titans via API.
-3.  **Action (t=2):**
-    *   Titans call `skill_qdrant_search`.
-    *   OpenClaw executes search and returns JSON.
-4.  **Consensus (t=3):**
-    *   Titans call `skill_cast_vote`.
+## 5. System Sequence Diagram (The OpenClaw Loop)
+
+1.  **Event (t=0):** OpenClaw receives `MQTT: /factory/order {topic: "Gravity"}`.
+2.  **Dispatch (t=1):** OpenClaw instantiates 5 Titans.
+3.  **Sprint (t=2):**
+    *   Titans call `skill_submit_candidate`.
+    *   OpenClaw broadcasts drafts to all peers.
+4.  **Critique (t=3):**
+    *   Titans call `skill_peer_review`.
+    *   Titans call `skill_qdrant_search` (Refinement).
+5.  **Consensus (t=4):**
+    *   Titans call `skill_cast_vote` on Final Candidates.
     *   OpenClaw tallies votes.
-5.  **Publish (t=4):**
-    *   If Pass: OpenClaw writes to `curriculum/completed/gravity.md`.
+6.  **Resolution (t=5):**
+    *   **Winner Selected:** Published to `curriculum/completed/`.
+    *   **Tie Detected:** Trigger `skill_submit_fusion`.
