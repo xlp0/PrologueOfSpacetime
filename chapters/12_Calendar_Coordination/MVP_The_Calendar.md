@@ -48,4 +48,12 @@ $$ \text{Consensus} = \frac{\mathbf{A} \cdot \mathbf{B}}{||\mathbf{A}|| ||\mathb
 *   **Lessig's Governance**: We implement **Chronomorphism** (Architecture + Norms, acting *before* the fact) and **Toposmorphism** (Law + Market, acting *after* the fact) to guide the society along the optimal path with minimal coercion.
 *   **Infinite Recursion**: The geometric series $(1-X^N)^{-1}$ represents the promise of **Future Energy**. We plant seeds today (Investment) because we trust the cycle will bring rain tomorrow (Return).
 
+## 5. Operational Flow (Faster Interactive Learning)
+How does **The Calendar** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster Interactive Learning|Flow State]]**?
+
+*   **Fluid Consensus (Local-first)**: We eliminate "Blocker Meetings" (High Latency). Agents push their updates asynchronously, and the Calendar "Merges" them via **Vector Alignment**. Consensus happens in the background, allowing humans to focus on the work, not the scheduling of the work.
+*   **Rolling Wave Planning (Empty Schema)**: The Roadmap is not a fossilized Gantt Chart. It is a living, breathing document. We plan the immediate cycle in high fidelity and leave the distant future as "Low-Res Rhetoric," allowing the strategy to adapt to new information without bureaucratic rewrite.
+
+> **"He who holds the Calendar holds the Mind. Sovereignty is the ability to align your Energy Expenditure with the Universal Clock."**
+
 > **"He who holds the Calendar holds the Mind. Sovereignty is the ability to align your Energy Expenditure with the Universal Clock."**

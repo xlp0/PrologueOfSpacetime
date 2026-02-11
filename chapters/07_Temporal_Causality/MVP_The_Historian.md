@@ -48,4 +48,12 @@ $$ \text{History}(t) = \text{Genesis} + \sum \frac{f^{(k)}(0)}{k!} t^k $$
 *   **Entropic Pruning**: By **Landauer's Principle**, erasing history generates heat. We aggressively "Compress" history into **Snapshots** (Checkpoints) and archive old logs to "Cold Storage."
 *   **Boundedness**: We only keep the terms ($t^k$) that are within the **Region of Relevance**. A Sovereign Brain does not clutter its RAM with the past; it keeps only the **Integral** (The Accumulated Wisdom).
 
+## 5. Operational Flow (Faster Interactive Learning)
+How does **The Historian** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster Interactive Learning|Flow State]]**?
+
+*   **Instant Replay (Local-first)**: Because the entire Event Log is local, "Time Travel" (Undo/Redo) is instantaneous (**<10ms**). The user can "Scrub" through history to see exactly where a bug was introduced, turning debugging into a fluid investigation.
+*   **Branching Reality (Empty Schema)**: Time is not a rigid line. The user can spawn "Parallel Universes" (Local Branches) to test hazardous ideas without fear of breaking the main timeline. This encourages "Counterfactual Play" (What if I delete this?).
+
+> **"To debug is to exercise power over time. The Sovereign remembers what matters and forgets what is noise."**
+
 > **"To debug is to exercise power over time. The Sovereign remembers what matters and forgets what is noise."**

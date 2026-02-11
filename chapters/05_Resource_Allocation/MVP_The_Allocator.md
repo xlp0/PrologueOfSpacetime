@@ -49,4 +49,12 @@ $$ \text{Reality} = \sum c_k \cdot \phi_k $$
 *   **Laplace Damping ($\sigma$)**: We apply a **Cost Filter** $e^{-\sigma t}$. Every coefficient has a thermodynamic price.
 *   **Bounded Rationality**: We maximize the "Signal Power" ($\sum c_k^2$) subject to the Energy Constraint ($\sum c_k \cdot \text{Cost}_k \le E$). This implies we must "damp" (set to zero) any truth that is too expensive to maintain.
 
+## 5. Operational Flow (Faster Interactive Learning)
+How does **The Allocator** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster Interactive Learning|Flow State]]**?
+
+*   **Predictive Pre-fetching (Local-first)**: By analyzing the user's "Trajectory" (Flow), the Allocator pre-fetches data and warms up models *before* they are requested. The resource is there when the user reaches for it (Zero Wait).
+*   **Fluid Scaling (Empty Schema)**: We do not force users to configure "Instance Types" or "Memory Limits." The Allocator dynamically adjusts resources based on the intensity of the "Game State," removing administrative friction from the creative process.
+
+> **"A Sovereign brain does not waste energy. To Allocate is to draw the boundary between the Possible and the Real."**
+
 > **"A Sovereign brain does not waste energy. To Allocate is to draw the boundary between the Possible and the Real."**

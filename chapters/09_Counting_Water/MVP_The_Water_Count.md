@@ -49,4 +49,12 @@ $$ \text{Correctness} = \text{Integrability} + \text{Boundedness} $$
     *   **String(N)**: "I dedicate variable energy bounded by $N$."
 *   **Curry-Howard Economics**: A Type is a Promise; a Program is the Proof. A Schema is a contract that guarantees the program will terminate (converge) within the energy budget.
 
+## 5. Operational Flow (Faster Interactive Learning)
+How does **The Schema** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster Interactive Learning|Flow State]]**?
+
+*   **Gradual Typing (Empty Schema)**: We do not demand "Strict Schemas" on Day 1. Ideas start as "Dynamic Types" (JSON blobs) to capture Rhythm. As the project matures, the user "hardens" the schema into "Static Types" (Strict Structs). The system supports this smooth evolution from Sketch to Standard.
+*   **Instant Validation (Local-first)**: The "Type Checker" runs locally in the background, providing **<16ms** feedback on correctness. The user sees errors as "Red Squiggles" instantly, allowing them to fix grammar without breaking the train of thought.
+
+> **"If you define the Schema, you define the Cost Structure. Sovereignty is the right to reject data you cannot afford to process."**
+
 > **"If you define the Schema, you define the Cost Structure. Sovereignty is the right to reject data you cannot afford to process."**
