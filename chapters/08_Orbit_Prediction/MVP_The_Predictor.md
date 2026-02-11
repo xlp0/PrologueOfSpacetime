@@ -55,5 +55,3 @@ How does **The Predictor** sustain **[[Hub/Theory/Integration/Flow in PKC - Fast
 *   **Hypothesis Play (Empty Schema)**: We encourage "What If?" exploration. The user can fork the "World State" to test radical scenarios without breaking the production model. The "Future" is malleable until it is committed.
 
 > **"Sovereignty is not knowing everything; it is knowing enough to make the next move safely."**
-
-> **"Sovereignty is not knowing everything; it is knowing enough to make the next move safely."**

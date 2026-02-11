@@ -4,10 +4,10 @@
 **Curriculum Column**: Astrobiology (Logic Phase)
 
 ## 1. The Philosophy of Skills
-In **Chapter 07**, the Node learned to speak (MQTT). Now, in **Chapter 08**, it learns to **Do**. This is where all three roles of the **Miner-Coder-Trader Triad** converge in a single execution cycle:
-*   **The Brain**: The Large Language Model (DeepSeek/Gemini). The Miner validates the historical data (sensor readings) that feeds the prediction.
-*   **The Hands**: The MCP Server (OpenClaw). The Coder implements the skill definitions—the **PCard** transformations that convert intent into action.
-*   **The Delivery**: The MQTT command published back to the swarm. The Trader delivers the prediction to the actuators that execute the correction.
+In **Chapter 07**, the Node learned to speak (MQTT). Now, in **Chapter 08**, it learns to **Do**. As the chapter README describes, this is where the full **Miner-Coder-Trader Triad** converges. Here we see that convergence in concrete components:
+*   **The Brain**: The Large Language Model (DeepSeek/Gemini) — ingests validated sensor data.
+*   **The Hands**: The MCP Server (OpenClaw) — implements skill definitions as **PCard** transformations.
+*   **The Delivery**: The MQTT command published back to the swarm — closes the action loop.
 
 ## 2. Technical Implementation: MCP (Model Context Protocol)
 

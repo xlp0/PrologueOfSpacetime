@@ -55,5 +55,3 @@ How does **The Calendar** sustain **[[Hub/Theory/Integration/Flow in PKC - Faste
 *   **Rolling Wave Planning (Empty Schema)**: The Roadmap is not a fossilized Gantt Chart. It is a living, breathing document. We plan the immediate cycle in high fidelity and leave the distant future as "Low-Res Rhetoric," allowing the strategy to adapt to new information without bureaucratic rewrite.
 
 > **"He who holds the Calendar holds the Mind. Sovereignty is the ability to align your Energy Expenditure with the Universal Clock."**
-
-> **"He who holds the Calendar holds the Mind. Sovereignty is the ability to align your Energy Expenditure with the Universal Clock."**

@@ -55,5 +55,3 @@ How does **The Ceremony** sustain **[[Hub/Theory/Integration/Flow in PKC - Faste
 *   **Instant Pipelines (Local-first)**: We move the "Build Loop" to the Local Device. Instead of waiting 10 minutes for a cloud CI runner, the user gets feedback in **<1s**. The "Ritual of Verification" spans the gap between thought and confirmation instantly.
 
 > **"Discipline is freedom. The Protocol liberates the mind from the energy cost of deciding 'What next?'"**
-
-> **"Discipline is freedom. The Protocol liberates the mind from the energy cost of deciding 'What next?'"**

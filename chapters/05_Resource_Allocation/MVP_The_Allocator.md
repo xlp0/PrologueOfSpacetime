@@ -56,5 +56,3 @@ How does **The Allocator** sustain **[[Hub/Theory/Integration/Flow in PKC - Fast
 *   **Fluid Scaling (Empty Schema)**: We do not force users to configure "Instance Types" or "Memory Limits." The Allocator dynamically adjusts resources based on the intensity of the "Game State," removing administrative friction from the creative process.
 
 > **"A Sovereign brain does not waste energy. To Allocate is to draw the boundary between the Possible and the Real."**
-
-> **"A Sovereign brain does not waste energy. To Allocate is to draw the boundary between the Possible and the Real."**

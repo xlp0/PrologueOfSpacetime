@@ -55,5 +55,3 @@ How does **The Topology** sustain **[[Hub/Theory/Integration/Flow in PKC - Faste
 *   **Local-First Gravity**: The Topology inherently minimizes "Time of Flight." Data gravitates to the Edge (Local LAN), ensuring that high-bandwidth collaborations (Video, VR) remain **Latencyless** and **Cost-Free**, regardless of the global internet status.
 
 > **"A Sovereign Nation must own its wires. The Topology is the physical manifestation of the Energy Budget."**
-
-> **"A Sovereign Nation must own its wires. The Topology is the physical manifestation of the Energy Budget."**

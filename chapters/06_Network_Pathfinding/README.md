@@ -24,9 +24,6 @@ This chapter serves as the **Logic** phase of the Geometry column. It deals with
  *   **Universal Grammar**: A path is the decomposition of a destination ($f$) into a series of steps ($\phi_k$). We seek the **Least Action Path** (Hamilton's Principle).
 ## The Problem of the Loop
 
-
-## The Problem of the Loop
-
 The naive approach to finding a path through a problem space is an infinite loop: `Prompt -> Tool -> Context -> Repeat`. This is fragile. As the context window fills, reliability degrades.
 
 > **Video Resource:** [12-Factor Agents: Patterns of reliable LLM applications](https://www.youtube.com/watch?v=8kMaTybvDUw)

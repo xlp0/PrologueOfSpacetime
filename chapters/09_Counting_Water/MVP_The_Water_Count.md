@@ -56,5 +56,3 @@ How does **The Schema** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster 
 *   **Instant Validation (Local-first)**: The "Type Checker" runs locally in the background, providing **<16ms** feedback on correctness. The user sees errors as "Red Squiggles" instantly, allowing them to fix grammar without breaking the train of thought.
 
 > **"If you define the Schema, you define the Cost Structure. Sovereignty is the right to reject data you cannot afford to process."**
-
-> **"If you define the Schema, you define the Cost Structure. Sovereignty is the right to reject data you cannot afford to process."**

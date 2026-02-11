@@ -56,5 +56,3 @@ How does **The Navigator** sustain **[[Hub/Theory/Integration/Flow in PKC - Fast
 *   **Adaptive Paths (Empty Schema)**: The network topology is fluid. If a primary link fails, the Navigator instantly re-routes via the Mesh (P2P) without interrupting the user's session. The "Path" adapts to the "Goal," not the other way around.
 
 > **"The Navigator turns 'Distance' into 'Latency'. A well-routed network is a hyper-connected brain that conserves its calories."**
-
-> **"The Navigator turns 'Distance' into 'Latency'. A well-routed network is a hyper-connected brain that conserves its calories."**

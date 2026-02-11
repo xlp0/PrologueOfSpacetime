@@ -59,5 +59,3 @@ How does **The Shape** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster I
 *   **Spatial Fluidity (Local-first)**: Navigating the Knowledge Graph (jumping from Node A to Node B) takes **<10ms**. The user "flies" through the data structure without network loading screens, maintaining the illusion of a continuous cognitive space.
 
 > **"The Shape of the network determines the Shape of the society. We build Bounded Geometries to ensure Distributed Power."**
-
-> **"The Shape of the network determines the Shape of the society. We build Bounded Geometries to ensure Distributed Power."**

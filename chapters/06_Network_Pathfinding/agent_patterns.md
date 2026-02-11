@@ -1,6 +1,6 @@
 # Agent Design Patterns: The 12-Factor Approach
 
-Based on the [HumanLayer Presentation](https://www.youtube.com/watch?v=8kMaTybvDUw), these patterns apply the rigor of "12-Factor Apps" to LLM Agents. Following Carliss Baldwin's **Modularity** framework, each pattern enforces the same principles that make modular clusters work: information hiding, interface stability, and independent deployment.
+Based on the [HumanLayer Presentation](https://www.youtube.com/watch?v=8kMaTybvDUw), these patterns apply the rigor of "12-Factor Apps" to LLM Agents, operationalizing the chapter's **Modularity** principle through concrete engineering constraints.
 
 ## 1. Tool Use as Code
 

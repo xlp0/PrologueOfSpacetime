@@ -55,5 +55,3 @@ How does **The Historian** sustain **[[Hub/Theory/Integration/Flow in PKC - Fast
 *   **Branching Reality (Empty Schema)**: Time is not a rigid line. The user can spawn "Parallel Universes" (Local Branches) to test hazardous ideas without fear of breaking the main timeline. This encourages "Counterfactual Play" (What if I delete this?).
 
 > **"To debug is to exercise power over time. The Sovereign remembers what matters and forgets what is noise."**
-
-> **"To debug is to exercise power over time. The Sovereign remembers what matters and forgets what is noise."**

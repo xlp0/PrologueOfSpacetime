@@ -59,5 +59,3 @@ How does **The Observer** sustain **[[Hub/Theory/Integration/Flow in PKC - Faste
 *   **Cognitive Clarity (Empty Schema)**: Verification focuses on **Content** (Logic), not just **Form** (Schema). The user isn't blocked by rigid "formatting errors" while trying to express a valid idea. The system adapts to verify what is *there*.
 
 > **"The Observer implies the Observed. Sovereignty is the ability to Pay for the Verification of your own reality."**
-
-> **"The Observer implies the Observed. Sovereignty is the ability to Pay for the Verification of your own reality."**
