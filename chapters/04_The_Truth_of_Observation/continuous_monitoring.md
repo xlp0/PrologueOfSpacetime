@@ -4,7 +4,7 @@
 
 ## The Principle
 
-Consciousness requires self-observation. The system watches itself continuously, detecting anomalies before they cascade into failures. This is observability as a form of system consciousness.
+Consciousness requires self-observation. The system watches itself continuously, detecting anomalies before they cascade into failures. This is observability as a form of system consciousness—what the **Revived Quadrivium** calls **Astrobiology**: the recognition that awareness is scale-free, present from cellular organisms to distributed infrastructure.
 
 ### GASing Perspective: Asyik (Fun/Relevant)
 

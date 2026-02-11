@@ -31,3 +31,7 @@ This architecture fundamentally alters the "Resource Allocation" of the model:
 *   **RAM is Cheap**: We can store 100 Billion parameters in system RAM for pennies compared to GPU VRAM.
 *   **Effective Depth**: By offloading fact-checks to RAM, the GPU layers are freed up to focus purely on reasoning, improving performance on benchmarks like ARC AGI by ~5%.
 *   **Throughput**: Because lookups are deterministic, they can be pre-fetched, resulting in <3% latency penalty.
+
+## 4. Foundational Connection: The Empty Schema Principle
+
+Engram's architecture mirrors the **Empty Schema Principle** from the CLM: start with minimal assumptions and add complexity only when you can afford the verification cost. The memory table starts empty and grows only with validated entries. This is **Zero Trust** applied to knowledge: every recalled fact must pass through the Context Gate before being trusted—never assume a memory is relevant without verification.

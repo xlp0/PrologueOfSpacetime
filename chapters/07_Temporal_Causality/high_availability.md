@@ -4,7 +4,7 @@
 
 ## The Principle
 
-No single component is irreplaceable. Multiple copies of each service run simultaneously, distributed across physical machines. When one fails, others continue seamlessly.
+No single component is irreplaceable. Multiple copies of each service run simultaneously, distributed across physical machines. When one fails, others continue seamlessly. This is the **Universality** principle made operational: the **Terminal Object** (the service abstraction) provides a unique sink toward which all replicas point, ensuring that the system's identity is preserved regardless of which individual instance serves the request.
 
 ### GASing Perspective: Susah (Hard/Reliable)
 

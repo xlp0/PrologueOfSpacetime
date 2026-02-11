@@ -4,7 +4,7 @@
 
 ## The Principle
 
-Memory preservation is the foundation of reliability. Like human memory, systems must preserve their past. Daily backups capture snapshots of system state, creating a timeline that enables time travel—the ability to restore to any previous moment.
+Memory preservation is the foundation of reliability. Like human memory, systems must preserve their past. Daily backups capture snapshots of system state, creating a timeline that enables time travel—the ability to restore to any previous moment. In the Wuxing cycle, backup is the **Water** phase (Reflect/Internalize)—the system pauses to preserve what it has learned before the next cycle of growth begins.
 
 ### GASing Perspective: Gampang (Easy/Consistent)
 

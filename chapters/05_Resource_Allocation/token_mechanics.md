@@ -33,4 +33,4 @@ The system is optimized for the "Happy Path" (Common English, JavaScript).
 
 *   **Common Data**: "const a = 5;" is highly compressed.
 *   **Rare Data**: Lewis Carroll's "frabjous" or Haskell code is split into many small fragments because the tokenizer has no dedicated pre-built token for them.
-*   **Result**: Rare languages are literally "more expensive" to speak in terms of compute and cash.
+*   **Result**: Rare languages are literally "more expensive" to speak in terms of compute and cash. This is the **Region of Convergence** made economic: languages outside the tokenizer's ROC require more energy per unit of meaning, creating a structural bias in the intelligence economy that the Prologue's emphasis on **Arithmetic as foundation** aims to address.

@@ -5,8 +5,8 @@
 
 ## 1. The Philosophy of Resonance
 In **Distributed Systems**, time is the hardest problem. We usually rely on NTP (Network Time Protocol), but in the physical world, we can use **Sound**.
-*   **The Kulkul**: A wooden drum used in Bali to signal "Time to Gather".
-*   **The Heartbeat**: A regular pulse (`ack`) that proves life.
+*   **The Kulkul**: A wooden drum used in Bali to signal "Time to Gather". The Kulkul is a **Ritual**—a periodic, reliable event that creates and maintains long-term social relations. Without rituals, there is no accumulated trust; without trust, there is no basis for credit, debt, or long-term exchange.
+*   **The Heartbeat**: A regular pulse (`ack`) that proves life. In the Trivium × Quadrivium framework, this is where **Music** (temporal coordination) meets **Rhetoric** (social meaning)—the heartbeat is both a technical signal and a social contract.
 
 ## 2. Acoustic Exercises
 

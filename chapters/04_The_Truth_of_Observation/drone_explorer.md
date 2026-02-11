@@ -4,9 +4,9 @@
 **Curriculum Column**: Astrobiology (Spacetime)
 
 ## 1. The Philosophy of Exploration
-In **Search Theory**, looking for information is a trade-off between **Exploitation** (staying where you know it's safe) and **Exploration** (risking the unknown for a better reward).
-*   **The Drone**: An agent sent into the unknown.
-*   **The Return**: The critical requirement. Data requires a round-trip to be useful.
+In **Search Theory**, looking for information is a trade-off between **Exploitation** (staying where you know it's safe) and **Exploration** (risking the unknown for a better reward). This is the **Bayesian** learning paradigm in action: the drone starts with a prior (empty map), observes new data, and updates its posterior (explored territory) with each flight.
+*   **The Drone**: An agent sent into the unknown. In the **Miner-Coder-Trader Triad**, the drone is the Miner—**Value Seeking** through physical exploration, establishing the foundational data upon which all subsequent analysis depends.
+*   **The Return**: The critical requirement. Data requires a round-trip to be useful. An observation that cannot be reported back is thermodynamically wasted energy.
 
 ## 2. Astrobiological Exercises
 

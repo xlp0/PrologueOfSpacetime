@@ -5,7 +5,7 @@
 
 ## 1. The Philosophy of Pub/Sub
 In **Chapter 06**, we connected the nodes via VPN. But connection implies a direct line. In a massive swarm, direct lines create spaghetti code.
-*   **The Solution**: The Event Bus (MQTT Broker).
+*   **The Solution**: The Event Bus (MQTT Broker). The broker establishes **Directionality**—the non-commutative ordering of events ($a \to b \neq b \to a$) that is the prerequisite for any causal chain. Without directed event ordering, no verification protocol can be defined and no SSOT can emerge.
 *   **The Metaphor**: The Town Square. You don't whisper to everyone; you shout in the square, and those who care listen.
 
 ## 2. Technical Implementation: Mosquitto

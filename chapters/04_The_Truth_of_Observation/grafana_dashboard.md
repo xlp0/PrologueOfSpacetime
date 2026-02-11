@@ -5,8 +5,8 @@
 
 ## 1. The Philosophy of Monitoring
 In **Chapter 06**, we connected the Swarm. But connection is not enough. We need **Insight**.
-*   **The Observer**: The entity that collapses the wave function.
-*   **The Dashboard**: The interface that allows us to see the "Health" of the system.
+*   **The Observer**: The entity that collapses the wave function. In the CLM, the dashboard is the **Balanced Expectations** dimension made visible—the real-time witness that compares Abstract Specification (expected metrics) against Concrete Implementation (actual telemetry).
+*   **The Dashboard**: The interface that allows us to see the "Health" of the system. Grafana operationalizes **SSOT as Protocol**: truth is not stored in the dashboard—it is *derived* by following a verification procedure (query → visualize → compare → decide).
 
 ## 2. Technical Implementation: Grafana
 We use **Grafana** to visualize the time-series data coming from our ESP32 nodes (via Prometheus or InfluxDB).

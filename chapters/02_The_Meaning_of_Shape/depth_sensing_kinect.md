@@ -5,10 +5,12 @@
 
 ## 1. The Philosophy of Perception
 
-In **Type Theory**, to define a "Shape" we must first **observe** it. The 3D Printer (Ch 02: The Reifier) projects types *into* space; the Kinect projects space *into* types. They are **dual operations**:
+In **Homotopy Type Theory**, to define a "Shape" we must first **observe** it. A Type is a Space; to construct a term of that Type, we must find a point in that Space. The 3D Printer (Ch 02: The Reifier) projects types *into* space; the Kinect projects space *into* types. They are **dual operations**—adjoint functors in the categorical sense:
 
 *   **Reification**: `Type → Physical Object` (The Printer writes space)
 *   **Perception**: `Physical Object → Type` (The Kinect reads space)
+
+This duality is the operational realization of the **Propositions-as-Types** correspondence applied to Geometry: the Kinect *proves* spatial propositions by constructing their type-theoretic witnesses (depth maps, point clouds, skeleton graphs).
 
 The Xbox Kinect is our **Perception Engine**. It forces us to confront the question at the heart of Geometry: *How do we convert the continuous, infinite depth of the physical world into discrete, bounded data?* This is the **Arithmetization of Space** in action—Descartes' program made literal by infrared light.
 
