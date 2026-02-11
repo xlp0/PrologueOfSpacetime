@@ -7,7 +7,7 @@
 ## ♾️ The Operational Continuum: 24/7 MLOps
 To sustain this Continuation, we operate the refinement of the *Prologue* as a **24/7 DevOps/MLOps System**, following the **Five-Level MLOps Maturity Model**.
 
-*   **Git as the Membrane**: We use Git to strictly separate **Human-in-the-Loop** (Creative Intent) from **Fully Automated Processes** (Agentic Refinement).
+*   **Git as the Membrane**: We use **Git Worktree** to strictly separate **Human-in-the-Loop** (Creative Intent) from **Fully Automated Processes** (Agentic Refinement). This allows multiple AI agents to operate in parallel directories (Monadic Isolation) while sharing the same history, preventing lock conflicts and context pollution.
 *   **File-System SSOT**: This separation ensures a **Consistent Data Pool**.
 *   **Content Addressable Scheme (CAS)**: By managing all assets via CAS (at the file system level), we guarantee that every version is immutable and addressable, turning the repository into a **Single Source of Truth** that agents can safely mine and refine without hallucination.
 

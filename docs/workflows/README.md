@@ -71,7 +71,7 @@ The Giants use this ruler to measure if a chapter is good enough to teach.
 The **10,000 files** are not just sitting in a folder. Each file is stored as an **MCard** — a special card with a unique fingerprint (SHA-256 hash).
 
 *   **Immutable Truth:** The Hash *is* the Identity. If the content changes, the Hash changes.
-*   **Monadic Isolation:** Giants work on MCards independently ("No Windows"). They don't need to talk to each other while working; they just trust the Hash.
+*   **Monadic Isolation (Git Worktree):** Giants work on MCards independently ("No Windows"). We use **Git Worktree** to give each agent its own isolated file system directory while sharing the same repo history. They don't need to talk to each other while working; they just trust the Hash and the Tree.
 
 ### Tool D: The Universal Type (Function as Root)
 We treat every piece of data as a **Function** ($f: \text{Context} \to \text{Truth}$). This is the "Universal Connector" that relates everything.
