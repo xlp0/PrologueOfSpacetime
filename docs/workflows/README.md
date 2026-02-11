@@ -136,8 +136,8 @@ graph TD
     
     FactChecker -->|Exp Vector| Boss{Step 4: Consensus}
     
-    Boss -->|Aligned (>0.9)| Publish[Publish MCard]
-    Boss -->|Misaligned (<0.9)| Retry[Refine Spec]
+    Boss -->|"Aligned (>0.9)"| Publish[Publish MCard]
+    Boss -->|"Misaligned (<0.9)"| Retry[Refine Spec]
     
     Publish --> Archive[(10k Documents)]
     Archive --> Designer
