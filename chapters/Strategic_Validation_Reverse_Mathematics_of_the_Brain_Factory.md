@@ -38,6 +38,16 @@ We implement the Brain Factory by iterating through the **Reverse Trivium** (Rhe
     *   **Astrobiology (Sovereignty)** for Functional Identity.
 *   **Constraint**: We use **Weak König's Lemma (WKL₀)** (Constraint Handling) to navigate the binary choices of implementation (Cloud vs. Edge, Rent vs. Own).
 
+### 2.1 The Speed of Proof: Operational Flow
+In Reverse Mathematics, the "Proof Search" (finding the path from $T$ back to $S_{min}$) can be computationally expensive. In the human context, this "Search" is what we call **Learning**.
+
+To make this Proof Search tractable within a human lifetime, we must maximize the **Cycle Speed** of the "Hypothesis-Verification Loop." This is where **[[Hub/Theory/Integration/Flow in PKC - Faster Interactive Learning|Flow State]]** becomes a strategic necessity.
+
+*   **Minimizing Latency (Local-first)**: We remove network overhead so the "Inner Loop" of the Proof Search ($Hypothesis \to Experiment \to Result$) spins at the speed of thought (<100ms).
+*   **Minimizing Rigidty (Empty Schema)**: We remove schema overhead so the "Search Space" is not artificially constrained by premature categorization.
+
+> **Strategic Implication**: **Faster Interactive Learning** is not a luxury; it is the **Accelerator** that allows us to derive the Theorem of Sovereignty before the "Thermal Limit" (Burnout/Resources) is reached.
+
 ### Phase C: Grammar Last (The Axiomatization)
 *   **Action**: Codifying the successful patterns into **PKC-OS** and **OpenClaw** protocols.
 *   **Mathematical Role**: This establishes **Recursive Comprehension (RCA₀)**—the base theory.
