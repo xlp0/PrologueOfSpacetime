@@ -6,6 +6,16 @@
 
 ---
 
+## 🎯 The Pedagogical Goal: Function as the Root Type (SSOT)
+
+This entire project is an exercise in **Modularizing Learning Activities as Functions**. We treat every concept, lesson, and interaction not as "static text," but as a **Cubical Simplex**—a standardized, functional building block of reality.
+
+*   **Function as the Root**: By defining every activity as a function ($f: \text{Input} \to \text{Output}$), we make learning **Composable**, **Extensible**, and **Testable**.
+*   **Cubical Simplices**: These functions are strictly structured as **CLM Triples** (Spec, Impl, Exp). This methodical structure forces the learner to identify the **Single Source of Truth (SSOT)** for every claim.
+*   **The Outcome**: Participants practice a rigorous discipline of **Experimental Verification**, resulting in a **Consistent Memory** that provides **Sound and Complete Guidance** for their sovereign journey.
+
+---
+
 ## 🧊 The Core Value Proposition: Cubical Logic Model (CLM)
 
 Everything in the **Prologue of Spacetime**—and its parent ecosystem, **PKC-OS**—is stored and indexed using the **Cubical Logic Model (CLM)**. This ensures that **all content**, without exception, can be related to one of three canonical data types:
