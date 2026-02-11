@@ -1,11 +1,11 @@
-# Chapter 5: Resource Allocation (The Token Economy)
-**Phase**: Logic (Process/What)
-**Subject**: Arithmetic / Efficiency
+# Chapter 05: Resource Allocation (The Token Economy)
 
 > *"To optimize is to understand cost."*
 
-> [!NOTE]
-> This chapter serves as the "Logic" phase of the Arithmetic column. It deals with how we allocate and optimize the fundamental units (Tokens) defined in the system.
+🔬 **Logical Depth**: Level 1 ($RCA_0$ — Computable Mathematics)
+**Trivium × Quadrivium Position**: Logic × Arithmetic
+
+This chapter serves as the **Logic** phase of the Arithmetic column. It deals with how we allocate and optimize the fundamental units (Tokens) defined in the system.
 
 ## The Currency of Intelligence
 In the Prologue of Spacetime, **Tokens** are the fundamental atoms of meaning.
@@ -44,3 +44,22 @@ If "Tokens" are the currency, **Engram** is the Vault. It solves the inefficienc
 
 *   **Separation of Concerns**: Offloading static knowledge to cheap RAM lookups allows the GPU to focus on complex reasoning.
 *   **Technical Detail**: [**Engram Memory Architecture**](engram_memory.md)
+
+## Foundational Connections
+
+### Zero Trust as Arithmetic Foundation
+All security guarantees ultimately rest on **number-theoretic properties**. Zero Trust security reduces to arithmetic operations:
+
+$$\text{Security} = \text{Hash}(\text{content}) + \text{Signature}(\text{authority}) + \text{Consensus}(\text{quorum})$$
+
+*   **Hash Functions**: Collision-free identification ← Prime Number Theory
+*   **Digital Signatures**: Unforgeable attestation ← Modular Arithmetic
+*   **Consensus Protocols**: Byzantine agreement ← Threshold Arithmetic
+
+This is why **Arithmetic is the foundation**: allocation of tokens is simultaneously allocation of trust.
+
+### Agentic Role: The Miner (Logic Phase)
+In the **Miner-Coder-Trader Triad**, resource allocation is the Miner's **logical operation**—establishing the rules and validation mechanisms that determine how value flows through the system. The Miner defines the "design rules" that enable different modules to work together.
+
+### Five Tribes: The Symbolist Mode
+Resource allocation is dominated by the **Symbolist** learning paradigm (rules → instances). Token budgets, cost functions, and optimization constraints are all formal rules that govern behavior deductively. Students should recognize this as one of five learning modes—and explore how **Bayesian** reasoning (uncertainty in cost estimates) complements the symbolic approach.

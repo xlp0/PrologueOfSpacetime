@@ -25,12 +25,14 @@
             "id": "453ed8a102cdd415",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "docs/workflows/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -196,10 +198,66 @@
       "bases:Create new base": false
     }
   },
-  "active": "453ed8a102cdd415",
+  "floating": {
+    "id": "8a74c520f8b22b31",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e22b75bc7355bd08",
+        "type": "window",
+        "children": [
+          {
+            "id": "aa3cfd6d09ad9df7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3c0aa5306baf9ccb",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 24,
+        "width": 1920,
+        "height": 1176,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "3c0aa5306baf9ccb",
   "lastOpenFiles": [
+    "docs/prologue_of_spacetime_improvement/Universality.md",
+    "docs/prologue_of_spacetime_improvement/Trivium.md",
+    "docs/prologue_of_spacetime_improvement/Trivium x Quadrivium Framework for ABC Curriculum.md",
+    "docs/prologue_of_spacetime_improvement/Single-source of Truth.md",
+    "docs/prologue_of_spacetime_improvement/Quadrivium.md",
+    "docs/prologue_of_spacetime_improvement/Pentadic Improvement Plan for Prologue of Spacetime.md",
+    "docs/prologue_of_spacetime_improvement/Homotopy Type Theory Explained.md",
+    "docs/prologue_of_spacetime_improvement/GASing.md",
+    "docs/prologue_of_spacetime_improvement/Cubical Logic Model.md",
+    "docs/prologue_of_spacetime_improvement/Agentic Trinitarianism.md",
+    "docs/prologue_of_spacetime_improvement",
+    "Untitled.md",
+    "docs/prologue_of_spacetime_improvement/Homotype Type Theory/Homotopy Type Theory Explained.md",
+    "docs/prologue_of_spacetime_improvement/Homotype Type Theory/#2 Homotopy Type Theory Explained: Universes, Functions, and Π-types.md",
+    "docs/prologue_of_spacetime_improvement/Homotype Type Theory/#2 Homotopy Type Theory Explained: Universes, F",
+    "docs/prologue_of_spacetime_improvement/Homotype Type Theory/#1 Homotopy Type Theory Explained: A New Foundation for Mathematics.md",
+    "docs/prologue_of_spacetime_improvement/Homotype Type Theory",
+    "docs/Pentadic Improvement Plan for Prologue of Spacetime.md",
+    "docs/Update_History/2026-02-11_Flow_State_Engineering.md",
+    "docs/workflows/README.md",
+    "docs/workflows/consensus_constitution.md",
+    "abc_curriculum.md",
     "chapters/05_Resource_Allocation/nitinol_vr_goggles.md",
-    "docs/workflows/mcp_skill_registry.md",
-    "docs/workflows/consensus_constitution.md"
+    "docs/workflows/mcp_skill_registry.md"
   ]
 }

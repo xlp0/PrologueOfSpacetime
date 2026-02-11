@@ -2,6 +2,9 @@
 
 > *"A single terrace is a garden; a mountain of terraces is an engine."*
 
+🔬 **Logical Depth**: Level 2 ($WKL_0$ — Compact Mathematics)
+**Trivium × Quadrivium Position**: Grammar × Geometry
+
 In the **Revived Quadrivium**, this is **Geometry** in the **Grammar Phase**. It answers: *How do we structure space to handle scale?*
 
 ## 📚 Core Concepts
@@ -22,3 +25,17 @@ In **Chapter 06**, we connected one node. In **Chapter 10**, we structure the sw
 *   **The Metaphor**: Kubernetes for the Physical World.
 *   **The Task**: Naming schemes (`node-01`, `node-02`) and Subnets.
 *   **The Architecture**: Organized cascades, just like water flows from the top terrace to the bottom.
+
+## Foundational Connections
+
+### HoTT and Higher Inductive Types
+The rice terrace is a **Higher Inductive Type** in HoTT—a space defined not just by its points (individual terraces) but by its **paths** (water channels) and **paths of paths** (the cascading topology that connects the entire mountain). The Subak system is a living proof that local truths (individual terrace water levels) can be **glued** into a global structure (mountain-wide irrigation) when Cohomology = 0.
+
+### Modularity: Modular Clusters at Scale
+Following Carliss Baldwin's framework, the rice terrace demonstrates **Modular Clusters** in action: each terrace is an independent module with clear interfaces (water inflow/outflow), yet the cluster as a whole exhibits emergent behavior (optimal water distribution) that no single module could achieve alone. This is the architectural pattern for scaling PKC nodes into a **Sovereign Operational Network (SON)**.
+
+### Five Tribes: The Analogizer Mode
+Topology introduces the **Analogizer** learning paradigm (this ≈ that). The Subak irrigation system is **analogous** to Kubernetes pod scheduling; rice terraces are **analogous** to network subnets. Students should explicitly map Subak concepts to software architecture—recognizing that analogy is a legitimate and powerful learning mode, not merely a rhetorical device.
+
+### Pentadic Phase: Earth (Ground)
+Topology is the **Earth** phase of the Wuxing cycle—the consolidation and integration of individual components into a grounded, stable structure. Earth overcomes Water: grounding stops aimless reflection. "Write it down!"

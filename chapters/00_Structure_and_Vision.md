@@ -7,7 +7,9 @@ modified: 2026-02-06T17:05:33+08:00
 
 The **Prologue of Spacetime** is not merely a story or a curriculum; it is a **Meta-Game of Continuation** designed to act as a **Brain Factory**—a systematic engine for manufacturing cognitive capability and sovereign intelligence.
 
-This document explains the architectural structure of the project and how it leverages **Hoare Logic**, the **Cubical Logic Model**, and the **GASing Methodology** to realize the vision of a "Brain Factory" that produces **Verified Wisdom**.
+This document explains the architectural structure of the project and how it leverages **Hoare Logic**, the **Cubical Logic Model (CLM)**, **Homotopy Type Theory (HoTT)**, and the **GASing Methodology** to realize the vision of a "Brain Factory" that produces **Verified Wisdom**.
+
+> **Foundational Insight**: We treat **Equality** not as a boolean check, but as a **Path** between points in a space (HoTT). This allows us to unify **Logic** (Types) with **Geometry** (Topological Shapes), providing the rigorous grounding for a truly Universal Namespace where Proofs are Paths and Types are Spaces.
 
 ## 1. The Structure: A Standardized Assembly Line
 
@@ -31,7 +33,19 @@ Every station is grounded in the lineage of three historical archetypes:
 2.  **C.A.R. Hoare**: For the **Hoare Logic** of Correctness $\{P\} C \{Q\}$.
 3.  **John Amos Comenius**: For the **Didactic** vision of universal education (*Orbis Pictus*).
 
-## 2. The Logic of Correctness: Hoare Triples
+### Logical Depth Badges (The Big Five of Reverse Mathematics)
+
+Each chapter operates at a specific **Logical Depth** corresponding to the Big Five subsystems of Reverse Mathematics. This "depth meter" tells participants which axiom system governs the concepts they are engaging with:
+
+| Big Five Subsystem | Logical Depth | Prologue Concepts | Chapter(s) |
+| :--- | :--- | :--- | :--- |
+| **$RCA_0$** (Computable) | Level 1: Things you can *compute* | Counting, basic arithmetic, GASing operations, MVP Cards | Ch 1, 5, 9 |
+| **$WKL_0$** (Compact) | Level 2: Things you can *choose* from infinite options | Compactness, "best path" in a network, spatial optimization | Ch 2, 6, 10 |
+| **$ACA_0$** (Arithmetical) | Level 3: Things *defined by* arithmetic | Convergence, the Turing Jump, harmonic analysis | Ch 3, 7, 11 |
+| **$ATR_0$** (Transfinite) | Level 4: Things requiring *transfinite iteration* | Well-orderings, iterated procedures, calendar cycles | Ch 4, 8 |
+| **$\Pi^1_1\text{-}CA_0$** (Impredicative) | Level 5: Things *defined by reference to all sets* | Self-reference, self-aware causal networks, Tri Hita Karana | Ch 12 |
+
+## 2. The Logic of Correctness: Hoare Triples and SSOT as Protocol
 
 The core "Physics" of the Brain Factory is **Correctness**. We do not just "do things"; we **prove things**. We rely on the concept of the **Hoare Triple**:
 
@@ -51,6 +65,24 @@ All MVP Cards are stored in the format of $MCard$.
 *   **$\{P\}$ = $VCard_{pre}$** (Safety Protection): The Immutable State (Inventory, Schemas).
 *   **$C$ = $PCard$** (Process): The Polynomial Functor (Agents, Scripts).
 *   **$\{Q\}$ = $VCard_{post}$** (Verification and Validation): The Witness that proves the Command satisfied the Need.
+
+### SSOT as Verification Protocol (Tao Generates One)
+
+The **Single Source of Truth (SSOT)** is not a static database—it is a **dynamically evolving, contextually dependent protocol** for determining what counts as truth in a given system. This reframe follows the ancient generative sequence *Tao Generates One* (Directionality gives birth to Unity):
+
+1.  **The Way (Directionality)**: Non-commutative operations establish order. Without directionality, no verification sequence can exist.
+2.  **One (SSOT)**: Unified verification protocol emerges from directed processes.
+3.  **Two (Duality)**: Binary distinction (True/False, Valid/Invalid) follows.
+4.  **Three (Triad)**: Grammar-Logic-Rhetoric; MCard-PCard-VCard; Abstract-Balanced-Concrete.
+5.  **Ten Thousand Things (All Things)**: Complete knowledge systems unfold from the triadic structure.
+
+| SSOT Design Principle | Description |
+| :--- | :--- |
+| **Procedural** | "Follow this procedure to determine truth"—not "this database contains the truth." |
+| **Context-Explicit** | Verification must specify axioms, domain, and environment. |
+| **Verifiable** | Anyone following the protocol can verify independently. |
+| **Adaptive** | The protocol yields consistent results across changing contexts. |
+| **Composable** | Protocols compose: FTA + Goedel + GASing = Arithmetic reasoning stack. |
 
 ## 3. The Meta-Language: Cubical Logic Model (CLM)
 
@@ -225,13 +257,44 @@ In the CLM, each modality maps to a verifiable dimension:
 
 > **The Deep Insight**: *Regulation is the social manifestation of Space/Time boundaries.* The choice of how to govern a system is isomorphic to the choice of where to draw boundaries in Space (Near/Far) and Time (Before/After)—the same boundaries the Quadrivium teaches us to reason about with Arithmetic. This means the Brain Factory does not merely *teach* Space and Time; it *governs* by Space and Time.
 
-### 5.6 The Agentic Mesh: The Workforce
+### 5.6 The Agentic Mesh: The Workforce (Miner-Coder-Trader Triad)
 
-The factory is staffed by an **Agentic Mesh**—autonomous AI agents orchestrating the workflow.
+The factory is staffed by an **Agentic Mesh**—autonomous AI agents orchestrating the workflow through the **Miner-Coder-Trader Triad** (Agentic Trinitarianism).
 
-*   **The User** sets the *Abstract Spec* (Rhetoric).
-*   **The Agents** execute the *Concrete Impl* (Logic).
-*   **The Framework** verifies the *Balanced Expectation* (Grammar).
+| Trinitarian Role | CLM Dimension | Value Process | Card Type |
+| :--- | :--- | :--- | :--- |
+| **Miner** (Foundation) | Abstract Specification | **Value Seeking**: Establishes trust, validates data integrity | **MCard** |
+| **Coder** (Creator) | Concrete Implementation | **Value Seeing**: Transforms abstract specs into executable artifacts | **PCard** |
+| **Trader** (Facilitator) | Balanced Expectations | **Value Delivery**: Connects creators with consumers, facilitates exchange | **VCard** |
+
+This triad maps directly to **Computational Trinitarianism** (Robert Harper) and the **Curry-Howard-Lambek Isomorphism**:
+*   **Miner = Logic** (Propositions as Types)
+*   **Coder = Type Theory** (Proofs as Programs)
+*   **Trader = Category Theory** (Categories as Logics)
+
+The modular interaction follows Carliss Baldwin's framework: Module Design (Miner) → Module Implementation (Coder) → Module Integration (Trader), creating a self-reinforcing cycle of value creation.
+
+### 5.7 The Pentadic Threshold: Why Five Matters
+
+The number **five** marks the edge of decomposability—the minimal complexity where simple approaches fail and *coordination* becomes necessary. Three independent domains converge on five as a structural invariant:
+
+| Domain | The Five | Core Insight |
+| :--- | :--- | :--- |
+| **Wuxing (Five Phases)** | Wood, Fire, Earth, Metal, Water | Minimal dynamic system with dual cycles (Generation/Overcoming) |
+| **Five Tribes (ML)** | Symbolists, Connectionists, Evolutionaries, Bayesians, Analogizers | No single paradigm suffices; unification resolves deadlock |
+| **Big Five (Logic)** | $RCA_0, WKL_0, ACA_0, ATR_0, \Pi^1_1\text{-}CA_0$ | Mathematical theorems collapse into exactly five axiomatic strata |
+
+The existing 3x4 grid describes **what** is taught (Topics). The Wuxing layer describes **how** learning flows (Dynamics):
+
+| Wuxing Phase | Activity Mode | Cycle Role |
+| :--- | :--- | :--- |
+| **Wood** (Growth) | Explore / Diverge | Generates Fire |
+| **Fire** (Transform) | Create / Prototype | Generates Earth |
+| **Earth** (Ground) | Consolidate / Integrate | Generates Metal |
+| **Metal** (Refine) | Critique / Test | Generates Water |
+| **Water** (Reflect) | Internalize / Flow | Generates Wood |
+
+> **Note**: $12 \times 5 = 60 = |A_5|$—the order of the smallest non-abelian simple group. At full pentadic depth, the Prologue reaches the threshold of irreducible complexity.
 
 ## 6. The Mathematical Engine: Universal Grammar & Boundedness
 

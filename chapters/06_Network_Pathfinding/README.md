@@ -1,10 +1,11 @@
-# Chapter 6: Network Pathfinding (The 12-Factor Agent)
-**Phase**: Logic (Process/Reliability)
-**Subject**: Geometry (Structure/Graphs)
+# Chapter 06: Network Pathfinding (The 12-Factor Agent)
 
 > *"Agents are just software."* — Dex Horthy
 
-> This chapter serves as the "Logic" phase of the Geometry column. It deals with the structure of execution, specifically navigating the state space of an agentic workflow reliably.
+🔬 **Logical Depth**: Level 2 ($WKL_0$ — Compact Mathematics)
+**Trivium × Quadrivium Position**: Logic × Geometry
+
+This chapter serves as the **Logic** phase of the Geometry column. It deals with the structure of execution, specifically navigating the state space of an agentic workflow reliably.
 
 ## 📂 Chapter Contents
 
@@ -44,6 +45,17 @@ To build reliable systems, we must abandon the idea of the "Magical Agent" and r
 We apply pathfinding to **Network Routing**.
 *   **[VPN & Mesh Networking](vpn_mesh_network.md)**: Connecting the isolated Ch 05 Node to the Swarm.
 
+
+## Foundational Connections
+
+### Modularity and Composable Agents
+Following Carliss Baldwin's **Modularity** framework, agents are **composable modules** with clear interfaces. The 12-Factor Agent patterns enforce the same principles that make modular clusters work: information hiding, interface stability, and independent deployment. Each agent is a **PCard**—a polynomial functor that transforms input state into output state.
+
+### Agentic Role: The Coder (Logic Phase)
+In the **Miner-Coder-Trader Triad**, pathfinding is the Coder's **logical operation**—implementing the algorithms and navigation strategies that transform abstract graph structures into executable routes. The Coder works within the framework established by the Miner to create specialized, reusable navigation modules.
+
+### Five Tribes: The Connectionist Mode
+Pathfinding introduces the **Connectionist** learning paradigm (data → features). Neural networks find paths through high-dimensional spaces by learning patterns from data—complementing the Symbolist approach of explicit graph algorithms. Students should explore how both paradigms solve the same navigation problem differently.
 
 ## Technical Patterns
 

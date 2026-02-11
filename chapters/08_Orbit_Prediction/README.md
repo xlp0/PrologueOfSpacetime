@@ -2,6 +2,9 @@
 
 > *"Prophecy is not magic; it is the inevitable result of accurate physics."*
 
+🔬 **Logical Depth**: Level 4 ($ATR_0$ — Transfinite Mathematics)
+**Trivium × Quadrivium Position**: Logic × Astrobiology
+
 In the **Revived Quadrivium**, **Orbit Prediction** is the Logic of Spacetime. It answers the question: *How do we act today to ensure a specific tomorrow?*
 
 ## 📚 Core Concepts
@@ -24,3 +27,22 @@ In the context of LLMs, a "Skill" is NOT knowledge (that's the model weights). A
 ### 3. Project: Kinetic Node (Phase 6)
 We apply prediction to **Control**.
 *   **[OpenClaw & AI Skills](openclaw_skills.md)**: Defining the `tools` that allow the AI to pilot the Ch 02 Frame.
+
+## Foundational Connections
+
+### CLM as the Prediction Engine
+Prediction operationalizes the **Cubical Logic Model** as a forward-looking instrument:
+*   **Abstract Specification**: The predicted future state (the orbit we expect)
+*   **Concrete Implementation**: The model that computes the prediction (OpenClaw + MCP Skills)
+*   **Balanced Expectations**: The comparison of prediction against actual outcome (the VCard witness of accuracy)
+
+The CLM's **Meta** framework (Before → Guess → After) is prediction in its purest form: constructing the "After" from the "Before" through an educated transformation.
+
+### Agentic Role: The Full Triad in Action
+Orbit Prediction is where all three roles of the **Miner-Coder-Trader Triad** converge:
+*   **Miner**: Validates the historical data (Ch 07) that feeds the prediction model
+*   **Coder**: Implements the prediction algorithm (Analytic Continuation of the Taylor Series)
+*   **Trader**: Delivers the prediction to the actuators that execute the orbit correction
+
+### Five Tribes: The Bayesian Mode
+Prediction introduces the **Bayesian** learning paradigm (prior → posterior). Every orbit prediction is a **belief update**: we start with a prior (historical trajectory), observe new data, and update our posterior (predicted future). Students should explicitly model uncertainty through confidence intervals—recognizing that prediction is not certainty but *calibrated belief*.

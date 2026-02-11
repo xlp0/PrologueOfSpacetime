@@ -2,7 +2,12 @@
 
 > *"The sky is the original Single Source of Truth."*
 
+🔬 **Logical Depth**: Level 4 ($ATR_0$ — Transfinite Mathematics)
+**Trivium × Quadrivium Position**: Rhetoric × Astrobiology
+
 In the **Revived Quadrivium**, **Astrobiology** (formerly Astronomy) is the study of **Number in Spacetime**. It answers the question: *How do we find truth in a moving, expanding universe?*
+
+> **Why Astrobiology?** Classical Astronomy studied "magnitude in motion"—predictable celestial cycles. But it treated the cosmos as lifeless. The Revived Quadrivium replaces Astronomy with **Astrobiology** because consciousness is an **irreducible, scale-free awareness** that penetrates all scales. A complete knowledge system must recognize the **knower**—not just the known.
 
 ## 📚 Core Concepts
 
@@ -36,9 +41,26 @@ Systems must observe themselves to know their own state. Truth emerges from veri
 ### Automated Awareness
 *   **[Automated Collection](automated_collection.md)**: Daily archiving workflows and automated reporting. Systems that preserve their own history.
 
+### 6. Foundational Connections
+
+#### SSOT as Observational Protocol
+Observation is the **operational instantiation** of Protocol SSOT. The sky is not a "static database of truth"—it is a **verification protocol** where the observer follows directed procedures (point telescope, record data, compare with prediction) to determine truth. *Tao Generates One*: Directionality (the act of looking) gives birth to Unity (verified observation).
+
+#### CLM as the Verification Framework
+The Observer operationalizes the **Cubical Logic Model** directly:
+*   **Abstract Specification**: What do we expect to observe? (The hypothesis)
+*   **Concrete Implementation**: How do we observe it? (The instrument, the drone, the Grafana dashboard)
+*   **Balanced Expectations**: Does observation match expectation? (The verification, the VCard witness)
+
+This makes observation the **Single Format of Truth Verification (SFOTV)**—we trust an artifact not because of who produced it, but because it fits the CLM shape and passes verification.
+
+#### Pentadic Phase: Metal (Refine)
+Observation is the **Metal** phase of the Wuxing cycle—the rigorous critique and testing that refines raw creation into verified truth. Metal overcomes Wood: testing prunes wild growth. "Does this actually work?"
+
 ## 🎯 Learning Objectives
 1.  **Understand Parallax**: How truth changes based on position.
 2.  **Exploration**: Operating autonomous agents (Drones) in hostile environments.
 3.  **Biosignatures**: Distinguishing "Signal" (Life) from "Noise" (Entropy).
 4.  **Consensus**: When two observers disagree, who is right? (The Byzantine Generals Problem).
 5.  **Data Sovereignty**: Understanding local-first architecture—why the Observer must own the instrument.
+6.  **Protocol SSOT**: Understanding that truth is determined by *following a protocol*, not by appealing to static authority.

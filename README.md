@@ -4,7 +4,14 @@
 
 **Prologue of Spacetime** is more than a curriculum or a game; it is a **Demonstrative Example** of a **Living System** designed for **Continuation**. It proves the power of a **Unifying Namespace** to relate concepts, persist memory, and index data assets in a way that **maximizes latent opportunities** in a structural and systematic manner.
 
-> **Mathematical Foundation**: We initially leverage the body of knowledge from **Homotopy Type Theory (HoTT)**. We treat "Equality" not as a boolean check, but as a **Path** between points in a space. This allows us to unify **Logic** (Types) with **Geometry** (Topological Shapes), providing the rigorous grounding needed for a truly Universal Namespace.
+> **Mathematical Foundation**: We leverage the body of knowledge from **Homotopy Type Theory (HoTT)**. We treat "Equality" not as a boolean check, but as a **Path** between points in a space. This allows us to unify **Logic** (Types) with **Geometry** (Topological Shapes), providing the rigorous grounding needed for a truly Universal Namespace.
+
+### HoTT in Practice
+In HoTT, a **Type** is a Space, a **Term** is a Point, and an **Equality** is a Path between points. This means:
+*   **Multiple Proofs**: Unlike classical logic where equality is binary, HoTT allows *multiple paths* (proofs) demonstrating that $x = y$. Each path carries structural information.
+*   **Propositions as Types**: Logical propositions are types; proofs are inhabitants of those types. To prove $P$ is true, we construct a term of type $P$.
+*   **Higher Inductive Types**: We can define spaces not just by their points, but by their paths and paths-of-paths—enabling the representation of topological structures (circles, spheres, tori) directly in the type system.
+*   **Univalence Axiom**: Equivalent types are equal. This means that if two systems behave identically, they *are* identical—the foundation for content-addressable truth.
 
 ## ♾️ The Operational Continuum: 24/7 MLOps
 To sustain this Continuation, we operate the refinement of the *Prologue* as a **24/7 DevOps/MLOps System**, following the **Five-Level MLOps Maturity Model**.
@@ -12,6 +19,19 @@ To sustain this Continuation, we operate the refinement of the *Prologue* as a *
 *   **Git as the Membrane**: We use **Git Worktree** to strictly separate **Human-in-the-Loop** (Creative Intent) from **Fully Automated Processes** (Agentic Refinement). This allows multiple AI agents to operate in parallel directories (Monadic Isolation) while sharing the same history, preventing lock conflicts and context pollution.
 *   **File-System SSOT**: This separation ensures a **Consistent Data Pool**.
 *   **Content Addressable Scheme (CAS)**: By managing all assets via CAS (at the file system level), we guarantee that every version is immutable and addressable, turning the repository into a **Single Source of Truth** that agents can safely mine and refine without hallucination.
+
+### SSOT as Verification Protocol (Tao Generates One)
+
+> **Critical Reframe**: SSOT is not about having ONE piece of truth or ONE version of reality. SSOT is a **dynamically evolving, contextually dependent PROTOCOL** for determining what counts as truth in a given system.
+
+The ancient generative sequence *Tao Generates One* (Directionality gives birth to Unity) captures the correct architectural order:
+1.  **The Way (Directionality)**: Establish non-commutative operations (order matters)
+2.  **One (SSOT)**: Verification protocols emerge from directed processes
+3.  **Two (Duality)**: Binary distinctions (True/False, Valid/Invalid) follow
+4.  **Three (Triad)**: Grammar-Logic-Rhetoric; MCard-PCard-VCard
+5.  **Ten Thousand Things (All Things)**: Complete knowledge systems unfold
+
+This is why Git works (directed commit graph → single source of history), why blockchain works (directed chain → single consensus truth), and why PKC works (directed verification → single knowledge sovereignty).
 
 ---
 
@@ -213,26 +233,40 @@ $$ f = \sum_k c_k \cdot \phi_k $$
 *   The CLM enables **Digital Synesthesia**—mapping abstract data (`Spec`) into sensory experience (`Exp`).
 *   Students "feel" the correctness of a system via the **Rhythm of Convergence**.
 
-### 9. Social Governance via Space/Time Boundaries
+### 9. Agentic Trinitarianism: Miner-Coder-Trader
+*   The curriculum's value creation follows the **Miner-Coder-Trader Triad**, rooted in **Computational Trinitarianism** (Robert Harper) and the **Curry-Howard-Lambek Isomorphism**.
+*   **Miner** (Grammar/MCard): Value Seeking—establishes trust, validates data integrity.
+*   **Coder** (Logic/PCard): Value Seeing—transforms abstract specs into executable artifacts.
+*   **Trader** (Rhetoric/VCard): Value Delivery—connects creators with consumers, facilitates exchange.
+*   This modular interaction follows Carliss Baldwin's framework: Module Design → Module Implementation → Module Integration.
+
+### 10. The Pentadic Threshold: Why Five Matters
+*   The number **five** marks the edge of decomposability—the minimal complexity where coordination becomes necessary.
+*   Three independent domains converge: **Wuxing (Five Phases)** (Wood, Fire, Earth, Metal, Water), **Five ML Tribes** (Symbolists, Connectionists, Evolutionaries, Bayesians, Analogizers), and the **Big Five of Reverse Mathematics** ($RCA_0, WKL_0, ACA_0, ATR_0, \Pi^1_1\text{-}CA_0$).
+*   The 3x4 grid describes **what** is taught (Topics). The Wuxing layer describes **how** learning flows (Dynamics).
+*   Each chapter carries a **Logical Depth Badge** indicating which axiom system governs its concepts.
+*   $12 \times 5 = 60 = |A_5|$—the order of the smallest non-abelian simple group. At full pentadic depth, the Prologue reaches the threshold of irreducible complexity.
+
+### 11. Social Governance via Space/Time Boundaries
 *   **Lessig's Four Modalities** (Law, Norms, Market, Architecture) decompose along the Quadrivium's axes: **Near/Far (Space)** and **Before/After (Time)**.
 *   This means the Prologue does not merely *teach* Space and Time as physical concepts—it provides the **same formal axes** needed to reason about social regulation and governance.
 *   Complete governance = **Chronomorphism** (temporal: Architecture + Norms) × **Toposmorphism** (spatial: Law + Market).
 *   See the full framework in [Structure and Vision §5.5](chapters/00_Structure_and_Vision.md).
 
-### 10. Development Status & Updates
+### 12. Development Status & Updates
 *   **[2026-02-11: Flow State Engineering](docs/Update_History/2026-02-11_Flow_State_Engineering.md)**: Major update integrating **Faster Interactive Learning** into the core architecture. We defined "Operational Flow" for all 12 MVP Chapters, establishing that **Local-first** (Low Latency) and **Empty Schema** (Low Rigidity) are the necessary physics for the Brain Factory.
 *   **[2026-02-07: The Thermodynamic Synthesis](docs/WorkingNotes_Content_Summary_2026-02-07.md)**: Integration of Maxwell's Demon, Kenosis, and Landauer's Principle into the verification architecture.
 *   **[2026-02-06: The Polynomial Architecture Update](docs/Update_History/2026-02-06_Polynomial_Architecture.md)**: A major refactor integrating Boundedness, Laplace Damping, and Economic Accounting into the core MVP logic.
 *   **[2026-01-26: Initial Release](docs/Update_History/2026-01-26_Initial_Release.md)**: The launch of the Prologue of Spacetime vision.
 
-### 11. Flow State Engineering
+### 13. Flow State Engineering
 *   **The Operational Goal**: **[[Hub/Theory/Integration/Flow in PKC - Faster Interactive Learning|Flow in PKC - Faster Interactive Learning]]** is the necessary condition for the "Brain Factory" to function.
 *   **Physics of Flow**: We remove the two primary inhibitors of deep work:
     *   **Temporal Friction (Latency)**: Solved by the **Local-first Principle** (Zero-Latency Interaction).
     *   **Structural Friction (Rigidity)**: Solved by the **Empty Schema Principle** (Emergent Structure).
 *   **Result**: The PKC becomes a transparent extension of the **Mind's Eye**, allowing the "Hypothesis-Verification Loop" to spin at the speed of thought.
 
-### 12. Attaining Correctness: The Hoare Logic of CLM
+### 14. Attaining Correctness: The Hoare Logic of CLM
 *   **The Challenge**: In a decentralized system, "Absolute Truth" is elusive. We aim for **[[Hub/Theory/Logic/Correctness|Approximate Correctness]]** that converges over time.
 *   **Operationalizing Hoare Logic**: Every interaction is treated as a **Hoare Triple** $\{P\} C \{Q\}$, operationalized by the CLM:
     *   **Pre-condition ($P$) -> Spec**: The Abstract Specification defines the *intent* and required state before action.
@@ -242,11 +276,11 @@ $$ f = \sum_k c_k \cdot \phi_k $$
 
 ---
 
-### 13. Execution Mechanics: The Monadic Loop
+### 15. Execution Mechanics: The Monadic Loop
 
 How do we actually operationalize this 24/7? We use a **Recursive Monadic Loop** executed by our AI Agents (The Five Wise Guys). This ensures that every update is verified before it hits the Main Branch.
 
-#### 13.1 The Execution Cycle (Continuous Integration)
+#### 15.1 The Execution Cycle (Continuous Integration)
 The system moves from distinct **Spec** (Design) to **Impl** (Implementation) to **Exp** (Verification) phases, culminating in a **Harmonsic Consensus**.
 
 ```mermaid
@@ -272,7 +306,7 @@ graph TD
     Archive --> Designer
 ```
 
-#### 13.2 The Circle of Life (Entropy Reduction)
+#### 15.2 The Circle of Life (Entropy Reduction)
 To maintain the "Signal-to-Noise Ratio" over time, we run an **Optimization Loop** every 100 cycles. This prunes low-performing models (High Entropy) and reincarnates them with better system prompts (Lower Energy).
 
 ```mermaid
