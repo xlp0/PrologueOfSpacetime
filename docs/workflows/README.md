@@ -11,6 +11,8 @@ This machine runs **24 hours a day, 7 days a week**. It never sleeps. It exercis
 
 This document explains how our team of **5 AI Giants** works together to verify everything using **The Cube** and **The ABC Ruler**.
 
+> **Mathematical Foundation**: We initially leverage the body of knowledge from **Homotopy Type Theory (HoTT)**. We treat "Equality" not as a boolean check, but as a **Path** between points in a space. This allows us to unify **Logic** (Types) with **Geometry** (Topological Shapes), providing the rigorous grounding needed for a truly Universal Namespace.
+
 ---
 
 ## 0. The Project Information (Root CLM)
@@ -51,14 +53,14 @@ We have a team of super-smart AIs. Think of them like a group project, but inste
 
 To make sure the story is perfect, the Giants use three special tools based on the **Cubical Logic Model**.
 
-### Tool A: The Magic Cube (CLM - Vector Alignment)
+### Tool A: The Magic Cube (CLM - Vector Alignment via HoTT)
 Every idea must fit into a perfect **3-Sided Block**. We do not "vote" on ideas; we measure their **Vector Alignment** (Cosine Similarity).
 
 1.  **The "Why" (Abstract Spec):** The **Designer's** Intent.
 2.  **The "How" (Concrete Impl):** The **Miner's** Evidence + **Coder's** Execution.
 3.  **The "What" (Balanced Exp):** The **Trader's** Valuation.
 
-*Consensus is achieved when all three vectors point in the same direction (Cosine Similarity > 0.9).*
+*Consensus is achieved when all three vectors point in the same direction (Cosine Similarity > 0.9), signifying a valid **Path** in our Homotopical Space.*
 
 ### Tool B: The Ruler (ABC Curriculum)
 The Giants use this ruler to measure if a chapter is good enough to teach.

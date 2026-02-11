@@ -4,6 +4,8 @@
 
 **Prologue of Spacetime** is more than a curriculum or a game; it is a **Demonstrative Example** of a **Living System** designed for **Continuation**. It proves the power of a **Unifying Namespace** to relate concepts, persist memory, and index data assets in a way that **maximizes latent opportunities** in a structural and systematic manner.
 
+> **Mathematical Foundation**: We initially leverage the body of knowledge from **Homotopy Type Theory (HoTT)**. We treat "Equality" not as a boolean check, but as a **Path** between points in a space. This allows us to unify **Logic** (Types) with **Geometry** (Topological Shapes), providing the rigorous grounding needed for a truly Universal Namespace.
+
 ## ♾️ The Operational Continuum: 24/7 MLOps
 To sustain this Continuation, we operate the refinement of the *Prologue* as a **24/7 DevOps/MLOps System**, following the **Five-Level MLOps Maturity Model**.
 
@@ -169,10 +171,11 @@ This repository serves as a specialized **Project Workspace** for the **Prologue
 
 ## 🗝 Key Concepts
 
-### 1. The Unifying Namespace (CLM)
-*   All content is a vector in a 3D space: (`Spec`, `Impl`, `Exp`).
-*   Relatedness is measured by **Cosine Similarity**.
-*   **Consensus** is achieved via **Pre-Established Harmony** (Vector Alignment), not negotiation.
+### 1. The Unifying Namespace (CLM via HoTT)
+*   **Foundation**: We leverage **Homotopy Type Theory (HoTT)** to treat Types as Spaces and Terms as Points.
+*   **Vector Space**: All content is a vector in a 3D space: (`Spec`, `Impl`, `Exp`).
+*   **Relationality**: Relatedness is measured by **Cosine Similarity** (Path Connectedness).
+*   **Consensus**: Achieved via **Pre-Established Harmony** (Vector Alignment), not negotiation.
 
 ### 2. The Universal Grammar of Decomposition
 The project operationalizes the **[Universal Grammar of Decomposition](docs/WorkingNotes/Hub/Theory/Integration/The%20Universal%20Grammar%20of%20Decomposition.md)** via **Polynomial Functors**. We recognize that Fourier Transforms, Laplace Transforms, Place Value Systems, and Data Structures are all instances of the same paradigm:
@@ -295,7 +298,7 @@ sequenceDiagram
 
 **Prologue of Spacetime** is not just a curriculum. It is a **Proof of Concept** for a new way of organizing knowledge. By demonstrating that a **Unifying Namespace (CLM)** can relate all concepts, persist all memory, and surface all latent opportunities, it lays the groundwork for an **AI-Native Knowledge Infrastructure**.
 
-> **The CLM is the Universal Language**. It is the protocol that allows Humans, Machines, and Institutions to speak the same truth.
+> **The CLM (grounded in HoTT) is the Universal Language**. It is the protocol that allows Humans, Machines, and Institutions to speak the same truth by treating Proofs as Paths in a shared Topological Space.
 
 ---
 
