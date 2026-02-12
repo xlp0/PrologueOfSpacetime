@@ -144,11 +144,12 @@ An AI can hallucinate a text, but it **cannot move a planet**. The night sky is 
 ### Slide 9: Infrastructure (MVP Cards)
 **Visual**: An exploded view of a card. Top Layer (Blue, transparent): "V-Card". Middle Layer (Green): "P-Card". Bottom Layer (Gold): "M-Card".
 **Script**:
-"The Atomic Unit of our university is the **MVP Card**. It encapsulates knowledge into a portable, verifiable format:
+"The Atomic Unit of our curriculum is the **MVP Card**. It encapsulates knowledge into a portable, verifiable format:
 
-**M-Card** is Memory. This is the Static Truth—the raw data or the file itself.
-**P-Card** is Process. This is the Action, the Code, or the transformation function.
-**V-Card** is Verification. This is the Proof or the Exam—a test that validates the outcome.
+**M-Card** Monadic Card is Memory. This is the Static Truth—the raw data or the file itself.
+**P-Card** Polynomial Cardis is Process. This is the Action, the Code, or the transformation function.
+**V-Card** Value Card is Verification. This is the Proof or the Exam—a test that validates the outcome. The test can be for the student or even the system of PKC.
+
 
 By structuring knowledge this way, we allow students to own, trade, and stack their learning like LEGO bricks. We are building a modular economy of truth."
 
@@ -161,7 +162,16 @@ Once they are hooked on the mission, we introduce **Logic**: 'The Struggle.' 'We
 
 Only then do we introduce **Grammar**: 'The Rule.' 'This solution is called Public Key Encryption.' Now, the abstract rule lands on fertile soil because they have the experience to anchor it. We don't teach answers to questions they haven't asked yet."
 
-### Slide 11: Digital Synesthesia (IoT)
+### Slide 11: The Framework (Cubical Logic Model)
+**Visual**: A glowing 3D Cube (Tesseract) encasing the MVP Cards. The axes are labeled "Type", "Term", and "Value".
+**Script**:
+"The MVP Card is powerful, but what stops it from becoming chaos? **The Cubical Logic Model (CLM)**.
+
+This is the framework that holds everything together. It connects the **Reverse Trivium** (Pedagogy) to the **MVP Card** (Infrastructure).
+
+CLM provides the 'Physics of Truth' for our universe. It dictates that every **MCard** (Grammar) must theoretically support a **PCard** (Logic), which must result in a **VCard** (Rhetoric). Without this framework, the PKC is just a folder of files. With CLM, it becomes a self-validating engine of truth."
+
+### Slide 12: Digital Synesthesia (IoT)
 **Visual**: A classroom where "Social Friction" is visualized as "Digital Smog." A controller in a student's hand glows red.
 **Script**:
 "We make the invisible visible. This is **Digital Synesthesia**.
@@ -170,7 +180,7 @@ Imagine the 'Fog of Selfishness.' If one student dominates the conversation, the
 
 The controller vibrates when the social dynamic is unbalanced. This acts as **Biofeedback for Society**, allowing students to *feel* collaboration physically before they intellectually understand it. It trains empathy as a reflex."
 
-### Slide 12: Curriculum Roadmap
+### Slide 13: Curriculum Roadmap
 **Visual**: A timeline flowing through 4 phases, connecting astronomical tools to network blocks.
 **Script**:
 "This isn't just a class; it's a four-year journey from 'User' to 'Architect.'
@@ -182,14 +192,14 @@ The controller vibrates when the social dynamic is unbalanced. This acts as **Bi
 
 The outcome is not a transcript. It is a cryptographically verified portfolio of skills—Proof that they can build."
 
-### Slide 13: Scale-Free Community
+### Slide 14: Scale-Free Community
 **Visual**: A fractal network diagram showing student nodes connecting to classroom nodes, connecting to national nodes.
 **Script**:
 "Because we use a fractal architecture, the system is **Scale-Free**. The same MVP Card that works for one student works for a classroom, a university, and an entire nation.
 
 Knowledge flows horizontally via **Federated Personal Knowledge Containers**. We are creating a 'Knowledge Commons' where students own their graph. They don't rent access to a platform; they own the node itself. This is true decentralization."
 
-### Slide 14: Assessment (The Correctness Triad)
+### Slide 15: Assessment (The Correctness Triad)
 **Visual**: A triangle diagram labeled "The Correctness Triad".
 **Script**:
 "We do not grade memory; we verify creation. We have replaced the multiple-choice test with **The Correctness Triad** (formerly Computational Trinitarianism).
@@ -200,7 +210,7 @@ Knowledge flows horizontally via **Federated Personal Knowledge Containers**. We
 
 We are moving away from Standardized Tests and towards **Proof-of-Work**."
 
-### Slide 15: The Vision (Sovereign Intelligence)
+### Slide 16: The Vision (Sovereign Intelligence)
 **Visual**: Silhouette of a student holding a glowing PKC cube, connected to the cosmos.
 **Script**:
 "The goal is **Sovereign Intelligence**. We are building a generation of learners who possess Ownable Data (PKC), Verifiable Truth (Astronomy), and Deployable Skills (IoT).
