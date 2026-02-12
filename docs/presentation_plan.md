@@ -5,7 +5,9 @@
 ## 1. The Core Narrative: "Problem & Solution"
 
 **The Crisis (The Hook)**
-The story begins with a crisis: higher education faces a dual challenge of **Value** and **Scale**. Traditional "Grammar-First" education—teaching abstract rules without context—has failed to engage the modern student, and the sheer logistics of teaching 400,000 students without an army of 40,000 professors presents an impossible bottleneck.
+The story begins with a different kind of crisis: **Fragmentation**. A modern student's focus is shattered across a dozen different tools—Canvas, Zoom, Drive, Discord.
+
+Critically, **none of these are local services**. This means students have **No Data Sovereignty**. They are forced to be **Passive Consumers**, dependent on external servers they cannot control. If the cloud goes down, their education stops.
 
 **The Solution (Scale-Free Architecture)**
 We didn't just build a school; we built a **Scale-Free Network**. Using the **Personal Knowledge Container (PKC)** and the **Subak Philosophy**, we created a fractal system where every student is a sovereign node. The same architecture that works for ONE student works for a MILLION. It is a "Knowledge Commons" where students own their graph.
@@ -56,11 +58,13 @@ This section provides the detailed narrative script for each slide.
 
 ### Slide 1: The Problem (Signal vs. Noise)
 **Script**:
-"We live in an era of **Infinite Noise**. Generative AI has made truth malleable and data infinite. For the first time in history, the supply of 'content' has exceeded the human capacity to process it.
+"We live in an era of **Fragmentation**. A student's focus is shattered across a dozen different tools—Canvas, Zoom, Drive, Discord.
 
-Traditional education was built for a world of information scarcity. It serves 'Facts' and 'Textbooks.' But today, students are drowning in a fragmented data stream where 'Reality' is often an Error 404. They don't need more information; they need a way to navigate the chaos.
+Critically, **none of these are local services**. This means students have **No Data Sovereignty**. They do not own their tools or their data.
 
-Our solution is **self data Sovereignty**. Not just owning data, but the ability to independently verify reality using the 'Source Code' of the universe—Math, Physics, and Logic."
+They are forced to be **Passive Consumers**. This isn't just students; **all users** on these platforms are merely renting access. They do not own their tools or their data. If the cloud goes down, their education stops.
+
+Our solution is **True Sovereignty**. Not just owning data, but the ability to independently operate the entire school from your own machine."
 
 ### Slide 2: The Solution (Scale-Free Architecture)
 **Script**:
