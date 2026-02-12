@@ -183,11 +183,11 @@ The controller vibrates when the social dynamic is unbalanced. This acts as **Bi
 The outcome is not a transcript. It is a cryptographically verified portfolio of skills—Proof that they can build."
 
 ### Slide 13: Scale-Free Community
-**Visual**: Fractal network diagram.
+**Visual**: A fractal network diagram showing student nodes connecting to classroom nodes, connecting to national nodes.
 **Script**:
-"Because we use a fractal architecture, the system is **Scale-Free**. The same MVP Card that works for one student works for a nation.
+"Because we use a fractal architecture, the system is **Scale-Free**. The same MVP Card that works for one student works for a classroom, a university, and an entire nation.
 
-Knowledge flows horizontally via Federated PKCs, creating a 'Knowledge Commons' where students own their graph. They don't rent access; they own the node."
+Knowledge flows horizontally via **Federated Personal Knowledge Containers**. We are creating a 'Knowledge Commons' where students own their graph. They don't rent access to a platform; they own the node itself. This is true decentralization."
 
 ### Slide 14: Assessment (The Correctness Triad)
 **Visual**: Triangle diagram (Spec/Build/Witness).
