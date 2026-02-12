@@ -201,11 +201,13 @@ Knowledge flows horizontally via **Federated Personal Knowledge Containers**. We
 We are moving away from Standardized Tests and towards **Proof-of-Work**."
 
 ### Slide 15: The Vision (Sovereign Intelligence)
-**Visual**: Silhouette holding glowing PKC cube.
+**Visual**: Silhouette of a student holding a glowing PKC cube, connected to the cosmos.
 **Script**:
-"The goal is **Sovereign Intelligence**. We are building learners who possess Ownable Data, Verifiable Truth, and Deployable Skills.
+"The goal is **Sovereign Intelligence**. We are building a generation of learners who possess Ownable Data (PKC), Verifiable Truth (Astronomy), and Deployable Skills (IoT).
 
-We are inviting you to help us **Start Building the Network**."
+We are not just building a network. We are building a future where every student is a sovereign node in the prologue of a new spacetime.
+
+We invite you to help us **Start Building the Network**."
 
 ---
 
