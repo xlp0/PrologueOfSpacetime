@@ -184,34 +184,37 @@ Imagine the 'Fog of Selfishness.' If one student dominates the conversation, the
 The controller vibrates when the social dynamic is unbalanced. This acts as **Biofeedback for Society**, allowing students to *feel* collaboration physically before they intellectually understand it. It trains empathy as a reflex."
 
 ### Slide 13: Curriculum Roadmap
-**Visual**: A timeline flowing through 4 phases, connecting astronomical tools to network blocks.
+**Visual**: A timeline flowing through 4 phases, connection astronomical tools to network blocks.
 **Script**:
-"This isn't just a class; it's a four-year journey from 'User' to 'Architect.'
+"This isn't just a class; it's a journey from 'User' to 'Architect.'
 
-**Year 1: Foundations.** We start with Observation and Arithmetic. Using telescopes and basic code.
-**Year 2: Infrastructure.** Students set up their Home Lab using a Raspberry Pi.
-**Year 3: Collaboration.** They begin Distributed Instrumentation, sharing data with peers.
-**Year 4: Consensus.** They master Blockchain and Verification.
+**Foundations:** We start with Observation and Arithmetic. Using telescopes and basic code.
+**Infrastructure:** Students set up their Home Lab using available machines.
+**Collaboration:** They begin Distributed Instrumentation, sharing data with peers.
+**Consensus:** They master Blockchain and Verification.
 
-The outcome is not a transcript. It is a cryptographically verified portfolio of skills—Proof that they can build."
+The outcome is not a transcript. It is a cryptographically verified portfolio of skills—Proof that they can build a physical and operational infrastructure."
 
 ### Slide 14: Scale-Free Community
 **Visual**: A fractal network diagram showing student nodes connecting to classroom nodes, connecting to national nodes.
 **Script**:
 "Because we use a fractal architecture, the system is **Scale-Free**. The same MVP Card that works for one student works for a classroom, a university, and an entire nation.
 
-Knowledge flows horizontally via **Federated Personal Knowledge Containers**. We are creating a 'Knowledge Commons' where students own their graph. They don't rent access to a platform; they own the node itself. This is true decentralization."
+Knowledge flows horizontally via **Federated Personal Knowledge Containers**. We are creating a 'Knowledge Commons' where students own their graph. They don't rent access to a platform; they own the node itself. This follows the **Balinese Subak** philosophy.
+
+Because each student has their own node, they can also share resources to help new students. It is true decentralization."
 
 ### Slide 15: Assessment (The Correctness Triad)
-**Visual**: A triangle diagram labeled "The Correctness Triad".
+**Visual**: A triangle diagram labeled "The Correctness Triad" with CLM axes.
 **Script**:
-"We do not grade memory; we verify creation. We have replaced the multiple-choice test with **The Correctness Triad** (formerly Computational Trinitarianism).
+"We do not grade memory; we verify creation. We have replaced the multiple-choice test with **The Correctness Triad**, based on the **Curry-Howard-Lambek Isomorphism**.
 
+This is why **CLM** is critical. It gives the student a framework to identify if they are doing the correct thing. It forces them to document:
 1.  **The Spec (Type):** What is the claim? 'I built a weather station.'
-2.  **The Build (Algorithm):** What is the process? The Python code and the breadboard assembly.
-3.  **The Witness (Proof):** What is the evidence? The temperature logs signed by the device key itself.
+2.  **The Build (Algorithm):** What is the process? The code and the breadboard assembly.
+3.  **The Witness (Proof):** What is the evidence? The logs signed by the device key.
 
-We are moving away from Standardized Tests and towards **Proof-of-Work**."
+With CLM, the student doesn't need a teacher to tell them they are right. The logic itself proves it. This is **Proof-of-Work**."
 
 ### Slide 16: The Vision (Sovereign Intelligence)
 **Visual**: Silhouette of a student holding a glowing PKC cube, connected to the cosmos.
