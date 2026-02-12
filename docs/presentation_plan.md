@@ -216,7 +216,20 @@ This is why **CLM** is critical. It gives the student a framework to identify if
 
 With CLM, the student doesn't need a teacher to tell them they are right. The logic itself proves it. This is **Proof-of-Work**."
 
-### Slide 16: The Vision (Sovereign Intelligence)
+### Slide 16: The Engine (Titan Quorum)
+**Visual**: A diagram of 5 AI Giants (The Boss, Planner, Librarian, Teacher, Fact-Checker) sitting around a table with the "Magic Cube" (CLM) in the center.
+**Script**:
+"In the age of AI, the ability to create is limited only by your workflow. We have built an **Automated Monadic Machine** to generate our own curriculum.
+
+We use a **Titan Quorum** of 5 AI Agents—OpenClaw, Llama, DeepSeek, Qwen, and Nemotron. They don't just 'generate text'; they follow a strict **Consensus Protocol**.
+
+1.  **The Planner** designs the Abstract Spec.
+2.  **The Librarian** mines the Concrete Evidence.
+3.  **The Fact-Checker** verifies the Balanced Expectation.
+
+If the vectors don't align, they reject the work. This ensures that our 400,000 students are learning from a system that is rigorously verified, 24/7."
+
+### Slide 17: The Vision (Sovereign Intelligence)
 **Visual**: Silhouette of a student holding a glowing PKC cube, connected to the cosmos.
 **Script**:
 "The goal is **Sovereign Intelligence**. We are building a generation of learners who possess Ownable Data (PKC), Verifiable Truth (Astronomy), and Deployable Skills (IoT).
