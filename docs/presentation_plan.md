@@ -142,14 +142,15 @@ We call this **Trustless Verification**. A student in Bali and a student in Swed
 An AI can hallucinate a text, but it **cannot move a planet**. The night sky is our 'Randomness Beacon' and our ultimate verification layer."
 
 ### Slide 9: Infrastructure (MVP Cards)
-**Visual**: Exploded view of V-Card / P-Card / M-Card.
+**Visual**: An exploded view of a card. Top Layer (Blue, transparent): "V-Card". Middle Layer (Green): "P-Card". Bottom Layer (Gold): "M-Card".
 **Script**:
-"This is the **Atomic Unit** of our university: the MVP Card.
-**MCard (Memory)** is the Static Truth.
-**PCard (Process)** is the Action or Code.
-**VCard (Verification)** is the Proof or Exam.
+"The Atomic Unit of our university is the **MVP Card**. It encapsulates knowledge into a portable, verifiable format:
 
-By encapsulating knowledge into these portable, stackable units, we allow students to own and trade knowledge like LEGO bricks."
+**M-Card** is Memory. This is the Static Truth—the raw data or the file itself.
+**P-Card** is Process. This is the Action, the Code, or the transformation function.
+**V-Card** is Verification. This is the Proof or the Exam—a test that validates the outcome.
+
+By structuring knowledge this way, we allow students to own, trade, and stack their learning like LEGO bricks. We are building a modular economy of truth."
 
 ### Slide 10: Pedagogy (Reverse Trivium)
 **Visual**: An inverted triangle funnel.
