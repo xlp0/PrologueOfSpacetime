@@ -115,11 +115,13 @@ In Computer Science, we formalize this as **Algebraic Data Types**. When we defi
 To truly understand a domain is simply to possess its optimal arithmetic encoding. Once a student grasps this, they can model anything."
 
 ### Slide 6: Geometry (Game Engines)
-**Visual**: A Wireframe Character Model with Bivectors.
+**Visual**: A wireframe 3D character model (Rigging). Bright green arrows (Vectors) stick out of it, and yellow spinning planes (Bivectors) rotate at the joints.
 **Script**:
-"We replace static Euclidean axioms with **Geometric Algebra** and Game Engines. Euclid defined planes by what they *aren't* (a normal vector pointing away). Geometric Algebra defines planes by what they *are* (**Bivectors** that spin).
+"We replace static Euclidean axioms with **Geometric Algebra** and **Game Engines**.
 
-By using Game Engines, we teach **Digital Synesthesia**. Students don't just solve equations; they 'feel' the math through collision physics. If the math is wrong, the character falls through the floor. It is Haptic Geometry."
+In traditional Geometry, Euclid defined a plane by what it *is not*—a normal vector pointing indefinitely away from it. This is abstract and disembodied. **Geometric Algebra** defines a plane by what it *is*—a **Bivector** that has magnitude and spin.
+
+By using Game Engines, we teach **Digital Synesthesia**. Students don't just solve equations on paper; they 'feel' the math through collision physics. If the math is wrong, the character falls through the floor. It transforms abstract geometry into **Haptic Reality**."
 
 ### Slide 7: Music (Observability)
 **Visual**: Musical notes turning into a Grafana dashboard.
