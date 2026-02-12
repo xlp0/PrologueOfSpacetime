@@ -1,179 +1,283 @@
-# Presentation Generation Prompt
+# PROLOGUE OF SPACETIME: Presentation Script & Visual Guide
 
-**Role**: You are a World-Class Keynote Designer and Storyteller (in the style of Steve Jobs meets Christopher Nolan). You specialize in "High-Leverage Engineering" narratives.
-
-**Objective**: Create a slide-by-slide script and visual guide for a presentation titled **"Prologue of Spacetime: The Revived Quadrivium."**
-
-**Context**: 
-- **Presenters**: Two student-architects (Self-Simulation / Zero-Patient Strategy).
-- **Audience**: Government officials, Educators, and Technologists.
-- **Narrative Arc**: A national crisis in education solved by two students using supercomputing to build a Sovereign Operational Network.
-- **Key Theoretical Credit**: Prof. Ben (Architect of the Logic/Math).
-
-**Instructions**:
-For each of the 15 slides below, provide:
-1.  **Visual Directive**: A detailed description for a designer or AI image generator (Midjourney/DALL-E). Focus on "Cyber-Academic" aesthetics—blending classical geometry with cyberpunk data streams.
-2.  **Slide Text**: Minimal, high-impact text. No bullet points unless necessary.
-3.  **Speaker Script**: A polished, spoken-word script based on the "Narrative" provided. Include cues for [Pause], [Emphasis], and [Gesture].
-
-**Input Data (The Plan)**:
+**Title**: The Revived Quadrivium: A Sovereign Operational Network
+**Presenters**: Two Student-Architects (Alternating Roles)
+**Duration**: 15 Minutes
+**Objective**: To demonstrate how two students leveraged AI and supercomputing to build a scalable, sovereign education network.
 
 ---
 
-# PROLOGUE OF SPACETIME: Presentation Master Plan
+## SLIDE 1: Title Slide (The Hook)
 
-> **Objective**: To demonstrate how **two student-architects** leveraged supercomputing power to design a scalable "Game/Curriculum/Network" capable of onboarding 400,000+ students into a Sovereign Operational Network.
+**Visual Directive**: 
+> A complex, high-resolution isometric diagram of the **Personal Knowledge Container (PKC)**. It should look like a glowing, translucent cube with intricate nodes connecting to it (labeled Node Alpha, Node Beta). The aesthetic is "Cyber-Academic"—think Da Vinci blueprints meeting Tron.
 
-## 1. The Core Narrative: "Two Students, One Supercomputer, & A National Crisis"
+**Speaker (Architect A)**:
+[Stand Center Stage, confident posture]
 
-**The Power of Two**
-We are here to demonstrate a feat of **High-Leverage Engineering**. Everything you see today—the game, the curriculum, the sovereign network, and even this presentation delivery PKC system—was built by **just two students**. This is not the work of a massive corporation or a government agency. It is the result of two minds leveraging the force multiplier of **AI and Supercomputing** (The Mac Studio) to solve a national-scale problem.
+"Good morning.
 
-**The Simulation (Zero-Patient Strategy)**
-**We are using ourselves as the students to simulate the entire process.** We are not just the architects building the school; we are the first test subjects taking the classes. By running this 4-year curriculum on ourselves in real-time, we prove that the system works. We are the "Zero-Patient" students of the Sovereign Operational Network.
+Open your eyes. Look at us. We are not a corporation. We are not a government agency. We are not a research lab with millions in funding.
 
-**The Reformation**
-The story begins with a crisis: higher education faces a dual challenge of **Value** and **Scale**. Traditional "Grammar-First" education—teaching abstract rules without context—has failed to engage the modern student, and the sheer logistics of teaching 400,000 students without an army of 40,000 professors presents an impossible bottleneck.
+We are two students.
 
-Our mission was to build a machine that solves this. The **Prologue of Spacetime** is simultaneously a game, a curriculum, and a sovereign network. By leveraging the **Personal Knowledge Container (PKC)**, we give every student "Digital Sovereignty," turning them from passive consumers of information into active architects of their own learning journey.
+But what we built... is a machine that can scale to 400,000 students.
 
----
+[Gesture to screen]
 
-## 2. Theoretical Pillars: The Logic Behind the Game (Architected by Prof. Ben)
+We realized that the only way to survive the AI age is to stop being 'users' and start being 'architects.' So we built our own **Sovereign Operational Network**.
 
-Our system is grounded in rigorous mathematical and philosophical principles **provided by Professor Ben**, ensuring that it is not just a game, but a valid verifiable curriculum. While we (the two students) built the engine, the theoretical foundation—the Reverse Trivium, Quadrivium, and Arithmetization—was architected by Prof. Ben.
+We call it 'The Revived Quadrivium.' It is not just a fancy name. It is a declaration. We are returning to the roots of knowledge—Arithmetic, Geometry, Music, and Astronomy—but we are scaling them with the force multiplier of Supercomputing.
 
-### A. The Arithmetization of Learning
-We treat learning as a form of **Arithmetic**. Using the **GASing Method** ("Gampang, Asyik, Menyenangkan" - Easy, Fun, Enjoyable), we break down complex, intimidating topics into small, countable "Segments". This allows students to build knowledge through simple addition, gaining confidence and fluency before they ever encounter complex abstractions. It turns the formidable mountain of knowledge into a series of climbable steps.
-
-### B. The Reverse Trivium (Pedagogy)
-Traditional education makes the mistake of starting with Grammar (Abstract Rules), which bores students. **"We stop forcing students to read the manual before they've played the game."** We reverse this flow:
-1.  **Rhetoric (VCard)**: **The Video Game Intro.** You jump into the level with a mission ("Survive the Night"). You don't know the rules, but you know the *Goal*.
-2.  **Logic (PCard)**: **The Struggle.** You try to build a roof, but it collapses. You learn through trial and error that "wood burns, stone doesn't." You discover the logic of the world.
-3.  **Grammar (MCard)**: **The Wiki.** Only *after* you play do you look up the manual to optimize your build. Now the abstract rules make sense because you have the experience to anchor them.
-
-### C. The Revived Quadrivium (Curriculum)
-We unify the four classical arts into a full-stack architecture rooted in **Arithmetic**:
-1.  **Geometry (Space)**: Product Types (AND logic). Visualized through **Game Engines**.
-2.  **Music (Time)**: Sum Types (OR logic). Visualized through **System Observability** (Prometheus/Grafana).
-3.  **Astrobiology (Spacetime)**: Function Types (Mapping). Verified through **Astronomy** (The Anchor of Truth).
+And here is the most critical part: **We are simulating the process ourselves.** We are not just building the school; we are the first students. We are the 'Zero-Patients' proving that this system works."
 
 ---
 
-## 3. Technical Architecture: The "How"
+## SLIDE 2: The Problem & Solution (Signal vs. Noise)
 
-**Live Demo Strategy**: This presentation runs *inside* the PKC ecosystem, demonstrating the technology by using it.
+**Visual Directive**: 
+> A split screen. 
+> **Left Side**: A "Chaotic Vortex" of static, glitching text, and social media icons (The Noise). Dark, messy colors. 
+> **Right Side**: A pristine "Golden Dodecahedron" floating in a clean void (The Signal). bright, orderly, divine geometry.
 
-### A. The PKC Ecosystem & MVP Cards
-The heart of our solution is the **Personal Knowledge Container (PKC)**. In our system, every piece of knowledge is encapsulated in a standardized "MVP" Card structure:
-1.  **MCard (Memory)**: The Static Truth (Universal File System).
-2.  **PCard (Process)**: The Action/Code.
-3.  **VCard (Verification)**: The Proof/Exam.
+**Speaker (Architect B)**:
+[Step forward]
 
-### B. The Deep Logic: Type Theory & Git Worktree
-To make this work 24/7 without crashing, we rely on two critical technologies:
-1.  **Type Theory (The OS)**: The logical glue that prevents "hallucination." It ensures that every "Function" (PCard) maps correctly to a "Verification" (VCard).
-2.  **Git Worktree (The Engine)**: The parallel execution engine that allows our **Titan Quorum** (5 AI Agents) to work simultaneously on different branches without file conflicts. This is how two students can simulate an entire university staff.
+"We live in an era of **Infinite Noise**.
 
----
+Generative AI has made truth malleable. Data is infinite, but meaningful 'Signal' is rare. Traditional education feeds us 'Information,' but what we desperately need is 'Truth.'
 
-## 4. The 15-Slide Structure (Detailed Speaker Notes)
+The problem is that students are drowning. They are lost in a fragmented data stream where 'Reality' is often an Error 404.
 
-This section provides the detailed narrative and "script" for each slide. The presentation is designed to be delivered by **two students** alternating roles, emphasizing that this entire architecture was built by just two minds.
+[Point to the Golden Dodecahedron]
 
-### Slide 1: Title Slide (The Hook)
-**Visual**: A complex isometric diagram of the PKC with nodes connecting to it (Node Alpha, Beta, etc.).
-**Narrative**: Open with the statement of our identity. We are not a corporation. We are two students who realized that the only way to survive the AI age is to build our own **Sovereign Operational Network**. The title "The Revived Quadrivium" is not just a fancy name; it is a declaration that we are returning to the roots of knowledge—Arithmetic, Geometry, Music, and Astronomy—but scaling them with supercomputing power to serve 400,000 students. **Crucially, we are simulating the process ourselves.** We are the first students.
+Our solution is **Sovereignty**.
 
-### Slide 2: The Problem & Solution (Signal vs. Noise)
-**Visual**: A split screen showing a "Chaotic Vortex" (The Noise) on the left and a "Golden Dodecahedron" (The Signal) on the right.
-**Narrative**: We live in an era of **Infinite Noise**. Generative AI has made truth malleable and data infinite. Traditional education serves "Information," but what we need is "Truth." The problem is that students are drowning in a fragmented data stream where "Reality" is often an Error 404. Our solution is **Sovereignty**: the ability to independently verify reality and compose truth using the 'Source Code' of the universe. We are shifting the goal of education from "Consuming Information" to "Composing Truth."
-
-### Slide 3: System Architecture (The Revivace)
-**Visual**: A classical temple structure with three pillars (Geometry, Music, Astrobiology) resting on a foundation of computer chips (Arithmetic).
-**Narrative**: This is the "Full Stack Mind." We call it **The Revivace**. It revives the classical arts by mapping them to modern computer science.
-*   **Geometry = Product Types (Space)**: Like a **School Lunch Tray**. You need a Sandwich *AND* an Apple *AND* a Drink simultaneously to have a "Complete Lunch." If one is missing, the structure breaks.
-*   **Music = Sum Types (Time)**: Like a **Vending Machine**. You choose Chips *OR* Candy *OR* Pretzels. You cannot have all states at once; you flow through choices in time.
-**Credit**: This entire theoretical architecture was conceived by **Prof. Ben**, who provided the mathematical framework that our system implements.
-
-### Slide 4: The Kernel (GASing)
-**Visual**: A hand counting gesture transforming into a digital arrow and logic gates.
-**Narrative**: Before you can code, you must be able to count. We use the **GASing Method** (Gampang, Asyik, Menyenangkan) to teach **Fluency Precedes Abstraction**. If a student cannot perform single-digit addition in under 2 seconds, they do not have the cognitive bandwidth to handle AI or coding. We treat "Segment-wise Addition" as the meta-operator of all computation. This is the kernel of our OS.
-
-### Slide 5: Arithmetic as Universal Interface
-**Visual**: A central circle labeled "Arithmetic" connecting to three geometric structures.
-**Narrative**: Arithmetic is not just counting; it is the **Universal Interface** of reality. In Computer Science, we call these **Algebraic Data Types**. When we define a "Product Type" (like a Struct), we are doing multiplication. When we define a "Sum Type" (like an Enum), we are doing addition. To understand a domain—whether it's biology or finance—is simply to possess its optimal arithmetic encoding.
-
-### Slide 6: Geometry (Game Engines)
-**Visual**: A Wireframe Character Model (Rigging) with green arrows (Vectors) and yellow oriented planes (Bivectors) at the joints.
-**Narrative**: We replace static Euclidean axioms with **Geometric Algebra** and **Game Engines**.
-*   **Euclid** defined planes by what they *aren't* (a normal vector pointing away).
-*   **Geometric Algebra** defines planes by what they *are* (**Bivectors** that spin).
-*   By using Game Engines, we teach **Digital Synesthesia**. Students don't just solve equations; they "feel" the math through collision physics. If the math is wrong, the character falls through the floor. It’s **Haptic Geometry**.
-
-### Slide 7: Music (Observability)
-**Visual**: Musical notes on a staff flowing into a digital dashboard with waveforms and graphs.
-**Narrative**: Music is simply "Number in Time." In the digital age, we practice music through **System Observability**. We use **Prometheus** to capture the "Live Performance" of our servers and **Grafana** to visualize the "Score."
-*   **The Heartbeat**: A healthy server hums with a rhythmic pattern. A crashing server creates "Polyrythmic Chaos."
-*   **Aliasing**: If your sampling rate is too low, you miss the signal. Listening to the "music" of data is how we keep the network alive.
-
-### Slide 8: Astrobiology (Truth Anchor)
-**Visual**: A telescope pointing at a star, connected to a blockchain/data block structure.
-**Narrative**: In a world of deepfakes, how do we verify truth? We look up. **Astronomy** provides the only non-fakeable, globally observable data source.
-*   **Trustless Verification**: A student in Bali and a student in Sweden can both point their telescope at Jupiter. If their vectors match the laws of physics (Kepler's Laws), we know they are telling the truth.
-*   An AI can hallucinate a text, but it **cannot move a planet**. The night sky is our "Randomness Beacon" and verification layer.
-
-### Slide 9: Infrastructure (MVP Cards)
-**Visual**: An exploded view of three stacked layers (V-Card / P-Card / M-Card).
-**Narrative**: This is the **Atomic Unit** of our university. Specifically, the **MVP Card**.
-*   **MCard (Memory)**: The Static Truth (Universal File System).
-*   **PCard (Process)**: The Action/Code.
-*   **VCard (Verification)**: The Proof/Exam. (e.g., A JSON Schema proving you "Built a Weather Station," signed by the device itself).
-By encapsulating knowledge into these portable, stackable units, we allow students to own and trade knowledge like LEGO bricks.
-
-### Slide 10: Pedagogy (Reverse Trivium)
-**Visual**: An inverted triangle (funnel).
-**Narrative**: Traditional education bores students by starting with Grammar (Rules). We invert this.
-*   **Rhetoric (The Mission)**: "Our village is being spied on. We need a secret code." (Value).
-*   **Logic (The Struggle)**: "We tried passing notes, but they got caught. We need a better lock." (Process).
-*   **Grammar (The Rule)**: "This is called Public Key Encryption." (Structure).
-*   We don't teach answers to questions you haven't asked yet.
-
-### Slide 11: Digital Synesthesia (IoT)
-**Visual**: A classroom where "Social Friction" is visualized as a "Digital Smog" on a screen.
-**Narrative**: We make the invisible visible. This is **Digital Synesthesia**.
-*   **The Fog of Selfishness**: If one student dominates the conversation, the group screen fills with "Digital Smog." To clear the fog, they must listen.
-*   **Haptic Feedback**: The controller vibrates when the social dynamic is unbalanced.
-*   This acts as "Biofeedback for Society," allowing students to *feel* collaboration before they intellectually understand it.
-
-### Slide 12: Curriculum Roadmap
-**Visual**: A timeline flowing through 4 phases, connecting astronomical tools to network blocks.
-**Narrative**: This is a 4-year journey. **Year 1: Foundations** (Observation & Arithmetic). **Year 2: Infrastructure** (Setting up the Home Lab). **Year 3: Collaboration** (Distributed Instrumentation). **Year 4: Consensus** (Blockchain & Verification). The outcome is not a transcript, but a verified portfolio of skills.
-
-### Slide 13: Scale-Free Community
-**Visual**: A fractal network diagram showing student nodes connecting to classroom nodes, connecting to national nodes.
-**Narrative**: Because we use a fractal architecture, the system is **Scale-Free**. The same MVP Card that works for one student works for a nation. Knowledge flows horizontally via **Federated PKCs**, creating a "Knowledge Commons" where students own their graph. They don't rent access; they own the node.
-
-### Slide 14: Assessment (The Correctness Triad)
-**Visual**: A triangle diagram labeled "The Correctness Triad" (Claim/Process/Evidence).
-**Narrative**: We do not grade memory; we verify creation. We call this **The Correctness Triad** (formerly Computational Trinitarianism).
-*   **The Spec (Type)**: What is the claim? ("I built a robot.")
-*   **The Build (Algorithm)**: What is the process? (The code and assembly.)
-*   **The Witness (Proof)**: What is the evidence? (The video processing logs signed by the robot).
-We are moving from Standardized Tests to **Proof-of-Work**.
-
-### Slide 15: The Vision (Sovereign Intelligence)
-**Visual**: Silhouette of a human holding a glowing cube (PKC), connected to the cosmos.
-**Narrative**: The goal is **Sovereign Intelligence**. We are building learners who possess Ownable Data (PKC), Verifiable Truth (Astronomy), and Deployable Skills (IoT). We are inviting you to help us **Start Building the Network**.
+Sovereignty is the ability to independently verify reality. It is the power to compose Truth using the 'Source Code' of the universe. We are shifting the entire goal of education. We are moving from 'Consuming Information'... to 'Composing Truth.'"
 
 ---
 
-## 5. Cultural Strategy: The "Soul" of the Network
+## SLIDE 3: System Architecture (The Revivace)
 
-We are building this specifically for Indonesia, rooting it in local wisdom to ensure adoption.
+**Visual Directive**: 
+> A classical Greek temple structure. 
+> **Three Pillars**: Labeled 'Geometry', 'Music', 'Astrobiology'.
+> **Foundation**: A base made of glowing computer chips and circuit traces, labeled 'Arithmetic'.
+> **Text Overlay**: "The Revivace: Full Stack Mind".
 
-### A. Subak & Gotong Royong
-We frame the decentralized network using the metaphor of **Subak**. Just as Balinese farmers manage water locally to ensure a shared harvest for the entire village, our students manage knowledge locally to create a shared intellectual economy. We rely on **Distributed Trust**, where the community trusts the **Protocol** (The Water/The Code) rather than a central overseer.
+**Speaker (Architect A)**:
+"This is the architecture of a Full Stack Mind. We call it **The Revivace**.
 
-**The "Two Students" Philosophy**
-This cultural strategy also reflects our own journey. We are **using ourselves as the students to simulate the entire process**. We are not just building the platform; we are the first "Zero-Patient" students running the curriculum on ourselves. We are proving the Subak works by farming the first plot of land ourselves.
+We revive the classical arts by mapping them directly to modern Computer Science.
+
+[Gesture to Pillars]
+
+**Geometry** is Space. In our code, this is **Product Types**. Think of a **School Lunch Tray**. You need a Sandwich *AND* an Apple *AND* a Drink to have a lunch. If one is missing, the structure breaks. That is Geometry.
+
+**Music** is Time. In our code, this is **Sum Types**. Think of a **Vending Machine**. You choose Chips *OR* Candy *OR* Pretzels. You cannot have them all at once; you make a choice in time.
+
+And this entire theoretical architecture? It was conceived by **Professor Ben**, who provided the rigorous mathematical framework that our engine now implements."
+
+---
+
+## SLIDE 4: The Kernel (GASing)
+
+**Visual Directive**: 
+> A human hand performing a counting gesture (1, 2, 3) which transforms morphologically into a digital arrow, then into logic gates and finally into code.
+
+**Speaker (Architect B)**:
+"But before you can code... you must be able to count.
+
+We use the **GASing Method**—'Gampang, Asyik, Menyenangkan' (Easy, Fun, Enjoyable).
+
+We teach that **Fluency Precedes Abstraction**. If a student cannot perform single-digit addition in under 2 seconds, they do not have the cognitive bandwidth to handle AI or coding.
+
+We treat 'Segment-wise Addition' as the kernel of our Operating System. It is the meta-operator of all computation."
+
+---
+
+## SLIDE 5: Arithmetic as Universal Interface
+
+**Visual Directive**: 
+> A central circle labeled "Arithmetic" with lines radiating out to symbols of Biology (DNA helix), Finance (Charts), and Physics (Atoms). All symbols are constructed from small blocks/numbers.
+
+**Speaker (Architect A)**:
+"Arithmetic is not just counting. It is the **Universal Interface** of reality.
+
+In Computer Science, we focus on **Algebraic Data Types**. When we define a 'Product Type' like a Struct, we are doing multiplication. When we define a 'Sum Type' like an Enum, we are doing addition.
+
+To understand any domain—whether it's biology, finance, or art—is simply to possess its optimal arithmetic encoding."
+
+---
+
+## SLIDE 6: Geometry (Game Engines)
+
+**Visual Directive**: 
+> A wireframe 3D character model (Rigging). Bright green arrows (Vectors) stick out of it, and yellow spinning planes (Bivectors) rotate at the joints. The background is a grid.
+
+**Speaker (Architect B)**:
+"We replace static Euclidean geometry with **Geometric Algebra** and **Game Engines**.
+
+Euclid defined planes by what they *aren't*—a normal vector pointing away. Geometric Algebra defines planes by what they *are*—**Bivectors** that spin.
+
+[Mime spinning a plane with hand]
+
+By using Game Engines, we teach **Digital Synesthesia**. Students don't just solve equations on paper; they 'feel' the math through collision physics. If the math is wrong, the character falls through the floor. It is **Haptic Geometry**."
+
+---
+
+## SLIDE 7: Music (Observability)
+
+**Visual Directive**: 
+> Musical notes on a staff flowing from left to right, morphing into a digital dashboard (Grafana style) with waveforms, histograms, and 'green' status lights.
+
+**Speaker (Architect A)**:
+"Music is simply 'Number in Time.'
+
+In the digital age, we practice music through **System Observability**. We use **Prometheus** to capture the 'Live Performance' of our servers and **Grafana** to visualize the 'Score.'
+
+[Pause]
+
+A healthy server has a **Heartbeat**. It hums with a rhythmic pattern. A crashing server creates 'Polyrhythmic Chaos.' Listening to the 'music' of data is how we keep the network alive."
+
+---
+
+## SLIDE 8: Astrobiology (Truth Anchor)
+
+**Visual Directive**: 
+> A student looking through a telescope at a bright star. The light from the star travels down into a blockchain data block, locking it into place.
+
+**Speaker (Architect B)**:
+"In a world of deepfakes, how do we verify truth?
+
+We look up. **Astronomy** provides the only non-fakeable, globally observable data source.
+
+We call this **Trustless Verification**. A student in Bali and a student in Sweden can both point their telescopes at Jupiter. If their vectors match Kepler's Laws, we *know* they are telling the truth.
+
+An AI can hallucinate a text... but it **cannot move a planet**. The night sky is our verification layer."
+
+---
+
+## SLIDE 9: Infrastructure (MVP Cards)
+
+**Visual Directive**: 
+> An exploded view of a card.
+> **Top Layer (Transparent)**: "V-Card (Verification/Proof)"
+> **Middle Layer (Blue)**: "P-Card (Process/Code)"
+> **Bottom Layer (Solid Gold)**: "M-Card (Memory/Truth)"
+
+**Speaker (Architect A)**:
+"This is the **Atomic Unit** of our university. The **MVP Card**.
+
+**M-Card** is Memory. The Static Truth.
+**P-Card** is Process. The Code and Action.
+**V-Card** is Verification. The Proof.
+
+By encapsulating knowledge into these portable, stackable units, we allow students to own and trade knowledge like LEGO bricks. We are building a modular economy of truth."
+
+---
+
+## SLIDE 10: Pedagogy (Reverse Trivium)
+
+**Visual Directive**: 
+> An inverted triangle (funnel shape).
+> **Top (Wide)**: "Rhetoric (The Mission)"
+> **Middle**: "Logic (The Struggle)"
+> **Bottom (Point)**: "Grammar (The Rule)"
+
+**Speaker (Architect B)**:
+"Traditional education bores students by starting with Grammar—abstract rules. We invert this. The **Reverse Trivium**.
+
+**Rhetoric**: 'The Mission.' Our village is being spied on. We need a secret code.
+**Logic**: 'The Struggle.' We try passing notes, but they get caught. We need a better lock.
+**Grammar**: 'The Rule.' *This* is called Public Key Encryption.
+
+We don't teach answers to questions you haven't asked yet."
+
+---
+
+## SLIDE 11: Digital Synesthesia (IoT)
+
+**Visual Directive**: 
+> A classroom scene. Above the students' heads, a "Digital Smog" (cloud of colored smoke) appears on a screen, representing noise/conflict. A controller in a student's hand is glowing red.
+
+**Speaker (Architect A)**:
+"We make the invisible visible. This is **Digital Synesthesia**.
+
+Imagine the 'Fog of Selfishness.' If one student dominates the conversation, the group screen fills with digital smog. To clear the fog, they must listen.
+
+The controller vibrates when the social dynamic is unbalanced. It is **Biofeedback for Society**, allowing students to *feel* collaboration before they intellectually understand it."
+
+---
+
+## SLIDE 12: Curriculum Roadmap
+
+**Visual Directive**: 
+> A timeline flowing from left to right.
+> **Year 1**: Eye/Telescope icon.
+> **Year 2**: Home Lab/Server icon.
+> **Year 3**: Network nodes icon.
+> **Year 4**: Blockchain block icon.
+
+**Speaker (Architect B)**:
+"This is a 4-year journey.
+
+**Year 1: Foundations**. Observation & Arithmetic.
+**Year 2: Infrastructure**. Setting up the Home Lab.
+**Year 3: Collaboration**. Distributed Instrumentation.
+**Year 4: Consensus**. Blockchain & Verification.
+
+The outcome is not a transcript. It is a verified portfolio of skills."
+
+---
+
+## SLIDE 13: Scale-Free Community
+
+**Visual Directive**: 
+> A fractal network diagram. Small nodes (Students) connect to medium nodes (Classrooms), which connect to large nodes (National). The pattern looks the same at every zoom level.
+
+**Speaker (Architect A)**:
+"Because we use a fractal architecture, the system is **Scale-Free**.
+
+The same MVP Card that works for one student... works for a nation.
+
+Knowledge flows horizontally via **Federated Personal Knowledge Containers**. We are creating a 'Knowledge Commons' where students own their graph. They don't rent access; they own the node."
+
+---
+
+## SLIDE 14: Assessment (The Correctness Triad)
+
+**Visual Directive**: 
+> A triangle diagram.
+> **Point 1**: Spec (Type/Claim)
+> **Point 2**: Build (Algorithm/Process)
+> **Point 3**: Witness (Proof/Evidence)
+> **Center**: "Proof of Work"
+
+**Speaker (Architect B)**:
+"We do not grade memory; we verify creation.
+
+We call this **The Correctness Triad**.
+1. **The Spec**: What is the claim? 'I built a robot.'
+2. **The Build**: What is the process? The code.
+3. **The Witness**: What is the evidence? The logs signed by the robot itself.
+
+We are moving from Standardized Tests... to **Proof-of-Work**."
+
+---
+
+## SLIDE 15: The Vision (Sovereign Intelligence)
+
+**Visual Directive**: 
+> Silhouette of a human figure holding a glowing cube (the PKC) in their hand. Points of light from the cube connect to stars in the sky above. Text: "Sovereign Intelligence".
+
+**Speaker (Architect A & B together)**:
+"The goal is **Sovereign Intelligence**.
+
+We are building learners who possess Ownable Data... Verifiable Truth... and Deployable Skills.
+
+We are not just building a network. We are building a future where every student is a sovereign node in the prologue of a new spacetime.
+
+We invite you to help us start building."
+
+[End of Presentation]
