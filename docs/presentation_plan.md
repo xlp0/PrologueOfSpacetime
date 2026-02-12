@@ -55,7 +55,7 @@ To make this work 24/7 without crashing, we rely on two critical technologies:
 
 ---
 
-## 4. The 15-Slide Structure (Detailed Speaker Notes)
+## 4. The 17-Slide Structure (Detailed Speaker Notes)
 
 This section provides the detailed narrative and "script" for each slide. The presentation is designed to be delivered by **two students** alternating roles, emphasizing that this entire architecture was built by just two minds.
 
@@ -117,22 +117,30 @@ By encapsulating knowledge into these portable, stackable units, we allow studen
 *   **Grammar (The Rule)**: "This is called Public Key Encryption." (Structure).
 *   We don't teach answers to questions you haven't asked yet.
 
-### Slide 11: Digital Synesthesia (IoT)
+### Slide 11: Personal Knowledge Containers (PKC)
+*   **Visual**: Isometric wireframe cube refracting a light beam into four streams (Math, Code, Governance, Education).
+*   **Concept**: **Everything, Everywhere, All at Once (EEAO)**. A framework for Self-Sovereign Truth bridging Category Theory, Systems Architecture, and Governance.
+
+### Slide 12: The Cubical Logic Model (CLM)
+*   **Visual**: Three-dimensional cube with faces labeled Abstract (top), Balanced (left), Concrete (right).
+*   **Concept**: **Computational Verification over Social Validation**. Replaces "who you are" with "what you can prove."
+
+### Slide 13: Digital Synesthesia (IoT)
 **Visual**: A classroom where "Social Friction" is visualized as a "Digital Smog" on a screen.
 **Narrative**: We make the invisible visible. This is **Digital Synesthesia**.
 *   **The Fog of Selfishness**: If one student dominates the conversation, the group screen fills with "Digital Smog." To clear the fog, they must listen.
 *   **Haptic Feedback**: The controller vibrates when the social dynamic is unbalanced.
 *   This acts as "Biofeedback for Society," allowing students to *feel* collaboration before they intellectually understand it.
 
-### Slide 12: Curriculum Roadmap
+### Slide 14: Curriculum Roadmap
 **Visual**: A timeline flowing through 4 phases, connecting astronomical tools to network blocks.
 **Narrative**: This is a 4-year journey. **Year 1: Foundations** (Observation & Arithmetic). **Year 2: Infrastructure** (Setting up the Home Lab). **Year 3: Collaboration** (Distributed Instrumentation). **Year 4: Consensus** (Blockchain & Verification). The outcome is not a transcript, but a verified portfolio of skills.
 
-### Slide 13: Scale-Free Community
+### Slide 15: Scale-Free Community
 **Visual**: A fractal network diagram showing student nodes connecting to classroom nodes, connecting to national nodes.
 **Narrative**: Because we use a fractal architecture, the system is **Scale-Free**. The same MVP Card that works for one student works for a nation. Knowledge flows horizontally via **Federated PKCs**, creating a "Knowledge Commons" where students own their graph. They don't rent access; they own the node.
 
-### Slide 14: Assessment (The Correctness Triad)
+### Slide 16: Assessment (The Correctness Triad)
 **Visual**: A triangle diagram labeled "The Correctness Triad" (Claim/Process/Evidence).
 **Narrative**: We do not grade memory; we verify creation. We call this **The Correctness Triad** (formerly Computational Trinitarianism).
 *   **The Spec (Type)**: What is the claim? ("I built a robot.")
@@ -140,7 +148,7 @@ By encapsulating knowledge into these portable, stackable units, we allow studen
 *   **The Witness (Proof)**: What is the evidence? (The video processing logs signed by the robot).
 We are moving from Standardized Tests to **Proof-of-Work**.
 
-### Slide 15: The Vision (Sovereign Intelligence)
+### Slide 17: The Vision (Sovereign Intelligence)
 **Visual**: Silhouette of a human holding a glowing cube (PKC), connected to the cosmos.
 **Narrative**: The goal is **Sovereign Intelligence**. We are building learners who possess Ownable Data (PKC), Verifiable Truth (Astronomy), and Deployable Skills (IoT). We are inviting you to help us **Start Building the Network**.
 

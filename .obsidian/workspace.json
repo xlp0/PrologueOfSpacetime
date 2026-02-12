@@ -235,6 +235,11 @@
   },
   "active": "3c0aa5306baf9ccb",
   "lastOpenFiles": [
+    "src/__init__.py",
+    "src",
+    "requirements.txt",
+    "docs/Fleeting/question_store.md",
+    "docs/Fleeting/presentation_generation_prompt.md",
     "docs/presentation_plan.md",
     "docs/Fleeting/fleeting.md",
     "docs/Fleeting",
@@ -261,9 +266,6 @@
     "docs/prologue_of_spacetime_improvement/Homotype Type Theory/#1 Homotopy Type Theory Explained: A New Foundation for Mathematics.md",
     "docs/prologue_of_spacetime_improvement/Homotype Type Theory",
     "docs/Pentadic Improvement Plan for Prologue of Spacetime.md",
-    "docs/Update_History/2026-02-11_Flow_State_Engineering.md",
-    "docs/workflows/README.md",
-    "docs/workflows/consensus_constitution.md",
-    "abc_curriculum.md"
+    "docs/Update_History/2026-02-11_Flow_State_Engineering.md"
   ]
 }
