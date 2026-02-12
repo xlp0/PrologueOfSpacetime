@@ -219,9 +219,11 @@ With CLM, the student doesn't need a teacher to tell them they are right. The lo
 ### Slide 16: The Engine (Titan Quorum)
 **Visual**: A diagram of 5 AI Giants (The Boss, Planner, Librarian, Teacher, Fact-Checker) sitting around a table with the "Magic Cube" (CLM) in the center.
 **Script**:
-"In the age of AI, the ability to create is limited only by your workflow. We have built an **Automated Monadic Machine** to generate our own curriculum.
+"In the age of AI, **2 Students + 5 Agents = 1 University**.
 
-We use a **Titan Quorum** of 5 AI Agents—OpenClaw, Llama, DeepSeek, Qwen, and Nemotron. They don't just 'generate text'; they follow a strict **Consensus Protocol**.
+We have built an **Automated Monadic Machine** that operates on **Git Worktree** technology, allowing us to achieve true **Parallel Execution**.
+
+We use a **Titan Quorum** of 5 AI Agents—OpenClaw, Llama, DeepSeek, Qwen, and Nemotron. They don't just 'generate text'; they work in parallel, isolated branches, following a strict **Consensus Protocol**.
 
 1.  **The Planner** designs the Abstract Spec.
 2.  **The Librarian** mines the Concrete Evidence.
