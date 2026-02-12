@@ -111,7 +111,38 @@ You should create **15 slides** following this exact structure. As requested, yo
     3.  **GRAMMAR (WHAT):** Formalization. Encode into Rules/IoT.
 *   **Sidebar Text:** Traditional education forces Grammar first, causing disengagement. We start with Value. Rhetoric provides the "Entry Witness", Logic the "Process", and Grammar the "Code".
 
-### **Slide 11: Digital Synesthesia (IoT)**
+### **Slide 11: Personal Knowledge Containers (PKC)**
+**Visual:** An isometric wireframe cube (the PKC) refracting a single beam of light into four distinct output streams: Math, Code, Governance, Education.
+*   **Title:** PERSONAL KNOWLEDGE CONTAINERS: A UNIVERSAL SYSTEM
+*   **Subtitle:** Everything, Everywhere, All at Once (EEAO)
+*   **Key Visual Elements:**
+    *   A single coherent light beam enters the cube from the left (representing raw knowledge/data).
+    *   The cube acts as a **prism**, decomposing the input into four disciplinary streams:
+        *   **MATH** (dark blue) — The formal foundation.
+        *   **CODE** (dark blue) — The executable logic.
+        *   **GOVERNANCE** (orange) — The social coordination layer.
+        *   **EDUCATION** (orange) — The pedagogical delivery.
+*   **Sidebar Text:**
+    *   *The PKC is a framework for **Self-Sovereign Truth**, bridging Category Theory, Systems Architecture, and the Science of Governance.*
+    *   *One Container, Four Outputs:* The same underlying knowledge structure (MCard/PCard/VCard) serves mathematics, software, governance, and education simultaneously—because they share the same arithmetic root.
+    *   *Sovereignty:* You own the container. The knowledge is local-first, portable, and verifiable without reliance on any external authority.
+
+### **Slide 12: The Cubical Logic Model (CLM)**
+**Visual:** A three-dimensional cube with three visible faces labeled: **Abstract** (top), **Balanced** (left), **Concrete** (right). Ornate border with gear/clockwork motifs suggesting mechanical precision.
+*   **Title:** THE CUBICAL LOGIC MODEL (CLM)
+*   **Subtitle:** Computational Verification over Social Validation
+*   **The Three Faces:**
+    *   **ABSTRACT (Top Face):** The Specification — What *should* be true. The formal intent, the type signature, the policy.
+    *   **CONCRETE (Right Face):** The Implementation — What *is* built. The running code, the deployed system, the physical artifact.
+    *   **BALANCED (Left Face):** The Witness — The verification that Abstract and Concrete align. The test suite, the audit trail, the VCard proof.
+*   **Key Text Blocks:**
+    *   *CLM is the verification logic framework ensuring correctness. It replaces the "Academic Caste System" of who you are with "Logical Alignment" of what you can prove.*
+    *   **Triadic Completion:** Moving beyond binary oppositions (Spec vs. Implementation) to include the **Witness**. Every claim requires three things: the promise (Abstract), the delivery (Concrete), and the proof that they match (Balanced).
+*   **Sidebar Text:**
+    *   *Why Three, Not Two?* Binary thinking (Theory vs. Practice) creates endless debate. The third dimension (Verification) resolves it computationally. You don't argue about correctness—you **prove** it.
+    *   *Operational Mapping:* Abstract $\to$ MCard (Memory), Concrete $\to$ PCard (Process), Balanced $\to$ VCard (Verification). The CLM is the MVP Card system viewed as a logical framework.
+
+### **Slide 13: Digital Synesthesia (IoT)**
 **Visual:** A soldering iron working on a PCB board (PKC Edge Node) connected to digital graphs.
 *   **Title:** DIGITAL SYNESTHESIA: IoT & PHYSICAL NETWORKING
 *   **Labels:** PKC Edge Node, Sensor Array, Physical M-Card.
@@ -120,7 +151,7 @@ You should create **15 slides** following this exact structure. As requested, yo
     *   *Makerspaces:* The physical nodes where digital P-Cards (designs) become physical instruments.
     *   *Synesthesia:* Making the invisible visible. Seeing math through game physics, hearing data through sonification, feeling systems through haptics.
 
-### **Slide 12: Curriculum Roadmap**
+### **Slide 14: Curriculum Roadmap**
 **Visual:** A timeline flowing through 4 phases, connecting astronomical tools to network blocks.
 *   **Title:** THE INTEGRATED CURRICULUM ROADMAP
 *   **Header:** Cyber-Renaissance Engineering.
@@ -131,7 +162,7 @@ You should create **15 slides** following this exact structure. As requested, yo
     *   **YEAR 4: CONSENSUS** (Blockchain & Verification. Proof-of-Observation).
 *   **Bottom Banner:** Outcome: A verified portfolio of skills, not a transcript.
 
-### **Slide 13: Scale-Free Community**
+### **Slide 15: Scale-Free Community**
 **Visual:** A fractal network diagram showing student nodes connecting to classroom nodes, connecting to national nodes.
 *   **Title:** SCALE-FREE LEARNING COMMUNITIES
 *   **Visual Labels:** Fractal scaling factor, self-similar geometry, P2P knowledge exchange.
@@ -140,7 +171,7 @@ You should create **15 slides** following this exact structure. As requested, yo
     *   *Peer-to-Peer:* Knowledge flows horizontally via Federated PKCs, creating a "Knowledge Commons".
     *   *Sovereignty:* Learners own their graph. They don't rent access; they own the node.
 
-### **Slide 14: Assessment**
+### **Slide 16: Assessment**
 **Visual:** A triangle diagram labeled "Computational Trinitarianism".
 *   **Title:** ASSESSMENT: COMPUTATIONAL TRINITARIANISM
 *   **Triangle Points:**
@@ -150,7 +181,7 @@ You should create **15 slides** following this exact structure. As requested, yo
 *   **Center:** Curry-Howard-Lambek Isomorphism.
 *   **Bottom Text:** We don't grade memory; we verify creation. The Shift: From Standardized Tests to Proof-of-Work. Result: Assessment becomes a portfolio of verified capabilities (V-Cards).
 
-### **Slide 15: The Vision**
+### **Slide 17: The Vision**
 **Visual:** Silhouette of a human holding a glowing cube (PKC), connected to the cosmos.
 *   **Title:** THE VISION: SOVEREIGN INTELLIGENCE
 *   **Text:**

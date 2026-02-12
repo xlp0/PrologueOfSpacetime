@@ -235,6 +235,14 @@
   },
   "active": "3c0aa5306baf9ccb",
   "lastOpenFiles": [
+    "docs/presentation_plan.md",
+    "docs/Fleeting/fleeting.md",
+    "docs/Fleeting",
+    "docs/prologue_of_spacetime_improvement/Science of Governance.md",
+    "docs/prologue_of_spacetime_improvement/Local-first Principle.md",
+    "docs/prologue_of_spacetime_improvement/EEAO.md",
+    "docs/prologue_of_spacetime_improvement/Type Theory.md",
+    "docs/prologue_of_spacetime_improvement/Modularity.md",
     "docs/prologue_of_spacetime_improvement/GASing.md",
     "docs/prologue_of_spacetime_improvement/Universality.md",
     "docs/prologue_of_spacetime_improvement/Trivium.md",
@@ -256,8 +264,6 @@
     "docs/Update_History/2026-02-11_Flow_State_Engineering.md",
     "docs/workflows/README.md",
     "docs/workflows/consensus_constitution.md",
-    "abc_curriculum.md",
-    "chapters/05_Resource_Allocation/nitinol_vr_goggles.md",
-    "docs/workflows/mcp_skill_registry.md"
+    "abc_curriculum.md"
   ]
 }
