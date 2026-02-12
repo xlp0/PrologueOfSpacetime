@@ -162,11 +162,13 @@ Once they are hooked on the mission, we introduce **Logic**: 'The Struggle.' 'We
 Only then do we introduce **Grammar**: 'The Rule.' 'This solution is called Public Key Encryption.' Now, the abstract rule lands on fertile soil because they have the experience to anchor it. We don't teach answers to questions they haven't asked yet."
 
 ### Slide 11: Digital Synesthesia (IoT)
-**Visual**: "Digital Smog" in a classroom visualize on a screen.
+**Visual**: A classroom where "Social Friction" is visualized as "Digital Smog." A controller in a student's hand glows red.
 **Script**:
 "We make the invisible visible. This is **Digital Synesthesia**.
 
-Imagine the 'Fog of Selfishness.' If one student dominates the conversation, the group screen fills with digital smog. To clear the fog, they must listen. The controller vibrates when the social dynamic is unbalanced. It acts as Biofeedback for Society."
+Imagine the 'Fog of Selfishness.' If one student dominates the conversation, the group screen fills with 'Digital Smog.' To clear the fog, they must listen.
+
+The controller vibrates when the social dynamic is unbalanced. This acts as **Biofeedback for Society**, allowing students to *feel* collaboration physically before they intellectually understand it. It trains empathy as a reflex."
 
 ### Slide 12: Curriculum Roadmap
 **Visual**: Timeline (Foundations -> Infrastructure -> Collaboration -> Consensus).
