@@ -153,15 +153,13 @@ An AI can hallucinate a text, but it **cannot move a planet**. The night sky is 
 By structuring knowledge this way, we allow students to own, trade, and stack their learning like LEGO bricks. We are building a modular economy of truth."
 
 ### Slide 10: Pedagogy (Reverse Trivium)
-**Visual**: An inverted triangle funnel.
+**Visual**: An inverted triangle (funnel shape). Top (Wide): "Rhetoric". Middle: "Logic". Bottom (Point): "Grammar".
 **Script**:
-"Traditional education bores students by starting with Grammar (Rules). We invert this flow.
+"Traditional education makes a fatal error: it starts with Grammar—abstract rules—which bores students instantly. We invert this flow. We start with **Rhetoric**: 'The Mission.' Provide a compelling 'Why.' For example: 'Our village is being spied on. We need a secret code.'
 
-First, **Rhetoric (The Mission)**: 'Our village is being spied on. We need a secret code.' This establishes Value.
-Second, **Logic (The Struggle)**: 'We tried passing notes, but they got caught. We need a better lock.' This is the Process.
-Third, **Grammar (The Rule)**: 'This is called Public Key Encryption.' This is the Structure.
+Once they are hooked on the mission, we introduce **Logic**: 'The Struggle.' 'We tried passing notes, but the enemy intercepted them. We need a better lock.' They learn through failure that the process is hard.
 
-We don't teach answers to questions you haven't asked yet."
+Only then do we introduce **Grammar**: 'The Rule.' 'This solution is called Public Key Encryption.' Now, the abstract rule lands on fertile soil because they have the experience to anchor it. We don't teach answers to questions they haven't asked yet."
 
 ### Slide 11: Digital Synesthesia (IoT)
 **Visual**: "Digital Smog" in a classroom visualize on a screen.
