@@ -147,7 +147,7 @@ An AI can hallucinate a text, but it **cannot move a planet**. The night sky is 
 "The Atomic Unit of our curriculum is the **MVP Card**. It encapsulates knowledge into a portable, verifiable format:
 
 **M-Card** Monadic Card is Memory. This is the Static Truth—the raw data or the file itself.
-**P-Card** Polynomial Cardis is Process. This is the Action, the Code, or the transformation function.
+**P-Card** Polynomial Card is Process. This is the Action, the Code, or the transformation function.
 **V-Card** Value Card is Verification. This is the Proof or the Exam—a test that validates the outcome. The test can be for the student or even the system of PKC.
 
 
@@ -184,7 +184,7 @@ Imagine the 'Fog of Selfishness.' If one student dominates the conversation, the
 The controller vibrates when the social dynamic is unbalanced. This acts as **Biofeedback for Society**, allowing students to *feel* collaboration physically before they intellectually understand it. It trains empathy as a reflex."
 
 ### Slide 13: Curriculum Roadmap
-**Visual**: A timeline flowing through 4 phases, connection astronomical tools to network blocks.
+**Visual**: A timeline flowing through 4 phases, connecting astronomical tools to network blocks.
 **Script**:
 "This isn't just a class; it's a journey from 'User' to 'Architect.'
 
@@ -219,9 +219,9 @@ With CLM, the student doesn't need a teacher to tell them they are right. The lo
 ### Slide 16: The Engine (Titan Quorum)
 **Visual**: A diagram of 5 AI Giants (The Boss, Planner, Librarian, Teacher, Fact-Checker) sitting around a table with the "Magic Cube" (CLM) in the center.
 **Script**:
-"In the age of AI, **2 Students + 5 Agents = 1 University**.
+"In the age of AI, content generation can be automated.
 
-We have built an **Automated Monadic Machine** that operates on **Git Worktree** technology, allowing us to achieve true **Parallel Execution**.
+We have built an **Automated Workflow** that operates on **Git Worktree** technology, allowing us to achieve true **Parallel Execution**.
 
 We use a **Titan Quorum** of 5 AI Agents—OpenClaw, Llama, DeepSeek, Qwen, and Nemotron. They don't just 'generate text'; they work in parallel, isolated branches, following a strict **Consensus Protocol**.
 
@@ -229,7 +229,7 @@ We use a **Titan Quorum** of 5 AI Agents—OpenClaw, Llama, DeepSeek, Qwen, and 
 2.  **The Librarian** mines the Concrete Evidence.
 3.  **The Fact-Checker** verifies the Balanced Expectation.
 
-If the vectors don't align, they reject the work. This ensures that our 400,000 students are learning from a system that is rigorously verified, 24/7."
+If the vectors don't align, they reject the work. This ensures that our curriculum will lead students to learn from a system that is rigorously verified, 24/7."
 
 ### Slide 17: The Vision (Sovereign Intelligence)
 **Visual**: Silhouette of a student holding a glowing PKC cube, connected to the cosmos.
