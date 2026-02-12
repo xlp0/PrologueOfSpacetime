@@ -133,11 +133,13 @@ A healthy server has a rhythm—a heartbeat. It hums with a consistent pattern. 
 We teach students to 'listen' to this data. If your sampling rate is too low, you miss the signal—a phenomenon known as Aliasing. Listening to the 'music' of data is how we keep the network alive."
 
 ### Slide 8: Astrobiology (Truth Anchor)
-**Visual**: A telescope pointing at a star, connected to a blockchain.
+**Visual**: A telescope pointing at a star, with the light ray becoming a cryptographic hash that locks into a blockchain block.
 **Script**:
-"In a world of deepfakes, how do we verify truth? We look up. **Astronomy** provides the only non-fakeable, globally observable data source.
+"In a world of deepfakes and generative AI, how do we verify truth? We look up. **Astronomy** provides the only non-fakeable, globally observable data source.
 
-We call this **Trustless Verification**. A student in Bali and a student in Sweden can both point their telescope at Jupiter. If their vectors match the laws of physics, we know they are telling the truth. An AI can hallucinate a text, but it **cannot move a planet**."
+We call this **Trustless Verification**. A student in Bali and a student in Sweden can both point their telescopes at Jupiter. If their vectors match the laws of physics (Kepler's Laws), we *know* they are telling the truth.
+
+An AI can hallucinate a text, but it **cannot move a planet**. The night sky is our 'Randomness Beacon' and our ultimate verification layer."
 
 ### Slide 9: Infrastructure (MVP Cards)
 **Visual**: Exploded view of V-Card / P-Card / M-Card.
