@@ -163,13 +163,16 @@ Once they are hooked on the mission, we introduce **Logic**: 'The Struggle.' 'We
 Only then do we introduce **Grammar**: 'The Rule.' 'This solution is called Public Key Encryption.' Now, the abstract rule lands on fertile soil because they have the experience to anchor it. We don't teach answers to questions they haven't asked yet."
 
 ### Slide 11: The Framework (Cubical Logic Model)
-**Visual**: A glowing 3D Cube (Tesseract) encasing the MVP Cards. The axes are labeled "Type", "Term", and "Value".
+**Visual**: A glowing 3D Cube (Tesseract) encasing the MVP Cards. The axes are labeled "Specification", "Implementation", and "Expectation".
 **Script**:
 "The MVP Card is powerful, but what stops it from becoming chaos? **The Cubical Logic Model (CLM)**.
 
-This is the framework that holds everything together. It connects the **Reverse Trivium** (Pedagogy) to the **MVP Card** (Infrastructure).
+This framework provides the 'Physics of Truth' for our system. It demands that every digital object has three dimensions:
+1.  **Abstract Specification** (The M-Card/Type).
+2.  **Concrete Implementation** (The P-Card/Term).
+3.  **Balanced Expectation** (The V-Card/Witness).
 
-CLM provides the 'Physics of Truth' for our universe. It dictates that every **MCard** (Grammar) must theoretically support a **PCard** (Logic), which must result in a **VCard** (Rhetoric). Without this framework, the PKC is just a folder of files. With CLM, it becomes a self-validating engine of truth."
+In this model, the **P-Card (Process)** *is* the CLM. It is the active logic that proves the implementation satisfies the specification. It doesn't just run code; it validates reality."
 
 ### Slide 12: Digital Synesthesia (IoT)
 **Visual**: A classroom where "Social Friction" is visualized as "Digital Smog." A controller in a student's hand glows red.
