@@ -171,15 +171,16 @@ Imagine the 'Fog of Selfishness.' If one student dominates the conversation, the
 The controller vibrates when the social dynamic is unbalanced. This acts as **Biofeedback for Society**, allowing students to *feel* collaboration physically before they intellectually understand it. It trains empathy as a reflex."
 
 ### Slide 12: Curriculum Roadmap
-**Visual**: Timeline (Foundations -> Infrastructure -> Collaboration -> Consensus).
+**Visual**: A timeline flowing through 4 phases, connecting astronomical tools to network blocks.
 **Script**:
-"This is a 4-year journey.
-**Year 1: Foundations** (Observation & Arithmetic).
-**Year 2: Infrastructure** (Setting up the Home Lab).
-**Year 3: Collaboration** (Distributed Instrumentation).
-**Year 4: Consensus** (Blockchain & Verification).
+"This isn't just a class; it's a four-year journey from 'User' to 'Architect.'
 
-The outcome is not a transcript, but a verified portfolio of skills."
+**Year 1: Foundations.** We start with Observation and Arithmetic. Using telescopes and basic code.
+**Year 2: Infrastructure.** Students set up their Home Lab using a Raspberry Pi.
+**Year 3: Collaboration.** They begin Distributed Instrumentation, sharing data with peers.
+**Year 4: Consensus.** They master Blockchain and Verification.
+
+The outcome is not a transcript. It is a cryptographically verified portfolio of skills—Proof that they can build."
 
 ### Slide 13: Scale-Free Community
 **Visual**: Fractal network diagram.
