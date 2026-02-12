@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/workflows/README.md",
+                "file": "docs/presentation_plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "presentation_plan"
             }
           }
         ],
@@ -198,52 +198,21 @@
       "bases:Create new base": false
     }
   },
-  "floating": {
-    "id": "8a74c520f8b22b31",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e22b75bc7355bd08",
-        "type": "window",
-        "children": [
-          {
-            "id": "aa3cfd6d09ad9df7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3c0aa5306baf9ccb",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 24,
-        "width": 1920,
-        "height": 1176,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "3c0aa5306baf9ccb",
+  "active": "453ed8a102cdd415",
   "lastOpenFiles": [
-    "docs/presentation_plan.md",
-    "docs/Fleeting/fleeting.md",
-    "docs/Fleeting",
+    "docs/workflows/consensus_constitution.md",
+    "src/openclaw_loop.py",
+    "src/titan_quorum.py",
+    "src/mcard_utils.py",
+    "docs/prologue_of_spacetime_improvement/Type Theory.md",
     "docs/prologue_of_spacetime_improvement/Science of Governance.md",
+    "docs/prologue_of_spacetime_improvement/Modularity.md",
     "docs/prologue_of_spacetime_improvement/Local-first Principle.md",
     "docs/prologue_of_spacetime_improvement/EEAO.md",
-    "docs/prologue_of_spacetime_improvement/Type Theory.md",
-    "docs/prologue_of_spacetime_improvement/Modularity.md",
-    "docs/prologue_of_spacetime_improvement/GASing.md",
+    "docs/Fleeting/presentation_generation_prompt.md",
+    "requirements.txt",
+    "src/__init__.py",
+    "docs/Fleeting/question_store.md",
     "docs/prologue_of_spacetime_improvement/Universality.md",
     "docs/prologue_of_spacetime_improvement/Trivium.md",
     "docs/prologue_of_spacetime_improvement/Trivium x Quadrivium Framework for ABC Curriculum.md",
@@ -251,19 +220,19 @@
     "docs/prologue_of_spacetime_improvement/Quadrivium.md",
     "docs/prologue_of_spacetime_improvement/Pentadic Improvement Plan for Prologue of Spacetime.md",
     "docs/prologue_of_spacetime_improvement/Homotopy Type Theory Explained.md",
+    "docs/prologue_of_spacetime_improvement/GASing.md",
     "docs/prologue_of_spacetime_improvement/Cubical Logic Model.md",
     "docs/prologue_of_spacetime_improvement/Agentic Trinitarianism.md",
     "docs/prologue_of_spacetime_improvement",
-    "Untitled.md",
-    "docs/prologue_of_spacetime_improvement/Homotype Type Theory/Homotopy Type Theory Explained.md",
-    "docs/prologue_of_spacetime_improvement/Homotype Type Theory/#2 Homotopy Type Theory Explained: Universes, Functions, and Π-types.md",
-    "docs/prologue_of_spacetime_improvement/Homotype Type Theory/#2 Homotopy Type Theory Explained: Universes, F",
-    "docs/prologue_of_spacetime_improvement/Homotype Type Theory/#1 Homotopy Type Theory Explained: A New Foundation for Mathematics.md",
-    "docs/prologue_of_spacetime_improvement/Homotype Type Theory",
-    "docs/Pentadic Improvement Plan for Prologue of Spacetime.md",
-    "docs/Update_History/2026-02-11_Flow_State_Engineering.md",
+    "docs/Fleeting/fleeting.md",
+    "docs/Fleeting",
+    "src",
+    "docs/presentation_plan.md",
     "docs/workflows/README.md",
-    "docs/workflows/consensus_constitution.md",
-    "abc_curriculum.md"
+    "docs/workflows/requirements_analysis.md",
+    "docs/workflows/mcp_skill_registry.md",
+    "docs/workflows/execution_strategy.md",
+    "docs/Update_History/2026-02-11_Flow_State_Engineering.md",
+    "docs/Update_History"
   ]
 }
