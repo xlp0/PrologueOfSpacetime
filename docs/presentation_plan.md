@@ -4,10 +4,8 @@
 
 ## 1. The Core Narrative: "Problem & Solution"
 
-**The Crisis (The Hook)**
-The story begins with a different kind of crisis: **Fragmentation**. A modern student's focus is shattered across a dozen different tools—Canvas, Zoom, Drive, Discord.
-
-Critically, **none of these are local services**. This means students have **No Data Sovereignty**. They are forced to be **Passive Consumers**, dependent on external servers they cannot control. If the cloud goes down, their education stops.
+**The Crisis (AI Noise)**
+The story begins with a crisis: **AI-Generated Noise**. Mass-produced content is turning humans into passive **Consumers**. The result is a generation with high 'soft skills' but **Zero Hard Skills**. They can use apps, but they cannot fix the network. If the cloud goes down, no one can restart the infrastructure. Sovereignty requires more than a phone; it requires owning the stack.
 
 **The Solution (Scale-Free Architecture)**
 We didn't just build a school; we built a **Scale-Free Network**. Using the **Personal Knowledge Container (PKC)** and the **Subak Philosophy**, we created a fractal system where every student is a sovereign node. The same architecture that works for ONE student works for a MILLION. It is a "Knowledge Commons" where students own their graph.
@@ -58,13 +56,13 @@ This section provides the detailed narrative script for each slide.
 
 ### Slide 1: The Problem (Signal vs. Noise)
 **Script**:
-"We live in an era of **Fragmentation**. A student's focus is shattered across a dozen different tools—Canvas, Zoom, Drive, Discord.
+"We live in an era of **AI-Generated Noise**. Generative AI mass-produces content, turning users into mere **Consumers**.
 
-Critically, **none of these are local services**. This means students have **No Data Sovereignty**. They do not own their tools or their data.
+The result is a dangerous **Skill Gap**. We are raising a generation with high 'soft skills' but **Zero Hard Skills**. They are excellent at *using* apps, but completely unable to **fix the network** or **implement physical solutions** when the system breaks.
 
-They are forced to be **Passive Consumers**. This isn't just students; **all users** on these platforms are merely renting access. They do not own their tools or their data. If the cloud goes down, their education stops.
+In an emergency, if the cloud goes down, almost no one has the actual ability to restart the infrastructure.
 
-Our solution is **True Sovereignty**. Not just owning data, but the ability to independently operate the entire school from your own machine."
+You cannot build a Sovereign Future just by swiping on a **Phone**. You need to own the stack."
 
 ### Slide 2: The Solution (Scale-Free Architecture)
 **Script**:
