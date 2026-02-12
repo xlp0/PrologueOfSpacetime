@@ -99,9 +99,11 @@ This architecture, converting ancient wisdom into modern survival skills, was co
 ### Slide 4: The Kernel (GASing)
 **Visual**: A hand counting gesture transforming into digital logic.
 **Script**:
-"Before you can code, you must be able to count. We use the **GASing Method** (Gampang, Asyik, Menyenangkan) to teach that Fluency Precedes Abstraction.
+"Before you can write code, you must be able to count. We use the **GASing Method**—an acronym for *Gampang, Asyik, Menyenangkan* (Easy, Fun, Enjoyable). This is not just math; it is cognitive conditioning.
 
-If a student cannot perform single-digit addition in under 2 seconds, they do not have the cognitive bandwidth to handle AI or coding. We treat 'Segment-wise Addition' as the meta-operator of all computation. This is the kernel of our OS."
+We operate on the principle that **Fluency Precedes Abstraction**. If a student cannot perform single-digit addition in under two seconds, they do not have the cognitive bandwidth to handle existing AI models or write complex code.
+
+We treat 'Segment-wise Addition' as the meta-operator of all computation. Just as a kernel manages the CPU, GASing manages the student's cognitive load. This is the Kernel of our Operating System."
 
 ### Slide 5: Arithmetic as Universal Interface
 **Visual**: A central circle labeled "Arithmetic" connecting to diverse domains.
