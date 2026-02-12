@@ -190,15 +190,15 @@ The outcome is not a transcript. It is a cryptographically verified portfolio of
 Knowledge flows horizontally via **Federated Personal Knowledge Containers**. We are creating a 'Knowledge Commons' where students own their graph. They don't rent access to a platform; they own the node itself. This is true decentralization."
 
 ### Slide 14: Assessment (The Correctness Triad)
-**Visual**: Triangle diagram (Spec/Build/Witness).
+**Visual**: A triangle diagram labeled "The Correctness Triad".
 **Script**:
-"We do not grade memory; we verify creation. We call this **The Correctness Triad**.
+"We do not grade memory; we verify creation. We have replaced the multiple-choice test with **The Correctness Triad** (formerly Computational Trinitarianism).
 
-**The Spec**: What is the claim? 'I built a robot.'
-**The Build**: What is the process? The code and assembly.
-**The Witness**: What is the evidence? The logs signed by the robot itself.
+1.  **The Spec (Type):** What is the claim? 'I built a weather station.'
+2.  **The Build (Algorithm):** What is the process? The Python code and the breadboard assembly.
+3.  **The Witness (Proof):** What is the evidence? The temperature logs signed by the device key itself.
 
-We are moving from Standardized Tests to **Proof-of-Work**."
+We are moving away from Standardized Tests and towards **Proof-of-Work**."
 
 ### Slide 15: The Vision (Sovereign Intelligence)
 **Visual**: Silhouette holding glowing PKC cube.
