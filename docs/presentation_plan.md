@@ -66,7 +66,7 @@ This section provides the detailed narrative script for each slide, formatted in
 
 This is not the work of a massive corporation or a government agency. It is the result of two minds leveraging the force multiplier of AI and Supercomputing to solve a national-scale problem.
 
-**We are using ourselves as the students to simulate the entire process.** We are not just the architects building the school; we are the first test subjects taking the classes. By running this 4-year curriculum on ourselves in real-time, we prove that the system works. We are the 'Zero-Patient' students of the Sovereign Operational Network."
+**We are using ourselves as the students to simulate the entire process.** We are not just the architects building the school; we are the first test subjects taking the classes. By running this 4-year curriculum on ourselves in real-time. We are the 'Zero-Patient' students of the Sovereign Operational Network."
 
 ### Slide 2: The Problem & Solution (Signal vs. Noise)
 **Visual**: A split screen showing "Chaotic Vortex" vs. "Golden Dodecahedron".
@@ -79,18 +79,22 @@ Our solution is **Sovereignty**.
 
 Sovereignty is not just about owning data. It is the ability to independently verify reality. It is the power to compose Truth using the 'Source Code' of the universe—Math, Physics, and Logic.
 
-We are shifting the entire goal of education. We are moving from 'Consuming Information' to 'Composing Truth.'"
+We are shifting the entire goal of education. We are moving from 'Consuming Information' to 'Composing Truth.'" That is where the pkc comes in.
 
 ### Slide 3: System Architecture (The Revivace)
-**Visual**: A classical temple structure with three pillars (Geometry, Music, Astrobiology) on Arithmetic.
+**Visual**: A classical 'Temple of Intelligence' with a Foundation (Kernel/Arithmetic) supporting three Pillars: Space (Geometry), Time (Music), and Truth (Astrobiology).
 **Script**:
-"This is the 'Full Stack Mind.' We call it **The Revivace**. It revives the classical arts by mapping them to modern computer science.
+"This entire stack is designed as a 'Temple of Intelligence.' We call it **The Revivace**. It revives the classical liberal arts by upgrading them into a 'Full Stack' cognitive framework for the AI age.
 
-**Geometry is Product Types (Space).** Think of it like a School Lunch Tray. You need a Sandwich *AND* an Apple *AND* a Drink simultaneously to have a 'Complete Lunch.' If one is missing, the structure breaks.
+**The Foundation is Kernel (Arithmetic).** In the past, we used an Abacus. Today, we use Binary Code. This is the Universal Logic of Correctness—the ability to make distinctions (0 vs 1) and compose them. Without this fluency, higher-order thinking collapses.
 
-**Music is Sum Types (Time).** Think of it like a Vending Machine. You choose Chips *OR* Candy *OR* Pretzels. You cannot have all states at once; you flow through choices in time.
+**The First Pillar is Geometry (Space).** This maps to Product Types and Spatial Computing. We've moved from the Compass to **VR and Game Engines**. We teach students to manipulate 3D environments, rigging, and physics to organize Space.
 
-This entire theoretical architecture was conceived by **Prof. Ben**, who provided the mathematical framework that our system implements."
+**The Second Pillar is Music (Time).** This maps to Sum Types and **System Observability**. We've moved from the Lyre to the **Grafana Dashboard**. We teach students to listen to the 'heartbeat' of complex systems—metrics, latency, frequency—to ensure they are alive and healthy.
+
+**The Third Pillar is Astrobiology (Truth).** This maps to Function Types and **Trustless Verification**. We've moved from the Telescope to the **Blockchain**. We teach students to use immutable cycles and consensus layers as an 'Anchor of Truth' that AI cannot hallucinate.
+
+This architecture, converting ancient wisdom into modern survival skills, was conceived by **Prof. Ben**."
 
 ### Slide 4: The Kernel (GASing)
 **Visual**: A hand counting gesture transforming into digital logic.
