@@ -124,11 +124,13 @@ In traditional Geometry, Euclid defined a plane by what it *is not*—a normal v
 By using Game Engines, we teach **Digital Synesthesia**. Students don't just solve equations on paper; they 'feel' the math through collision physics. If the math is wrong, the character falls through the floor. It transforms abstract geometry into **Haptic Reality**."
 
 ### Slide 7: Music (Observability)
-**Visual**: Musical notes turning into a Grafana dashboard.
+**Visual**: Musical notes on a staff flowing from left to right, morphing into a digital dashboard (Grafana style) with waveforms, histograms, and 'green' status lights.
 **Script**:
-"Music is simply 'Number in Time.' In the digital age, we practice music through **System Observability**. We use Prometheus to capture the 'Live Performance' of our servers and Grafana to visualize the 'Score.'
+"Music is simply 'Number in Time.' In the digital age, we don't just listen to music; we monitor it through **System Observability**. We use **Prometheus** to capture the 'Live Performance' of our servers and **Grafana** to visualize the 'Score.'
 
-A healthy server hums with a rhythmic pattern—a heartbeat. A crashing server creates 'Polyrhythmic Chaos.' Listening to the 'music' of data is how we keep the network alive."
+A healthy server has a rhythm—a heartbeat. It hums with a consistent pattern. A crashing server creates 'Polyrhythmic Chaos,' full of spikes and erratic noise.
+
+We teach students to 'listen' to this data. If your sampling rate is too low, you miss the signal—a phenomenon known as Aliasing. Listening to the 'music' of data is how we keep the network alive."
 
 ### Slide 8: Astrobiology (Truth Anchor)
 **Visual**: A telescope pointing at a star, connected to a blockchain.
