@@ -106,11 +106,13 @@ We operate on the principle that **Fluency Precedes Abstraction**. If a student 
 We treat 'Segment-wise Addition' as the meta-operator of all computation. Just as a kernel manages the CPU, GASing manages the student's cognitive load. This is the Kernel of our Operating System."
 
 ### Slide 5: Arithmetic as Universal Interface
-**Visual**: A central circle labeled "Arithmetic" connecting to diverse domains.
+**Visual**: A central circle labeled "Arithmetic" with lines radiating out to symbols of Biology (DNA helix), Finance (Charts), and Physics (Atoms).
 **Script**:
-"Arithmetic is not just counting; it is the **Universal Interface** of reality. In Computer Science, we call these Algebraic Data Types.
+"Most people think Arithmetic is just counting. We teach that it is the **Universal Interface** of reality. Whether you are studying Biology, Finance, or Art, the underlying structure is mathematical.
 
-When we define a 'Product Type' like a Struct, we are doing multiplication. When we define a 'Sum Type' like an Enum, we are doing addition. To understand a domain—whether it's biology or finance—is simply to possess its optimal arithmetic encoding."
+In Computer Science, we formalize this as **Algebraic Data Types**. When we define a 'Product Type'—like a Struct or an Object—we are performing a multiplication of possibilities. When we define a 'Sum Type'—like an Enum or a Choice—we are performing an addition of states.
+
+To truly understand a domain is simply to possess its optimal arithmetic encoding. Once a student grasps this, they can model anything."
 
 ### Slide 6: Geometry (Game Engines)
 **Visual**: A Wireframe Character Model with Bivectors.
