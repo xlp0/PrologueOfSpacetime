@@ -1,23 +1,20 @@
 # PROLOGUE OF SPACETIME: Presentation Master Plan
 
-> **Objective**: To demonstrate how **two student-architects** leveraged supercomputing power to design a scalable "Game/Curriculum/Network" capable of onboarding 400,000+ students into a Sovereign Operational Network.
+> **Objective**: To demonstrate how a "Game/Curriculum/Network" can onboard 400,000+ students into a Sovereign Operational Network.
 
-## 1. The Core Narrative: "Problem, Solution, & The Proof"
+## 1. The Core Narrative: "Problem & Solution"
 
 **The Crisis (The Hook)**
-The story begins not with us, but with a crisis: higher education faces a dual challenge of **Value** and **Scale**. Traditional "Grammar-First" education—teaching abstract rules without context—has failed to engage the modern student, and the sheer logistics of teaching 400,000 students without an army of 40,000 professors presents an impossible bottleneck.
+The story begins with a crisis: higher education faces a dual challenge of **Value** and **Scale**. Traditional "Grammar-First" education—teaching abstract rules without context—has failed to engage the modern student, and the sheer logistics of teaching 400,000 students without an army of 40,000 professors presents an impossible bottleneck.
 
 **The Solution (Scale-Free Architecture)**
 We didn't just build a school; we built a **Scale-Free Network**. Using the **Personal Knowledge Container (PKC)** and the **Subak Philosophy**, we created a fractal system where every student is a sovereign node. The same architecture that works for ONE student works for a MILLION. It is a "Knowledge Commons" where students own their graph.
-
-**The Proof (The Two Students)**
-To prove this works, we used **ourselves as the Zero-Patients**. Everything you see today—the game, the curriculum, the network—was built by **just two IT Del students** leveraging the force multiplier of **AI and Supercomputing**. We are not just the architects; we are the first test subjects. If two students can simulate an entire university, imagine what 400,000 can do.
 
 ---
 
 ## 2. Theoretical Pillars: The Logic Behind the Game (Architected by Prof. Ben)
 
-Our system is grounded in rigorous mathematical and philosophical principles **provided by Professor Ben**, ensuring that it is not just a game, but a valid verifiable curriculum. While we (the two students) built the engine, the theoretical foundation—the Reverse Trivium, Quadrivium, and Arithmetization—was architected by Prof. Ben.
+Our system is grounded in rigorous mathematical and philosophical principles **provided by Professor Ben**, ensuring that it is not just a game, but a valid verifiable curriculum.
 
 ### A. The Arithmetization of Learning
 We treat learning as a form of **Arithmetic**. Using the **GASing Method** ("Gampang, Asyik, Menyenangkan" - Easy, Fun, Enjoyable), we break down complex, intimidating topics into small, countable "Segments". This allows students to build knowledge through simple addition, gaining confidence and fluency before they ever encounter complex abstractions. It turns the formidable mountain of knowledge into a series of climbable steps.
@@ -73,36 +70,28 @@ We frame the decentralized network using the metaphor of **Subak**. Just as Bali
 
 The same **GASing logic** (Easy, Fun, Enjoyable) that works for one student works for a classroom, a university, and an entire nation. It is a 'Knowledge Commons' where students **own their graph**. They don't rent access; they own the node itself. This is true decentralization."
 
-### Slide 3: The Proof (Two Students = High Leverage)
-**Script**:
-"How do we know this works? Because **we are the Zero-Patients.**
-
-Everything you see today—the game, the curriculum, the network—was built by **just two students** leveraging the force multiplier of **AI and Supercomputing**.
-
-We are not just the architects; we are the first test subjects. We simulated the entire university workflow on ourselves. If two students can build and run this sovereign network, imagine what 400,000 students can do. This is **High-Leverage Engineering**."
-
-### Slide 4: The Foundation - Arithmetic (Language of Truth)
+### Slide 3: The Foundation - Arithmetic (Language of Truth)
 **Script**:
 "We start with **Arithmetic**, the language of truth. In our system, this isn't just about numbers; it's about **Executable Logic**.
 
 **Feature Showcase: CLM Scripting.**
 We give students the power to run scripts that define reality. This isn't abstract code; it's the **Cubical Logic Model (CLM)** in action. When a student writes a script, they are defining the 'Physics' of their own digital universe. If the arithmetic is wrong, the script fails. If it's right, it runs. This is the ultimate feedback loop: Truth is executable."
 
-### Slide 5: The First Pillar - Geometry (Organizing Space)
+### Slide 4: The First Pillar - Geometry (Organizing Space)
 **Script**:
 "Geometry is how we organize Space. We don't use graph paper; we use **3D Modeling and Game Engines**.
 
 **Feature Showcase: 3D High-Fidelity Rendering.**
 Here you see a student's project—a fully rigged 3D character. To build this, they had to understand vectors, quaternions, and topology. They aren't just solving for X; they are sculpting reality. This transforms abstract geometry into **Haptic Reality**. The student feels the math."
 
-### Slide 6: The Second Pillar - Music (Organizing Time)
+### Slide 5: The Second Pillar - Music (Organizing Time)
 **Script**:
 "Music is the organization of Time. In the digital age, this manifests as **System Observability**.
 
 **Feature Showcase: The Rhythm of Infrastructure.**
 On the left, we have music—art. On the right, we have **Grafana**—science. But they are the same thing. A healthy server has a rhythm, a heartbeat. We teach students to 'listen' to their infrastructure. If the latency spikes, the music creates dissonance. They learn to tune their servers like instruments."
 
-### Slide 7: The Third Pillar - Astrobiology (The Anchor of Truth)
+### Slide 6: The Third Pillar - Astrobiology (The Anchor of Truth)
 **Script**:
 "Astrobiology is the mapping of Function—connecting the very large to the very small. It serves as our **Anchor of Truth**.
 
@@ -110,7 +99,7 @@ On the left, we have music—art. On the right, we have **Grafana**—science. B
 Above, we see the **Solar System Map**. No AI can hallucinate the position of Jupiter. It is our immutable reference. Below, we see a **3D Cell Render**, the biological machine.
 We teach students that the same logic governing the orbits of planets governs the metabolism of cells—and the flow of data in their networks. This is the **Function Type**: mapping one truth to another."
 
-### Slide 8: Pedagogy (Reverse Trivium)
+### Slide 7: Pedagogy (Reverse Trivium)
 **Script**:
 "To teach this, we use the **Reverse Trivium**.
 1.  **Rhetoric (The Goal)**: 'Build a Universe.' (Show the 3D Render).
@@ -119,7 +108,7 @@ We teach students that the same logic governing the orbits of planets governs th
 
 We don't teach the rule until the student needs it to solve the struggle."
 
-### Slide 9: Infrastructure (MVP Cards)
+### Slide 8: Infrastructure (MVP Cards)
 **Script**:
 "The delivery mechanism for this curriculum is the **MVP Card**.
 *   **M-Card (Memory)**: The Static Truth (The File).
@@ -128,15 +117,15 @@ We don't teach the rule until the student needs it to solve the struggle."
 
 This structure allows students to trade knowledge like assets."
 
-### Slide 10: The Framework (Cubical Logic Model)
+### Slide 9: The Framework (Cubical Logic Model)
 **Script**:
 "Governing these cards is the **Cubical Logic Model (CLM)**. It ensures that every **M-Card** (Spec) has a matching **P-Card** (Implementation) proven by a **V-Card** (Witness). This is the 'Physics of Truth' that prevents the system from collapsing into noise."
 
-### Slide 11: The Engine (Titan Quorum)
+### Slide 10: The Engine (Titan Quorum)
 **Script**:
 "Behind the scenes, we use a **Titan Quorum** of 5 AI Agents running on **Git Worktree**. They execute in parallel to generate and verify this curriculum 24/7. **2 Students + 5 Agents = 1 University**."
 
-### Slide 12: The Vision (Sovereign Intelligence)
+### Slide 11: The Vision (Sovereign Intelligence)
 **Script**:
 "The goal is **Sovereign Intelligence**.
 We are building a generation that possesses **Ownable Data**, **Verifiable Truth**, and **Deployable Skills**.
