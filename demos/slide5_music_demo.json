@@ -1,0 +1,47 @@
+{
+    "dashboard": {
+        "id": null,
+        "title": "Prologue of Spacetime - System Observability (Music)",
+        "tags": [
+            "quadrivium",
+            "music",
+            "latency"
+        ],
+        "timezone": "browser",
+        "panels": [
+            {
+                "type": "graph",
+                "title": "Server Heartbeat (Latency)",
+                "gridPos": {
+                    "h": 8,
+                    "w": 12,
+                    "x": 0,
+                    "y": 0
+                },
+                "id": 1,
+                "targets": [
+                    {
+                        "expr": "rate(http_requests_total[5m])",
+                        "legendFormat": "{{method}} - {{handler}}"
+                    }
+                ]
+            },
+            {
+                "type": "gauge",
+                "title": "Consensus Rhythm (BPM)",
+                "gridPos": {
+                    "h": 8,
+                    "w": 6,
+                    "x": 12,
+                    "y": 0
+                },
+                "id": 2,
+                "targets": [
+                    {
+                        "expr": "rate(titan_consensus_votes[1m]) * 60"
+                    }
+                ]
+            }
+        ]
+    }
+}
