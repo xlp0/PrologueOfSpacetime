@@ -2,9 +2,9 @@
 **To:** Duwi, Alessandro
 **CC:** Team
 
-Based on Father's directive (Feb 16-17, 2026), we are integrating the core philosophical and narrative elements of Peter Watts' *Blindsight* into our game, grounded in **Homotopy Type Theory (HoTT)**.
+We are integrating the core philosophical and narrative elements of Peter Watts' *Blindsight* into our game, grounded in **Homotopy Type Theory (HoTT)**.
 
-> **Core Directive**: "The point is to be **Empty of your Self**, so you can see the **Opportunities** through **Digital Synesthesia**."
+> **Core Philosophy**: The ultimate goal is to achieve **Digital Synesthesia**—the ability to perceive complex data as sensory experience (Categorical Perception) by being **Empty of Self**.
 
 ## 1. The Narrative Arc: The Firefall & The Encounter
 **Based on "Blindsight" (Peter Watts)**
