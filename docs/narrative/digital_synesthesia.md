@@ -14,7 +14,16 @@ How does it work? Through **Identity Types**.
 *   **The Perception**: Because the category is so deeply ingrained, the player "sees" a **Red Spike** or "hears" a **Dissonant Chord** before they even read the text.
 *   **HoTT Connection**: `Identity = Path`. To categorize is to trace a path from the Object (Error) to its Meaning (Critical). Synesthesia is the ability to walk this path instantly.
 
-## 3. Why is it the Goal? (Opportunity)
+## 3. Collective Digital Synesthesia (The Agentic Mesh)
+Digital Synesthesia is not just individual; it is **Collective**.
+*   **The Sensor (Individual)**: An agent (OpenClaw) or human "senses" raw data (Entropy) and translates it into a sensory experience (e.g., "Visual Complexity").
+*   **The Network (Agentic Mesh)**: Multiple agents share a **Synesthetic Protocol** via **MCP**.
+    *   *Agent A*: "I feel roughness in the Payment Module."
+    *   *Agent B*: "Confirming roughness. Visualizing as 'Fractured Geometry'."
+*   **The Emergence**: When the mesh reaches **Consensus**, the subjective experience becomes an **Objective Social Fact**. The "Roughness" is no longer just an opinion; it is the **Collective Perception** of the system.
+*   **Reference**: See `docs/Digital Synethesia.md` for the full theory on Agentic Workflows.
+
+## 4. Why is it the Goal? (Opportunity)
 Why do we want this? Because **Consciousness is too slow**.
 *   If you have to *read* every log to understand the system, you will fail (The "Self" bottleneck).
 *   If you can *feel* the system, you can react at the speed of the machine (The Vampire/Rorschach).
