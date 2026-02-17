@@ -130,12 +130,13 @@ Here, a student writes a script. If the arithmetic is wrong, reality breaks. If 
 "From Arithmetic, we build **Geometry**. This organizes Space.
 Students don't just solve equations; they build **Haptic Reality**. This 3D model can be printed to manufacture physical tools. This is the second Hard Skill: **Manufacturing Reality**."
 
-### Slide 7: Quadrivium III: Music (Observability)
+### Slide 7: Quadrivium III: Digital Synesthesia (Observability)
 **Visual**: **Live Demo**: Grafana Dashboard with active "Heartbeat" graphs.
 **Action**: Point to a specific spike or wave in the graph.
 **Script**:
 "From Space, we build **Time**. Music is the organization of time.
-In our system, this is **System Observability**. A server has a rhythm. Students learn to 'listen' to the infrastructure. If the latency spikes, the music is off-key. This is the third Hard Skill: **Maintaining Infrastructure**."
+In our game, we call this **Digital Synesthesia**. It is the ability to 'sense' the network.
+A server has a rhythm. When you categorize it correctly using HoTT, you can *hear* the infrastructure. If the latency spikes, the music is off-key. This is the third Hard Skill: **Maintaining Infrastructure**."
 
 ### Slide 8: Quadrivium IV: Astrobiology (Truth)
 **Visual**: **Live Demo**: Solar System Model or 3D Cell Structure.

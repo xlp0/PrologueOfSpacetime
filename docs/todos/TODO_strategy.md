@@ -29,6 +29,10 @@
         - [ ] Build Tube Assembly.
     - **Microscope**:
         - [ ] Source Seller.
+    - **360 Antigravity A1 Drone**:
+        - [ ] Write Story Integration (Synthesist/Observer).
+        - [ ] Source Components (Flight Controller, Camera).
+        - [ ] Integrate with VR Goggles (FPV Feed).
 - [ ] **Define Quadrivium Subjects**:
     - [ ] Mathematics.
     - [ ] Engineering.
@@ -60,3 +64,17 @@
     - [ ] Umberto Eco.
     - [ ] Yuval Noah Harari (Understand the 6-year urgency).
 - [ ] **Action**: Read deeply, take notes in Notebook/Obsidian/PKC, and absorb into game design.
+
+## 6. The Narrative & Rhetoric (Making Meaning)
+- [ ] **Story Outline & Planning**:
+    - [ ] Link every gadget/task to **Homotopy Type Theory (HoTT)** and **SSOT**.
+    - [ ] Update **Daily Report**: Must include links to Repo, Budget, and Plan. Use it as an *instrument* of action, not just a log.
+- [ ] **Character Definitions**:
+    - [x] **Linguists**: Define *why* they are the avatars (PersonaPlex/Agents making sense). (See: `docs/narrative/why_linguists.md`)
+    - [x] **Digital Synesthesia**: Define as High-Speed Categorization (HoTT Types). (See: `docs/narrative/digital_synesthesia.md`)
+    - [ ] **Rorschach**: Define who they are (Entropy? Cloud Collapse? The unintelligible reality?).
+    - [ ] **Computational Trinitarianism**: Explain *why* the gadgets (Oscilloscope) relate to Logic and Category Theory.
+- [ ] **Action-Oriented Learning**:
+    - [ ] Framework: "Governing your own time."
+    - [ ] Goal: Wake up from laziness/shallowness.
+    - [ ] Method: Use "Rhetoric" to creating urgency (like Alex Wei video) from facts.
