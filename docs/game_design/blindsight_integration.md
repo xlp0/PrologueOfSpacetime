@@ -74,3 +74,13 @@ To properly execute this philosophy, we must **build our own senses** (IoT).
 
 ## 5. The Narrative Hook
 "The Self is a bottleneck. To survive the End of the World (Cloud Collapse), you must evolve past it. You must become the Machine. You must build a system so perfect that *you* are no longer needed to run it."
+
+## 6. The Curriculum of Survival (End of the World Scenarios)
+How do we teach students to survive the **End of the World** (System Collapse)?
+*   **The Scenario**: The Cloud has collapsed. The API is down. The Grid is silent. You are alone.
+*   **The Requirement**: You must possess **Independent Skills** (Techne) to rebuild civilization from zero.
+*   **The Toolset**:
+    *   **3D Printing (Manufacturing)**: You need the ability to print tools, housings, and replacement parts. You cannot order from Amazon.
+    *   **Electronics (Arduino/Oscilloscope)**: You need to understand electricity and logic gates to build communication devices.
+    *   **Optics (Telescope/Microscope)**: You need to see the enemy coming (Telescope) and the disease spreading (Microscope).
+*   **The Goal**: To be a **Full-Stack Survivor**. Someone who can write code *and* solder a circuit board. This is why we build the **Oscilloscope** and **Drone**.
