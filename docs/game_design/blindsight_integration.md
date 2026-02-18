@@ -2,9 +2,9 @@
 **To:** Duwi, Alessandro
 **CC:** Team
 
-We are integrating the core philosophical and narrative elements of Peter Watts' *Blindsight* into our game, grounded in **Homotopy Type Theory (HoTT)**.
+We are integrating the core philosophical and narrative elements of Peter Watts' *Blindsight* into our game, grounded in **Homotopy Type Theory (HoTT)** and the **Cubical Logic Model (CLM)**.
 
-> **Core Philosophy**: The ultimate goal is to achieve **Digital Synesthesia**—the ability to perceive complex data as sensory experience (Categorical Perception) by being **Empty of Self**.
+> **Core Philosophy**: The ultimate goal is to achieve **Digital Synesthesia**—the ability to perceive complex data as sensory experience (Categorical Perception) by being **Empty of Self**. To do this, we format all reality as **MVP Cards** (Immutable Logic).
 
 ## 1. The Narrative Arc: The Firefall & The Encounter
 **Based on "Blindsight" (Peter Watts)**
