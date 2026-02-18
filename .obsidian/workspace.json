@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/workflows/README.md",
+                "file": "docs/game_design/blindsight_integration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "blindsight_integration"
             }
           }
         ],
@@ -198,78 +198,43 @@
       "bases:Create new base": false
     }
   },
-  "floating": {
-    "id": "8a74c520f8b22b31",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e22b75bc7355bd08",
-        "type": "window",
-        "children": [
-          {
-            "id": "aa3cfd6d09ad9df7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3c0aa5306baf9ccb",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 25,
-        "width": 1920,
-        "height": 1116,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "3c0aa5306baf9ccb",
+  "active": "453ed8a102cdd415",
   "lastOpenFiles": [
+    "hardware/oscilloscope/oscilloscope_case.scad",
     "chapters/12_Calendar_Coordination/digital_sundial.md",
     "docs/game_design/story_chapters_overview.md",
-    "src/__pycache__/titan_quorum.cpython-314.pyc",
-    "src/__pycache__/mcard_utils.cpython-314.pyc",
-    "src/__pycache__",
-    "run_presentation.sh",
-    "docs/visuals/clm_problem_model.md",
-    "docs/visuals",
-    "docs/todos/TODO_strategy.md",
-    "docs/todos/TODO_story_chapters.md",
-    "docs/todos",
-    "docs/narrative/xiao_yao_you.md",
-    "docs/narrative/why_linguists.md",
-    "docs/narrative/digital_synesthesia_convergence.md",
-    "docs/narrative/digital_synesthesia.md",
-    "docs/narrative",
+    "hardware/oscilloscope/README.md",
+    "hardware/oscilloscope/arduino_scope.ino",
+    "hardware/oscilloscope",
+    "hardware",
+    "docs/presentation_plan.md",
     "docs/game_design/blindsight_integration.md",
     "docs/game_design",
-    "docs/Digital Synethesia.md",
-    "demos/titan_dashboard.py",
+    "docs/todos/TODO_2026_02_16.md",
+    "docs/todos",
+    "docs/TODO_2026_02_16.md",
     "demos/slide8_astrobiology.py",
+    "demos/slide6_geometry.py",
     "demos/slide7_grafana_heartbeat.md",
+    "demos/slide5_arithmetic.py",
+    "docs/visuals/clm_problem_model.md",
+    "docs/visuals",
+    "venv/lib/python3.14/site-packages/mcard-0.1.46.dist-info/REQUESTED",
+    "venv/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.14/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+    "venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
     "demos/slide6_astrobiology_manifest.md",
-    "docs/Fleeting/question_store.md",
-    "docs/Fleeting/presentation_generation_prompt.md",
-    "docs/presentation_plan.md",
-    "docs/Fleeting/fleeting.md",
+    "docs/workflows/consensus_constitution.md",
+    "docs/prologue_of_spacetime_improvement/Type Theory.md",
     "docs/prologue_of_spacetime_improvement/Science of Governance.md",
+    "docs/prologue_of_spacetime_improvement/Modularity.md",
     "docs/prologue_of_spacetime_improvement/Local-first Principle.md",
     "docs/prologue_of_spacetime_improvement/EEAO.md",
-    "docs/prologue_of_spacetime_improvement/Type Theory.md",
-    "docs/prologue_of_spacetime_improvement/Modularity.md",
-    "docs/prologue_of_spacetime_improvement/GASing.md",
+    "docs/Fleeting/presentation_generation_prompt.md",
+    "docs/Fleeting/question_store.md",
     "docs/prologue_of_spacetime_improvement/Universality.md",
     "docs/prologue_of_spacetime_improvement/Trivium.md",
-    "docs/prologue_of_spacetime_improvement/Trivium x Quadrivium Framework for ABC Curriculum.md"
+    "docs/prologue_of_spacetime_improvement/Trivium x Quadrivium Framework for ABC Curriculum.md",
+    "docs/prologue_of_spacetime_improvement/Single-source of Truth.md"
   ]
 }
