@@ -27,6 +27,11 @@ In **Chapter 12**, the project is complete. The Node is Calibrated (Ch 09), Scal
 *   **The Outcome**: A fully autonomous agent that knows its place in Space (Geometry) and Time (Music).
 *   **The Final Task**: Deploy the "Master Schedule" (The Calendar) that coordinates the entire Hive Mind. We are no longer coding; we are Governing.
 
+### 3. Physical Manifestation: The Digital Sundial
+To ground the abstract concept of calendar coordination in physical reality, we build the ultimate trustless timekeeper.
+
+*   **[Digital Sundial: The Cosmic Clock](digital_sundial.md)**: 3D printing a solar-powered time display that requires no electricity, batteries, or network connection. This project demonstrates that the Calendar is not a human invention—it is encoded in the geometry of spacetime itself. The sundial uses mathematically calculated tunnels to project digital time displays as the sun moves across the sky, updating every 20 minutes. It is the physical proof that sovereignty begins with reading the cosmos.
+
 ## Foundational Connections
 
 ### The Pentadic Synthesis
