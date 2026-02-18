@@ -26,6 +26,21 @@
 3.  Open `arduino_scope.ino`.
 4.  Upload to board.
 
+## 3D Printing (The Case)
+**File**: `oscilloscope_case.scad` (OpenSCAD)
+**Material**: PLA or PETG.
+**Settings**:
+*   Layer Height: 0.2mm
+*   Infill: 20%
+*   Supports: None (Designed for Flat Printing)
+
+**Assembly**:
+1.  Print Case and Lid.
+2.  Slide OLED into top cutout (press fit or glue).
+3.  Mount Arduino Nano inside.
+4.  Route wires through front hole.
+5.  Snap Lid shut.
+
 ## The Experience
 When you touch the probe (A0) to a circuit, you will see the **Voltage Waveform** on the screen.
 *   **Flat Line**: Silence / Death.
