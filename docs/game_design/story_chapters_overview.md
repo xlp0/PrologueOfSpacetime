@@ -1,4 +1,4 @@
-# Story-Curriculum Integration: The 12 Chapters of Survival
+ee# Story-Curriculum Integration: The 12 Chapters of Survival
 
 The curriculum is structured as a **3 × 4 Matrix**, mapping the **Quadrivium** (Physical Reality) to the **Trivium** (Cognitive Process). This structure mirrors the **Blindsight Narrative Arc** (Firefall → Theseus → Rorschach).
 
@@ -11,7 +11,7 @@ The curriculum is structured as a **3 × 4 Matrix**, mapping the **Quadrivium** 
 | :--- | :--- | :--- | :--- | :--- |
 | **Ch 1** | **Arithmetic** | **Rhetoric (Why)** | **The Collapse**: The lights go out. Amazon is gone. You must account for every calorie, every bullet, every volt. Why do numbers matter? Because miscounting means death. | **Counting Value**: Basic numeracy, unit definition. Defining what is "valuable" (Calories vs. Fiat Currency). |
 | **Ch 2** | **Geometry** | **Rhetoric (Why)** | **The Signal**: In the darkness, you see a shape. Is it a friend or a weapon? You must understand *Shape* to identify threats. The first alien probe (Firefall) arrives. | **Deep Shape**: Identifying forms. 3D Visualization. Is that a drone or a bird? (Pattern Recognition). |
-| **Ch 3** | **Music** | **Rhetoric (Why)** | **The Hum**: The silence is broken by a rhythmic pulse from the sky. It's not random; it's a message. You must learn to hear the *order* in the noise. | **Rhythm**: Frequency analysis. Detecting patterns in chaos (FFT). The heartbeat of the machine. |
+| **Ch 3** | **Music** | **Rhetoric (Why)** | **The Hum**: The silence is broken by a rhythmic pulse from the sky. It's not random; it's a message. You must learn to hear the *order* in the noise. | **Rhythm & Networking**: Frequency analysis (FFT). **Networking Basics (TCP/IP, Packets)**. Understanding the Signal. |
 | **Ch 4** | **Astronomy** | **Rhetoric (Why)** | **The Observation**: You look up. The Firefall is not one probe; it's 65,536. You realize the scale. **You are too small.** You must send the **Invitation** to the Swarm to defend the planet. | **Observation (Telescopes) & Maps**: Learning to use **Maps** and **ZeroTier** (Encrypted Mesh) to find allies. Joining a **Kubernetes (K3s)** cluster to form the **Agentic Mesh** for Mass Deployment. |
 
 ## Phase 2: Theseus (Logic & Implementation) — "Building the Ship"
@@ -30,9 +30,9 @@ The curriculum is structured as a **3 × 4 Matrix**, mapping the **Quadrivium** 
 | Chapter | Subject | Focus (Trivium) | Narrative (Back Story) | Lesson Focus (Skill) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Ch 9** | **Arithmetic** | **Grammar (What)** | **The Schema**: You meet Rorschach. It speaks perfect English but means nothing. You must define a **Truth Protocol** to distinguish meaning from mimicry. | **Schema Validation**: Type Theory. Defining the "Immutable Truth" (MCard). Preventing "Hallucination." |
-| **Ch 10** | **Geometry** | **Grammar (What)** | **Topology**: Rorschach is not a ship; it's a "City of Thorns." Its geometry defies Euclidean logic. You must map the impossible shape. | **Topology**: Assessing connectivity. Network graphs. Understanding complex systems (The Agentic Mesh). |
+| **Ch 10** | **Geometry** | **Grammar (What)** | **Topology**: Rorschach is not a ship; it's a "City of Thorns." Its geometry defies Euclidean logic. You must map the impossible shape. **You must build your own shape.** | **Topology & Overlay VPNs**: Defining the **Agentic Mesh** structure. Using **ZeroTier/NetBird** to create a Sovereign Topology without Cloud Servers. |
 | **Ch 11** | **Music** | **Grammar (What)** | **Lifecycle**: The system is alive. It breeds. You witness the birth and death of agents. You must govern the *Life* of the network. | **Lifecycle Management**: DevOps, CI/CD. Managing the "Vibe" of a living system. |
-| **Ch 12** | **Astronomy** | **Grammar (What)** | **Coordination**: We are not one; we are many. The "Swarm" fights back. Rorschach is defeated by the **Collective Synesthesia** of the Human Mesh. | **Coordination**: Distributed Consensus (Paxos/Raft). The "Consensus Constitution." |
+| **Ch 12** | **Astronomy** | **Grammar (What)** | **Coordination**: We are not one; we are many. The "Swarm" fights back. Rorschach is defeated by the **Collective Synesthesia** of the Human Mesh. | **Coordination & Governance**: Distributed Consensus (Paxos/Raft). **Building Community (Web of Trust)**. The **DAO** structure. |
 
 ## Summary of Tools
 *   **Ch 1-4 (Why)**: Eyes, Notebooks, Basic Math. (The Survivor).
