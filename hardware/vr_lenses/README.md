@@ -29,13 +29,15 @@ To print this design, you need to convert the **Code** (SCAD) into a **3D Mesh**
 *   Supports: None (Flat design)
 
 ## Assembly (The Stack)
-1.  **Print**: The file generates 3 separate discs laid flat.
-    *   **2x** Aperture Discs (22mm hole)
-    *   **1x** Lens Seat Disc (24mm hole)
-2.  **Stack**:
-    *   **Bottom**: Aperture Disc (22mm)
-    *   **Middle**: Aperture Disc (22mm)
+1.  **Print File 1** (`lens_holder.scad`): Generates **6 discs** (Standard Set).
+    *   **4x** Aperture Discs (22mm hole)
+    *   **2x** Lens Seat Discs (24mm hole)
+2.  **Print File 2** (`middle_layer.scad`): Generates **2 discs** (Middle Layer).
+    *   **2x** Wide Aperture Discs (25mm hole, 2mm thick)
+3.  **Stack Order** (Adjust keying as needed):
+    *   **Base**: Aperture Disc (22mm)
+    *   **Middle**: Wide Aperture Disc (25mm) - *Optional Spacer*
     *   **Top**: Lens Seat Disc (24mm)
-3.  **Lens**: Place the 24mm Lens into the Top Disc.
-4.  **Bond**: Glue the stack together (Superglue/CA Glue) or press-fit into the headset.
-5.  **Insert**: Place the completed 3mm stack into the VR Headset slot.
+4.  **Lens**: Place the 24mm Lens into the Top Disc.
+5.  **Bond**: Glue the stack together.
+6.  **Insert**: Place the completed stack into the VR Headset slot.
