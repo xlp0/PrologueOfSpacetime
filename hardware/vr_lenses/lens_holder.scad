@@ -4,44 +4,42 @@
   Role: The Synthesist's Eye (Hardware Interface).
   Function: Holds a 24mm Lens for the VR Headset.
   
-  Specs:
-  - Outer Diameter: 37mm
-  - Total Height: 3mm (3 Layers x 1mm)
-  - Aperture Layers (Bottom): 2 Layers @ 22mm ID
-  - Lens Layer (Top): 1 Layer @ 24mm ID
+  Instructions:
+  1. Render (F6) -> Export as STL.
+  2. The 3 parts will be exported as one file, laid out flat.
+  3. Print.
+  4. Stack them: Aperture + Aperture + Lens Seat.
 */
 
 $fn = 100; // Resolution
 
 outer_d = 37;
-layer_h = 1;
+id_aperture = 22;
+id_lens = 24;
+thickness = 1;
+spacing = 40; // Distance between parts
 
-// Layer 1 & 2: The Stop / Aperture (22mm hole)
-// Total height = 2mm
-module aperture_layers() {
+// Module for a single ring
+module lens_ring(id) {
     difference() {
-        cylinder(h = layer_h * 2, d = outer_d);
+        cylinder(h = thickness, d = outer_d);
         translate([0, 0, -1])
-            cylinder(h = (layer_h * 2) + 2, d = 22);
+            cylinder(h = thickness + 2, d = id);
     }
 }
 
-// Layer 3: The Lens Seat (24mm hole)
-// Total height = 1mm
-module lens_seat() {
-    difference() {
-        cylinder(h = layer_h, d = outer_d);
-        translate([0, 0, -1])
-            cylinder(h = layer_h + 2, d = 24);
-    }
+// Layout: 3 Discs side-by-side
+// Layer 1: Bottom (Aperture)
+translate([0, 0, 0]) {
+    lens_ring(id_aperture);
 }
 
-// Assembly
-union() {
-    // Bottom 2 layers (0mm to 2mm)
-    aperture_layers();
-    
-    // Top 1 layer (2mm to 3mm)
-    translate([0, 0, layer_h * 2])
-        lens_seat();
+// Layer 2: Middle (Aperture)
+translate([spacing, 0, 0]) {
+    lens_ring(id_aperture);
+}
+
+// Layer 3: Top (Lens Seat)
+translate([spacing * 2, 0, 0]) {
+    lens_ring(id_lens);
 }

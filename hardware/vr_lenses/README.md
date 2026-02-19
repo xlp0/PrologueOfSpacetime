@@ -18,8 +18,14 @@
 *   Infill: 100% (Thin part)
 *   Supports: None (Flat design)
 
-## Assembly
-1.  Print 2 copies (Left Eye, Right Eye).
-2.  Place 24mm Lens into the 24mm recess.
-3.  (Optional) Secure with a drop of glue or friction fit.
-4.  Insert Assembly into VR Headset 37mm slot.
+## Assembly (The Stack)
+1.  **Print**: The file generates 3 separate discs laid flat.
+    *   **2x** Aperture Discs (22mm hole)
+    *   **1x** Lens Seat Disc (24mm hole)
+2.  **Stack**:
+    *   **Bottom**: Aperture Disc (22mm)
+    *   **Middle**: Aperture Disc (22mm)
+    *   **Top**: Lens Seat Disc (24mm)
+3.  **Lens**: Place the 24mm Lens into the Top Disc.
+4.  **Bond**: Glue the stack together (Superglue/CA Glue) or press-fit into the headset.
+5.  **Insert**: Place the completed 3mm stack into the VR Headset slot.
