@@ -1,45 +1,32 @@
-/*
-  Digital Synesthesia: VR Lens Holder (SCAD)
-  
-  Role: The Synthesist's Eye (Hardware Interface).
-  Function: Holds a 24mm Lens for the VR Headset.
-  
-  Instructions:
-  1. Render (F6) -> Export as STL.
-  2. The 3 parts will be exported as one file, laid out flat.
-  3. Print.
-  4. Stack them: Aperture + Aperture + Lens Seat.
-*/
+// Digital Synesthesia: VR Lens Holder (SCAD)
+// Specs: 37mm OD, 1mm Thickness.
+// Layout: 3 Discs (2x 22mm, 1x 24mm).
 
-$fn = 100; // Resolution
+$fn = 100; // Smoothness
 
-outer_d = 37;
-id_aperture = 22;
-id_lens = 24;
-thickness = 1;
-spacing = 40; // Distance between parts
-
-// Module for a single ring
-module lens_ring(id) {
+// Disc 1 (Bottom Aperture - 22mm)
+translate([0, 0, 0]) {
     difference() {
-        cylinder(h = thickness, d = outer_d);
-        translate([0, 0, -1])
-            cylinder(h = thickness + 2, d = id);
+        cylinder(r=18.5, h=1); // 37mm OD / 2 = 18.5mm Radius
+        translate([0,0,-1])
+            cylinder(r=11, h=3); // 22mm ID / 2 = 11mm Radius
     }
 }
 
-// Layout: 3 Discs side-by-side
-// Layer 1: Bottom (Aperture)
-translate([0, 0, 0]) {
-    lens_ring(id_aperture);
+// Disc 2 (Middle Aperture - 22mm)
+translate([40, 0, 0]) {
+    difference() {
+        cylinder(r=18.5, h=1);
+        translate([0,0,-1])
+            cylinder(r=11, h=3);
+    }
 }
 
-// Layer 2: Middle (Aperture)
-translate([spacing, 0, 0]) {
-    lens_ring(id_aperture);
-}
-
-// Layer 3: Top (Lens Seat)
-translate([spacing * 2, 0, 0]) {
-    lens_ring(id_lens);
+// Disc 3 (Top Lens Seat - 24mm)
+translate([80, 0, 0]) {
+    difference() {
+        cylinder(r=18.5, h=1);
+        translate([0,0,-1])
+            cylinder(r=12, h=3); // 24mm ID / 2 = 12mm Radius
+    }
 }
