@@ -10,6 +10,16 @@
 *   **Lens Seat**: 24mm (Top 1 Layer)
 *   **Fit**: Press-fit into Google Cardboard or similar VR Viewer.
 
+## How to Turn `.scad` into `.stl`
+To print this design, you need to convert the **Code** (SCAD) into a **3D Mesh** (STL).
+
+1.  **Download**: Get [OpenSCAD](https://openscad.org/) (Free & Open Source).
+2.  **Open**: Launch OpenSCAD and open `lens_holder.scad`.
+3.  **Preview**: Press **F5** to see the 3 rings side-by-side.
+4.  **Render**: Press **F6** (or *Design > Render*). This calculates the solid geometry.
+5.  **Export**: Press **F7** (or *File > Export > Export as STL*). Save the file.
+6.  **Slice**: Open the `.stl` file in your 3D Printer Slicer (Cura, PrusaSlicer, etc.) and print.
+
 ## 3D Printing Instructions
 **File**: `lens_holder.scad` (OpenSCAD)
 **Material**: PLA (Black recommended to reduce reflection)
