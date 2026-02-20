@@ -3,6 +3,24 @@
 **Role**: To harness the flow of energy (Wind, Water, Chaos).
 **Function**: Demonstrates **Fluid Dynamics** and **Rotational Force**.
 
+## Generator Model (Advanced)
+**File**: `turbine_generator.scad` (OpenSCAD)
+**Function**: Converts wind into **Electricity**.
+
+**Components**:
+1.  **Nacelle**: Holds the Motor (24mm Diameter).
+2.  **Rotor**: Hub + 3 Blades (Press-fits onto 2mm Shaft).
+3.  **Tail**: Self-orienting Fin.
+4.  **Mount**: Fits onto a 15mm Pole/Pipe.
+
+**Hardware Required**:
+*   **DC Motor**: Standard Hobby Motor (RF-300 or similar, ~24mm Diameter).
+*   **Wires**: To connect motor to LED or Multimeter.
+
+## Basic Model (Simple)
+**File**: `turbine_basic.scad` (OpenSCAD)
+**Function**: Demonstrates **Fluid Dynamics** only (No electricity).
+
 ## Parameters
 This model is **Parametric**. You can edit the variables at the top of the `.scad` file to change:
 *   `blade_count`: Number of blades (Default: 8).
