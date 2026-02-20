@@ -5,16 +5,18 @@
 
 ## Generator Model (Advanced)
 **File**: `turbine_generator.scad` (OpenSCAD)
-**Function**: Converts wind into **Electricity**.
+**Function**: Converts wind into **Electricity** (High Efficiency).
 
 **Components**:
-1.  **Nacelle**: Holds the Motor (24mm Diameter).
-2.  **Rotor**: Hub + 3 Blades (Press-fits onto 2mm Shaft).
-3.  **Tail**: Self-orienting Fin.
-4.  **Mount**: Fits onto a 15mm Pole/Pipe.
+1.  **Nacelle**: Holds the Motor (24mm Diameter) + Cooling Vents.
+2.  **Rotor (The Pro)**: **7 Blades** (Airfoil Shape), 160mm Diameter.
+3.  **Spinner**: Aerodynamic Nose Cone.
+4.  **Tail**: Large Fin for stability.
+5.  **Mount**: Fits onto a 16mm Pole (1/2" PVC Pipe).
 
 **Hardware Required**:
 *   **DC Motor**: Standard Hobby Motor (RF-300 or similar, ~24mm Diameter).
+*   **Pole**: Standard 1/2" PVC Pipe or Dowel.
 *   **Wires**: To connect motor to LED or Multimeter.
 
 ## Basic Model (Simple)
