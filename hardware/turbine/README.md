@@ -3,21 +3,23 @@
 **Role**: To harness the flow of energy (Wind, Water, Chaos).
 **Function**: Demonstrates **Fluid Dynamics** and **Rotational Force**.
 
-## Generator Model (Advanced)
+## Generator Model (Advanced V2)
 **File**: `turbine_generator.scad` (OpenSCAD)
 **Function**: Converts wind into **Electricity** (High Efficiency).
 
 **Components**:
-1.  **Nacelle**: Holds the Motor (24mm Diameter) + Cooling Vents.
-2.  **Rotor (The Pro)**: **7 Blades** (Airfoil Shape), 160mm Diameter.
+1.  **Nacelle**: Split Body with **Clamp** (For firm Motor Grip).
+2.  **Rotor (The Pro)**: **7 Blades** (Airfoil), **200mm Diameter**.
 3.  **Spinner**: Aerodynamic Nose Cone.
-4.  **Tail**: Large Fin for stability.
-5.  **Mount**: Fits onto a 16mm Pole (1/2" PVC Pipe).
+4.  **Mount**: Fits on **1/2" PVC Pipe** (21.5mm OD).
 
 **Hardware Required**:
-*   **DC Motor**: Standard Hobby Motor (RF-300 or similar, ~24mm Diameter).
-*   **Pole**: Standard 1/2" PVC Pipe or Dowel.
-*   **Wires**: To connect motor to LED or Multimeter.
+*   **DC Motor**: Standard Hobby Motor (RF-300, ~24.5mm Dia).
+*   **Pole**: Standard 1/2" PVC Pipe.
+*   **Screws**:
+    *   **2x M3 Screws** (20mm) + Nuts (For Motor Clamp).
+    *   **1x M5 Screw** (30mm) (For Tower Swivel).
+*   **Wires**: To connect motor.
 
 ## Basic Model (Simple)
 **File**: `turbine_basic.scad` (OpenSCAD)
