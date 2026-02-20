@@ -17,16 +17,14 @@ To make this a *working* telescope, you need:
     *   **1x 1/4-20 Hex Nut** (Tripod Mount - Optional).
 
 ## 3D Printing Instructions
-**File**: `telescope_assembly.scad` (V3 Pro)
-**Improvements**:
-*   **Vixen Dovetail Rail**: Integrated mounting bar for Telescope Mounts.
-*   **Focus Lock**: Thumb screw to hold the drawtube in place.
+**File**: `telescope_assembly.scad` (V4 Helical Focus)
+**Function**: **Twist-to-Focus** (Active Helical Mechanism).
+**Assembly Note**: Apply **Lubricant** (Candle Wax or Lithium Grease) to the focuser groove for smooth operation.
 
 **Parts**:
 1.  **Front Tube**: Holds Lens.
-2.  **Back Tube**: Holds Focuser + Rail + Lock.
-3.  **Drawtube**: Slides inside Back Tube.
-4.  **Knob**: For the Focus Lock.
+2.  **Back Tube**: Built-in Pins that ride in the Groove.
+3.  **Twist Focuser**: Drawtube with Helical Groove.
 
 **Settings**:
 *   **Infill**: 40% (Needs stiffness for optics).
