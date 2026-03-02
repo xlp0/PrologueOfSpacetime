@@ -1,80 +1,92 @@
 /*
-  Digital Synesthesia: The Wind Turbine Stand (SCAD)
+  Digital Synesthesia: The Wind Turbine Stand (Drop-in Style)
   
   Role: The Foundation.
-  Function: Elevates the Turbine the user already has.
+  Function: Elevates an *existing* turbine.
   
   Specs:
-  - Height: 175mm (Center of shaft, exceeds 170mm min).
-  - Length: 160mm (Aerodynamic base).
-  - Bearings: 2x 699 (or exact 9mm ID, 20mm OD).
+  - Height: >170mm.
+  - Length: 160mm.
+  - Bearing Outer Diameter (OD): 20mm.
+  - Bearing Inner Diameter (ID): 9mm (Shaft).
   
   Features:
-  - Strong A-Frame base.
-  - Generous center cutout to save filament.
-  - Bearing pockets with 20.3mm tolerance for easy press-fit on standard 3D printers.
+  - Dual rectangular towers.
+  - U-shaped slots at the top for easy "drop-in" of the 20mm bearings.
 */
 
 $fn = 100;
 
 // --- Parameters ---
-// Dimensions
-stand_h = 175;       // Height to center of bearings
-base_len = 160;      // Length of the base (Wind direction)
-base_width = 80;     // Width of the base (Stability)
-housing_len = 50;    // Length of the top tube (gap between bearings)
-housing_od = 32;     // Outer diameter of the horizontal tube
+// Overall Dimensions
+base_len = 160;      // Distance between the towers (Length of base)
+base_width = 80;     // Width of the base plate for stability
+base_thick = 10;     // Thickness of the base plate
 
-// Bearing Constraints (9mm ID, 20mm OD)
-bearing_od = 20.3;   // Adds 0.3mm clearance for 3D printer shrinkage
-bearing_id = 9.0;    // 9mm
-bearing_depth = 6.0; // Fit a 6mm-wide bearing (standard 699 or 689)
-shaft_clear = 13.0;  // Generous clearance hole so the 9mm shaft won't rub
+tower_h = 175;       // Total height of the towers
+tower_width = 30;    // Width of each rectangular tower (in X)
+tower_depth = 40;    // Depth of each rectangular tower (in Y)
 
-module turbine_stand() {
+// Bearing Constraints
+bearing_od = 20.5;   // 20mm + 0.5mm clearance for easy sliding
+bearing_w = 7.0;     // Approx width of a standard 9x20 bearing (699 is 6mm, 689 is 5mm). Slot is just a cutout anyway.
+slot_depth = 25;     // How deep the bearing drops into the tower
+
+module drop_in_turbine_stand() {
     difference() {
-        // 1. Solid Body (Pyramid/A-Frame Base)
-        hull() {
-            // Main Base plate
-            translate([0, 0, 5]) 
-                cube([base_len, base_width, 10], center=true);
+        // --- Solid Structure ---
+        union() {
+            // 1. The Base Plate
+            cube([base_len, base_width, base_thick], center=true);
             
-            // Top bearing housing (horizontal tube)
-            translate([0, 0, stand_h])
-                rotate([0, 90, 0])
-                cylinder(d=housing_od, h=housing_len, center=true);
-        }
-        
-        // 2. Large Center Cutout (Save material, keep structural strength)
-        translate([0, 0, stand_h/2 + 5])
-            scale([1.2, 1, 1]) // Stretch into oval
-            rotate([90, 0, 0])
-            cylinder(d=stand_h - 45, h=base_width + 20, center=true);
-            
-        // 3. Bearing Pockets & Shaft Geometry
-        translate([0, 0, stand_h]) {
-            // Central shaft pass-through (so shaft doesn't drag)
-            rotate([0, 90, 0])
-                cylinder(d=shaft_clear, h=housing_len + 10, center=true);
-            
-            // Front Bearing Pocket (20.3mm wide, 6mm deep by default)
-            translate([housing_len/2 - bearing_depth/2 + 0.1, 0, 0])
-                rotate([0, 90, 0])
-                cylinder(d=bearing_od, h=bearing_depth + 0.2, center=true);
+            // 2. Tower 1 (Left)
+            translate([-base_len/2 + tower_width/2, 0, tower_h/2])
+                cube([tower_width, tower_depth, tower_h], center=true);
                 
-            // Rear Bearing Pocket
-            translate([-housing_len/2 + bearing_depth/2 - 0.1, 0, 0])
-                rotate([0, 90, 0])
-                cylinder(d=bearing_od, h=bearing_depth + 0.2, center=true);
+            // 3. Tower 2 (Right)
+            translate([base_len/2 - tower_width/2, 0, tower_h/2])
+                cube([tower_width, tower_depth, tower_h], center=true);
+                
+            // 4. Corner braces for strength (Optional but recommended for 170mm tall towers)
+            // Left brace
+            translate([-base_len/2 + tower_width, 0, base_thick/2])
+                rotate([0, -45, 0])
+                cube([tower_depth, tower_depth, tower_depth], center=true);
+            // Right brace
+            translate([base_len/2 - tower_width, 0, base_thick/2])
+                rotate([0, 45, 0])
+                cube([tower_depth, tower_depth, tower_depth], center=true);
         }
         
-        // 4. Mounting Holes (M5 Screws for fixing to a desk/floor)
-        translate([base_len/2 - 15, base_width/2 - 15, -1]) cylinder(d=5.5, h=25);
-        translate([base_len/2 - 15, -base_width/2 + 15, -1]) cylinder(d=5.5, h=25);
-        translate([-base_len/2 + 15, base_width/2 - 15, -1]) cylinder(d=5.5, h=25);
-        translate([-base_len/2 + 15, -base_width/2 + 15, -1]) cylinder(d=5.5, h=25);
+        // --- Cutouts ---
+        
+        // 1. Left Bearing Slot (Top of Tower 1)
+        translate([-base_len/2 + tower_width/2, 0, tower_h]) {
+            // Drop-in track (U-Shape)
+            cube([bearing_w + 2, bearing_od, slot_depth*2], center=true); // The vertical slide
+            // Rest pocket (Rounded bottom)
+            translate([0, 0, -slot_depth])
+                rotate([0, 90, 0])
+                cylinder(d=bearing_od, h=bearing_w + 4, center=true);
+        }
+        
+        // 2. Right Bearing Slot (Top of Tower 2)
+        translate([base_len/2 - tower_width/2, 0, tower_h]) {
+            // Drop-in track (U-Shape)
+            cube([bearing_w + 2, bearing_od, slot_depth*2], center=true); // The vertical slide
+            // Rest pocket (Rounded bottom)
+            translate([0, 0, -slot_depth])
+                rotate([0, 90, 0])
+                cylinder(d=bearing_od, h=bearing_w + 4, center=true);
+        }
+        
+        // 3. Mounting Holes (To screw the base down safely)
+        translate([base_len/2 - 15, base_width/2 - 15, -base_thick]) cylinder(d=5.5, h=base_thick*3);
+        translate([base_len/2 - 15, -base_width/2 + 15, -base_thick]) cylinder(d=5.5, h=base_thick*3);
+        translate([-base_len/2 + 15, base_width/2 - 15, -base_thick]) cylinder(d=5.5, h=base_thick*3);
+        translate([-base_len/2 + 15, -base_width/2 + 15, -base_thick]) cylinder(d=5.5, h=base_thick*3);
     }
 }
 
 // Render the Stand
-turbine_stand();
+translate([0, 0, base_thick/2]) drop_in_turbine_stand();
