@@ -4,7 +4,7 @@
 // Row 1 (Left Eye): 2x 22mm, 1x 24mm.
 // Row 2 (Right Eye): 2x 22mm, 1x 24mm.
 
-$fn = 100; // Smoothness
+$fn = 1000; // Smoothness
 
 // Module for a single set (One Eye)
 module lens_set() {

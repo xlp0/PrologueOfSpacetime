@@ -1,92 +1,97 @@
 /*
-  Digital Synesthesia: The Wind Turbine Stand (Drop-in Style)
-  
-  Role: The Foundation.
-  Function: Elevates an *existing* turbine.
+  Digital Synesthesia: The Wind Turbine Stand
   
   Specs:
-  - Height: >170mm.
-  - Length: 160mm.
-  - Bearing Outer Diameter (OD): 20mm.
-  - Bearing Inner Diameter (ID): 9mm (Shaft).
+  - Tower height: 100mm | Bearing center: 80mm.
+  - Inner gap between towers (face-to-face): 160mm.
+  - Bearing hole: 20.2mm dia (20mm OD + 0.2mm FDM press-fit clearance).
+  - Tower width = bearing thickness = 6mm.
   
-  Features:
-  - Dual rectangular towers.
-  - U-shaped slots at the top for easy "drop-in" of the 20mm bearings.
+  Stress Relief:
+  - Towers flare outward at base using hull() — wider at bottom, narrow at top.
+  - Like a pillar/pylon: naturally stronger at the stress point, visible from all angles.
+  - All outer edges rounded via minkowski on the base plate.
 */
 
-$fn = 100;
+$fn = 80;
 
 // --- Parameters ---
-// Overall Dimensions
-base_len = 160;      // Distance between the towers (Length of base)
-base_width = 80;     // Width of the base plate for stability
-base_thick = 10;     // Thickness of the base plate
+bearing_spacing = 166;   // Center-to-center; inner gap = 166-6 = 160mm
+base_width      = 80;
+base_thick      = 10;
+tower_h         = 100;
+tower_width     = 6;
+tower_depth     = 45;
 
-tower_h = 175;       // Total height of the towers
-tower_width = 30;    // Width of each rectangular tower (in X)
-tower_depth = 40;    // Depth of each rectangular tower (in Y)
+// Flare: how much each tower widens toward the base
+flare_y = 14;   // Each tower face widens by 14mm at the base (each side, so +28mm total depth)
+flare_z = 30;   // The flare zone height: from base top (Z=base_thick) up by this amount
 
-// Bearing Constraints
-bearing_od = 20.5;   // 20mm + 0.5mm clearance for easy sliding
-bearing_w = 7.0;     // Approx width of a standard 9x20 bearing (699 is 6mm, 689 is 5mm). Slot is just a cutout anyway.
-slot_depth = 25;     // How deep the bearing drops into the tower
+bearing_od = 20.2;
+bearing_h  = 80;    // hole top = 90.1mm < 100mm tower ✓
 
-module drop_in_turbine_stand() {
-    difference() {
-        // --- Solid Structure ---
-        union() {
-            // 1. The Base Plate
-            cube([base_len, base_width, base_thick], center=true);
-            
-            // 2. Tower 1 (Left)
-            translate([-base_len/2 + tower_width/2, 0, tower_h/2])
-                cube([tower_width, tower_depth, tower_h], center=true);
-                
-            // 3. Tower 2 (Right)
-            translate([base_len/2 - tower_width/2, 0, tower_h/2])
-                cube([tower_width, tower_depth, tower_h], center=true);
-                
-            // 4. Corner braces for strength (Optional but recommended for 170mm tall towers)
-            // Left brace
-            translate([-base_len/2 + tower_width, 0, base_thick/2])
-                rotate([0, -45, 0])
-                cube([tower_depth, tower_depth, tower_depth], center=true);
-            // Right brace
-            translate([base_len/2 - tower_width, 0, base_thick/2])
-                rotate([0, 45, 0])
-                cube([tower_depth, tower_depth, tower_depth], center=true);
-        }
-        
-        // --- Cutouts ---
-        
-        // 1. Left Bearing Slot (Top of Tower 1)
-        translate([-base_len/2 + tower_width/2, 0, tower_h]) {
-            // Drop-in track (U-Shape)
-            cube([bearing_w + 2, bearing_od, slot_depth*2], center=true); // The vertical slide
-            // Rest pocket (Rounded bottom)
-            translate([0, 0, -slot_depth])
-                rotate([0, 90, 0])
-                cylinder(d=bearing_od, h=bearing_w + 4, center=true);
-        }
-        
-        // 2. Right Bearing Slot (Top of Tower 2)
-        translate([base_len/2 - tower_width/2, 0, tower_h]) {
-            // Drop-in track (U-Shape)
-            cube([bearing_w + 2, bearing_od, slot_depth*2], center=true); // The vertical slide
-            // Rest pocket (Rounded bottom)
-            translate([0, 0, -slot_depth])
-                rotate([0, 90, 0])
-                cylinder(d=bearing_od, h=bearing_w + 4, center=true);
-        }
-        
-        // 3. Mounting Holes (To screw the base down safely)
-        translate([base_len/2 - 15, base_width/2 - 15, -base_thick]) cylinder(d=5.5, h=base_thick*3);
-        translate([base_len/2 - 15, -base_width/2 + 15, -base_thick]) cylinder(d=5.5, h=base_thick*3);
-        translate([-base_len/2 + 15, base_width/2 - 15, -base_thick]) cylinder(d=5.5, h=base_thick*3);
-        translate([-base_len/2 + 15, -base_width/2 + 15, -base_thick]) cylinder(d=5.5, h=base_thick*3);
+base_len = bearing_spacing + tower_width + 20;
+
+
+// --- Rounded cube for base plate ---
+module rounded_base() {
+    r = 3;
+    minkowski() {
+        cube([base_len - 2*r, base_width - 2*r, base_thick - 2*r], center=true);
+        sphere(r=r);
     }
 }
 
-// Render the Stand
-translate([0, 0, base_thick/2]) drop_in_turbine_stand();
+// --- Flared tower ---
+// Bottom is wide (flared), top is narrow. hull() blends them into one smooth shape.
+// This is the standard FDM stress-relief: more material exactly where stress is highest.
+module flared_tower(x_pos) {
+    hull() {
+        // Top of tower: narrow (normal tower cross section)
+        translate([x_pos, 0, tower_h - 0.1])
+            cube([tower_width, tower_depth, 0.2], center=true);
+
+        // Midpoint anchor (keeps the straight section before flare starts)
+        translate([x_pos, 0, base_thick + flare_z])
+            cube([tower_width, tower_depth, 0.2], center=true);
+
+        // Bottom of tower: wide flared base
+        translate([x_pos, 0, base_thick + 0.1])
+            cube([tower_width, tower_depth + 2*flare_y, 0.2], center=true);
+    }
+}
+
+
+module turbine_stand() {
+    difference() {
+        union() {
+            // 1. Base plate (rounded outer edges)
+            translate([0, 0, base_thick/2])
+                rounded_base();
+
+            // 2. Left tower (flared at base for stress relief)
+            flared_tower(-bearing_spacing/2);
+
+            // 3. Right tower (flared at base for stress relief)
+            flared_tower(+bearing_spacing/2);
+        }
+
+        // --- Cutouts ---
+
+        // Bearing holes (20.2mm dia, coaxial along X-axis)
+        translate([-bearing_spacing/2, 0, bearing_h])
+            rotate([0, 90, 0])
+            cylinder(d=bearing_od, h=tower_width + 4, center=true);
+        translate([+bearing_spacing/2, 0, bearing_h])
+            rotate([0, 90, 0])
+            cylinder(d=bearing_od, h=tower_width + 4, center=true);
+
+        // Mounting holes M5
+        translate([ bearing_spacing/2 + tower_width/2 + 5,  base_width/2 - 15, -1]) cylinder(d=5.5, h=base_thick + 4);
+        translate([ bearing_spacing/2 + tower_width/2 + 5, -base_width/2 + 15, -1]) cylinder(d=5.5, h=base_thick + 4);
+        translate([-bearing_spacing/2 - tower_width/2 - 5,  base_width/2 - 15, -1]) cylinder(d=5.5, h=base_thick + 4);
+        translate([-bearing_spacing/2 - tower_width/2 - 5, -base_width/2 + 15, -1]) cylinder(d=5.5, h=base_thick + 4);
+    }
+}
+
+turbine_stand();
