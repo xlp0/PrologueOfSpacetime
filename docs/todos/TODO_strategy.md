@@ -2,6 +2,28 @@
 
 > **Core Philosophy**: "Be Empty of your Self, and make everyone play."
 > **Deadline**: Next 3 Months (for initial showcase).
+> **Strategic Core (Mar 3, 2026)**: All work must grounded in a Single Source of Truth (SSoT), specifically Homotopy Type Theory (The Trinity, Sum Type, Product Type, and Exponents). This is the core for design and the "secret sauce".
+
+## 0. The Core Engine (Immediate Directives - Mar 3, 2026)
+- [x] **HoTT SSoT Integration** (See: `docs/hott_ssot_reference.md`):
+    - [x] Map Trinity to ADTs: **Sum (+) = Identity/Who**, **Product (×) = Evolution/When**, **Exponent (^) = Reality/What**.
+    - [x] Map HoTT to cognition: **Perception=Path**, **Action=Higher-Dim Path**, **Reasoning=Homotopy**.
+    - [x] Map ADTs to MCard: **Sum→Handle Registry**, **Product→Handle History**, **Exponent→The Card (Content^Hash)**.
+    - [ ] Embed cue words throughout all content: *Choice, OR, Coproduct* | *Combination, AND, Cartesian Product* | *Function, Mapping, Implication, Hom-set*.
+    - [ ] Verify all new documents use at least one cue word from each ADT category.
+- [ ] **Alignment Measurement**:
+    - [ ] Use Tom Leinster's entropy/diversity axioms (Hill numbers, Rényi entropy) as the formal basis for the Signal-to-Noise ratio metric.
+    - [ ] Score each deliverable: does it signal Computational Trinitarianism (Logic/Computation/Category Theory)?
+    - [ ] High-alignment target: every artifact must contain *Type (Spec)* + *Algorithm (Impl)* + *Proof/Witness (Verification)*.
+- [ ] **Functional Programming Foundation**:
+    - [ ] **Beginner track**: Start with **Clojure** (dynamic typed, low friction entry point).
+    - [ ] **Intermediate track**: Use **Haskell** for explaining Monads, Kleisli composition, lenses.
+    - [ ] **Advanced track**: Use **Agda** for Poly category, dependent types, and writing proofs as code ("super Haskell").
+    - [ ] **Web track**: Use **PureScript/Halogen** to model front-end components as Polynomial Functors.
+    - [ ] Connect every gadget/hardware piece to FP: Oscilloscope = signal as function, Telescope = observation as path.
+- [ ] **PKC Containerization**:
+    - [ ] Use PKC (Personal Knowledge Container) as the **integration layer** reducing complexity between theory & individual environments.
+    - [ ] Implement MCard schema as the PKC's underlying ADT structure (Sum + Product + Exponent).
 
 ## 1. The Platform (CI/CD & Instrumentation)
 - [ ] **Implement CI/CD Process**: Focus on "Empty of Self" automation. The platform must run autonomously.
@@ -12,6 +34,10 @@
     - [ ] Track number of participants.
 - [ ] **OpenClaw Integration**:
     - [ ] Enable continuous code refinement (24/7 loops), even while sleeping.
+- [ ] **Duwi's Workshop Inventory Management**:
+    - [ ] Implement the agentic workflow defined in `docs/workflows/inventory_management.md`.
+    - [ ] Set up visual/audio ingestion for Duwi to map undocumented equipment.
+    - [ ] Ensure the Warehouse (humid area) gets priority logging.
 
 ## 2. The Curriculum (Game Creation)
 - [ ] **Design "Game Creating Curriculum"**: Instead of just playing games, teach how to *create* games.
