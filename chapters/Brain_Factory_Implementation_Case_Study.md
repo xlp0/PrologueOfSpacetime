@@ -27,10 +27,10 @@ Indonesia presents an irreplaceable strategic value proposition for global techn
 | :--- | :--- | :--- |
 | **Scale** | 4th Largest Population | The ultimate stress-test for AI scalability. |
 | **Diversity** | 700+ Local Languages | A "Babel-scale" challenge for NLP and **Toba LM**. |
-| **Sovereignty** | **[PKC-OS]** + **[Local-first]** | A model for True Digital Sovereignty via **Sovereign Operational Networks**. |
+| **Sovereignty** | **[PKC-OS]** + **[Local-first]** | A model for True Digital Sovereignty via **Self-Sovereign Networks**. |
 
 > [!abstract] The Core Proposition
-> We do not ask for "help." We offer a partnership to co-author the next chapter of human development. Indonesia acts as the **primary validation node** for sovereign AI infrastructure.
+> We do not ask for "help." We offer a partnership to co-author the next chapter of human development. Indonesia acts as the **primary validation node** for sovereign AI infrastructure, demonstrating that this system empowers SMEs and local communities even in all economic zones using basic hardware.
 
 ## 3. The Logic (How): The GASing Engine
 
@@ -100,7 +100,7 @@ The system is built on **MVP Cards**, a triadic architecture that separates conc
 
 ### 4.2 The Infrastructure (The Factory Floor)
 *   **MCardFS**: A content-addressed file system that acts as the "Universal Memory" for the nation.
-*   **Overlay VPN**: A sovereign mesh network enabling communities to share knowledge assets safely without central intermediaries.
+*   **Overlay VPN**: A secure, self-operated mesh network enabling communities to share knowledge assets safely without central intermediaries.
 *   **Bridgelet**: Connectivity drivers that allow the Brain Factory to control physical hardware (3D Printers, CNCs).
 
 ## 5. Implementation Case: IT Del & The 3-Phase Roadmap

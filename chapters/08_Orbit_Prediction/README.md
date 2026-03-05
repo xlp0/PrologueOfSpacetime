@@ -26,7 +26,7 @@ In the context of LLMs, a "Skill" is NOT knowledge (that's the model weights). A
 
 ### 3. Project: Kinetic Node (Phase 6)
 We apply prediction to **Control**.
-*   **[OpenClaw & AI Skills](openclaw_skills.md)**: Defining the `tools` that allow the AI to pilot the Ch 02 Frame.
+*   **[OpenClaw & AI Skills](openclaw_skills.md)**: Defining the `tools` that allow the AI to pilot the Ch 02 Frame. Here, a Multi-modal LLM acts as the **Universal Function Approximator**, mapping any input modality (text, image, sound) to a predictive actuator output.
 
 ## Foundational Connections
 

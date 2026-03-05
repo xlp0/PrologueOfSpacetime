@@ -23,7 +23,7 @@ We apply Grammar to **Sensors**.
 
 In **Chapter 04**, we observed data. In **Chapter 09**, we challenge it.
 *   **The Problem**: Your temperature sensor says 25C. Is it really 25C?
-*   **The Task**: **Calibration**. Comparing the Digital "Token" against the Physical "Drop" (Ground Truth).
+*   **The Task**: **Calibration**. Comparing the Digital "Token" against the Physical "Drop" (Ground Truth). To achieve full-environment perception, we employ **Digital Synesthesia**—mapping raw hardware sensor data into multi-dimensional signal representations to bridge the physical and digital.
 *   **The Code**: Unit Tests for Hardware.
 
 ## Foundational Connections

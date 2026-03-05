@@ -14,6 +14,7 @@ The "Counter" is the fundamental unit of Agency. It observes the chaotic flow of
 *   **[MVP Card: The Counter](MVP_The_Counter.md)**: The philosophical definition of value.
 *   **Kenosis (Emptying)**: To count effectively, we must first "empty" our biases. $1$ must equal $1$.
 *   **Universal Grammar**: In the decomposition $f = \sum c_k \phi_k$, counting is the determination of the **Coefficient ($c_k$)**—the *quantity* of existence.
+*   **Counting Value**: As we transition from an extraction-based consumption economy to a sharing-based data economy, the student's primary task shifts. We are no longer teaching students merely to count numbers; we are teaching them to **count value**.
 
 ### 2. From Drops to Tokens
 In this chapter, we count **Drops** (Physical Water).

@@ -10,7 +10,7 @@ In the **Revived Quadrivium**, **Geometry** is the study of **Number in Space**.
 ## 📚 Core Concepts
 
 ### 1. The Shape (The Monad)
-The "Shape" is the fundamental unit of Geometry. In our curriculum, we move beyond Euclidean planes to understand **Topics**, **Graphs**, and **Networks**.
+The "Shape" is the fundamental unit of Geometry. In our curriculum, we move beyond Euclidean planes to understand **Topics**, **Graphs**, and **Networks** through modern instruments like digital scopes and microscopes, achieving true **"Universality"**.
 *   **[MVP Card: The Shape](MVP_The_Shape.md)**: The philosophical definition of space.
 *   **Kenosis (Space)**: Space is the emptiness that allows form. We create "Vacuum" to deploy structure.
 *   **Universal Grammar**: In $f = \sum c_k \phi_k$, shape defines the **Basis Functions ($\phi_k$)**—the structural types we build with.

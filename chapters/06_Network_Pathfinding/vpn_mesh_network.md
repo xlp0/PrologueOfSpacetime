@@ -5,12 +5,12 @@
 
 ## 1. The Philosophy of Pathfinding
 In **Chapter 05**, we gave the Node life (Motor Control). But an isolated Node is vulnerable. In **Chapter 06**, we give it **Connection**.
-*   **Network Pathfinding**: Finding a reliable route through a hostile network. This is **Zero Trust** in action: every hop must be authenticated, every tunnel encrypted. Trust is not assumed—it is continuously verified through cryptographic protocols rooted in **Arithmetic** (hash functions, modular arithmetic, threshold signatures).
+*   **Network Pathfinding**: Finding a reliable route through a hostile network via a **Software-defined Knowledge Network (SDKN)**. This is **Zero Trust** in action: every hop must be authenticated, every tunnel encrypted. Trust is not assumed—it is continuously verified through cryptographic protocols rooted in **Arithmetic** (hash functions, modular arithmetic, threshold signatures).
 *   **The 12-Factor Agent**: An agent that is stateless, addressable, and secure.
 
 ## 2. Technical Implementation: The Mesh
 
-To create a flat, secure mesh network where every Node can talk to every other Node (regardless of NAT/Firewalls), we have three primary options: **Tailscale**, **ZeroTier**, and **NetBird**.
+To create a flat, secure mesh network where every Node can talk to every other Node (regardless of NAT/Firewalls), we deploy secure, **Self-Sovereign Networks** in remote areas using three primary options: **Tailscale**, **ZeroTier**, and **NetBird**.
 
 ### Comparison of Providers
 

@@ -22,7 +22,7 @@ We apply Grammar to **The Fleet**.
 > *One robot is a toy. Ten robots are a swarm. One thousand robots are a civilization.*
 
 In **Chapter 06**, we connected one node. In **Chapter 10**, we structure the swarm.
-*   **The Metaphor**: Kubernetes for the Physical World.
+*   **The Metaphor**: Kubernetes for the Physical World. This topology serves as the operational bedrock for the **Kubernetes-based pipelines** that will structure our "Archipelago-wide Operating System."
 *   **The Task**: Naming schemes (`node-01`, `node-02`) and Subnets.
 *   **The Architecture**: Organized cascades, just like water flows from the top terrace to the bottom.
 

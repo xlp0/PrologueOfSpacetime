@@ -25,7 +25,7 @@ We apply Grammar to **Spacetime**.
 
 In **Chapter 12**, the project is complete. The Node is Calibrated (Ch 09), Scaled (Ch 10), and Scheduled (Ch 11).
 *   **The Outcome**: A fully autonomous agent that knows its place in Space (Geometry) and Time (Music).
-*   **The Final Task**: Deploy the "Master Schedule" (The Calendar) that coordinates the entire Hive Mind. We are no longer coding; we are Governing.
+*   **The Final Task**: Deploy the "Master Schedule" (The Calendar) that coordinates the entire Hive Mind. We are no longer coding; we are Governing. This Calendar acts as the definitive **science of governance**, scaling localized sovereignty up effectively to the scale of the entire internet.
 
 ### 3. Physical Manifestation: The Digital Sundial
 To ground the abstract concept of calendar coordination in physical reality, we build the ultimate trustless timekeeper.

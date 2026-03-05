@@ -40,7 +40,7 @@ To build reliable systems, we must abandon the idea of the "Magical Agent" and r
 
 ### 2. Project: Kinetic Node (Phase 3)
 We apply pathfinding to **Network Routing**.
-*   **[VPN & Mesh Networking](vpn_mesh_network.md)**: Connecting the isolated Ch 05 Node to the Swarm.
+*   **[VPN & Mesh Networking](vpn_mesh_network.md)**: Connecting the isolated Ch 05 Node to the Swarm. This operates on a **Software-defined Knowledge Network (SDKN)** foundation, utilizing technologies like ZeroTier and Tailscale to deploy secure, **Self-Sovereign Networks** in remote areas.
 
 
 ## Foundational Connections

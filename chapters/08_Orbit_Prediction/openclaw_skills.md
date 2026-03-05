@@ -5,7 +5,7 @@
 
 ## 1. The Philosophy of Skills
 In **Chapter 07**, the Node learned to speak (MQTT). Now, in **Chapter 08**, it learns to **Do**. As the chapter README describes, this is where the full **Miner-Coder-Trader Triad** converges. Here we see that convergence in concrete components:
-*   **The Brain**: The Large Language Model (DeepSeek/Gemini) — ingests validated sensor data.
+*   **The Brain**: The Multi-modal Large Language Model (DeepSeek/Gemini)—acting as the **Universal Function Approximator**, mapping any input modality (text, image, sound) to predictive actuator outputs.
 *   **The Hands**: The MCP Server (OpenClaw) — implements skill definitions as **PCard** transformations.
 *   **The Delivery**: The MQTT command published back to the swarm — closes the action loop.
 

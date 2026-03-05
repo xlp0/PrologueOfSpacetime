@@ -5,7 +5,7 @@
 
 ## 1. The Philosophy of Memory
 Most materials are amnesiac; bend a copper wire, and it stays bent. **Nitinol** (Nickel Titanium Naval Ordnance Laboratory) remembers. This is a physical manifestation of **path equivalence** in HoTT: the wire can take multiple deformation paths, but heating always returns it to the same remembered shape—a material proof that different paths can be homotopically equivalent.
-*   **The Metaphor**: Energy (Current) restores Form (Geometry). Token allocation (Arithmetic) governs the transformation.
+*   **The Metaphor**: Energy (Current) restores Form (Geometry). Token allocation (Arithmetic) governs the transformation. This embodies **Distributed Manufacturing**; by establishing a **viable cost structure**, conversational programming drives localized, software-defined supply chains cheaply and flexibly.
 *   **The Physics**: Phase transition between *Martensite* (cold/deformable) and *Austenite* (hot/rigid).
 
 ## 2. Technical Implementation
