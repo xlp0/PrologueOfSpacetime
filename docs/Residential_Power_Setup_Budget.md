@@ -8,28 +8,30 @@
 
 ## Budget Overview
 
-| Category | Cost (IDR) | Custom Build Cost (IDR) | Variance |
-|----------|---------------------|-------------------|----------|
-| **Solar Panels (10 units)** | 44,000,000 | | |
-| **Battery System (16 kWh)** | 41,000,000 | | |
-| **Inverter & Controls** | 30,000,000 | | |
-| **Permits / Auto-Switch** | 12,000,000 | | |
-| **Installation & Wiring** | 13,000,000 | | |
-| **TOTAL** | **140,000,000** | | |
+| Category | Specification | Cost (IDR) |
+| :--- | :--- | :--- |
+| **Solar Panels (10 units)** | Trina 625Wp N-Type (23% Eff) | 24,990,000 |
+| **Battery System (16 kWh)** | Li-F-P 16kWh LV | 42,000,000 |
+| **Hybrid Inverter** | DEYE 6kW, 1P, LV | 20,379,600 |
+| **Cabling & Safety Panel** | PV/AC Cabling, Safety Switches | 12,816,750 |
+| **Mounting & Accessories** | Rails, Roof Attachment, Kits | 8,610,150 |
+| **Installation & Logistics** | Travel, Logistics, Testing, Comm. | 19,852,500 |
+| **Transfer Switch** | Automatic | 4,000,000 |
+| **SUBTOTAL** | | **132,649,000** |
+| **PPN (11%)** | | **14,591,390** |
+| **TOTAL AKHIR** | | **147,240,390** |
 
-_Note: This budget is based on Option 1 (Full 6 kW Hybrid System) and will be updated as new information becomes available._
+_Note: The budget is based on the professional SmartTech proposal. Mandatory Net Metering application costs (IDR 9,000,000) are optional and not included in the total above._
 
 ---
 
 ## Battery System Costs
 
-| Capacity | Unit Price (IDR) | Quantity | Subtotal (IDR) |
+| Capacity | Unit Price (IDR) | Specification | Subtotal (IDR) |
 |----------|------------------|----------|----------------|
-| **16 kWh Block** | 41,000,000 | | |
-| **12 kWh Block** | 32,000,000 | | |
-| **5 kWh Block** | 20,000,000 | | |
+| **16 kWh Block** | 42,000,000 | Li-F-P LV | 42,000,000 |
 
-**Selected Battery:** ________ kWh × ________ = ________________ IDR
+**Selected Battery:** 16 kWh × 1 = 42,000,000 IDR
 
 ### Battery Runtime Benchmarks
 - **16 kWh battery** running 4 kW load (multiple ACs): ~3.5 hours without solar
@@ -57,42 +59,42 @@ _Note: This budget is based on Option 1 (Full 6 kW Hybrid System) and will be up
 
 | Setup Type | Wattage | Panel Count | Total Cost (IDR) |
 |------------|---------|-------------|------------------|
-| **Minimal (4-Panel)** | ~2,500W (440W each) | 4 | 20,000,000 |
-| **Full (10-Panel)** | 6 kW (625W each) | 10 | Included in 140M package |
+| **Standard Setup** | 6.25 kWp (625W each) | 10 | 24,990,000 |
 
 **Selected Configuration:**
-- Available Roof Space: ________ m × ________ m
-- Number of Panels: ________
-- **Total Panel Cost:** ________________ IDR
+- Required Roof Space: ~25 m²
+- Number of Panels: 10
+- **Total Panel Cost:** 24,990,000 IDR
 
 ### Detailed System Specifications
 
 #### Solar Panel Calculations
 **Panel Specifications:**
-- **Power per Panel:** 625 Watts (some references to 600W)
-- **Recommended Quantity for 6 kW System:** 9 panels minimum
-- **Optimal Installation:** 10 panels (5 panels per roof side)
-- **Initial Estimate:** 9.6 units based on site measurement
-- **Minimum Operational Requirement:** 4 panels (~2,500W) to run inverter and support computers without AC
+- **Power per Panel:** 625 Watts (Trina N-Type)
+- **Total Capacity:** 6.25 kWp
+- **Optimal Installation:** 10 panels
+- **Space Required:** ~25 m²
 
-**Roof Capacity Analysis:**
-- **Building Size:** Large townhouse capable of accommodating more than 5 panels per side if needed
-- **Standard Layout:** 10 panels total (5 per side) for 6,000W+ system
-- **Coverage Capability:** System with 9.6 units + adequate battery can cover half-day electricity usage including AC
+**Energy Output Analysis:**
+- **Daily Average:** 27.4 kWh
+- **Yearly Average:** 10,000 kWh
 
 #### Battery System Specifications
-**Recommended Capacity:**
-- **Suggested Range:** 15 kWh or 20 kWh capacity
-- **Protection Requirements:** Must be sheltered from direct sunlight and rain
+**Capacity & Warranty:**
+- **Installed Capacity:** 16 kWh Block (Li-F-P)
+- **Battery Warranty:** 5-10 years
 
-**Operational Requirements:**
-- Minimum 4 solar panels needed for inverter to function and charge batteries
+#### Warranties & Support
+- **Solar Panels:** 12 years product warranty & 25 years performance warranty (max 20% degradation over 25 years)
+- **Inverter:** 5 years
+- **Installation:** 1 year
+- **Monitoring:** Integrated remote monitoring app included
 
 #### Current House Electrical Capacity
 **Existing PLN Connection:**
-- **Current Capacity:** 7.7 kW (7,700 Watts)
-- **Target Solar System:** 6,000 Watts (6 kW)
-- **System Integration:** Solar system will supplement existing PLN connection
+- **Current Capacity:** 7.7 kW (PLN B2 Tariff: 1,887 IDR/kWh)
+- **Target Solar System:** 6.25 kWp
+- **System Integration:** Solar system supplements existing PLN connection with automated transfer switching.
 
 ---
 
@@ -102,11 +104,9 @@ _Note: This budget is based on Option 1 (Full 6 kW Hybrid System) and will be up
 
 | Type | Capacity | Unit Price (IDR) |
 |------|----------|------------------|
-| **Professional Smart Inverter** | 6 kW | 30,000,000 |
-| **Fair Market Inverter** | 6 kW | 5,000,000 |
-| **Budget Inverter** | 5 kW | 280,000 - 700,000 |
+| **DEYE Hybrid Inverter** | 6 kW | 20,379,600 |
 
-**Selected Inverter:** ________________ = ________________ IDR
+**Selected Inverter:** DEYE 6kW 1P LV = 20,379,600 IDR
 
 ### Installation Location
 **Indoor Placement Required:**
@@ -124,11 +124,10 @@ _Note: This budget is based on Option 1 (Full 6 kW Hybrid System) and will be up
 
 ## Pre-Configured System Packages
 
-### Option 1: Full 6 kW Hybrid System
-- **Components:** 10 panels (6 kW), 16 kWh battery, smart inverter, installation
-- **Package Cost:** 140,000,000 IDR
-- **ROI:** ~70 months (5.8 years) based on 2M/month savings
-- **Example:** Reduces 5M monthly bill to ~3M
+### Important Regulatory & System Notes
+- **Net Metering Application:** According to current regulations, a net metering application is mandatory when connected to the PLN grid. Using the system prior to PLN approval can result in fines up to **IDR 100,000,000**.
+- **Monitoring:** The proposal includes a remote monitoring application to track real-time consumption and energy savings.
+- **Smart Home Integration:** Optional smart control systems are available to automate appliances based on battery status or schedules.
 
 ### Option 2: UPS System (Minimum Solar)
 - **Components:** 4 panels (2.5 kW), battery, inverter, installation
@@ -143,22 +142,22 @@ _Note: This budget is based on Option 1 (Full 6 kW Hybrid System) and will be up
 
 ### Option 4: Custom Build
 
-**Concept:** Build inverter, battery, and solar panels using Compact Discs (CDs) - digital optical discs.
+**Concept:** Build inverter, battery, and solar panels using custom parts.
 
 **Estimated Material Costs:**
-- **CD-Based Solar Panels:** ________________ IDR
+- **Custom Components:** ________________ IDR
 - **DIY Battery Assembly:** ________________ IDR
 - **Budget Inverter:** 280,000 - 5,000,000 IDR
 - **Wiring & Components:** ________________ IDR
 
 **Cost Reduction vs Professional:**
-- Professional System: 140,000,000 IDR
+- Professional System: 147,240,390 IDR
 - DIY System: ~10,000,000 IDR (estimated)
-- **Savings: 130,000,000 IDR (approximately 14-fold reduction)**
+- **Savings: ~137,000,000 IDR (approximately 14-fold reduction)**
 
 **Regulatory Workaround:**
 - Use external auto-switch behind the meter (UPS mode)
-- Avoids 12,000,000 IDR permit fee
+- Avoids PLN/SLO fee
 - No utility registration required
 
 ---
@@ -169,25 +168,21 @@ _Note: This budget is based on Option 1 (Full 6 kW Hybrid System) and will be up
 
 | Item | Amount (IDR) |
 |------|--------------|
-| Battery System | |
-| Solar Panels | |
-| Inverter & Controls | |
-| Permits & Registration | |
-| Installation & Labor | |
-| **GRAND TOTAL** | |
+| System Subtotal | 132,649,000 |
+| PPN (11%) | 14,591,390 |
+| **GRAND TOTAL** | **147,240,390** |
 
 ### ROI Calculation
 
 | Metric | Value |
 |--------|-------|
-| **Current Monthly Bill** | ________________ IDR |
-| **Expected Grid Reduction** | ________% |
-| **New Monthly Bill** | ________________ IDR |
-| **Monthly Savings** | ________________ IDR |
-| **ROI Period** | ________ months |
+| **Monthly Savings (Year 1)** | 1,572,500 IDR |
+| **Projected Break-even** | Year 3 (Accumulated Profit: ~3.4M IDR) |
+| **Baseline Rate** | 1,887 IDR/kWh (PLN B2) |
+| **Assumed Inflation** | 5% yearly price increase |
 
 
 ---
 
-- **Version:** 1.0  
-- **Last Updated:** March 2, 2026
+- **Version:** 2.0 (Updated from SmartTech Proposal)
+- **Last Updated:** March 4, 2026
