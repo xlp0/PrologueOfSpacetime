@@ -67,7 +67,7 @@ Instead of a human Dungeon Master, the game employs a **Large Language Model (LL
 
 Replacing traditional D&D ability scores—which typically measure a single hero's innate physical or mental traits (Strength, Dexterity, Intelligence, etc.)—characters in this scenario are defined by their **access to systems, networks, and infrastructure**. 
 
-The Four Pillars represent the **attributes of the party's technological ecosystem**. You don't "level up" your biological body; you level up your grid, your bandwidth, and your processing power.
+The core attributes represent the **ecosystem of the survivor party**. You don't "level up" your biological body; you level up your grid, your bandwidth, your capital, and your processing power.
 
 #### **Energy (ENE)** - *The Power Grid*
 - **Concept:** Electrical generation, battery storage, and fuel reserves.
@@ -76,18 +76,34 @@ The Four Pillars represent the **attributes of the party's technological ecosyst
 
 #### **Communication (COM)** - *The Network*
 - **Concept:** Bandwidth, network topology, routing protocols, and student connectivity.
-- **Game Mechanic:** Represents your ability to transmit data and connect disparate systems or survivor groups.
-- **Example:** COM 10 is a localized line-of-sight radio frequency. COM 18 represents restoring a robust local mesh network allowing coordinated, real-time action across vast distances.
+- **Game Mechanic:** Represents your ability to transmit data and connect disparate systems or survivor groups. **Crucially, the value provided by COM equipment fluctuates heavily based on physical location (elevation and terrain).**
+- **Location & Equipment Synergy:** Equipment requires the right location. Even high-tier radios suffer severe penalties in urban valleys (e.g., -3 COM in flooded Kuta) but gain massive multipliers at high elevations (e.g., +5 COM on Mount Agung).
+- **Example:** COM 10 is a localized line-of-sight radio frequency. COM 18 represents restoring a robust local mesh network from a high-altitude peak, allowing coordinated, real-time action.
 
 #### **Time (TIM)** - *The Optimization Engine*
 - **Concept:** Automation, algorithmic efficiency, and background processing.
 - **Game Mechanic:** Replaces "Initiative/Dexterity". High TIM means you have systems (scripts, IoT sensors, automated routines) doing the heavy lifting passively, buying the party more actual hours in the day.
 - **Example:** TIM 17 means automated drones or scripts handle daily monitoring and supply inventory, freeing the human operators to focus entirely on high-level survival strategy.
 
-#### **Technology / Computation (TEC)** - *Processing Power*
-- **Concept:** Hardware capability, AI execution, raw computational throughput, and data storage/archives.
-- **Game Mechanic:** Your capacity to run complex simulations, crunch variables, host LLMs, and preserve critical information.
-- **Example:** If you only have access to a random **Raspberry Pi** or isolated office PC, your computational attribute is weak (TEC 8). If you manage to establish a network connection to an **NVIDIA B200 supercomputer** with comprehensive data archives, your party's TEC instantly spikes to 20+, fundamentally altering your ability to solve complex problems and access preserved knowledge.
+#### **Hardware (HDW)** - *Processing Power & Scientific Instruments*
+- **Concept:** Physical computation devices, sensors, optics, and machinery.
+- **Game Mechanic:** Replaces the physical component of "Intelligence/Constitution". Your capacity to run local infrastructure, capture data, and observe the environment.
+- **Example:** If you only have access to a random **Raspberry Pi** or isolated office PC, your hardware attribute is weak (HDW 8). If you manage to establish a network connection to an **NVIDIA B200 supercomputer** or build a high-powered telescope array, your party's HDW instantly spikes to 20+, fundamentally altering your ability to crunch variables.
+
+#### **Software (SFW)** - *AI, Data Storage, & Archives*
+- **Concept:** LLMs, databases, cultural archives, blueprints, and digital preservation.
+- **Game Mechanic:** Replaces "Wisdom". Represents your ability to access survival guides, execute engineering simulations, navigate via local cultural secrets, or run complex AI agents.
+- **Example:** SFW 8 means you only have basic offline text files. SFW 18 means you have access to locally hosted, un-censored LLMs, full Wikipedia backups, geological surveys, and deep Balinese cultural archives.
+
+#### **Wealth / Resources (WEA)** - *The Economy (IDR)*
+- **Concept:** Tangible assets, currency (Rupiah), trade goods, and bartering leverage.
+- **Game Mechanic:** Replaces "Charisma". Represents your economic leverage to acquire necessary equipment, hire NPCs, or negotiate with hostile factions.
+- **Example:** WEA 8 means you rely on bare-minimum scavenging. WEA 18 means you hold millions of IDR or highly coveted trade items (medical supplies, clean water) to expedite survival infrastructure.
+
+#### **Materials (MAT)** - *Physical Building Blocks*
+- **Concept:** Physical resources, construction materials, raw components, and specialized parts (e.g., steel, wiring, 3D printer filament, concrete).
+- **Game Mechanic:** Replaces "Constitution". Represents the durability of your physical infrastructure and your capacity to craft, construct, or fortify structures against the rising tides.
+- **Example:** MAT 8 means you rely on scavenged scrap wood, duct tape, and rusted metal. MAT 18 means you have a secured stockpile of structural steel, marine-grade alloys, and industrial-grade composites.
 
 ### **3. Alignment with Spacetime Principles**
 
@@ -110,7 +126,7 @@ The game mechanics embody **Homotopy Type Theory (HoTT)** concepts:
 Like traditional D&D, the game uses **d20 rolls** to determine uncertain outcomes, but the modifiers apply to the *systems* you are leveraging rather than your physical muscles:
 
 1. **Roll 1d20** (twenty-sided die)
-2. **Add relevant system attribute modifier** (ENE, COM, KNO, TIM, or TEC)
+2. **Add relevant system attribute modifier** (ENE, COM, HDW, SFW, WEA, MAT, or TIM)
 3. **Add user proficiency bonus** (if the character is trained in operating that specific system)
 4. **Compare to Difficulty Class (DC)** set by the AI DM
 5. **Success if Total ≥ DC**
@@ -121,7 +137,7 @@ System attributes (1-20) convert to modifiers using the standard formula. The hi
 Modifier = (System Score - 10) ÷ 2 (rounded down)
 
 Examples:
-Connected to B200 (TEC 20) → +5 modifier
+Connected to B200 (HDW 20) → +5 modifier
 Local Mesh Network (COM 14) → +2 modifier
 Scavenged Batteries (ENE 8) → -1 modifier
 ```
@@ -135,9 +151,9 @@ This creates a highly satisfying **progression curve** where acquiring better te
 - **Late game:** With supercomputers and mesh networks online, you auto-succeed at almost all standard tasks, freeing you to focus on the massive existential threats of the rising waters.
 
 **Example:**
-- Running an advanced fluid-dynamics simulation requires TEC DC 16.
-- A party relying on a standard laptop (TEC 10, +0 modifier) must roll d20 and get 16+ to succeed.
-- A party hooked into the B200 Supercomputer (TEC 20, +5 modifier) mathematically exceeds the DC 16 with their base score alone—the simulation completes instantly and flawlessly.
+- Running an advanced fluid-dynamics simulation requires SFW DC 16.
+- A party relying on a standard laptop (SFW 10, +0 modifier) must roll d20 and get 16+ to succeed.
+- A party hosting a localized AI research model connected to a B200 (SFW 20, +5 modifier) mathematically exceeds the DC 16 with their base score alone—the simulation completes instantly and flawlessly.
 
 ### **World Map: The Island of Bali (Realistic Geography)**
 
@@ -171,7 +187,7 @@ Players must travel **step-by-step** through connected locations. You cannot tel
 - **Resources Available:**
   - **Energy (ENE):** Scavenged car batteries, solar panels from hotels
   - **Communication (COM):** Tourist wifi routers, mobile phone towers
-  - **Technology (TEC):** Abandoned laptops, basic electronics from shops
+  - **Hardware (HDW):** Abandoned laptops, basic electronics/sensors from shops
 - **Key Locations:** Ngurah Rai Airport (tech salvage), beach resorts (power systems)
 - **Challenges:** Panicked crowds, looting, limited time before submersion
 - **Travel Time to Next Zone:** 2-3 hours to Sanur/Denpasar
@@ -180,7 +196,8 @@ Players must travel **step-by-step** through connected locations. You cannot tel
 - **Elevation:** 5-15m
 - **Risk Level:** HIGH - Floods Day 3-6
 - **Resources Available:**
-  - **Technology (TEC):** Office buildings with servers, data centers, government archives, university libraries
+  - **Hardware (HDW):** Office buildings with servers, data centers
+  - **Software (SFW):** Government archives, university libraries
   - **Communication (COM):** Major telecom infrastructure, radio stations
   - **Energy (ENE):** Urban power infrastructure, backup generators
 - **Key Locations:** Bali Government Center, Udayana University, hospitals, Bali Museum
@@ -192,7 +209,7 @@ Players must travel **step-by-step** through connected locations. You cannot tel
 - **Elevation:** 200-600m
 - **Risk Level:** MODERATE - Safe until Day 15
 - **Resources Available:**
-  - **Technology (TEC):** Ancient manuscripts, traditional wisdom, agricultural data archives
+  - **Software (SFW):** Ancient manuscripts, traditional wisdom, agricultural data archives
   - **Communication (COM):** Artist communities, cultural networks
   - **Energy (ENE):** Rice terrace irrigation systems (hydroelectric potential)
 - **Key Locations:** Ubud Palace, Monkey Forest, Tegallalang Rice Terraces, traditional markets
@@ -205,7 +222,7 @@ Players must travel **step-by-step** through connected locations. You cannot tel
 - **Risk Level:** LOW - Safe until Day 25
 - **Resources Available:**
   - **Energy (ENE):** Geothermal power from Mount Batur
-  - **Technology (TEC):** Volcanic monitoring equipment, seismic sensors
+  - **Hardware (HDW):** Volcanic monitoring equipment, seismic sensors
   - **Time (TIM):** High-altitude observation posts for early warning systems
 - **Key Locations:** Mount Batur crater, Lake Batur, geothermal plants
 - **Challenges:** Volcanic activity, harsh weather, limited food
@@ -215,10 +232,11 @@ Players must travel **step-by-step** through connected locations. You cannot tel
 - **Elevation:** 1,200-1,500m
 - **Risk Level:** MINIMAL - Safe indefinitely (above tsunami range)
 - **Resources Available:**
-  - **ALL FOUR PILLARS:** Ideal location for building comprehensive infrastructure
+  - **ALL SIX PILLARS:** Ideal location for building comprehensive infrastructure
   - **Energy (ENE):** Lake Bratan hydroelectric potential, highland winds
   - **Communication (COM):** Mountain peaks for broadcast towers
-  - **Technology (TEC):** Cool climate ideal for server farms, botanical gardens, agricultural research stations
+  - **Hardware (HDW):** Cool climate ideal for server farms and botanical research stations
+  - **Software (SFW):** Safe zone for building the master agricultural database
   - **Time (TIM):** Strategic position for coordinating island-wide operations
 - **Key Locations:** Lake Bratan, Ulun Danu Beratan Temple, Botanical Gardens, mountain lakes
 - **Endgame Objective:** Build the "very powerful boat" here using accumulated resources
@@ -229,7 +247,8 @@ Players must travel **step-by-step** through connected locations. You cannot tel
 - **Risk Level:** MODERATE - Floods Day 10-15
 - **Resources Available:**
   - **Energy (ENE):** Rice mill machinery, irrigation turbines
-  - **Technology (TEC):** Agricultural data, food preservation systems
+  - **Software (SFW):** Agricultural data, crop cycle algorithms
+  - **Hardware (HDW):** Food preservation systems
 - **Key Locations:** Jatiluwih Rice Terraces (UNESCO site), traditional villages
 - **Challenges:** Protecting food supplies, managing agricultural refugees
 - **Travel Time:** 1 hour to Bedugul (mountain route)
@@ -238,7 +257,7 @@ Players must travel **step-by-step** through connected locations. You cannot tel
 - **Elevation:** 100-800m
 - **Risk Level:** MODERATE - Safe until Day 18
 - **Resources Available:**
-  - **Technology (TEC):** Craft workshops, metalworking, traditional engineering
+  - **Hardware (HDW):** Craft workshops, metalworking, traditional engineering
   - **Communication (COM):** Eastern trade routes, merchant networks
 - **Key Locations:** Tirta Empul (sacred spring), craft villages, elephant sanctuary
 - **Travel Time:** 1.5 hours to Kintamani or Ubud
@@ -269,9 +288,9 @@ Players **cannot teleport**. Movement between locations consumes **time** and **
 | Tabanan → Bedugul | 20 km | 1 hour | 2 ENE | Mountain ascent |
 
 **Movement Requirements:**
-- **Vehicle/Transport:** Requires functional vehicle (TEC check to maintain)
+- **Vehicle/Transport:** Requires functional vehicle (HDW check to maintain)
 - **Fuel/Energy:** Each journey consumes ENE points
-- **Route Knowledge:** KNO check to find optimal paths
+- **Route Knowledge:** SFW check to find optimal paths (or leverage KNO/SFW databases)
 - **Group Coordination:** COM check to keep party together
 
 **Random Encounter Rolls:** Each journey triggers d20 roll for encounters:
@@ -284,16 +303,17 @@ Players **cannot teleport**. Movement between locations consumes **time** and **
 
 ### **Resource Locations & The Four Pillars (Decentralization Mechanic)**
 
-Because disasters can strike specific locations, **players must decentralize their infrastructure**. If you build all your servers in Ubud and a landslide destroys it, your entire TEC attribute is wiped out.
+Because disasters can strike specific locations, **players must decentralize their infrastructure**. If you build all your servers in Ubud and a landslide destroys it, your entire HDW/SFW attribute is wiped out.
 
 **Strategic Distribution:**
 - **Energy (ENE) Hubs:** Kintamani (geothermal), Bedugul (hydro), Tabanan (agricultural)
-- **Technology (TEC) Hubs:** Denpasar (data centers + archives), Gianyar (workshops), Bedugul (server farms + research), Ubud (cultural data)
+- **Hardware (HDW) Hubs:** Denpasar (data centers), Gianyar (workshops), Bedugul (server farms)
+- **Software (SFW) Hubs:** Ubud (cultural data), Denpasar (government archives), Bedugul (research)
 - **Communication (COM) Hubs:** Mount Agung (broadcast), Bedugul (relay), Kintamani (observation)
 - **Time (TIM) Hubs:** Bedugul (coordination), Kintamani (early warning), Ubud (logistics)
 
 **The Core Gameplay Loop:**
-1. **Identify Need:** The sanctuary is low on TEC processing power. If the party loses connection to an offline server, their processing power drops.
+1. **Identify Need:** The sanctuary is low on HDW processing power. If the party loses connection to an offline server, their processing power drops.
 2. **Expedition Planning:** The party allocates TIME to travel to a specific node (e.g., the Silicon Hub).
 3. **Resolution:** The AI DM runs the encounter (hazard navigation, hardware extraction).
 4. **Extraction & Progression:** The party returns with specific physical components (e.g., 2GB RAM modules, SSDs, soldering irons, 3D printers) to build or repair localized infrastructure.
@@ -302,9 +322,9 @@ Because disasters can strike specific locations, **players must decentralize the
 |----------------------|----------------------------|------------|
 | Micro-Hydro Generator | Heavy Industry Node | +2 ENE |
 | Mesh Network Node | Broadcast Peaks Node | +2 COM |
-| Restored Datacenter | Archives Node | +2 KNO |
+| Restored Datacenter | Archives Node | +2 SFW |
 | Automated Logistics AI | Automated Bunker Node | +2 TIM |
-| B200 Supercomputer | Silicon Hub Node | +5 TEC |
+| B200 Supercomputer | Silicon Hub Node | +5 HDW |
 
 ### **Event Deck & Random Disasters (The Timeline)**
 The 30 days are not a rigid, predictable script. Instead of knowing exactly when a blackout or storm will hit, the AI DM uses a randomized **Event Deck** (similar to drawing Chance or Community Chest cards in Monopoly).
@@ -326,10 +346,10 @@ The game uses **Indonesian Rupiah (IDR)** as the primary currency, reflecting re
 - **Party pool (shared):** 20,000,000 IDR (~$1,280 USD)
 
 #### **Earning Currency**
-- **Scavenging:** Find IDR in abandoned buildings, safes, ATMs (KNO check)
-- **Trading:** Sell excess resources to NPCs (COM check for better prices)
+- **Scavenging:** Find IDR in abandoned buildings, safes, ATMs (SFW check to bypass security)
+- **Trading:** Sell excess resources to NPCs (WEA/COM check for better prices)
 - **Completing Quests:** AI DM rewards for helping survivor communities
-- **Crafting & Selling:** Build items and sell to other survivors (TEC check)
+- **Crafting & Selling:** Build items and sell to other survivors (HDW check)
 
 ---
 
@@ -350,14 +370,16 @@ Players can purchase equipment that **permanently increases** their four Pillar 
 
 #### **Communication (COM) Equipment**
 
-| Equipment | IDR Cost | COM Boost | Description |
-|-----------|----------|-----------|-------------|
-| Walkie-Talkie Set (2 units) | 500,000 | +1 COM | 5km range |
-| CB Radio | 2,000,000 | +2 COM | 20km range |
-| Satellite Phone | 15,000,000 | +4 COM | Global communication |
-| Radio Transmitter Tower | 30,000,000 | +5 COM | Island-wide broadcast |
-| Mesh Network Node | 40,000,000 | +6 COM | Decentralized network |
-| Satellite Uplink Station | 150,000,000 | +10 COM | Space communication |
+*Note: The COM bonus provided by terrestrial equipment is dynamic. Flat terrain or dense urban ruins (e.g., Kuta, Denpasar) reduce the effective COM of towers by up to half, whereas highlands (Bedugul, Mt. Agung) can double the effective range and COM bonus.*
+
+| Equipment | IDR Cost | Base COM Boost | Description |
+|-----------|----------|----------------|-------------|
+| Walkie-Talkie Set (2 units) | 500,000 | +1 COM | 5km range (Line-of-sight required) |
+| CB Radio | 2,000,000 | +2 COM | 20km range (Penetrates some terrain) |
+| Satellite Phone | 15,000,000 | +4 COM | Global communication (Ignores elevation modifiers) |
+| Radio Transmitter Tower | 30,000,000 | +5 COM | Requires high ground for max effect |
+| Mesh Network Node | 40,000,000 | +6 COM | Decentralized; synergizes with other nodes |
+| Satellite Uplink Station | 150,000,000 | +10 COM | Space communication (Ignores elevation modifiers) |
 
 #### **Time (TIM) Equipment**
 
@@ -370,27 +392,40 @@ Players can purchase equipment that **permanently increases** their four Pillar 
 | AI Logistics System | 100,000,000 | +8 TIM | Optimized scheduling |
 | Quantum Clock Network | 250,000,000 | +10 TIM | Perfect synchronization |
 
-#### **Technology (TEC) Equipment**
+#### **Hardware (HDW) Equipment**
 
-| Equipment | IDR Cost | TEC Boost | Description |
+| Equipment | IDR Cost | HDW Boost | Description |
 |-----------|----------|-----------|-------------|
-| Raspberry Pi | 1,000,000 | +1 TEC | Basic computing |
-| Laptop + Encyclopedia | 8,000,000 | +2 TEC | General processing + digital library |
-| Gaming PC + Medical Data | 25,000,000 | +4 TEC | High-performance + healthcare archives |
-| Server Rack with Archives | 60,000,000 | +6 TEC | Data center + preserved knowledge |
-| GPU Cluster + Research Lab | 150,000,000 | +8 TEC | AI/ML processing + scientific facility |
-| NVIDIA B200 + AI Knowledge | 500,000,000 | +15 TEC | Ultimate processing + LLM research (endgame) |
+| Raspberry Pi | 1,000,000 | +1 HDW | Basic computing |
+| Soldering Station & Multimeter | 2,500,000 | +2 HDW | Hardware repair and circuitry fabrication |
+| Laptop + Encyclopedia | 8,000,000 | +2 HDW | General processing + digital library |
+| 3D Printer (FDM/Resin) | 15,000,000 | +4 HDW | Craft custom replacement parts and components |
+| Gaming PC + Medical Data | 25,000,000 | +4 HDW | High-performance + healthcare archives |
+| Server Rack | 60,000,000 | +6 HDW | Data center foundation |
+| GPU Cluster | 150,000,000 | +8 HDW | High-end processing power |
+| NVIDIA B200 | 500,000,000 | +15 HDW | Ultimate processing power (endgame) |
+
+#### **Software (SFW) & Scientific Data Hubs**
+
+| Equipment / Asset | IDR Cost | SFW Boost | Description |
+|-----------|----------|-----------|-------------|
+| Topographical Maps | 500,000 | +1 SFW | Navigation and high-ground pathfinding |
+| Compound Microscope | 5,000,000 | +2 SFW | Analyze water contamination and medical samples |
+| High-Powered Telescope | 8,000,000 | +3 SFW | Long-range observation, weather tracking, and early warning |
+| Balinese Cultural Archives | 12,000,000 | +5 SFW | Deep societal understanding and ritual knowledge |
+| Offline Wikipedia Backup (SSD) | 20,000,000 | +8 SFW | General preserved human knowledge |
+| Offline Uncensored LLM Model | 100,000,000 | +15 SFW | High-speed AI assistance for engineering and survival logic |
 
 #### **Boat Construction Materials (Endgame Goal)**
 
 | Component | IDR Cost | Required Stats | Description |
 |-----------|----------|----------------|-------------|
-| Hull Materials (Steel) | 100,000,000 | TEC 15, ENE 12 | Basic boat structure |
-| Marine Engine | 80,000,000 | TEC 14, ENE 14 | Propulsion system |
-| Navigation System | 40,000,000 | TEC 16, COM 14 | GPS, radar, sonar |
-| Water Purification | 50,000,000 | TEC 15, TIM 13 | Desalination system |
-| Food Storage (1 year) | 60,000,000 | TEC 12, TIM 12 | Preservation systems |
-| Solar Sail Array | 70,000,000 | ENE 16, TEC 14 | Renewable propulsion |
+| Hull Materials (Steel) | 100,000,000 | MAT 15, ENE 12 | Basic boat structure |
+| Marine Engine | 80,000,000 | HDW 14, ENE 14 | Propulsion system |
+| Navigation System | 40,000,000 | SFW 16, COM 14 | GPS, radar, sonar |
+| Water Purification | 50,000,000 | HDW 15, TIM 13 | Desalination system |
+| Food Storage (1 year) | 60,000,000 | SFW 12, TIM 12 | Preservation systems |
+| Solar Sail Array | 70,000,000 | ENE 16, MAT 14 | Renewable propulsion |
 | **TOTAL BOAT COST** | **400,000,000** | **All stats 15+** | **"Very Powerful Boat"** |
 
 ---
@@ -403,7 +438,7 @@ In authentic Bali culture, **speaking Balinese language** creates trust and redu
 
 Players can learn Balinese phrases through:
 - **Interacting with locals** (COM checks)
-- **Studying at Ubud cultural centers** (KNO checks + time investment)
+- **Studying at Ubud cultural centers** (SFW checks + time investment)
 - **Hiring Balinese language tutor NPC** (costs 2,000,000 IDR, grants +2 COM with locals)
 
 **Proficiency Tiers:**
@@ -466,16 +501,16 @@ Players can spend IDR to hire roaming survivor NPCs:
 | NPC Type | Cost (IDR/day) | Skills | Benefits |
 |----------|----------------|--------|----------|
 | Laborer | 500,000 | Basic tasks | Gathering, carrying |
-| Technician | 2,000,000 | TEC 12 | Repairs, building |
+| Technician | 2,000,000 | HDW 12 | Repairs, hardware building |
 | Translator | 1,500,000 | Fluent Balinese | Cultural access, discounts |
 | Security Guard | 1,000,000 | Combat | Protection from bandits |
 | Farmer | 800,000 | Food production | Sustainable food supply |
-| Engineer | 5,000,000 | TEC 16 | Advanced construction |
+| Software Engineer | 5,000,000 | SFW 16 | Advanced logic scripting |
 
 #### **Research & Efficiency**
-Players can spend Time (TIM) and Technology (TEC) to research better methods:
-- **Successful research** (DC 18 TEC check + 10 days) permanently lowers equipment costs by 15%
-- **Advanced research** (DC 22 TEC check + 20 days) unlocks new crafting recipes
+Players can spend Time (TIM) and Software (SFW) to research better methods:
+- **Successful research** (DC 18 SFW check + 10 days) permanently lowers equipment costs by 15%
+- **Advanced research** (DC 22 HDW check + 20 days) unlocks new physical crafting recipes
 
 #### **Specific Item Crafting**
 Players do not just "buy everything"—they can craft items from components:
@@ -486,11 +521,11 @@ Players do not just "buy everything"—they can craft items from components:
   - 8GB RAM (purchase for 2,000,000 IDR or scavenge)
   - Power Supply (requires ENE 10 to sustain)
   - Cooling System (purchase for 1,500,000 IDR)
-- **Crafting:** TEC DC 15 check + 3 days
-- **Result:** +3 TEC attribute boost
+- **Crafting:** HDW DC 15 check + 3 days
+- **Result:** +3 HDW attribute boost
 - **Cost Savings:** 10,000,000 IDR vs. buying pre-built server for 20,000,000 IDR
 
-The AI DM enforces these bare-minimum item requirements. You cannot simply roll high on TEC to make a supercomputer appear; you must have the specific physical components in your inventory and the IDR to purchase missing parts.
+The AI DM enforces these bare-minimum item requirements. You cannot simply roll high on HDW to make a supercomputer appear; you must have the specific physical components in your inventory and the IDR to purchase missing parts.
 
 ---
 
@@ -503,8 +538,8 @@ The **God of Time** manifests as the game's ultimate constraint, divided into di
 - **Day 7 – The Global Blackout:** The last organized satellite and internet infrastructures collapse. Radio silence falls over Bali, testing the party's **Communication (COM)** networks.
 
 ### **Phase 2: Highland Migration and Consolidation (Day 11-20)**
-- **Day 12 – The Data Center Siege:** A powerful rival faction attempts to hoard or destroy crucial data centers in Denpasar. The party must intervene to protect the pillar of **Technology (TEC)**.
-- **Day 18 – The Grid Death:** Regional power plants finally succumb to the waters. The party must have secured independent power generation via **Technology (TEC)** and **Energy (ENE)**, or face total darkness.
+- **Day 12 – The Data Center Siege:** A powerful rival faction attempts to hoard or destroy crucial data centers in Denpasar. The party must intervene to protect the pillars of **Hardware (HDW)** and **Software (SFW)**.
+- **Day 18 – The Grid Death:** Regional power plants finally succumb to the waters. The party must have secured independent power generation via **Hardware (HDW)** and **Energy (ENE)**, or face total darkness.
 
 ### **Phase 3: Crisis Escalation (Day 21-27)**
 - **Day 22 – The Faction Wars:** As dry land becomes exponentially scarce, desperate survivor groups violently clash for Bedugul and Kintamani. The party must use **Communication (COM)** and tactical strategy to navigate or avoid the conflict.
@@ -521,7 +556,7 @@ At the end of the game, the AI DM tallies the party's final status across their 
 
 - **Tier 1: Scavenger Survival (Barely Alive):** The party is alive on a leaky raft with a few weeks of food, scavenged batteries, and no data. They survived the Deluge, but face a bleak, uncertain future.
 - **Tier 2: The Sustainable Outpost (Settler):** The party has a stable floating sanctuary, renewable micro-hydro power, and a functioning radio matrix. They can survive indefinitely (for the next 10-20 years) but cannot meaningfully advance or rebuild civilization.
-- **Tier 3: The New Light (Architect):** The sanctuary is a technological marvel. It is powered by supercomputers with comprehensive archives (TEC 20+), automated by advanced drone logistics (TIM 18+), sustainably powered (ENE 18+), and connected via robust networks (COM 16+). They are not merely survivors; they are the founding fathers of the next civilization.
+- **Tier 3: The New Light (Architect):** The sanctuary is a technological marvel. It is powered by supercomputers with comprehensive HDW arrays (HDW 20+), automated by advanced drone logistics (TIM 18+), sustainably powered (ENE 18+), running un-censored LLMs and archives (SFW 18+) and connected via robust networks (COM 16+). They are not merely survivors; they are the founding fathers of the next civilization.
 
 Alternatively, elite players log their runs for **"Speedrunning" or "Efficiency"**—attempting to achieve Architect Tier sustainability using the minimal amount of resources or in the fewest possible days, creating a highly replayable challenge.
 
@@ -566,9 +601,9 @@ This game serves as a **pedagogical tool** for teaching:
 - **Astrobiology (Life in Spacetime):** Survival as the ultimate goal
 
 ### **Agentic Trinitarianism**
-- **Miner:** Resource gathering (ENE, TEC)
-- **Coder:** System building (TEC, TIM)
-- **Trader:** Negotiation and exchange (COM, TIM)
+- **Miner:** Resource gathering (ENE, HDW, MAT)
+- **Coder:** System building (SFW, TIM)
+- **Trader:** Negotiation and exchange (COM, WEA)
 
 Players naturally embody these roles through their stat distributions.
 
