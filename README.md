@@ -186,6 +186,7 @@ This repository serves as a specialized **Project Workspace** for the **Prologue
 *   **[`Brain_Factory_Implementation_Case_Study.md`](chapters/Brain_Factory_Implementation_Case_Study.md)**: Real-world validation (CLM: `Exp`).
 *   **[`Strategic_Validation_Reverse_Mathematics_of_the_Brain_Factory.md`](chapters/Strategic_Validation_Reverse_Mathematics_of_the_Brain_Factory.md)**: Proof-theoretic validation of the Brain Factory strategy (CLM: `Exp`).
 *   **[`Cubical Logic Model — Monadic Patterns and Consensus.md`](docs/Cubical%20Logic%20Model%20—%20Monadic%20Patterns%20and%20Consensus.md)**: The formal definition of the CLM.
+*   **[`Board Games as Pedagogical Engines`](docs/gameboard/Board_Games_as_Pedagogical_Engines.md)**: Authenticated board games (Monopoly, Chess, Go) as microcosms for teaching the Trivium × Quadrivium framework through play (CLM: `Spec + Impl + Exp`).
 
 ---
 

@@ -8,6 +8,18 @@ In **Chapter 06**, we connected the Swarm. But connection is not enough. We need
 *   **The Observer**: The entity that collapses the wave function. In the CLM, the dashboard is the **Balanced Expectations** dimension made visible—the real-time witness that compares Abstract Specification (expected metrics) against Concrete Implementation (actual telemetry).
 *   **The Dashboard**: The interface that allows us to see the "Health" of the system. Grafana operationalizes **SSOT as Protocol**: truth is not stored in the dashboard—it is *derived* by following a verification procedure (query → visualize → compare → decide).
 
+### The Game State as Observable Truth
+
+Board games teach us that **observation is verification**. The board is the **single source of truth**.
+
+This is the same principle behind dashboard and gameboard:
+- **Chess Board**: Shows the current position of all pieces (game state)
+- **Grafana Dashboard**: Shows the current metrics of all nodes (system state)
+
+In both cases, **truth is immediate and verifiable**. You don't need to trust someone's report of the board position—you can see it yourself. You don't need to trust a node's claim that it's healthy—you can observe its metrics.
+
+The dashboard is the **board** for your distributed system. Every metric is a piece, every graph is a move history, every alert is a check warning.
+
 ## 2. Technical Implementation: Grafana
 We use **Grafana** to visualize the time-series data coming from our ESP32 nodes (via Prometheus or InfluxDB).
 

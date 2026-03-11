@@ -67,6 +67,10 @@ The curriculum follows the **ABC** Structure, mapped to the classical Trivium:
 
 > **Implementation Order (Reverse Trivium):** Rhetoric First (Why) → Logic Second (How) → Grammar Last (What). Motivation precedes abstraction.
 
+### 4.1.1 Board Games as Pedagogical Microcosms
+
+Each game session is **authenticated**, **logged** (append-only move history), and **verifiable** (state reconstruction). Games embody the Reverse Trivium: motivation through competition (Rhetoric), pattern discovery through play (Logic), formal study after experience (Grammar).
+
 ### 4.2 The "Revived Quadrivium" Matrix
 *   **Arithmetic:** Naming Systems, Type Theory, Zero Trust as Arithmetic Foundation.
 *   **Geometry:** Spatial Analysis, Topology, HoTT (Types as Spaces).

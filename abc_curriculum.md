@@ -103,6 +103,12 @@ The curriculum is gamified through a **Zero Trust** architecture where learning 
 *   **Policy Enforcement Points (PEPs):** Access to physical lab equipment (e.g., Drones, 3D Printers) requires verified credentials (e.g., "Safety Badge").
 *   **MCard Verification:** All achievements are stored as **MCards** (Monadic Containers) in a **Personal Knowledge Container (PKC)**, creating a portable, tamper-proof portfolio.
 
+### 6.2 Board Games as Pedagogical Laboratories
+
+The PKC ecosystem includes **authenticated board games** (Monopoly, Chess, etc.) that serve as pedagogical engines for the curriculum. These are not mere entertainment—they are **microcosms** where abstract concepts become concrete experiences.
+
+Each game session is **recorded** (player identities established), **logged** (move history), and **verifiable** (game state reconstruction). The games embody the **Reverse Trivium**: players are motivated by competition (Rhetoric), discover patterns through play (Logic), and only then study formal theory (Grammar).
+
 ### 6.1 The Retail Lab Scenario
 The physical implementation is a **Convenience Store / Retail Lab**:
 *   **Sensors (Kinects/Mics):** Feed data into the "Geometry" and "Music" curriculum modules.

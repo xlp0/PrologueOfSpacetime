@@ -12,6 +12,19 @@ The process of "Thinking" in an LLM is a three-step cycle:
 
 > *Tokens are the "Currency of LLMs" representing the numeric values that models actually process.*
 
+### The Monopoly Analogy: Money as Token
+
+In **Monopoly**, money is the fundamental token of the game economy. Just as LLMs process text by converting it to tokens, Monopoly processes economic decisions by converting them to dollar amounts.
+
+Every action has a **token cost**:
+- **Buying property**: Spend tokens to acquire assets
+- **Paying rent**: Transfer tokens between players
+- **Building houses**: Invest tokens to increase future token generation
+
+The game teaches **token budgeting**: players with limited cash must decide how to allocate their tokens across competing needs. Spend too much on properties and you can't afford rent. Hoard too much cash and you miss investment opportunities.
+
+This is identical to LLM token management: you have a fixed context window (token budget), and you must decide how to allocate it between prompt, context, and output. Exceed your budget and the system fails.
+
 ## 2. Tokenizer Variance
 
 Not all drops of water are the same size. Similarly, not all tokenizers use the same vocabulary.

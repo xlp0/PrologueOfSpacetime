@@ -13,6 +13,20 @@ In the Prologue of Spacetime, **Tokens** are the fundamental atoms of meaning.
 *   **Kenosis (Stewardship)**: To allocate is to flow. Hoarding resources ($c_k \to \infty$) creates a singularity; distributing them creates life.
 *   **The Token**: Just as the "Drop" is the unit of water, the "Token" is the unit of thought-energy.
 
+### The Game of Allocation: Monopoly as Microcosm
+
+Resource allocation is not an abstract concept—it is the core mechanic of **Monopoly**, the PKC board game that operationalizes this chapter's principles. In Monopoly, players face the fundamental allocation problem: how to distribute limited money across competing demands (property purchases, house construction, cash reserves).
+
+Every decision in Monopoly is a **token allocation**:
+- **Buying properties**: Converting liquid capital into productive assets
+- **Building houses**: Investing tokens to increase rent extraction (compound growth)
+- **Paying rent**: Experiencing the cost of poor allocation decisions
+- **Managing bankruptcy**: Witnessing the consequence when tokens reach zero
+
+The game demonstrates that allocation is not static—it is **dynamic flow**. Money circulates through the economy. Players who hoard cash without investing fall behind. Players who overextend without reserves go bankrupt. The optimal strategy requires **balancing** immediate needs with long-term growth.
+
+This is the same challenge faced in LLM token budgets, memory allocation, and energy distribution. The board game makes the abstract concrete.
+
 ### 2. Project: Kinetic Node (Phase 2)
 We apply resource allocation to **Physical Energy**.
 *   **[IoT Motor Control](iot_motor_control.md)**: Allocating voltage to motors to animate the Ch 02 Frame.
