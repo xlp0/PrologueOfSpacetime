@@ -1,7 +1,7 @@
 # Dungeons & Dragons: Prologue of Spacetime Edition
 > *"Everything is a function, and it's all about functions in this game.*
-> *Every time we make a decision, we are making a function and generating an MVP Card."*
-
+> *Every time we make a decision, we are making a function and generating an MVP Card.*
+> *In the Prologue of Spacetime (PoF) edition, survival ultimately comes down to economic optimization—reducing systemic costs and mastering the flow of resources."*
 ## A Philosophical RPG Framework for the End Times
 
 This document outlines a **customized role-playing game (RPG)** that transcends traditional board games by integrating **Dungeons & Dragons mechanics** with the **Prologue of Spacetime** philosophical framework and **The Four Dining Philosophers** cosmology.
