@@ -44,7 +44,7 @@ By merging the 3 IP cameras (900k IDR) with the central spinning LiDAR (1.75 mil
 ### Updated Shopping List
 1.  3x **Standard IP Cameras** (~300k IDR each)
 2.  1x **[RPLidar A1M8 360-degree Laser Scanner (12m range)](https://www.tokopedia.com/eandc-electronics/rplidar-a1m8-r6-360-degree-laser-scanner-kit-12m-range-lidar-dfrobot?extParam=ivf%3Dfalse%26keyword%3Dlidar+scanner%26search_id%3D2026031014111494F6D7E04A4D453C4VX0%26src%3Dsearch)** (~1.75m IDR)
-3.  1x **Raspberry Pi (Host Processing Unit)** (For YOLO, LiDAR fusion, and Epipolar geometry math)
+3.  1x **Raspberry Pi 5 (8GB, 1.4GHz, WiFi)** (Host Processing Unit for YOLO, LiDAR fusion, and Epipolar geometry math)
 4.  Standard networking/power cables for the camera placements.
 
 ---
