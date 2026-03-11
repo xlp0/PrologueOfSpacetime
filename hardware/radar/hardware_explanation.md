@@ -31,8 +31,8 @@ By merging the 3 IP cameras (900k IDR) with the central spinning LiDAR (1.75 mil
 ## 3. How the Sensor Fusion Works
 
 1.  **LiDAR Mapping:** The central LiDAR spins continuously, updating a 2D topographical map of the room multiple times a second. It extracts the X/Z coordinates of all legs/objects on the floor plan.
-2.  **Vision Tracking:** The three IP cameras stream video to the host computer. A model like YOLOv11 processes the streams to identify shoppers and draw bounding boxes.
-3.  **Synthesis:** The host machine synchronizes the LiDAR point cloud with the Trinocular vision feeds. When YOLO identifies a person in the camera feed, the system cross-references the LiDAR's sweeping angle at that exact millisecond to assign definitive spatial coordinates.
+2.  **Vision Tracking:** The three IP cameras stream video to the host Raspberry Pi. A model like YOLOv11 processes the streams to identify shoppers and draw bounding boxes.
+3.  **Synthesis (Epipolar Geometry):** The system uses **Epipolar Geometry** as the core mathematical foundation to cross-reference the 2D visual perspectives from the multiple cameras. The Raspberry Pi synchronizes this epipolar visual data with the LiDAR's 2D floor-plan mapping arrays at the exact millisecond to synthesize precise 3D spatial coordinates.
 
 ---
 
@@ -44,7 +44,7 @@ By merging the 3 IP cameras (900k IDR) with the central spinning LiDAR (1.75 mil
 ### Updated Shopping List
 1.  3x **Standard IP Cameras** (~300k IDR each)
 2.  1x **[RPLidar A1M8 360-degree Laser Scanner (12m range)](https://www.tokopedia.com/eandc-electronics/rplidar-a1m8-r6-360-degree-laser-scanner-kit-12m-range-lidar-dfrobot?extParam=ivf%3Dfalse%26keyword%3Dlidar+scanner%26search_id%3D2026031014111494F6D7E04A4D453C4VX0%26src%3Dsearch)** (~1.75m IDR)
-3.  1x **Host Processing Unit** (Existing PC / Mac for YOLO + LiDAR fusion)
+3.  1x **Raspberry Pi (Host Processing Unit)** (For YOLO, LiDAR fusion, and Epipolar geometry math)
 4.  Standard networking/power cables for the camera placements.
 
 ---
