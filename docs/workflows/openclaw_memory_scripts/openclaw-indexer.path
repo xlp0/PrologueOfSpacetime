@@ -1,0 +1,10 @@
+[Unit]
+Description=Watch OpenClaw documents folder for changes
+
+[Path]
+# REPLACE YOUR_USERNAME with the proper user
+PathModified=/home/YOUR_USERNAME/.openclaw/documents
+Unit=openclaw-indexer.service
+
+[Install]
+WantedBy=multi-user.target

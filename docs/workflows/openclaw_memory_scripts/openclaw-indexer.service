@@ -1,0 +1,14 @@
+[Unit]
+Description=OpenClaw Document Indexer Service
+After=network.target
+
+[Service]
+Type=oneshot
+# REPLACE YOUR_USERNAME with the actual server user
+User=YOUR_USERNAME
+# REPLACE /path/to with the actual path to the cloned repository scripts
+WorkingDirectory=/path/to/PrologueOfSpacetime/docs/workflows/openclaw_memory_scripts
+ExecStart=/usr/local/bin/uv run doc_search.py --index
+
+[Install]
+WantedBy=multi-user.target

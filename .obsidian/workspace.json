@@ -34,9 +34,20 @@
               "icon": "lucide-file",
               "title": "abc_curriculum"
             }
+          },
+          {
+            "id": "d67f2e2a22c8697a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,8 +209,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "453ed8a102cdd415",
+  "active": "fc9cb18c6a09252a",
   "lastOpenFiles": [
+    "docs/The Five Dining Philosophers.md",
+    "docs/Residential_Power_Setup_Budget.md",
+    "docs/workflows/openclaw_memory_scripts/openclaw-indexer.path",
+    "docs/workflows/openclaw_memory_scripts/openclaw-indexer.service",
+    "docs/workflows/openclaw_memory_scripts/skill_document_search.json",
+    "docs/workflows/openclaw_memory_scripts/doc_search.py",
+    "docs/workflows/openclaw_memory_scripts",
+    "docs/workflows/openclaw_local_memory_setup.md",
+    "docs/workflows/inventory_management.md",
+    "docs/duwei_workshop_plan.md",
+    "docs/hott_ssot_reference.md",
+    "hardware/turbine/turbine_stand.stl",
     "hardware/turbine/turbine_stand.scad",
     "README.md",
     "docs/game_design/story_chapters_overview.md",
@@ -208,14 +231,7 @@
     "hardware/drone",
     "hardware/turbine/turbine_generator.scad",
     "hardware/telescope/README.md",
-    "hardware/telescope/telescope_assembly.scad",
-    "hardware/telescope",
     "hardware/turbine/README.md",
-    "hardware/turbine/turbine_basic.scad",
-    "hardware/turbine",
-    "hardware/vr_lenses/middle_layer.stl",
-    "hardware/vr_lenses/middle_layer.scad",
-    "hardware/vr_lenses/lens_holder.stl",
     "hardware/vr_lenses/README.md",
     "docs/game_design/blindsight_integration.md",
     "docs/BBS_Activities/Session 7, 8, 9 Team Development Guide.md",
@@ -230,11 +246,6 @@
     "chapters/12_Calendar_Coordination/digital_sundial.md",
     "hardware/oscilloscope/README.md",
     "docs/presentation_plan.md",
-    "docs/todos/TODO_2026_02_16.md",
-    "docs/TODO_2026_02_16.md",
-    "demos/slide7_grafana_heartbeat.md",
-    "docs/visuals/clm_problem_model.md",
-    "venv/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
-    "venv/lib/python3.14/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md"
+    "docs/todos/TODO_2026_02_16.md"
   ]
 }
