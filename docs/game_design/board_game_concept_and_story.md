@@ -33,6 +33,8 @@ Traditional board games like Monopoly are **deterministic, zero-sum, and philoso
 - **Collaborative survival** over competitive accumulation
 - **Philosophical depth** grounded in spacetime principles
 - **Educational transformation** through immersive storytelling
+- **Functional Reality:** Every decision is a function; every outcome generates an MVP Card representing the new state of reality.
+- **Economic Optimization:** Survival is the ultimate act of reducing systemic costs and mastering the flow of resources.
 
 ---
 
@@ -46,6 +48,7 @@ Players must **survive** by:
 1. **Finding or creating a sanctuary** (high ground)
 2. **Building a "very powerful boat"** capable of sustaining life indefinitely
 3. **Preserving the Four Pillars** of civilization (Energy, Communication, Time, Technology)
+4. **Mastering Economic Optimization** to reduce the cost of survival and build highly efficient systems
 
 ### **Alternative Scenarios**
 - **Zombie Apocalypse Variant:** Undead hordes replace rising waters; players must scavenge, escape, and fortify
@@ -62,6 +65,7 @@ Instead of a human Dungeon Master, the game employs a **Large Language Model (LL
 - **Contextual Narration:** Reads scenarios aloud with dramatic flair
 - **Adaptive Difficulty:** Adjusts challenges based on party composition and progress
 - **Philosophical Integration:** Weaves spacetime principles into every encounter
+- **Function Evaluation:** The AI DM interprets every player decision as a "Function" and outputs the results as an "MVP Card" (a tangible record of the new reality state)
 - **Multi-modal Interaction:** Combines text, voice, and visual elements (optional)
 
 **Technical Implementation:** The AI DM operates as a **Single Source of Truth (SSOT) Protocol**, maintaining narrative consistency while allowing emergent gameplay.
@@ -126,13 +130,14 @@ The game mechanics embody **Homotopy Type Theory (HoTT)** concepts:
 ## **Gameplay Mechanics: The d20 Protocol**
 
 ### **Core Resolution System**
-Like traditional D&D, the game uses **d20 rolls** to determine uncertain outcomes, but the modifiers apply to the *systems* you are leveraging rather than your physical muscles:
+Like traditional D&D, the game uses **d20 rolls** to determine uncertain outcomes, but the process is framed as executing a mathematical function:
 
-1. **Roll 1d20** (twenty-sided die)
-2. **Add relevant system attribute modifier** (ENE, COM, HDW, SFW, WEA, MAT, or TIM)
-3. **Add user proficiency bonus** (if the character is trained in operating that specific system)
-4. **Compare to Difficulty Class (DC)** set by the AI DM
-5. **Success if Total ≥ DC**
+1. **Declare a Function:** The player states their intended action or decision.
+2. **Roll 1d20** (twenty-sided die) to introduce quantum probability.
+3. **Add relevant system attribute modifier** (ENE, COM, HDW, SFW, WEA, MAT, or TIM)
+4. **Add user proficiency bonus** (if the character is trained in operating that specific system)
+5. **Compare to Difficulty Class (DC)** set by the AI DM
+6. **Generate MVP Card:** The AI DM resolves the function and generates an MVP Card documenting success, failure, and the new state of reality.
 
 ### **Attribute Modifiers**
 System attributes (1-20) convert to modifiers using the standard formula. The higher the score, the more robust that aspect of your power system is:
@@ -340,19 +345,19 @@ Every 2-3 days (or when players trigger certain conditions), an Event Card is dr
 
 Players must foresee these possibilities and prepare (e.g., building redundant backup servers at multiple different locations so a localized earthquake doesn't end their game).
 
-### **Currency System: Rupiah (IDR) - The Bali Economy**
+### **Currency System: Rupiah (IDR) - Economic Optimization in Action**
 
-The game uses **Indonesian Rupiah (IDR)** as the primary currency, reflecting real-world Bali economics. Players start with limited funds and must earn, trade, or scavenge to acquire equipment.
+The game uses **Indonesian Rupiah (IDR)** as the primary currency. In the PoF edition, **economic optimization** is the key to survival. Players must constantly seek ways to reduce the systemic cost of living and infrastructure building.
 
 #### **Starting Currency**
 - **Each player starts with:** 5,000,000 IDR (~$320 USD)
 - **Party pool (shared):** 20,000,000 IDR (~$1,280 USD)
 
-#### **Earning Currency**
+#### **Earning Currency & Reducing Costs**
 - **Scavenging:** Find IDR in abandoned buildings, safes, ATMs (SFW check to bypass security)
-- **Trading:** Sell excess resources to NPCs (WEA/COM check for better prices)
-- **Completing Quests:** AI DM rewards for helping survivor communities
-- **Crafting & Selling:** Build items and sell to other survivors (HDW check)
+- **Trading:** Master the flow of resources by selling excess to NPCs (WEA/COM check for better prices)
+- **Completing Quests:** AI DM generates MVP Cards with IDR rewards for helping survivor communities
+- **Economic Optimization (Crafting):** Build items from raw components instead of buying them retail, drastically lowering systemic costs (HDW check).
 
 ---
 
@@ -553,15 +558,15 @@ The **God of Time** manifests as the game's ultimate constraint, divided into di
 - **Day 30 – The Zenith Tide:** The final, island-swallowing wave. Only those with a completed sanctuary and mastery of the Four Pillars survive the transition into the new flooded epoch.
 
 ### **Endgame Success Conditions (Measuring the Post-Deluge Epoch)**
-In traditional D&D, success is defined by killing the final "boss monster." In this framework, **the true goal is not just surviving Day 30, but measuring *how* the party survived and the quality of the future they secured.** 
+In traditional D&D, success is defined by killing the final "boss monster." In this framework, **the true goal is not just surviving Day 30, but measuring *how* the party survived and the economic efficiency of the future they secured.** 
 
-At the end of the game, the AI DM tallies the party's final status across their Four Pillars—their power grid, food reserves, computation layer, and accumulated knowledge—to generate their final "Epoch Rating."
+At the end of the game, the AI DM tallies the party's final status across their Four Pillars—their power grid, food reserves, computation layer, and accumulated knowledge—to generate their ultimate **MVP Card**, finalizing their "Epoch Rating."
 
 - **Tier 1: Scavenger Survival (Barely Alive):** The party is alive on a leaky raft with a few weeks of food, scavenged batteries, and no data. They survived the Deluge, but face a bleak, uncertain future.
 - **Tier 2: The Sustainable Outpost (Settler):** The party has a stable floating sanctuary, renewable micro-hydro power, and a functioning radio matrix. They can survive indefinitely (for the next 10-20 years) but cannot meaningfully advance or rebuild civilization.
-- **Tier 3: The New Light (Architect):** The sanctuary is a technological marvel. It is powered by supercomputers with comprehensive HDW arrays (HDW 20+), automated by advanced drone logistics (TIM 18+), sustainably powered (ENE 18+), running un-censored LLMs and archives (SFW 18+) and connected via robust networks (COM 16+). They are not merely survivors; they are the founding fathers of the next civilization.
+- **Tier 3: The New Light (Architect):** The sanctuary is a technological marvel. It is powered by supercomputers with comprehensive HDW arrays (HDW 20+), automated by advanced drone logistics (TIM 18+), sustainably powered (ENE 18+), running un-censored LLMs and archives (SFW 18+) and connected via robust networks (COM 16+). They are not merely survivors; they change the paradigm of survival through total economic optimization, driving systemic costs to near-zero. 
 
-Alternatively, elite players log their runs for **"Speedrunning" or "Efficiency"**—attempting to achieve Architect Tier sustainability using the minimal amount of resources or in the fewest possible days, creating a highly replayable challenge.
+Alternatively, elite players log their runs for **"Speedrunning" or "Economic Optimization"**—attempting to achieve Architect Tier sustainability using the absolute minimal amount of IDR and resources, creating a highly replayable challenge.
 
 ### **Time Management Mechanics:**
 - Each action consumes **time units** (hours or days)
