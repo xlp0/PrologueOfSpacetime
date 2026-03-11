@@ -17,7 +17,7 @@ Instead of relying on heavy compute for RGB-D arrays, we will utilize three sepa
 *   **Hardware:** 3x IP Cameras.
 *   **Cost:** ~300k IDR each (Total: 900k IDR).
 
-### B. 2D LiDAR + 3D Spin Motor (Spatial Mapping & Distance)
+### B. 2D LiDAR + Spin Motor = 3D LiDAR (Spatial Mapping & Distance)
 To solve the Z-axis distance problem that the Kinect typically handles, we will deploy a single, centrally located 2D LiDAR mounted on an auxiliary motor to achieve full 3D scanning.
 *   **Purpose:** Achieving the ability to scan the whole room simultaneously. The LiDAR itself spins 360 degrees in 2D, and an auxiliary motor will articulate it across the remaining axis to construct a flawless 3D architectural point cloud, pinpointing exactly where dynamic obstacles (shoppers) are standing up to a 12-meter range.
 *   **Hardware:** 1x 2D LiDAR (12-meter range) + 1x Auxiliary Motor (Servo/Stepper for 3D articulation).
