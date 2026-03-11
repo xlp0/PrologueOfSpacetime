@@ -20,8 +20,8 @@ Instead of relying on heavy compute for RGB-D arrays, we will utilize three sepa
 ### B. 2D LiDAR + Spin Motor = 3D LiDAR (Spatial Mapping & Distance)
 To solve the Z-axis distance problem that the Kinect typically handles, we will deploy a single, centrally located 2D LiDAR mounted on an auxiliary motor to achieve full 3D scanning.
 *   **Purpose:** Achieving the ability to scan the whole room simultaneously. The LiDAR itself spins 360 degrees in 2D, and an auxiliary motor will articulate it across the remaining axis to construct a flawless 3D architectural point cloud, pinpointing exactly where dynamic obstacles (shoppers) are standing up to a 12-meter range.
-*   **Hardware:** 1x 2D LiDAR (12-meter range) + 1x Auxiliary Motor (Servo/Stepper for 3D articulation).
-*   **Cost:** ~1.75 million IDR (LiDAR) + ~150k IDR (Motor) = **~1.9 million IDR**.
+*   **Hardware:** 1x 2D LiDAR (12-meter range) + 1x Stepper Motor (with Slip Ring for continuous 360-degree 3D articulation without wire tangling).
+*   **Cost:** ~1.75 million IDR (LiDAR) + ~150k IDR (Stepper Motor & Slip Ring) = **~1.9 million IDR**.
 
 ### Sensor Fusion Total Cost
 By merging the 3 IP cameras (900k IDR) with the centrally articulating 3D LiDAR setup (1.9 million IDR), **the total hardware cost drops drastically to just 2.8 million IDR** for full, uncompromised room tracking, compared to the 8.8 million IDR Kinect setup.
@@ -44,7 +44,7 @@ By merging the 3 IP cameras (900k IDR) with the centrally articulating 3D LiDAR 
 ### Updated Shopping List
 1.  3x **Standard IP Cameras** (~300k IDR each)
 2.  1x **[RPLidar A1M8 360-degree Laser Scanner (12m range)](https://www.tokopedia.com/eandc-electronics/rplidar-a1m8-r6-360-degree-laser-scanner-kit-12m-range-lidar-dfrobot?extParam=ivf%3Dfalse%26keyword%3Dlidar+scanner%26search_id%3D2026031014111494F6D7E04A4D453C4VX0%26src%3Dsearch)** (~1.75m IDR)
-3.  1x **Auxiliary Motor (Servo/Stepper)** (~150k IDR) (To articulate the 2D LiDAR for full 3D scanning)
+3.  1x **Stepper Motor with Slip Ring** (~150k IDR) (To continuously articulate the 2D LiDAR for full 360x360 3D scanning without snapping cables)
 4.  1x **Raspberry Pi 5 (8GB, 1.4GHz, WiFi)** (Host Processing Unit for YOLO, LiDAR fusion, and Epipolar geometry math)
 5.  Standard networking/power cables for the camera placements.
 
