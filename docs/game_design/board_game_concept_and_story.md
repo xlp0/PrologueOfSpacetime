@@ -23,7 +23,7 @@ The countdown has begun. You have 30 days.
 
 ---
 
-## **Core Philosophy: From Monopoly to Meaning**
+## **Core Philosophy:**
 
 Traditional board games like Monopoly are **deterministic, zero-sum, and philosophically hollow**. This D&D variant moves toward:
 - **Narrative emergence** over rigid rules
