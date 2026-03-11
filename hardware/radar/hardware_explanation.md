@@ -47,8 +47,15 @@ By merging the 3 IP cameras (900k IDR) with the central spinning LiDAR (1.75 mil
 3.  1x **Host Processing Unit** (Existing PC / Mac for YOLO + LiDAR fusion)
 4.  Standard networking/power cables for the camera placements.
 
-### Implementation Timeline
-1.  **Week 1:** Procure the LiDAR and IP Cameras (via Duwi). Mount the LiDAR in the center of the room and read the raw 360-degree distance array into Python.
-2.  **Week 2:** Mount the 3 IP cameras. Calibrate the camera angles to the LiDAR's coordinate space.
-3.  **Week 3:** Synchronize the YOLO RGB streams with the 2D LiDAR array to synthesize exact Shopper Analytics coordinates.
-ok now we need a motor 
+---
+
+## 5. References & Technical Context
+
+### The Catalyst for the Pivot
+This custom multi-camera and LiDAR sensor fusion architecture was heavily influenced by the fundamental constraint that Apple Silicon (M3/M4) Macs cannot natively run the open-source `libfreenect2` drivers required to extract Kinect v2 depth video. The USB driver segmentation faults on modern macOS, combined with the 4.5m physical limitation of the Kinect's Time-of-Flight sensor, forced the strategic shift to lightweight IP cameras and standard robotic LiDARs.
+
+### Inspiration & Open Source Mocap
+A primary reference and inspiration for achieving accurate spatial tracking across a wide area without traditional Kinect arrays is the **Open Source Motion Capture for Autonomous Drones** framework.
+*   **Reference Video:** [Open Source Motion Capture for Autonomous Drones](https://www.youtube.com/watch?v=0ql20JKrscQ&t=212s)
+
+In the referenced video, the creator successfully executes motion location capture across a room using an array of **four inexpensive PS3 Eye cameras**. This drone mocap philosophy—using distributed external cameras to identify a target and cross-referencing spatial positioning—perfectly mirrors our Trinocular IP Camera + central LiDAR approach for tracking human shoppers.
