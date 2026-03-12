@@ -223,84 +223,96 @@ $$
 * **Coefficients ($c_k$)**: The **MCard** (Position/Weight). The specific "content" or intensity.
 * **Boundedness**: We respect the **Region of Convergence (ROC)**. Resources ($c_k$) act as the **Laplace Damping** factor. If you cannot afford the verification cost, the truth is "Undefined."
 
-### 3. Thermodynamic Verification and Information Density
+### 3. Organizational Structure: Modularity and Compositionality
+
+The abstract polynomials and topological geometries described above are not merely mathematical curiosities; they are deeply pragmatic tools for **Organizational Design**. They provide the structural vocabulary needed to build self-governing networks, directly mirroring the organizational theories pioneered by **Prof. Carliss Baldwin** in *Design Rules: The Power of Modularity*.
+
+Baldwin demonstrates that monolithic complexity creates organizational gridlock. True value and scalability ("option value") are unlocked when a system is structurally defined by independent modules separated by well-understood "thin crossing points."
+
+We map this structural insight directly onto our mathematics:
+*   **Decomposition (Modularity)**: We use the *Universal Grammar of Decomposition* to rigorously break apart complex semantic arguments into isolated, distinct vectors (e.g., separating the Abstract Spec from the Physical Impl). This creates independent modules that can evolve autonomously.
+*   **Compositionality (Composition)**: We use HoTT (Homotopy Type Theory) and the CLM to mathematically "wire" these independent modules back together. By treating paths as proofs of equality (or alignment), we provide the exact structural construction mechanism needed to safely reassemble the pieces.
+
+This dual force—**Modularity** to divide and conquer complexity, and **Compositionality** to synthesize meaning—is the fundamental construction mechanism that transforms abstract governance rules into a representable, constructible living system.
+
+### 4. Thermodynamic Verification and Information Density
 
 * **The E-SNR-Entropy Framework**: The system evaluates interactions using the thermodynamic equation: $I_{\text{density}} = \rho_E \times \text{SNR} \times e^{-\alpha H}$. To maximize Useful Information ($I_{\text{density}}$), we must optimize Energy ($\rho_E$) and Signal-to-Noise ($\text{SNR}$) while violently minimizing Entropy ($H$, complexity/assumption load).
 * **Security is not Free**: By **Landauer's Principle**, every bit of information erasure (verification/filtering) has a minimum thermodynamic cost ($k_B T \ln 2$).
 * **The Gatekeeper**: The system's **VCard** acts as the specification for **Maxwell's Demon**, defining the **Kernel** (what is annihilated/denied).
 * **Zero Trust**: This is operationally defined as **Maximizing Nullity** by default—assuming everything belongs in the Kernel (Denied) until proven otherwise.
 
-### 4. Representability Enables Observability
+### 5. Representability Enables Observability
 
 * Because the system is **Representable** (via the **Yoneda Lemma**), identifying truth through relationships, it is inherently **Observable**.
 * **Telemetry** is the "Accounting Ledger" of these relationships.
 
-### 5. Monad-Polynomial Duality
+### 6. Monad-Polynomial Duality
 
 * **Invariant Container (Monad)**: The Runtime (PTR) that enforces Safety and Context.
 * **Variant Content (Polynomial)**: The MVP Cards that hold Data and Logic.
 * This duality ensures **Systematic Compression**, allowing us to represent infinite complexity compactly within finite resources.
 
-### 6. Content-Addressable Handles
+### 7. Content-Addressable Handles
 
 * Every asset has a **unique identifier**.
 * The fallback is always the **SHA-3 Content Hash**.
 * This guarantees **Experimental-Operational Symmetry (EOS)**.
 
-### 7. Sovereign Operational Networks (SON)
+### 8. Sovereign Operational Networks (SON)
 
 * The story demonstrates that true sovereignty comes from owning the **decision-making intelligence** (The "Maxwell's Demon").
 * The CLM ensures that this intelligence is **verifiable** via Conscientious Accounting.
 
-### 8. Digital Synesthesia
+### 9. Digital Synesthesia
 *   The CLM enables **Digital Synesthesia**—mapping abstract data (`Spec`) into sensory experience (`Exp`).
 *   Students "feel" the correctness of a system via the **Rhythm of Convergence**.
 *   **SAM 3D Integration**: Extends synesthesia to the visual-spatial domain by converting 2D images into 3D models, demonstrating the morphism chain: `Image (2D Space) → SAM 3D → Mesh (3D Space) → Printer → Physical Object`. This compositional pipeline shows how each transformation preserves essential properties while adding dimensionality.
 
-### 9. Agentic Trinitarianism: Miner-Coder-Trader
+### 10. Agentic Trinitarianism: Miner-Coder-Trader
 *   The curriculum's value creation follows the **Miner-Coder-Trader Triad**, rooted in **Computational Trinitarianism** (Robert Harper) and the **Curry-Howard-Lambek Isomorphism**.
 *   **Miner** (Grammar/MCard): Value Seeking—establishes trust, validates data integrity.
 *   **Coder** (Logic/PCard): Value Seeing—transforms abstract specs into executable artifacts.
 *   **Trader** (Rhetoric/VCard): Value Delivery—connects creators with consumers, facilitates exchange.
 *   This modular interaction follows Carliss Baldwin's framework: Module Design → Module Implementation → Module Integration.
 
-### 10. The Pentadic Threshold: Why Five Matters
+### 11. The Pentadic Threshold: Why Five Matters
 *   The number **five** marks the edge of decomposability—the minimal complexity where coordination becomes necessary.
 *   Three independent domains converge: **Wuxing (Five Phases)** (Wood, Fire, Earth, Metal, Water), **Five ML Tribes** (Symbolists, Connectionists, Evolutionaries, Bayesians, Analogizers), and the **Big Five of Reverse Mathematics** ($RCA_0, WKL_0, ACA_0, ATR_0, \Pi^1_1\text{-}CA_0$).
 *   The 3x4 grid describes **what** is taught (Topics). The Wuxing layer describes **how** learning flows (Dynamics).
 *   Each chapter carries a **Logical Depth Badge** indicating which axiom system governs its concepts.
 *   $12 \times 5 = 60 = |A_5|$—the order of the smallest non-abelian simple group. At full pentadic depth, the Prologue reaches the threshold of irreducible complexity.
 
-### 11. Social Governance via Space/Time Boundaries
+### 12. Social Governance via Space/Time Boundaries
 *   **Lessig's Four Modalities** (Law, Norms, Market, Architecture) decompose along the Quadrivium's axes: **Near/Far (Space)** and **Before/After (Time)**.
 *   This means the Prologue does not merely *teach* Space and Time as physical concepts—it provides the **same formal axes** needed to reason about social regulation and governance.
 *   Complete governance = **Chronomorphism** (temporal: Architecture + Norms) × **Toposmorphism** (spatial: Law + Market).
 *   See the full framework in [Structure and Vision §5.5](chapters/00_Structure_and_Vision.md).
 
-### 12. Development Status & Updates
+### 13. Development Status & Updates
 *   **[2026-02-11: Flow State Engineering](docs/Update_History/2026-02-11_Flow_State_Engineering.md)**: Major update integrating **Faster Interactive Learning** into the core architecture. We defined "Operational Flow" for all 12 MVP Chapters, establishing that **Local-first** (Low Latency) and **Empty Schema** (Low Rigidity) are the necessary physics for the Brain Factory.
 *   **[2026-02-07: The Thermodynamic Synthesis](docs/WorkingNotes_Content_Summary_2026-02-07.md)**: Integration of Maxwell's Demon, Kenosis, and Landauer's Principle into the verification architecture.
 *   **[2026-02-06: The Polynomial Architecture Update](docs/Update_History/2026-02-06_Polynomial_Architecture.md)**: A major refactor integrating Boundedness, Laplace Damping, and Economic Accounting into the core MVP logic.
 *   **[2026-01-26: Initial Release](docs/Update_History/2026-01-26_Initial_Release.md)**: The launch of the Prologue of Spacetime vision.
 
-### 13. Flow State Engineering
+### 14. Flow State Engineering
 *   **The Operational Goal**: **[[Hub/Theory/Integration/Flow in PKC - Faster Interactive Learning|Flow in PKC - Faster Interactive Learning]]** is the necessary condition for the "Brain Factory" to function.
 *   **Physics of Flow**: We remove the two primary inhibitors of deep work:
-    *   **Temporal Friction (Latency)**: Solved by the **Local-first Principle** (Zero-Latency Interaction).
-    *   **Structural Friction (Rigidity)**: Solved by the **Empty Schema Principle** (Emergent Structure).
+*   **Temporal Friction (Latency)**: Solved by the **Local-first Principle** (Zero-Latency Interaction).
+*   **Structural Friction (Rigidity)**: Solved by the **Empty Schema Principle** (Emergent Structure).
 *   **Result**: The PKC becomes a transparent extension of the **Mind's Eye**, allowing the "Hypothesis-Verification Loop" to spin at the speed of thought.
 
-### 14. Attaining Correctness: The Hoare Logic of CLM
+### 15. Attaining Correctness: The Hoare Logic of CLM
 *   **The Challenge**: In a decentralized system, "Absolute Truth" is elusive. We aim for **[[Hub/Theory/Logic/Correctness|Approximate Correctness]]** that converges over time.
 *   **Operationalizing Hoare Logic**: Every interaction is treated as a **Hoare Triple** $\{P\} C \{Q\}$, operationalized by the CLM:
-    *   **Pre-condition ($P$) -> Spec**: The Abstract Specification defines the *intent* and required state before action.
-    *   **Command ($C$) -> Impl**: The Concrete Implementation performs the *action* or transformation.
-    *   **Post-condition ($Q$) -> Exp**: The Balanced Expectation verifies the *result* against the Spec.
+*   **Pre-condition ($P$) -> Spec**: The Abstract Specification defines the *intent* and required state before action.
+*   **Command ($C$) -> Impl**: The Concrete Implementation performs the *action* or transformation.
+*   **Post-condition ($Q$) -> Exp**: The Balanced Expectation verifies the *result* against the Spec.
 *   **Eventual Consistency**: By rigorously applying this pattern to every step, the CLM acts as the **Functional Medium for Continuation**. Even if individual steps have noise, the continuous application of $\{Spec\} Impl \{Exp\}$ guides the system toward a guaranteed **Fixed Point** of Truth.
 
 ---
 
-### 15. Execution Mechanics: The Monadic Loop
+### 16. Execution Mechanics: The Monadic Loop
 
 How do we actually operationalize this 24/7? We use a **Recursive Monadic Loop** executed by our AI Agents (The Five Wise Guys). This ensures that every update is verified before it hits the Main Branch.
 
