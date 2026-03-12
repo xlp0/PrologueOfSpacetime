@@ -32,7 +32,28 @@ To build our **Kinetic Node**, we must first print the exoskeleton.
 *   **Task**: Print the `kinetic_node_frame.stl`.
 *   **Constraint**: Use 20% infill for strength/weight balance.
 
-## 4. Game Board as Topological Practice
+## 4. Image to 3D Conversion: SAM 3D
+
+Before we can print physical objects, we often need to convert 2D images into 3D models. **SAM 3D** (Segment Anything Model for 3D) enables this transformation:
+
+**The Conversion Pipeline:**
+*   **Input**: 2D image (photograph, drawing, concept art)
+*   **Process**: SAM 3D segments and reconstructs depth information
+*   **Output**: 3D mesh (STL/OBJ file) ready for printing
+
+**Use Cases:**
+1. **Character Art → Miniature**: Convert character portrait into printable miniature
+2. **Terrain Photo → Dungeon Tile**: Transform real-world textures into game terrain
+3. **Sketch → Prototype**: Rapid iteration from hand-drawn concept to physical test
+
+**The Morphism Chain:**
+```
+Image (2D Space) → SAM 3D → Mesh (3D Space) → Slicer → G-code → Printer → Physical Object
+```
+
+This demonstrates the **compositional nature** of fabrication—each stage is a morphism that must preserve essential properties while adding dimensionality.
+
+## 5. Game Board as Topological Practice
 
 **Project: Print Your Own Game Pieces**
 
@@ -42,15 +63,20 @@ The D&D ecosystem provides immediate, motivating applications for 3D printing sk
 *   **Concept**: Product Types Made Physical
 *   **Task**: Generate and print a custom miniature representing your character (Race × Class × Equipment)
 *   **Pipeline**: 
-    1. Describe character → LLM generates STL
-    2. Slice with appropriate supports
-    3. Print at 0.1mm layer height for detail
-    4. Paint (optional) to distinguish features
+    1. **Option A**: Describe character → LLM generates STL
+    2. **Option B**: Character image → SAM 3D → 3D mesh
+    3. Slice with appropriate supports
+    4. Print at 0.1mm layer height for detail
+    5. Paint (optional) to distinguish features
 *   **Lesson**: The character sheet (abstract type) becomes a physical object (concrete term). This is **reification**—the morphism from specification to implementation.
 
 ### Modular Dungeon Tiles
 *   **Concept**: Universal Properties in Physical Form
 *   **Task**: Print a set of interlocking corridor and room tiles
+*   **Pipeline Options**:
+    - **Parametric**: Design tiles in CAD with precise dimensions
+    - **Image-based**: Use SAM 3D to convert dungeon map sketches or terrain photos into 3D tiles
+    - **Hybrid**: SAM 3D for texture/detail, CAD for structural connections
 *   **Topology Lesson**: 
     - **Coproduct**: Each tile type (straight, corner, T-junction, room) is a choice
     - **Product**: Tiles combine via connection points (male/female joints)
