@@ -51,7 +51,15 @@ The **Prologue of Spacetime** is an integrated hardware/software curriculum desi
 
 ### 3.2 Fabrication Software
 *   **Non-Planar Slicing:** Software to generate G-code that follows object geometry (curved layers) for strength.
-*   **SAM 3D Integration:** AI-powered 3D reconstruction from 2D images (OBJ, GLB, PLY formats) for rapid model creation and prototyping workflows.
+*   **SAM 3D Integration:** AI-powered 3D reconstruction from 2D images for rapid prototyping:
+    *   **Input Formats:** JPEG, PNG, WebP (2D photographs, sketches, concept art)
+    *   **Output Formats:** STL, OBJ, GLB, PLY (3D meshes ready for slicing)
+    *   **Use Cases:** 
+        - Character portraits → Game miniatures
+        - Terrain photos → Dungeon tiles
+        - Hand sketches → Rapid physical prototypes
+    *   **Pipeline:** Image → SAM 3D segmentation/reconstruction → 3D mesh → Slicer → G-code → Printer → Physical object
+    *   **Pedagogical Value:** Demonstrates compositional morphisms—each stage preserves essential properties while transforming dimensionality
 
 ### 3.3 Communication
 *   **Push Notifications:** VAPID implementation for real-time browser updates.

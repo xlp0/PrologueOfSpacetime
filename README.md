@@ -233,6 +233,7 @@ $$ f = \sum_k c_k \cdot \phi_k $$
 ### 8. Digital Synesthesia
 *   The CLM enables **Digital Synesthesia**—mapping abstract data (`Spec`) into sensory experience (`Exp`).
 *   Students "feel" the correctness of a system via the **Rhythm of Convergence**.
+*   **SAM 3D Integration**: Extends synesthesia to the visual-spatial domain by converting 2D images into 3D models, demonstrating the morphism chain: `Image (2D Space) → SAM 3D → Mesh (3D Space) → Printer → Physical Object`. This compositional pipeline shows how each transformation preserves essential properties while adding dimensionality.
 
 ### 9. Agentic Trinitarianism: Miner-Coder-Trader
 *   The curriculum's value creation follows the **Miner-Coder-Trader Triad**, rooted in **Computational Trinitarianism** (Robert Harper) and the **Curry-Howard-Lambek Isomorphism**.
