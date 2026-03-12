@@ -47,3 +47,24 @@ The system is optimized for the "Happy Path" (Common English, JavaScript).
 *   **Common Data**: "const a = 5;" is highly compressed.
 *   **Rare Data**: Lewis Carroll's "frabjous" or Haskell code is split into many small fragments because the tokenizer has no dedicated pre-built token for them.
 *   **Result**: Rare languages are literally "more expensive" to speak in terms of compute and cash. This is the **Region of Convergence** made economic: languages outside the tokenizer's ROC require more energy per unit of meaning, creating a structural bias in the intelligence economy that the Prologue's emphasis on **Arithmetic as foundation** aims to address.
+
+## 5. D&D and Monopoly: Token Economics as Arithmetic
+
+Both **D&D** and **Monopoly** demonstrate token mechanics as **polynomial composition**:
+
+Each component is a **token type** with different liquidity and value generation:
+- **Cash**: Liquid, immediate use, no compound growth
+- **Properties**: Illiquid, generates rent (passive income)
+- **Houses/Hotels**: Investment tokens that multiply rent extraction
+
+**D&D Spell Slots:**
+$$\text{MagicPower} = \sum_{level=1}^{9} \text{SlotCount}_{level} \cdot \text{SpellLevel}_{level}$$
+
+Each slot level is a **token type** with different power and scarcity:
+- **Low-level slots**: Abundant, weak effects, frequent use
+- **High-level slots**: Scarce, powerful effects, strategic use
+
+**The Arithmetic Lesson:**
+Both systems teach that **tokens are not fungible**—a $500 bill in Monopoly is not the same as a property worth $500, just as a 1st-level spell slot is not equivalent to 1/9th of a 9th-level slot. The **composition matters**.
+
+**Universal Reasoning:** Token mechanics demonstrate that **allocation is arithmetic composition**. Understanding how to combine and transform tokens (cash → property, spell slot → effect, prompt tokens → response tokens) is the foundation of economic reasoning in any system.

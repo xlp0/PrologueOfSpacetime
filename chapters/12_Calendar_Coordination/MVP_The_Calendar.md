@@ -54,4 +54,17 @@ How does **The Calendar** sustain **[[Hub/Theory/Integration/Flow in PKC - Faste
 *   **Fluid Consensus (Local-first)**: We eliminate "Blocker Meetings" (High Latency). Agents push their updates asynchronously, and the Calendar "Merges" them via **Vector Alignment**. Consensus happens in the background, allowing humans to focus on the work, not the scheduling of the work.
 *   **Rolling Wave Planning (Empty Schema)**: The Roadmap is not a fossilized Gantt Chart. It is a living, breathing document. We plan the immediate cycle in high fidelity and leave the distant future as "Low-Res Rhetoric," allowing the strategy to adapt to new information without bureaucratic rewrite.
 
+## 6. Scheduling as Vector Alignment
+
+Session scheduling demonstrates consensus through phase synchronization:
+
+**The Coordination Problem:**
+Finding a time when all participants can meet requires aligning multiple independent calendars:
+
+**Pre-Established Harmony:**
+Instead of endless negotiation, the group aligns with a **cosmic clock**:
+- "We play every Saturday at 7pm" (fixed ritual)
+- Everyone adjusts their personal schedule to match
+- **Low entropy**: One decision, infinite sessions
+
 > **"He who holds the Calendar holds the Mind. Sovereignty is the ability to align your Energy Expenditure with the Universal Clock."**

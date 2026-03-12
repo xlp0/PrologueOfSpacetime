@@ -54,4 +54,20 @@ How does **The Topology** sustain **[[Hub/Theory/Integration/Flow in PKC - Faste
 *   **Zero-Config Mesh (Empty Schema)**: We remove the rigidity of "Network Administration." Nodes join the topology instantly via "Magic Links" or QR Codes. The network self-heals and self-configures, converting "IT Ops" into "Plug and Play."
 *   **Local-First Gravity**: The Topology inherently minimizes "Time of Flight." Data gravitates to the Edge (Local LAN), ensuring that high-bandwidth collaborations (Video, VR) remain **Latencyless** and **Cost-Free**, regardless of the global internet status.
 
+## 6. Adventuring Party as Mesh Network
+
+Party dynamics demonstrate mesh topology as distributed trust:
+
+**Sheaf Theory in Practice:**
+Each character has **local knowledge** (what they can see/know). The party's **global truth** emerges from gluing these local perspectives:
+- Fighter sees enemies ahead
+- Rogue hears footsteps behind
+- Wizard detects magic aura
+- **Gluing condition**: Perspectives agree on overlaps (same room, same time)
+
+**Mesh Properties:**
+- **Redundancy**: If one character falls, others adapt
+- **Self-healing**: Party reorganizes formation automatically
+- **Decentralized**: No single point of failure (even if leader dies)
+
 > **"A Sovereign Nation must own its wires. The Topology is the physical manifestation of the Energy Budget."**

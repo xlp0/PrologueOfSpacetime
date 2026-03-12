@@ -54,4 +54,10 @@ How does **The Historian** sustain **[[Hub/Theory/Integration/Flow in PKC - Fast
 *   **Instant Replay (Local-first)**: Because the entire Event Log is local, "Time Travel" (Undo/Redo) is instantaneous (**<10ms**). The user can "Scrub" through history to see exactly where a bug was introduced, turning debugging into a fluid investigation.
 *   **Branching Reality (Empty Schema)**: Time is not a rigid line. The user can spawn "Parallel Universes" (Local Branches) to test hazardous ideas without fear of breaking the main timeline. This encourages "Counterfactual Play" (What if I delete this?).
 
+## 6. Session Replay as Causal Analysis
+
+D&D **post-session analysis** demonstrates causal reasoning through event logs:
+
+This is the same as Git history—every commit (event) builds on the previous state to create the current reality.
+
 > **"To debug is to exercise power over time. The Sovereign remembers what matters and forgets what is noise."**

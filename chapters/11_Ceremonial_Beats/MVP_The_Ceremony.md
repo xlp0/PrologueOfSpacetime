@@ -54,4 +54,19 @@ How does **The Ceremony** sustain **[[Hub/Theory/Integration/Flow in PKC - Faste
 *   **Invisible Rituals (Zero Friction)**: We automate the "Bureaucracy" (Linting, Formatting, Syncing) into background hooks. The user adheres to the Protocol without conscious effort. The "Ceremony" becomes as natural as breathing.
 *   **Instant Pipelines (Local-first)**: We move the "Build Loop" to the Local Device. Instead of waiting 10 minutes for a cloud CI runner, the user gets feedback in **<1s**. The "Ritual of Verification" spans the gap between thought and confirmation instantly.
 
+## 6. Game Board with Finite State
+
+D&D game board **combat structure** demonstrates ceremony as protocol:
+
+**The State Machine:**
+```
+Init (Roll Initiative) → Ready (Highest goes first)
+  ↓
+Active (Character's Turn)
+  ↓ (Move → Action → Bonus Action → End Turn)
+Next Character → Active
+  ↓ (All characters acted?)
+Round Complete → Next Round (or Done)
+```
+
 > **"Discipline is freedom. The Protocol liberates the mind from the energy cost of deciding 'What next?'"**
