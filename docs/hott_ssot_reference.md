@@ -111,4 +111,4 @@ The three ADTs directly map to the MCard database architecture:
 
 - **Sum Type** → Handle Registry: stores pointers, managing mutable identity (`Pointer + Pointer`)
 - **Product Type** → Handle History: tracks causal time and audit trails (`State × Time`)
-- **Exponent Type** → The Card: stores immutable content (`Content^Hash`) — the archetypal representable functor grounding the system in reality.
+- **Exponent Type** → The Card: stores immutable content (`Content^Hash`) — the archetypal representable functor grounding the system in reality. This implements a **hash-valued namespace** enabling **computable directionality**. By leveraging ubiquitous mobile computing power, this structural directionality provides localized decision-making and mathematical, 'free' distributed accountability without bureaucratic centralization.
