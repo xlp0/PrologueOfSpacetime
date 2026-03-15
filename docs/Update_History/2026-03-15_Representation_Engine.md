@@ -52,3 +52,14 @@ The Representation Engine integrates with all existing architectural components:
 | **Flow State** | Time budgets preserve Flow at each tier |
 | **MVP Cards** | Name → MCard, Describe → PCard, Compose → VCard, Prove → Proof |
 | **Reverse Math** | RCA₀ → WKL₀ → ACA₀ → ATR₀ depth progression |
+
+## The Decision-Making Tetrad
+
+The update also establishes **Directionality**, **Sum/Product Types**, **Permutation Possibilities**, and **Representability** as the **four irreducible fundamentals of all decision making** — the essence of the game:
+
+1. **What can I choose?** → Sum Types (the OR-space of options)
+2. **In what order must I act?** → Directionality × Product Types (the AND-THEN chain)
+3. **How many arrangements exist?** → Permutation Possibilities (the $n!$ explosion)
+4. **How faithfully can I model?** → Representability (map-territory fidelity)
+
+This framework is woven into `The_Representation_Engine.md` (§1.5), `README.md`, `Prologue of Spacetime.md` (§"Decision-Making Substrate"), and `Representability.md`.

@@ -26,6 +26,47 @@ The **[[Permutation Thesis]]** explains why this works: because word order matte
 
 ---
 
+## 1.5 The Decision-Making Tetrad: Why These Four Concepts Rule All Choices
+
+Every decision a human being has ever made — from choosing which door to open in a dungeon, to deciding a national policy, to selecting which variable to name in code — decomposes into **exactly four irreducible components**. These are not game abstractions. They are the mathematical structure of decision itself:
+
+### The Four Fundamentals
+
+| Fundamental | What It Is | Role in Every Decision | D&D Example |
+|:---|:---|:---|:---|
+| **[[Directionality]]** | Order is irreversible. Choices have arrows. | *You cannot un-choose.* Every decision creates a before and an after. The arrow of time means your choice commits you to a path. | "I open the chest" → you can't un-open it. The trap triggers or it doesn't. |
+| **[[Sum Type\|Sum and Product Types]]** | Decisions are either choices (OR) or sequences (AND-THEN). | *Every decision space is made of Sums and Products.* You choose A **or** B (Sum Type). Then you do X **and then** Y (Product Type). All decision trees decompose into these two operations. | "Fight **or** flee?" (Sum). "Ready weapon **then** attack **then** retreat" (Product). |
+| **Permutation Possibilities** | The ordering of sequential actions explodes factorially. | *The number of ways to arrange $n$ sequential decisions is $n!$, not $n$.* This is why strategy is hard — you are searching a factorial space, not a linear one. Most permutations are suboptimal. | 5 party members × 3 actions each = $15!$ possible orderings. Only a few produce victory. |
+| **[[Representability]]** | A faithful representation collapses the decision space to truth. | *Your ability to decide well is exactly your ability to represent the situation faithfully.* Bad representation → bad decisions. A map that misrepresents terrain kills the explorer. A hash that misrepresents content corrupts the ledger. | "I cast Fireball at the **goblin horde**" vs "I cast Fireball at the **area**" — representational precision determines whether you hit allies. |
+
+### Why These Four Are Sufficient
+
+These four concepts form a **closed system** — every aspect of decision making maps to one or more of them:
+
+```
+1. WHAT can I choose?          → Sum Types (the OR-space of options)
+2. In WHAT ORDER must I act?   → Directionality + Product Types (the AND-THEN chain)
+3. HOW MANY arrangements?     → Permutation Possibilities (the n! explosion)
+4. HOW FAITHFULLY can I model? → Representability (the map-territory fidelity)
+```
+
+No fifth concept is needed. Decision-making under uncertainty, game theory, military strategy, software architecture, investment, cooking, conversation — all decompose into "what are my options (Sum), in what order do I execute (Product/Directionality), how many orderings exist (Permutation), and how well does my mental model match reality (Representability)."
+
+### Why This Is the Essence of the Game
+
+The Prologue of Spacetime is not *about* D&D. It uses D&D to **make the Decision-Making Tetrad viscerally felt**:
+
+- **Every D&D turn** is a Sum Type: you choose from available actions (Attack, Cast, Move, Dodge...)
+- **Every D&D round** is a Product Type: actions resolve in strict initiative order (Fighter → Wizard → Rogue → ...)
+- **Every D&D strategy** is a search through the Permutation space: finding the one ordering of abilities that produces victory from the $n!$ possible orderings
+- **Every D&D outcome** is a Representability judgment: the DM evaluates whether your words faithfully represented your intended action — and the gap between representation and reality determines whether you succeed or fail
+
+Players who master these four fundamentals in the game discover they have mastered the fundamentals of **all decision making**. This is the game's deepest pedagogical claim: by learning to name precisely (Directionality), choose wisely (Sum Types), sequence optimally (Product Types × Permutation), and represent faithfully (Representability), you are learning the universal grammar of thought.
+
+> **The game's thesis**: The difference between a novice and a grandmaster — in D&D, in chess, in business, in life — is not more information. It is better *representation* of the same information, combined with sharper *directionality* in sequencing actions through the *permutation space* of possible orderings, making optimal *sum/product* choices at each branch point.
+
+---
+
 ## 2. The Four-Tier Word Game
 
 The Engine operates across **four escalating tiers**, each a progressively more demanding word game that forces players to sharpen their representational precision:

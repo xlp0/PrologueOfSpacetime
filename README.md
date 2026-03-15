@@ -32,7 +32,16 @@ The **[[The_Representation_Engine|Representation Engine]]** is the project's cor
 
 **The D&D Loop (per turn)**: **Declare** intent in words → **Resolve** via DM (Maxwell's Demon adjudicating representation fidelity) → **Narrate** the gap between intent and outcome → **Level Up** when representation exceeds the fidelity threshold. Time budgets (<100ms → <1s → <10s → <60s) maintain **[[Hub/Theory/Integration/Flow in PKC - Faster Interactive Learning|Flow State]]** while the challenge-skill balance escalates.
 
-This turns the permutation thesis from an abstract mathematical observation into a **felt experience** that players encounter every turn.
+### Why These Four Concepts Rule All Decisions
+
+These four fundamentals — Directionality, Sum/Product Types, Permutation Possibilities, Representability — are not game abstractions. They are the **irreducible structure of decision itself**:
+
+1. **What can I choose?** → **Sum Types** (the OR-space of available options)
+2. **In what order must I act?** → **Directionality + Product Types** (the irreversible AND-THEN chain)
+3. **How many arrangements exist?** → **Permutation Possibilities** (the $n!$ explosion that makes strategy hard)
+4. **How faithfully can I model the situation?** → **Representability** (map-territory fidelity determines outcome quality)
+
+No fifth concept is needed. Every context — game theory, military strategy, software architecture, investment, conversation — decomposes into these four. The game makes this universal structure **viscerally felt**: every D&D turn is a Sum choice, every round is a Product sequence, every strategy searches the Permutation space, and every outcome is a Representability judgment. Mastering the game is mastering decision itself.
 
 ---
 
