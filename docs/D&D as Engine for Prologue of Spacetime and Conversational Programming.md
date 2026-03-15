@@ -234,6 +234,21 @@ Following the [[Hub/Theory/Sciences/Reverse Trivium - 1 Overview|Reverse Trivium
 3. Session logs become content-addressed [[MCard]] artifacts
 4. Community builds reusable "adventure modules" as [[SpecKit]] specifications
 
+## The Representation Ladder: Word Precision Scales with Power
+
+The [[The_Representation_Engine|Representation Engine]] reveals that D&D naturally maps **representational precision** to **power level**. Each tier demands more precise word games because the consequences of imprecision scale with the power wielded:
+
+| Tier | D&D Power Level | Representational Demand | Example | Consequence of Imprecision |
+|:---|:---|:---|:---|:---|
+| **Name** | **Cantrips** (at-will) | Distinguish A from B | "That's an Owlbear, not a Bear-Owl" | Fizzles harmlessly |
+| **Describe** | **Spells** (slot-limited) | Functional precision | "Fireball: 20ft radius, 8d6 fire, DEX save halves" | Backfires painfully |
+| **Compose** | **Rituals** (time-intensive) | Systemic coherence | "If Fighter grapples while Wizard readies Lightning..." | Summons wrong entity |
+| **Prove** | **Epic Magic** (world-shaping) | Invariant truth | "This portal *must* work because spacetime is locally flat" | Tears a hole in reality |
+
+**The insight**: D&D already teaches this implicitly — a mispronounced Cantrip is funny, a misdescribed Wish spell destroys the campaign. The Representation Engine makes this progression **explicit and systematic**, turning every power level into a lesson about how word precision determines representational fidelity.
+
+Each progression follows the **Kleisli arrow** dependency chain: you cannot Describe what you haven't Named, Compose what you haven't Described, or Prove what you haven't Composed. This mirrors the monadic structure of D&D spellcasting — each higher-level spell **binds** the results of lower-level precision.
+
 ## See Also
 
 - [[D&D Sovereign Playground - IoT, LLM, and Arithmetized Game Dynamics]] — Extended version: IoT, 3D printing, PKC mesh, Sum/Product arithmetization
