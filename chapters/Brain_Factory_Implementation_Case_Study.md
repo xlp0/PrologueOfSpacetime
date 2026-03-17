@@ -103,6 +103,24 @@ The system is built on **MVP Cards**, a triadic architecture that separates conc
 *   **Overlay VPN**: A secure, self-operated mesh network enabling communities to share knowledge assets safely without central intermediaries.
 *   **Bridgelet**: Connectivity drivers that allow the Brain Factory to control physical hardware (3D Printers, CNCs).
 
+#### PKC as Unified Interface Layer
+
+The **Personal Knowledge Container (PKC)** serves as the operational universal interface for the Brain Factory infrastructure:
+
+**Deployment Architecture:**
+- **Hardware**: Runs on local hardware (Raspberry Pi, mini-computers) for sovereignty and cost efficiency
+- **Self-Hosting**: Clients keep data local for privacy, lower storage costs, and easier backups
+- **Multiple Nodes**: Supports distributed deployment across multiple locations with centralized or federated coordination
+- **Portal Access**: Users access local PKC instances from anywhere
+
+**Core Functionalities:**
+- **Browser-Based IDE**: Edit server-side files, manage code, open files directly in browser—eliminating local/remote distinction
+- **Remote Monitoring**: Real-time dashboard for monitoring activities, tracking analytics (Grafana integration)
+- **AI Integration**: Natural language queries via terminal/chat (WhatsApp integration), AI with terminal access and system memory
+
+**Strategic Value:**
+- **Universal Interface**: Single framework deployable across different sectors (coal mining, energy, retail analytics) without building unique interfaces for each project
+
 ## 5. Implementation Case: IT Del & The 3-Phase Roadmap
 
 ### The Pilot: IT Del Agent-Powered Campus

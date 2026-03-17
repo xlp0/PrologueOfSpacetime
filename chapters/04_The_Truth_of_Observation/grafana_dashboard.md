@@ -42,3 +42,19 @@ We use **Grafana** to visualize the time-series data coming from our ESP32 nodes
 You have a swarm of moving robotics. Open your laptop.
 *   **Task**: Import the `kinetic_swarm_dashboard.json` into Grafana.
 *   **Goal**: Watch the graph line go flat when you unplug a battery. That silence is the Truth of Observation.
+
+### PKC Dashboard Integration
+
+The **Personal Knowledge Container** provides a unified dashboard framework for observability:
+
+**Remote Monitoring Capabilities:**
+- **Dashboard Access**: Real-time monitoring of activities accessible from anywhere via browser or phone
+- **Grafana Integration**: PKC integrates with Grafana for analytics graphs and system health visualization
+- **Multi-Level Views**: Different authentication levels provide appropriate dashboard views for developers (full metrics), analysts (aggregated data), and observers (high-level health)
+- **Browser-Based Interface**: No need to install local tools—the entire observability stack is accessible through the browser
+
+**Portal Architecture:**
+- Users access their local PKC instance through a portal
+- Multiple nodes can send data to centralized dashboards for large-scale operations
+
+This makes the dashboard not just a monitoring tool, but a **sovereign observatory**—where the Observer owns the instrument (local PKC instance) but can share observations.

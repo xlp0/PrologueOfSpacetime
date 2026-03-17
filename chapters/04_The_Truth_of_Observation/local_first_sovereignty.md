@@ -152,6 +152,16 @@ The **Personal Knowledge Container** is the Brain Factory's implementation of lo
 | MinIO object storage | **Multi-Device Sync** | Replicate across nodes |
 | ZITADEL authentication | **Privacy/Security** | Identity is self-sovereign |
 | Markdown-first content | **Longevity** | Readable as plain text, forever |
+| Browser-based IDE | **Fast** | Edit server-side files directly in browser without network latency |
+
+#### PKC as Unified Interface Layer
+
+PKC functions as a **self-hosted, unified interface layer** that provides a standardized platform for managing various AI projects and data.
+
+**Deployment Architecture:**
+- **Hardware**: Designed to run on local hardware, specifically mini-computers like Raspberry Pi
+- **Self-Hosting**: Self-hosted system allowing clients to keep data local for better privacy, lower storage costs, and easier backups
+- **Multiple Nodes**: For large-scale operations, PKC supports multiple nodes that send data to various locations or a centralized cloud
 
 ### 5.2 The Retail Lab Scenario
 

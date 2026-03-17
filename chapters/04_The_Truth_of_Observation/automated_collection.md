@@ -64,6 +64,19 @@ Individual metrics answer specific questions: "How many users logged in today?" 
 
 This synthesis transforms observability from reactive monitoring (responding to alerts) into proactive understanding (recognizing trends before they become problems).
 
+## AI-Powered Observability
+
+### Natural Language Queries
+
+PKC integrates deeply with AI assistants to make observability data more accessible through natural language:
+
+**AI Integration:**
+- **AI Assistants**: Utilizes models, also using Ollama and OpenClaw
+- **Natural Language Queries**: Users can query their data through terminal or chat interface (even via external services like WhatsApp)
+- **System Memory**: The AI within PKC has terminal access and can memorize system data, allowing it to execute commands or answer specific questions about the data stored in the local file system (e.g., "How many authentication events occurred today?" or "Show me the system health trends this week")
+
+This transforms observability from passive dashboard viewing to **conversational interrogation**—where the Observer can ask questions in natural language and receive synthesized insights from the automated collection system.
+
 ## Integrating Observability
 
 ### Making Systems Observable
