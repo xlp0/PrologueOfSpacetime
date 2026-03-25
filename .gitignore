@@ -1,2 +1,12 @@
 docs/WorkingNotes
 .DS_Store
+.pio
+.vscode
+.ipch
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.log
