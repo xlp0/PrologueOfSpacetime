@@ -1,0 +1,42 @@
+# Sonic Synchronization: The Resonator
+
+**Hardware Focus**: Mics / Speakers (The Resonator)
+**Curriculum Column**: Music (Time)
+
+## 1. The Philosophy of Resonance
+In **Distributed Systems**, time is the hardest problem. We usually rely on NTP (Network Time Protocol), but in the physical world, we can use **Sound**.
+*   **The Kulkul**: A wooden drum used in Bali to signal "Time to Gather". The Kulkul is a **Ritual**—a periodic, reliable event that creates and maintains long-term social relations. Without rituals, there is no accumulated trust; without trust, there is no basis for credit, debt, or long-term exchange.
+*   **The Heartbeat**: A regular pulse (`ack`) that proves life. In the Trivium × Quadrivium framework, this is where **Music** (temporal coordination) meets **Rhetoric** (social meaning)—the heartbeat is both a technical signal and a social contract.
+
+### The Chess Clock: Time as Resource
+
+In **Chess**, time is not just a dimension—it is a **resource**. Tournament chess uses a **chess clock** where each player has a fixed time budget. Every move consumes time. Run out of time and you lose, regardless of board position.
+
+The chess clock teaches **time management**:
+- **Fast moves**: Simple, obvious moves that preserve time for complex calculations later
+- **Time pressure**: When low on time, players must make quick decisions with incomplete analysis
+- **Time advantage**: Forcing the opponent to respond (checks, threats) makes them spend time on defense
+
+This is identical to real-time systems: every operation has a time cost, and you have a deadline. The game teaches that **rhythm matters**—knowing when to think deeply and when to act quickly is essential.
+
+## 2. Acoustic Exercises
+
+### Exercise A: The Feedback Loop
+*   **Concept**: Recursion.
+*   **Task**: Create a simple microphone-to-speaker loop.
+*   **Lesson**: When Output becomes Input, you get **Oscillation** (Life) or **Screeching** (Chaos). Control variables (Gain) manage this balance.
+
+### Exercise B: The Doppler Effect
+*   **Concept**: Relative Time.
+*   **Task**: Move a sound source towards a microphone.
+*   **Lesson**: Observation changes the data. Velocity affects perceived frequency.
+
+### Exercise C: The Acoustic Clock
+*   **Concept**: Synchronization.
+*   **Task**: Use a "Clap" to sync two independent recording devices.
+*   **Lesson**: A single loud event can serve as a "Genesis Block" for a timeline, aligning all observers.
+
+## 3. Technical Implementation
+*   **Sampling Rate**: The "Tick Rate" of reality (44.1kHz).
+*   **FFT (Fast Fourier Transform)**: Converting "Time Domain" (Waveform) to "Frequency Domain" (Spectrum).
+*   **Latency**: The gap between "Event" and "Hearing".

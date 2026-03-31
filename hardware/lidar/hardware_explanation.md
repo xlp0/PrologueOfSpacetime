@@ -50,7 +50,21 @@ By merging the 3 IP cameras (900k IDR) with the centrally articulating 3D LiDAR 
 
 ---
 
-## 5. References & Technical Context
+## 5. X2 LiDAR (8526) Technical Specifications
+
+Based on the official Yodatech listing, here are the core hardware specifications of the chosen LiDAR unit:
+
+*   **Model:** X2 Lidar (360 Degree Scanning)
+*   **Operating Voltage:** DC 5V
+*   **Data Interface:** Serial UART (TTL Level - 3.3V compatible)
+*   **Baud Rate:** 115200
+*   **Working Principle:** Laser Triangulation Radar
+*   **Protocol:** Camsense X1 Clone Protocol (36-byte packets starting with `0x55 0xAA 0x03 0x08`, requiring a `0xA000` angle offset for correct computation rather than the standard YDLidar protocol)
+*   **Connection wires:** 4 Wires (VCC, GND, TX, RX/PWM Motor Control)
+
+---
+
+## 6. References & Technical Context
 
 ### The Catalyst for the Pivot
 This custom multi-camera and LiDAR sensor fusion architecture was heavily influenced by the fundamental constraint that Apple Silicon (M3/M4) Macs cannot natively run the open-source `libfreenect2` drivers required to extract Kinect v2 depth video. The USB driver segmentation faults on modern macOS, combined with the 4.5m physical limitation of the Kinect's Time-of-Flight sensor, forced the strategic shift to lightweight IP cameras and standard robotic LiDARs.
