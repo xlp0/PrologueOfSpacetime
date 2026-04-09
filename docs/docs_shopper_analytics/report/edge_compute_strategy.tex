@@ -1,0 +1,105 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\title{Shopper Analytics: Edge Compute Performance Strategy}
+\author{PKC Developers}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{The Core Limitation}
+\begin{itemize}
+    \item \textbf{Goal:} Eliminate 1 Terabyte of continuous video stream bandwidth per store.
+    \item \textbf{Constraint:} 100 cameras running the full continuous YOLO + DINOv2 pipeline requires \textbf{$\sim$1,436 FP16 TFLOPS}.
+    \item \textbf{Capacity:} A single Jetson Orin Nano provides \textbf{40 INT8 TOPS (17 FP16 TFLOPS)}.
+\end{itemize}
+
+\section{Continuous Module Compute (Edge vs Cloud)}
+Heavy continuous load breaks local limits and must be pushed to the Cloud. The Edge only tracks and crops bounding boxes to save bandwidth.
+
+\begin{table}[h!]
+\centering
+\small
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l l c c l}
+\toprule
+\textbf{Module} & \textbf{Execution Rate} & \textbf{Model Cost} & \textbf{Total Load (100 Cams)} & \textbf{Host} \\
+\midrule
+\textbf{Person \& Product Tracking} & 20 FPS & 10 BFLOPs & $\sim$20 TFLOPS & \textbf{Edge (Local)} \\
+\textbf{Person \& Product Detection} & 20 FPS & 388 BFLOPs & $\sim$776 TFLOPS & \textbf{Cloud} \\
+\textbf{Person ReID (DINOv2 Giant)} & 20 FPS & 320 BFLOPs & $\sim$640 TFLOPS & \textbf{Cloud} \\
+\bottomrule
+\end{tabular}
+}
+\caption{Continuous Module Compute. The Cloud only receives tiny image crops, reducing bandwidth enormously.}
+\end{table}
+
+\textit{Note: Since the total continuous tracking load is $\sim$20 TFLOPS, we only need \textbf{ONE} Jetson Orin Nano (40 INT8 TOPS) running locally per store. The Cloud receives only tiny image crops, reducing bandwidth enormously.}
+
+\section{One-Time Module Compute (Edge)}
+Triggered only for new shoppers (estimating 50 per hour per camera = 0.0139 FPS).
+
+\begin{table}[h!]
+\centering
+\small
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l l c c l}
+\toprule
+\textbf{Module} & \textbf{Execution Rate} & \textbf{Model Cost} & \textbf{Total Load} & \textbf{Host} \\
+\midrule
+\textbf{Face Detection (YOLO26 XL)} & 0.0139 FPS & 194 BFLOPs & $\sim$0.26 TFLOPs & \textbf{Edge} \\
+\textbf{Face Alignment (Landmarks)} & 0.0139 FPS & 5 BFLOPs & $\sim$0.01 TFLOPs & \textbf{Edge} \\
+\textbf{Gender \& Age Class.} & 0.0139 FPS & 640 BFLOPs & $\sim$0.88 TFLOPs & \textbf{Edge} \\
+\midrule
+\textbf{Total One-Time Load} & \textbf{0.0139 FPS} & \textbf{--} & \textbf{$\sim$1.16 TFLOPS} & \textbf{--} \\
+\bottomrule
+\end{tabular}
+}
+\caption{One-Time Module Compute}
+\end{table}
+
+\subsection*{Off-Time Optimization Strategy}
+Does a retail store need real-time face/gender alignment instantly? \textbf{No.} 
+We can queue captured face images locally and process this $\sim$1.16 TFLOPS workload overnight during store "Off-Time" (when 0 TFLOPS are being used for tracking) to maximize edge hardware efficiency without interrupting daytime performance.
+
+\section{Hardware Unit Performance \& Alternatives}
+
+\subsection*{NVIDIA Edge Device Comparison Matrix}
+We must select strictly new, enterprise-grade NVIDIA Edge hardware. Below is the direct comparison for individual edge nodes to determine the optimal price-to-performance ratio for a 100-camera store.
+
+\begin{table}[h!]
+\centering
+\scriptsize
+\begin{tabularx}{\textwidth}{l c c c c c X}
+\toprule
+\textbf{Device} & \textbf{Memory} & \textbf{INT8} & \textbf{FP16} & \textbf{Power} & \textbf{Price} & \textbf{Deployment Tradeoffs} \\
+\midrule
+\textbf{Orin Nano} & 8GB & 40 TOPS & 17 TFLOPs & 15W & \textbf{\$249} & Our optimal baseline. A single unit easily handles the 20 TFLOPS tracking load for all 100 cameras. \\
+\addlinespace
+\textbf{Orin NX} & 16GB & 100 TOPS & $\sim$42 TFLOPs & 25W & \textbf{\$599} & Complete overkill for the 20 TFLOPS tracking load, but provides massive headroom for future expansion. \\
+\addlinespace
+\textbf{AGX Orin} & 64GB & 275 TOPS & $\sim$137 TFLOPs & 60W & \textbf{\$1,999} & Unnecessary expense. Too powerful for basic tracking, yet too weak for massive 1,436 TFLOPS cloud pipeline. \\
+\bottomrule
+\end{tabularx}
+\caption{NVIDIA Edge Device Comparison Matrix}
+\end{table}
+
+\textbf{Verdict:} The \textbf{Jetson Orin Nano 8GB} (\$249) is the absolute perfect fit. We only need \textbf{ONE} Jetson to process the 10 BFLOPs/frame human and product tracking pipeline for a 100-camera store, making it incredibly cost-effective while solving the bandwidth crisis.
+
+\section{Final Architectural Conclusion}
+By deploying Jetson edge hardware on-site, we achieve our primary goals:
+\begin{enumerate}
+    \item \textbf{Bandwidth Reduction:} A single Jetson Orin Nano processes the raw video stream locally to perform Deep SORT tracking, cropping out only the necessary bounding boxes. By transmitting these tiny semantic patches instead of full video streams, bandwidth usage is \textbf{significantly decreased}, easily bypassing the 1 TB/store/month limitation.
+    \item \textbf{Compute Efficiency:} We only need one low-power Jetson Orin Nano per store to handle the local tracking and overnight batch workloads. This allows us to safely and cheaply offload the massive YOLO26/DINOv2 continuous detection requirements to the centralized Datacomm CLB Cloud.
+\end{enumerate}
+
+\end{document}
