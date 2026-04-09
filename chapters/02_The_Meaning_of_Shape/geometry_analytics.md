@@ -6,6 +6,13 @@
 
 Spatial tracking demonstrates **Geometry** (Number in Space) through coordinate transformation. This operationalizes the core geometric concepts from Chapter 02 by transforming 2D observations into 3D real-world coordinates, combining multiple observation points into a unified spatial model.
 
+**Implementation Hardware**:
+- **IP Cameras**: Hikvision DS-2CD2021G1 (2MP, 4mm lens, H.265+)
+- **LiDAR**: Camsense X2 or YDLidar X2/X2L (360° scanning)
+- **Microcontroller**: ESP32 DevKit for LiDAR servo control
+- **AI Processing**: YOLOv8n/YOLOv11n via ONNX Runtime
+- **Streaming**: MediaMTX for multi-protocol video distribution
+
 ## The Geometric Foundation
 
 ### The Mapping Challenge
@@ -39,6 +46,12 @@ This is **spatial consensus**: Multiple observers converge on the same physical 
 
 ### Dual Modalities
 Cameras provide appearance (RGB) while LiDAR provides precise distance. Together they form a complete spatial perception system.
+
+**LiDAR Hardware**:
+- **Sensors**: Camsense X2 (primary), YDLidar X2/X2L, RPLidar A1/A2
+- **Servo**: MG996R metal gear for 180° sweep
+- **Controller**: ESP32 with FreeRTOS for real-time coordination
+- **Interface**: UART at 921600 baud
 
 ### Spherical to Cartesian Transformation
 LiDAR outputs polar coordinates $(r, \theta, \phi)$ which we convert to Cartesian $(x, y, z)$:

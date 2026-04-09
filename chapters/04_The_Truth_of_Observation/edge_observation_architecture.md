@@ -16,9 +16,15 @@ Download Results → Dashboard
 
 ### Edge Processing
 ```
-Camera → Local AI Processing → Coordinate Extraction → 
-Lightweight Transmission → Dashboard
+Hikvision IP Camera → Local AI (YOLOv11n ONNX) → Coordinate Extraction → 
+WebSocket Transmission → Dashboard
 ```
+
+**Hardware Stack**:
+- **Cameras**: Hikvision DS-2CD2021G1 (2MP, H.265+, RTSP)
+- **Edge Compute**: Intel i5-2400 with ONNX Runtime (current) or NVIDIA Jetson Orin Nano (recommended)
+- **AI Model**: YOLOv11n optimized for CPU/GPU inference
+- **Streaming**: MediaMTX for RTSP/HLS/WebRTC
 
 The edge approach demonstrates **data sovereignty**: processing happens locally, only derived insights are transmitted, and the system operates independently of network availability.
 

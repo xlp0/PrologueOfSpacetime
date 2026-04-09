@@ -219,6 +219,16 @@ This reveals that the Quadrivium's **Geometry (Space)** and **Music (Time)** are
 
 This repository serves as a specialized **Project Workspace** for the **Prologue of Spacetime**, designed for collaboration with **CodeWiki by Google**.
 
+### Shopper Analytics Integration
+The curriculum includes real-world spatial tracking implementation using:
+- **IP Cameras**: Hikvision DS-2CD2021G1 for RTSP video streaming and YOLO-based person detection
+- **LiDAR**: Camsense X2, YDLidar for 360° spatial point cloud generation
+- **Edge AI**: NVIDIA Jetson Orin Nano or Intel i5 with ONNX Runtime for local inference
+- **Microcontrollers**: ESP32 DevKit for sensor control and FreeRTOS task scheduling
+- **AI Models**: YOLOv8n, YOLOv11n optimized for edge deployment
+
+This demonstrates geometry (homography transformation), observation (multi-camera consensus), and edge computing principles.
+
 ### File Management Strategy (SSOT via CLM)
 
 1. **Vault-Centric Truth**: Core documents reside in the user's `DataVault/WorkingNotes`.

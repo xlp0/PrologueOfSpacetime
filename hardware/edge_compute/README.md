@@ -26,12 +26,20 @@ Understanding edge-vs-cloud architecture trade-offs, multi-stream video processi
 
 ## Hardware Platforms
 
-### NVIDIA Jetson Series
+### Current Deployment (CPU-Based)
+- **Server**: Intel Core i5-2400 (4 cores, 3.1 GHz)
+- **RAM**: 32 GB DDR3
+- **Storage**: SSD for OS and application
+- **Network**: Gigabit Ethernet
+- **Learning Focus**: CPU optimization, ONNX Runtime, resource-constrained inference
+
+### NVIDIA Jetson Series (Recommended for Production)
 - **Jetson Orin Nano 8GB**: 40 TOPS (INT8), handles 10-12 camera streams
 - **Jetson Orin NX 16GB**: 100 TOPS, higher capacity for complex models
+- **Jetson AGX Orin**: 275 TOPS, enterprise-grade deployment
 - **Learning Focus**: CUDA programming, TensorRT optimization, DeepStream SDK
 
-### Raspberry Pi
+### Raspberry Pi (Budget Alternative)
 - **Raspberry Pi 5**: General-purpose edge computing, suitable for basic CV tasks
 - **Hailo-8L Accelerator**: Optional AI acceleration module (13 TOPS)
 - **Learning Focus**: Linux system administration, Python optimization, resource constraints
@@ -53,11 +61,15 @@ Coordinate Transmission (WebSocket/MQTT)
 ```
 
 ### Key Technologies
-- **ONNX Runtime**: Cross-platform model deployment
-- **TensorRT**: NVIDIA GPU optimization framework
-- **DeepStream SDK**: Multi-stream video analytics pipeline
+- **ONNX Runtime**: Cross-platform model deployment (currently used for CPU inference)
+- **YOLOv11n ONNX**: Optimized person detection model
+- **TensorRT**: NVIDIA GPU optimization framework (for Jetson deployment)
+- **DeepStream SDK**: Multi-stream video analytics pipeline (for Jetson)
 - **OpenCV**: Video capture and preprocessing
 - **FFmpeg**: Video encoding/decoding and transcoding
+- **MediaMTX**: Video streaming server for RTSP/HLS/WebRTC
+- **Python**: Primary implementation language
+- **FastAPI**: Web framework for dashboard and API
 
 ## Edge vs Cloud Comparison
 

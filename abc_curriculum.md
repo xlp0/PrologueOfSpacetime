@@ -41,10 +41,10 @@ We distribute hardware tools across the Quadrivium to ground abstract concepts i
 
 | Subject | Hardware Tool | Philosophical Role | Example Task |
 | :--- | :--- | :--- | :--- |
-| **Arithmetic** (Numbers) | **IoT (ESP32)** | **The Counter** | Digitizing physical events (water drops) into immutable types. |
-| **Geometry** (Space) | **3D Printing, IP Cameras, LiDAR** | **The Reifier & Perceiver** | Transforming abstract types into physical space; mapping 2D pixels to 3D coordinates via homography; generating spatial point clouds. |
+| **Arithmetic** (Numbers) | **IoT (ESP32 DevKit)** | **The Counter** | Digitizing physical events (water drops) into immutable types; UART communication at 921600 baud. |
+| **Geometry** (Space) | **3D Printing, IP Cameras (Hikvision DS-2CD2021G1), LiDAR (Camsense X2, YDLidar)** | **The Reifier & Perceiver** | Transforming abstract types into physical space; mapping 2D pixels to 3D coordinates via homography; generating spatial point clouds with 360° scanning. |
 | **Music** (Time) | **Mics / Speakers** | **The Resonator** | Analyzing frequency and generating feedback loops. |
-| **Astrobiology** (Spacetime)| **Drones / Rovers, Edge AI** | **The Explorer & Processor** | Autonomous navigation in complex environments; real-time multi-stream AI inference at the edge. |
+| **Astrobiology** (Spacetime)| **Drones / Rovers, Edge AI (NVIDIA Jetson Orin Nano, Intel i5 + ONNX)** | **The Explorer & Processor** | Autonomous navigation in complex environments; real-time multi-stream AI inference (YOLOv11n) at the edge. |
 | **Material Science** (Physics) | **Nitinol (SMA)** | **The Muscle** | Converting Energy (Tokens) into Form (Motion). |
 
 
@@ -111,10 +111,10 @@ Each game session is **recorded** (player identities established), **logged** (m
 
 ### 6.1 The Retail Lab Scenario
 The physical implementation is a **Convenience Store / Retail Lab**:
-*   **Sensors (Kinects/IP Cameras/LiDAR/Mics):** Feed data into the "Geometry" and "Music" curriculum modules. IP cameras provide RTSP streams for real-time computer vision; LiDAR generates 3D spatial point clouds; sensor fusion combines multiple modalities.
+*   **Sensors (Kinects/IP Cameras/LiDAR/Mics):** Feed data into the "Geometry" and "Music" curriculum modules. **Hikvision DS-2CD2021G1** IP cameras provide H.265+ RTSP streams for real-time computer vision; **Camsense X2/YDLidar** generates 3D spatial point clouds at 3,000 points/sec; sensor fusion combines multiple modalities.
 *   **Fabrication (3D Printers):** Used for "Arithmetic" (precision) and construction assignments. Integrates with **SAM 3D** technology for converting image into 3D printable models/objects, enabling rapid prototyping from photographs. Also produces custom mounts for sensors and hardware.
-*   **IoT (ESP32):** Connects physical inventory to "Abstract" digital types. Controls servo motors for LiDAR sweeping, manages UART communication protocols, implements FreeRTOS task scheduling.
-*   **Edge Computing (Jetson/Pi):** Processes multi-camera streams locally, runs YOLO inference via ONNX Runtime, demonstrates edge-vs-cloud architecture trade-offs, teaches bandwidth optimization strategies.
+*   **IoT (ESP32 DevKit):** Connects physical inventory to "Abstract" digital types. Controls **MG996R servo motors** for LiDAR sweeping (180° sweep), manages UART communication at 921600 baud, implements FreeRTOS task scheduling for real-time coordination.
+*   **Edge Computing (Jetson Orin Nano/Intel i5):** Processes multi-camera streams locally using **YOLOv11n ONNX** models, runs inference via ONNX Runtime or TensorRT, demonstrates edge-vs-cloud architecture trade-offs, teaches bandwidth optimization strategies through **MediaMTX** streaming.
 
 ## 7. Implementation Workflow (The Reverse Trivium)
 1.  **Rhetoric First (Why):** Start with the user need / community problem. (VCard → Value Delivery)

@@ -22,8 +22,8 @@ To understand abstract topology, we must make it physical. We use **3D Printing*
 ### 3. Hardware Integration: The Perceiver (Xbox Kinect & IP Cameras)
 To define a Shape, we must first **observe** it. The Printer writes space; the Kinect reads space. They are dual operations.
 *   **[Depth Sensing & Kinect](depth_sensing_kinect.md)**: A guide to structured light, depth maps, skeleton tracking, and the Arithmetization of Space.
-*   **[IP Camera Spatial Tracking](../../hardware/ip_camera/README.md)**: Network cameras for real-time spatial tracking, homography transformation, and multi-camera coordinate fusion.
-*   **[LiDAR Point Cloud Generation](../../hardware/lidar/shopper_analytics_lidar.md)**: 360° distance measurement and spherical-to-Cartesian transformation for 3D spatial mapping.
+*   **[IP Camera Spatial Tracking](../../hardware/ip_camera/README.md)**: Network cameras (Hikvision DS-2CD2021G1) for real-time spatial tracking, homography transformation, and multi-camera coordinate fusion using YOLO detection.
+*   **[LiDAR Point Cloud Generation](../../hardware/lidar/shopper_analytics_lidar.md)**: 360° distance measurement (Camsense X2, YDLidar) and spherical-to-Cartesian transformation for 3D spatial mapping, controlled by ESP32 microcontrollers.
 *   **The Duality**: `Kinect (Space → Type)` is the inverse of `Printer (Type → Space)`. Together they close the round-trip of Geometry. IP cameras and LiDAR extend this to **multi-modal spatial perception**—combining RGB, depth, and distance into unified coordinate systems.
 
 ### 4. Foundational Connections

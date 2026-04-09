@@ -27,16 +27,22 @@ z = r · cos(elevation) · sin(azimuth)
 ## Hardware Components
 
 ### LiDAR Sensors
-- **Type**: 360° 2D LiDAR (e.g., Camsense X2, YDLidar X2)
+- **Models Used**: 
+  - Camsense X2 360° LiDAR (Primary)
+  - YDLidar X2/X2L (Alternative)
+  - RPLidar A1/A2 (Compatible)
+  - TF-Luna (Single-point LiDAR for specific applications)
 - **Sample Rate**: ~3,000 points/second per sensor
 - **Range**: Up to 12 meters effective tracking distance
+- **Interface**: UART serial communication at 921600 baud
 - **Learning Focus**: Serial communication protocols, data parsing, real-time processing
 
 ### Servo Control System
-- **Microcontroller**: ESP32 with dual UART channels
-- **Servo Motor**: MG996R metal gear for 180° sweep
-- **Power Supply**: 5V 3A for stable operation
-- **Learning Focus**: PWM control, FreeRTOS task scheduling, hardware timing
+- **Microcontroller**: ESP32 DevKit (dual-core, dual UART channels)
+- **Servo Motor**: MG996R metal gear servo for 180° sweep
+- **Power Supply**: 5V 3A regulated power supply
+- **Communication**: UART at 921600 baud for LiDAR data
+- **Learning Focus**: PWM control, FreeRTOS task scheduling, hardware timing, dual-UART management
 
 ### 3D Printed Mounting
 - **Custom Brackets**: OpenSCAD-designed mounts for ceiling installation
@@ -55,8 +61,10 @@ Three.js WebGL Rendering
 ### Key Technologies
 - **ESP32 FreeRTOS**: Real-time task scheduling for sensor reading and servo control
 - **UART Communication**: 921600 baud serial protocol parsing
-- **WebSocket Broadcasting**: Real-time point cloud streaming to browser
-- **Three.js BufferGeometry**: GPU-accelerated 3D visualization
+- **WebSocket Broadcasting**: Real-time point cloud streaming to browser dashboard
+- **Three.js BufferGeometry**: GPU-accelerated 3D visualization in browser
+- **Python Backend**: FastAPI for WebSocket server and data aggregation
+- **C++ Firmware**: ESP32 firmware for servo control and LiDAR data collection
 
 ## Computational Requirements
 

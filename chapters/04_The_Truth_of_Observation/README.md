@@ -25,8 +25,8 @@ We apply observation to **System Health**.
 ### 3. Hardware Integration: The Explorer (Drones & Edge AI)
 To find truth, we must go to it. We use **Drones and Rovers** to explore the "Unknown" (The Fog of War) and return with data.
 *   **[The Drone Explorer](drone_explorer.md)**: A guide to autonomous navigation, sensors, and surviving entropy.
-*   **[Edge AI Computing](../../hardware/edge_compute/README.md)**: Real-time multi-stream processing at the observation point—demonstrating edge-vs-cloud architecture trade-offs and bandwidth optimization through local inference.
-*   **Multi-Camera Consensus**: When multiple observers (cameras) view the same space, truth emerges through coordinate fusion and spatial clustering—operationalizing the Byzantine Generals Problem in physical space.
+*   **[Edge AI Computing](../../hardware/edge_compute/README.md)**: Real-time multi-stream processing at the observation point using NVIDIA Jetson (Orin Nano/NX) or CPU-based inference (Intel i5 with ONNX Runtime)—demonstrating edge-vs-cloud architecture trade-offs and bandwidth optimization through local inference.
+*   **Multi-Camera Consensus**: When multiple observers (Hikvision IP cameras) view the same space, truth emerges through coordinate fusion and spatial clustering—operationalizing the Byzantine Generals Problem in physical space.
 
 ### 4. Architectural Principle: Local-First Sovereignty
 The Sovereign Observer owns their own instrument. **Local-first** is the architectural principle that places the primary copy of data on the user's device—not the cloud. The server is a mirror, not the master.

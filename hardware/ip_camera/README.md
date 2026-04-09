@@ -24,9 +24,10 @@ Understanding network-based video streaming, computer vision pipelines, and spat
 ## Hardware Components
 
 ### Network Cameras
+- **Brand/Model**: Hikvision DS-2CD2021G1 (2MP IP Bullet Camera)
 - **Purpose**: RGB video input for computer vision processing
-- **Key Features**: RTSP stream support, H.264/H.265 encoding, PoE or 12V DC power
-- **Learning Focus**: Network configuration, stream access, credential management
+- **Key Features**: RTSP stream support, H.264/H.265 encoding, 4mm fixed lens, 120 dB WDR, 30m IR night vision, 12V DC power
+- **Learning Focus**: Network configuration, RTSP stream access, credential management, H.265+ compression
 
 ### Mounting & Calibration
 - **Physical Placement**: Strategic positioning for coverage overlap
@@ -43,9 +44,11 @@ Homography Transform → Floor Coordinates → WebSocket Broadcast
 
 ### Key Technologies
 - **OpenCV**: Video capture and image processing
-- **ONNX Runtime**: Optimized model inference for edge devices
-- **MediaMTX**: Stream transcoding and multi-protocol server
+- **YOLO Models**: YOLOv8n, YOLOv8m, YOLOv11n, YOLOv11n-pose for person detection
+- **ONNX Runtime**: Optimized model inference for CPU-bound servers
+- **MediaMTX**: Stream transcoding and multi-protocol broadcasting server
 - **FastAPI/WebSocket**: Real-time coordinate broadcasting
+- **Python**: Primary implementation language for AI pipeline
 
 ## Pedagogical Value
 
