@@ -42,9 +42,9 @@ We distribute hardware tools across the Quadrivium to ground abstract concepts i
 | Subject | Hardware Tool | Philosophical Role | Example Task |
 | :--- | :--- | :--- | :--- |
 | **Arithmetic** (Numbers) | **IoT (ESP32)** | **The Counter** | Digitizing physical events (water drops) into immutable types. |
-| **Geometry** (Space) | **3D Printing** | **The Reifier** | Transforming abstract types (CAD Models) into physical space. |
+| **Geometry** (Space) | **3D Printing, IP Cameras, LiDAR** | **The Reifier & Perceiver** | Transforming abstract types into physical space; mapping 2D pixels to 3D coordinates via homography; generating spatial point clouds. |
 | **Music** (Time) | **Mics / Speakers** | **The Resonator** | Analyzing frequency and generating feedback loops. |
-| **Astrobiology** (Spacetime)| **Drones / Rovers** | **The Explorer** | Autonomous navigation in complex environments. |
+| **Astrobiology** (Spacetime)| **Drones / Rovers, Edge AI** | **The Explorer & Processor** | Autonomous navigation in complex environments; real-time multi-stream AI inference at the edge. |
 | **Material Science** (Physics) | **Nitinol (SMA)** | **The Muscle** | Converting Energy (Tokens) into Form (Motion). |
 
 
@@ -111,9 +111,10 @@ Each game session is **recorded** (player identities established), **logged** (m
 
 ### 6.1 The Retail Lab Scenario
 The physical implementation is a **Convenience Store / Retail Lab**:
-*   **Sensors (Kinects/Mics):** Feed data into the "Geometry" and "Music" curriculum modules.
-*   **Fabrication (3D Printers):** Used for "Arithmetic" (precision) and construction assignments. Integrates with **SAM 3D** technology for converting image into 3D printable models/objects, enabling rapid prototyping from photographs.
-*   **IoT (ESP32):** Connects physical inventory to "Abstract" digital types.
+*   **Sensors (Kinects/IP Cameras/LiDAR/Mics):** Feed data into the "Geometry" and "Music" curriculum modules. IP cameras provide RTSP streams for real-time computer vision; LiDAR generates 3D spatial point clouds; sensor fusion combines multiple modalities.
+*   **Fabrication (3D Printers):** Used for "Arithmetic" (precision) and construction assignments. Integrates with **SAM 3D** technology for converting image into 3D printable models/objects, enabling rapid prototyping from photographs. Also produces custom mounts for sensors and hardware.
+*   **IoT (ESP32):** Connects physical inventory to "Abstract" digital types. Controls servo motors for LiDAR sweeping, manages UART communication protocols, implements FreeRTOS task scheduling.
+*   **Edge Computing (Jetson/Pi):** Processes multi-camera streams locally, runs YOLO inference via ONNX Runtime, demonstrates edge-vs-cloud architecture trade-offs, teaches bandwidth optimization strategies.
 
 ## 7. Implementation Workflow (The Reverse Trivium)
 1.  **Rhetoric First (Why):** Start with the user need / community problem. (VCard → Value Delivery)

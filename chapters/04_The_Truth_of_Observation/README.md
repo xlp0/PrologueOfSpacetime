@@ -22,9 +22,11 @@ We apply observation to **System Health**.
 *   **[Observation & Grafana](grafana_dashboard.md)**: The final step. Visualizing the heartbeat of the swarm we started building in Chapter 02.
 
 
-### 3. Hardware Integration: The Explorer (Drones)
+### 3. Hardware Integration: The Explorer (Drones & Edge AI)
 To find truth, we must go to it. We use **Drones and Rovers** to explore the "Unknown" (The Fog of War) and return with data.
 *   **[The Drone Explorer](drone_explorer.md)**: A guide to autonomous navigation, sensors, and surviving entropy.
+*   **[Edge AI Computing](../../hardware/edge_compute/README.md)**: Real-time multi-stream processing at the observation point—demonstrating edge-vs-cloud architecture trade-offs and bandwidth optimization through local inference.
+*   **Multi-Camera Consensus**: When multiple observers (cameras) view the same space, truth emerges through coordinate fusion and spatial clustering—operationalizing the Byzantine Generals Problem in physical space.
 
 ### 4. Architectural Principle: Local-First Sovereignty
 The Sovereign Observer owns their own instrument. **Local-first** is the architectural principle that places the primary copy of data on the user's device—not the cloud. The server is a mirror, not the master.
@@ -60,7 +62,10 @@ Observation is the **Metal** phase of the Wuxing cycle—the rigorous critique a
 ## 🎯 Learning Objectives
 1.  **Understand Parallax**: How truth changes based on position.
 2.  **Exploration**: Operating autonomous agents (Drones) in hostile environments.
-3.  **Biosignatures**: Distinguishing "Signal" (Life) from "Noise" (Entropy).
-4.  **Consensus**: When two observers disagree, who is right? (The Byzantine Generals Problem).
-5.  **Data Sovereignty**: Understanding local-first architecture—why the Observer must own the instrument.
-6.  **Protocol SSOT**: Understanding that truth is determined by *following a protocol*, not by appealing to static authority.
+3.  **Multi-Observer Verification**: When multiple cameras observe the same space, truth emerges through spatial clustering and coordinate fusion—the physical manifestation of consensus protocols.
+4.  **Real-Time Inference**: Understanding the thermodynamic cost of observation—YOLO detection, homography transformation, and coordinate broadcasting all require computational energy.
+5.  **Edge-vs-Cloud Architecture**: Learning when to process data locally (edge) versus centrally (cloud)—bandwidth, latency, privacy, and cost trade-offs.
+6.  **Biosignatures**: Distinguishing "Signal" (Life) from "Noise" (Entropy).
+7.  **Consensus**: When two observers disagree, who is right? (The Byzantine Generals Problem).
+8.  **Data Sovereignty**: Understanding local-first architecture—why the Observer must own the instrument.
+9.  **Protocol SSOT**: Understanding that truth is determined by *following a protocol*, not by appealing to static authority.

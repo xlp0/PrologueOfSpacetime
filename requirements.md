@@ -10,6 +10,12 @@ The **Prologue of Spacetime** is an integrated hardware/software curriculum desi
     *   **Quantity:** 2-3 units.
     *   **Model:** Xbox 360 / V1 (Low cost, <500k IDR).
     *   **Purpose:** Multi-angle volumetric tracking and depth sensing.
+*   **IP Cameras (Hikvision/Network Cameras):**
+    *   **Purpose:** Real-time video stream processing for computer vision, RTSP protocol integration, multi-camera spatial tracking.
+    *   **Learning Focus:** Understanding network protocols, H.264/H.265 encoding, homography transformation for 2D-to-3D coordinate mapping.
+*   **LiDAR Sensors (360° 2D LiDAR):**
+    *   **Purpose:** Distance measurement and spatial point cloud generation, servo-based sweeping mechanisms.
+    *   **Learning Focus:** Spherical-to-Cartesian coordinate transformation, real-time sensor fusion, trigonometric spatial mapping.
 *   **Microphones:** 
     *   **Purpose:** Audio triangulation and sound wave detection (Time/Music pillar).
     *   **Integration:** Must support spatial audio processing.
@@ -17,7 +23,8 @@ The **Prologue of Spacetime** is an integrated hardware/software curriculum desi
 ### 2.2 Microcontrollers & IoT
 *   **ESP32 Units:**
     *   **Quantity:** "A bunch" (Scalable tracking for objects).
-    *   **Purpose:** Connecting physical retail objects to the digital system (IoT).
+    *   **Purpose:** Connecting physical retail objects to the digital system (IoT), LiDAR servo control, serial communication protocols.
+    *   **Learning Focus:** UART communication, FreeRTOS task scheduling, hardware PWM for servo control.
 
 ### 2.3 Robotics & Drones
 *   **Drones:**
@@ -39,6 +46,9 @@ The **Prologue of Spacetime** is an integrated hardware/software curriculum desi
     *   **Network:** 2.5Gbps Ethernet.
     *   **Storage:** 48TB NAS/SSD capability.
     *   **Role:** Local data processing, "Game Server."
+*   **Edge AI Computing (NVIDIA Jetson / Raspberry Pi):**
+    *   **Purpose:** On-device AI inference, multi-stream video processing, edge-to-cloud architecture.
+    *   **Learning Focus:** DeepStream SDK, TensorRT optimization, edge compute strategy, bandwidth reduction through local processing.
 *   **Wi-Fi:**
     *   Custom Antennas for Long-Distance Peer-to-Peer connectivity.
 
@@ -46,7 +56,10 @@ The **Prologue of Spacetime** is an integrated hardware/software curriculum desi
 
 ### 3.1 Computer Vision & AI
 *   **Multi-Camera Triangulation:** Bundle adjustment and epipolar geometry (OpenCV).
-*   **Object Tracking:** YOLOv8 for person detection and Re-ID (Histograms/Features).
+*   **Object Tracking:** YOLOv8/YOLOv11 for person detection and Re-ID (Histograms/Features).
+*   **Homography & Inverse Perspective Mapping:** 2D pixel-to-3D floor coordinate transformation using perspective matrices.
+*   **ONNX Runtime:** Model optimization for CPU inference, static graph execution for edge devices.
+*   **Sensor Fusion:** Combining RGB camera data with LiDAR point clouds for spatial tracking.
 *   **Observability:** Tools to visualize "latent" errors (Ghost detection).
 
 ### 3.2 Fabrication Software
@@ -62,6 +75,9 @@ The **Prologue of Spacetime** is an integrated hardware/software curriculum desi
     *   **Pedagogical Value:** Demonstrates compositional morphisms—each stage preserves essential properties while transforming dimensionality
 
 ### 3.3 Communication
+*   **Streaming Protocols:** RTSP, HLS, WebRTC for low-latency video transmission.
+*   **Media Servers:** MediaMTX for stream transcoding and multi-protocol broadcasting.
+*   **WebSocket:** Real-time bidirectional communication for sensor telemetry and tracking data.
 *   **Push Notifications:** VAPID implementation for real-time browser updates.
 *   **Zero Trust Logic:** Integration of Identity/Key logic for access control.
 

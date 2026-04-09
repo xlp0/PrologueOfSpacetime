@@ -19,10 +19,12 @@ The "Shape" is the fundamental unit of Geometry. In our curriculum, we move beyo
 To understand abstract topology, we must make it physical. We use **3D Printing** to "reify" (make real) our abstract types.
 *   **[Topology & 3D Printing](topology_printing.md)**: A guide to slicing, non-Euclidean geometry, and physicalizing code.
 
-### 3. Hardware Integration: The Perceiver (Xbox Kinect)
+### 3. Hardware Integration: The Perceiver (Xbox Kinect & IP Cameras)
 To define a Shape, we must first **observe** it. The Printer writes space; the Kinect reads space. They are dual operations.
 *   **[Depth Sensing & Kinect](depth_sensing_kinect.md)**: A guide to structured light, depth maps, skeleton tracking, and the Arithmetization of Space.
-*   **The Duality**: `Kinect (Space → Type)` is the inverse of `Printer (Type → Space)`. Together they close the round-trip of Geometry.
+*   **[IP Camera Spatial Tracking](../../hardware/ip_camera/README.md)**: Network cameras for real-time spatial tracking, homography transformation, and multi-camera coordinate fusion.
+*   **[LiDAR Point Cloud Generation](../../hardware/lidar/shopper_analytics_lidar.md)**: 360° distance measurement and spherical-to-Cartesian transformation for 3D spatial mapping.
+*   **The Duality**: `Kinect (Space → Type)` is the inverse of `Printer (Type → Space)`. Together they close the round-trip of Geometry. IP cameras and LiDAR extend this to **multi-modal spatial perception**—combining RGB, depth, and distance into unified coordinate systems.
 
 ### 4. Foundational Connections
 
@@ -39,5 +41,7 @@ Geometry operationalizes the **Universal Properties** of Coproduct ($A + B$, cho
 1.  **Understand Topology**: How connectedness matters more than distance.
 2.  **Fabrication**: Learning to operate the "Reifier" (3D Printer).
 3.  **Depth Perception**: Learning to operate the "Perceiver" (Xbox Kinect) for spatial sensing and 3D reconstruction.
-4.  **Spatial Logic**: Defining boundaries that are enforceable (Smart Contracts).
-5.  **Type-Space Correspondence**: Understanding that Types are Spaces (HoTT) and that spatial reasoning is type-theoretic reasoning.
+4.  **Homography & Coordinate Transformation**: Understanding perspective projection and inverse mapping—converting 2D pixel coordinates to 3D real-world positions through calibration matrices.
+5.  **Multi-Modal Sensor Fusion**: Combining RGB cameras, depth sensors, and LiDAR into unified spatial coordinate systems.
+6.  **Spatial Logic**: Defining boundaries that are enforceable (Smart Contracts).
+7.  **Type-Space Correspondence**: Understanding that Types are Spaces (HoTT) and that spatial reasoning is type-theoretic reasoning.
