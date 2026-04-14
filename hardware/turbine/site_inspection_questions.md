@@ -61,10 +61,10 @@
 
 ### 6. Reverse Osmosis Fouling Detection (Deteksi Fouling RO)
 
-**English:** To detect sudden Reverse Osmosis (RO) fouling, where are their existing physical pressure gauges located across the membranes? Can we replace them or add an electronic Differential Pressure (DP) Transmitter without causing a system shutdown?
+**English:** To detect sudden Reverse Osmosis (RO) fouling, where are their existing physical pressure gauges located across the membranes? Can we replace them or add an electronic Differential Pressure (DP) Transmitter in parallel without causing a system shutdown?
 *(If possible, answering in English would be great, but it is completely okay to use Bahasa Indonesia. If they don't have this information right now, no worries, we will check it on-site!)*
 
-**Bahasa Indonesia:** Untuk mendeteksi *fouling* Reverse Osmosis (RO) secara mendadak, di mana persisnya letak pengukur tekanan (*pressure gauge*) fisik mereka saat ini? Bisakah kita mengganti atau menambahkan *DP Transmitter* elektronik tanpa harus mematikan mesin penyaringan?
+**Bahasa Indonesia:** Untuk mendeteksi *fouling* Reverse Osmosis (RO) secara mendadak, di mana persisnya letak pengukur tekanan (*pressure gauge*) fisik mereka saat ini? Bisakah kita mengganti atau menambahkan *DP Transmitter* elektronik secara paralel (berdampingan) tanpa harus mematikan mesin penyaringan?
 *(Jika memungkinkan, tolong jawab dalam bahasa Inggris, tetapi tidak apa-apa jika ingin menjawab dalam bahasa Indonesia. Jika informasi ini belum tersedia, tidak apa-apa, kami akan mengeceknya langsung di lapangan!)*
 
 ---
