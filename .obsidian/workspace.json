@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc9cb18c6a09252a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/workflows/execution_strategy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "execution_strategy"
-            }
-          },
-          {
             "id": "453ed8a102cdd415",
             "type": "leaf",
             "state": {
@@ -209,27 +195,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "fc9cb18c6a09252a",
+  "active": "453ed8a102cdd415",
   "lastOpenFiles": [
+    "docs/toycar/planning.md",
+    "docs/solar_rc_toy_car_chassis.md",
+    "docs/toycar/solar_rc_toy_car_chassis.tex",
+    "docs/toycar/solar_rc_toy_car_chassis.pdf",
+    "docs/toycar/solar_rc_toy_car_chassis.out",
+    "docs/toycar/solar_rc_toy_car_chassis.md",
+    "docs/toycar/solar_rc_toy_car_chassis.log",
+    "docs/toycar/solar_rc_toy_car_chassis.aux",
+    "docs/toycar",
+    "hardware/turbine/site_inspection_questions.md",
+    "hardware/turbine/site_inspection_preparation.md",
+    "hardware/turbine/site_inspection_agenda.md",
+    "docs/solar_rc_toy_car_chassis_formatted.pdf",
+    "docs/solar_rc_toy_car_chassis_formatted.md",
+    "docs/latex_style.css",
+    "docs/solar_rc_toy_car_chassis.tex",
+    "docs/solar_rc_toy_car_chassis.pdf",
+    "docs/Prologue_Conceptual_Digest.md",
+    "docs/workflows/execution_strategy.md",
     "docs/The Five Dining Philosophers.md",
     "docs/Residential_Power_Setup_Budget.md",
-    "docs/workflows/openclaw_memory_scripts/openclaw-indexer.path",
-    "docs/workflows/openclaw_memory_scripts/openclaw-indexer.service",
-    "docs/workflows/openclaw_memory_scripts/skill_document_search.json",
-    "docs/workflows/openclaw_memory_scripts/doc_search.py",
-    "docs/workflows/openclaw_memory_scripts",
     "docs/workflows/openclaw_local_memory_setup.md",
     "docs/workflows/inventory_management.md",
     "docs/duwei_workshop_plan.md",
     "docs/hott_ssot_reference.md",
-    "hardware/turbine/turbine_stand.stl",
-    "hardware/turbine/turbine_stand.scad",
     "README.md",
     "docs/game_design/story_chapters_overview.md",
     "hardware/drone/README.md",
-    "hardware/drone/chassis.scad",
-    "hardware/drone",
-    "hardware/turbine/turbine_generator.scad",
     "hardware/telescope/README.md",
     "hardware/turbine/README.md",
     "hardware/vr_lenses/README.md",
@@ -237,15 +232,6 @@
     "docs/BBS_Activities/Session 7, 8, 9 Team Development Guide.md",
     "docs/BBS_Activities/Session 5 IoT Conversational Interfaces Guide.md",
     "docs/BBS_Activities/Session 4 GitHub Guide & Project Planning Guide.md",
-    "docs/BBS_Activities/Session 3 BMAD-Method Activity Guide.md",
-    "docs/BBS_Activities/Session 2 PKC Deployment Activity Guide.md",
-    "docs/BBS_Activities/Session 12 Graduation Guide.md",
-    "docs/BBS_Activities/Session 11 Final Showcase Guide.md",
-    "docs/BBS_Activities/Session 10 Showcase Preparation Guide.md",
-    "docs/BBS_Activities/Session 1 Team Formation Activity Guide.md",
-    "chapters/12_Calendar_Coordination/digital_sundial.md",
-    "hardware/oscilloscope/README.md",
-    "docs/presentation_plan.md",
-    "docs/todos/TODO_2026_02_16.md"
+    "docs/BBS_Activities/Session 3 BMAD-Method Activity Guide.md"
   ]
 }
