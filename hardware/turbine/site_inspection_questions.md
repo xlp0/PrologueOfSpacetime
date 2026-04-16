@@ -109,13 +109,13 @@
 
 ---
 
-### 11. Existing Sensor Performance & Limitations (Kinerja & Keterbatasan Sensor Saat Ini)
+### 11. Existing Sensor Performance & Accuracy Triage (Kendala Akurasi Sensor & Triage)
 
-**English:** For the sensors that are currently installed (such as the existing pressure sensors), do you experience any frequent inaccuracy, uncertainty, or limited detection/sampling rates? Also, are there any specific sensors where operators frequently forget to write down the data manually?
-*(If possible, answering in English would be great, but it is completely okay to use Bahasa Indonesia. If they don't have this information right now, no worries, we will check it on-site!)*
+**English:** For the sensors currently installed (like existing pressure/flow sensors), are there any pieces of equipment giving you repeatedly inaccurate or fluctuating data? If yes, could you describe *exactly what the symptom is* and *why* you suspect it is inaccurate?
+*(We want to know this beforehand so our engineering team can research the common causes online and send you a short list of things to physically check first. If you still can't find the issue, we will make it a priority to physically inspect that specific sensor during our site visit!)*
 
-**Bahasa Indonesia:** Untuk sensor-sensor yang sudah terpasang saat ini (seperti sensor tekanan (*pressure sensor*)), apakah Anda sering mengalami masalah ketidakakuratan, ketidakpastian data, atau tingkat deteksi/*sampling* yang terbatas? Selain itu, apakah ada sensor tertentu di mana operator sering lupa mencatat datanya secara manual?
-*(Jika memungkinkan, tolong jawab dalam bahasa Inggris, tetapi tidak apa-apa jika ingin menjawab dalam bahasa Indonesia. Jika informasi ini belum tersedia, tidak apa-apa, kami akan mengeceknya langsung di lapangan!)*
+**Bahasa Indonesia:** Untuk sensor-sensor yang sudah terpasang saat ini (seperti sensor *pressure* atau *flow*), apakah ada perangkat yang sering memberikan data yang tidak akurat, berfluktuasi secara aneh, atau lamban? Jika ada, bisakah Anda mendeskripsikan *apa gejala pastinya* dan *mengapa* Anda curiga bahwa data tersebut tidak akurat?
+*(Kami ingin mengetahui hal ini sebelumnya agar tim teknis kami dapat meneliti penyebab umumnya secara online dan mengirimkan daftar hal yang bisa Anda periksa terlebih dahulu. Jika kendala belum ditemukan, kami akan menjadikannya prioritas untuk diperiksa secara langsung saat kunjungan lapangan!)*
 
 ---
 
