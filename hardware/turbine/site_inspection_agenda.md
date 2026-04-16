@@ -31,3 +31,11 @@
 
 ### 5. Wrap-Up & Final Sensor Suggestion Approval
 * **Goal:** Review the physical findings and finalize the hardware procurement list with Rizky and the AI Team.
+
+### 6. Formal Test Case Logistics (Simulation Walkthrough)
+* **Goal:** Understand how to physically execute the requested "Trial Lapangan" (Field Trials) safely without disrupting the plant.
+* **Make Sure/Check:**
+  * **Dosing & Valve Simulation:** Where and how can we safely change the chemical dosing pump settings and physically adjust the RO permeate vs. reject valves to test the AI's continuous recommendations?
+  * **Mixbed Regeneration Testing:** Who on the team is authorized to simulate a higher Mixbed output to verify the AI's regeneration schedule warnings?
+  * **Transfer Pump Trip Signal:** Identify exactly how our system will physically interface with the PLCs (New and Existing) to send a "stop supply / trip signal" to the Transfer Pump (or Pump SPRINT) in case of critical pH/Conductivity/Silica alarms (low-low / high-high).
+  * **Network Delay & Degradation:** Plan how we will coordinate the "Missing/Noisy Data" simulation (e.g., unplugging sensors temporarily) and verify the 1-second latency requirement against the existing DCS.

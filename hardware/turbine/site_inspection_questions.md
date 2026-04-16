@@ -116,3 +116,25 @@
 
 **Bahasa Indonesia:** Untuk sensor-sensor yang sudah terpasang saat ini (seperti sensor tekanan (*pressure sensor*)), apakah Anda sering mengalami masalah ketidakakuratan, ketidakpastian data, atau tingkat deteksi/*sampling* yang terbatas? Selain itu, apakah ada sensor tertentu di mana operator sering lupa mencatat datanya secara manual?
 *(Jika memungkinkan, tolong jawab dalam bahasa Inggris, tetapi tidak apa-apa jika ingin menjawab dalam bahasa Indonesia. Jika informasi ini belum tersedia, tidak apa-apa, kami akan mengeceknya langsung di lapangan!)*
+
+---
+
+## Part 3: AI Validation Test Cases & System Architecture
+
+### 12. Simulating Out of Spec Limits & Transfer Pump Trip (Simulasi Trip Signal)
+
+**English:** According to Test Case #5 from the presentation, you will physically simulate "out of spec" demin water (pH, conductivity, silica) so our system can send a low-low/high-high alarm and an immediate trip signal to stop supply. Which exact controller (the New PLC or the Existing PLC) will our system connect to in order to successfully push this trip signal to the Transfer Pump/Pump SPRINT?
+*(If possible, answering in English would be great, but it is completely okay to use Bahasa Indonesia. If they don't have this information right now, no worries, we will check it on-site!)*
+
+**Bahasa Indonesia:** Berdasarkan Test Case #5, Anda berencana untuk menginjeksikan atau mensimulasikan air demin di luar spesifikasi sehingga sistem kami dapat mengirim alarm ekstrim dan sinyal *trip* untuk menghentikan suplai air. Secara fisik, ke *controller* mana (PLC Baru atau PLC Existing) sistem kami harus terhubung untuk melancarkan sinyal *trip* ke *Transfer Pump/Pump SPRINT*?
+*(Jika memungkinkan, tolong jawab dalam bahasa Inggris, tetapi tidak apa-apa jika ingin menjawab dalam bahasa Indonesia. Jika informasi ini belum tersedia, tidak apa-apa, kami akan mengeceknya langsung di lapangan!)*
+
+---
+
+### 13. AI vs DCS Latency & Sync Requirement (Perbandingan dengan DCS Delay <= 1 Detik)
+
+**English:** For Test Cases #7 and #8, we must compare our new AI Dashboard directly alongside your DCS in real-time, achieving <= 1 second delay and <10% false alarms. Since we need near-instant synchronization, what communication protocol does your DCS and existing PLC use natively (e.g. Modbus TCP, PROFINET, OPC-UA)?
+*(If possible, answering in English would be great, but it is completely okay to use Bahasa Indonesia. If they don't have this information right now, no worries, we will check it on-site!)*
+
+**Bahasa Indonesia:** Untuk Test Case #7 dan #8, kita diharuskan untuk membandingkan *Dashboard AI* kami berdampingan dengan DCS Anda secara *real-time* dengan persyaratan *delay* <= 1 detik dan tingkat *false alarm* <10%. Mengingat kebutuhan sinkronisasi yang nyaris instan, protokol komunikasi apa yang *DCS* dan PLC *existing* Anda gunakan (misalnya Modbus TCP, PROFINET, OPC-UA)?
+*(Jika memungkinkan, tolong jawab dalam bahasa Inggris, tetapi tidak apa-apa jika ingin menjawab dalam bahasa Indonesia. Jika informasi ini belum tersedia, tidak apa-apa, kami akan mengeceknya langsung di lapangan!)*
