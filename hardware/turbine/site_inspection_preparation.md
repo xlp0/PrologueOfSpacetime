@@ -26,7 +26,7 @@
 ### A. Water Treatment Plant (WTP)
 *Target: Predict raw water quality, optimize chemical dosing real-time, detect RO fouling early.*
 - **Sensors to Identify/Plan:**
-  - **Water Quality Quality:** pH Meter, Turbidimeter, Silica Analyzer, Conductivity Sensor.
+  - **Water Quality:** pH Meter, Turbidimeter, Conductivity Sensor. *(Note: Silica Analyzer is already online during water processing, so just focus on DCS/PLC integration rather than sizing hardware).*
   - **Flow & Pressure:** DP Transmitter, Pressure Transmitter, Magmeter/Ultrasonic flow meters, Coriolis/Magnetic flow meter (small scale for dosing line).
 - **Inspection Checklist:**
   - [ ] **Upstream Water:** Where can we physically tap into the line to measure pH, Conductivity, and Turbidity? *(Note: Fe, Manganese, Hardness will likely remain manual lab inputs).*

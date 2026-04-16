@@ -49,7 +49,7 @@ We are integrating the core philosophical and narrative elements of Peter Watts'
 *   **Game Function**: **Infrastructure & Hardware**.
 *   **Tool**: **Kubernetes & IoT Sensors (Oscilloscope)**. Isaac deals with the "Meat" of the system.
 *   **HoTT Role**: Grounds the logic in **Physical Reality** (The Base Space).
-*   **Hardware Project**: **Oscilloscope (Arduino)** & **Microscope**.
+*   **Hardware Project**: **Oscilloscope (Arduino)** & **Microscope (Medical Examination Device)**.
 
 ### E. The Soldier (Major Amanda Bates) -> **The Security Officer**
 *   **Bio**: Military precision. "Technology implies belligerence."
@@ -70,7 +70,7 @@ To properly execute this philosophy, we must **build our own senses** (IoT).
 *   **VR Lenses**: The "Synthesist's Eyes". Seeing the raw data in 3D.
 *   **Oscilloscope (Arduino)**: The "Biologist's Hands". Touching the raw voltage of the machine.
 *   **Telescope**: Looking outward (Astronomy/Quadrivium).
-*   **Microscope**: Looking inward (Biology/Quadrivium).
+*   **Microscope (Medical Examination Device)**: Looking inward (Biology/Astrobiology/Quadrivium). Integrating optical sensors and biometrics to study cellular architecture and extremophiles.
 
 ## 5. The Narrative Hook
 "The Self is a bottleneck. To survive the End of the World (Cloud Collapse), you must evolve past it. You must become the Machine. You must build a system so perfect that *you* are no longer needed to run it."
@@ -82,5 +82,5 @@ How do we teach students to survive the **End of the World** (System Collapse)?
 *   **The Toolset**:
     *   **3D Printing (Manufacturing)**: You need the ability to print tools, housings, and replacement parts. You cannot order from Amazon.
     *   **Electronics (Arduino/Oscilloscope)**: You need to understand electricity and logic gates to build communication devices.
-    *   **Optics (Telescope/Microscope)**: You need to see the enemy coming (Telescope) and the disease spreading (Microscope).
+    *   **Optics (Telescope/Microscope)**: You need to see the enemy coming (Telescope) and the disease spreading (Microscope / Medical Device).
 *   **The Goal**: To be a **Full-Stack Survivor**. Someone who can write code *and* solder a circuit board. This is why we build the **Oscilloscope** and **Drone**.
