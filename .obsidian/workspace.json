@@ -197,6 +197,7 @@
   },
   "active": "453ed8a102cdd415",
   "lastOpenFiles": [
+    "docs/docs_shopper_analytics/build_toy_car.md",
     "docs/toycar/planning.md",
     "docs/solar_rc_toy_car_chassis.md",
     "docs/toycar/solar_rc_toy_car_chassis.tex",
@@ -231,7 +232,6 @@
     "docs/game_design/blindsight_integration.md",
     "docs/BBS_Activities/Session 7, 8, 9 Team Development Guide.md",
     "docs/BBS_Activities/Session 5 IoT Conversational Interfaces Guide.md",
-    "docs/BBS_Activities/Session 4 GitHub Guide & Project Planning Guide.md",
-    "docs/BBS_Activities/Session 3 BMAD-Method Activity Guide.md"
+    "docs/BBS_Activities/Session 4 GitHub Guide & Project Planning Guide.md"
   ]
 }
