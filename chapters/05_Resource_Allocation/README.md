@@ -31,6 +31,7 @@ This is the same challenge faced in LLM token budgets, memory allocation, and en
 We apply resource allocation to **Physical Energy**.
 *   **[IoT Motor Control](iot_motor_control.md)**: Allocating voltage to motors to animate the Ch 02 Frame.
 *   **[Nitinol VR Goggles](nitinol_vr_goggles.md)**: Using "Memory Metal" to create silent, organic actuation (Synthetic Muscle). This embodies **Distributed Manufacturing**; by establishing a **viable cost structure**, conversational programming drives localized, software-defined supply chains cheaply and flexibly.
+*   **[Solar RC Toy Car](../../docs/docs_shopper_analytics/build_toy_car.md)**: Allocating physical solar energy to a DC dynamo motor to transmit kinetic power through a 3D-printed gear drive.
 
 
 

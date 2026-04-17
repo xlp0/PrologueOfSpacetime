@@ -32,6 +32,7 @@ void moveForward(int speed) {
 
 You have successfully wired the motors to the 3D printed frame. It can spin, but it cannot coordinate.
 *   **Task**: Flash the `motor_test.ino` sketch to verify movement.
+*   **Application**: The [Solar RC Toy Car](../../docs/docs_shopper_analytics/build_toy_car.md) is a practical application of this. A dynamo (DC motor) is mounted to a 3D-printed chassis, wired to solar panels, and driven to actuate a 10-tooth to 23-tooth gear assembly.
 
 ### Next Step: Connectivity
 An isolated robot is just a toy. To become a **Node**, it must join the Network.
