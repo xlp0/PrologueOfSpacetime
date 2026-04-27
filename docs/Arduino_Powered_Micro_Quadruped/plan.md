@@ -1,60 +1,53 @@
-# How to Make Quadruped Spider Robot (using Arduino and 3D parts)
+# Project Plan: Arduino Powered Micro Quadruped
 
-## 1. Project Overview
-This project involves building a 4-legged spider robot (quadruped) that utilizes precise calculations and pre-programmed leg sequences for movement. The mechanical parts are custom-designed for 3D printing, specifically optimized for SLA (Resin) printing to ensure dimensional accuracy and smooth surface finishing.
+## 1. Procurement
 
-## 2. Bill of Materials (BOM)
+**Hardware Components:**
+* 12x SG90 Servo Motor
+* 1x Arduino Nano V3.0 ATMEGA328P Null
+* 1x 100uF 16V Plugin D5xL7mm Aluminum Electrolytic Capacitors KS107M016D07RR0VH2FP0 CX(承兴)
+* 12x 2.54mm Straight 1x3P Plugin Pin Male Headers 2.54-1*3P BOOMELE
+* 1x Latching Straight DPDT Plugin Push Switches PS-5850A-6PL G-Switch
+* 1x Straight 5mm Plugin Screw Terminal DB301V-5.0-2P DIBO
+* 1x Red Plugin D=3mm Light Emitting Diodes 204-10SURD/S530-A3-L EVERLIGHT
+* 1x Carbon Resister 330Ω Plugin Through Hole Resistors CF1/4W-330Ω±5% T CCO
+* 2x 18650 Li-ion Battery
+* 1x 18650 Battery Case 2 Slots
+* 2x 470uF 10V Plugin,D8xL7mm Aluminum Electrolytic Capacitors KS477M010F07RR0VH2FP0 CX(承兴)
+* 2x 2.54mm Straight 1x15P 15 Plugin Female Headers B-2200S15P-A120 Ckmtw
 
-### Electronics
-*   **Microcontroller:** 1x Arduino Nano V3.0 (ATmega328P)
-*   **Actuators:** 12x SG90 Servo Motors
-*   **Power Management:**
-    *   1x LDO Voltage Regulator (5V/3A) (e.g., MIC29310-5.0WT, LM1085IT-5.0)
-    *   2x 18650 Li-ion Batteries + 2-Slot Battery Case
-    *   1x 6-Pin Self-Locking Switch (8x8mm)
-    *   1x Screw Terminal Block Connector (5mm)
-*   **Capacitors:**
-    *   1x 100uF 16V Electrolytic Capacitor
-    *   2x 470uF 10V Electrolytic Capacitors
-*   **Connectors & Indicators:**
-    *   12x Male Headers (2.54mm, 1x3P)
-    *   2x Female Headers (2.54mm, 1x15P)
-    *   1x LED (3mm, Red) + 1x Resistor (330Ω)
+**Tools:**
+* Soldering Station
+* Soldering Wire
+* Wire Cutter
+* Silicone Soldering Mat
+* Isopropyl Electronics Cleaner
 
-### 3D Printed Parts (STL)
-*   **Body:** `body_d.stl` (Down), `body_u.stl` (Up)
-*   **Coxa:** `coxa_l.stl`, `coxa_r.stl`
-*   **Femur:** `femur_1.stl`
-*   **Tibia:** `tibia_l.stl`, `tibia_r.stl`
-*   **Support:** `s_hold.stl`
+## 2. 3D Printing (Mechanical Parts)
+Fabricate the mechanical parts using the provided STL files. SLA (resin) printing is highly recommended over FDM (PLA) to ensure dimensional accuracy and smooth surfaces without requiring extra sanding.
+* `body_d.stl`
+* `body_u.stl`
+* `coxa_l.stl`
+* `coxa_r.stl`
+* `femur_1.stl`
+* `tibia_l.stl`
+* `tibia_r.stl`
+* `s_hold.stl`
 
-## 3. Fabrication & Tools
+## 3. Servo Calibration
+*Important:* Always remove the Arduino Nano board from the main circuit before uploading any code.
+1. Connect the 12 SG90 servo motors to the Arduino Nano.
+2. Upload the `quadruped_legs_correction.ino` code to the Arduino.
+3. Wait for the code to rotate and lock all servo positions to exactly 90 degrees. 
 
-### Recommended Tools
-*   Soldering Station & Wire
-*   Wire Cutter
-*   Silicone Soldering Mat
-*   Isopropyl Electronics Cleaner
+## 4. Hardware Assembly
+1. With the servos locked at 90 degrees, attach the servo rocker arms to the 3D-printed parts. 
+2. Assemble the structural components (body, coxa, femur, and tibia).
+3. Solder the electronic components based on the provided schematic layout (`Schematic_SpiderRobotNanoBoard_2023-03-02.png`).
 
-### 3D Printing Note
-SLA (Resin) printing is highly recommended for this project. FDM (PLA) prints may require significant sanding and post-processing to ensure that moving mechanical parts fit correctly and move smoothly.
-
-## 4. Assembly & Software Setup
-
-### Phase 1: Servo Calibration (90° Centering)
-1.  **Important:** Before assembling the rocker arms, all servos must be centered.
-2.  Upload `quadruped_legs_correction.ino` to the Arduino Nano.
-3.  This code rotates all servos to the 90-degree position.
-4.  Once centered, attach the servo rocker arms.
-
-### Phase 2: Main Programming
-1.  **Library Requirement:** Install the **FlexiTimer2** library ([GitHub Link](https://github.com/wimleers/flexitimer2)).
-2.  Upload the main source code: `quadruped_spider_robot_code.ino`.
-3.  **Safety Note:** Remove the Nano board from the circuit/shield while uploading code to prevent power conflicts.
-
-### Phase 3: Hardware Verification
-*   Check the servo motor matching and verify that the pin numbers in the code correspond to the physical connections on the board.
-
-## 5. Resources
-*   **Tutorial:** [Instructables Guide](https://www.instructables.com/Arduino-Powered-Micro-Quadruped)
-*   **Service & Files:** [PCBWay Project Page](https://www.pcbway.com/project/shareproject/)
+## 5. Final Programming
+1. Download and add the `FlexiTimer2` library to your Arduino IDE.
+2. Verify that the servo motor connections and pin numbers match the assigned legs in the code.
+3. Remove the Arduino Nano board from the circuit.
+4. Upload the main source code (`quadruped_spider_robot_code.ino`).
+5. Reconnect the Arduino Nano, insert the batteries, and power on the robot.
