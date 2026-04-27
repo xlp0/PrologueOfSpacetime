@@ -69,6 +69,7 @@ A compact, robust, and low-cost quadruped robot designed for experimenting with 
 2.  Upload the initialization code to set all servos to 90°.
 3.  Attach mechanical links only after servos are powered and centered.
 4.  Fine-tune offsets in the `zero_positions` array in `Quadruped.h` until legs are perfectly straight.
+5.  ***Tutorial:** https://www.instructables.com/Arduino-Powered-Micro-Quadruped
 
 ### Gait Control
 *   The system uses **Inverse Kinematics (IK)**. 
