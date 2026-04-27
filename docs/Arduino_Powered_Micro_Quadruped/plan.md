@@ -1,80 +1,60 @@
-# Project Plan: Arduino Powered Micro Quadruped
+# How to Make Quadruped Spider Robot (using Arduino and 3D parts)
 
 ## 1. Project Overview
-A compact, robust, and low-cost quadruped robot designed for experimenting with complex gaits and dynamic locomotion using Inverse Kinematics (IK).
+This project involves building a 4-legged spider robot (quadruped) that utilizes precise calculations and pre-programmed leg sequences for movement. The mechanical parts are custom-designed for 3D printing, specifically optimized for SLA (Resin) printing to ensure dimensional accuracy and smooth surface finishing.
 
 ## 2. Bill of Materials (BOM)
 
 ### Electronics
-*   **Microcontroller:** 1x Arduino Uno
-*   **Actuators:** 12x TowerPro MG90S Micro Servos (Metal gear recommended)
-*   **Shield:** 1x Arduino Sensor Shield (V5 preferred for external power ports)
-*   **Power:** External 5V power supply (Servos should not draw power directly from the Arduino 5V pin)
-*   **USB:** USB cable for programming
+*   **Microcontroller:** 1x Arduino Nano V3.0 (ATmega328P)
+*   **Actuators:** 12x SG90 Servo Motors
+*   **Power Management:**
+    *   1x LDO Voltage Regulator (5V/3A) (e.g., MIC29310-5.0WT, LM1085IT-5.0)
+    *   2x 18650 Li-ion Batteries + 2-Slot Battery Case
+    *   1x 6-Pin Self-Locking Switch (8x8mm)
+    *   1x Screw Terminal Block Connector (5mm)
+*   **Capacitors:**
+    *   1x 100uF 16V Electrolytic Capacitor
+    *   2x 470uF 10V Electrolytic Capacitors
+*   **Connectors & Indicators:**
+    *   12x Male Headers (2.54mm, 1x3P)
+    *   2x Female Headers (2.54mm, 1x15P)
+    *   1x LED (3mm, Red) + 1x Resistor (330Ω)
 
-### Hardware & Tools
-*   **3D Printer & Filament:** PLA (approx. 20 hours print time)
-*   **Fasteners:** Standard M2/M3 screws (included with servos or sourced separately)
+### 3D Printed Parts (STL)
+*   **Body:** `body_d.stl` (Down), `body_u.stl` (Up)
+*   **Coxa:** `coxa_l.stl`, `coxa_r.stl`
+*   **Femur:** `femur_1.stl`
+*   **Tibia:** `tibia_l.stl`, `tibia_r.stl`
+*   **Support:** `s_hold.stl`
 
-## 3. Digital Fabrication (3D Printing)
+## 3. Fabrication & Tools
 
-### Print Settings
-*   **Infill:** 40%
-*   **Perimeters:** 2
-*   **Layer Height:** 0.1mm
-*   **Nozzle:** 0.4mm
+### Recommended Tools
+*   Soldering Station & Wire
+*   Wire Cutter
+*   Silicone Soldering Mat
+*   Isopropyl Electronics Cleaner
 
-### Component List (22 Parts Total)
-*   `leg1` (4x)
-*   `leg2` (4x) + `leg2_cover` (4x)
-*   `leg3` (2x) + `leg3_cover` (2x)
-*   `leg3_mirror` (2x) + `leg3_mirror_cover` (2x)
-*   `body` (1x)
-*   `wire_cover` (1x)
-*   *Optional:* `servo_horn_spacer` (24x) if screws are too long.
+### 3D Printing Note
+SLA (Resin) printing is highly recommended for this project. FDM (PLA) prints may require significant sanding and post-processing to ensure that moving mechanical parts fit correctly and move smoothly.
 
-## 4. Mechanical Assembly
+## 4. Assembly & Software Setup
 
-### Phase 1: Link Preparation
-1.  Insert servo horns into `leg2` and secure with `leg2_cover`.
-2.  Mount MG90S servos into `leg1`.
+### Phase 1: Servo Calibration (90° Centering)
+1.  **Important:** Before assembling the rocker arms, all servos must be centered.
+2.  Upload `quadruped_legs_correction.ino` to the Arduino Nano.
+3.  This code rotates all servos to the 90-degree position.
+4.  Once centered, attach the servo rocker arms.
 
-### Phase 2: Leg Assembly
-1.  Insert servo horns into `leg3` and `leg3_mirror` components.
-2.  Route wires from `leg1` servo through management slots in `leg3`.
-3.  Secure `leg3_cover` and mount the second servo into the `leg3` assembly.
+### Phase 2: Main Programming
+1.  **Library Requirement:** Install the **FlexiTimer2** library ([GitHub Link](https://github.com/wimleers/flexitimer2)).
+2.  Upload the main source code: `quadruped_spider_robot_code.ino`.
+3.  **Safety Note:** Remove the Nano board from the circuit/shield while uploading code to prevent power conflicts.
 
-### Phase 3: Body & Final Integration
-1.  Mount 4 servos to the `body` frame using internal screws to avoid leg interference.
-2.  Connect the `leg3` assemblies to the body servos.
-3.  Connect `leg2` links to join the body/thigh servos to the knee (`leg1`) servos.
+### Phase 3: Hardware Verification
+*   Check the servo motor matching and verify that the pin numbers in the code correspond to the physical connections on the board.
 
-## 5. Electronics & Wiring
-
-### Power Modification
-*   **Critical:** If using a Sensor Shield without a dedicated external power port, bend the shield's 5V pin so it does not connect to the Arduino. Provide 5V external power directly to the shield to prevent damaging the Arduino.
-
-### Pin Mapping
-| Leg | Hip 1 (Body) | Hip 2 (Thigh) | Knee |
-| :--- | :--- | :--- | :--- |
-| **FL (Front Left)** | Pin 7 | Pin 6 | Pin 5 |
-| **FR (Front Right)** | Pin 4 | Pin 3 | Pin 2 |
-| **BL (Back Left)** | Pin 13 | Pin 12 | Pin 11 |
-| **BR (Back Right)** | Pin 10 | Pin 8 | Pin 9 |
-
-## 6. Software & Calibration
-
-### Initial Calibration (Zeroing)
-1.  Download source code: [GitHub Repository](https://github.com/kousheekc/Micro-Quadruped-Robot)
-2.  Upload the initialization code to set all servos to 90°.
-3.  Attach mechanical links only after servos are powered and centered.
-4.  Fine-tune offsets in the `zero_positions` array in `Quadruped.h` until legs are perfectly straight.
-5.  ***Tutorial:** https://www.instructables.com/Arduino-Powered-Micro-Quadruped
-
-### Gait Control
-*   The system uses **Inverse Kinematics (IK)**. 
-*   Use the `pos(x, y, z)` function to define foot coordinates; the library will automatically calculate the required joint angles.
-
-## 7. Future Scalability
-*   **Sensors:** Add IMU (MPU6050) for balance or Ultrasonic/LiDAR for obstacle avoidance.
-*   **Manipulators:** Add a micro-gripper to the top mounting points.
+## 5. Resources
+*   **Tutorial:** [Instructables Guide](https://www.instructables.com/Arduino-Powered-Micro-Quadruped)
+*   **Service & Files:** [PCBWay Project Page](https://www.pcbway.com/project/shareproject/)
