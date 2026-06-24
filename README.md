@@ -247,6 +247,19 @@ This demonstrates geometry (homography transformation), observation (multi-camer
 * **[`Cubical Logic Model — Monadic Patterns and Consensus.md`](docs/Cubical%20Logic%20Model%20—%20Monadic%20Patterns%20and%20Consensus.md)**: The formal definition of the CLM.
 * **[`Board Games as Pedagogical Engines`](docs/gameboard/Board_Games_as_Pedagogical_Engines.md)**: Authenticated board games (Monopoly, Chess, Go) as microcosms for teaching the Trivium × Quadrivium framework through play (CLM: `Spec + Impl + Exp`).
 
+### Core Narratives (in `docs/narrative/`)
+* **[Digital Scope](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/Digital%20Scope.md)**: Physical ESP32 signals and logical MCard catalog verification using Lenses.
+* **[Function-Number Duality](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/Function-Number%20Duality.md)**: Static numbers (Being) and dynamic functions (Becoming) unified under behavioral types and Kan extensions.
+* **[Combinatorial Species](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/Combinatorial%20Species.md)**: Joyal's functorial model of discrete structures up to symmetric group isomorphisms ($\alpha$-equivalence).
+* **[Combinatorial Species Catalog](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/Combinatorial%20Species%20Catalog.md)**: Distributed functional assemblies and self-governance platforms aligning with Levin's TAME framework.
+* **[Lambda Calculus and the Three Foundational Metrics of Representables](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/Lambda%20Calculus%20and%20the%20Three%20Foundational%20Metrics%20of%20Representables.md)**: Alonzo Church's rules mapped onto representability metrics of Space, Time, and Uncertainty.
+* **[MVP Cards Design Rationale](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/MVP%20Cards%20Design%20Rationale.md)**: Triadic architectural design (`MCard`, `PCard`, `VCard`) enabling decentralized, scale-free knowledge containers.
+* **[PKC as an Autonomous Mesh Network](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/PKC%20as%20an%20Autonomous%20Mesh%20Network.md)**: Scale-free, zero-trust network overlay architectures and DIDs.
+* **[PTR: Polynomial Type Runtime](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/PTR.md)**: The execution and verification runtime compiling algebraic, bitemporal G-Set CRDT transformations.
+* **[REPL](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/REPL.md)**: Interaction Trees and rewrite loop execution in PKC.
+* **[Judgment](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/Judgment.md)**: Bounded logic, type turnstiles, and assertion verification.
+* **[Why Three](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/narrative/Why%20Three.md)**: Simplicial topological closure and Lebesgue Number requirements for stable boundaries.
+
 ---
 
 ## 🗝 Key Concepts
@@ -343,6 +356,7 @@ This dual force—**Modularity** to divide and conquer complexity, and **Composi
 
 ### 13. Development Status & Updates
 
+* **[Weekly Changelog Index](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/changelog/README.md)**: Automatically generated weekly logs documenting changes, timestamps, and contributors chronologically.
 * **[2026-02-11: Flow State Engineering](docs/Update_History/2026-02-11_Flow_State_Engineering.md)**: Major update integrating **Faster Interactive Learning** into the core architecture. We defined "Operational Flow" for all 12 MVP Chapters, establishing that **Local-first** (Low Latency) and **Empty Schema** (Low Rigidity) are the necessary physics for the Brain Factory.
 * **[2026-02-07: The Thermodynamic Synthesis](docs/WorkingNotes_Content_Summary_2026-02-07.md)**: Integration of Maxwell's Demon, Kenosis, and Landauer's Principle into the verification architecture.
 * **[2026-02-06: The Polynomial Architecture Update](docs/Update_History/2026-02-06_Polynomial_Architecture.md)**: A major refactor integrating Boundedness, Laplace Damping, and Economic Accounting into the core MVP logic.
