@@ -21,7 +21,7 @@ Digital Synesthesia is not just individual; it is **Collective**.
     *   *Agent A*: "I feel roughness in the Payment Module."
     *   *Agent B*: "Confirming roughness. Visualizing as 'Fractured Geometry'."
 *   **The Emergence**: When the mesh reaches **Consensus**, the subjective experience becomes an **Objective Social Fact**. The "Roughness" is no longer just an opinion; it is the **Collective Perception** of the system.
-*   **Reference**: See `docs/Digital Synethesia.md` for the full theory on Agentic Workflows.
+*   **Reference**: See `docs/Digital_Synesthesia.md` for the full theory on Agentic Workflows.
 
 ## 4. Why is it the Goal? (Opportunity)
 Why do we want this? Because **Consciousness is too slow**.

@@ -1,1 +1,0 @@
-/Users/bkoo/Documents/DataVault/WorkingNotes/Hub/Tech/Prologue of Spacetime.md

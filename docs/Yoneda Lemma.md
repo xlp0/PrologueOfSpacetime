@@ -1,1 +1,0 @@
-/Users/bkoo/Documents/DataVault/WorkingNotes/Hub/Theory/Category Theory/Yoneda Lemma.md
