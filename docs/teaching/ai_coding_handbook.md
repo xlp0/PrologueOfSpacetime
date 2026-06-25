@@ -232,6 +232,72 @@ Prompt engineering asks: "what words do I type?" Context engineering asks: "what
 
 This is why professionals spend more time on tools, file selection, and context management than on prompt wording. The wording is the tip of the iceberg; the context is the rest.
 
+### 2.14 Newest Terms You Will Hear (2025-2026)
+
+The vocabulary around AI coding is still being invented. Here is a plain-language glossary of terms that have become common in the last year. You do not need to use these words to use the tools — but you will see them in docs, in changelogs, and in conversations, so it helps to know what they mean.
+
+**Harness** — (covered in §2.5) The software that wraps a raw model into a usable coding agent. opencode, Cursor, Claude Code, and Aider are all harnesses. The model is the engine; the harness is the car.
+
+**Agent** — An AI system that runs the observe-reason-act loop on its own, possibly for many steps, using tools. "Agent" is used loosely; sometimes it means the whole harness, sometimes just one run of the loop. Context usually disambiguates.
+
+**Subagent** — A secondary agent spawned by a main agent to handle an independent subtask. The subagent gets its own fresh context window, does its work, and returns a result. This keeps the main context clean and allows parallel work. See §6.4.
+
+**Skill** — (covered in §5) A packaged unit of workflow knowledge (a `SKILL.md` plus supporting files) an agent loads on demand. The skill tells the agent what to do; the agent's tools do the actual work.
+
+**MCP (Model Context Protocol)** — (covered in §4) The open standard for connecting AI tools to external systems. "USB-C for AI tools."
+
+**Tool** — Any callable capability the model can invoke: read a file, run a shell command, search the web. MCP tools are one kind; harnesses also have built-in tools.
+
+**Resource (MCP)** — A read-only data source an MCP server exposes to the model. The model can read it but not change it. Examples: a file tree, a database schema, a list of open PRs.
+
+**Prompt** — The text you send to the model. Includes the task, the context, and any tool output fed back in.
+
+**System prompt** — Instructions the harness sets (that you usually do not see) telling the model who it is, what tools it has, and how to behave. When you write an `AGENTS.md` or `.cursorrules` file, you are adding to the system prompt.
+
+**Context window** — The working memory of a session, in tokens. Everything the model "knows" about your task lives here. When it fills, older content drops out.
+
+**Context engineering** — (covered in §2.13) The practice of curating what goes into the context window, instead of just polishing the prompt wording.
+
+**Token** — The unit the model processes text in. Roughly 4 characters of English. Context windows, model pricing, and speed are all measured in tokens.
+
+**Embedding** — A vector (a list of numbers) that captures the meaning of a piece of text. Similar text has similar vectors. Used for semantic search.
+
+**RAG (Retrieval-Augmented Generation)** — (covered in §2.9) Giving the model access to a searchable knowledge base at inference time, instead of pasting everything into the prompt.
+
+**Vector database** — A store that lets you find vectors "closest" to a query vector. Used by RAG to find the most relevant documents.
+
+**Fine-tuning** — Training a model further on examples of a specific task. Almost always the wrong answer for beginners; prefer prompting and RAG.
+
+**Sampling** — How the model picks the next token: not always the most likely one. Controlled by knobs like temperature and top-p. (See §2.10.)
+
+**Temperature** — A sampling knob (0 to ~2). Lower means more predictable; higher means more random. Code work usually wants low temperature.
+
+**Chain-of-thought (CoT)** — (covered in §2.12) Asking the model to "think step by step" so it uses intermediate tokens to reason. Some models now do this automatically.
+
+**Few-shot** — (covered in §2.12) Giving the model 2-5 examples in the prompt to teach it the pattern you want.
+
+**Zero-shot** — Asking the model to do something without giving any examples. The default for most prompts.
+
+**Prompt injection** — An attack where untrusted content the agent reads (a file, a web page) contains instructions that hijack its behavior. Critical to understand if your agent reads untrusted input.
+
+**Tool call / Function call** — A structured call the model emits, asking the harness to run a specific function and feed the result back. The mechanism that lets the model "do" things.
+
+**JSON Schema** — A standard for describing the shape of JSON data. MCP tool parameters are defined as JSON Schemas, which lets the harness validate tool calls before they reach the server.
+
+**Stdio (transport)** — The most common way MCP servers run: as a local process communicating over standard input/output. The alternative is HTTP/SSE for remote servers.
+
+**Skills CLI** — A package manager for the open agent skills ecosystem. `npx skills find <query>` searches for skills; `npx skills add <package>` installs one.
+
+**Lock file** (`skills-lock.json`, `pnpm-lock.yaml`, etc.) — A file that pins the exact versions of installed packages. Makes installs reproducible across machines.
+
+**AGENTS.md / CLAUDE.md / .cursorrules** — Project-level files that add to the model's system prompt. They tell the model "this is how we work here" — naming conventions, lint commands, what not to touch. A powerful lever most beginners do not realize they have.
+
+**Knowledge graph** — A structured representation of a codebase (nodes = files, functions, classes; edges = calls, imports, contains). Some tools build one to let the agent answer "how does X work?" without reading every file. See §5.6 examples.
+
+**Eval** — A test for an AI workflow: a set of inputs and expected outputs used to measure whether a prompt or tool change made things better or worse. Professionals run evals before adopting a change; beginners trust their gut.
+
+**Guardrails** — Safety rules the harness enforces, like "ask before running shell commands" or "never edit files outside the project directory." Most harnesses ship with sensible defaults; you can tighten or loosen them.
+
 ---
 
 _Handbook continues in subsequent sections. See Table of Contents._
@@ -473,6 +539,80 @@ In opencode, skills live under `.agents/skills/<name>/SKILL.md` in the project o
 Because a skill is just files, sharing is straightforward: commit it to the repo, or publish it as a Git repo that others clone into their own `.agents/skills/`. A `skills-lock.json` pins versions for reproducibility, the same way `package-lock.json` does for npm.
 
 The same review discipline applies as for MCP servers: review a skill's instructions and scripts before running them, especially if a skill runs shell commands or makes network calls.
+
+### 5.7 Worked Examples: Real Skills and Why They Save Tokens
+
+The best way to understand skills is to look at real ones. Below are six skills (five from the global `~/.agents/skills/` directory, one from this project's `.agents/skills/`). For each: what it does, what it replaces, and roughly how many tokens it saves per session.
+
+The math is approximate — 1 line of markdown is roughly 10-15 tokens — but the shape of the saving is what matters.
+
+#### Example 1: `gitnexus-exploring` (78 lines)
+
+**What it does**: Tells the agent how to answer "how does X work in this codebase?" using the GitNexus knowledge graph — instead of reading every file.
+
+**What it replaces**: Without the skill, you would have to say: "Read the README, then look at the directory structure, then open src/, then grep for X, then read the files that mention X, then trace the calls, then summarize." Every file read is 200-2000 tokens into the context window. For a real codebase, exploring one question can burn 20,000-50,000 tokens.
+
+**Why it saves tokens**: The skill points the agent at a pre-built knowledge graph (a single JSON file with nodes and edges). The agent greps the graph for the keyword instead of reading source files. A grep result is 100-500 tokens; reading 10 source files is 10,000+ tokens. **Typical saving: 15,000-40,000 tokens per exploration task.**
+
+#### Example 2: `understand-chat` (55 lines)
+
+**What it does**: Same idea as above, for the `understand-anything` knowledge graph. Tells the agent to grep the graph JSON instead of dumping the whole file into context.
+
+**What it replaces**: Without the skill, a common beginner move is "load the whole knowledge graph into context" — but a real graph can be 50,000-500,000 tokens. That instantly fills the window.
+
+**Why it saves tokens**: The skill's instructions explicitly say "Search the file with Grep BEFORE reading it. Only read sections you need." This is the difference between 500 tokens (a grep result) and 50,000 tokens (the whole graph). **Typical saving: 40,000+ tokens per session.** Without this discipline, the session fails outright — the window cannot hold the graph.
+
+#### Example 3: `parallel-execution` (241 lines)
+
+**What it does**: Tells the agent how to spawn multiple subagents in parallel — and crucially, that all `Task` calls must be in ONE assistant message for true parallelism.
+
+**What it replaces**: Without the skill, the agent might spawn subagents one at a time, each waiting for the previous to finish. Or it might inline all the work into the main context, burning tokens on every file read.
+
+**Why it saves tokens**: Two ways. (1) Parallelism: 5 subagents running at once finish in roughly the time of 1, not 5. (2) Context isolation: each subagent does its reads in its OWN context window, then returns a short summary. The main context only sees the summaries, not the 10,000 tokens of files each subagent read. **Typical saving: 30,000-60,000 tokens in the main context** for a 5-way parallel task.
+
+#### Example 4: `youtube-video-analyst` (253 lines)
+
+**What it does**: A multi-step forensic analysis of a YouTube transcript — extract hooks, retention mechanics, emotional beats, viral patterns, and produce a structured blueprint.
+
+**What it replaces**: Without the skill, you would type out the entire analysis framework every time: "Read this transcript. Find the hooks. Identify the retention mechanics. Map the emotional journey. Extract reusable patterns. Score each element. Format as a blueprint." That is ~300 words of instructions you would repeat for every video.
+
+**Why it saves tokens**: The skill loads once (253 lines ≈ 3,000 tokens) and then applies to every video. Without it, you retype the framework each session (~3,000 tokens each time) AND risk the model forgetting a step. Over 10 videos, the skill saves 10 × 3,000 = 30,000 tokens of repeated instructions — and more importantly, gives consistent results. **Typical saving: 3,000 tokens per session after the first.**
+
+#### Example 5: `find-skills` (142 lines)
+
+**What it does**: When a user asks "how do I do X?", the skill tells the agent to search the skills registry (skills.sh) before writing custom instructions from scratch.
+
+**What it replaces**: Without the skill, the agent tries to solve the problem from scratch — often badly, reinventing a workflow that already exists as a maintained skill.
+
+**Why it saves tokens**: Two ways. (1) Reuse: an existing skill is already battle-tested; using it avoids the model's first 3-5 failed attempts (each a few thousand tokens). (2) Quality: the right skill produces correct output the first time, avoiding the retry loop entirely. **Typical saving: 10,000-30,000 tokens** by avoiding failed attempts and rework.
+
+#### Example 6: `agent-swarm` (80 lines)
+
+**What it does**: Tells the agent how to orchestrate multi-agent swarms via the Flow Nexus MCP server — initialize a swarm, spawn agents, assign tasks, monitor, scale, destroy.
+
+**What it replaces**: Without the skill, the agent has to figure out the MCP tool names (`mcp__flow-nexus__swarm_init`, `mcp__flow-nexus__agent_spawn`, etc.) by listing the server's tools and guessing the parameters. Each tool listing is 500-1,000 tokens, and wrong guesses cost a round trip.
+
+**Why it saves tokens**: The skill gives the exact tool names and parameter shapes as worked examples in markdown. The agent reads 80 lines (~1,000 tokens) and calls the tools correctly the first time, instead of listing tools, guessing, failing, and retrying. **Typical saving: 3,000-8,000 tokens** per orchestration task.
+
+### 5.8 The Pattern: Why Skills Reduce Tokens
+
+Looking at the six examples above, the token savings come from four mechanisms. This is the underlying reason skills work — understand the mechanism and you can predict when a skill will help.
+
+| Mechanism | What it does | Example skill | Saving |
+| :--- | :--- | :--- | :--- |
+| **Avoid reading the whole thing** | Point the agent at a searchable index (graph, grep, vector DB) instead of loading files | `gitnexus-exploring`, `understand-chat` | 15,000-50,000 tokens |
+| **Context isolation via subagents** | Spawn subagents with their own context; main context only sees the summary | `parallel-execution` | 30,000-60,000 tokens |
+| **Reuse a workflow instead of retyping it** | Load the framework once; apply to every future task | `youtube-video-analyst` | 3,000 tokens/session after first |
+| **Avoid failed attempts and retries** | Give exact tool names and parameter shapes as examples, so the agent gets it right first try | `find-skills`, `agent-swarm` | 3,000-30,000 tokens |
+
+The unifying principle: **a skill is a way to spend 1,000-3,000 tokens of instructions once, to save 10,000-50,000 tokens of reading, retrying, and re-typing on every session afterward.** That is why professionals author skills for any workflow they run more than twice.
+
+If you remember nothing else from this section, remember the shape of the trade:
+
+- **Without a skill**: the model reads files, guesses tool parameters, retries on failure, and you retype the workflow every time. Token cost: high and repeated.
+- **With a skill**: the model reads a short instruction file once, follows the workflow, calls tools correctly the first time. Token cost: low and one-time.
+
+That gap — often 10x or more per session — is why skills exist.
 
 ---
 
