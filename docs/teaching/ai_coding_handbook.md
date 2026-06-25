@@ -452,6 +452,38 @@ The most common mistake in authoring servers is writing tool descriptions that a
 
 If you have used OpenAI function calling or Claude tool use, you may ask: "Why do I need MCP?" The answer: you do not, for a single client. But the moment you want to share the tool across clients, or swap clients, or let a teammate use the same integration, MCP saves you from rewriting the same glue for each one. It is a portability and reuse standard, not a capability the model did not have before.
 
+### 4.9 Example MCP Servers (What People Have Built)
+
+To give you a sense of the range of things MCP servers expose, here are a few examples of servers that exist in the wild. These are illustrative — they show what is possible, not a tutorial on how to install them.
+
+- **Filesystem server** — Exposes a directory on your machine so the agent can read, write, search, and move files. The most common starter server; it gives the agent a workspace.
+
+- **GitHub server** — Exposes the GitHub API: create issues, read pull requests, search code across repos, comment on PRs, manage branches. Lets the agent operate on your project's social layer, not just the files.
+
+- **Postgres server** — Exposes a Postgres database as read-only resources (schema, tables, rows) and query tools. The agent can explore a database to answer "what does the users table look like?" or "how many signups yesterday?" without you pasting screenshots.
+
+- **PalmierPro server** — Exposes a full AI-native video editor. The agent can inspect the timeline, add and trim clips, place text overlays, generate captions from spoken audio, generate AI images and video, search the media library by what's on screen or what was said, and export the cut. This is an example of an MCP server wrapping a complex creative application — the agent becomes a video editing assistant that can drive the timeline.
+
+- **Slack server** — Exposes Slack: read channels, post messages, search history. Lets an agent summarize a channel, draft a standup, or answer "what did the team decide about X this week?"
+
+- **Puppeteer / Playwright server** — Exposes a headless browser: navigate to URLs, click elements, fill forms, take screenshots, extract text. Lets the agent do web automation — scraping, testing, form-filling — as part of a workflow.
+
+- **Fetch server** — A simple server that retrieves a URL's content and returns it as markdown. The agent can read a web page or a doc without a full browser.
+
+- **Memory server** — Exposes a persistent key-value store the agent can read and write across sessions. Useful for remembering user preferences, project context, or facts between conversations.
+
+- **SQLite server** — Like the Postgres server, but for local SQLite files. Handy for inspecting an app's local database during development.
+
+- **Brave Search / Google server** — Exposes web search. The agent can look up current information, find docs, or research a problem it has not seen before.
+
+- **Linear / Jira server** — Exposes a project tracker: read and create tickets, update status, search issues. Lets the agent connect code changes to the relevant task.
+
+- **Sentry server** — Exposes error monitoring: list errors, stack traces, affected users. Lets the agent investigate a production bug by reading the actual error data.
+
+The pattern across all of these: an MCP server takes an existing system — a database, an API, an application, a service — and exposes it to the agent in the standard shape (tools + resources). The agent does not learn a new integration for each; it just sees a list of tools and calls them. The server does the translation.
+
+If you are wondering "can an MCP server expose X?" — the answer is almost always yes, if X has an API or a CLI or a file format you can read. People have written servers for everything from AWS to Figma to Spotify. The ecosystem is growing fast.
+
 ---
 
 ## 5. Agent Skills
@@ -540,79 +572,34 @@ Because a skill is just files, sharing is straightforward: commit it to the repo
 
 The same review discipline applies as for MCP servers: review a skill's instructions and scripts before running them, especially if a skill runs shell commands or makes network calls.
 
-### 5.7 Worked Examples: Real Skills and Why They Save Tokens
+### 5.7 Example Skills (What People Have Built)
 
-The best way to understand skills is to look at real ones. Below are six skills (five from the global `~/.agents/skills/` directory, one from this project's `.agents/skills/`). For each: what it does, what it replaces, and roughly how many tokens it saves per session.
+To give you a sense of what skills look like in practice, here are a few examples of skills that exist in the wild. These are illustrative — they show the range of what a skill can describe — not a tutorial on how to use them.
 
-The math is approximate — 1 line of markdown is roughly 10-15 tokens — but the shape of the saving is what matters.
+- **Codebase exploration skill** — A skill that points the agent at a pre-built knowledge graph of a codebase (nodes for files, functions, classes; edges for calls, imports, containment). The agent greps the graph to answer "how does authentication work?" instead of reading every source file. The skill itself is short (50-80 lines); what it describes is a workflow that would otherwise require reading thousands of lines of code.
 
-#### Example 1: `gitnexus-exploring` (78 lines)
+- **YouTube video analysis skill** — A skill that defines a multi-step forensic analysis of a video transcript: extract hooks, map retention mechanics, decode emotional beats, score virality, and produce a structured blueprint. The skill packages a 250-line analysis framework once, so the agent applies the same rigor to every video without the user re-explaining the process.
 
-**What it does**: Tells the agent how to answer "how does X work in this codebase?" using the GitNexus knowledge graph — instead of reading every file.
+- **Parallel execution skill** — A skill that describes how to spawn multiple subagents at once for independent tasks, with rules like "all Task calls must be in one assistant message for true parallelism." This is a workflow pattern, not a tool — the skill tells the agent how to coordinate; the harness's Task tool does the actual spawning.
 
-**What it replaces**: Without the skill, you would have to say: "Read the README, then look at the directory structure, then open src/, then grep for X, then read the files that mention X, then trace the calls, then summarize." Every file read is 200-2000 tokens into the context window. For a real codebase, exploring one question can burn 20,000-50,000 tokens.
+- **Skill discovery skill** — A skill that, when the user asks "how do I do X?", directs the agent to search a public skills registry (like skills.sh) before writing custom instructions from scratch. It is a meta-skill — a skill whose job is to find other skills.
 
-**Why it saves tokens**: The skill points the agent at a pre-built knowledge graph (a single JSON file with nodes and edges). The agent greps the graph for the keyword instead of reading source files. A grep result is 100-500 tokens; reading 10 source files is 10,000+ tokens. **Typical saving: 15,000-40,000 tokens per exploration task.**
+- **Multi-agent orchestration skill** — A skill that describes how to deploy and coordinate swarms of agents via an MCP server: initialize a swarm, spawn specialized agents (researcher, coder, analyst), assign tasks, monitor, scale, and tear down. The skill provides the exact tool names and parameter shapes as a reference, so the agent calls them correctly.
 
-#### Example 2: `understand-chat` (55 lines)
+- **Code review skill** — A skill that walks the agent through reviewing a pull request: fetch the diff, read the changed files for context, check against a project style guide, run the tests, and write a structured review with sections for risks, suggestions, and approval. The skill is a recipe that composes many tools (git, grep, test runner) into one workflow.
 
-**What it does**: Same idea as above, for the `understand-anything` knowledge graph. Tells the agent to grep the graph JSON instead of dumping the whole file into context.
+The common shape: each of these skills packages a procedure that would otherwise have to be re-explained every time. The skill is loaded once when the task matches, and the agent follows it. The user does not need to know how the skill works internally — they just need to know that a skill exists for the kind of task they are doing.
 
-**What it replaces**: Without the skill, a common beginner move is "load the whole knowledge graph into context" — but a real graph can be 50,000-500,000 tokens. That instantly fills the window.
+### 5.8 Why Skills Reduce Tokens (Conceptually)
 
-**Why it saves tokens**: The skill's instructions explicitly say "Search the file with Grep BEFORE reading it. Only read sections you need." This is the difference between 500 tokens (a grep result) and 50,000 tokens (the whole graph). **Typical saving: 40,000+ tokens per session.** Without this discipline, the session fails outright — the window cannot hold the graph.
+You do not need to know the exact numbers, but it helps to understand the shape of why skills are token-efficient. Four mechanisms, conceptually:
 
-#### Example 3: `parallel-execution` (241 lines)
+1. **Pointing instead of loading.** A skill can tell the agent "search the index, don't read every file." The index is small; the files are large. The agent spends tokens reading the relevant slice, not the whole.
+2. **Isolation via subagents.** A skill can describe spawning subagents for independent pieces. Each subagent does its reading in its own context; the main context only sees the short summary.
+3. **Reuse instead of retyping.** A skill loads once and applies to every future task of that kind. The framework does not need to be re-explained each session.
+4. **Avoiding failed attempts.** A skill with concrete tool names and parameter examples helps the agent get it right the first time, instead of guessing, failing, and retrying.
 
-**What it does**: Tells the agent how to spawn multiple subagents in parallel — and crucially, that all `Task` calls must be in ONE assistant message for true parallelism.
-
-**What it replaces**: Without the skill, the agent might spawn subagents one at a time, each waiting for the previous to finish. Or it might inline all the work into the main context, burning tokens on every file read.
-
-**Why it saves tokens**: Two ways. (1) Parallelism: 5 subagents running at once finish in roughly the time of 1, not 5. (2) Context isolation: each subagent does its reads in its OWN context window, then returns a short summary. The main context only sees the summaries, not the 10,000 tokens of files each subagent read. **Typical saving: 30,000-60,000 tokens in the main context** for a 5-way parallel task.
-
-#### Example 4: `youtube-video-analyst` (253 lines)
-
-**What it does**: A multi-step forensic analysis of a YouTube transcript — extract hooks, retention mechanics, emotional beats, viral patterns, and produce a structured blueprint.
-
-**What it replaces**: Without the skill, you would type out the entire analysis framework every time: "Read this transcript. Find the hooks. Identify the retention mechanics. Map the emotional journey. Extract reusable patterns. Score each element. Format as a blueprint." That is ~300 words of instructions you would repeat for every video.
-
-**Why it saves tokens**: The skill loads once (253 lines ≈ 3,000 tokens) and then applies to every video. Without it, you retype the framework each session (~3,000 tokens each time) AND risk the model forgetting a step. Over 10 videos, the skill saves 10 × 3,000 = 30,000 tokens of repeated instructions — and more importantly, gives consistent results. **Typical saving: 3,000 tokens per session after the first.**
-
-#### Example 5: `find-skills` (142 lines)
-
-**What it does**: When a user asks "how do I do X?", the skill tells the agent to search the skills registry (skills.sh) before writing custom instructions from scratch.
-
-**What it replaces**: Without the skill, the agent tries to solve the problem from scratch — often badly, reinventing a workflow that already exists as a maintained skill.
-
-**Why it saves tokens**: Two ways. (1) Reuse: an existing skill is already battle-tested; using it avoids the model's first 3-5 failed attempts (each a few thousand tokens). (2) Quality: the right skill produces correct output the first time, avoiding the retry loop entirely. **Typical saving: 10,000-30,000 tokens** by avoiding failed attempts and rework.
-
-#### Example 6: `agent-swarm` (80 lines)
-
-**What it does**: Tells the agent how to orchestrate multi-agent swarms via the Flow Nexus MCP server — initialize a swarm, spawn agents, assign tasks, monitor, scale, destroy.
-
-**What it replaces**: Without the skill, the agent has to figure out the MCP tool names (`mcp__flow-nexus__swarm_init`, `mcp__flow-nexus__agent_spawn`, etc.) by listing the server's tools and guessing the parameters. Each tool listing is 500-1,000 tokens, and wrong guesses cost a round trip.
-
-**Why it saves tokens**: The skill gives the exact tool names and parameter shapes as worked examples in markdown. The agent reads 80 lines (~1,000 tokens) and calls the tools correctly the first time, instead of listing tools, guessing, failing, and retrying. **Typical saving: 3,000-8,000 tokens** per orchestration task.
-
-### 5.8 The Pattern: Why Skills Reduce Tokens
-
-Looking at the six examples above, the token savings come from four mechanisms. This is the underlying reason skills work — understand the mechanism and you can predict when a skill will help.
-
-| Mechanism | What it does | Example skill | Saving |
-| :--- | :--- | :--- | :--- |
-| **Avoid reading the whole thing** | Point the agent at a searchable index (graph, grep, vector DB) instead of loading files | `gitnexus-exploring`, `understand-chat` | 15,000-50,000 tokens |
-| **Context isolation via subagents** | Spawn subagents with their own context; main context only sees the summary | `parallel-execution` | 30,000-60,000 tokens |
-| **Reuse a workflow instead of retyping it** | Load the framework once; apply to every future task | `youtube-video-analyst` | 3,000 tokens/session after first |
-| **Avoid failed attempts and retries** | Give exact tool names and parameter shapes as examples, so the agent gets it right first try | `find-skills`, `agent-swarm` | 3,000-30,000 tokens |
-
-The unifying principle: **a skill is a way to spend 1,000-3,000 tokens of instructions once, to save 10,000-50,000 tokens of reading, retrying, and re-typing on every session afterward.** That is why professionals author skills for any workflow they run more than twice.
-
-If you remember nothing else from this section, remember the shape of the trade:
-
-- **Without a skill**: the model reads files, guesses tool parameters, retries on failure, and you retype the workflow every time. Token cost: high and repeated.
-- **With a skill**: the model reads a short instruction file once, follows the workflow, calls tools correctly the first time. Token cost: low and one-time.
-
-That gap — often 10x or more per session — is why skills exist.
+The unifying principle: **a skill is a way to describe a procedure once, so that the agent does not have to rediscover it — and re-spend the tokens to rediscover it — on every session.** That is the whole idea.
 
 ---
 
