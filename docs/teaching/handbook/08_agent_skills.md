@@ -86,6 +86,49 @@ The unifying principle: **a skill is a way to describe a procedure once, so that
 
 ---
 
+## 8.5 The Skills Ecosystem
+
+Skills are not just something you write for yourself. There is a whole ecosystem of public skills you can find, install, and use.
+
+### What is skills.sh?
+
+**skills.sh** is a public registry of agent skills — a website where people publish skills they have built and others can find and install them. Think of it like npm for JavaScript packages or PyPI for Python, but for AI agent skills.
+
+### How Many Skills Are Out There?
+
+The ecosystem is growing fast. As of late 2025, hundreds of skills are published across the major registries. The numbers change weekly because anyone can publish one.
+
+### Who Publishes Skills?
+
+- **Companies** — Anthropic publishes official skills for working with their models and for common tasks like document processing and frontend design. Vercel publishes skills for React, Next.js, and web design.
+- **Open source projects** — projects like GitNexus, Understand, and others publish skills that wrap their tools so agents can use them.
+- **Individual developers** — anyone can write a skill and share it on GitHub or via `npx skills add`.
+
+### How Are Skills Shared?
+
+Three common ways:
+
+1. **GitHub repos** — the most common. A skill is just a folder with a `SKILL.md` and supporting files. Clone it, fork it, install it.
+2. **npm packages** — some skills are published as npm packages, installable with `npx skills add <package-name>`.
+3. **Direct copy** — for private or personal skills, just drop the folder into `.agents/skills/` on your machine.
+
+### What is a `skills-lock.json` File For?
+
+A **lock file** pins the exact versions of installed skills. It records which skills you have, what version, and where they came from. This makes installs reproducible across machines — if your teammate has the same `skills-lock.json`, they get the same skills you do. It is the same idea as `package-lock.json` for npm or `Cargo.lock` for Rust.
+
+### Where to Start
+
+If you want to see what skills look like:
+
+1. Browse **skills.sh** for popular skills.
+2. Look at **github.com/anthropics/skills** for official Anthropic skills.
+3. Look at **github.com/vercel-labs/agent-skills** for web development skills.
+4. Check your own machine — if you have any AI coding tools installed, you may already have skills under `~/.agents/skills/` or `.agents/skills/` in your project.
+
+Read a few `SKILL.md` files to get a feel for the format. You do not need to install them — just reading the instructions teaches you what a good skill looks like.
+
+---
+
 ## When People Author Skills
 
 People write a skill when they find themselves giving the AI the same multi-step instructions repeatedly. If you have typed "review this PR by checking the diff, the style guide, and the tests" three times, you write the skill once.

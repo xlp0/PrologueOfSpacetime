@@ -127,4 +127,40 @@ The pro approach used fewer tokens, was faster, and got a better result. The dif
 
 This idea — curate the context, do not just polish the prompt — is the foundation of every professional workflow in this handbook.
 
+---
+
+## 6.6 Tools That Help With Context
+
+You do not have to curate context by hand. There are tools that do it for you, or help you do it faster. Here are the main kinds you will meet.
+
+### File Search Tools (grep, glob)
+
+Instead of pasting every file into the AI, you give it a search tool. **grep** finds files that contain a word or pattern (like "login"). **glob** finds files by name (like "all `.ts` files in `src/`"). The AI runs the search, gets a short list, then reads only the one or two files it actually needs. The context window stays small.
+
+### Vector Databases / RAG
+
+Sometimes you want to search by **meaning**, not by exact word. You might ask "where do we handle user signups?" and the word "signup" never appears — the code says "register" or "onboard." A vector database turns each chunk of text into numbers that capture its meaning, then finds the closest matches. This is called **RAG** (Retrieval-Augmented Generation). It lets an AI search a million documents without loading them all.
+
+### Subagents
+
+A subagent is a second AI with its **own context window**. You hand it a sub-task like "read these 20 files and tell me which touch payments." It does the reading in its own window — your main window never sees the 20 files, only the short summary that comes back. Think of it like sending a friend to the library: they read the books, you just get the notes.
+
+### Summarization Tools
+
+When an output is too long (a 50-page log, a giant error dump), a summarization tool compresses it first. The AI gets a 200-word summary instead of 50 pages. The same trick is used when a chat gets long and the harness "compacts" it: it summarizes the old turns so you can keep going without filling the window.
+
+### Knowledge Graphs
+
+A knowledge graph is a **pre-built map** of a codebase: which file calls which, which function lives where, which classes depend on which. Tools like GitNexus build this map once, and then the AI can ask "what depends on the `login` function?" and get an instant answer — no need to re-read every file every time.
+
+### MCP Servers (Context Providers)
+
+**MCP** (Model Context Protocol) is an open standard — think of it as a USB-C port for AI. An MCP server is a small program that plugs into that port and feeds the AI something new: the **filesystem** (read local files), **GitHub** (see issues and PRs), **PostgreSQL** (run database queries), and many more. Instead of copying data into the prompt by hand, you connect a server and the AI fetches what it needs on demand. Tools like OpenCode are built around this idea — the AI gets the right context at the right moment.
+
+---
+
+The pattern across all of these is the same: **let the AI fetch what it needs, when it needs it, instead of loading everything up front.** That is context engineering in tool form.
+
+---
+
 Continue to [Chapter 7 — MCP: Plugging Things In](07_mcp.md).

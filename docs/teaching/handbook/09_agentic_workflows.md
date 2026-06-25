@@ -155,4 +155,22 @@ Do NOT intervene every step. The point of an agentic workflow is to let the AI r
 - Watch the **context window** — long sessions can exhaust it.
 - Intervene when the AI goes off scope or gets stuck in a loop. Let it run the rest of the time.
 
+---
+
+## 9.6 Multi-Agent Frameworks People Use
+
+When you want to build your own agent application (not just use one), there are popular open-source frameworks that do a lot of the heavy lifting. Here are the big ones.
+
+**CrewAI** — A framework where you give each agent a **role**, a **goal**, and a **backstory**, then group them into a "crew" that works through tasks together. It feels like casting characters in a play: a "researcher" agent finds facts, a "writer" agent drafts the report, and so on. Good for role-based collaboration. ([docs.crewai.com](https://docs.crewai.com))
+
+**LangGraph** — A graph-based framework where you wire your agent as **nodes** and **edges** in code: each node is a step, each edge decides what comes next. It is low-level and focused on orchestration — durable execution, streaming, and human-in-the-loop. Built by the LangChain team. ([docs.langchain.com](https://docs.langchain.com/oss/python/langgraph/overview))
+
+**OpenAI Swarm** — A lightweight, educational framework with just two ideas: **agents** and **handoffs**. One agent handles the chat, and when it hits something outside its job, it hands the conversation off to another agent. OpenAI now points production users to its successor, the **Agents SDK**. ([github.com/openai/swarm](https://github.com/openai/swarm))
+
+**AutoGen** — Microsoft's framework for **conversational** multi-agent systems, where agents talk to each other (and to you) to solve problems. It comes in layers: a no-code Studio, the AgentChat API, and a low-level event-driven Core for serious systems. ([microsoft.github.io/autogen](https://microsoft.github.io/autogen/stable/))
+
+**Anthropic's "Building Effective Agents" essay** — Not a framework, but a philosophy worth knowing. Anthropic argues most real tasks are best solved by a **simple loop** (one model, a few tools, a clear stop condition) rather than a heavy multi-agent framework — complex scaffolding hides bugs and adds cost. Start simple; only add agents when you can prove one isn't enough. ([anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents))
+
+A note before you go off and build: most professional AI coding tools — opencode, Cursor, Claude Code, and similar — run on their **own** built-in agentic loop, not on any of the frameworks above. These frameworks are for **building your own agent applications** (customer support bots, research assistants, content pipelines). If your goal is to code faster, you probably just want a tool with a good loop already inside it. If your goal is to ship a new kind of agent product, the frameworks above are where you start.
+
 Continue to [Chapter 10 — The Tools People Use](10_the_tools_people_use.md).

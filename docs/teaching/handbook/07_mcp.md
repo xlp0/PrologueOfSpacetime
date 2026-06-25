@@ -98,4 +98,51 @@ If you are wondering "can an MCP server expose X?" — the answer is almost alwa
 - The **client** (the harness) mediates between the AI and the servers.
 - People have built servers for **everything** — files, GitHub, databases, Slack, browsers, video editors, project trackers, and more.
 
+---
+
+## 7.5 The MCP Ecosystem Today
+
+MCP launched in **November 2024**, announced by Anthropic as an open-source protocol for connecting AI assistants to outside data and tools ([modelcontextprotocol.io](https://modelcontextprotocol.io)). In about 18 months it went from an idea to a real ecosystem with tens of thousands of servers.
+
+### How many servers are out there?
+
+Two community directories track the count:
+
+- **mcp.so** lists roughly **22,700+ MCP servers** ([mcp.so](https://mcp.so)).
+- **Glama** lists about **48,300+ servers** and updates daily ([glama.ai/mcp/servers](https://glama.ai/mcp/servers)).
+
+The numbers differ because each directory counts differently — Glama includes more remote and niche servers. Either way, MCP grew from zero to tens of thousands of servers in under two years.
+
+### The most popular servers
+
+The most-installed servers are the ones you would expect — tools that let an AI touch files, code, browsers, and databases. On Glama, the official **Filesystem** server (by `modelcontextprotocol`) leads by a wide margin: about **321,000 weekly downloads** and **87,400+ GitHub stars** as of June 2026 ([glama.ai/mcp/servers](https://glama.ai/mcp/servers)).
+
+The official reference repo at **github.com/modelcontextprotocol/servers** has about **87,700 stars** and **11,100 forks** — meaning thousands of developers copied it to build their own variants ([GitHub](https://github.com/modelcontextprotocol/servers)).
+
+### Surprising servers
+
+Because MCP just means "expose any system to an AI," people have plugged in some wild stuff:
+
+- A **3D-printer** server — the AI designs a model in Blender and sends it straight to a printer ([modelcontextprotocol.io](https://modelcontextprotocol.io)).
+- A **"Howtocook"** server that recommends recipes and plans meals, based on a programmer's home-cooking guide ([mcp.so](https://mcp.so)).
+- Servers for **stock-market data**, **Amazon ad scraping**, **disability-insurance quoting**, **torrent search**, and **local SEO ranking** ([glama.ai/mcp/servers](https://glama.ai/mcp/servers)).
+
+If a thing has an API or a CLI, someone has probably wrapped it in MCP.
+
+### Where to find MCP servers
+
+Three main places:
+
+1. **[mcp.so](https://mcp.so)** — a community marketplace, easy to browse, with categories and featured servers.
+2. **[glama.ai/mcp/servers](https://glama.ai/mcp/servers)** — a larger registry with filters by language, hosting type, and category.
+3. **[github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — the official reference repo. It now points you to **registry.modelcontextprotocol.io** for the full published list.
+
+### Who maintains all this?
+
+- **Anthropic** maintains the protocol itself and a small set of **reference servers** (Filesystem, Git, Memory, Fetch, Time, Sequential Thinking, Everything). The repo states: *"Managed by Anthropic, but built together with the community"* ([GitHub](https://github.com/modelcontextprotocol/servers)).
+- **Companies** maintain servers for their own products — e.g. Brave runs the official Brave Search server, and Zencoder maintains the Slack server.
+- **The community** maintains the vast majority. Anyone can write one and publish it to a registry.
+
+The takeaway: MCP is no longer just an Anthropic project. It is an open standard with a real ecosystem behind it — built by Anthropic, companies, and hobbyists together.
+
 Continue to [Chapter 8 — Agent Skills: Packaged Know-How](08_agent_skills.md).

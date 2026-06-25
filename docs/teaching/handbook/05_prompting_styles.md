@@ -171,4 +171,34 @@ The second prompt is longer to write, but it saves a round trip and prevents the
 - For code: use the **four-part prompt** (goal, context, constraints, done).
 - **Clarity beats cleverness.** A plain clear prompt beats a fancy technique applied wrong.
 
+---
+
+## 5.5 Prompting Myths and What Actually Matters
+
+There is a lot of "magic prompt" advice online that does not hold up. Here are the big myths and what actually matters.
+
+**"You need the perfect prompt."** No. A clear prompt matters, but the model, the tools around it, and the context you give the AI usually matter more. Anthropic's own docs point out that problems like cost and latency are often fixed by choosing a different model, not by tweaking words. Get the prompt "good enough," then improve the system around it.
+
+**"More examples = better."** Two or three well-chosen examples usually beat twenty. Past a small number, extra examples stop teaching the AI anything new and just add noise, cost, and length. Pick examples that cover the hard cases, then stop.
+
+**"Always say 'please' and 'thank you.'"** The AI does not care. Politeness does not change the answer, and it wastes tokens and your time. Be direct — that is efficiency, not rudeness.
+
+**"Role prompting makes the AI smarter."** Role prompting does not raise the model's intelligence. It just biases the lens the AI answers through — "senior security engineer" makes it look at code one way, "performance expert" another. It is a perspective trick, not a power-up.
+
+**"Chain-of-thought always helps."** CoT shines on math and multi-step reasoning, where thinking out loud prevents silly mistakes. On simple tasks it adds words for no gain and can even make answers worse by overthinking. Use it when the task actually has steps, not as a default.
+
+**"Longer prompts are better."** Length is not quality. A short, focused prompt that gives the AI exactly what it needs usually beats a long one full of filler, pleasantries, and repetition. Say what you want, give the context that matters, then stop.
+
+### What Actually Matters
+
+1. **Clarity** — say what you want in plain words.
+2. **Context** — give the AI the files, errors, and constraints it needs.
+3. **The right model** — pick the one that fits the job.
+4. **Tools** — evaluations, tests, and structured inputs beat clever wording.
+5. **Verification** — check the answer; fluency is not correctness.
+
+A boring, clear prompt with good context beats a clever one every time.
+
+---
+
 Continue to [Chapter 6 — Context Engineering](06_context_engineering.md).

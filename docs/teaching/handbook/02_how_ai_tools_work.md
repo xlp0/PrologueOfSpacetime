@@ -96,4 +96,46 @@ The professional shift is this: **stop trying to write the perfect prompt, and s
 
 Now that you have the picture, the next chapter explains the four layers of an AI coding tool in more detail.
 
+---
+
+## 2.6 A Brief History of AI Coding Tools
+
+To see where AI coding tools are today, it helps to look at how we got here. The change was fast — about five years turned a research demo into the tools you use right now.
+
+### Before 2021: Brains, No Body
+
+The big breakthrough was the **transformer**, a new way to build language models, introduced by Google researchers in 2017. By 2020, OpenAI had built **GPT-3**, a model so large it could write essays, answer questions, and even draft code from a prompt. But there was a catch: it lived behind a chat box. You had to copy your code in, copy the answer out, and do everything yourself. The model was the brain, but there was no body attached. ([Wikipedia: Large language model](https://en.wikipedia.org/wiki/Large_language_model))
+
+### 2021: The First Real Coding Tool
+
+In 2021, **GitHub Copilot** launched as the first AI tool made specifically for programmers. It was built on **Codex**, a version of GPT-3 trained on billions of lines of code. Copilot lived inside your editor and suggested the next line as you typed. This was a big shift — instead of asking a chatbot and pasting code back, the AI was right there where you worked. ([GitHub Copilot](https://github.blog/news-insights/product-news/github-copilot))
+
+### Late 2022: ChatGPT Changes Everything
+
+In November 2022, OpenAI released **ChatGPT**. Almost overnight, millions of people who had never used an AI were talking to one. For coding, this mattered in two ways: people saw the model was good enough to explain bugs and write small programs, and they got a taste of "talking to the AI" instead of just "getting autocomplete." But ChatGPT was still just a chat box — no tools, no files, no body. ([Wikipedia: Large language model](https://en.wikipedia.org/wiki/Large_language_model))
+
+### 2023: Models Learn to Use Tools
+
+In 2023, models gained **function calling** (sometimes called "tool use"). Instead of only writing text, the model could now say "I want to run this command" or "I want to read that file," and the harness would actually do it. This is the moment the agentic loop from earlier in this chapter became possible. The brain finally got hands.
+
+### 2024–2025: The Agentic Loop Becomes Normal
+
+By 2024 and into 2025, the loop was everywhere. Tools like Cursor, Aider, and opencode gave the model a file system, a terminal, and a chat window — then let it work in cycles: read, think, edit, run, repeat. In February 2025, Anthropic released **Claude Code**, an agent built to run straight from the terminal and edit whole projects on its own. The harness was no longer just fancy autocomplete. It was a body that let the model act. ([Claude Code](https://www.anthropic.com/news/claude-code))
+
+### Today: Which Models Lead?
+
+The strongest models for coding right now come from three labs:
+
+- **Claude** (Anthropic) — especially the Sonnet and Opus versions, known for careful, long coding tasks.
+- **GPT** (OpenAI) — GPT-4, GPT-4o, and the GPT-5 line, fast and broad.
+- **Gemini** (Google) — strong on long files and large codebases.
+
+Open-weight models like **DeepSeek** and **Llama** are catching up fast and let you run them on your own hardware. The brain keeps getting better; the harness is what decides how much of that brain you actually get to use. ([Wikipedia: Large language model](https://en.wikipedia.org/wiki/Large_language_model))
+
+### The Pattern
+
+Notice the shape of this history: the model came first, then a thin body (autocomplete), then a chat body (ChatGPT), then a real body with tools (the agentic loop). Each step did not replace the last — it added to it. Today's tools are all of those layers stacked together: a smart model, a real harness, and a loop that keeps going until the job is done.
+
+---
+
 Continue to [Chapter 3 — The Stack: Model, Harness, Client, Server](03_the_stack.md).

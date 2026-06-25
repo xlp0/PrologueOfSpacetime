@@ -101,4 +101,34 @@ Notice the rhythm: **scope, plan, execute, verify, commit.** That rhythm is the 
 - Many people use **two** — a terminal agent for big agentic work, an editor for inline edits.
 - The rhythm of a professional session: **scope, plan, execute, verify, commit.**
 
+## 10.5 Other Tools Worth Knowing
+
+The five tools above are the main ones professional developers reach for today. But the AI coding world is much bigger — new tools launch almost every week. Here are a few more worth knowing, grouped by what they are FOR.
+
+**GitHub Copilot** — The original AI coding assistant, launched in 2021 by GitHub and OpenAI. It lives inside VS Code, JetBrains, Visual Studio, Neovim, and Xcode, suggesting code as you type and answering questions in a sidebar chat. It has a free tier (about 2,000 completions per month) and paid tiers for heavier use. ([github.com/features/copilot](https://github.com/features/copilot))
+
+**Continue** — An open-source AI coding extension for VS Code and JetBrains that lets you plug in almost any model (Claude, GPT, local Llama, and more) and customize how it behaves. In 2025 Continue was acquired by Cursor, but its open-source codebase still exists and serves as a reference for how these tools are built. ([continue.dev](https://www.continue.dev))
+
+**Codeium / Windsurf** — AI coding tools originally known for generous free tiers. Windsurf started as a Codeium-built VS Code fork (a full IDE with AI woven in) and in 2025 was acquired by Cognition and renamed Devin Desktop, adding multi-agent management. Codeium's free autocomplete is still widely used inside other editors. ([codeium.com](https://codeium.com))
+
+**Tabnine** — One of the earliest AI code completion tools (it actually predates Copilot). It is best known for its privacy focus — it can run entirely on your own machines so your code never leaves your company — which makes it popular with banks and other enterprises that have strict data rules.
+
+**Replit AI / Replit Agent** — AI coding that runs entirely in the browser. You describe an app, the agent writes the code, and Replit runs it for you in a cloud workspace — no setup, no installation, no local files. It is great for quick prototypes, learning, and sharing a project with a link.
+
+**Bolt.new / Lovable / v0** — A newer category sometimes called "app generators." You type a prompt like "a habit tracker with a login page" and the tool builds a full, working app — frontend, styling, sometimes a backend — that you can use immediately. Bolt.new comes from StackBlitz, v0 from Vercel, and Lovable is an independent startup. They are less for editing existing code and more for spinning up something new fast.
+
+---
+
+### Categories matter more than names
+
+New tools launch constantly and old ones merge, get acquired, or change names (Windsurf → Devin Desktop; Continue → part of Cursor). Instead of memorizing a list, learn the **categories**:
+
+- **Chat** — talk to an AI about code (Claude Desktop, ChatGPT).
+- **Inline completion** — AI suggests the next line as you type (Copilot, Tabnine, Codeium).
+- **Agentic CLI** — a terminal agent that can edit files and run commands across many steps (opencode, Claude Code, Aider).
+- **Editor-integrated** — AI woven into a full IDE (Cursor, Windsurf/Devin Desktop, Continue).
+- **App generator** — type a prompt, get a whole app (Bolt.new, Lovable, v0, Replit Agent).
+
+Once you know what a tool is FOR, picking it up — or switching to another one — becomes much easier. The models and the products change; the categories do not.
+
 Continue to [Chapter 11 — Code of Conduct: Being Responsible](11_code_of_conduct.md).

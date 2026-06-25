@@ -71,4 +71,50 @@ You will not learn how to build an AI model. You will not learn how to train one
 
 This handbook is written in plain language. No fancy jargon without explaining it. No assuming you already know things. If a word is new, we will define it the first time it appears, and you can always look it up in [Chapter 12: The Words You'll Hear](12_words_youll_hear.md).
 
+---
+
+## 1.5 The Landscape Today
+
+The tools described in this chapter are not science experiments — they are how millions of people write software right now. Here is a snapshot of where things stand in mid-2026.
+
+### How big is this?
+
+Big. [OpenCode](https://opencode.ai), a free open-source agent covered later in this handbook, reports over 7.5 million developers using it every month. GitHub Copilot alone has over 1 million paying subscribers. Cursor, a popular commercial editor, [doubled its recurring revenue to $2 billion in three months](https://www.bloomberg.com/news/articles/2026-03-02/cursor-recurring-revenue-doubles-in-three-months-to-2-billion) in early 2026. AI coding is no longer a niche — it is a normal part of how software gets written.
+
+### The four kinds of tools
+
+Most AI coding tools fall into one of four buckets. They overlap, but the categories are useful:
+
+1. **Chat assistants** (ChatGPT, Claude.ai). You talk to the AI in a chat window. Good for asking questions, drafting small pieces of code, and learning. The AI cannot see your files unless you paste them in.
+
+2. **Inline completion** (Cursor Tab, GitHub Copilot autocomplete). The AI watches you type and finishes your line — or your next few lines — as you go. It is the modern version of autocomplete, but smarter.
+
+3. **Agentic CLIs** (opencode, Claude Code, OpenAI Codex CLI). You run these in a terminal. They can read your files, run commands, and edit code across a whole project on their own. This is the "agentic loop" from earlier in the chapter, in tool form.
+
+4. **Editor-integrated agents** (Cursor, Claude Code in your IDE). A full code editor with the AI baked in. You can ask it to plan a feature, edit multiple files, run tests, and explain what it changed — all in one place.
+
+### What changed in the last year
+
+A few things matter to a beginner:
+
+- **New models.** Anthropic released [Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) in May 2026, with stronger coding and agentic-task performance. OpenAI shipped the [GPT-5 family](https://openai.com/news/) (5.3, 5.4, 5.5). Both are noticeably better at long, multi-step coding tasks than a year ago.
+
+- **Agents moved into the editor.** Cursor launched [Cursor 3](https://cursor.com/blog/cursor-3) in April 2026 as a "unified workspace for building software with agents," and introduced [Composer 2.5](https://cursor.com/blog/composer-2-5), a model tuned for long-running agentic tasks. The pattern — AI that runs many steps on its own, inside your editor — is now standard.
+
+- **Cloud agents.** Tools like [Cursor Cloud Agents](https://cursor.com/blog/cloud-agent-lessons) and OpenAI Codex can run tasks on a server in the background, so you can kick off a long job and keep working. This was rare a year ago.
+
+- **Open source went mainstream.** [OpenCode](https://opencode.ai) crossed 160,000 GitHub stars and is free to use, with optional paid models. You no longer have to pay to try a serious agent.
+
+### What it costs
+
+- **Free.** [OpenCode](https://opencode.ai) is open source and ships with free models. You can also log in with an existing GitHub Copilot or ChatGPT Plus account at no extra cost.
+
+- **Around $20/month.** A paid subscription to ChatGPT Plus, Claude Pro, or a coding-specific tool like Cursor typically runs about $20 per month. That covers most personal use.
+
+- **Pay-as-you-go (API).** If you write your own scripts and call the AI model directly, you pay per request — usually a few cents to a few dollars per million words of text in or out. This is how power users and teams build custom tools.
+
+The big picture: the field has moved from "AI finishes your sentence" to "AI does the task." Prices have come down, free options are good, and the hardest part is no longer getting access — it is learning to use these tools well. That is what the rest of this handbook is for.
+
+---
+
 Ready? Let's go to [Chapter 2 — How AI Tools Work](02_how_ai_tools_work.md).

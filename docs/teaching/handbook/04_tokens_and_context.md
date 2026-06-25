@@ -119,4 +119,38 @@ A 5,000-line log file dumped into context is 35,000+ tokens. That is a big chunk
 
 Understanding tokens and the context window is the foundation for everything else in this handbook. When you understand why the AI forgets things, why it costs money, and why it gets confused with too much input, the rest makes sense.
 
+---
+
+## 4.6 Current Model Context Windows (Late 2025)
+
+Here are real context window sizes for popular models available in late 2025. These numbers come from each company's own model pages. They change fast — always check the source for the latest number.
+
+| Model | Context Window (tokens) | Approx. pages of text | Cost tier |
+| :--- | :--- | :--- | :--- |
+| Claude Sonnet 4.5 (Anthropic) | 200,000 | ~300 pages | Medium |
+| Claude Opus 4.1 (Anthropic) | 200,000 | ~300 pages | Expensive |
+| GPT-5 (OpenAI) | 400,000 | ~600 pages | Expensive |
+| GPT-5 mini (OpenAI) | 400,000 | ~600 pages | Cheap |
+| Gemini 2.5 Pro (Google) | 1,000,000 | ~1,500 pages | Expensive |
+| Gemini 2.5 Flash (Google) | 1,000,000 | ~1,500 pages | Cheap |
+| Llama 4 Scout (Meta) | 10,000,000 | ~15,000 pages | Free (open weights) |
+| Llama 4 Maverick (Meta) | 1,000,000 | ~1,500 pages | Free (open weights) |
+
+Sources: [Anthropic — claude](https://www.anthropic.com/claude), [OpenAI](https://openai.com), [Google DeepMind — Gemini](https://deepmind.google/technologies/gemini/), [Meta — Llama blog](https://ai.meta.com/blog/llama/).
+
+**Cost tier** is a rough guide. "Cheap" means a few cents per million tokens. "Expensive" means $10–$30+ per million output tokens. Prices fall fast — by the time you read this, everything may be cheaper. Open-weight Llama models are free to download, though you still pay for whatever computer runs them.
+
+### What "1 Million Tokens" Actually Looks Like
+
+When a model brags about a "1 million token context window," what does that mean in real life?
+
+- 1 token ≈ 3/4 of a word, so 1 million tokens ≈ **750,000 words**.
+- A typical novel is about 80,000–100,000 words, so 1 million tokens is roughly **7 to 8 novels**.
+- A typical textbook page is about 500 words, so that's about **1,500 pages** of text.
+- In code, it's roughly a **large codebase** — think 20,000 to 30,000 lines of code.
+
+That sounds huge, and it is. But remember: the context window is shared by **everything** the AI sees — your prompt, past messages, files you paste, tool output, even hidden system instructions. A million tokens fills up faster than you think, especially once tools start dumping log files. Big windows are great, but "load only what you need" is still the right instinct.
+
+---
+
 Continue to [Chapter 5 — Talking to AI: Prompting Styles](05_prompting_styles.md).
