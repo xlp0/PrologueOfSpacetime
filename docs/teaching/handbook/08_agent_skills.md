@@ -149,4 +149,45 @@ People do NOT write a skill for:
 - People have built skills for codebase exploration, video analysis, parallel execution, code review, and more.
 - Skills save tokens by describing a procedure once, instead of re-explaining it every session.
 
+## 8.6 A Concrete Example: Browsing skills.sh
+
+Section 8.5 mentioned **skills.sh** as a public registry. Here is what you actually see if you open it in a browser today. Think of this as a tour, not a tutorial — you are just looking.
+
+### When you visit skills.sh, you see...
+
+A page titled **"The Open Agent Skills Ecosystem"** with the tagline: *"Skills are reusable capabilities for AI agents. Install them with a single command to enhance your agents with access to procedural knowledge."* (source: skills.sh homepage, June 2026). Below that is the install command — `npx skills add <owner/repo>` — and a row of logos showing which agents are supported: Claude Code, Cursor, Codex, GitHub Copilot, Gemini, and about fifteen others.
+
+Then comes the main event: a **Skills Leaderboard**. It is a ranked list. At the top there are three tabs: **All Time** (746,231 installs total), **Trending (24h)**, and **Hot**. The default view is "All Time," sorted from most-installed to least.
+
+### Each skill entry shows...
+
+Every row on the leaderboard has four things:
+
+1. **A rank number** — 1, 2, 3, and so on down the list.
+2. **A skill name** — like `find-skills` or `frontend-design`.
+3. **An owner/repo** — like `vercel-labs/skills` or `anthropics/skills`. This tells you who wrote it and where it lives on GitHub.
+4. **An install count** — like `2.2M` (2.2 million) or `588.0K` (588 thousand).
+
+That is the whole row. Click the name and you go to a detail page with the full `SKILL.md` and install instructions.
+
+### For example, a popular skill might look like...
+
+The number-one skill on the leaderboard right now is **`find-skills`** by **`vercel-labs/skills`**, with **2.2M installs** (source: skills.sh All Time leaderboard, June 2026). That is the same "skill discovery" idea described in section 8.4 — a meta-skill whose job is to help the AI find *other* skills. The fact that it is the most-installed skill makes sense: people install it first, and then it helps them find everything else.
+
+Other top entries: **`frontend-design`** by `anthropics/skills` at 588K, **`vercel-react-best-practices`** by `vercel-labs/agent-skills` at 501K, and **`microsoft-foundry`** by `microsoft/azure-skills` at 415K. You can see the pattern — official skills from real companies (Anthropic, Vercel, Microsoft) sit near the top.
+
+### The install count tells you...
+
+How many times people have run `npx skills add` for that skill. A high number like 2.2M means a *lot* of people have tried it, which usually means three things: the skill works (it would not get reinstalled if it broke), it is maintained (the owner keeps it working as tools change), and it is battle-tested across many different projects. A low number does not mean the skill is bad — it might just be new, or only useful for a niche task. But if you are picking between two skills that do the same thing, the one with more installs is the safer bet.
+
+### You do not need to install anything to browse
+
+This is the most important point for a beginner. You can click any skill name on the leaderboard and read its `SKILL.md` file right there in your browser. No commands, no installs, no account. Just reading.
+
+Why bother? Because reading real skills is the fastest way to learn what a *good* skill looks like. You see how experienced authors write descriptions, structure instructions, and decide what to include versus what to leave out. After you have read five or ten of them, the format from section 8.2 stops feeling abstract — you can recognize the patterns. Then, when you write your own first skill, you have a mental library of examples to copy from.
+
+Browsing is free. Reading is free. Install only when you actually want to use one.
+
+---
+
 Continue to [Chapter 9 — Agentic Workflows: Letting AI Do More](09_agentic_workflows.md).

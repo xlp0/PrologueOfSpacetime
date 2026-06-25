@@ -145,4 +145,46 @@ Three main places:
 
 The takeaway: MCP is no longer just an Anthropic project. It is an open standard with a real ecosystem behind it — built by Anthropic, companies, and hobbyists together.
 
+---
+
+## 7.6 A Concrete Example: Browsing mcp.so
+
+Reading about MCP is one thing. Seeing the actual list of servers makes it click. Let's walk through [mcp.so](https://mcp.so), one of the community directories, and look at what is really there as of June 2026.
+
+### When you visit mcp.so, you see...
+
+A big banner that reads **"Find Awesome MCP Servers and Clients"**, and right under it a live counter: **"22,777 MCP Servers collected"** ([mcp.so](https://mcp.so)). That number is the whole ecosystem in one glance — over twenty thousand things you could plug into an AI tool. Below the banner sit a row of tabs: **Today**, **Featured**, **Latest**, **Clients**, **Hosted**, and **Official**. Think of it like an app store, except every "app" is an MCP server. There is also a **Submit** button in the top nav, because anyone can add their own.
+
+### Each server entry shows...
+
+A small card with three things:
+
+1. **A name** — like "Playwright Mcp" or "Filesystem".
+2. **A short description** — one sentence saying what the server does.
+3. **A tag or badge** — like "Official" (maintained by Anthropic or the product's own company), "Hosted" (runs on a remote server, not your machine), or "Featured" (the directory's editors picked it out).
+
+That's the whole card. No long README on the card itself — just enough to help you decide whether to click. Click the name and you land on a detail page with setup instructions and the install command.
+
+### For example, a popular server might look like...
+
+On the **Official** tab there is an entry called **Filesystem**, described as *"Secure file operations with configurable access controls"* ([mcp.so](https://mcp.so)). That is the same Filesystem server mentioned earlier in this chapter — the one that lets an AI read, write, and search files in a folder you pick. The "Official" badge tells you it is maintained by Anthropic's team, not a random hobbyist. Right next to it sits **PostgreSQL** — *"Read-only database access with schema inspection"* — letting an AI look at a database without being able to change anything. Two servers, two totally different jobs, same standard shape.
+
+### The categories tell you...
+
+What kinds of things MCP can connect to. Scrolling the directory, you spot servers for:
+
+- **Databases** — Postgres, Redis, SQLite.
+- **Browsers** — Puppeteer, Playwright (drive a real browser from code).
+- **Maps** — Amap, Baidu Map.
+- **Search** — Serper, Jina AI, Zhipu Web Search.
+- **Creative apps** — MiniMax (text-to-speech, image and video generation), EverArt (AI image generation).
+- **Code platforms** — GitLab, Sentry, AWS.
+- **Quirky stuff** — Howtocook MCP, a recipe-recommender built on a programmer's home-cooking guide.
+
+That range is the whole point of MCP. One protocol, every kind of system.
+
+### You do not need to install anything to browse
+
+Here is the thing beginners often miss: **just reading the directory teaches you what MCP is for.** You do not have to install a single server. Open [mcp.so](https://mcp.so), scroll, read the one-line descriptions. Every card is a small answer to the question *"what could an AI do if it could touch this system?"* Twenty-two thousand answers, all on one page. That is the ecosystem in one glance — no setup required.
+
 Continue to [Chapter 8 — Agent Skills: Packaged Know-How](08_agent_skills.md).

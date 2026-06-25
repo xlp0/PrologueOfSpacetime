@@ -63,6 +63,9 @@ If a word is new to you, check [Chapter 12: The Words You'll Hear](12_words_youl
 - [**Chapter 13 — Where to Learn More**](13_where_to_learn_more.md)
   Links and starting points for going deeper.
 
+- [**Chapter 14 — Concrete Examples**](14_concrete_examples.md)
+  Real-world examples you can browse right now: skills.sh, mcp.so, opencode.ai, modelcontextprotocol.io.
+
 ---
 
 ## Who This Is For
