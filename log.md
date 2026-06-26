@@ -38,3 +38,22 @@ status: stable
 - Source: user query (no raw source)
 - Pages touched: docs/Pancasila_and_the_Five_WH.md (created), index.md (updated), log.md
 - Notes: Mapped 5-WH questions (Who/When/Where/Why/How) to Indonesian Pancasila's 5 sila. Key insight: 5-WH is the inquiry, Pancasila is the answer — both pentadic, both irreducible, both coordinated. Includes generative (生) and overcoming (克) cycles. Cross-referenced to Pentadic Threshold, Wuxing, Five Wise Guys, Five Dining Philosophers. Extended the pentadic convergence table to 7 traditions (added Pancasila as governance dimension).
+
+## [2026-06-26] synthesis | Document Relationship Map + MCard/VCard/PCard stubs
+
+- **Trigger:** user asked to map the relation of each document to each other.
+- **Method:** wrote `src/extract_link_graph.py` (re-runnable) to parse all `[[wikilinks]]` across 258 md files → 1,447 links. Dispatched 3 parallel subagents to read the 108 orphan files (no links in/out) and map conceptual relationships to the core.
+- **Findings:**
+  - The wiki is **1 connected core of 150 files** + **108 orphan islands** (42% of the wiki — teaching, shopper-analytics, hardware sub-pages, changelogs, chapter topic files, HoTT math course).
+  - Top hubs by inbound: MCard (21), Cubical Logic Model (21), VCard (20), Flow State (19), PCard (17), PTR (11).
+  - **848 dangling targets** (concepts referenced but no page). The MCard/VCard/PCard trio alone = 58 dangling links.
+- **Files created:**
+  - `docs/Document_Relationship_Map.md` (type: synthesis) — topology, hub table, 5 core clusters, 6 orphan-island tables with per-file reconnection guidance, top-30 dangling priorities, 6 recommended actions.
+  - `docs/MCard.md`, `docs/PCard.md`, `docs/VCard.md` (type: entity) — stubs resolving the 58 highest-mention dangling links. Each defines the card type, its math (Σ/Π/Id-type), its Representation-Engine tier, and cross-links to the other two + [[MVP Cards Design Rationale]] + [[The_Representation_Engine]].
+- **Cross-references added (high-value reconnections):**
+  - `docs/docs_shopper_analytics/README.md` → linked to Ch 4, Ch 6, Local-First, edge_compute/ip_camera/lidar hubs (reconnects the 20-file orphan island entry point).
+  - `chapters/02_The_Meaning_of_Shape/depth_sensing_kinect.md` → linked to Ch 2 README, hott_ssot_reference, Cubical Logic Model, GASing, deep_learning note, Ch 4, edge_compute.
+  - `docs/deep_learning_and_physics_video_note.md` → upgraded frontmatter to full schema (type: source, sources: raw/transcripts/...); added connections to Universality, Science of Approximation, depth_sensing_kinect, MCard/PCard/VCard tiers.
+- **Verification:** re-ran the graph script — MCard/VCard/PCard now RESOLVED (inbound counts rose to 25/24/21 via cross-links).
+- **Pages touched:** docs/Document_Relationship_Map.md (new), docs/MCard.md (new), docs/PCard.md (new), docs/VCard.md (new), docs/docs_shopper_analytics/README.md (updated), chapters/02_The_Meaning_of_Shape/depth_sensing_kinect.md (updated), docs/deep_learning_and_physics_video_note.md (updated), index.md (updated), log.md.
+- **Open items (lint backlog, in priority order):** reconnect remaining ~105 orphan files per the §4 tables in Document_Relationship_Map; create stubs for Computational Trinitarianism (9), Directionality (7), Representability (7), Conversational Programming (6), Epiplexity (6), Flow State (19, biggest); cross-link the ai_coding_guide ↔ teaching/handbook mirrors; mark PIPELINE_8080 status: stale; convert path-based markdown links to wikilinks in chapter topic files.

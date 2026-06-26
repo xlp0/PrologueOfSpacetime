@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{longtable}
+\usepackage{enumitem}
+
+\title{DIY Solar RC Car Chassis Design Guide}
+\author{}
+\date{April 13, 2026}
+
+\begin{document}
+
+\maketitle
+
+Based on the specifications of your components (5x5 cm solar panel, 9 cm axles, and 3 cm wheels), the chassis of your toy car needs to be carefully proportioned to prevent the wheels from rubbing against the body while ensuring the car has enough surface area to mount all electronics.
+
+% -------------------------------------------------------
+\section{Optimal Dimensions}
+
+To perfectly accommodate your parts, your chassis should target these dimensions:
+
+\begin{itemize}
+    \item \textbf{Width: 6 cm} \\
+    Your axles are 9 cm long. A $\sim$6.5 cm wide chassis leaves 1.25 cm of axle sticking out on both sides. This is the perfect amount of clearance to fit your 3 cm wheels without them rubbing against the sides of the chassis during operation.
+
+    \item \textbf{Length: 12 cm to 15 cm} \\
+    You need a flat 5$\times$5 cm (25 cm$^{2}$) area on top just for the solar panel. You will also need space for the RC receiver board, a battery (if it is a hybrid solar/battery setup), and the motor housing.
+
+    \item \textbf{Ground Clearance: $\sim$1.5 cm} \\
+    Since your wheels are 3 cm in diameter, the axle sits 1.5 cm above the ground. You want the chassis slung low for stability, but high enough to clear small carpet bumps.
+\end{itemize}
+
+% -------------------------------------------------------
+\section{Recommended Materials}
+
+Instead of heavy cardboard or thick plastic (like some DIY kits), upgrade to one of these materials to dramatically improve speed and battery/solar efficiency:
+
+\subsection{C. 3D Printed Frame (PLA / PETG) -- \textit{Best for Precision}}
+\begin{itemize}
+    \item \textbf{Pros:} You can exact-fit the motor mounts and axle holes.
+    \item \textbf{Hack:} Design a ``skeletonized'' frame with cutouts to reduce weight, while leaving a solid 5$\times$5 cm flat plate on top specifically for your solar panel.
+\end{itemize}
+
+\vspace{1cm}
+\noindent\textbf{Document Date}: April 13, 2026
+
+\end{document}

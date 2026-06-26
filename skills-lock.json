@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "youtube-video-analyst": {
+      "source": "shipshitdev/library",
+      "sourceType": "github",
+      "skillPath": "skills/youtube-video-analyst/SKILL.md",
+      "computedHash": "db6d7cf72ff0be72fbba08912c87a7b77e22e8e824bfbe0f41013f0d0fff731c"
+    }
+  }
+}

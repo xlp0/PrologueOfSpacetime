@@ -2,6 +2,8 @@
 
 Welcome to the documentation directory for the Shopper Analytics system. This folder contains all the technical guides, hardware specifications, networking topologies, and architecture explanations created throughout the development of this project.
 
+> This subsystem is the deployed realization of [[chapters/04_The_Truth_of_Observation/README|Ch 4 — Truth of Observation]] (edge observation, continuous monitoring, sensor fusion) and [[chapters/06_Network_Pathfinding/README|Ch 6 — Network Pathfinding]] (NetBird/ZeroTier VPN mesh). It connects to the [[Local-First]] sovereignty principle and the [[hardware/edge_compute/README|edge_compute]], [[hardware/ip_camera/README|ip_camera]], and [[hardware/lidar/hardware_explanation|lidar]] hardware hubs.
+
 ## Where to start for Deployment & Operations?
 
 If you are just cloning this repository and want to run the system, deploy to a new machine, or access the dashboard, read these files first:

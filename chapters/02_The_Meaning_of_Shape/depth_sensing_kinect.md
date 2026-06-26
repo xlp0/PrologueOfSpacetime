@@ -1,5 +1,7 @@
 # Depth Sensing & The Perceiver: Xbox Kinect as Spatial Logic
 
+> This page is a topic deep-dive for [[chapters/02_The_Meaning_of_Shape/README|Ch 2 — Meaning of Shape]]. It connects [[hott_ssot_reference|HoTT]] (Type = Space, the duality of perception/reification), the [[Cubical Logic Model]], [[GASing]], and the [[deep_learning_and_physics_video_note|renormalization insight]] (the depth skeleton is a lossy multiscale compression, mirroring MERA). See also [[chapters/04_The_Truth_of_Observation/README|Ch 4]] for multi-observer triangulation and [[hardware/edge_compute/README|edge_compute]] for Kinect compute.
+
 **Hardware Focus**: Xbox 360 Kinect V1 (The Perceiver)
 **Curriculum Column**: Geometry (Space)
 

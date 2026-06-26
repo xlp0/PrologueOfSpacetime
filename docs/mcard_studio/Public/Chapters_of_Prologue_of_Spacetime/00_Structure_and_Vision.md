@@ -151,7 +151,7 @@ The **Personal Knowledge Container (PKC)** operationalizes these Flow State prin
 
 
 
-The image **`media/BrainFactory_poweredByGASing.png`** encapsulates the goal. We are building a machine that takes in **Human Attention** and produces **Sovereign Intelligence**.
+The image **`raw/assets/BrainFactory_poweredByGASing.png`** encapsulates the goal. We are building a machine that takes in **Human Attention** and produces **Sovereign Intelligence**.
 
 ### 5.1 Maxwell's Demon and the Thermodynamics of Zero Trust
  
