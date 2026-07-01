@@ -96,9 +96,9 @@ Each chapter has a `README` (overview) and an `MVP_The_*` (minimum viable protot
 - [[abc_curriculum|ABC Curriculum]] and [[requirements|Requirements]] — top-level curriculum + requirements.
 - [[ai_coding_guide/README|AI Coding Guide]] (13 lessons: what AI coding is → how tools work → the stack → tokens/context → prompting → context engineering → MCP → agent skills → agentic workflows → the tools → code of conduct → glossary → further reading). Mirrored at [[docs/teaching/handbook/README|docs/teaching/handbook]] (14 lessons, adds concrete examples).
 - [[docs/teaching/sprint_outline|Teaching sprint outline]] · [[docs/teaching/presentation_plan|Teaching presentation plan]].
-- [[docs/BBS_Activities/Session 1 Team Formation Activity Guide|BBS Activities]] — 12-session Bootcamp/Build/Showcase guides (Sessions 1–12).
-- [[docs/todos/TODO_story_chapters|TODO: story chapters]] · [[docs/todos/TODO_strategy|TODO: strategy]].
-- [[docs/visuals/clm_problem_model|CLM problem model]] (visual).
+- [[docs/records/Session 1 Team Formation Activity Guide|BBS Activities]] — 12-session Bootcamp/Build/Showcase guides (Sessions 1–12).
+- [[docs/records/TODO_story_chapters|TODO: story chapters]] · [[docs/records/TODO_strategy|TODO: strategy]].
+- [[docs/plans/clm_problem_model|CLM problem model]] (visual).
 
 ## Hardware (`hardware/`)
 
@@ -110,19 +110,18 @@ Reference pages per device: [[hardware/drone/README|drone]] · [[hardware/edge_c
 
 ## Operations & records
 
-- **Changelog** (`docs/changelog/`) — weekly entries 2025-11-30 → 2026-06-25 (16 files). Latest: [[docs/changelog/weekly-2026-06-25|weekly-2026-06-25]].
-- **Update history** (`docs/Update_History/`) — 2026-02-06 Polynomial Architecture · 2026-02-11 Flow-State Engineering · 2026-03-15 Representation Engine.
+- **Changelog + Update history** (`docs/records/`) — weekly entries 2025-11-30 → 2026-06-25 plus update history (Polynomial Architecture, Flow-State Engineering, Representation Engine). Latest: [[docs/records/weekly-2026-06-25|weekly-2026-06-25]].
 - [[docs/records/WorkingNotes_Content_Summary_2026-02-07|Working notes summary 2026-02-07]].
 - [[docs/records/MoM - 17 March 2026|MoM 17 Mar 2026]] · [[docs/records/MoM PKC - 17 March 2026|MoM PKC 17 Mar 2026]] — meeting minutes.
 - [[docs/plans/EXECUTION_PLAN|EXECUTION_PLAN]] · [[docs/plans/B200_24x7_OPERATIONAL_PLAN|B200 24x7 Operational Plan]] · [[docs/plans/duwei_workshop_plan|Duwei workshop plan]].
-- Kubernetes: [[docs/kubernetes/github_actions_migration_strategy|GitHub Actions migration]] · [[docs/kubernetes/troubleshooting/minipc_network_flapping_resolution|minipc network flapping]].
-- [[docs/Mac_Studio_Kubernetes_Setup/utm-macstudio-installation|Mac Studio UTM install]] · [[docs/Mac_Studio_Kubernetes_Setup/utm-macstudio-kubernetes-setup|Mac Studio k8s setup]].
+- Kubernetes: [[docs/plans/github_actions_migration_strategy|GitHub Actions migration]] · [[docs/plans/minipc_network_flapping_resolution|minipc network flapping]].
+- [[docs/plans/utm-macstudio-installation|Mac Studio UTM install]] · [[docs/plans/utm-macstudio-kubernetes-setup|Mac Studio k8s setup]].
 
 ## Demos & presentations
 
 - [[docs/plans/presentation_plan|Presentation plan]] + `run_presentation.sh` (Marp).
-- [[demos/slide6_astrobiology_manifest|Slide 6: Astrobiology Manifest]] · [[demos/slide7_grafana_heartbeat|Slide 7: Grafana Heartbeat]].
-- [[docs/rubik_challenge/rubik_3x3_program|Rubik 3x3 challenge]] · [[docs/Arduino_Powered_Micro_Quadruped/plan|Arduino Micro Quadruped]].
+- [[docs/demos/slide6_astrobiology_manifest|Slide 6: Astrobiology Manifest]] · [[docs/demos/slide7_grafana_heartbeat|Slide 7: Grafana Heartbeat]].
+- [[docs/plans/rubik_3x3_program|Rubik 3x3 challenge]] · [[docs/plans/plan|Arduino Micro Quadruped]].
 
 ---
 

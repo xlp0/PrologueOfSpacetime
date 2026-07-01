@@ -107,7 +107,7 @@ The chapter **READMEs and MVPs** are linked, but the **topic deep-dives** are no
 | `ai_coding_guide/10_the_tools` | [[openclaw_local_memory_setup]], [[mcp_skill_registry]] |
 | `ai_coding_guide/11_code_of_conduct` | [[Sovereign Truth and Sustainable Swarms]], [[Science of Governance]], [[EEAO]] |
 | `handbook/14_concrete_examples` | [[mcp_skill_registry]], [[openclaw_local_memory_setup]], [[abc_curriculum]] |
-| `docs/teaching/sprint_outline` | [[abc_curriculum]], [[Agentic Trinitarianism]], [[MVP Cards Design Rationale]], [[Science of Approximation]], [[docs/Arduino_Powered_Micro_Quadruped/plan]], [[hardware/oscilloscope/README]] |
+| `docs/teaching/sprint_outline` | [[abc_curriculum]], [[Agentic Trinitarianism]], [[MVP Cards Design Rationale]], [[Science of Approximation]], [[docs/plans/plan]], [[hardware/oscilloscope/README]] |
 | `docs/teaching/presentation_plan` | [[abc_curriculum]], [[Trivium x Quadrivium Framework for ABC Curriculum]], [[TAME]], [[Why Three]], [[Function-Number Duality]] |
 
 ### 4.3 Shopper-analytics edge pipeline (20 orphans)

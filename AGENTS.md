@@ -34,20 +34,19 @@ PrologueOfSpacetime/
 │   └── assets/            # images, 3D models, and the Obsidian attachment folder
 │       └── 3dmodels/
 ├── chapters/              # the 12-chapter matrix (wiki)
-├── docs/                  # concept pages, entity pages, sub-vaults (wiki)
-│   ├── concepts/          # foundational concept/entity pages (MCard, PCard, VCard, Representation Engine, etc.)
-│   ├── principles/        # operational/architectural principles (Local-First, SpacetimeDB, Observability, etc.)
-│   ├── board_games/       # board game docs as representation microcosms (Chess, Go, D&D, Monopoly, etc.)
-│   ├── records/           # meeting minutes, working-notes summaries
-│   ├── plans/             # execution plans, operational plans, presentation plans
+├── docs/                  # all wiki content, organized by TYPE not topic
+│   ├── concepts/          # all concept/entity pages (MCard, PCard, VCard, Representation Engine, PTR, TAME, CLM, GASing, Trivium, etc.)
+│   ├── principles/        # operational/architectural principles (Local-First, SpacetimeDB, Observability, skills, GitOps, etc.)
 │   ├── sources/           # source summary pages (type: source)
+│   ├── records/           # meeting minutes, changelogs, weekly updates, BBS activities, TODOs, people profiles, koo_project
+│   ├── plans/             # execution plans, operational plans, k8s setup guides, demos, rubik/arduino challenges
+│   ├── board_games/       # board game docs + game design (Chess, Go, D&D, Monopoly, etc.)
+│   ├── teaching/          # curriculum: ai_coding_guide + handbook + abc_curriculum + sprint outlines
 │   ├── shopper_analytics/ # edge-compute CV pipeline (Ch 4 + Ch 6 deployment realization)
-│   ├── inaai/             # AI tooling notes + Koo project (YouTube summaries, ChatGPT convos)
-│   ├── narrative/         # the theoretical heart (PTR, TAME, Combinatorial Species, etc.)
-│   ├── prologue_of_spacetime_improvement/  # the conceptual scaffold (CLM, GASing, Trivium, etc.)
-│   ├── people/  game_design/  teaching/  workflows/
-│   ├── changelog/  Update_History/  todos/  kubernetes/  Mac_Studio_Kubernetes_Setup/
-│   ├── BBS_Activities/  Arduino_Powered_Micro_Quadruped/  rubik_challenge/  visuals/
+│   ├── workflows/         # workflow definitions (consensus, execution, MCP registry, etc.)
+│   ├── templates/         # 11 page-type templates (§4.5)
+│   ├── demos/             # demo scripts + slide manifests
+│   ├── Fleeting/          # transient notes (scratch pad)
 │   └── mcard_studio/      # published / snapshot copies — keep in sync on path changes
 ├── hardware/              # hardware reference pages (wiki)
 └── src/                   # code (MCard utils, OpenClaw loop, Titan Quorum, link-graph extractor)
