@@ -120,7 +120,8 @@ Reference pages per device: [[hardware/drone/README|drone]] · [[hardware/edge_c
 
 ## Operations & records
 
-- **Changelog + Update history** (`docs/records/`) — weekly entries 2025-11-30 → 2026-06-25 plus update history (Polynomial Architecture, Flow-State Engineering, Representation Engine). Latest: [[docs/records/weekly-2026-06-25|weekly-2026-06-25]].
+- **Changelog + Update history** (`docs/records/`) — weekly entries 2025-11-30 → 2026-06-28 plus update history. Latest weekly: [[docs/records/weekly-2026-06-28|weekly-2026-06-28]].
+- [[docs/records/logs/README|Wiki Log Index]] — index of weekly agent operation logs (setup, syntheses, reorgs, lints).
 - [[docs/records/WorkingNotes_Content_Summary_2026-02-07|Working notes summary 2026-02-07]].
 - [[docs/records/MoM - 17 March 2026|MoM 17 Mar 2026]] · [[docs/records/MoM PKC - 17 March 2026|MoM PKC 17 Mar 2026]] — meeting minutes.
 - [[docs/plans/EXECUTION_PLAN|EXECUTION_PLAN]] · [[docs/plans/B200_24x7_OPERATIONAL_PLAN|B200 24x7 Operational Plan]] · [[docs/plans/duwei_workshop_plan|Duwei workshop plan]].

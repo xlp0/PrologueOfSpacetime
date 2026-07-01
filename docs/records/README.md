@@ -6,6 +6,7 @@ Welcome to the weekly changelog directory. Below is the index of weekly changes 
 
 | Week Range | Changelog Document |
 | :--- | :--- |
+| **2026-06-28 to 2026-07-04** | [weekly-2026-06-28.md](weekly-2026-06-28.md) |
 | **2026-06-25 to 2026-07-01** | [weekly-2026-06-25.md](weekly-2026-06-25.md) |
 | **2026-06-21 to 2026-06-27** | [weekly-2026-06-21.md](weekly-2026-06-21.md) |
 | **2026-04-26 to 2026-05-02** | [weekly-2026-04-26.md](weekly-2026-04-26.md) |

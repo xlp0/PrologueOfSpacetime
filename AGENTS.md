@@ -15,7 +15,7 @@ The human browses the result in **Obsidian** (this directory is an Obsidian vaul
 | Layer | Location | Who owns it | Mutability |
 |:---|:---|:---|:---|
 | **Raw sources** | `raw/` | Human curates; LLM reads | **Immutable.** Never modify, rename, or delete a source file. |
-| **The wiki** | everything else (`README.md`, `chapters/`, `docs/`, `hardware/`, `index.md`, `log.md`) | **LLM owns** | LLM creates / updates / cross-references freely. |
+| **The wiki** | everything else (`README.md`, `chapters/`, `docs/`, `hardware/`, `index.md`) | **LLM owns** | LLM creates / updates / cross-references freely. |
 | **The schema** | `AGENTS.md` (this file) | Co-evolved | Edit only when conventions change. |
 
 `raw/` is the **source of truth**. The wiki is a derived, maintained synthesis. When a wiki claim is challenged, the raw source wins — update the wiki to match.
@@ -27,7 +27,6 @@ PrologueOfSpacetime/
 ├── AGENTS.md              # this schema (you are here)
 ├── README.md              # project overview / top-level synthesis (wiki)
 ├── index.md               # LLM-maintained catalog of every wiki page (§5)
-├── log.md                 # append-only chronological record (§5)
 ├── raw/                   # IMMUTABLE source layer
 │   ├── transcripts/       # video / audio transcripts (.txt, .json)
 │   ├── articles/          # clipped articles, PDFs
@@ -39,6 +38,7 @@ PrologueOfSpacetime/
 │   ├── principles/        # operational/architectural principles (Local-First, SpacetimeDB, Observability, skills, GitOps, etc.)
 │   ├── sources/           # source summary pages (type: source)
 │   ├── records/           # meeting minutes, changelogs, weekly updates, BBS activities, TODOs, people profiles, koo_project
+│   │   └── logs/          # weekly agent operations logs (weekly-log-YYYY-MM-DD.md)
 │   ├── plans/             # execution plans, operational plans, k8s setup guides, demos, rubik/arduino challenges
 │   ├── board_games/       # board game docs + game design (Chess, Go, D&D, Monopoly, etc.)
 │   ├── teaching/          # curriculum: ai_coding_guide + handbook + abc_curriculum + sprint outlines
@@ -138,9 +138,11 @@ Every page gets a `liberal_art` frontmatter field + matching tag (one of the sev
 
 A catalog of every wiki page, grouped by `type`, each entry a link plus a one-line summary plus key metadata. Organized by category. **When answering a query, read `index.md` first** to find relevant pages, then drill in. This is the navigation layer that replaces embedding-RAG at moderate scale.
 
-### log.md — chronological record (append-only)
+### docs/records/logs/ — weekly agent operations logs
 
-Every ingest, query-that-became-a-page, and lint pass gets a dated entry. Use the exact prefix format so the log is parseable with simple unix tools:
+Chronological records of operations (ingests, syntheses, reorgs, lints) are partitioned weekly under `docs/records/logs/` in files named `weekly-log-YYYY-MM-DD.md` (where YYYY-MM-DD is the Sunday beginning the week). An index file at `docs/records/logs/README.md` catalogs all weekly log documents.
+
+Every dated entry starts with `## [YYYY-MM-DD] type | Title`. To append a log entry, locate or create the current week's log file (updating the index in `docs/records/logs/README.md` if a new file is created), and append the entry in the standard prefix format:
 
 ```
 ## [2026-06-26] ingest | Deep Learning and Physics (video transcript)
@@ -149,7 +151,6 @@ Every ingest, query-that-became-a-page, and lint pass gets a dated entry. Use th
 - Notes: linked renormalization to MERA; flagged tension with §3 of chapters/09
 ```
 
-`grep -F '## [' log.md | tail -5` returns the last 5 entries. Keep this property.
 
 ## 6. Operations
 
@@ -162,7 +163,7 @@ When the user drops a source into `raw/` (or points you at one already there) an
 3. **Write/update a source summary page** under `docs/` with `type: source`, `sources: [...]`, frontmatter per §4.1.
 4. **Update the index** (`index.md`) — add the new page and any new entity/concept pages.
 5. **Propagate**: update every entity/concept page the source bears on (a single source may touch 10–15 pages). Add or strengthen cross-references. **Flag contradictions explicitly** — do not silently overwrite an older claim; add a `> Contradicts:` note citing both sources and let the user resolve.
-6. **Append a `log.md` entry** with the prefix format above.
+6. **Append a weekly log entry** to the current week's log file in `docs/records/logs/` with the prefix format above.
 
 Never modify the source file itself. If a source needs renaming or relocating, ask the user.
 
@@ -174,7 +175,7 @@ When the user asks a question:
 2. Synthesize an answer **with citations** (wikilinks to the pages, and the source path for claims of fact).
 3. If the answer is a useful artifact (a comparison, analysis, discovered connection), **propose filing it back into the wiki** as a new `type: synthesis` page. Good answers should compound, not evaporate into chat.
 4. For presentation requests, output **Marp** markdown (§8.2). For data, prefer a markdown table or a chart spec the user can render.
-5. Log significant queries-that-became-pages in `log.md`.
+5. Log significant queries-that-became-pages in the current week's log file in `docs/records/logs/`.
 
 ### 6.3 Lint
 
@@ -187,7 +188,7 @@ Run when the user asks for a health check (periodically, or before a milestone):
 5. **Missing pages** for concepts mentioned often but lacking a page.
 6. **Missing cross-references** — two pages that should link but don't.
 7. **Data gaps** that a web search or new source could fill — suggest specific questions to investigate.
-8. Report findings as a checklist; append a `log.md` lint entry. Fix only what the user approves.
+8. Report findings as a checklist; append a lint entry to the current week's log file in `docs/records/logs/`. Fix only what the user approves.
 
 ## 7. Cross-reference and orphan hygiene
 
@@ -249,6 +250,6 @@ Keep frontmatter consistent so these queries stay useful.
 - **Raw is immutable.** Never edit, rename, or delete anything under `raw/`.
 - **Trace every claim to a source** via the page's `sources:` field or an inline path. If you cannot, mark the claim as `[unverified]`.
 - **Contradictions are explicit**, never silently resolved.
-- **Re-read `index.md` before answering; append `log.md` after every ingest or lint.**
+- **Re-read `index.md` before answering; append a weekly log entry to the current week's log file in `docs/records/logs/` after every ingest or lint.**
 - Large binary assets in `raw/` (the ~20 MB PDFs) are candidates for Git LFS — flag this to the user rather than committing more.
 - This is a git repo. You get version history, branching, and collaboration for free.

@@ -132,7 +132,7 @@ The entire `docs/shopper_analytics/` subtree is the **deployment realization of 
 
 ### 4.5 Changelogs & update history (18 orphans)
 
-`docs/changelog/weekly-*` (16 files) and `docs/Update_History/*` (2 orphan files). Chronological records — inherently low-link, but each should at least link to its predecessor/successor and to the concepts it introduced (e.g. [[2026-02-06_Polynomial_Architecture]] → [[Modularity]], [[Polynomial functor]]; [[2026-03-15_Representation_Engine]] → [[The_Representation_Engine]]; the changelog that flagged the `media/` → `raw/` migration → [[log]]).
+`docs/changelog/weekly-*` (16 files) and `docs/Update_History/*` (2 orphan files). Chronological records — inherently low-link, but each should at least link to its predecessor/successor and to the concepts it introduced (e.g. [[2026-02-06_Polynomial_Architecture]] → [[Modularity]], [[Polynomial functor]]; [[2026-03-15_Representation_Engine]] → [[The_Representation_Engine]]; the changelog that flagged the `media/` → `raw/` migration → [[docs/records/logs/README|Wiki Log Index]]).
 
 ### 4.6 Hardware sub-pages (7 orphans)
 
