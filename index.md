@@ -32,6 +32,8 @@ status: stable
 - [[Entropy|Entropy]] — metric of expressive freedom, alternative states, and uncompressed noise ($H_T$).
 - [[Magnitude|Magnitude]] — numerical invariant of enriched categories measuring relational size and diversity ($|X| = \mathbf{1}^{\top} Z^{-1} \mathbf{1}$).
 - [[Awareness_of_Opportunities|Awareness of Opportunities]] — continuous learning loop governed by the ABC cycle in response to entropic space expansion.
+- [[Godel_Machine|Gödel Machine]] — theoretical self-referential computer architecture capable of mathematically proving beneficial code modifications.
+- [[Red_Queen_Godel_Machine|Red Queen Gödel Machine]] — co-evolutionary framework for recursive self-improvement where agents and evaluators adapt in lockstep.
 - [[Local-First|Local-First]] and [[The Local-First Software Paradigm Architecture, Developer Experience, and User Agency|Local-First Paradigm (full)]] — data sovereignty and user agency.
 - [[SpacetimeDB_Overview|SpacetimeDB Overview]] and [[SpacetimeDB_Integrations|SpacetimeDB Integrations]] — SpacetimeDB as the reactive DB substrate.
 - [[PKC_ZITADEL_Game_Board_Planning|PKC ZITADEL Game Board]] — identity/game-board planning.
