@@ -94,6 +94,7 @@ tags: [ai-tools, claude-code, mcp, second-brain, physical-ai, nvidia, hermes, ag
 - [[k8s-cluster-architecture]] — a k8s cluster = control plane + worker nodes, with the pod as the smallest deployable unit, 2026-06-30
 - [[k8s-control-plane-components]] — control plane = API server + etcd (state) + scheduler + controller manager; reconciliation loops drive current → desired state, 2026-06-30
 - [[k8s-worker-node-components]] — each worker node runs kubelet (control channel) + container runtime (execution) + kube-proxy (networking), 2026-06-30
+- [[k8s-orchestration-why-conductor-metaphor]] — the "why" of k8s: conductor metaphor, workload variability (Robinhood), horizontal scaling + failover + replica sets for HA, 2026-06-30
 - [[gitops-pull-vs-push]] — CI server does kubectl apply vs in-cluster operator (Argo CD) reconciles from config repo; pull model catches drift and survives CI outages, 2026-06-30
 - [[gitops-two-repo-pattern]] — application repo (source) vs config repo (deployment manifests); CI auto-PRs the image tag bump into config repo, 2026-06-30
 - [[environment-promotion-gates]] — test/QA → staging → production; per-environment auto-sync vs manual click gates; staging = prod-like pretend, 2026-06-30
@@ -102,6 +103,19 @@ tags: [ai-tools, claude-code, mcp, second-brain, physical-ai, nvidia, hermes, ag
 - [[argocd-declarative-gitops-k8s]] — ArgoCD's three pillars: GitOps trigger + declarative YAML spec + Kubernetes pod runtime, 2026-06-30
 - [[declarative-desired-state-yaml]] — YAML describes intended architecture; recoverability + self-healing drift reconciliation, 2026-06-30
 - [[argocd-rollback-health-checks]] — one-click rollback to last good commit + UI/CLI health surfaces (e.g. missing registry secrets), 2026-06-30
+- [[docker-images-vs-containers]] — image = recipe (read-only template with runtime + deps + code), container = meal (running instance); one image spawns many containers, 2026-06-30
+- [[dockerfile-instructions]] — FROM/WORKDIR/COPY/RUN/ENV/EXPOSE/CMD; RUN executes at build, CMD executes at container start; .dockerignore skips host dirs, 2026-06-30
+- [[docker-layer-caching]] — every Dockerfile instruction is a layer; reorder so stable slow steps (deps) come before volatile fast steps (code) so cache isn't invalidated on every change, 2026-06-30
+- [[docker-compose-multi-container]] — one container per service declared in compose.yaml; `build:` for your code, `image:` for off-the-shelf; `docker compose up` / `down` lifecycle, 2026-06-30
+- [[docker-volumes-persistence]] — host-managed folder mounted into container(s); persists data across container restarts and shares data between containers; decouples stateless compute from stateful storage, 2026-06-30
+- [[file-storage-hierarchical-namespace]] — file storage as hierarchical directory on block devices; NTFS/ext4/NFS/SMB; pros/cons, 2026-06-30
+- [[object-storage-flat-namespace-metadata]] — object storage as flat namespace with data + unique ID + rich metadata; S3/GCS/Azure Blob, 2026-06-30
+- [[file-vs-object-storage-decision-criteria]] — when to pick file vs object storage; shared network drive vs Netflix/YouTube streaming workloads, 2026-06-30
+- [[object-storage-bucket-virtual-construct-replication]] — bucket as virtual namespace + physical replication to N devices for durability; API-only access, 2026-06-30
+- [[object-storage-tiered-pricing-by-access-frequency]] — cold×10 / cold / cold-ish tiers; no warm tier; price scales with responsiveness, 2026-06-30
+- [[object-storage-workload-patterns]] — streaming + global replication, file sharing via metadata versioning, cold archives, 2026-06-30
+- [[rust-ownership-borrowing-model]] — memory safety without GC: ownership (one owner, moves on reassign/pass) + borrowing (`&T` shared / `&mut T` exclusive); borrow checker enforces at compile time, 2026-07-01
+- [[rust-type-system-safety]] — make invalid states unrepresentable: no null (Option<T>), immutability default, no exceptions (Result<T,E>); signature tells caller everything, 2026-07-01
 
 ## Related
 - [[koo-project-highlights]]

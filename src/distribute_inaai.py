@@ -57,6 +57,22 @@ FM = {
 'k8s-origin-and-naming.md': ('concepts','Trivium-Grammar','concept'),
 'k8s-worker-node-components.md': ('concepts','Trivium-Grammar','concept'),
 'minio-s3-compatible-object-storage.md': ('concepts','Quadrivium-Geometry','concept'),
+# Batch-2 DevOps notes (recovered 2026-07-01 after feat/inaai-batch-2-devops rebase gap)
+'docker-compose-multi-container.md': ('concepts','Quadrivium-Geometry','concept'),
+'docker-images-vs-containers.md': ('concepts','Trivium-Grammar','concept'),
+'docker-layer-caching.md': ('concepts','Quadrivium-Geometry','concept'),
+'docker-volumes-persistence.md': ('concepts','Quadrivium-Geometry','concept'),
+'dockerfile-instructions.md': ('concepts','Trivium-Grammar','concept'),
+'file-storage-hierarchical-namespace.md': ('concepts','Quadrivium-Geometry','concept'),
+'file-vs-object-storage-decision-criteria.md': ('concepts','Trivium-Logic','concept'),
+'k8s-orchestration-why-conductor-metaphor.md': ('concepts','Trivium-Logic','concept'),
+'object-storage-bucket-virtual-construct-replication.md': ('concepts','Quadrivium-Geometry','concept'),
+'object-storage-flat-namespace-metadata.md': ('concepts','Quadrivium-Geometry','concept'),
+'object-storage-tiered-pricing-by-access-frequency.md': ('concepts','Quadrivium-Geometry','concept'),
+'object-storage-workload-patterns.md': ('concepts','Quadrivium-Geometry','concept'),
+# Rust YouTube notes (2026-07-01, Let's Get Rusty — Rust for Dummies in 12 Minutes)
+'rust-ownership-borrowing-model.md': ('concepts','Trivium-Logic','concept'),
+'rust-type-system-safety.md': ('concepts','Trivium-Grammar','concept'),
 # Principles: skills and token-cost
 'skills-sh-markdown-spec.md': ('principles','Trivium-Grammar','principle'),
 'skills-install-best-practices.md': ('principles','Trivium-Grammar','principle'),
