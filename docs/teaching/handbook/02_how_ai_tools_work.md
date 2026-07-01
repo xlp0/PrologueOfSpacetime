@@ -1,3 +1,16 @@
+---
+title: 'Chapter 2 — How AI Tools Work'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Logic]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 2
+liberal_art: Trivium-Logic
+audience: beginner
+---
+
 # Chapter 2 — How AI Tools Work
 
 > Before we talk about tools and workflows, you need a clear picture of what an AI coding tool actually *is*. Most confusion comes from having the wrong picture in your head.

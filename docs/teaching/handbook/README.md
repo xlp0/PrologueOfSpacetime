@@ -1,3 +1,16 @@
+---
+title: 'The AI Coding Handbook'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Grammar]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 0
+liberal_art: Trivium-Grammar
+audience: beginner
+---
+
 # The AI Coding Handbook
 
 > A handbook for anyone who wants to understand what AI coding tools are, what they can do, and how to work with them responsibly. Written so a 14-year-old can follow along.
@@ -38,8 +51,8 @@ If a word is new to you, check [Chapter 12: The Words You'll Hear](12_words_youl
 
 ### Part 3: Plugging Things In
 
-- [**Chapter 7 — MCP: Plugging Things In**](07_mcp.md)
-  The Model Context Protocol — the "USB-C for AI tools" — and what people have plugged in.
+- [**Chapter 7 — [[mcp-anthropic-standard|MCP]]: Plugging Things In**](07_mcp.md)
+  The [[mcp-anthropic-standard|Model Context Protocol]] — the "USB-C for AI tools" — and what people have plugged in.
 
 - [**Chapter 8 — Agent Skills: Packaged Know-How**](08_agent_skills.md)
   What skills are, what they are for, and examples of skills people have built.

@@ -1,6 +1,19 @@
-# Chapter 7 — MCP: Plugging Things In
+---
+title: 'Chapter 7 — MCP: Plugging Things In'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Grammar]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 7
+liberal_art: Trivium-Grammar
+audience: beginner
+---
 
-> **MCP** stands for **Model Context Protocol**. It is a standard for connecting AI tools to outside systems — like your files, GitHub, a database, or a video editor. This chapter explains what MCP is, what it is for, and what people have plugged in.
+# Chapter 7 — [[mcp-anthropic-standard|MCP]]: Plugging Things In
+
+> **MCP** stands for **[[mcp-anthropic-standard|Model Context Protocol]]**. It is a standard for connecting AI tools to outside systems — like your files, GitHub, a database, or a video editor. This chapter explains what MCP is, what it is for, and what people have plugged in.
 
 ---
 

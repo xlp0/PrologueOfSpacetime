@@ -1,3 +1,16 @@
+---
+title: 'Chapter 4 — Tokens and the Context Window'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Quadrivium-Arithmetic]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 4
+liberal_art: Quadrivium-Arithmetic
+audience: beginner
+---
+
 # Chapter 4 — Tokens and the Context Window
 
 > To use AI tools well, you need to understand two things: **tokens** (how the AI measures text) and the **context window** (how much text the AI can hold in its head at once). These two ideas explain almost every weird behavior you will see.
@@ -73,7 +86,7 @@ The most common beginner mistake is **pasting too much**. Someone thinks: "I wil
 2. **It fills the window.** The AI cannot hold a million tokens. The oldest stuff falls out before the AI even starts.
 3. **It confuses the AI.** Models lose focus when given too much at once. A focused prompt with the right 5 files often beats a sprawling prompt with 500 files.
 
-**The professional move**: give the AI only what it needs. If it needs more, let it ask for it using tools (file search, grep). This is called **context engineering**, and it is the topic of [Chapter 6](06_context_engineering.md).
+**The professional move**: give the AI only what it needs. If it needs more, let it ask for it using tools (file search, grep). This is called **[[static-vs-dynamic-context|context engineering]]**, and it is the topic of [Chapter 6](06_context_engineering.md).
 
 ---
 

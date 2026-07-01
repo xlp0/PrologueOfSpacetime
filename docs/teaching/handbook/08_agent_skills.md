@@ -1,3 +1,16 @@
+---
+title: 'Chapter 8 — Agent Skills: Packaged Know-How'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Grammar]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 8
+liberal_art: Trivium-Grammar
+audience: beginner
+---
+
 # Chapter 8 — Agent Skills: Packaged Know-How
 
 > A **skill** is a packaged unit of workflow knowledge that an AI loads on demand. This chapter explains what skills are, what they are for, and examples of skills people have built.
@@ -62,7 +75,7 @@ To give you a sense of the range, here are some examples of skills that exist in
 
 - **Skill discovery skill** — When a user asks "how do I do X?", this skill directs the AI to search a public skills registry before writing custom instructions from scratch. It is a meta-skill — a skill whose job is to find other skills.
 
-- **Multi-agent orchestration skill** — Describes how to deploy and coordinate swarms of agents via an MCP server: initialize a swarm, spawn specialized agents (researcher, coder, analyst), assign tasks, monitor, scale, tear down.
+- **Multi-agent orchestration skill** — Describes how to deploy and coordinate swarms of agents via an [[mcp-anthropic-standard|MCP]] server: initialize a swarm, spawn specialized agents (researcher, coder, analyst), assign tasks, monitor, scale, tear down.
 
 - **Code review skill** — Walks the AI through reviewing a pull request: fetch the diff, read the changed files for context, check against a project style guide, run the tests, write a structured review with sections for risks, suggestions, and approval.
 

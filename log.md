@@ -57,3 +57,62 @@ status: stable
 - **Verification:** re-ran the graph script — MCard/VCard/PCard now RESOLVED (inbound counts rose to 25/24/21 via cross-links).
 - **Pages touched:** docs/Document_Relationship_Map.md (new), docs/MCard.md (new), docs/PCard.md (new), docs/VCard.md (new), docs/docs_shopper_analytics/README.md (updated), chapters/02_The_Meaning_of_Shape/depth_sensing_kinect.md (updated), docs/deep_learning_and_physics_video_note.md (updated), index.md (updated), log.md.
 - **Open items (lint backlog, in priority order):** reconnect remaining ~105 orphan files per the §4 tables in Document_Relationship_Map; create stubs for Computational Trinitarianism (9), Directionality (7), Representability (7), Conversational Programming (6), Epiplexity (6), Flow State (19, biggest); cross-link the ai_coding_guide ↔ teaching/handbook mirrors; mark PIPELINE_8080 status: stale; convert path-based markdown links to wikilinks in chapter topic files.
+
+## [2026-06-26] reorg | docs/ directory sorted into typed subfolders
+
+- **Trigger:** user noted docs/ was too messy (41 flat files + 20 dirs at root).
+- **Method:** multi-agent workflow — 3 parallel subagents each handled one cluster of file moves (board_games, concepts, principles+records+plans+sources), while I handled cross-cutting path-ref fixes, the shopper_analytics rename, AGENTS.md update, and verification.
+- **41 flat files sorted into 6 new typed subfolders:**
+  - `docs/concepts/` (11 files: MCard, PCard, VCard, The_Representation_Engine, DM_as_Maxwells_Demon, Monadic Composition, hott_ssot_reference, Prologue_Conceptual_Digest, Pancasila_and_the_Five_WH, Document_Relationship_Map, Digital_Synesthesia)
+  - `docs/principles/` (9 files: Local-First, Local-First Paradigm, Observability, Reliability, SpacetimeDB_*, PKC_ZITADEL, Five Dining Philosophers, Residential_Power)
+  - `docs/board_games/` (13 files: all Board_Game_* + *_GAME_DOCUMENTATION + D&D docs + Monopoly story)
+  - `docs/records/` (3 files: MoM files, WorkingNotes_Content_Summary)
+  - `docs/plans/` (4 files: EXECUTION_PLAN, B200_24x7, duwei_workshop, presentation_plan)
+  - `docs/sources/` (1 file: deep_learning_and_physics_video_note)
+- **Directory renamed:** `docs/docs_shopper_analytics/` → `docs/shopper_analytics/` (21 files).
+- **Path-based references fixed:** 13 total across index.md, Document_Relationship_Map.md, chapters/05/README, chapters/05/iot_motor_control, chapters/02/README, chapters/02/topology_printing, chapters/02/geometry_analytics, chapters/04/edge_observation_architecture, docs/inaai/prof-ben-koo-speeches, docs/plans/EXECUTION_PLAN, README.md. (Bare [[wikilinks]] resolve by basename in Obsidian — unaffected by moves.)
+- **AGENTS.md updated:** §3 directory layout now reflects the new subfolder structure + an "organization convention" paragraph so future AI agents know where to file new pages by type.
+- **Verification:** zero flat .md files remain at docs/ root. Link graph script confirms MCard/VCard/PCard still resolved (26/25/22 inbound). 68 renames staged in git.
+- **Pages touched:** AGENTS.md, index.md, docs/concepts/Document_Relationship_Map.md, README.md, docs/plans/EXECUTION_PLAN.md, 5 chapter topic files, docs/inaai/prof-ben-koo-speeches.md, log.md. 68 files renamed via git mv (history preserved).
+
+## [2026-06-26] templates | 8 page-type templates + Obsidian Templates plugin wired
+
+- **Trigger:** user noted "we will have to have a lot of templates" — with 140+ pages and 7 page types, templates ensure consistency for future AI agents.
+- **Files created (in `docs/templates/`):**
+  - `README.md` — index of all templates + the seven liberal arts tag mapping table
+  - `concept.md` — for foundational concept/entity pages
+  - `principle.md` — for operational/architectural principles
+  - `source.md` — for source summaries after ingest (§6.1)
+  - `synthesis.md` — for query-that-became-a-page (§6.2)
+  - `record.md` — for meeting minutes, working notes
+  - `plan.md` — for execution/operational plans
+  - `chapter_topic.md` — for chapter deep-dive topic files
+  - `presentation_marp.md` — for Marp slide decks (§8.2)
+- **Each template includes:**
+  - Full YAML frontmatter per §4.1 schema (title, date, tags, type, sources, status, liberal_art)
+  - Placeholder structure (UPPERCASE placeholders + `{{date}}` for Obsidian Templates plugin)
+  - Section scaffolding matching existing page conventions (numbered sections, blockquote epigraphs, "See also" with cross-links)
+  - The `liberal_art` field + `Seven-Liberal-Arts` tag — connecting every new page to the [[Trivium]] x [[Quadrivium]] narrative
+- **Obsidian config:** `.obsidian/templates.json` → `{"folder": "docs/templates"}`. The Templates core plugin is enabled; bind "Insert template" to a hotkey (e.g. Cmd+T) to use.
+- **AGENTS.md updated:** §4.4 naming now specifies the typed subfolders; new §4.5 "Templates" documents the 8 templates + the seven liberal arts tag mapping so future AI agents know to read the matching template before creating any new page.
+- **Liberal arts distribution** (from the inaai/ files distributed earlier): Trivium-Logic (19), Trivium-Grammar (18), Quadrivium-Astronomy (11), Quadrivium-Geometry (9), Quadrivium-Arithmetic (8), Trivium-Rhetoric (7), Quadrivium-Music (5).
+
+## [2026-06-26] reorg+templates | Root cleanup, teaching files upgraded, teaching template
+
+- **Trigger:** user noted teaching files (like Ch4 Tokens and Context) had no links or frontmatter; asked for teaching template; questioned root directory professionalism.
+- **Root directory cleanup:**
+  - `ai_coding_guide/` → `docs/teaching/ai_coding_guide/` (13 chapters + README)
+  - `abc_curriculum.md` → `docs/teaching/abc_curriculum.md`
+  - `requirements.md` → `docs/plans/requirements.md`
+  - `demos/` → `docs/demos/` (Python scripts + 2 markdown)
+  - Deleted `Untitled.base`, `Untitled.canvas` (junk Obsidian files)
+  - `skills-lock.json` added to .gitignore
+  - Root now has only: AGENTS.md, README.md, index.md, log.md, Hub/ (71 refs, can't move), chapters/, docs/, hardware/, raw/, src/, requirements.txt, run_presentation.sh, skills-lock.json (gitignored)
+- **Teaching template created:** `docs/templates/teaching_chapter.md` — for curriculum/lesson chapters with `course`, `chapter`, `audience` fields + liberal art tag. Total templates now: 11.
+- **29 teaching files upgraded** via `src/upgrade_teaching_files.py`:
+  - 14 files in `docs/teaching/ai_coding_guide/` (professional audience)
+  - 15 files in `docs/teaching/handbook/` (beginner audience)
+  - Each now has: full YAML frontmatter (title, date, tags, type, sources, status, course, chapter, liberal_art, audience) + wikilinks to core concepts (The_Representation_Engine, MCP, Trivium, abc_curriculum, Local-First, SpacetimeDB, second brain, Flow State, Dungeon Master, context engineering, prompt injection — first occurrence only)
+  - Liberal arts distributed across chapters: Trivium-Grammar (ch 6,7,8,12), Trivium-Logic (ch 2,11), Trivium-Rhetoric (ch 1,5,10,13), Quadrivium-Arithmetic (ch 4), Quadrivium-Geometry (ch 3,14), Quadrivium-Music (ch 9)
+- **AGENTS.md §4.5** updated with teaching_chapter template in the table.
+- **Scripts:** `src/upgrade_teaching_files.py` (re-runnable), `src/distribute_inaai.py` (one-shot, done).

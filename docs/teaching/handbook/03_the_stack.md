@@ -1,3 +1,16 @@
+---
+title: 'Chapter 3 — The Stack: Model, Harness, Client, Server'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Quadrivium-Geometry]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 3
+liberal_art: Quadrivium-Geometry
+audience: beginner
+---
+
 # Chapter 3 — The Stack: Model, Harness, Client, Server
 
 > When people talk about AI coding tools, they use a lot of words that sound similar but mean different things. This chapter explains the four layers and what each one is **for**.
@@ -10,7 +23,7 @@ An AI coding tool is made of four layers, stacked on top of each other:
 
 1. **Model** — the brain.
 2. **Harness** — the body around the brain.
-3. **MCP Client** — the part of the body that talks to outside services.
+3. **[[mcp-anthropic-standard|MCP]] Client** — the part of the body that talks to outside services.
 4. **MCP Server** — a separate program that exposes a specific service.
 
 You are the user at the top. You talk to the harness, which runs the model, which calls tools provided by MCP servers. Each layer has one job.

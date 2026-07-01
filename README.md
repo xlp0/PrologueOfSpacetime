@@ -240,7 +240,7 @@ This demonstrates geometry (homography transformation), observation (multi-camer
 ## 📚 Active Context (in `docs/`)
 
 * **[`README.md`](README.md)**: The core "Game" document (CLM: `Spec`) — the Prologue of Spacetime vision itself.
-* **[`Prologue_Conceptual_Digest.md`](docs/Prologue_Conceptual_Digest.md)**: A high-level synthesis of Information Density, Thermodynamics, and Monadic logic.
+* **[`Prologue_Conceptual_Digest.md`](docs/concepts/Prologue_Conceptual_Digest.md)**: A high-level synthesis of Information Density, Thermodynamics, and Monadic logic.
 * **[`Structure and Vision`](chapters/00_Structure_and_Vision.md)**: The project architecture (CLM: `Spec + Impl`).
 * **[`Brain_Factory_Implementation_Case_Study.md`](chapters/Brain_Factory_Implementation_Case_Study.md)**: Real-world validation (CLM: `Exp`).
 * **[`Strategic_Validation_Reverse_Mathematics_of_the_Brain_Factory.md`](chapters/Strategic_Validation_Reverse_Mathematics_of_the_Brain_Factory.md)**: Proof-theoretic validation of the Brain Factory strategy (CLM: `Exp`).

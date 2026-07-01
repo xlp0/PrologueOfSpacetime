@@ -1,6 +1,19 @@
+---
+title: 'Chapter 6 — Context Engineering'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Grammar]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 6
+liberal_art: Trivium-Grammar
+audience: beginner
+---
+
 # Chapter 6 — Context Engineering
 
-> There is a newer idea you will hear about: **context engineering**. It is the skill of choosing what the AI sees, so it gives you better answers. This chapter explains what it is and why it matters more than prompt wording.
+> There is a newer idea you will hear about: **[[static-vs-dynamic-context|context engineering]]**. It is the skill of choosing what the AI sees, so it gives you better answers. This chapter explains what it is and why it matters more than prompt wording.
 
 ---
 
@@ -68,7 +81,7 @@ Instead of pasting the whole codebase, pick the specific files that matter. If t
 
 ### Lever 2: Tool Selection
 
-Instead of giving the AI every tool, give it only the tools it needs for this task. Do not enable the GitHub MCP server if the task only needs the filesystem.
+Instead of giving the AI every tool, give it only the tools it needs for this task. Do not enable the GitHub [[mcp-anthropic-standard|MCP]] server if the task only needs the filesystem.
 
 **Beginner move**: Turn on every MCP server and every skill, just in case.
 **Pro move**: Enable only what the task requires.
@@ -155,7 +168,7 @@ A knowledge graph is a **pre-built map** of a codebase: which file calls which, 
 
 ### MCP Servers (Context Providers)
 
-**MCP** (Model Context Protocol) is an open standard — think of it as a USB-C port for AI. An MCP server is a small program that plugs into that port and feeds the AI something new: the **filesystem** (read local files), **GitHub** (see issues and PRs), **PostgreSQL** (run database queries), and many more. Instead of copying data into the prompt by hand, you connect a server and the AI fetches what it needs on demand. Tools like OpenCode are built around this idea — the AI gets the right context at the right moment.
+**MCP** ([[mcp-anthropic-standard|Model Context Protocol]]) is an open standard — think of it as a USB-C port for AI. An MCP server is a small program that plugs into that port and feeds the AI something new: the **filesystem** (read local files), **GitHub** (see issues and PRs), **PostgreSQL** (run database queries), and many more. Instead of copying data into the prompt by hand, you connect a server and the AI fetches what it needs on demand. Tools like OpenCode are built around this idea — the AI gets the right context at the right moment.
 
 ---
 

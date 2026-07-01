@@ -18,7 +18,7 @@ The "Shape" is the fundamental unit of Geometry. In our curriculum, we move beyo
 ### 2. Hardware Integration: The Reifier (3D Printing)
 To understand abstract topology, we must make it physical. We use **3D Printing** to "reify" (make real) our abstract types.
 *   **[Topology & 3D Printing](topology_printing.md)**: A guide to slicing, non-Euclidean geometry, and physicalizing code.
-*   **[Solar RC Toy Car](../../docs/docs_shopper_analytics/build_toy_car.md)**: A complete 3D printable mechanical assembly—including chassis, custom gears, and wheels—that demonstrates physicalizing moving primitives into a functional vehicle structure.
+*   **[Solar RC Toy Car](../../docs/shopper_analytics/build_toy_car.md)**: A complete 3D printable mechanical assembly—including chassis, custom gears, and wheels—that demonstrates physicalizing moving primitives into a functional vehicle structure.
 
 ### 3. Hardware Integration: The Perceiver (Xbox Kinect & IP Cameras)
 To define a Shape, we must first **observe** it. The Printer writes space; the Kinect reads space. They are dual operations.

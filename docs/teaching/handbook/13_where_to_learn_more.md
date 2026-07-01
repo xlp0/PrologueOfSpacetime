@@ -1,3 +1,16 @@
+---
+title: 'Chapter 13 — Where to Learn More'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Rhetoric]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 13
+liberal_art: Trivium-Rhetoric
+audience: beginner
+---
+
 # Chapter 13 — Where to Learn More
 
 > This handbook is a starting point. The tools and the field change fast. Here are places to go deeper.
@@ -6,7 +19,7 @@
 
 ## Specifications and Official Docs
 
-- **MCP specification** — https://modelcontextprotocol.io — the official protocol site, with the spec, SDKs, and a list of reference servers.
+- **[[mcp-anthropic-standard|MCP]] specification** — https://modelcontextprotocol.io — the official protocol site, with the spec, SDKs, and a list of reference servers.
 - **Anthropic MCP announcement** (November 2024) — the original blog post introducing the protocol.
 - **opencode docs** — https://opencode.ai — configuration, MCP, skills, and the agentic loop.
 - **Claude Code docs** — Anthropic's documentation for Claude Code.
@@ -66,7 +79,7 @@ You have reached the end of the handbook. You now know:
 
 - What AI coding tools are and how they work.
 - How the AI sees text (tokens) and remembers (context window).
-- How to talk to AI (prompting styles) and how to curate what it sees (context engineering).
+- How to talk to AI (prompting styles) and how to curate what it sees ([[static-vs-dynamic-context|context engineering]]).
 - What MCP is and what people have plugged in.
 - What skills are and why they save time and money.
 - When to let AI run on its own (agentic workflows) and the patterns people use.

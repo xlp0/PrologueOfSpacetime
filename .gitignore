@@ -35,4 +35,4 @@ docs/Fleeting/
 *.dll
 *.so
 *.dylib
-*.log
+*.logskills-lock.json

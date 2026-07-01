@@ -1,3 +1,16 @@
+---
+title: 'Chapter 10 — The Tools People Use'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Rhetoric]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 10
+liberal_art: Trivium-Rhetoric
+audience: beginner
+---
+
 # Chapter 10 — The Tools People Use
 
 > There are several AI coding tools people use today. This chapter explains what each one is and what it is good at. The tools change fast; the categories do not.
@@ -14,7 +27,7 @@ Here are the main ones people use.
 
 ## opencode
 
-**What it is**: A terminal-native AI coding agent. You run it in your project directory; it has file and shell tools; it can use MCP servers and skills.
+**What it is**: A terminal-native AI coding agent. You run it in your project directory; it has file and shell tools; it can use [[mcp-anthropic-standard|MCP]] servers and skills.
 
 **What it is good at**: Multi-step agentic work in the terminal. Model-agnostic (you can use Claude, GPT, Gemini, local Llama). Supports MCP servers and skills out of the box.
 

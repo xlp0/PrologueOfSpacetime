@@ -1,3 +1,16 @@
+---
+title: 'Chapter 5 — Talking to AI: Prompting Styles'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Rhetoric]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 5
+liberal_art: Trivium-Rhetoric
+audience: beginner
+---
+
 # Chapter 5 — Talking to AI: Prompting Styles
 
 > A **prompt** is what you type to the AI. There are many named "styles" of prompting you will hear about. This chapter explains what each one is and what it is **for** — in plain language.

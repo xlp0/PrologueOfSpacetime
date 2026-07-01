@@ -159,6 +159,6 @@ Truth **converges** over time as more observations accumulate.
 - **Chapter 07: Temporal Causality** - Event ordering and synchronization
 
 ## Further Reading
-- Edge computing strategies in `docs/docs_shopper_analytics/edge_compute_strategy.md`
-- Optimization techniques in `docs/docs_shopper_analytics/AI_OPTIMIZATION_LOG.md`
+- Edge computing strategies in `docs/shopper_analytics/edge_compute_strategy.md`
+- Optimization techniques in `docs/shopper_analytics/AI_OPTIMIZATION_LOG.md`
 - Hardware integration in `hardware/edge_compute/`

@@ -1,3 +1,16 @@
+---
+title: 'Chapter 9 — Agentic Workflows: Letting AI Do More'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Quadrivium-Music]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 9
+liberal_art: Quadrivium-Music
+audience: beginner
+---
+
 # Chapter 9 — Agentic Workflows: Letting AI Do More
 
 > An **agentic workflow** is when you give the AI a task and let it run on its own — planning, calling tools, checking results, and iterating until done. This chapter explains when to use it and the patterns people use.

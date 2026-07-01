@@ -1,3 +1,16 @@
+---
+title: 'Chapter 14 — Concrete Examples'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Quadrivium-Geometry]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 14
+liberal_art: Quadrivium-Geometry
+audience: beginner
+---
+
 # Chapter 14 — Concrete Examples
 
 The best way to understand AI coding tools is to see real examples. This chapter points you to real places you can browse right now, without installing anything.
@@ -21,7 +34,7 @@ A few real examples near the top:
 
 ---
 
-## 14.2 Browse MCP Servers at [mcp.so](https://mcp.so)
+## 14.2 Browse [[mcp-anthropic-standard|MCP]] Servers at [mcp.so](https://mcp.so)
 
 [mcp.so](https://mcp.so) is a public directory of MCP servers — over 22,000 of them as of this writing. It is a community-driven marketplace, not the official spec site.
 
@@ -50,7 +63,7 @@ When you visit the site, you see: a one-line pitch ("The open source AI coding a
 
 ## 14.4 Read the MCP Spec at [modelcontextprotocol.io](https://modelcontextprotocol.io)
 
-[modelcontextprotocol.io](https://modelcontextprotocol.io) is the official site for the Model Context Protocol — the spec you met in [Chapter 7](07_mcp.md). It is the standard that makes "USB-C for AI tools" real.
+[modelcontextprotocol.io](https://modelcontextprotocol.io) is the official site for the [[mcp-anthropic-standard|Model Context Protocol]] — the spec you met in [Chapter 7](07_mcp.md). It is the standard that makes "USB-C for AI tools" real.
 
 When you visit, you see: a short explainer (MCP is "an open-source standard for connecting AI applications to external systems"), a diagram of the client–server model, and three starting points — *Build servers*, *Build clients*, and *Build MCP Apps*. Dig in and you find the full spec, the SDKs (TypeScript, Python, and more), and a list of reference servers maintained by the protocol team. The site also lists who supports MCP in the wild: Claude, ChatGPT, VS Code, Cursor, and others.
 

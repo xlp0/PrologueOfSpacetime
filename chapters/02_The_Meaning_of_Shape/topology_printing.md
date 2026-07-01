@@ -33,7 +33,7 @@ To build our **Kinetic Node**, we must first print the exoskeleton.
 *   **Constraint**: Use 20% infill for strength/weight balance.
 
 ### Extended Application: The Solar RC Toy Car
-*   **Task**: Print the mechanical components for the [Solar RC Toy Car](../../docs/docs_shopper_analytics/build_toy_car.md).
+*   **Task**: Print the mechanical components for the [Solar RC Toy Car](../../docs/shopper_analytics/build_toy_car.md).
 *   **Components**: A 145mm chassis, a 23-tooth driven gear, a 10-tooth pinion gear, and four 35mm wheels.
 *   **Lesson**: Printing precise mechanical interfaces (gear teeth and 2.4mm center bores) demonstrates the rigid constraints of reifying moving primitives. Physical gears must perfectly mesh to transmit energy, turning static topology into kinetic machinery.
 

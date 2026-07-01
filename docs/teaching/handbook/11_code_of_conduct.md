@@ -1,3 +1,16 @@
+---
+title: 'Chapter 11 — Code of Conduct: Being Responsible'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Logic]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 11
+liberal_art: Trivium-Logic
+audience: beginner
+---
+
 # Chapter 11 — Code of Conduct: Being Responsible
 
 > This is the chapter that separates the professional from the casual user. Everything before this was about how to use the tools. This chapter is about how to use them **responsibly**.
@@ -38,13 +51,13 @@ If you skip verification because "it looks right," you will eventually commit a 
 
 AI coding tools have file and shell access on your machine, and they can make network calls. Treat them like any other privileged process.
 
-- **Read the MCP server code before you trust it.** A malicious server can exfiltrate your files or run arbitrary shell commands. Prefer official servers and well-reviewed community ones.
+- **Read the [[mcp-anthropic-standard|MCP]] server code before you trust it.** A malicious server can exfiltrate your files or run arbitrary shell commands. Prefer official servers and well-reviewed community ones.
 
 - **Read skill scripts before you run them.** A `SKILL.md` is just instructions, but the scripts in the skill folder run with your privileges.
 
 - **Do not put secrets in prompts.** Anything in the prompt can end up in logs or in another tool's context. Use environment variables and secret managers; let tools read those, not the prompt.
 
-- **Watch for prompt injection.** If the AI reads a file or a web page, that content becomes part of the prompt. A malicious file can instruct the AI to do something you did not ask for. Be especially careful with agents that have shell access and read untrusted files (like a skill that reviews PRs from strangers).
+- **Watch for [[prompt-injection-anatomy|prompt injection]].** If the AI reads a file or a web page, that content becomes part of the prompt. A malicious file can instruct the AI to do something you did not ask for. Be especially careful with agents that have shell access and read untrusted files (like a skill that reviews PRs from strangers).
 
 - **Principle of least privilege.** Give the AI the minimum tools it needs. Do not enable the GitHub MCP server if the task only needs the filesystem. Do not grant shell access if the task only needs file reads.
 

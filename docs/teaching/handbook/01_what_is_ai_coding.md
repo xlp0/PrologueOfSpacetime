@@ -1,3 +1,16 @@
+---
+title: 'Chapter 1 — What Is AI Coding?'
+date: 2026-06-25
+tags: [Teaching, AI-Coding-Handbook, Seven-Liberal-Arts, Trivium-Rhetoric]
+type: note
+sources: []
+status: stable
+course: AI Coding Handbook
+chapter: 1
+liberal_art: Trivium-Rhetoric
+audience: beginner
+---
+
 # Chapter 1 — What Is AI Coding?
 
 > You have probably heard of ChatGPT. Maybe you have used it to write an essay, answer a question, or tell a joke. AI coding is the same idea, but for building software.
@@ -34,9 +47,9 @@ Then three big things happened:
 
 AI learned how to **use tools**. Instead of just writing text, the AI could call a function — read a file, run a command, search the web. This was a big deal. It meant the AI could actually *do things*, not just talk about them.
 
-### 2. MCP (late 2024)
+### 2. [[mcp-anthropic-standard|MCP]] (late 2024)
 
-A standard called **MCP** (Model Context Protocol) was invented. Before MCP, every AI tool had its own way of connecting to things like GitHub or your files. MCP made it so one tool could work with many AI programs — like how a USB-C cable works with many different laptops.
+A standard called **MCP** ([[mcp-anthropic-standard|Model Context Protocol]]) was invented. Before MCP, every AI tool had its own way of connecting to things like GitHub or your files. MCP made it so one tool could work with many AI programs — like how a USB-C cable works with many different laptops.
 
 ### 3. Agentic Loops (2025)
 

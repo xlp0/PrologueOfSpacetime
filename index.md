@@ -13,6 +13,7 @@ status: stable
 
 - [[README|Prologue of Spacetime — README]] — top-level synthesis: the Unifying Namespace, HoTT grounding, D&D Representation Engine, 24/7 MLOps continuum. Start here.
 - [[Document_Relationship_Map|Document Relationship Map]] — graph-theoretic + conceptual map of how every page relates: topology, hubs, orphan islands, dangling-link priorities, recommended reconnection actions.
+- [[templates/README|Page Templates]] — 8 templates (concept, principle, source, synthesis, record, plan, chapter_topic, presentation_marp) for creating new wiki pages. Each enforces the AGENTS.md frontmatter schema + the seven liberal arts tag.
 
 ## Foundational concepts (`docs/` root)
 
@@ -103,23 +104,23 @@ Each chapter has a `README` (overview) and an `MVP_The_*` (minimum viable protot
 
 Reference pages per device: [[hardware/drone/README|drone]] · [[hardware/edge_compute/README|edge_compute]] · [[hardware/ip_camera/README|ip_camera]] · [[hardware/oscilloscope/README|oscilloscope]] · [[hardware/telescope/README|telescope]] · [[hardware/vr_lenses/README|vr_lenses]] · [[hardware/turbine/README|turbine]] (+ site_inspection_*, existing_plant_knowledge) · [[hardware/toycar/planning|toycar]] (+ solar_rc_toy_car_chassis) · [[hardware/microscope/medical_device_spec|microscope]] · [[hardware/lidar/hardware_explanation|lidar]] (+ esp32_lidar_wiring_guide, shopper_analytics_lidar).
 
-### Edge / shopper-analytics subsystem (`docs/docs_shopper_analytics/`)
+### Edge / shopper-analytics subsystem (`docs/shopper_analytics/`)
 
-~20 pages on the shopper-analytics edge pipeline: hardware specs (hikvision_ds2CD2021g1, spc_bc1_3mp), kinect/lidar compute, NVIDIA Jetson AGX cost, docker setup, edge_compute_strategy, pipeline 8080, system operations, network access, toy-car build. Start at [[docs/docs_shopper_analytics/README|its README]].
+~20 pages on the shopper-analytics edge pipeline: hardware specs (hikvision_ds2CD2021g1, spc_bc1_3mp), kinect/lidar compute, NVIDIA Jetson AGX cost, docker setup, edge_compute_strategy, pipeline 8080, system operations, network access, toy-car build. Start at [[docs/shopper_analytics/README|its README]].
 
 ## Operations & records
 
 - **Changelog** (`docs/changelog/`) — weekly entries 2025-11-30 → 2026-06-25 (16 files). Latest: [[docs/changelog/weekly-2026-06-25|weekly-2026-06-25]].
 - **Update history** (`docs/Update_History/`) — 2026-02-06 Polynomial Architecture · 2026-02-11 Flow-State Engineering · 2026-03-15 Representation Engine.
-- [[docs/WorkingNotes_Content_Summary_2026-02-07|Working notes summary 2026-02-07]].
-- [[docs/MoM - 17 March 2026|MoM 17 Mar 2026]] · [[docs/MoM PKC - 17 March 2026|MoM PKC 17 Mar 2026]] — meeting minutes.
-- [[docs/EXECUTION_PLAN|EXECUTION_PLAN]] · [[docs/B200_24x7_OPERATIONAL_PLAN|B200 24x7 Operational Plan]] · [[docs/duwei_workshop_plan|Duwei workshop plan]].
+- [[docs/records/WorkingNotes_Content_Summary_2026-02-07|Working notes summary 2026-02-07]].
+- [[docs/records/MoM - 17 March 2026|MoM 17 Mar 2026]] · [[docs/records/MoM PKC - 17 March 2026|MoM PKC 17 Mar 2026]] — meeting minutes.
+- [[docs/plans/EXECUTION_PLAN|EXECUTION_PLAN]] · [[docs/plans/B200_24x7_OPERATIONAL_PLAN|B200 24x7 Operational Plan]] · [[docs/plans/duwei_workshop_plan|Duwei workshop plan]].
 - Kubernetes: [[docs/kubernetes/github_actions_migration_strategy|GitHub Actions migration]] · [[docs/kubernetes/troubleshooting/minipc_network_flapping_resolution|minipc network flapping]].
 - [[docs/Mac_Studio_Kubernetes_Setup/utm-macstudio-installation|Mac Studio UTM install]] · [[docs/Mac_Studio_Kubernetes_Setup/utm-macstudio-kubernetes-setup|Mac Studio k8s setup]].
 
 ## Demos & presentations
 
-- [[docs/presentation_plan|Presentation plan]] + `run_presentation.sh` (Marp).
+- [[docs/plans/presentation_plan|Presentation plan]] + `run_presentation.sh` (Marp).
 - [[demos/slide6_astrobiology_manifest|Slide 6: Astrobiology Manifest]] · [[demos/slide7_grafana_heartbeat|Slide 7: Grafana Heartbeat]].
 - [[docs/rubik_challenge/rubik_3x3_program|Rubik 3x3 challenge]] · [[docs/Arduino_Powered_Micro_Quadruped/plan|Arduino Micro Quadruped]].
 

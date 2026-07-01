@@ -35,14 +35,33 @@ PrologueOfSpacetime/
 │       └── 3dmodels/
 ├── chapters/              # the 12-chapter matrix (wiki)
 ├── docs/                  # concept pages, entity pages, sub-vaults (wiki)
-│   ├── people/  game_design/  narrative/  teaching/  workflows/
-│   ├── changelog/  Update_History/  todos/  ...
+│   ├── concepts/          # foundational concept/entity pages (MCard, PCard, VCard, Representation Engine, etc.)
+│   ├── principles/        # operational/architectural principles (Local-First, SpacetimeDB, Observability, etc.)
+│   ├── board_games/       # board game docs as representation microcosms (Chess, Go, D&D, Monopoly, etc.)
+│   ├── records/           # meeting minutes, working-notes summaries
+│   ├── plans/             # execution plans, operational plans, presentation plans
+│   ├── sources/           # source summary pages (type: source)
+│   ├── shopper_analytics/ # edge-compute CV pipeline (Ch 4 + Ch 6 deployment realization)
+│   ├── inaai/             # AI tooling notes + Koo project (YouTube summaries, ChatGPT convos)
+│   ├── narrative/         # the theoretical heart (PTR, TAME, Combinatorial Species, etc.)
+│   ├── prologue_of_spacetime_improvement/  # the conceptual scaffold (CLM, GASing, Trivium, etc.)
+│   ├── people/  game_design/  teaching/  workflows/
+│   ├── changelog/  Update_History/  todos/  kubernetes/  Mac_Studio_Kubernetes_Setup/
+│   ├── BBS_Activities/  Arduino_Powered_Micro_Quadruped/  rubik_challenge/  visuals/
 │   └── mcard_studio/      # published / snapshot copies — keep in sync on path changes
 ├── hardware/              # hardware reference pages (wiki)
-└── src/                   # code (MCard utils, OpenClaw loop, Titan Quorum)
+└── src/                   # code (MCard utils, OpenClaw loop, Titan Quorum, link-graph extractor)
 ```
 
-The old `media/` directory was migrated into `raw/` on setup (2026-06-26). If you find source-like material loose in the tree (clipped articles, transcripts, PDFs), propose moving it into `raw/` and update path references — but never move files unilaterally without checking inbound links first (§7).
+**Organization convention for `docs/`:** flat files are discouraged — new pages go into the subfolder that matches their `type`:
+- `type: concept` or `type: entity` → `docs/concepts/`
+- `type: source` → `docs/sources/`
+- `type: synthesis` → `docs/concepts/` (or the most relevant subfolder)
+- `type: changelog` or `type: note` (records, minutes) → `docs/records/` or `docs/changelog/`
+- Plans and operational docs → `docs/plans/`
+- Principles (architectural/operational) → `docs/principles/`
+
+The old `media/` directory was migrated into `raw/` on setup (2026-06-26). The `docs/` reorg (sorting 41 flat files into 6 typed subfolders) was done on 2026-06-26. If you find source-like material loose in the tree (clipped articles, transcripts, PDFs), propose moving it into `raw/` and update path references — but never move files unilaterally without checking inbound links first (§7).
 
 ## 4. Page conventions
 
@@ -84,8 +103,35 @@ status: stable                            # draft | stable | stale  (set stale d
 ### 4.4 Naming
 
 - Page filenames: `PascalCase_with_underscores_for_breaks.md` (e.g. `The_Representation_Engine.md`), matching current files.
-- Place concept/entity pages under `docs/`; chapter content under `chapters/`; hardware under `hardware/`.
-- Summary pages for sources go in `docs/` and are named `<SourceShortName>.md` with `type: source`.
+- Place concept/entity pages under `docs/concepts/`; principles under `docs/principles/`; sources under `docs/sources/`; records under `docs/records/`; plans under `docs/plans/`; chapter content under `chapters/`; hardware under `hardware/`.
+- Summary pages for sources go in `docs/sources/` and are named `<SourceShortName>.md` with `type: source`.
+
+### 4.5 Templates (use these when creating new pages)
+
+Templates live in `docs/templates/`. **When creating a new page, read the matching template first**, then fill it in. Replace all `UPPERCASE` placeholders. Set `status: draft` initially; flip to `stable` after review.
+
+| Template | `type` | Use for |
+|:---|:---|:---|
+| `concept.md` | `concept` | Foundational concept/entity pages |
+| `principle.md` | `principle` | Operational/architectural principles |
+| `source.md` | `source` | Source summary after ingest (§6.1) |
+| `video.md` | `source` | YouTube video note (transcript + chapters + cover) |
+| `synthesis.md` | `synthesis` | Query-that-became-a-page (§6.2) |
+| `record.md` | `changelog` | Meeting minutes, working notes |
+| `plan.md` | `note` | Execution/operational plans |
+| `chapter_topic.md` | `concept` | Chapter deep-dive topic files |
+| `teaching_chapter.md` | `note` | Teaching/curriculum lesson chapters |
+| `presentation_marp.md` | `note` | Marp slide decks (§8.2) |
+
+Every page gets a `liberal_art` frontmatter field + matching tag (one of the seven liberal arts — see the table in `docs/templates/README.md`). This connects the page to the project's [[Trivium]] x [[Quadrivium]] narrative. Pick the art that matches the page's primary mode:
+
+- **Trivium-Grammar**: structure, rules, specs (e.g. k8s components, skills spec, CLM)
+- **Trivium-Logic**: reasoning, verification, comparison (e.g. RAG vs wiki, security, harness thesis)
+- **Trivium-Rhetoric**: expression, persuasion, presentation (e.g. plans, agency, packaging)
+- **Quadrivium-Arithmetic**: number, counting, cost, FLOPs (e.g. capex, token economics, benchmarks)
+- **Quadrivium-Geometry**: shape, space, architecture, graphs (e.g. knowledge graphs, cluster architecture)
+- **Quadrivium-Music**: rhythm, harmony, pipelines, flow (e.g. CI/CD, business-OS wiring, canary shifts)
+- **Quadrivium-Astronomy**: motion, time, worlds, physical AI (e.g. world models, robotics, memory)
 
 ## 5. The two special files
 

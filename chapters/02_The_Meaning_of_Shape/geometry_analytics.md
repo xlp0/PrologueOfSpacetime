@@ -137,5 +137,5 @@ The geometric principles remain constant across scales. The solution scales thro
 - **Chapter 09: Counting Water** - Discrete sampling and quantization (pixel grid)
 
 ## Further Reading
-- Mathematical derivations in `docs/docs_shopper_analytics/trinocular_math_and_logic.md`
+- Mathematical derivations in `docs/shopper_analytics/trinocular_math_and_logic.md`
 - Hardware integration guides in `hardware/ip_camera/` and `hardware/lidar/`
