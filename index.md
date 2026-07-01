@@ -18,6 +18,8 @@ status: stable
 ## Foundational concepts (`docs/` root)
 
 - [[The_Representation_Engine|The Representation Engine]] — D&D as iterative word-game loop; the Permutation Thesis (MCard → PCard → VCard → {P}C{Q} tiers).
+- [[Representability|Representability]] — the mathematical limit of expression, characterizing objects by their measurable interactions (Yoneda Lemma).
+- [[Making_Illegal_States_Unrepresentable|Making Illegal States Unrepresentable]] — type-driven design principle enforcing compile-time correctness by preventing invalid states.
 - [[MCard]] · [[PCard]] · [[VCard]] — the MVP Cards triad: Monadic Card (data, Σ-type) · Polynomial Functor Card (computation, Π-type) · Verification Card (boundary, Id-type). See [[MVP Cards Design Rationale]] for the full foundation.
 - [[DM_as_Maxwells_Demon|DM as Maxwell's Demon]] — structural isomorphism between the Dungeon Master and Maxwell's Demon (Landauer, Szilard, entropy, Epiplexity).
 - [[Monadic Composition - The Algebra of Types|Monadic Composition]] — monads as the algebra of composable types.

@@ -143,3 +143,13 @@ status: stable
   - `index.md` (modified)
 - **Notes:** formulated the Software Lagrangian ($L_{\text{software}} = S_T - H_T$) and the Least Action Principle as the thermodynamic and variational engines of adaptive systems. Integrated these with the 3E Framework (Efficacy/Epiplexity, Efficiency/Entropy, Effectiveness/Magnitude), Digital Synesthesia (resonance/roughness as conscious agent perception kernels), and the Awareness of Opportunities (ABC cycle as Kleene fixed-point iteration over abstract domains).
 
+## [2026-07-01] synthesis | Representability and Making Illegal States Unrepresentable
+
+- **Trigger:** user requested studying articles in StudyNotes relating to Representability and Making Illegal States Unrepresentable, creating similar files in this vault, and refining the content to align with the Prologue of Spacetime.
+- **Files created/modified:**
+  - `docs/concepts/Representability.md` (new)
+  - `docs/concepts/Making_Illegal_States_Unrepresentable.md` (new)
+  - `index.md` (modified)
+- **Notes:** integrated Representability (the mathematical/physical limit of expression via the Yoneda Lemma $F(-) \cong \text{Hom}(X, -)$) and Making Illegal States Unrepresentable (MISU, type-driven correctness by construction where invalid states are uninhabited types). Grounded both in the Prologue framework, showing their mapping to the 3E Framework (Efficacy/MISU, Effectiveness/Representability), the four planes of representability (Why/VCard, How/PCard, What/MCard, Whether/Root), and the Plato-Orwell Galois Connection where type-driven design makes Orwellian verification automatic.
+
+
