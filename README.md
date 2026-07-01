@@ -248,6 +248,10 @@ This demonstrates geometry (homography transformation), observation (multi-camer
 * **[`Board Games as Pedagogical Engines`](docs/gameboard/Board_Games_as_Pedagogical_Engines.md)**: Authenticated board games (Monopoly, Chess, Go) as microcosms for teaching the Trivium × Quadrivium framework through play (CLM: `Spec + Impl + Exp`).
 
 ### Core Narratives (in `docs/narrative/`)
+* **[3E Framework](docs/concepts/3E%20Framework.md)**: The verification architecture of the Prologue — Efficacy → Efficiency → Effectiveness as the Spacetime-Confluence Closure, mapped to Curry-Howard-Lambek.
+* **[Efficacy](docs/concepts/Efficacy.md)**: First 3E dimension — "Can we do it?" — graded measurement of structural richness in the capability space.
+* **[Efficiency](docs/concepts/Efficiency.md)**: Second 3E dimension — "Can we do it within the budget?" — entropy minimization via Categorical Machine and Landauer's Principle.
+* **[Effectiveness](docs/concepts/Effectiveness.md)**: Third 3E dimension — "Did it achieve the goal in reality?" — requires Confluence as an external, shareable witness of impact.
 * **[Digital Scope](docs/narrative/Digital%20Scope.md)**: Physical ESP32 signals and logical MCard catalog verification using Lenses.
 * **[Function-Number Duality](docs/narrative/Function-Number%20Duality.md)**: Static numbers (Being) and dynamic functions (Becoming) unified under behavioral types and Kan extensions.
 * **[Combinatorial Species](docs/narrative/Combinatorial%20Species.md)**: Joyal's functorial model of discrete structures up to symmetric group isomorphisms ($\alpha$-equivalence).
