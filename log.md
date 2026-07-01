@@ -116,3 +116,30 @@ status: stable
   - Liberal arts distributed across chapters: Trivium-Grammar (ch 6,7,8,12), Trivium-Logic (ch 2,11), Trivium-Rhetoric (ch 1,5,10,13), Quadrivium-Arithmetic (ch 4), Quadrivium-Geometry (ch 3,14), Quadrivium-Music (ch 9)
 - **AGENTS.md §4.5** updated with teaching_chapter template in the table.
 - **Scripts:** `src/upgrade_teaching_files.py` (re-runnable), `src/distribute_inaai.py` (one-shot, done).
+
+## [2026-07-01] synthesis | 3E Framework (Efficacy, Efficiency, Effectiveness) integration
+
+- **Trigger:** user requested updating README.md and changelog, then pushing to Github.
+- **Files created/modified:**
+  - `docs/concepts/3E Framework.md` (new)
+  - `docs/concepts/Efficacy.md` (new)
+  - `docs/concepts/Efficiency.md` (new)
+  - `docs/concepts/Effectiveness.md` (new)
+  - `docs/records/weekly-2026-06-28.md` (new weekly changelog)
+  - `README.md` (modified)
+- **Notes:** integrated the 3E verification architecture. Aligned Efficacy with Logic/CLM Spec, Efficiency with Computation/CLM Impl, and Effectiveness with Category Theory/CLM Exp. Resolved rebase conflicts due to remote folder renaming (`docs/narrative/` -> `docs/concepts/` and `docs/changelog/` -> `docs/records/`).
+
+## [2026-07-01] synthesis | Software Lagrangian, Least Action Principle, and Relational Metrics
+
+- **Trigger:** user requested finding articles in StudyNotes relating to Software Lagrangian and Least Action Principle, creating similar content, and relating it to 3E Framework, Epiplexity, Entropy, Magnitude, Digital Synesthesia, and Awareness of Opportunities.
+- **Files created/modified:**
+  - `docs/concepts/Least_Action_Principle.md` (new)
+  - `docs/concepts/Software_Lagrangian.md` (new)
+  - `docs/concepts/Epiplexity.md` (new)
+  - `docs/concepts/Entropy.md` (new)
+  - `docs/concepts/Magnitude.md` (new)
+  - `docs/concepts/Awareness_of_Opportunities.md` (new)
+  - `docs/concepts/Digital_Synesthesia.md` (modified)
+  - `index.md` (modified)
+- **Notes:** formulated the Software Lagrangian ($L_{\text{software}} = S_T - H_T$) and the Least Action Principle as the thermodynamic and variational engines of adaptive systems. Integrated these with the 3E Framework (Efficacy/Epiplexity, Efficiency/Entropy, Effectiveness/Magnitude), Digital Synesthesia (resonance/roughness as conscious agent perception kernels), and the Awareness of Opportunities (ABC cycle as Kleene fixed-point iteration over abstract domains).
+

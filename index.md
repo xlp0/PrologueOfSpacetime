@@ -24,6 +24,12 @@ status: stable
 - [[hott_ssot_reference|HoTT SSOT Reference]] — Homotopy Type Theory as the single-source-of-truth grounding.
 - [[Prologue_Conceptual_Digest|Prologue Conceptual Digest]] — compact digest of core concepts.
 - [[Digital_Synesthesia|Digital Synesthesia]] — cross-sensory representation.
+- [[Least_Action_Principle|Least Action Principle]] — optimization rule selecting paths (geodesics) that minimize computational action.
+- [[Software_Lagrangian|Software Lagrangian]] — real-time thermodynamic metric ($L_{\text{software}} = S_T - H_T$) governing software abstraction quality.
+- [[Epiplexity|Epiplexity]] — metric of the structural, learnable information ($S_T$) extractable by a bounded observer.
+- [[Entropy|Entropy]] — metric of expressive freedom, alternative states, and uncompressed noise ($H_T$).
+- [[Magnitude|Magnitude]] — numerical invariant of enriched categories measuring relational size and diversity ($|X| = \mathbf{1}^{\top} Z^{-1} \mathbf{1}$).
+- [[Awareness_of_Opportunities|Awareness of Opportunities]] — continuous learning loop governed by the ABC cycle in response to entropic space expansion.
 - [[Local-First|Local-First]] and [[The Local-First Software Paradigm Architecture, Developer Experience, and User Agency|Local-First Paradigm (full)]] — data sovereignty and user agency.
 - [[SpacetimeDB_Overview|SpacetimeDB Overview]] and [[SpacetimeDB_Integrations|SpacetimeDB Integrations]] — SpacetimeDB as the reactive DB substrate.
 - [[PKC_ZITADEL_Game_Board_Planning|PKC ZITADEL Game Board]] — identity/game-board planning.
