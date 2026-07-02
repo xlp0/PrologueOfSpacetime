@@ -110,9 +110,39 @@ The GASing methodology (Gampang, Asyik, Menyenangkan — Easy, Fun, Enjoyable) s
 4. **Use the [[Representation Engine]] framework.** Frame each project phase as a D&D-style quest where "gathering materials" is the first encounter. Make resourcefulness a scored attribute.
 5. **Time-box initiative windows.** At the start of each session, give 10 minutes of unstructured time where students must identify and act on one improvement to their workspace. No instructions given — only the expectation of action.
 
-## 6. Related Pages
+## 6. Observability as Awareness Infrastructure
+
+One of the deepest remediation strategies is **making system state visible at all times**. If students cannot see opportunities, perhaps the environment itself can be redesigned to surface them. This is the principle of **Observability** — a core concept in both DevOps and the [[Trivium]]: what is named (Grammar) and measured (Logic) becomes actionable (Rhetoric).
+
+### 6.1 The Grafana Dashboard: A Concrete Example
+
+The [Sacred Octagon — Build & Deploy Dashboard](https://grafana.pkc.pub/d/gasing-cicd/sacred-octagon-e28094-build-and-deploy-dashboard?orgId=1&from=now-7d&to=now&timezone=browser&refresh=30s) is a live Grafana dashboard that makes the CI/CD pipeline visible in real time:
+
+![[grafana_sacred_octagon_dashboard_2026-07-02.png]]
+
+*Figure: Sacred Octagon Build & Deploy Dashboard (2026-07-02) — 21 successful builds, 26 failed builds, 44.7% success rate. Build history, deployment status across Development, Testing, and Production environments are all visible at a glance.*
+
+This dashboard embodies the principle: **what is measured becomes visible; what is visible becomes actionable.** A student looking at this screen can immediately see:
+
+- Which builds failed and why (the "What Changed" column)
+- Who pushed the change (the "Pushed By" column)
+- How long ago it happened (the "timeAgo" column)
+- Whether Development, Testing, and Production environments are in sync
+
+Each of these is an **imminent opportunity** — a failed build is a problem to fix, a stale deployment is a gap to close, a low success rate is a challenge to improve. The dashboard does not wait for someone to ask "what should I do next?" — it **shows** what needs to happen.
+
+### 6.2 A Sign of Progress
+
+As of 2026-07-02, one of the team members has begun actively building and iterating on this dashboard. The build history shows multiple commits throughout the day — feature additions, bug fixes, deployment attempts. This is a concrete break from the "wait for instructions" pattern documented above.
+
+The fact that a student is now pushing commits, watching builds fail, diagnosing the failures, and pushing fixes — all without being explicitly told to do so — suggests that **observability infrastructure can itself be a catalyst for agency**. When the state of the system is visible and continuously updating, the question shifts from "What should I do?" to "What does the dashboard tell me needs to happen?"
+
+This is early evidence that the awareness problem is not permanent. Given the right environmental scaffolding — dashboards, build notifications, visible metrics — students can begin to develop the "scan and act" reflex that conventional education failed to cultivate.
+
+## 7. Related Pages
 
 - [[ABC Curriculum]] — the pedagogical framework these observations inform
 - [[Trivium]] — the Grammar → Logic → Rhetoric progression
 - [[GASing]] — the methodology for making learning accessible
 - [[Representation Engine]] — the D&D-based framework for tracking agency and progress
+- [[Observability - Living Spaces]] — the operational principle of making system state visible
