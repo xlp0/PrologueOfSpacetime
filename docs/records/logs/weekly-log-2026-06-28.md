@@ -54,3 +54,11 @@ liberal_art: Quadrivium-Music
   - `docs/concepts/Red_Queen_Godel_Machine.md` (new)
   - `index.md` (modified)
 - **Notes:** integrated Jürgen Schmidhuber's theoretical Gödel Machine (self-referential proof search) and the co-evolutionary Red Queen Gödel Machine (RQGM, student/examiner co-evolution under Controlled Utility Evolution). Grounded both in the Prologue framework, showing how RQGM's epoch boundaries mirror CI/CD releases, how telemetry updates ground-truth anchors in MLOps, and how epoch transitions cause temporary Lagrangian collapses ($L_{\text{software}} = S_T - H_T$) that are rendered synesthetically as haptic roughness and dissonance until the agent adapts.
+
+## [2026-07-02] ingest | Not Aware of Opportunities (teaching observation)
+
+- **Trigger:** user provided field observations on five students failing to proactively acquire materials (paper, scotch tape, color markers) and use planning tools (calendars, timetables) for the Stereo System and Lego Saturn V projects, despite explicit instructions.
+- **Files created/modified:**
+  - `docs/teaching/observations/not_aware_of_opportunities.md` (new)
+  - `index.md` (modified — added entry under Teaching & curriculum)
+- **Notes:** documented the core pattern — students cannot recognize imminent, trivially accessible opportunities — and traced its root cause to conventional education systems that remove agency, separate planning from execution, eliminate local resourcefulness, and punish improvisation. Proposed five remediation strategies including scout roles, micro-procurement exercises, and Representation Engine quests. Connected to Trivium (breakdown at Rhetoric stage) and GASing (failure to act even on Gampang/easy tasks).

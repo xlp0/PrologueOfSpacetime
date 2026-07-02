@@ -106,6 +106,7 @@ Each chapter has a `README` (overview) and an `MVP_The_*` (minimum viable protot
 - [[abc_curriculum|ABC Curriculum]] and [[requirements|Requirements]] — top-level curriculum + requirements.
 - [[ai_coding_guide/README|AI Coding Guide]] (13 lessons: what AI coding is → how tools work → the stack → tokens/context → prompting → context engineering → MCP → agent skills → agentic workflows → the tools → code of conduct → glossary → further reading). Mirrored at [[docs/teaching/handbook/README|docs/teaching/handbook]] (14 lessons, adds concrete examples).
 - [[docs/teaching/sprint_outline|Teaching sprint outline]] · [[docs/teaching/presentation_plan|Teaching presentation plan]].
+- [[docs/teaching/observations/not_aware_of_opportunities|Not Aware of Opportunities]] — teaching observation: students consistently fail to recognize and act on imminent, trivially accessible opportunities (buying paper/tape, using calendars, organizing Lego components). Root-cause analysis traces this to conventional education suppressing agency and local resourcefulness.
 - [[docs/records/Session 1 Team Formation Activity Guide|BBS Activities]] — 12-session Bootcamp/Build/Showcase guides (Sessions 1–12).
 - [[docs/records/TODO_story_chapters|TODO: story chapters]] · [[docs/records/TODO_strategy|TODO: strategy]].
 - [[docs/plans/clm_problem_model|CLM problem model]] (visual).

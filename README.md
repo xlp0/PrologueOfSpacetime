@@ -247,6 +247,9 @@ This demonstrates geometry (homography transformation), observation (multi-camer
 * **[`Cubical Logic Model.md`](docs/prologue_of_spacetime_improvement/Cubical%20Logic%20Model.md)**: The formal definition of the CLM.
 * **[`Board Games as Pedagogical Engines`](docs/gameboard/Board_Games_as_Pedagogical_Engines.md)**: Authenticated board games (Monopoly, Chess, Go) as microcosms for teaching the Trivium × Quadrivium framework through play (CLM: `Spec + Impl + Exp`).
 
+### Teaching Observations (in `docs/teaching/observations/`)
+* **[`Not Aware of Opportunities`](docs/teaching/observations/not_aware_of_opportunities.md)**: Field observation documenting how students consistently fail to recognize and act on imminent, trivially accessible opportunities — even when all resources (Bose speakers, amplifiers, local engineers, paper, tape) are physically present. Traces the root cause to conventional education suppressing agency and local resourcefulness.
+
 ### Core Narratives (in `docs/narrative/`)
 * **[3E Framework](docs/concepts/3E%20Framework.md)**: The verification architecture of the Prologue — Efficacy → Efficiency → Effectiveness as the Spacetime-Confluence Closure, mapped to Curry-Howard-Lambek.
 * **[Efficacy](docs/concepts/Efficacy.md)**: First 3E dimension — "Can we do it?" — graded measurement of structural richness in the capability space.
