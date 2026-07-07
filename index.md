@@ -126,6 +126,7 @@ Reference pages per device: [[hardware/drone/README|drone]] · [[hardware/edge_c
 - [[docs/records/WorkingNotes_Content_Summary_2026-02-07|Working notes summary 2026-02-07]].
 - [[docs/records/MoM - 17 March 2026|MoM 17 Mar 2026]] · [[docs/records/MoM PKC - 17 March 2026|MoM PKC 17 Mar 2026]] — meeting minutes.
 - [[docs/plans/EXECUTION_PLAN|EXECUTION_PLAN]] · [[docs/plans/B200_24x7_OPERATIONAL_PLAN|B200 24x7 Operational Plan]] · [[docs/plans/duwei_workshop_plan|Duwei workshop plan]].
+- [[docs/plans/ai_hackathon_plan|AI Hackathon Plan v2]] — pre-requisite-gated (Tier 1+2+5 install list, self-report form, Pre-Flight triage session).
 - Kubernetes: [[docs/plans/github_actions_migration_strategy|GitHub Actions migration]] · [[docs/plans/minipc_network_flapping_resolution|minipc network flapping]].
 - [[docs/plans/utm-macstudio-installation|Mac Studio UTM install]] · [[docs/plans/utm-macstudio-kubernetes-setup|Mac Studio k8s setup]].
 

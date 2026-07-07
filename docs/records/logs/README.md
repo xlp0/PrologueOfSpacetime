@@ -18,8 +18,9 @@ Welcome to the weekly operations log directory. Below is the index of weekly ope
 
 | Week Range | Log Document |
 | :--- | :--- |
+| **2026-07-05 to 2026-07-11** | [[weekly-log-2026-07-05|weekly-log-2026-07-05.md]] |
 | **2026-06-28 to 2026-07-04** | [[weekly-log-2026-06-28|weekly-log-2026-06-28.md]] |
 | **2026-06-21 to 2026-06-27** | [[weekly-log-2026-06-21|weekly-log-2026-06-21.md]] |
 
 ---
-*Last updated: 2026-07-01.*
+*Last updated: 2026-07-07.*
