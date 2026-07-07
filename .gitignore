@@ -36,3 +36,17 @@ docs/Fleeting/
 *.so
 *.dylib
 *.logskills-lock.json
+
+# Secrets / credentials — never commit
+.env
+.env.*
+!.env.example
+client_secret*.json
+client_secret_*.json
+credentials*.json
+oauth*.json
+service_account*.json
+*.pem
+*.key
+.google_workspace_mcp/
+.workspace-mcp/

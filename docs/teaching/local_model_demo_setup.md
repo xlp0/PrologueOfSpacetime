@@ -103,16 +103,74 @@ Total wall time: under 60 seconds.
 
 ## 4. Pre-install checklist (per student laptop)
 
+> **Flow:** OpenCode is installed **first** — it then assists the student with installing everything else. The few manual items (Google OAuth browser consent, ZeroTier network join, Obsidian vault creation) are flagged. Full ordered procedure is in [[pre_workshop_install_list]] §Installation Order.
+
+### 4.1 Phase 0 — Manual prerequisites (before OpenCode)
+
 | Tool | What it is | Install cmd / link | Notes |
 | :--- | :--- | :--- | :--- |
-| **Ollama** | Local model runner | https://ollama.com/download | One binary, Windows installer. |
-| **Qwen2.5-3B** | The model | `ollama pull qwen2.5:3b` | 1.9 GB download. |
-| **opencode** | Terminal AI coding harness | https://opencode.ai (or `github.com/sst/opencode`) | Currently runs GLM 5.2 via GLM proxy on Henry's machine; students will configure it to point at Ollama. |
-| **Node.js 22+** | Required by opencode + most MCP servers | https://nodejs.org | LTS recommended. |
-| **Git** | Version control + cloning MCP servers | https://git-scm.com | Already on most Dells; verify. |
-| **Obsidian** | The vault the agent writes to | https://obsidian.md | Free. Each student creates a vault in `C:\Users\<user>\Documents\MyVault`. |
-| **Obsidian Local REST API plugin** | Required by the Obsidian MCP server | Install from Obsidian → Community plugins → search "Local REST API" | Generates an API key + runs a localhost HTTPS endpoint on port 27124. |
-| **Google Cloud OAuth credentials** | For Gmail/Slides MCP | https://console.cloud.google.com → create OAuth 2.0 Client ID | Scopes needed: `gmail.readonly`, `slides`, `drive.file`. Each student creates their own project (free). |
+| OS admin access | The student's account must be an admin | — | OpenCode needs to install software system-wide. |
+| A shell | Terminal / PowerShell / WSL2 | macOS: Terminal.app. Windows: WSL2 recommended. | OpenCode runs in the shell. |
+| A browser | Chrome / Edge / Firefox | — | For Google OAuth consent + account signups. |
+| Git | Version control + cloning MCP servers | https://git-scm.com | `git --version` should work in the shell. |
+
+### 4.2 Phase 1 — Install OpenCode FIRST (the foundation)
+
+| Tool | What it is | Install cmd / link | Notes |
+| :--- | :--- | :--- | :--- |
+| **OpenCode** | Terminal AI coding harness — the agent that installs everything else | https://opencode.ai | Run `opencode` in the shell to confirm it launches. |
+
+### 4.3 Phase 2 — Grant OpenCode machine access (one-time, manual)
+
+The student explicitly grants OpenCode access so it can really assist. Without this, OpenCode is sandboxed and cannot install software.
+
+| Permission | What it does | Action |
+| :--- | :--- | :--- |
+| Filesystem access | Read/write files outside its own directory | Approve home-directory access in the OpenCode prompt. macOS: grant Full Disk Access if asked. |
+| Shell / bash permission | Run install commands (`brew install`, `uv pip`, `git clone`, `ollama pull`) | Set bash to `allow` for the install session, or approve each command. |
+| External directory access | Read/write `~/.config/opencode/`, `~/.zshrc`, `~/.google_workspace_mcp/` | Approve `~/` access during install. |
+
+### 4.4 Phase 3 — OpenCode assists with the rest (agent-driven)
+
+The student asks OpenCode (in plain English) to install each of these. OpenCode runs the commands; the student approves and provides passwords/OAuth as needed.
+
+| Tool | What it is | Install cmd / link | Notes |
+| :--- | :--- | :--- | :--- |
+| **Ollama** | Local model runner | https://ollama.com/download | One binary, Windows/macOS installer. OpenCode can run the installer. |
+| **Qwen2.5-3B** | The model | `ollama pull qwen2.5:3b` | 1.9 GB download. Ask OpenCode to run it. |
+| **Node.js 22+** | Required by opencode + most MCP servers | https://nodejs.org | LTS recommended. OpenCode can install via `brew` or `winget`. |
+| **Docker Desktop** | Container runtime (for Ollama containers, mem0) | https://www.docker.com/products/docker-desktop | OpenCode can run the installer. |
+| **ZeroTier** | Secure overlay network (Toba/GLM2 access) | https://www.zerotier.com/download/ | Install is agent-driven; joining the network ID is manual (Phase 4). |
+| **Netbird** | WireGuard-based mesh VPN (peer-to-peer agent demos) | https://netbird.io/download | Install is agent-driven; login is manual (Phase 4). |
+| **Hermes** | Open-source autonomous agent (Nous Research) | https://github.com/NousResearch/hermes | Ask OpenCode to clone + run setup. |
+| **Obsidian** | The vault the agent writes to | https://obsidian.md | Free. Install is agent-driven; vault creation is manual (Phase 4). |
+| **Obsidian Local REST API plugin** | Required by the Obsidian MCP server | Obsidian → Community plugins → search "Local REST API" | Manual: install inside Obsidian GUI. Generates API key + runs localhost HTTPS on port 27124. |
+
+### 4.5 Phase 4 — Manual verification items (student must do these themselves)
+
+These cannot be delegated to OpenCode — they require the student's hands on a browser or a GUI.
+
+| Item | Why manual | Action |
+| :--- | :--- | :--- |
+| **Google Cloud OAuth credentials** | Requires Google account login in a browser | Follow [[installing_google_workspace_mcp]] Phases 1–3. OpenCode then writes the env vars to `~/.zshrc` and the `opencode.json` entry. |
+| **Google OAuth consent (one-time)** | Opens in browser; student picks account and clicks Allow | Triggered automatically on first google-workspace tool call. |
+| **ZeroTier network join** | Network ID + login is browser-based | Install is agent-driven; join the network ID given by the instructor. |
+| **Netbird login** | Browser-based login | Install is agent-driven; peer setup is manual. |
+| **GitHub account + SSH key** | Account creation is browser-based | Sign up at github.com; ask OpenCode to generate the SSH key and add it to GitHub. |
+| **Obsidian vault creation** | GUI app, vault folder picker | Install is agent-driven; create the vault in `~/Documents/MyVault` manually. |
+| **Obsidian Local REST API plugin** | Community plugin install inside Obsidian GUI | Install Obsidian → Settings → Community plugins → search "Local REST API" → enable. Copy the API key — OpenCode will write it into `opencode.json`. |
+
+### 4.6 Phase 5 — Smoke test (agent-driven)
+
+The student asks OpenCode to verify the install end-to-end:
+
+1. *"List my Google calendars"* → confirms Google Workspace MCP + OAuth.
+2. *"Pull the qwen2.5:3b model and run a test prompt"* → confirms Ollama + model.
+3. *"Ping the ZeroTier network"* → confirms networking.
+4. *"Clone the Hermes repo and run its --help"* → confirms Hermes.
+5. *"Create a test note in my Obsidian vault"* → confirms Obsidian MCP.
+
+If all five return successfully, the student is ready for the workshop.
 
 ---
 
@@ -251,6 +309,7 @@ Henry has the reference config in `Koo/opencode.jsonc` (mem0 MCP entry there) �
 - [[pitch_10_minute]] — the opening pitch (browser-based, no install). This doc is the hands-on day that follows the pitch.
 - [[sprint_outline]] — the 5-day sprint structure. The local-model demo fits Day 4 ("Letting AI Run").
 - [[presentation_plan]] — full presentation plan to update if scope changes.
+- [[installing_google_workspace_mcp]] — verified step-by-step OAuth + OpenCode config procedure for the `taylorwilsdon/google_workspace_mcp` server picked in §5.1. Use that guide for the actual install; this doc is the workshop scope + model decision.
 
 ---
 
