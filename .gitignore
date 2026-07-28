@@ -1,7 +1,5 @@
 # Documentation workspaces (Obsidian vault + agent skills + IDE)
 .obsidian/
-.agents/
-.agent/
 .grimoire/
 *.base
 
