@@ -1,0 +1,108 @@
+[28/08/26, 14.31.30] Peserta Conversational Programming: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+[28/08/26, 14.31.30] ~ Anggiat Tambunan: ‎~ Anggiat Tambunan created this group
+[19/09/26, 10.27.08] Peserta Conversational Programming: ‎ALESSANDRO added you
+[21/09/26, 18.39.36] ~ Anggiat Tambunan: Dear Mahasiswa dan Siswa kita akan melanjutkan kegiatan pelatihan AI besok pukul 15.00-20.00 WIB
+[21/09/26, 18.40.19] ~ Anggiat Tambunan: 23-24 dimulai pukul 08.00-17.00 WIB
+[21/09/26, 18.40.45] ~ Anggiat Tambunan: Untuk izin ke dosen sudah saya sampaikan ke kaprodi dan dekan
+[21/09/26, 18.41.57] ~ 11S26039_Grasela Smsr_IF: Baik, Pak. Terimakasih Pak
+[21/09/26, 18.42.13] ~ 11S26051_DivaAurelASirait: Baik, Pak. Terimakasih Pak 🙏🏻
+[21/09/26, 18.42.21] ~ 12S26052_Claudia Sinaga: baik pak, terimakasih pak
+[21/09/26, 18.42.30] ~ 13S26015_ARNO WINATA_TE: Baik pak, terimakasih pak
+[21/09/26, 18.42.49] ~ 12S26048_GabrielRitonga: Baik pak, terimakasih pak
+[21/09/26, 18.42.50] ~ 12S26024_WendySimanjuntak: Baik pak, Terimakasih pak
+[21/09/26, 18.53.22] ~ 13S26013_Nicolaus Datubar: Baik, terimakasih pak
+[21/09/26, 18.53.49] ~ 11S26030_Josephine Ruth: Baik Pak, Terimakasih pak
+[21/09/26, 18.56.00] ~ 11S26037DanielsitumeangIF: Baik pak, terimakasih pak
+[21/09/26, 18.56.17] ~ 12S26048_Diva.M.Rgg_S1: baik pak, terimakasih pak
+[21/09/26, 19.00.50] ~ 13S26013_Nicolaus Datubar: ‎This message was deleted.
+[21/09/26, 19.01.15] ~ Jovan: ‎ALESSANDRO added ~ Jovan
+[22/09/26, 10.52.26] ALESSANDRO: Selamat pagi all,
+
+Hari ini akan ada review progress project yang sudah dibuat sebelumnya. Tolong buat dokumentasi detail mengenai project tersebut dalam format Markdown (.md).
+
+Terima kasih
+[22/09/26, 10.52.45] Gung Wik: ‎ALESSANDRO added Gung Wik
+[22/09/26, 15.03.50] ~ 12S26034_Titania S.P_S1SI: ‎‪+62 822‑5036‑4537‬ added ~ 12S26034_Titania S.P_S1SI
+[22/09/26, 11.22.14] ~ 11S26051_DivaAurelASirait: Izin bertanya pak, 
+Apakah ada format yang dapat kami pakai sebagai pedoman untuk memaparkan dokumentasi detail tentang project yang dikerjakan? dan project yang dimaksud, apakah project bebas pertama atau project yang menggunakan perangkat eksternal (sensor suhu)?
+Terimakasih, pak 🙏🏻
+[22/09/26, 15.01.39] ~ Anggiat Tambunan: Mahasiswa IT Del dan Siswa SUD bisa hadir di GD713
+[22/09/26, 15.31.37] ‪+62 822‑7461‑5967‬: ‎‪+62 822‑7689‑3232‬ added ‪+62 822‑7461‑5967‬
+[22/09/26, 15.40.58] ‪+62 882‑0182‑66888‬: ‎‪+62 821‑7371‑6435‬ added ‪+62 882‑0182‑66888‬
+[22/09/26, 15.47.18] ~ 11S26051_DivaAurelASirait: Judul: TypingFlow - Minimalist Speed Typing Trainer  
+Nama: Diva Aurel Anastacia Sirait
+
+Deskripsi Project:  
+TypingFlow adalah aplikasi web modern, elegan, dan minimalis yang dirancang untuk melatih kemampuan mengetik cepat (speed typing). Menggabungkan fleksibilitas Monkeytype dan kesederhanaan 10FastFingers, aplikasi ini menyajikan pengalaman mengetik bebas distraksi melalui Zen Focus Mode dan Smooth Caret Animation. TypingFlow dilengkapi dukungan dwibahasa (Bahasa Indonesia & English) dengan 3 level kesulitan kata serta mode kutipan (quotes). Fitur unggulan lainnya mencakup efek audio prosedural keyboard mekanikal (Web Audio API), pemilihan tema & tipografi estetik, serta grafik visual analitik performa real-time berbasis Canvas.
+
+Tujuan Project:
+1. Meningkatkan kecepatan (WPM/CPM), akurasi, dan konsistensi mengetik pengguna melalui latihan interaktif yang nyaman.
+2. Menyediakan platform pengujian ketik berfokus tinggi tanpa distraksi antarmuka yang berlebihan.
+3. Memberikan evaluasi performa mendalam dan riwayat progres terukur untuk memantau perkembangan keterampilan mengetik pengguna secara berkelanjutan.
+
+https://github.com/divaarlfs/Antigravity-IDE-Project-1.git ‎<This message was edited>
+[22/09/26, 15.48.56] ~ 12S26031_StephenJSimamora: Judul: Nusantara Digital Twin — Platform Simulasi & Telemetri Indonesia
+Nama: Stephen Joy Marvel Simamora
+Deskripsi:
+Nusantara Digital Twin adalah website interaktif yang menampilkan data penting Indonesia dari seluruh 38 provinsi dalam satu platform terpadu. Menggunakan konsep "kembar digital", website ini merepresentasikan kondisi nyata Indonesia—mulai dari demografi, ekonomi, pendidikan, infrastruktur, hingga lingkungan—melalui peta interaktif dan dashboard data yang mudah dipahami. Pengguna dapat menjelajahi setiap provinsi untuk melihat indikator seperti jumlah penduduk, PDB, IPM, dan luas hutan lestari. Terdapat pula fitur What-If Sandbox 2045 untuk mensimulasikan skenario kebijakan pembangunan, serta fitur Komparasi Daerah untuk membandingkan data antar provinsi secara langsung dan menyeluruh.
+
+Tujuan:
+Project ini bertujuan menyajikan data nasional Indonesia secara visual dan interaktif agar mudah dipahami oleh pelajar, peneliti, maupun masyarakat umum. Melalui fitur simulasi kebijakan, pengguna dapat memahami dampak berbagai skenario pembangunan—seperti transisi energi bersih dan investasi talenta digital—terhadap proyeksi ekonomi Indonesia hingga tahun 2045. Fitur komparasi antar provinsi juga membantu menganalisis kesenjangan pembangunan di berbagai wilayah secara lebih objektif. Secara keseluruhan, project ini diharapkan dapat meningkatkan kesadaran publik terhadap arah pembangunan nasional dan menunjukkan bagaimana teknologi digital dapat mendukung visi besar Indonesia Emas 2045. 
+Link Project GitHub:  https://simamorastephen-byte.github.io/indonesia-digital/ ‎<This message was edited>
+[22/09/26, 15.50.25] ~ AnnisaManalu_S1_IF: Judul : Petualangan Penjumlahan Ceria
+Nama : Annisa Margareth Manalu
+Deskripsi Projek : Petualangan Penjumlahan Ceria merupakan game edukasi yang dirancang agar belajar matematika terasa menyenangkan seperti bermain, bukan ujian sekolah. Pemain harus menjawab soal penjumlahan acak berformat pilihan ganda (4 opsi) dalam batasan waktu tertentu.
+Game ini menyediakan tiga tingkat kesulitan progresif: Mudah (penjumlahan 1-5), Sedang (1-10), dan Sulit (1-20). Dilengkapi sistem 3 nyawa (\hearts), efek suara interaktif, serta pesan penyemangat seperti "Mantap!" dan "Kamu luar biasa!", game ini menyajikan pengalaman bermain yang kompetitif namun santai. Tampilannya cerah, menarik, dan responsif sehingga nyaman dimainkan di HP maupun komputer, lengkap dengan navigasi tombol Mulai Game, Pilih Level, Pause, Main Lagi, dan Keluar.
+Tujuan Proyek : 
+1. Melatih Ketangkasan Mental: Meningkatkan kecepatan dan ketepatan berhitung penjumlahan secara refleks melalui tantangan waktu.
+2. Mengubah Stigma Negatif: Menghilangkan rasa takut atau bosan terhadap matematika melalui pendekatan gamification yang adiktif.
+3. Membangun Sistem Game Lengkap: Menerapkan mekanika skor, sistem nyawa, progres tingkat kesulitan, dan rekapitulasi akhir permainan.
+4. Aksesibilitas Luas: Menghadirkan hiburan edukatif yang ringan, responsif, dan dapat diakses dengan mudah di berbagai perangkat lintas platform
+[22/09/26, 15.51.38] ~ 11S26030_Josephine Ruth: *Judul:* Telat Masuk Kelas! - Endless Runner Game Bertema Kehidupan Mahasiswa
+
+Nama: Josephine Ruth Situmorang
+
+Deskripsi Project: Game endless runner berbasis web yang dibuat menggunakan HTML5 Canvas dan vanilla JavaScript tanpa framework eksternal. Pemain mengendalikan karakter mahasiswa yang terlambat masuk kelas dan harus berlari menghindari berbagai rintangan seperti tumpukan tugas, buku berserakan, kursi dan meja, teman yang mengajak nongkrong, kasur yang menggoda untuk tidur, hingga dosen yang berjalan di koridor. Sepanjang permainan, pemain dapat mengumpulkan item bonus berupa kopi untuk speed boost, buku dan laptop untuk tambahan skor, jam untuk tambahan waktu, serta energy drink untuk kecepatan ekstra. Game dilengkapi dengan sistem 3 nyawa, timer countdown 90 detik, peningkatan kecepatan bertahap, efek suara prosedural, animasi karakter, efek partikel, serta tampilan UI modern dengan desain glassmorphism. Game mendukung kontrol keyboard maupun sentuh untuk perangkat mobile.
+
+*Tujuan Project:* Mengembangkan game web interaktif yang fully playable sebagai implementasi konsep pemrograman web meliputi HTML5 Canvas rendering, JavaScript OOP, game loop, collision detection, dan state management. Project ini bertujuan mendemonstrasikan kemampuan membangun aplikasi web kompleks dan responsif dengan tema kehidupan mahasiswa yang relatable, menghibur, serta memiliki pengalaman pengguna yang menarik dan engaging.
+[22/09/26, 15.52.14] ~ 11S26039_Grasela Smsr_IF: Judul: Smart Save Campus 
+Nama: Grasela Siska Viktoria Samosir
+Deskripsi Project:
+SmartSave Campus merupakan website edukasi literasi keuangan yang dirancang untuk membantu mahasiswa mempelajari cara mengelola keuangan secara sederhana, interaktif, dan menyenangkan. Website ini menggunakan konsep uang virtual sehingga pengguna dapat berlatih mengatur anggaran dan menabung tanpa melibatkan transaksi keuangan sungguhan.
+
+SmartSave Campus memiliki beberapa fitur utama, yaitu Dashboard, Budget Planner, Savings Goals, Financial Quiz, Daily Missions, dan Reports. Pada Dashboard, pengguna dapat melihat saldo virtual, perkembangan target tabungan, learning points, serta misi yang telah diselesaikan. Fitur Budget Planner membantu pengguna mengatur alokasi uang berdasarkan kebutuhan, seperti makanan, transportasi, pendidikan, hiburan, dan tabungan. Melalui Savings Goals, pengguna dapat membuat target tabungan, misalnya untuk membeli laptop atau perlengkapan kuliah.
+Tujuan:
+Tujuan pembuatan website SmartSave Campus adalah meningkatkan pemahaman dan kesadaran mahasiswa mengenai pentingnya pengelolaan keuangan sejak dini. Website ini dibuat untuk membantu mahasiswa belajar menyusun anggaran, membedakan kebutuhan dan keinginan, membangun kebiasaan menabung, serta memahami konsep dasar literasi keuangan melalui simulasi virtual. Selain itu, website ini bertujuan melatih kemampuan mengambil keputusan keuangan secara bijak, mengembangkan kedisiplinan dalam mengatur pengeluaran, dan menyediakan media pembelajaran yang interaktif serta mudah dipahami.
+[22/09/26, 15.52.43] ~ 11S26037DanielsitumeangIF: Judul : Mathemagica
+Nama : Deddy Daniel Situmeang
+Deskripsi project : Mathemagica adalah game teka-teki logika interaktif yang dirancang untuk melatih ketajaman otak dan keterampilan aritmatika melalui gameplay yang dinamis dan visual modern. Game ini menghadirkan lima mode tantangan utama: Make 24 yang menantang pemain menyusun operasi matematika untuk mencapai angka target, Kisi Persamaan (Cross-Math) yang menguji penyelesaian teka-teki silang angka, Aljabar Ikon yang memadukan logika simbolik dengan aturan KABATAKU, Pola Bilangan untuk melatih kepekaan deret angka, serta Time Attack yang memacu adrenalin berhitung cepat dengan sistem kombo dan bonus waktu. Pengalaman bermain terasa kian memuaskan berkat elemen gamifikasi lengkap—mulai dari tingkatan level rank, perolehan XP, sistem streak, hingga koleksi lencana prestasi. Dilengkapi efek visual partikel, petunjuk bertahap (hints), dan latar musik synth yang menenangkan, Mathemagica mengubah latihan matematika menjadi tantangan adiktif yang menyenangkan sekaligus edukatif.
+
+Tujuan Project:
+1. Meningkatkan Kemampuan Logika dan Numerasi: Mengasah ketajaman daya pikir kritis dan pemecahan masalah melalui berbagai mode permainan terstruktur, seperti perumusan operasi hitung (Make 24), analisis matriks (Kisi Persamaan), penyelesaian logika simbolik (Aljabar Ikon), dan identifikasi keteraturan data (Pola Bilangan).   
+2. Melatih Kecepatan dan Fokus Berpikir: Mengembangkan kemampuan pengambilan keputusan secara tangkas di bawah tekanan waktu lewat fitur Time Attack, yang menuntut konsentrasi tinggi dan presisi hitungan.   Membangun Kebiasaan Belajar Positif: Memanfaatkan pendekatan gamifikasi seperti akumulasi Experience Points (XP), kenaikan peringkat/level, sistem beruntun (streak), serta lencana prestasi guna memicu motivasi berkelanjutan dan rasa pencapaian bagi pemain. 
+3. Menciptakan Pengalaman Belajar Nyaman dan Modern: Menyediakan antarmuka web yang intuitif, visual dinamis, panduan bertahap (step-by-step hints), dan audio relaksasi agar proses belajar terasa menyenangkan tanpa intimidasi. ‎<This message was edited>
+‎[22/09/26, 15.52.49] ~ nathan: deskripsi_proyek_nakula_nathanael_gultom.zip ‎<attached: 00003032-deskripsi_proyek_nakula_nathanael_gultom.zip>
+[22/09/26, 15.53.11] ~ 11S26024_Ananda.S_IF: Judul			: Podomoro Timer 
+Nama			: Ananda Immanuel Siregar 
+Deskripsi proyek	: Pomodoro Timer adalah aplikasi manajemen waktu yang dirancang untuk membantu pengguna meningkatkan fokus dan produktivitas saat belajar maupun bekerja. Aplikasi ini menggunakan teknik Pomodoro, yaitu metode membagi waktu menjadi beberapa sesi fokus yang diselingi waktu istirahat.
+Pengguna dapat menjalankan timer dalam sesi fokus, kemudian aplikasi secara otomatis mengarahkan pengguna ke sesi istirahat. Setiap sesi yang berhasil diselesaikan dapat dicatat sehingga pengguna dapat melihat perkembangan produktivitasnya.
+
+Tujuan proyek		:
+•  Meningkatkan fokus pengguna
+Membantu pengguna berkonsentrasi pada satu tugas dalam periode waktu tertentu tanpa mudah terdistraksi. 
+•  Membantu mengatur waktu
+Membagi aktivitas menjadi sesi kerja/fokus dan waktu istirahat sehingga waktu dapat digunakan secara lebih teratur. 
+•  Mencegah kelelahan
+Memberikan waktu istirahat secara berkala agar pengguna tidak terus-menerus bekerja atau belajar dalam waktu yang panjang. 
+•  Meningkatkan produktivitas
+Membantu pengguna menyelesaikan tugas secara bertahap melalui sesi fokus yang terukur. 
+•  Memantau aktivitas pengguna
+Menyediakan pencatatan jumlah sesi dan durasi fokus sehingga pengguna dapat melihat perkembangan produktivitasnya.
+[22/09/26, 15.54.40] ~ 12S26034_Titania S.P_S1SI: Judul : Temple-Run 
+Nama : Titania Shakila Panggabean 
+
+Deskripsi: 
+Temple Run adalah game aksi bergenre endless runner yang menghadirkan petualangan lari tanpa henti dengan mekanik gravitasi unik dan penuh tantangan. Dalam game ini, pemain diajak menelusuri lintasan dinamis sambil mengumpulkan koin sebanyak-banyaknya untuk meraih skor tertinggi. Pemain dituntut untuk bergerak lincah melalui aksi melompat, berguling, serta bergeser ke kanan dan ke kiri guna menghindari setiap rintangan yang menghalang. Game ini juga dilengkapi dengan fitur perisai pelindung (shield) yang memungkinkan pemain menerobos rintangan secara langsung tanpa perlu melakukan pergerakan menghindar selama durasi tertentu, menciptakan pengalaman bermain yang cepat, menegangkan, dan memicu adrenalin.  
+
+Tujuan utama : 
+ untuk menghadirkan sebuah game endless runner interaktif yang memadukan refleks ketangkasan pemain dengan mekanik elemen anti-gravitasi yang segar. Selain itu, proyek ini bertujuan untuk melatih kecepatan respons pemain melalui kontrol permainan yang intuitif, serta memberikan variasi strategi bermain dengan adanya fitur power-up seperti pelindung rintangan. Pada akhirnya, game ini dirancang untuk menciptakan daya tarik bermain ulang (replayability) yang tinggi, di mana pemain terdorong untuk terus melampaui rekor skor tertinggi mereka dan mengumpulkan koin terbanyak.

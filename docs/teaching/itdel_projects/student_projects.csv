@@ -1,0 +1,772 @@
+student_name,contact_handle,phone_number,nim,department,school,project_title_id,project_title_en,category,liberal_art,description_id,description_en,objective_id,objective_en,demo_url,repo_url,status,source_ref
+Ananda Immanuel Siregar,11S26024_Ananda.S_IF,,11S26024,Informatika (IF),Institut Teknologi Del,Podomoro Timer,Pomodoro Focus & Study Timer,Educational Tool,Quadrivium-Music,"Pomodoro Timer adalah aplikasi manajemen waktu yang dirancang untuk membantu pengguna meningkatkan fokus dan produktivitas saat belajar maupun bekerja. Aplikasi ini menggunakan teknik Pomodoro, yaitu metode membagi waktu menjadi beberapa sesi fokus yang diselingi waktu istirahat.
+Pengguna dapat menjalankan timer dalam sesi fokus, kemudian aplikasi secara otomatis mengarahkan pengguna ke sesi istirahat. Setiap sesi yang berhasil diselesaikan dapat dicatat sehingga pengguna dapat melihat perkembangan produktivitasnya.","A web-based productivity application implementing the Pomodoro time-management technique, alternating 25-minute focused work intervals with 5-minute restorative breaks to optimize mental endurance and study discipline.","•  Meningkatkan fokus pengguna
+Membantu pengguna berkonsentrasi pada satu tugas dalam periode waktu tertentu tanpa mudah terdistraksi. 
+•  Membantu mengatur waktu
+Membagi aktivitas menjadi sesi kerja/fokus dan waktu istirahat sehingga waktu dapat digunakan secara lebih teratur. 
+•  Mencegah kelelahan
+Memberikan waktu istirahat secara berkala agar pengguna tidak terus-menerus bekerja atau belajar dalam waktu yang panjang. 
+•  Meningkatkan produktivitas
+Membantu pengguna menyelesaikan tugas secara bertahap melalui sesi fokus yang terukur. 
+•  Memantau aktivitas pengguna
+Menyediakan pencatatan jumlah sesi dan durasi fokus sehingga pengguna dapat melihat perkembangan produktivitasnya.","1. Cultivate structured study habits and combat digital distractions.
+2. Enhance sustained concentration through timed intervals.
+3. Provide responsive, intuitive timer controls with ambient sound alerts.",,,Pending Link,_chat.txt@22/09/26 15.53.11
+Annisa Margareth Manalu,AnnisaManalu_S1_IF,,,Informatika (IF),Institut Teknologi Del,Petualangan Penjumlahan Ceria,Cheerful Addition Adventure,Interactive Game,Quadrivium-Arithmetic,"Projek : Petualangan Penjumlahan Ceria merupakan game edukasi yang dirancang agar belajar matematika terasa menyenangkan seperti bermain, bukan ujian sekolah. Pemain harus menjawab soal penjumlahan acak berformat pilihan ganda (4 opsi) dalam batasan waktu tertentu.
+Game ini menyediakan tiga tingkat kesulitan progresif: Mudah (penjumlahan 1-5), Sedang (1-10), dan Sulit (1-20). Dilengkapi sistem 3 nyawa (\hearts), efek suara interaktif, serta pesan penyemangat seperti ""Mantap!"" dan ""Kamu luar biasa!"", game ini menyajikan pengalaman bermain yang kompetitif namun santai. Tampilannya cerah, menarik, dan responsif sehingga nyaman dimainkan di HP maupun komputer, lengkap dengan navigasi tombol Mulai Game, Pilih Level, Pause, Main Lagi, dan Keluar.","An interactive educational math game designed to make elementary arithmetic engaging and stress-free. Players solve random multiple-choice addition problems across three progressive difficulty tiers (Easy: 1-5, Medium: 1-10, Hard: 1-20). Features 3 lives, celebratory sound effects, and encouraging feedback.","1. Melatih Ketangkasan Mental: Meningkatkan kecepatan dan ketepatan berhitung penjumlahan secara refleks melalui tantangan waktu.
+2. Mengubah Stigma Negatif: Menghilangkan rasa takut atau bosan terhadap matematika melalui pendekatan gamification yang adiktif.
+3. Membangun Sistem Game Lengkap: Menerapkan mekanika skor, sistem nyawa, progres tingkat kesulitan, dan rekapitulasi akhir permainan.
+4. Aksesibilitas Luas: Menghadirkan hiburan edukatif yang ringan, responsif, dan dapat diakses dengan mudah di berbagai perangkat lintas platform
+1. Melatih Ketangkasan Mental: Meningkatkan kecepatan dan ketepatan berhitung penjumlahan secara refleks melalui tantangan waktu.
+2. Mengubah Stigma Negatif: Menghilangkan rasa takut atau bosan terhadap matematika melalui pendekatan gamification yang adiktif.
+3. Membangun Sistem Game Lengkap: Menerapkan mekanika skor, sistem nyawa, progres tingkat kesulitan, dan rekapitulasi akhir permainan.
+4. Aksesibilitas Luas: Menghadirkan hiburan edukatif yang ringan, responsif, dan dapat diakses dengan mudah di berbagai perangkat lintas platform.","1. Strengthen mental arithmetic reflexes through timed challenges.
+2. Overcome math anxiety through playful gamification.
+3. Deliver lightweight, responsive educational gameplay across desktop and mobile devices.",,,Pending Link,_chat.txt@22/09/26 15.50.25
+Annisa Margareth Manalu,AnnisaManalu_S1_IF,,,Informatika (IF),Institut Teknologi Del,Kategori Berantai,Word Chain: Category Association Game,Interactive Game,Trivium-Grammar,"Projek : Projek game Kategori Berantai (Word Chain) adalah sebuah permainan asah otak kasual berbasis kata yang dirancang untuk mengisi waktu luang secara interaktif dan menyenangkan. Game ini dapat dimainkan secara fisik bersama teman maupun secara digital, di mana para pemain harus beradu cepat dan konsentrasi menyebutkan kosakata sesuai tema yang ditentukan, bergerak secara berurutan berdasarkan abjad dari A hingga Z.","A casual, rapid-fire word association brain puzzle playable both digitally and socially. Players race against the clock to name thematic vocabulary sequentially through the alphabet from A to Z.","ujuan utama dari projek game ini adalah menyediakan sarana hiburan yang sederhana, praktis, dan mudah diakses tanpa memerlukan alat atau perangkat yang rumit. Selain sebagai media ampuh untuk mengatasi rasa bosan (time killer), game ini bertujuan melatih ketajaman berpikir, memperkaya kosakata, serta menguji refleks cepat di bawah tekanan waktu. Lebih dari itu, projek ini dirancang untuk mencairkan suasana, mempererat keakraban sosial antar pemain melalui gelak tawa, serta menawarkan fleksibilitas tinggi karena aturan mainnya dapat dimodifikasi dengan tingkat kesulitan berbeda agar selalu terasa segar dan menantang untuk dimainkan kapan saja.","1. Enhance mental sharpness, vocabulary recall, and quick reflexes under time pressure.
+2. Foster group bonding and active communication through spontaneous gameplay.
+3. Offer a flexible, zero-friction word game with configurable thematic categories.",,,Pending Link,_chat.txt@22/09/26 16.28.38#proyek2
+Briant Sinaga,Briant Sinaga,,,Sistem Informasi (SI),SMA Unggul Del (SUD),Focusflow : Deep Work & Ambient Sanctuary,FocusFlow: Deep Work & Ambient Audio Sanctuary,Educational Tool,Quadrivium-Music,"Aplikasi produktivitas berbasis web yang memadukan teknik Pomodoro dengan generator audio ambien sintetis langsung dari browser menggunakan Web Audio API. Pengguna dapat mengatur sesi fokus selama 25 menit diselingi waktu istirahat secara teratur, sembari mendengarkan frekuensi gelombang otak Alpha 432Hz, suara hujan, white noise, atau kehangatan perapian untuk memblokir distraksi luar. Aplikasi ini juga dilengkapi dengan manajemen daftar target tugas, pencatat streak konsistensi harian, dan statistik durasi kerja mendalam secara otomatis.","A distraction-free web productivity environment combining the Pomodoro technique with synthesized ambient audio generators (rain, waves, binaural café sounds) to induce and sustain cognitive flow states.","1. Melatih kedisiplinan dan manajemen waktu pengguna dalam menyelesaikan tugas
+2. Membantu menjaga ketenangan dan fokus mendalam (flow state) saat belajar atau bekerja
+3. Mencegah kejenuhan dan kelelahan mental (burnout) melalui jeda istirahat yang teratur","1. Maximize productivity through seamless audio-visual focus triggers.
+2. Provide customized soundscapes that block ambient auditory distractions.
+3. Track daily focus sessions and deep-work consistency.",,,Pending Link,_chat.txt@22/09/26 16.08.55#part1
+Briant Sinaga,Briant Sinaga,,,Sistem Informasi (SI),SMA Unggul Del (SUD),Finplan : Smart Budget & Wealth Accelerator,FinPlan: Smart Budgeting & Personal Wealth Accelerator,Web Application,Quadrivium-Arithmetic,"Aplikasi manajemen keuangan personal dan perencanaan kekayaan cerdas berbasis web. Pengguna dapat mencatat pemasukan dan pengeluaran harian secara real-time yang langsung divisualisasikan dalam bentuk diagram donat interaktif berbasis Canvas HTML5. Aplikasi ini menerapkan Aturan 50/30/20 untuk membagi proporsi keuangan secara ideal antara Kebutuhan Pokok, Keinginan Pribadi, dan Tabungan Masa Depan, serta dilengkapi simulator investasi bunga majemuk (compound interest) dinamis untuk memproyeksikan akumulasi aset jangka panjang.","A lightweight personal finance and budgeting web platform featuring automated expense categorization, visual financial allocation meters, and proactive savings milestone projections.","1. Melatih kesadaran finansial siswa dalam mengelola pemasukan dan pengeluaran uang
+2. Melatih kepandaian pengguna dalam mengatur alokasi anggaran belanja secara strategis
+3. Mengembangkan pemikiran visioner tentang investasi dan pertumbuhan aset masa depan","1. Empower students and young professionals to take control of personal cash flows.
+2. Prevent overspending through intuitive visual budget alerts.
+3. Gamify savings milestones with clear projection trajectories.",,,Pending Link,_chat.txt@22/09/26 16.08.55#part2
+Briant Sinaga,Briant Sinaga,,,Sistem Informasi (SI),SMA Unggul Del (SUD),Mindcanvas : Second Brain & Knowledge Graph,MindCanvas: Second Brain & Dynamic Knowledge Graph,IoT & Hardware,Quadrivium-Astronomy,"Aplikasi catatan pemikiran dan pengorganisasian ide pribadi bergaya Second Brain yang menggabungkan Markdown Editor modern dengan visualisasi jaringan pengetahuan interaktif (Knowledge Graph Canvas). Pengguna dapat menulis catatan secara terstruktur menggunakan format Markdown dengan pratinjau instan di sisi kanan, mengelompokkan topik dengan sistem tag, serta melihat bagaimana ide-ide saling terhubung dalam graf partikel node visual yang dinamis dan dapat digeser secara bebas.","An interconnected note-taking and knowledge representation workspace that visualizes notes, entities, and research insights as an interactive node-link graph with bidirectional hyperlinking.","1. Melatih kemampuan siswa dalam menstrukturkan ide dan materi pelajaran secara rapi
+2. Melatih daya analisis kognitif dalam menghubungkan konsep-konsep pengetahuan yang saling terkait
+3. Meningkatkan retensi ingatan jangka panjang melalui visualisasi graf pengetahuan yang menarik","1. Bridge fragmented notes into a unified, visual knowledge network.
+2. Accelerate cognitive synthesis and exploratory learning.
+3. Provide local-first, low-latency graph navigation.",,,Pending Link,_chat.txt@22/09/26 16.08.55#part3
+Briant Sinaga,Briant Sinaga,,,Sistem Informasi (SI),SMA Unggul Del (SUD),Codecraft : Developer Swiss Knife & Playground,CodeCraft: Developer Swiss-Knife & Interactive Playground,Productivity Tool,Trivium-Logic,"Platform utilitas pengembangan perangkat lunak terintegrasi yang dirancang untuk mempermudah proses coding dan pengujian data secara instan di browser. Aplikasi ini memuat empat modul utama: Regex Tester interaktif dengan penyorotan sintaks otomatis, JSON Formatter & Validator dengan inspeksi hierarki pohon, modul Enkripsi/Dekripsi (Base64, URL Encoding, dan Hash SHA-256 via Web Crypto API), serta generator CSS Glassmorphism dan Gradient visual dengan tombol salin kode siap pakai.","An all-in-one in-browser utility playground for software developers, featuring formatters (JSON, SQL, Markdown), regex testers, hash generators, and isolated HTML/CSS/JS prototyping sandboxes.","1. Melatih logika dan pemahaman teknis siswa dalam pemrosesan data dan pola ekspresi reguler
+2. Meningkatkan efisiensi serta akurasi pengembang dalam memformat dan memvalidasi struktur data
+3. Memfasilitasi eksplorasi kreativitas desain antarmuka modern secara cepat dan interaktif","1. Streamline daily engineering workflows into a single offline-capable web suite.
+2. Eliminate reliance on ad-heavy external web tools.
+3. Enable rapid experimentation and code snippet validation.",,,Pending Link,_chat.txt@22/09/26 16.08.55#part4
+Claudia Calista Aprilliana Sinaga,12S26052_Claudia Sinaga,,12S26052,Sistem Informasi (SI),Institut Teknologi Del,"GameHub 3-in-1 (Kuis Bahasa, Puzzle Geser, Teka-Teki Seru)","GameHub 3-in-1: Language Quiz, Sliding Puzzle & Logic Riddles",Interactive Game,Trivium-Grammar,"GameHub 3-in-1 adalah aplikasi web edutainment berbasis Vanilla JS yang mengintegrasikan tiga permainan kognitif dalam satu platform modern. Aplikasi ini memadukan latihan linguistik, analisis spasial, dan penalaran logika dengan mekanik gamifikasi (XP, Level, dan Target Harian) untuk menghadirkan pengalaman belajar yang interaktif, ringan, serta dapat diakses secara offline.","A modern vanilla JS edutainment suite integrating three cognitive mini-games: linguistic vocabulary matching, spatial sliding grid puzzles, and analytical logic riddles with unified XP and daily challenges.","1. Stimulasi Kognitif: Mengasah memori bahasa, pemetaan spasial, dan pemecahan masalah secara kritis.
+2. Gamifikasi Efektif: Mengubah screen time pasif menjadi kebiasaan latihan mental yang produktif.
+3. Aksesibilitas Tinggi: Menyediakan media pembelajaran digital yang efisien, responsif, dan bebas instalasi rumit.","1. Stimulate linguistic memory, spatial reasoning, and critical problem-solving.
+2. Transform passive screen time into productive mental exercise through gamification.
+3. Provide a responsive, zero-dependency offline web gaming experience.",,,Pending Link,_chat.txt@22/09/26 16.18.53
+Claudia Calista Aprilliana Sinaga,12S26052_Claudia Sinaga,,12S26052,Sistem Informasi (SI),Institut Teknologi Del,Silangit Flight Board (DTB)— Sistem Informasi Penerbangan Real-Time,Silangit Flight Board: Real-Time Airport Flight Information Display System (FIDS),Educational Tool,Trivium-Grammar,"Silangit Flight Board adalah aplikasi web Flight Information Display System (FIDS) yang dirancang untuk menyediakan informasi keberangkatan dan kedatangan pesawat di Bandara Internasional Raja Sisingamangaraja XII / Silangit (DTB) secara real-time. Web ini dilengkapi fitur pencarian kilat, filter status penerbangan, informasi cuaca kawasan Danau Toba, serta desain antarmuka aviation dark mode yang responsif dan ultra-cepat.","A sleek, real-time Flight Information Display System (FIDS) web application tailored for Silangit International Airport (DTB), displaying scheduled departures, arrivals, gate assignments, and status updates.","1. Aksesibilitas Informasi: Memudahkan penumpang memantau jadwal, gate, dan status penerbangan secara cepat.
+2. Efisiensi Antarmuka: Menyediakan papan informasi penerbangan modern tanpa dependensi library berat.
+3. Pengalaman Pengguna: Menghadirkan sistem pemantauan penerbangan yang responsif di komputer dan smartphone.","1. Streamline passenger flight tracking with clean visual schedules and status indicators.
+2. Provide airport operators with a lightweight, high-performance web display board.
+3. Ensure multi-device responsiveness across passenger smartphones and airport terminal monitors.",,,Pending Link,_chat.txt@22/09/26 16.30.47
+Deddy Daniel Situmeang,11S26037DanielsitumeangIF,,11S26037,Informatika (IF),Institut Teknologi Del,Mathemagica,Mathemagica: Logic & Mental Math Puzzle Game,Interactive Game,Quadrivium-Arithmetic,"Mathemagica adalah game teka-teki logika interaktif yang dirancang untuk melatih ketajaman otak dan keterampilan aritmatika melalui gameplay yang dinamis dan visual modern. Game ini menghadirkan lima mode tantangan utama: Make 24 yang menantang pemain menyusun operasi matematika untuk mencapai angka target, Kisi Persamaan (Cross-Math) yang menguji penyelesaian teka-teki silang angka, Aljabar Ikon yang memadukan logika simbolik dengan aturan KABATAKU, Pola Bilangan untuk melatih kepekaan deret angka, serta Time Attack yang memacu adrenalin berhitung cepat dengan sistem kombo dan bonus waktu. Pengalaman bermain terasa kian memuaskan berkat elemen gamifikasi lengkap—mulai dari tingkatan level rank, perolehan XP, sistem streak, hingga koleksi lencana prestasi. Dilengkapi efek visual partikel, petunjuk bertahap (hints), dan latar musik synth yang menenangkan, Mathemagica mengubah latihan matematika menjadi tantangan adiktif yang menyenangkan sekaligus edukatif.","An interactive mathematical logic game featuring multiple structured puzzle modes (Make 24, Equation Grid, Icon Algebra, and Number Patterns) alongside a high-intensity Time Attack reflex mode.","1. Meningkatkan Kemampuan Logika dan Numerasi: Mengasah ketajaman daya pikir kritis dan pemecahan masalah melalui berbagai mode permainan terstruktur, seperti perumusan operasi hitung (Make 24), analisis matriks (Kisi Persamaan), penyelesaian logika simbolik (Aljabar Ikon), dan identifikasi keteraturan data (Pola Bilangan).   
+2. Melatih Kecepatan dan Fokus Berpikir: Mengembangkan kemampuan pengambilan keputusan secara tangkas di bawah tekanan waktu lewat fitur Time Attack, yang menuntut konsentrasi tinggi dan presisi hitungan.   Membangun Kebiasaan Belajar Positif: Memanfaatkan pendekatan gamifikasi seperti akumulasi Experience Points (XP), kenaikan peringkat/level, sistem beruntun (streak), serta lencana prestasi guna memicu motivasi berkelanjutan dan rasa pencapaian bagi pemain. 
+3. Menciptakan Pengalaman Belajar Nyaman dan Modern: Menyediakan antarmuka web yang intuitif, visual dinamis, panduan bertahap (step-by-step hints), dan audio relaksasi agar proses belajar terasa menyenangkan tanpa intimidasi.
+1. Meningkatkan Kemampuan Logika dan Numerasi: Mengasah ketajaman daya pikir kritis dan pemecahan masalah melalui berbagai mode permainan terstruktur, seperti perumusan operasi hitung (Make 24), analisis matriks (Kisi Persamaan), penyelesaian logika simbolik (Aljabar Ikon), dan identifikasi keteraturan data (Pola Bilangan).   
+2. Melatih Kecepatan dan Fokus Berpikir: Mengembangkan kemampuan pengambilan keputusan secara tangkas di bawah tekanan waktu lewat fitur Time Attack, yang menuntut konsentrasi tinggi dan presisi hitungan.   Membangun Kebiasaan Belajar Positif: Memanfaatkan pendekatan gamifikasi seperti akumulasi Experience Points (XP), kenaikan peringkat/level, sistem beruntun (streak), serta lencana prestasi guna memicu motivasi berkelanjutan dan rasa pencapaian bagi pemain. 
+3. Menciptakan Pengalaman Belajar Nyaman dan Modern: Menyediakan antarmuka web yang intuitif, visual dinamis, panduan bertahap (step-by-step hints), dan audio relaksasi agar proses belajar terasa menyenangkan tanpa intimidasi.
+4.","1. Sharpen numerical reasoning and analytical deduction through structured puzzle solving.
+2. Train quick decision-making under time constraints.
+3. Reinforce daily learning through streak bonuses, XP milestones, and achievement badges.",,https://github.com/ellesiddaniel/antigravity-DEL,Complete,_chat.txt@22/09/26 15.52.43
+Deddy Daniel Situmeang,11S26037DanielsitumeangIF,,11S26037,Informatika (IF),Institut Teknologi Del,Subway Surfers 3D - Ultimate Web Edition,Subway Surfers: Urban Railway Endless Runner,Interactive Game,Quadrivium-Geometry,"Subway Surfers 3D - Ultimate Web Edition adalah game web bergenre endless runner yang menghadirkan aksi pelarian seru di atas jalur rel kereta secara interaktif langsung melalui peramban. Dibangun menggunakan pustaka Three.js WebGL, game ini menyajikan visual grafis 3D yang dinamis lengkap dengan efek kecepatan (speed vignette) untuk menciptakan sensasi bermain yang imersif dan mulus. Pemain ditantang untuk mengendalikan karakter yang berlari tanpa henti guna meloloskan diri dari kejaran satpam, sembari bermanuver menghindari rintangan dan gerbong kereta yang melaju dengan melompat, berseluncur (slide), serta berpindah jalur rel. Sepanjang pelarian, pemain dapat mengumpulkan koin emas, menemukan kunci darurat untuk melanjutkan giliran bermain (revive), serta memanfaatkan perlengkapan khusus seperti hoverboard pelindung dan pengganda skor (multiplier boost). Koin dan kunci yang terkumpul dapat dibelanjakan di menu toko untuk membuka berbagai variasi karakter, papan seluncur baru, hingga meningkatkan durasi power-up. Game ini sangat fleksibel karena mendukung kontrol navigasi keyboard untuk pengguna komputer serta tombol virtual D-pad dan gestur usap (swipe) untuk perangkat seluler. Dengan kombinasi tantangan mencetak rekor skor tertinggi, jarak tempuh terjauh, dan audio yang energik, game ini menghadirkan pengalaman arkade klasik yang adiktif serta menghibur bagi segala kalangan.","An endless runner web game where players navigate a young graffiti artist dodging subway cars, barriers, and pursuit along vibrant train tracks, collecting gold coins and high-score multipliers.","Tujuan utama dari proyek pengembangan game Subway Surfers 3D - Ultimate Web Edition adalah menghadirkan adaptasi permainan endless runner 3D berbasis peramban (web-based) yang mudah diakses secara instan tanpa perlu instalasi aplikasi tambahan. Proyek ini memanfaatkan teknologi Three.js WebGL untuk membuktikan bahwa lingkungan grafis tiga dimensi yang dinamis, kaya efek visual kecepatan, dan performa tinggi dapat berjalan mulus langsung di atas platform web.   Dari sisi pengalaman pengguna, proyek ini bertujuan menguji dan melatih kecepatan refleks, konsentrasi, serta ketangkasan motorik pemain dalam bermanuver menghindari rintangan rel kereta di bawah tekanan tempo yang kian meningkat. Proyek ini juga mengimplementasikan mekanisme gamifikasi yang menarik melalui sistem pengumpulan koin emas, pencapaian skor tertinggi (high score), pemanfaatan item darurat seperti kunci revive, serta aktivasi perlengkapan pendukung seperti hoverboard pelindung.   Selain itu, tujuan teknis lainnya adalah menyediakan aksesibilitas lintas platform yang optimal. Hal ini diwujudkan lewat perancangan sistem kontrol yang adaptif, baik menggunakan keyboard bagi pengguna komputer desktop maupun tombol virtual D-pad dan gestur usap (swipe) bagi pengguna perangkat layar sentuh. Secara menyeluruh, proyek ini ditujukan untuk menciptakan media hiburan arkade modern yang kompetitif, adiktif, sekaligus membuktikan fleksibilitas pengembangan game interaktif pada ekosistem web modern.","1. Deliver fast-paced arcade entertainment with responsive lane jumping and sliding.
+2. Implement score multipliers, power-ups, and daily word letter collection challenges.
+3. Test hand-eye coordination and reflex agility under steadily increasing game speed.",,https://github.com/ellesiddaniel/antigravity-DEL,Complete,_chat.txt@22/09/26 16.24.38
+Deddy Daniel Situmeang,11S26037DanielsitumeangIF,,11S26037,Informatika (IF),Institut Teknologi Del,Ghost of Tsushima: Way of the Samurai,Ghost of Tsushima: Way of the Samurai (3D Action RPG),Interactive Game,Quadrivium-Geometry,"Ghost of Tsushima: Way of the Samurai adalah game aksi RPG berbasis web yang menghadirkan pertarungan pedang samurai sinematik dalam format 3D menggunakan teknologi Three.js WebGL. Pemain berperan sebagai Jin Sakai, sang pendekar dari klan Sakai yang berjuang membebaskan Pulau Tsushima dari serbuan penjajah Mongol. Game ini menyuguhkan sistem pertarungan taktis yang mendalam melalui mekanik tangkisan presisi (perfect parry), pengurasan postur lawan, serta pemilihan empat kuda-kuda katana—Stone, Water, Wind, dan Moon—yang disesuaikan secara khusus untuk merontokkan pertahanan tiap tipe musuh. Pemain juga dapat melancarkan duel refleks bertekanan tinggi lewat sistem Standoff, mengaktifkan mode amukan Ghost Stance, dan mengeksekusi jurus legendaris seperti Heavenly Strike menggunakan orbe Resolve. Unsur RPG diperkuat melalui menu kuil Golden Temple, tempat pemain membelanjakan poin teknik dan suplai untuk menempa ketajaman pedang, membuka efek unik set zirah, serta melengkapi jimat mistis (charms). Didukung oleh atmosfer sinematik lengkap dengan filter hitam-putih artistik Kurosawa Mode, bilah letterbox, dan efek visual luka yang dramatis, game ini menyajikan pengalaman bermain laga samurai feodal yang imersif dan menantang langsung dari peramban web.","A cinematic 3D web action RPG set in feudal Japan. Players wield katana blades, execute precise parries and counter-attacks, and face invading enemy warlords across scenic historic landscapes.","Tujuan utama dari proyek pengembangan game Ghost of Tsushima: Way of the Samurai adalah merancang pengalaman bermain aksi RPG bernuansa samurai feodal yang imersif dan sinematik langsung melalui peramban web modern tanpa membutuhkan pemasangan aplikasi tambahan. Memanfaatkan pustaka Three.js WebGL, proyek ini bertujuan membuktikan potensi teknologi web dalam mengeksekusi arena pertarungan tiga dimensi yang dinamis, didukung estetika film klasik lewat Kurosawa Mode, bilah letterbox, serta efek visual benturan pedang yang dramatis.   Dari segi interaksi pemain, proyek ini berfokus melatih ketangkasan refleks, fokus, serta pengambilan keputusan taktis melalui sistem pertarungan yang presisi. Mekanik ini mencakup penguasaan empat kuda-kuda katana untuk mengeksploitasi kelemahan musuh, eksekusi tangkisan sempurna (perfect parry), duel refleks berisiko tinggi (Standoff), hingga pemanfaatan orbe Resolve untuk jurus mistis maupun pemulihan diri.   Selain itu, proyek ini bertujuan mengintegrasikan kedalaman elemen perkembangan karakter ala RPG ke dalam ekosistem web. Melalui sistem Kuil Golden Temple, pemain dapat mengelola suplai dan poin teknik untuk menempa katana, memilih variasi zirah pelindung, serta memasang jimat suci (Sacred Charms). Secara keseluruhan, inisiatif ini dirancang guna menyajikan media hiburan aksi berkualitas tinggi yang memadukan keindahan narasi visual dengan gameplay laga yang menantang.","1. Create an immersive cinematic swordplay experience using 3D web graphics.
+2. Implement tight combat mechanics including stance shifts, parry timing, and combos.
+3. Showcase procedural animation and atmospheric audio on the web platform.",,https://github.com/ellesiddaniel/antigravity-DEL,Complete,_chat.txt@22/09/26 16.32.01
+Deddy Daniel Situmeang,11S26037DanielsitumeangIF,,11S26037,Informatika (IF),Institut Teknologi Del,BRAWL LEGENDS,Brawl Legends: 2D Platform Fighter Arena,Interactive Game,Trivium-Rhetoric,"BRAWL LEGENDS adalah game aksi 2D Platform Fighter berbasis peramban web yang terinspirasi dari mekanisme pertarungan ala Brawlhalla. Game ini menghadirkan pertempuran dinamis di arena pulau melayang (Sky Citadel) dengan pilihan empat legenda unik: Valravn sang pembunuh bayangan, Ignis, Astrid, dan Titanus. Setiap karakter dibekali atribut tersendiri yang mencakup Speed, Attack, Defense, serta Dexterity. Inti dari alur permainannya mengusung sistem akumulasi persentase damage knockback; semakin tinggi kerusakan yang diterima musuh (dari warna putih hingga merah gelap), semakin jauh mereka akan terpental keluar arena saat terkena serangan berat. Pemain dapat bermanuver lincah menggunakan teknik double jump, wall cling, dodge kebal sekejap (invulnerability frames), serta jurus penyelamat air recovery untuk bertahan di platform. Game ini menyediakan mode pertarungan variatif seperti Stock Battle (3 nyawa), Timed Battle (3 menit), dan sesi latihan bebas (Training Arena), lengkap dengan kecerdasan buatan (AI) yang responsif. Dilengkapi dukungan kontrol multipemain lokal untuk dua pemain di satu keyboard, statistik pascapertarungan, serta efek visual partikel dan getaran layar (screen shake), Brawl Legends menyajikan pertarungan kompetitif yang seru dan intens langsung di atas kanvas web.","An explosive 2D browser-based platform fighter inspired by Brawlhalla. Players battle across suspended floating stages, utilizing aerial acrobatics, dynamic weapon drops, and knockback percentage physics.","Tujuan utama dari proyek pengembangan game BRAWL LEGENDS adalah menghadirkan permainan aksi 2D platform fighter kompetitif berbasis web yang responsif, ringan, dan dapat dimainkan langsung melalui peramban tanpa memerlukan pemasangan perangkat lunak tambahan. Proyek ini memanfaatkan kanvas HTML5 dan JavaScript untuk menyajikan mekanik pertarungan platform yang dinamis, didukung oleh sistem fisika gerak, efek partikel benturan, serta fitur visual getaran layar (screen shake).   Dari sudut pandang gameplay, proyek ini bertujuan menguji dan melatih kecepatan refleks, ketepatan penentuan waktu (timing), serta kecermatan strategi pemain. Hal tersebut diwujudkan melalui sistem persentase damage knockback, manuver pemulihan udara (air recovery), teknik menempel di dinding (wall cling), dan jendela kekebalan sesaat melalui dodge. Game ini juga memperkenalkan empat karakter unik dengan variasi atribut stat untuk memberikan kedalaman taktik yang seimbang.   Selain itu, proyek ini dirancang guna memfasilitasi interaksi sosial yang menyenangkan dengan menyediakan dukungan mode multipemain lokal dua pemain dalam satu papan ketik, di samping opsi bertarung melawan bot AI cerdas untuk mode latihan maupun kompetisi berbatas waktu dan nyawa. Secara menyeluruh, inisiatif ini bertujuan membuktikan potensi teknologi peramban dalam menghadirkan pengalaman laga arena arkade yang adiktif, intens, dan mudah diakses oleh semua pemain.","1. Implement responsive platform physics, hitboxes, and knockback vector calculations.
+2. Deliver fast-paced competitive combat with diverse attack combos.
+3. Provide local multiplayer and AI scrimmage battle modes.",,https://github.com/ellesiddaniel/antigravity-DEL,Complete,_chat.txt@22/09/26 16.34.36
+Deddy Daniel Situmeang,11S26037DanielsitumeangIF,,11S26037,Informatika (IF),Institut Teknologi Del,Brain Runner 3D: Cyber Quiz Parkour,Brain Runner 3D: Cyber Quiz Parkour,Interactive Game,Quadrivium-Geometry,"Brain Runner 3D: Cyber Quiz Parkour adalah game edukasi aksi 3D berbasis peramban web yang memadukan ketegangan lari rintangan berkecepatan tinggi dengan kuis interaktif yang mengasah otak. Menggunakan teknologi Three.js WebGL, pemain berlari menelusuri lintasan futuristik sambil bermanuver melompat, meluncur (slide), dan berpindah jalur untuk menerobos gerbang jawaban yang benar. Game ini menyediakan beragam topik pertanyaan, mulai dari matematika, sains, bahasa Inggris, hingga logika, lengkap dengan empat tingkat kesulitan dan mode permainan seperti Endless Cyber Run serta Stage Adventure.   Pengalaman bermain terasa kian dinamis berkat fitur mekanik Slow-Mo untuk memperlambat waktu saat menganalisis soal genting, sistem kombo beruntun (streak), pengganda skor (multiplier), serta sudut pandang kamera yang dapat diganti antara orang ketiga dan orang pertama. Pemain juga dapat mempersonalisasi warna visor karakter favoritnya serta memanfaatkan fitur Custom Quiz Builder untuk merancang, menyimpan, maupun mengimpor paket soal sendiri secara fleksibel. Dilengkapi kontrol responsif untuk desktop maupun layar sentuh seluler, Brain Runner 3D menghadirkan sarana belajar yang adiktif, kompetitif, dan memacu adrenalin langsung dari peramban web.","An adrenaline-fueled educational hybrid combining futuristic parkour running with rapid-fire trivia quizzes. Runners sprint across neon rooftops, jumping through gate portals corresponding to correct answers.","Tujuan utama dari proyek pengembangan game Brain Runner 3D: Cyber Quiz Parkour adalah merancang media pembelajaran interaktif berbasis web yang memadukan aksi ketangkasan fisik digital dengan evaluasi pengetahuan secara menyenangkan dan dinamis. Memanfaatkan pustaka Three.js WebGL, proyek ini bertujuan membuktikan bahwa format kuis edukatif dapat dikemas ke dalam lingkungan visual 3D futuristik yang berkecepatan tinggi tanpa memerlukan instalasi aplikasi tambahan.   Secara pedagogis dan motorik, proyek ini dirancang untuk melatih fokus, kecepatan berpikir, dan refleks pemain dalam mengambil keputusan kritis di bawah tekanan waktu dan kecepatan laju lintasan. Hal ini diwujudkan melalui mekanik navigasi jalur gerbang jawaban, manuver parkour lompat dan berseluncur (slide), serta fitur pengatur tempo waktu Slow-Mo. Keberagaman topik soal—seperti sains, bahasa Inggris, logika, hingga generator matematika tanpa batas—juga ditujukan untuk memperluas wawasan intelektual pengguna lintas disiplin ilmu.   Selain itu, proyek ini berfokus pada fleksibilitas pembelajaran mandiri melalui penyediaan fitur Custom Quiz Builder, yang memungkinkan pengajar maupun pengguna membuat serta mengimpor paket soal sendiri secara mandiri. Secara keseluruhan, inisiatif ini bertujuan menciptakan sarana gamifikasi edukasi yang adiktif, kompetitif, dan mudah diakses lintas perangkat.","1. Merge physical reflexes with intellectual trivia retrieval under high-speed constraints.
+2. Gamify academic quiz modules into dynamic obstacle-avoidance gameplay.
+3. Foster cognitive agility by forcing simultaneous motor control and logical reasoning.",,https://github.com/ellesiddaniel/antigravity-DEL,Complete,_chat.txt@22/09/26 16.40.26
+Destria Lumban Batu,12S26059_DESTRIA L.B,,12S26059,Sistem Informasi (SI),Institut Teknologi Del,Deep-Sea Odyssey,Deep-Sea Odyssey: Deep Ocean Survival & Exploration Strategy,Interactive Game,Trivium-Rhetoric,"Deep-Sea Odyssey adalah game survival-strategy bertema penjelajahan bawah laut terdalam yang misterius. Pemain ditugaskan untuk mengelola dan mempertahankan sebuah stasiun riset kapal selam yang terdampar di palung laut yang belum pernah terjamah manusia. Pemain harus memutar otak untuk menghemat pasokan oksigen, mengelola energi, mengumpulkan material langka di kegelapan total, serta memodifikasi kapal selam agar mampu bertahan dari tekanan air ekstrem dan ancaman makhluk-makhluk laut purba yang agresif.","A suspenseful deep-sea survival strategy game where players pilot a research submarine into uncharted ocean trenches, managing oxygen reserves, battery power, hull pressure, and evasive maneuvers around abyssal creatures.","Untuk menyajikan game bertahan hidup dengan atmosfer yang intens dan mencekam melalui mekanik manajemen sumber daya bawah laut yang realistis. Selain itu, proyek ini bertujuan untuk melatih ketangkasan dan manajemen krisis pemain di bawah tekanan situasi darurat, serta memberikan pengalaman eksplorasi fiksi ilmiah yang memicu adrenalin dan rasa ingin tahu yang tinggi.","1. Challenge players with complex resource-management under harsh environmental constraints.
+2. Cultivate strategic planning and crisis prioritization.
+3. Deliver an atmospheric oceanic exploration experience with realistic pressure simulation.",,,Pending Link,_chat.txt@22/09/26 16.27.47
+Diva Aurel Anastacia Sirait,11S26051_DivaAurelASirait,,11S26051,Informatika (IF),Institut Teknologi Del,TypingFlow - Minimalist Speed Typing Trainer,TypingFlow: Minimalist Speed Typing Trainer,Educational Tool,Quadrivium-Music,"TypingFlow adalah aplikasi web modern, elegan, dan minimalis yang dirancang untuk melatih kemampuan mengetik cepat (speed typing). Menggabungkan fleksibilitas Monkeytype dan kesederhanaan 10FastFingers, aplikasi ini menyajikan pengalaman mengetik bebas distraksi melalui Zen Focus Mode dan Smooth Caret Animation. TypingFlow dilengkapi dukungan dwibahasa (Bahasa Indonesia & English) dengan 3 level kesulitan kata serta mode kutipan (quotes). Fitur unggulan lainnya mencakup efek audio prosedural keyboard mekanikal (Web Audio API), pemilihan tema & tipografi estetik, serta grafik visual analitik performa real-time berbasis Canvas.","An elegant, distraction-free speed typing web application designed to build muscle memory, Words Per Minute (WPM), and character accuracy through clean visual feedback and progressive typing drills.","1. Meningkatkan kecepatan (WPM/CPM), akurasi, dan konsistensi mengetik pengguna melalui latihan interaktif yang nyaman.
+2. Menyediakan platform pengujian ketik berfokus tinggi tanpa distraksi antarmuka yang berlebihan.
+3. Memberikan evaluasi performa mendalam dan riwayat progres terukur untuk memantau perkembangan keterampilan mengetik pengguna secara berkelanjutan.","1. Increase typing speed, consistency, and precision through focused practice.
+2. Provide an uncluttered, distraction-free environment with real-time WPM metrics.
+3. Track longitudinal typing performance and accuracy improvements.",,https://github.com/divaarlfs/Antigravity-IDE-Project-1.git,Complete,_chat.txt@22/09/26 15.47.18
+Diva Aurel Anastacia Sirait,11S26051_DivaAurelASirait,,11S26051,Informatika (IF),Institut Teknologi Del,Sistem Deteksi Api Real-Time Berbasis Computer Vision,FlameVision AI: Real-Time Computer Vision Fire Detection System,Web Application,Quadrivium-Music,"FlameVision AI* adalah aplikasi pendeteksi api *real-time* berbasis *Computer Vision* menggunakan Python dan OpenCV. Sistem mengenali kobaran api dari kamera laptop, smartphone (via WebRTC), maupun video rekaman melalui segmentasi ruang warna ganda (*HSV & YCrCb*) dan operasi morfologi citra.
+
+Aplikasi menampilkan *bounding box* berlabel *`FIRE DETECTED`*, banner status bahaya, dan alarm sirene audio. Proyek ini hadir dalam dua antarmuka: aplikasi desktop interaktif dan Web Dashboard modern yang dapat diakses langsung melalui browser berbagai perangkat.","An automated early-warning fire detection application utilizing Python, OpenCV, and deep learning computer vision to recognize flame signatures, smoke patterns, and heat anomalies from live camera video feeds.","1. *Peringatan Dini Kebakaran:* Mendeteksi kobaran api secara instan sejak detik pertama untuk mencegah kebakaran fatal.
+2. *Pengawasan Visual Jarak Jauh:* Menyediakan sistem pemantauan tanpa sentuh (*non-contact*) untuk area luas.
+3. *Akurasi Tinggi & Rendah *False Alarm*:* Memfilter warna api secara ketat guna membedakannya dari lampu atau objek jingga biasa.
+4. *Aksesibilitas Multi-Perangkat:* Memungkinkan pemantauan langsung dari HP atau laptop melalui browser tanpa instalasi tambahan.","1. Provide instantaneous fire recognition to mitigate industrial and residential fire risks.
+2. Minimize false alarms through multi-spectral color and motion contour analysis.
+3. Trigger automated alert broadcasts and emergency notifications upon fire detection.",,https://github.com/divaarlfs/Fire-Detector-Lite.git,Complete,_chat.txt@22/09/26 16.45.15
+Diva Martauli Raja Gukguk,12S26048_Diva.M.Rgg_S1,,12S26048,Sistem Informasi (SI),Institut Teknologi Del,Vocabquest,VocabQuest: Interactive English Vocabulary Adventure,Interactive Game,Quadrivium-Music,"VocabQuest adalah aplikasi permainan edukasi berbasis web interaktif yang dirancang untuk mengasah penguasaan kosakata dan ungkapan bahasa Inggris melalui lima variasi mode permainan menarik, yaitu pilihan ganda arti kata, susun huruf acak, deteksi sinonim-antonim, tebak idiom kiasan, serta mode bertahan waktu intensif. Sistem kerja game ini beroperasi secara mandiri pada peramban web tanpa memerlukan server tambahan, dengan memanfaatkan basis data kosakata bertingkat yang terintegrasi secara langsung dengan teknologi Web Speech API untuk fitur pelafalan suara asli penutur dan Web Audio API untuk menghasilkan efek suara sintetis yang reaktif. Permainan ini juga menerapkan sistem gamifikasi lengkap berupa perolehan poin pengalaman (XP), peningkatan peringkat profil pemain, pengganda kombo jawaban benar, serta penyediaan fasilitas bantuan strategis seperti pembuka contoh kalimat konteks dan eliminasi dua opsi jawaban yang keliru. Untuk menggunakannya, pemain cukup membuka berkas file aplikasi di peramban, menentukan tingkat kesulitan yang diinginkan, kemudian memilih mode permainan di menu utama. Saat berada di arena kuis, pemain dapat mendengarkan audio pengucapan kata, membaca instruksi soal, lalu memilih opsi atau menyusun huruf yang tepat sebelum batas waktu habis. Apabila menemui soal yang sulit, pemain dapat memanfaatkan bantuan yang tersedia, dan setelah ronde permainan selesai, seluruh kata dapat dipelajari kembali melalui menu kamus pintar Vocab Vault.","A gamified vocabulary learning quest where players encounter contextual word puzzles, phonetic pronunciations, and synonym challenges across varied quest scenarios.","1.  Memperluas Perbendaharaan Kosakata (Vocabulary Expansion)
+2.  Memahami Makna Kontekstual & Idiom Sehari-hari
+3. Melatih Pelafalan & Pendengaran (Pronunciation & Listening)
+4.  Melatih Kecepatan & Ketajaman Berpikir (Cognitive Reflex)
+5. Menjaga Motivasi Belajar (Sustained Motivation)","1. Expand practical English vocabulary through contextual sentences.
+2. Improve pronunciation and auditory recognition using audio prompts.
+3. Keep learners engaged through level progressions and achievement unlocks.",https://divamartauli-web.github.io/game-tebak-kata-bahasa-inggris/,,Complete,_chat.txt@22/09/26 16.03.48
+Dominggo Rajagukguk,,,,,Institut Teknologi Del,"TugasKu — Aplikasi Web Pengelola List PR, Kalender & Pengingat Tugas Interaktif","TugasKu: Interactive Homework Manager, Academic Calendar & Task Scheduler",Educational Tool,Quadrivium-Music,"TugasKu** adalah aplikasi web manajemen tugas dan pekerjaan rumah (PR) berbasis *client-side* yang dirancang modern, responsif, dan bebas dependensi eksternal. Aplikasi ini menyediakan tiga tampilan visual utama: **Kalender Bulanan** untuk melihat sebaran jadwal tenggat secara komprehensif, **Daftar PR Dinamis** yang dikelompokkan berdasarkan batas waktu urgensi, dan **Papan Kanban** untuk memantau status pengerjaan (*To Do*, *In Progress*, *Done*). TugasKu dilengkapi fitur *checklist* subtugas terukur, lampiran tautan referensi materi (LMS/Drive), multi-filter pencarian cepat, sistem pengingat deadline kritis berbasis *Web Audio API* & notifikasi peramban, serta fitur pencadangan data cadangan (JSON) yang tersimpan aman di *LocalStorage*.","A modern client-side academic task manager featuring a Monthly Calendar grid, Weekly Priority Schedule, and interactive Kanban-style assignment checklists with automated deadline countdowns.","Produk
+Tujuan utama pengembangan produk **TugasKu** meliputi:
+* **Mencegah Keterlambatan**: Memberikan peringatan dini dan indikator visual terhadap PR yang mendekati batas waktu pengumpulan (*deadline*).
+* **Meningkatkan Manajemen Waktu**: Membantu siswa dan mahasiswa merencanakan jadwal belajar secara terstruktur melalui visualisasi kalender interaktif.
+* **Menyederhanakan Tugas Kompleks**: Membantu pengguna memecah tugas-tugas besar menjadi langkah-langkah kecil (*subtasks*) yang lebih terarah dan terukur.
+* **Mendorong Produktivitas Mandiri**: Menyediakan sarana pengelolaan tugas belajar yang praktis, cepat, dan aman tanpa bergantung pada koneksi server eksternal.
+
+---
+
+## 🌟 Fitur Utama
+
+### 1. 📅 Tampilan Kalender Interaktif (*Calendar View*)
+* **Grid Kalender Bulanan**: Navigasi bulan fleksibel (*Bulan Sebelumnya*, *Hari Ini*, *Bulan Berikutnya*).
+* **Chip Tugas Visual**: Tugas ditampilkan langsung pada tanggal jatuh tempo (*due date*) dengan label warna sesuai mata pelajaran.
+* **Klik Tanggal & Popover Cepat**: Klik pada sel tanggal mana saja untuk melihat ringkasan tugas di tanggal tersebut atau langsung menambahkan PR baru dengan tanggal yang sudah terisi otomatis.
+
+### 2. 📋 Tampilan Daftar PR Dinamis (*List View*)
+* **Pengelompokan Otomatis**: Membagi tugas ke dalam 3 kategori utama:
+  * 🔴 **Mendesak & Hari Ini / Terlewat** (*Urgent & Due Today*)
+  * 🟡 **Mendatang** (*Upcoming*)
+  * 🟢 **Sudah Selesai** (*Completed*)
+* **Kartu Tugas Informatif**: Menampilkan subjek, tingkat prioritas (*Tinggi*, *Sedang*, *Rendah*), countdown waktu relatif, dan *progress bar* penyelesaian subtugas.
+* **Aksi Cepat**: Centang langsung untuk menyelesaikan tugas, buka modal detail, edit, atau hapus tugas.
+
+### 3. 📊 Papan Kanban (*Kanban Board View*)
+* **Visualisasi Alur Kerja**: 3 kolom status:
+  * 📝 **Belum Dikerjakan** (*To Do*)
+  * ⏳ **Sedang Dikerjakan** (*In Progress*)
+  * ✅ **Sudah Selesai** (*Done*)
+* **Interaktivitas Cepat**: Pindahkan status tugas antar kolom hanya dengan satu klik atau gunakan kartu ringkas untuk memantau beban kerja.
+
+### 4. 🔍 Detail PR, Checklist Subtugas & Tautan Materi
+* **Modal Detail Komprehensif**: Menampilkan deskripsi lengkap, instruksi pengerjaan dari guru/dosen, serta status tenggat waktu.
+* **Checklist Subtugas / Langkah Pengerjaan**: Pecah tugas besar menjadi langkah-langkah kecil. Mencentang seluruh subtugas akan otomatis memperbarui status PR menjadi *Selesai*.
+* **Tautan Referensi (LMS & Cloud","1. Help students organize schoolwork, deadlines, and study priorities in one place.
+2. Eliminate missed homework deadlines through visual priority badges and countdown timers.
+3. Offer an offline-capable, lightweight single-page productivity tool.",,,Pending Link,attachment:00003056-Dokumentasi_TugasKu.zip/README.md
+Farel Josepha Simangunsong,12S26022_farel.j.smngsng,,12S26022,Sistem Informasi (SI),Institut Teknologi Del,penalty shootout career,Penalty Shootout Career: Football Penalty Simulator,Interactive Game,Trivium-Grammar,"Penalty Shootout Career adalah game olahraga bertema sepak bola yang berfokus pada permainan adu penalti dengan konsep mode karier. Dalam game ini, pemain berperan sebagai seorang pesepak bola yang memulai perjalanan karier dari tingkat awal hingga menjadi pemain profesional. Pemain akan menghadapi berbagai pertandingan adu penalti dan harus bergantian menjadi penendang serta penjaga gawang. Saat menjadi penendang, pemain harus menentukan arah, jenis, dan kekuatan tendangan agar dapat mencetak gol. Sementara itu, saat menjadi penjaga gawang, pemain harus membaca arah tendangan lawan dan melakukan penyelamatan dengan tepat. Setiap pertandingan memberikan pengalaman yang berbeda dan dapat memengaruhi perkembangan karier pemain. Game ini juga dilengkapi dengan sistem peningkatan kemampuan, hadiah pertandingan, reputasi, serta jenjang kompetisi yang membuat perjalanan karier menjadi lebih menarik.","A sports simulation game placing players in high-stakes football penalty shootouts throughout an evolving professional career mode, controlling ball trajectory, curve, and goalkeeper reads.","Penalty Shootout Career adalah mengembangkan kemampuan pemain dan membawa karakter yang dimainkan untuk mencapai kesuksesan dalam dunia sepak bola melalui pertandingan adu penalti. Pemain harus memenangkan pertandingan, mengumpulkan XP, mendapatkan uang, meningkatkan atribut seperti kekuatan tendangan, akurasi, kelengkungan bola, ketenangan, dan refleks kiper, serta meningkatkan reputasi. Dengan kemampuan yang semakin baik, pemain dapat mengikuti kompetisi yang lebih tinggi, mendapatkan kesempatan bergabung dengan klub yang lebih besar, dan mengumpulkan berbagai trofi. Pada akhirnya, pemain ditantang untuk mencapai kompetisi tertinggi dan menjadi juara.","1. Deliver intuitive ball-striking physics and dynamic goalkeeper artificial intelligence.
+2. Provide an engaging career progression mode with skill upgrades and stadium unlocks.
+3. Test timing and precision under simulated penalty pressure.",,https://github.com/farelsimangunsong24-cyber/PENALTY-CAREER-CHAMPIONS,Complete,_chat.txt@22/09/26 16.35.59
+Grasela Siska Viktoria Samosir,11S26039_Grasela Smsr_IF,,11S26039,Informatika (IF),Institut Teknologi Del,Smart Save Campus,Smart Save Campus: Student Financial Management & Budgeting Platform,Educational Tool,Quadrivium-Arithmetic,"SmartSave Campus merupakan website edukasi literasi keuangan yang dirancang untuk membantu mahasiswa mempelajari cara mengelola keuangan secara sederhana, interaktif, dan menyenangkan. Website ini menggunakan konsep uang virtual sehingga pengguna dapat berlatih mengatur anggaran dan menabung tanpa melibatkan transaksi keuangan sungguhan.
+
+SmartSave Campus memiliki beberapa fitur utama, yaitu Dashboard, Budget Planner, Savings Goals, Financial Quiz, Daily Missions, dan Reports. Pada Dashboard, pengguna dapat melihat saldo virtual, perkembangan target tabungan, learning points, serta misi yang telah diselesaikan. Fitur Budget Planner membantu pengguna mengatur alokasi uang berdasarkan kebutuhan, seperti makanan, transportasi, pendidikan, hiburan, dan tabungan. Melalui Savings Goals, pengguna dapat membuat target tabungan, misalnya untuk membeli laptop atau perlengkapan kuliah.","A dedicated financial tracker tailored for university students, facilitating daily meal allowance budgeting, campus living cost tracking, and savings goal milestones.","Tujuan pembuatan website SmartSave Campus adalah meningkatkan pemahaman dan kesadaran mahasiswa mengenai pentingnya pengelolaan keuangan sejak dini. Website ini dibuat untuk membantu mahasiswa belajar menyusun anggaran, membedakan kebutuhan dan keinginan, membangun kebiasaan menabung, serta memahami konsep dasar literasi keuangan melalui simulasi virtual. Selain itu, website ini bertujuan melatih kemampuan mengambil keputusan keuangan secara bijak, mengembangkan kedisiplinan dalam mengatur pengeluaran, dan menyediakan media pembelajaran yang interaktif serta mudah dipahami.","1. Prevent end-of-month student financial crises through daily expense limits.
+2. Provide clear visual breakdowns of food, academic supplies, and social expenditures.
+3. Encourage saving habits through gamified target rewards.",,,Pending Link,_chat.txt@22/09/26 15.52.14
+Grasela Siska Viktoria Samosir,11S26039_Grasela Smsr_IF,,11S26039,Informatika (IF),Institut Teknologi Del,Word Detective,Word Detective: Vocabulary & Mystery Deduction Game,Interactive Game,Quadrivium-Music,"Projek:
+Word Detective 🔍 adalah game edukasi tebak kata berbasis web yang mengajak pemain berperan sebagai detektif untuk mengungkap kata rahasia seputar Bahasa Inggris, Teknologi, dan Sains melalui petunjuk misterius. Pemain dapat menganalisis petunjuk, menyusun huruf, serta menggunakan fitur bantuan untuk menyelesaikan teka-teki. Game ini dilengkapi sistem poin, streak, pangkat detektif, dan desain kartun berwarna-warni dengan efek suara interaktif. Melalui perpaduan hiburan dan tantangan berpikir, Word Detective bertujuan meningkatkan kosakata Bahasa Inggris, melatih kemampuan logika dan pemecahan masalah, serta memperluas pengetahuan sains dengan cara yang menyenangkan.","An educational detective puzzle game where players uncover hidden clue words related to technology, English vocabulary, and general science to crack investigative cases.","Tujuan dari game Word Detective 🔍 adalah untuk melatih kemampuan pemain dalam menebak dan memahami kosakata melalui petunjuk yang diberikan secara menyenangkan. Game ini juga bertujuan meningkatkan kemampuan berpikir logis, ketelitian, dan pemahaman pemain terhadap istilah dalam Bahasa Inggris, Teknologi, dan Sains.","1. Stimulate lateral thinking and contextual deductive reasoning.
+2. Reinforce technical and academic vocabulary through case-solving narratives.
+3. Offer progressive mystery levels with hint systems.",,,Pending Link,_chat.txt@22/09/26 16.31.27
+Honey Lumban Gaol,12S26026_HoneyL.Gaol_S1SI,,12S26026,Sistem Informasi (SI),Institut Teknologi Del,The Number Mystery,The Number Mystery: Logic & Clue Deduction Puzzle,Interactive Game,Trivium-Logic,"Projek :
+The Number Mystery adalah game berbasis terminal yang mengangkat tema misteri dan puzzle angka. Pemain berperan sebagai detektif yang harus memecahkan berbagai teka-teki angka untuk menemukan kode rahasia dan menyelesaikan sebuah misteri. Game ini dilengkapi dengan beberapa level, sistem petunjuk (hint), kesempatan (lives), sistem skor, dan beberapa kemungkinan ending berdasarkan hasil permainan pemain.","A mathematical logic game where players deduce a secret number combination based on structural clues, parity hints, and arithmetic comparisons within limited guesses.","Projek :
+1. Membuat game puzzle angka yang menarik dan interaktif bagi pemain.
+2. Melatih kemampuan berpikir logis dan memecahkan masalah melalui berbagai teka-teki angka.
+3. Memberikan pengalaman bermain yang menantang melalui sistem level, petunjuk, kesempatan, dan skor.
+4. Mengembangkan game sederhana yang dapat menjadi sarana hiburan sekaligus melatih ketelitian dan kemampuan berpikir pemain.","1. Cultivate systematic deductive reasoning and process-of-elimination skills.
+2. Enhance numerical intuition and pattern recognition.
+3. Provide tiered challenges with score multipliers for rapid deductions.",,,Pending Link,_chat.txt@22/09/26 15.57.01
+Honey Lumban Gaol,12S26026_HoneyL.Gaol_S1SI,,12S26026,Sistem Informasi (SI),Institut Teknologi Del,Fruit Archer,Fruit Archer: Precision Archery & Target Reaction Game,Interactive Game,Trivium-Rhetoric,"Fruit Archer adalah game sederhana di mana pemain berperan sebagai pemanah yang harus menembakkan panah ke buah-buahan yang bergerak. Pemain mendapatkan poin setiap kali berhasil mengenai buah. Semakin lama permainan berlangsung, buah akan bergerak semakin cepat sehingga permainan menjadi lebih menantang.","An arcade archery challenge where players draw and release arrows to pop dynamic moving fruits, with increasing projectile velocities and shifting wind patterns testing player aim.","Tujuan game ini adalah melatih ketepatan dan kecepatan pemain dalam membidik serta menembakkan panah ke buah yang bergerak. Selain mendapatkan skor sebanyak-banyaknya, game ini juga bertujuan untuk melatih konsentrasi, fokus, ketelitian, dan kemampuan mengambil keputusan dengan cepat karena kecepatan buah akan terus meningkat selama permainan.","1. Train visual tracking, timing reflexes, and precision targeting.
+2. Introduce progressive speed escalations to test focus under pressure.
+3. Provide clean, accessible arcade entertainment on any browser.",,,Pending Link,_chat.txt@22/09/26 16.37.23
+Immanuel Siringoringo,,,,,Institut Teknologi Del,Culinary Bistro: Realistic Gourmet Kitchen Simulator 3D,Culinary Bistro: Realistic Gourmet Kitchen Simulator 3D,Interactive Game,Quadrivium-Astronomy,"# 🍳 Culinary Bistro: Realistic Gourmet Kitchen Simulator 3D
+
+## 📌 Deskripsi Proyek
+**Culinary Bistro 3D** adalah game simulasi memasak *first-person* 3D berbasis web yang menghadirkan pengalaman realistis seorang koki di dapur restoran gourmet. Game ini memadukan interaksi fisika objek (*grab & drop*), pemotongan bahan, pengaturan suhu kompor induksi, serta simulasi reaksi kematangan termal (*Maillard reaction*) untuk melayani pesanan pelanggan dalam batas waktu tertentu.
+
+---
+
+## 🎯 Tujuan Proyek
+
+1. **Menghadirkan Simulasi Memasak Realistis:** Memberikan pengalaman interaktif mengolah bahan mentah menjadi hidangan gourmet melalui mekanik suhu wajan, tingkat kematangan (*doneness*), dan perpaduan bumbu yang akurat.
+2. **Melatih Manajemen Waktu & Fokus (*Time Management*):** Menguji ketangkasan dan strategi pemain dalam mengelola alur pesanan tiket di bawah tekanan waktu (*Endless Shift Mode*).
+3. **Mengembangkan Game 3D Berbasis Web yang Ringan:** Memanfaatkan Three.js (WebGL) dan Web Audio API untuk menghasilkan grafis 3D interaktif serta audio prosedural yang mulus langsung di browser tanpa instalasi tambahan.
+4. **Memberikan Sistem Penilaian Objektif & Edukatif:** Menyajikan evaluasi hidangan berdasarkan 4 pilar utama: ketepatan komponen resep, akurasi kematangan, higienitas dapur, dan kecepatan penyajian.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+* **Graphics & Rendering:** Three.js (WebGL)
+* **Core Logic & Physics:** Vanilla JavaScript (ES6+) & Custom AABB Physics
+* **Audio:** Procedural Web Audio API Synthesis
+* **UI & Styling:** HTML5 & Modern Glassmorphism CSS3
+
+---
+
+## 🎮 Kontrol Permainan
+* **W, A, S, D:** Bergerak
+* **Mouse:** Mengarahkan pandangan (*First-Person*)
+* **Klik Kiri:** Ambil objek / Potong bahan / Aksi utama
+* **Klik Kanan:** Taruh objek presisi / Lepas pegangan
+* **E:** Masuk / Keluar Mode Fokus Kompor (*Dedicated Cooking Station*)
+* **Spasi:** Mengatur level panas api kompor (di Mode Kompor)
+* **ESC / P:** Jeda permainan (*Pause*)","A 3D culinary simulation game simulating the fast-paced operations of a gourmet restaurant kitchen. Players chop, sauté, season, and plate dishes following authentic culinary recipes under ticket timers.",,"1. Recreate realistic kitchen physics, cooking times, and ingredient combinations in 3D.
+2. Test multitasking, prioritization, and time management during kitchen rush hours.
+3. Provide an educational appreciation of culinary techniques and kitchen safety.",,,Pending Link,attachment:00003046-deskripsi proyek Immanuel Siringoringo.zip/projek 1.md
+Immanuel Siringoringo,,,,,Institut Teknologi Del,EduQuest - Platform Bank Soal & Modul Pembelajaran Interaktif,EduQuest: Interactive Question Bank & Learning Module Platform,Educational Tool,Quadrivium-Arithmetic,"Singkat Projek
+**EduQuest** adalah aplikasi web edukasi interaktif modern yang dirancang untuk mendukung pembelajaran mandiri siswa jenjang SMA (Kelas 10–12). Platform ini mengintegrasikan modul materi terstruktur dari berbagai mata pelajaran (Matematika, Fisika, Biologi, Kimia, Informatika, Bahasa Indonesia, dan Bahasa Inggris), bank soal komprehensif dengan filter tingkat kesulitan, serta simulasi kuis adaptif berbasis waktu. Dilengkapi dengan antarmuka yang elegan, mode gelap/terang, sistem gamifikasi (*Experience Points*, *Leveling*, dan *Streak*), serta pelacak statistik hasil belajar, EduQuest menghadirkan pengalaman belajar yang menyenangkan, adaptif, dan efektif.
+
+---","A modular e-learning platform providing categorized question banks, self-paced quizzes, automated answer explanations, and performance analytics across academic subjects.","1. **Mempermudah Akses Materi Belajar**: Menyediakan modul pembelajaran digital yang ringkas, terstruktur, dan interaktif untuk memperdalam pemahaman konsep siswa.
+2. **Meningkatkan Kesiapan Ujian Melalui Bank Soal**: Menyediakan bank latihan soal pilihan ganda dari berbagai mata pelajaran lengkap dengan kunci jawaban, pembahasan mendalam, dan tingkat kesulitan yang terukur.
+3. **Meningkatkan Motivasi Belajar dengan Gamifikasi**: Mendorong keterlibatan aktif siswa melalui mekanisme perolehan poin (*XP*), kenaikan level belajar, serta umpan balik visual dan audio yang interaktif.
+4. **Memantau Progres Belajar Siswa**: Memungkinkan pengguna untuk melacak riwayat latihan, rata-rata skor, modul yang telah diselesaikan, dan menandai (*bookmark*) materi penting untuk dipelajari kembali.
+5. **Menghadirkan Antarmuka Modern & Responsif**: Mengembangkan platform ramah pengguna (*responsive UI*) dengan performa cepat, navigasi intuitif, serta fleksibilitas tema (*Dark Mode* / *Light Mode*).","1. Standardize and centralize academic practice exams and curriculum study materials.
+2. Provide students with instant automated diagnostic feedback on test results.
+3. Track individual learning curves and recommend targeted remediation modules.",,,Pending Link,attachment:00003046-deskripsi proyek Immanuel Siringoringo.zip/projek 2.md
+Jesica Irene,11S26042_Jesica Irene,,11S26042,Informatika (IF),Institut Teknologi Del,Interactive Mystery Investigation & Interrogation Simulator,Interactive Mystery Investigation & Interrogation Simulator,Interactive Game,Trivium-Grammar,"Project Veritas adalah game naratif interaktif bertema investigasi kriminal di mana pemain mengambil peran sebagai seorang detektif profesional. Berlatar dalam skenario kasus ""Misteri Lukisan Hilang"", pemain ditugaskan untuk memecahkan kasus lenyapnya sebuah karya seni bernilai tinggi dari ruang pameran tertutup. Game ini menghadirkan sistem interaksi bebas di mana pemain dapat mengetikkan berbagai pertanyaan, argumen, atau tuduhan secara langsung kepada para saksi dan tersangka. Dalam penyelidikan ini, pemain akan berhadapan dengan dua karakter utama, yaitu Budi selaku petugas kebersihan yang mudah panik dan menyembunyikan rahasia kecil, serta Siti selaku kurator galeri senior yang cerdas, tenang, dan merupakan pelaku sebenarnya. Seluruh karakter akan merespons setiap percakapan secara dinamis sesuai dengan kepribadian dan emosi mereka, sehingga menciptakan pengalaman investigasi yang hidup, mendalam, dan tidak kaku.","A detective narrative simulator where players analyze crime scenes, cross-examine suspect testimonies, detect contradictions in statements, and present forensic evidence to identify perpetrators.","1) Mengembangkan Game Naratif Interaktif: Membangun game petualangan berbasis teks yang memungkinkan pemain memberikan respons secara bebas (free-text input).
+
+2) Perancangan Karakter (Character Design): Menyusun latar belakang, kepribadian, serta batasan informasi yang unik untuk setiap NPC agar interaksi terasa realistis.
+
+3) Melatih Logika Deduksi Pemain: Menciptakan tantangan analitis di mana pemain harus menyusun bukti, mendeteksi kebohongan, dan memecahkan misteri kasus secara logis.
+
+4) Menciptakan Alur Cerita Dinamis: Menghadirkan pengalaman bermain yang tidak linier, di mana setiap percakapan dan respons tersangka dapat berubah mengikuti cara pemain melontarkan pertanyaan.","1. Train critical analysis, textual reading comprehension, and logical deduction.
+2. Build dynamic branch-choice dialogue trees with consequential interrogation outcomes.
+3. Immerse players in a compelling mystery narrative.",,,Pending Link,_chat.txt@22/09/26 16.08.03
+Jose Rafael Siregar,11S26026_Jose Siregar_IF,,11S26026,Informatika (IF),Institut Teknologi Del,Mathematical Penalty Shootout,Mathematical Penalty Shootout: Penalty Kick Math Game,Interactive Game,Quadrivium-Arithmetic,"Mathematical Penalty Shootout adalah game yang saya buat dengan mengombinasikan elemen sepakbola dan operasi matematika. Di dalam game ini, kita akan bermain sebagai salah satu pemain dari suatu pertandingan, dimana kita berperan sebagai shooter dalam penalty. Kemudian, kita akan diberikan soal operasi matematika tingkat SMP. Jika kita berhasil menjawab soal dengan benar, bola akan melewai keeper dan pemain akan mendapat selebrasi ikonik. Namun di lain sisi, apabila pemain gagal menjawab soal dengan benar, bola akan berhasil dihadang oleh keeper. Pemain akan diberi kesempatan 3 kali sebelum kesempatan mereka habis.","A gamified sports-math hybrid where players earn goal attempts by accurately answering rapid math questions, aiming their shots past the goalkeeper to win tournament trophies.","Projek : 
+1. Mengajak anak - anak untuk belajar matematika
+2. Melatih kemampuan kognisi dalam soal numerik dasar
+3. Mengasah logika dalam suasana yang menyenangkan","1. Make basic math practice competitive and entertaining for students.
+2. Foster rapid mental arithmetic under the excitement of a penalty duel.
+3. Build confidence in numerical fluency through sports gamification.",,https://github.com/joserafaelsiregar/Mathematical-Penalty-Shootout-Project,Complete,_chat.txt@22/09/26 16.12.19
+Josephine Ruth Situmorang,11S26030_Josephine Ruth,,11S26030,Informatika (IF),Institut Teknologi Del,Telat Masuk Kelas! - Endless Runner Game Bertema Kehidupan Mahasiswa,Late for Class! Campus Life Endless Runner,Interactive Game,Quadrivium-Geometry,"Game endless runner berbasis web yang dibuat menggunakan HTML5 Canvas dan vanilla JavaScript tanpa framework eksternal. Pemain mengendalikan karakter mahasiswa yang terlambat masuk kelas dan harus berlari menghindari berbagai rintangan seperti tumpukan tugas, buku berserakan, kursi dan meja, teman yang mengajak nongkrong, kasur yang menggoda untuk tidur, hingga dosen yang berjalan di koridor. Sepanjang permainan, pemain dapat mengumpulkan item bonus berupa kopi untuk speed boost, buku dan laptop untuk tambahan skor, jam untuk tambahan waktu, serta energy drink untuk kecepatan ekstra. Game dilengkapi dengan sistem 3 nyawa, timer countdown 90 detik, peningkatan kecepatan bertahap, efek suara prosedural, animasi karakter, efek partikel, serta tampilan UI modern dengan desain glassmorphism. Game mendukung kontrol keyboard maupun sentuh untuk perangkat mobile.","A humorous 2D endless runner chronicling the frantic campus dash of a university student racing across campus obstacles (stairs, roaming pets, security gates) to reach the classroom before the lecturer closes the door.","Mengembangkan game web interaktif yang fully playable sebagai implementasi konsep pemrograman web meliputi HTML5 Canvas rendering, JavaScript OOP, game loop, collision detection, dan state management. Project ini bertujuan mendemonstrasikan kemampuan membangun aplikasi web kompleks dan responsif dengan tema kehidupan mahasiswa yang relatable, menghibur, serta memiliki pengalaman pengguna yang menarik dan engaging.","1. Capture relatable student life experiences in an engaging arcade format.
+2. Implement responsive hurdle jumps, slide mechanics, and power-up pick-ups.
+3. Entertain while promoting punctual campus attendance awareness.",,,Pending Link,_chat.txt@22/09/26 15.51.38
+Louis Damas Tampubolon,12S6038_LouisTampubolon,,12S6038,Sistem Informasi (SI),Institut Teknologi Del,Point Blank,Point Blank: Tactical Online Shooter Strategy,Interactive Game,Trivium-Rhetoric,"Game Point Blank
+Point Blank adalah game online yang mengutamakan kemampuan menembak, strategi, kerja sama tim, dan kecepatan dalam mengambil keputusan. Dalam permainan ini, pemain bergabung dalam sebuah tim dan bertarung melawan tim lawan menggunakan berbagai jenis senjata, seperti pistol, senapan serbu, shotgun, sniper, dan senjata lainnya. Pemain dapat memilih karakter serta perlengkapan yang sesuai dengan gaya bermainnya.
+
+Point Blank memiliki berbagai mode permainan, seperti Deathmatch, Bomb Mission, Destroy Mission, dan mode lainnya. Setiap mode memiliki aturan dan sasaran yang berbeda. Dalam pertandingan,  Game ini merupakan game tembak2 an yg terinspirasi dari point blank tujuan utama game ini adalah untuk menghabisi lawan dan naik level agar menjadi player yg terkuat untuk memenangkan sebuah match atau pertandingan tertentu.","A tactical first-person combat simulation web game emphasizing weapon recoil control, map callouts, team positioning, and sharp shooting reflexes.","Mengalahkan tim lawan dengan strategi dan kemampuan bermain yang baik.
+Memenangkan pertandingan sesuai dengan aturan dari mode permainan yang dipilih.
+Bekerja sama dengan tim untuk mencapai target permainan.
+Meningkatkan kemampuan bermain, seperti akurasi, refleks, strategi, dan komunikasi.
+Mendapatkan kemenangan dan meningkatkan peringkat dalam permainan.
+Menyelesaikan misi tertentu, misalnya menghabisi seluruh lawan, menjaga area, atau memasang/menjinakkan bom, tergantung mode permainan.","1. Simulate tactical team combat scenarios and fast-paced shooting mechanics.
+2. Train quick situational decision-making and spatial awareness.
+3. Explore competitive multiplayer web game architecture.",,https://github.com/louisdtmpbln/point-blunk,Complete,_chat.txt@22/09/26 16.32.19
+Mayrinkha Yosefine,12S26036_Mayrinkha Y_S1SI,,12S26036,Sistem Informasi (SI),Institut Teknologi Del,Werewolf,Werewolf: Social Deduction & Role-Playing Game,Interactive Game,Trivium-Rhetoric,"Game Werewolf adalah permainan sosial yang mengandalkan strategi, komunikasi, dan kemampuan membaca situasi. Dalam game ini terdapat empat peran, yaitu Villager, Wolf, Doctor, dan Detective. Setiap pemain mendapatkan peran secara acak dan memiliki tugas yang berbeda. Wolf harus menyamar dan mengeliminasi pemain lain, sedangkan Villager harus menemukan Wolf. Doctor bertugas melindungi pemain dari serangan Wolf, sementara Detective dapat memeriksa identitas pemain untuk membantu menemukan Wolf. Permainan berlangsung dalam fase malam dan siang yang melibatkan aksi khusus, diskusi, dan voting.","A digital adaptation of the classic Werewolf party game, automating day/night phase transitions, secret role distribution (Villager, Werewolf, Seer, Doctor), and anonymous village voting.","Tujuan utama game Werewolf adalah membuat pemain bekerja sama dan menggunakan strategi untuk memenangkan permainan sesuai dengan perannya. Game ini juga bertujuan melatih kemampuan berpikir kritis, komunikasi, pengambilan keputusan, serta kemampuan menganalisis perilaku pemain lain. Villager dan Detective berusaha menemukan seluruh Wolf, sedangkan Wolf berusaha menyembunyikan identitasnya dan mengurangi jumlah pemain. Doctor membantu tim dengan melindungi pemain yang dianggap penting. Dengan adanya perbedaan kemampuan setiap peran, pemain dituntut untuk berpikir sebelum mengambil keputusan dan menggunakan informasi yang tersedia dengan baik. Game ini diharapkan dapat memberikan pengalaman bermain yang seru sekaligus melatih kemampuan sosial dan strategi.","1. Automate complex role tracking and night-phase moderator actions without human error.
+2. Facilitate deduction, public speaking, persuasion, and psychological observation.
+3. Provide a seamless multiplayer web interface for group social deduction.",,,Pending Link,_chat.txt@22/09/26 15.58.50
+Mayrinkha Yosefine,12S26036_Mayrinkha Y_S1SI,,12S26036,Sistem Informasi (SI),Institut Teknologi Del,Library,Library: First-Person Interactive Book Sorting Simulation,Interactive Game,Trivium-Grammar,"Library adalah game single-player bertema perpustakaan yang menggunakan sudut pandang orang pertama (first-person POV). Pemain berperan sebagai seseorang yang bertugas merapikan buku-buku yang berantakan di lantai dan mengembalikannya ke rak yang sesuai. Pada level awal, terdapat 5 buku yang harus disusun. Jumlah buku akan bertambah secara bertahap sesuai level hingga mencapai level 10, sehingga tingkat kesulitan permainan juga meningkat. Buku harus diambil secara manual dari lantai, kemudian ditempatkan pada rak berdasarkan ketentuan tertentu, yaitu genre, judul, dan part buku. Contohnya, buku dengan genre horor, judul tertentu, dan part tertentu harus ditempatkan pada rak yang sesuai dengan kategorinya. Tampilan permainan dibuat sederhana dan nyaman dengan sensitivitas kontrol yang tidak terlalu tinggi agar pemain tidak mudah pusing saat bergerak.","A cozy first-person 3D simulation where the player acts as a librarian organizing scattered books onto proper shelves according to genre, author codes, and Dewey Decimal classifications.","Tujuan game Library adalah memberikan pengalaman menyusun dan mengelompokkan buku secara menyenangkan sekaligus melatih ketelitian, konsentrasi, dan kemampuan mengelompokkan informasi. Pemain harus memperhatikan detail setiap buku agar dapat menentukan rak yang tepat. Peningkatan jumlah buku pada setiap level juga bertujuan memberikan tantangan secara bertahap dan membuat pemain terbiasa dengan sistem permainan sebelum menghadapi level yang lebih sulit. Selain itu, game ini bertujuan memberikan gambaran sederhana mengenai pekerjaan merapikan dan mengelola buku di perpustakaan.","1. Introduce library organization and cataloging systems through interactive gameplay.
+2. Deliver relaxing, therapeutic simulation gameplay focused on spatial organization.
+3. Promote literary appreciation and orderly study environments.",,,Pending Link,_chat.txt@22/09/26 16.30.37
+Mikael Marcello Lallino Tarigan,Mikael Marcello,,,,Institut Teknologi Del,ATHERIA : DIMENSIONAL PARADOX,Atheria: Dimensional Paradox (Sci-Fi Alien Survival),Interactive Game,Trivium-Rhetoric,"Bumi sudah hancur oleh invasi monster luar angkasa, tugas dari player adalah menjadi sebuah penyelamat bumi yang bisa mengontrol antara elemen api, air, dan petir. Dalam game aka nada monster yang harus dikalahkan oleh player untuk menyelamatkan dunai. Setiap kali monster dikalahkan, akan diberikan Soal kepada player, jika soal berhasil dikerjakan maka monster akan langsung kalah, namun jika soal salah atau tidak dikerjakan maka monster akan hidup Kembali. Dalam game seiring dengan susahnya level, maka soal akan semakin susah pula. Game menggunakan mekanisme _Turn-based Game_ yang akan semakin menantang player.","A sci-fi action adventure game set on an Earth ravaged by extraterrestrial invaders. Players navigate dimensional rifts, scavenge energy cores, and deploy futuristic weaponry to reclaim human outposts.","1. Melatih kepandaian player dalam mengatus strategi
+2. Melatih ketenangan siswa dalam mengerjakan sebuah soal
+3. Melatih siswa dalam mengerjakan soal","1. Create an atmospheric sci-fi narrative with dimensional travel mechanics.
+2. Provide intense combat and puzzle-solving across diverse biomes.
+3. Implement inventory crafting and character enhancement trees.",,,Pending Link,_chat.txt@22/09/26 16.02.29
+Nadine Hutapea,,,,,Institut Teknologi Del,ECO-VALLEY: Harmony of the Food Chain,Eco-Valley: Harmony of the Food Chain (Ecosystem Simulation),Simulation & Telemetry,Quadrivium-Geometry,"# 🌾 ECO-VALLEY: Harmony of the Food Chain
+> **Simulasi Rantai Makanan & Keseimbangan Ekosistem Interaktif Terinspirasi Visual Cozy Farm Stardew Valley**
+
+---
+
+## 🌟 Konsep Game & Nilai Edukasi
+**Eco-Valley** adalah game simulasi ekologi interaktif di mana pemain berperan sebagai seorang peneliti lingkungan di sebuah lembah pedesaan. Terinspirasi oleh estetika visual pixel art yang hangat, jam kayu melengkung (*wooden clock HUD*), dialog rustic, serta roh penjaga hutan (*Junimo*) dari game **Stardew Valley**.
+
+Pemain belajar konsep **Keseimbangan Ekosistem & Rantai Makanan (Biologi)** secara mandiri melalui **eksperimen sebab-akibat langsung (*active learning & experimental causality*)**:
+- Bebas menggeser slider populasi untuk mengamati apa yang terjadi saat rantai makanan tidak seimbang.
+- Menganalisis masalah ekologis: apakah rumput gundul karena kelebihan herbivora? Apakah pemangsa kelaparan karena mangsa punah?
+- Mengatur iklim dan 4 musim serta cuaca ekstrem (kemarau vs hujan).
+- Berdiskusi dengan **Demetrius** (Ahli Ekologi) untuk meminta evaluasi dan petunjuk. Jika ekosistem stabil, Demetrius akan memberikan acungan jempol 👍!
+
+---
+
+## 🔬 Rantai Makanan & Tingkat Trofik Multi-Spesies
+
+```mermaid
+graph TD
+    Sun[☀️ Matahari & Iklim] --> Producers[🌿 Tingkat I: Produsen Primer<br>Rumput Lembah & Semak Berry]
+    Producers --> Herbivores[🐇 Tingkat II: Konsumen I<br>Kelinci & Rusa Hutan]
+    Herbivores --> Carnivores[🦊 Tingkat III: Konsumen II<br>Rubah Merah]
+    Carnivores --> Apex[🦅🐺 Tingkat IV: Konsumen Puncak<br>Elang Emas & Serigala Hutan]
+    Herbivores --> Apex
+    Apex -.-> Decomp[🍂 Pengurai & Kesuburan Tanah]
+    Decomp -.-> Producers
+```
+
+### Detail Tingkat Trofik & Peran Spesies
+| Tingkat Trofik | Spesies | Makanan / Sumber Energi | Peran Ekologis |
+|---|---|---|---|
+| **Tingkat I (Produsen)** | 🌿 **Rumput Lembah** & 🍓 **Semak Berry** | Fotosintesis sinar matahari & air | Fondasi biomassa. Menopang daya dukung (*carrying capacity*) seluruh lembah. |
+| **Tingkat II (Konsumen I)** | 🐇 **Kelinci** & 🦌 **Rusa Hutan** | Rumput liar & buah berry | Herbivora pemakan tanaman. Jika kenyang, bereproduksi (❤️). Menjadi mangsa pemangsa. |
+| **Tingkat III (Konsumen II)** | 🦊 **Rubah Merah** | Daging kelinci | Mesopredator pengendali. Mencegah kelinci menggunduli seluruh rumput. |
+| **Tingkat IV (Konsumen Puncak)** | 🦅 **Elang Emas** & 🐺 **Serigala Hutan** | Rusa, kelinci, & rubah | Pengendali puncak (*Apex Predators*). Menjaga rantai makanan agar tidak terjadi *Trophic Cascade*. |
+| **Roh Pelindung Hutan** | 🍏 **Junimo** | Keseimbangan alam | Menari gembira saat ekosistem stabil dan memberi berkah kesuburan padang rumput. |
+
+---
+
+## 🌦️ Sistem Iklim & Cuaca Interaktif
+
+Pemain dapat mengubah **Musim** dan **Cuaca** secara langsung pada panel pojok kiri atas:
+1. **Musim (Seasons)**:
+   - 🌸 **Musim Semi (Spring)**: Pertumbuhan rumput seimbang, bunga mekar, kelopak sakura beterbangan.
+   - 🌻 **Musim Panas (Summer)**: Sinar matahari terik, regenerasi rumput dan berry sangat cepat.
+   - 🍁 **Musim Gugur (Fall)**: Warna dedaunan dan rumput berubah menjadi kuning keemasan, guguran daun amber.
+   - ❄️ **Musim Dingin (Winter)**: Salju menutupi tanah, pertumbuhan vegetasi melambat drastis.
+2. **Cuaca (Weather)**:
+   - ☀️ **Cerah Berawan (Sunny)**: Cuaca stabil normal.
+   - 🌧️ **Hujan Subur (Rainy)**: Menyuburkan tanah, mempercepat tumbuhnya tunas rumput.
+   - ⛈️ **Badai Petir (Storm)**: Hujan deras dan petir.
+   - 🔥 **Kemarau Panjang (Drought)**: Tanah mengering, rumput layu, menguji ketahanan daya dukung lingkungan.
+
+---
+
+## 🕹️ Panduan Kontrol & Eksperimen
+
+| Aksi | Keyboard (PC) | Mouse / Sentuh (Mobile/Tablet) |
+|---|---|---|
+| **Gerak Karakter (8 Arah)** | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> atau <kbd>Panah</kbd> | Klik/Tap pada peta atau gunakan D-Pad virtual |
+| **Observasi / Inspect Spesies** | Tekan angka <kbd>1</kbd> atau Dekati lalu tekan <kbd>Spasi</kbd> | Klik icon 🔍 di hotbar atas |
+| **Tanam Benih Rumput Subur** | Tekan angka <kbd>2</kbd> lalu tekan <kbd>Spasi</kbd> | Klik icon 🌱 di hotbar atas |
+| **Bicara dengan Demetrius/Junimo** | Tekan angka <kbd>3</kbd> lalu tekan <kbd>Spasi</kbd> | Klik icon 💬 atau klik langsung NPC di peta |
+| **Eksperimen Slider Populasi** | Geser slider pada dock kanan bawah | Geser slider dengan mouse/jari |
+| **Minta Petunjuk Ekosistem** | Tombol *Minta Petunjuk Demetrius* | Klik tombol di panel kanan |
+
+---
+
+## 🚀 Cara Menjalankan
+
+1. Buka direktori proyek: `d:\TuhanKuatkanAku\pythomori-game\`.
+2. Klik dua kali file **`index.html`** untuk langsung membukanya di browser web (**Google Chrome**, **Microsoft Edge**, **Mozilla Firefox**, dll.).
+3. Tanpa instalasi atau dependensi server — 100% berjalan instan di peramban Anda!","An interactive ecological simulation inspired by Stardew Valley visual aesthetics. Players manipulate population sliders (Producers, Herbivores, Carnivores, Apex Predators) and weather cycles to observe ecological balance and trophic cascades.",,"1. Teach biological food web dynamics and carrying capacity through hands-on causality experiments.
+2. Demonstrate the ecological consequences of apex predator extinction or overgrazing.
+3. Provide cozy pixel art aesthetics combined with rigorous ecological science simulation.",,,Pending Link,attachment:00003052-EcoSim.zip/README.md
+Nakula Nathanael Gultom,nathan,,,,Institut Teknologi Del,Blink LED ESP32-C3 Super Mini,Blink LED ESP32-C3 Super Mini Embedded Controller,IoT & Hardware,Quadrivium-Astronomy,"PROJEK :
+
+Proyek ini adalah implementasi dasar mikrokontroler ESP32-C3 Super Mini untuk mengontrol indikator lampu LED bawaan (*on-board LED*) yang terhubung pada pin GPIO 8. Program mengeksekusi logika *Active LOW* di mana LED akan menyala saat sinyal `LOW` dikirimkan dan mati saat sinyal `HIGH` dikirimkan secara bergantian dengan interval jeda (*delay*) 1 detik. Selain itu, status aktivasi LED ditransmisikan secara *real-time* ke Serial Monitor pada kecepatan transmisi 115200 bps untuk pemantauan eksekusi kode.",An introductory embedded systems hardware project programming an ESP32-C3 Super Mini microcontroller to drive on-board and external LEDs with custom pulse-width modulation (PWM) and blink sequences.,"PROJEK :
+
+1. **Memahami Dasar Sistem Tertanam**: Mempelajari alur pemrograman mikrokontroler ESP32-C3 Super Mini menggunakan arsitektur C/C++ pada Arduino IDE.
+2. **Penguasaan Digital I/O**: Memahami konfigurasi pin Output digital, manipulasi status sinyal `HIGH` dan `LOW`, serta karakteristik *Active LOW* pada hardware.
+3. **Penggunaan Serial Debugging**: Melatih penggunaan komunikasi serial (*Serial Monitor*) untuk keperluan validasi dan proses penelusuran kesalahan (*debugging*) program.
+4. **Pengujian Perangkat Keras**: Mengonfirmasi bahwa board ESP32-C3 dan port komunikasi USB/CDC berfungsi dengan baik sebelum melangkah ke proyek IoT yang lebih kompleks.","1. Master GPIO pin configuration, register control, and timer interrupts on ESP32-C3.
+2. Establish firmware build and flashing toolchains using Arduino C++ and PlatformIO.
+3. Lay the physical hardware foundation for IoT telemetry projects.",,,Pending Link,attachment:00003032-deskripsi_proyek_nakula_nathanael_gultom.zip/PROJECT3.md
+Nakula Nathanael Gultom,nathan,,,,Institut Teknologi Del,LAST HOPE: Road to Zombie Bastion,Last Hope: Road to Zombie Bastion,Interactive Game,Quadrivium-Music,"PROJEK :
+
+**LAST HOPE: Road to Zombie Bastion** adalah game petualangan web bertema *zombie apocalypse* yang menggabungkan penceritaan bergaya komik interaktif dengan lima *minigame* aksi yang menantang. Game ini dibangun secara murni menggunakan HTML5, CSS3, dan JavaScript Vanilla tanpa ketergantungan pustaka eksternal.
+
+### 🌟 Fitur Utama
+
+- **Story Mode Interaktif:** Cerita naratif apokaliptik yang disajikan melalui visual komik dinamis, membawa pemain menelusuri alur cerita emosional menuju benteng pertahanan terakhir (*Bastion*).
+- **5 Minigame Aksi Bervariasi:**
+  1. **Sniping Outpost:** Aksi penembak jitu jarak jauh menggunakan *scope* presisi.
+  2. **Deteksi Infeksi:** Pemindaian tubuh penyintas untuk mendeteksi gejala infeksi virus.
+  3. **Perbaikan Sirkuit:** Puzzle menghubungkan alur kabel listrik di bawah tekanan waktu.
+  4. **Highway Driving:** Simulasi mengemudi melintasi jalan tol terhalang rintangan dan gerombolan zombie.
+  5. **Sabotase Inti Bastion:** Peretasan sistem reaktor untuk menonaktifkan inti reaktor berbahaya.
+- **Arcade Mode:** Ruang khusus bagi pemain untuk memainkan dan melatih setiap *minigame* secara bebas.
+- **Audio & Visual Imersif:** Efek suara sintetis berbasis Web Audio API dan antarmuka bernuansa *tactical survival OS* yang responsif.
+
+Game ini menyajikan pengalaman bermain yang responsif, penuh ketegangan, dan imersif bagi para pecinta genre *survival action*.","A post-apocalyptic top-down survival shooter where the player fights through waves of infected undead to reach a fortified survival sanctuary, managing limited ammo clips and barricade defenses.",,"1. Implement top-down twin-stick shooter aiming and dynamic enemy swarm pathfinding.
+2. Challenge players with resource scarcity and defensive positioning.
+3. Deliver satisfying tactical combat with weapon upgrades.",,,Pending Link,attachment:00003032-deskripsi_proyek_nakula_nathanael_gultom.zip/PROJECT2.md
+Nakula Nathanael Gultom,nathan,,,,Institut Teknologi Del,VALO HOOPS: 2K TACTICAL,Valo Hoops: 2K Tactical Basketball Simulator,Interactive Game,Quadrivium-Geometry,"# VALO HOOPS: 2K TACTICAL
+
+**VALO HOOPS: 2K TACTICAL** adalah gim bola basket 3D berbasis web yang mengombinasikan mekanisme tembakan taktis ala *NBA 2K* dengan kemampuan khusus (*hero skills*) khas karakter *Valorant*.
+
+## Cara Kerja
+Proyek ini dibangun menggunakan **Three.js** untuk rendering grafis 3D interaktif di dalam *browser*. Pemain mengontrol agen pilihan dalam pertandingan basket dengan mekanisme tembakan berbasis indikator *timing* (*green release* untuk akurasi presisi). Selain mengandalkan simulasi fisika bola basket, pemain dapat mengaktifkan *skill* taktis unik setiap agen untuk memanipulasi pergerakan dan strategi permainan secara *real-time*.
+
+## Fungsi
+Proyek ini berfungsi sebagai sarana permainan *arcade basketball* yang responsif dan dapat dimainkan langsung melalui peramban web tanpa instalasi perangkat lunak tambahan. Gim ini menyediakan berbagai pilihan mode permainan interaktif, termasuk **1v1 Duel**, **2v2 Team Battle**, serta **Practice Gym** untuk melatih akurasi tembakan dan penguasaan kemampuan agen.","A hybrid arcade sports game blending tactical shooter ability kits with fast-paced street basketball mechanics, allowing players to execute skill shots, teleport passes, and kinetic slam dunks.","* **Inovasi Permainan**: Menyajikan kombinasi unik antara genre olahraga dan *tactical hero shooter* yang menyegarkan.
+* **Melatih Ketangkasan**: Mengasah fokus, koordinasi mata-tangan, dan kecermatan respons pemain melalui penguasaan *timing release* tembakan.
+* **Aksesibilitas Grafis Web**: Memamerkan potensi grafis 3D berkualitas tinggi berbasis teknologi web yang ringan dan mudah diakses siapa saja.","1. Innovate by fusing tactical hero abilities with basketball physics.
+2. Implement trajectory projection, rim collision physics, and shot timing gauges.
+3. Offer highly competitive, skill-based arcade gameplay.",,,Pending Link,attachment:00003032-deskripsi_proyek_nakula_nathanael_gultom.zip/PROJECT1.md
+Nakula Nathanael Gultom,nathan,,,,Institut Teknologi Del,Web LED Control & DHT11 Sensor Monitor ESP32-C3,Web LED Control & DHT11 Environmental Sensor Monitor (ESP32-C3),IoT & Hardware,Quadrivium-Astronomy,"PROJEK :
+
+Proyek ini mengombinasikan pengontrolan aktuator (LED) dan pemantauan sensor lingkungan (DHT11) berbasis *Internet of Things* (IoT) menggunakan mikrokontroler ESP32-C3 Super Mini. Perangkat dikonfigurasi sebagai *Access Point* (AP) Wi-Fi mandiri yang menjalankan Web Server HTTP pada port 80. Melalui jaringan Wi-Fi ini, pengguna dapat mengakses antarmuka web interaktif berbasis HTML/CSS dari peramban *smartphone* atau laptop untuk:
+1. Mematikan dan menyalakan lampu LED (GPIO 8) secara nirkabel melalui tombol sakelar digital.
+2. Membaca dan menampilkan data suhu (°C) serta kelembapan udara (%) dari sensor DHT11 (GPIO 4) secara *real-time* dan otomatis tanpa perlu memperbarui (*refresh*) halaman web secara manual.",A full-stack IoT telemetry prototype deploying an asynchronous web server on an ESP32-C3 to monitor live ambient temperature and humidity from a DHT11 sensor while toggling physical relay LEDs over Wi-Fi.,"PROJEK :
+
+1. **Pengembangan Embedded Web Server**: Membangun sistem IoT mandiri di mana ESP32-C3 berfungsi sekaligus sebagai pemancar Wi-Fi dan pelayan web (*web server*) tanpa ketergantungan pada internet luar.
+2. **Integrasi Sensor & Aktuator**: Menggabungkan pembacaan data kondisi lingkungan (suhu & kelembapan) dan kontrol perangkat keras (LED) dalam satu sistem yang terintegrasi.
+3. **Penerapan Komunikasi HTTP**: Mempelajari alur pertukaran data nirkabel dua arah antara peramban web (*client*) dan mikrokontroler (*server*) menggunakan protokol HTTP request (`GET` & respon HTML/JSON).
+4. **Antarmuka Pengguna (UI) Interaktif**: Menyediakan tampilan pemantauan dan kendali nirkabel yang responsif, modern, hemat daya, serta ramah pengguna (*user-friendly*).","1. Bridge physical sensor telemetry with a modern web dashboard without cloud reliance.
+2. Implement bidirectional asynchronous HTTP/WebSocket communication between ESP32 and browser.
+3. Deliver a complete IoT edge sensing and actuator control pipeline.",,,Pending Link,attachment:00003032-deskripsi_proyek_nakula_nathanael_gultom.zip/PROJECT4.md
+Nathania Pelita Sitohang,,,,,SMA Unggul Del (SUD),SintaksisFrasa,SintaksisFrasa: Indonesian Grammar & Phrase Syntax Learning Platform,Educational Tool,Trivium-Grammar,"SintaksisFrasa adalah sebuah proyek yang dirancang untuk membantu para pelajar yang sedang mendalami Ejaan Bahasa Indonesia yang Disempurnakan (EYD), terkhususnya dalam pendalaman materi Frasa. Dalam proyek ini, pelajar dapat mempelajari dan mengenali frasa, jenis-jenis frasa, dan cara mengetahui apakah dalam sebuah kalimat terdapat frasa atau tidak. Selain itu, pelajar dapat lebih memahami mataeri dengan kuis interaktif, melihat pembahasan soal, hingga bertanya mengenai struktur frasa yang diberikan pelajar.
+
+Aplikasi ini berfokus pada kemudahan penggunaan, antarmuka yang bersih, serta pengalaman interaksi yang menyenangkan bagi pengguna.","An interactive educational platform helping secondary school students master Indonesian phrase syntax, classification (nominal, verbal, adjectival, prepositional phrases), and grammatical parsing rules per enhanced spelling conventions (EYD).","Proyek ini dikembangkan dengan beberapa tujuan utama:
+
+1. [Tujuan Utama 1]: Sebagai sarana bagi pelajar untuk mendalami materi frasa sesuai Ejaan Bahasa Indonesia yang disempurnakan atau EYD untuk memperdalam pengetahuan dan mempermudah pelajaran pelajar di sekolah.
+2. [Tujuan Utama 2]: Sebagai situs untuk menguji kepemahaman pelajar mengenai materi frasa sesuai Ejaan Bahasa Indonesia yang dissempurnakan atau EYD dan refleksi materi bagi pelajar.
+3. [Tujuan Utama 3]: emungkinkan pelajar memeriksa atau menanyakan struktur frasa dari kalimat yang mereka pelajari.","1. Deepen syntactic understanding of Indonesian phrase structures through interactive sentence breakdowns.
+2. Provide real-time phrase parsing validation and comprehensive feedback.
+3. Support Indonesian language curriculum mastery for high school students.",,,Pending Link,attachment:00003057-Markdown.zip/SintaksisFrasa.md
+Nathania Pelita Sitohang,,,,,SMA Unggul Del (SUD),LastLetter,LastLetter: Chain Word Association & Spelling Game,Educational Tool,Trivium-Grammar,LastLetter adalah sebuah proyek permainan kata di mana pemain harus menyebutkan atau menuliskan kata baru yang dimulai dengan huruf terakhir dari kata yang disebutkan pemain sebelumnya. Permainan ini dirancang dengan tema MineCraft dengan latar yang berbeda-beda. Pemain harus mampu menulis kata baru yang dimulai dari huruf terakhir dengan penulisan yang baku. Proyek ini selain menjadi permainan yang seru dapat bermanfaat untuk penambahan kosa kata pemain dan menantang time-management pemain agar lebih baik. Proyek ini juga disertai berbagai task dan reward yang dapat memotivasi pemain untuk terus belajar melalui permainan ini.,"A fast-paced word association game where players must submit new words starting with the terminal letter of the preceding word, testing spelling accuracy, vocabulary depth, and reaction speed.","Proyek ini dikembangkan dengan beberapa tujuan utama:
+
+1. [Tujuan Utama 1]: Membantu pemain mengenali dan membiasakan diri menggunakan kata-kata baku dengan ejaan yang tepat.
+2. [Tujuan Utama 2]: Melatih kecepatan dan ketepatan pemain dalam memanggil kembali memori kosakata di bawah tekanan waktu.
+3. [Tujuan Utama 3]: Mengadaptasi tema populer (Minecraft) dengan visual latar yang variatif agar sarana pembelajaran kata terasa segar dan tidak membosankan.","1. Expand Indonesian vocabulary and linguistic agility through gamified word chains.
+2. Prevent repetitive vocabulary through active lexical dictionary validation.
+3. Provide an engaging, light-hearted linguistic duel for students.",,,Pending Link,attachment:00003057-Markdown.zip/LastLetter.md
+Pahala Deogratias Sihite,deoo,,,,Institut Teknologi Del,Echoes at 11:11 - Game 2.5D Psychological Mystery Side-Scroller,Echoes at 11:11: 2.5D Psychological Mystery Side-Scroller,Interactive Game,Quadrivium-Geometry,"Game side-scroller 2.5D bertema misteri psikologis di mana pemain mengendalikan karakter utama yang terjebak dalam putaran waktu (time loop) di jalanan Kota Vesper. Waktu di dalam game ini akan terus mengulang kembali ke awal tepat pada pukul 11:11 malam. Sepanjang permainan, pemain bertugas sebagai investigator yang harus mencari jalan keluar dengan cara menjelajahi lingkungan, mengumpulkan barang bukti, dan menginterogasi karakter lain (NPC). Pemain dapat memecahkan misteri menggunakan sistem ""Papan Deduksi"", yaitu sebuah papan interaktif di mana pemain bisa bebas menarik garis untuk menghubungkan petunjuk-petunjuk yang telah ditemukan guna menarik kesimpulan.
+
+Game ini dilengkapi dengan berbagai fitur teknis modern, seperti sistem pencahayaan senter yang dinamis, pantulan genangan air, efek partikel hujan, serta tata suara 3D. Selain itu, NPC di dalam game ini tidak bersifat kaku; mereka memiliki sistem kecerdasan buatan (AI) berbasis emosi. Tingkat stres dan kepanikan NPC akan memengaruhi perubahan bahasa tubuh, kecepatan napas, dan raut wajah mereka saat diinterogasi oleh pemain.","An atmospheric 2.5D psychological side-scroller exploring memory distortion, temporal anomalies, and environmental storytelling. Players navigate eerie urban corridors solving auditory and visual perspective puzzles.","- Mengembangkan Grafis dan Suasana Game yang Realistis: Menerapkan teknik pencahayaan dinamis, efek cuaca, dan animasi karakter yang luwes pada lingkungan 2D agar dunia game terasa lebih hidup dan imersif.
+- Membangun Mekanika Investigasi Interaktif: Menciptakan fitur ""Papan Deduksi"" yang memungkinkan pemain untuk benar-benar berpikir dan menganalisis misteri secara mandiri, bukan sekadar mengikuti alur cerita yang kaku.
+- Mengimplementasikan Karakter (NPC) yang Responsif: Menerapkan sistem emosi pada karakter pendukung di dalam game, sehingga mereka dapat merespons pertanyaan pemain dengan reaksi visual dan psikologis yang berbeda-beda.","1. Deliver an immersive psychological narrative through parallax backgrounds and dynamic lighting.
+2. Implement environmental puzzles driven by temporal clues at precisely 11:11.
+3. Showcase narrative game design grounded in atmospheric tension.",,,Pending Link,_chat.txt@22/09/26 16.02.27
+Rahel Sendler Sianturi,,,,,Institut Teknologi Del,THE FLOOR IS LAVA — Dokumen Deskripsi & Spesifikasi Proyek,The Floor is Lava: Interactive Obstacle & Sensor Game,IoT & Hardware,Quadrivium-Astronomy,"# 🌋 THE FLOOR IS LAVA — Dokumen Deskripsi & Spesifikasi Proyek
+
+> **Tagline:** *""Reach the Exit Before the Lava Gets You!""*  
+> **Genre:** 2D Platformer Survival, Vertical Parkour, Time-Attack  
+> **Target Platform:** Web App (HTML5 Canvas + Vanilla JS) & Native Desktop (C++17)  
+> **Lisensi & Status:** Open Project / Playable Version Available  
+
+---
+
+## 1. 📖 Ringkasan Proyek (Project Overview)
+
+**The Floor is Lava** adalah game aksi-platformer survival 2D bertempo cepat yang menggabungkan presisi parkour vertikal dengan mekanisme ancaman lingkungan dinamis. Pemain ditempatkan dalam skenario darurat ekstrem: lautan lava pijar merambat naik dari dasar lantai secara *real-time*, menelan setiap pijakan yang berada di bawahnya. 
+
+Misi utama pemain adalah melompati serangkaian platform rintangan, mengumpulkan koin emas, menghindari bola api vulkanik, dan mencapai **Pintu Keluar Darurat (Exit Door)** di puncak level sebelum lava menenggelamkan karakter.
+
+Proyek ini dibangun secara independen dengan arsitektur ganda:
+1. **Versi Web Canvas (Vanilla JS & HTML5)**: Dapat langsung dijalankan di semua browser modern tanpa instalasi dependensi runtime.
+2. **Versi Native C++ (High Performance Engine)**: Menggunakan logika fisika AABB collision deterministik untuk kompilasi desktop native.
+
+---
+
+## 2. 🎨 Karakteristik Visual & Atmosfer Sinematik
+
+Visual dan atmosfer **The Floor is Lava** dirancang dengan kontras dramatis (*high-contrast chiaroscuro*) antara panasnya magma cair dan gelapnya lingkungan sekitar:
+
+| Aspek Visual | Karakteristik & Efek |
+| :--- | :--- |
+| **Pencahayaan Magma (Volcanic Radiance)** | Dasar layar didominasi cahaya magma pijar berwarna gradien *white-hot core*, jingga menyala, dan merah kirmizi pekat yang memancarkan *under-lighting* ke arah platform atas. |
+| **Distorsi Panas (Heat Haze Shimmer)** | Efek gelombang refraksi udara panas yang meliuk-liuk di atas batas permukaan lava, memberikan kesan suhu udara ekstrem yang membiaskan pandangan. |
+| **Partikel Bara & Abu (Floating Embers)** | Partikel bara api kecil dan serpihan abu vulkanik hitam yang melayang tersuspensi ke atas mengikuti arus konveksi udara panas. |
+| **Tekstur Platform** | Menggabungkan tema interior buatan manusia (meja kelas, pipa pabrik, ban berjalan) dengan batuan alam vulkanik (batu basal gelap, obsidian retak, kristal kuarsa tahan panas). |
+| **Peringatan Bahaya (Danger Cue)** | Efek getaran layar mikro (*screen shake*) dan peringatan HUD berkedip merah saat persentase kenaikan lava mendekati posisi ketinggian pemain. |
+
+---
+
+## 3. 🕹️ Mekanika Inti & Gameplay Loop
+
+```
+  [Start Level] ──> [Lava Mulai Naik] ──> [Parkour & Lompati Platform]
+         ▲                                                │
+         │                                                ▼
+   [Restart / 'R'] <── [Tersentuh Lava: Game Over]   [Kumpulkan Koin]
+                                                          │
+                                                          ▼
+                                              [Capai Exit Door: CLEARED]
+```
+
+### 3.1. Mesin Simulasi Lava (Rising Lava Engine)
+- **Kenaikan Dinamis**: Lava bergerak naik secara konstan per detik (`lavaY -= lavaRiseSpeed`).
+- **Lava Meter HUD**: Indikator persentase real-time (0% hingga 100%) yang menunjukkan seberapa dekat magma dengan batas atas arena.
+- **Insta-Kill Hazard**: Kontak langsung antara hitbox karakter dengan permukaan lava mengakibatkan *Game Over* instan (kecuali dilindungi pelindung khusus).
+
+### 3.2. Mesin Fisika 2D Platformer
+- **AABB Collision Detection**: Deteksi tumbukan berbasis kotak sumbu (*Axis-Aligned Bounding Box*) dengan pengecekan posisi kaki presisi (*one-way ground checking*).
+- **Gravitasi & Inersia**: Kurva gravitasi parabola alami dengan akselerasi jatuh dan redaman friksi horizontal di atas platform.
+- **Double Jump & Jump Buffering**: Respons input lompatan responsif dengan toleransi *coyote time* untuk navigasi parkour yang adil dan memuaskan.
+
+---
+
+## 4. 🦹‍♂️ Arketipe Karakter (Character Classes)
+
+Pemain dapat memilih salah satu dari 3 tipe karakter dengan spesialisasi gaya bermain yang berbeda:
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   🏃 RUNNER     │    │   🦘 JUMPER     │    │   🛡️ TANK       │
+│ Speed: 7.0 px/f │    │ Speed: 5.5 px/f │    │ Speed: 5.0 px/f │
+│ Jump: -12.0     │    │ Jump: -14.5     │    │ Jump: -11.0     │
+│ Sifat: Lincah   │    │ Sifat: Vertikal │    │ Sifat: Kebal 1x │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+```
+
+1. **🏃 Runner (Speed Specialist)**:
+   - Kecepatan horizontal tertinggi (+40%), akselerasi instan.
+   - Sangat efektif untuk level dengan rintangan horizontal panjang dan ban berjalan (*conveyor belt*).
+2. **🦘 Jumper (High Leap Specialist)**:
+   - Daya dorong vertikal tertinggi (-14.5 jump power), dapat melompati jarak antar platform yang tinggi tanpa bantuan trampolin.
+   - Ideal untuk level vertikal terjal dan tebing obsidian.
+3. **🛡️ Tank (Lava Shield Specialist)**:
+   - Dilengkapi satu lapis perisai panas (*Magma Heat Shield*).
+   - Mampu bertahan dari satu kali sentuhan kontak singkat dengan lava sebelum perisai pecah.
+
+---
+
+## 5. 🧱 Ragam Platform & Elemen Interaktif
+
+| Jenis Elemen | Simbol | Perilaku & Interaksi |
+| :--- | :---: | :--- |
+| **Normal Slate Platform** | 🧱 | Pijakan kokoh standar dari batu alam atau perabot interior tahan panas. |
+| **Moving Platform** | ↔️ | Platform dinamis yang bergerak bolak-balik secara horizontal atau vertikal mengikuti fungsi sinus. |
+| **Bouncy Trampoline** | 🟩 | Melipatgandakan gaya dorong lompat pemain sebesar $1.8\times$ untuk mencapai area tinggi terpencil. |
+| **Crumbling Ledge** | ⏳ | Platform retak yang akan runtuh setelah 0.75 detik diinjak oleh pemain. |
+| **Fireball Hazard** | ☄️ | Proyektil magma yang menyembur dari bawah secara periodik dengan lintasan parabola. |
+| **Power Switch & Gate** | 🔘 | Saklar mekanik yang membuka pintu gerbang terkunci untuk membuka jalur menuju exit. |
+| **Collectible Coin** | 🪙 | Koin emas bernilai skor tambahan yang tersebar di rute-rute berisiko tinggi. |
+| **Exit Door** | 🚪 | Pintu besi darurat kedap api di puncak stage; menjadi tujuan akhir penyelesaian level. |
+
+---
+
+## 6. 🗺️ Progresi Level & Dunia (20 Levels, 4 Worlds)
+
+Permainan dirancang dengan 20 level bertingkat yang terbagi ke dalam 4 zona tematik unik:
+
+```
+[WORLD 1: The Academy] ──> [WORLD 2: The Factory] ──> [WORLD 3: Magma Core] ──> [WORLD 4: Sky Inferno]
+  (Level 1 - 5)              (Level 6 - 10)             (Level 11 - 15)           (Level 16 - 20)
+```
+
+### 🏫 World 1: The Abandoned Academy (Level 1 – 5)
+- **Setting:** Gedung sekolah bertingkat tua yang retak dan dibanjiri lautan lava dari ruang bawah tanah.
+- **Level:** 
+  1. *Classroom 🏫* (Tutorial dasar & lompatan pertama)
+  2. *Laboratory 🧪* (Pengenalan trampolin bahan kimia)
+  3. *Library 📚* (Parkour rak buku tinggi)
+  4. *Corridor 🚪* (Platform bergerak horizontal)
+  5. *Rooftop 🏫* (Pelarian ke atap dengan kecepatan lava meningkat)
+
+### 🏭 World 2: Industrial Steampower Factory (Level 6 – 10)
+- **Setting:** Pabrik peleburan logam dengan mesin uap, piston bertekanan, dan ban berjalan.
+- **Level:**
+  6. *Conveyor Belt 🏭* (Pijakan bergerak yang mendorong pemain)
+  7. *Machine Room ⚙️* (Roda gigi putar dan rintangan sempit)
+  8. *Pipe Shaft 💨* (Ventilasi uap vertikal)
+  9. *Electric Room ⚡* (Saklar dan platform konduktor)
+  10. *Factory Chimney 🏭* (Pendakian cerobong silindris sempit)
+
+### 🌋 World 3: The Subterranean Magma Core (Level 11 – 15)
+- **Setting:** Gua vulkanik alami dengan semburan magma aktif dan kristal kuarsa.
+- **Level:**
+  11. *Magma Chamber 🌋* (Semburan gelembung lava besar)
+  12. *Obsidian Pass 🏔️* (Pijakan rapuh yang runtuh)
+  13. *Crystal Grotto 💎* (Platform kristal licin)
+  14. *Lava Falls 🌊* (Air terjun magma yang menghalangi jalur)
+  15. *Volcano Core 🌋* (Kecepatan lava 2x lipat)
+
+### ☁️ World 4: Sky Inferno & Omega Zenith (Level 16 – 20)
+- **Setting:** Struktur mengambang di atas atmosfer kaldera gunung berapi dengan angin kencang dan gravitasi anomal.
+- **Level:**
+  16. *Cloud Leap ☁️* (Lompatan buta di atas awan asap)
+  17. *Storm Citadel ⚡* (Kombinasi kilat dan platform bergerak)
+  18. *Gravity Rift 🌀* (Gravitasi rendah dengan jarak lompat melayang)
+  19. *Inferno Tower 🔥* (Pendakian menara spiral ekstrem)
+  20. *OMEGA LAVA CORE 👑* (Level puncak survival: semua rintangan aktif simultan)
+
+---
+
+## 7. ⌨️ Skema Kontrol (Control Scheme)
+
+| Aksi | Keyboard Utama | Alternatif (Arrow Keys) |
+| :--- | :---: | :---: |
+| **Bergerak ke Kiri** | `A` | `◄ Left Arrow` |
+| **Bergerak ke Kanan** | `D` | `► Right Arrow` |
+| **Melompat** | `W` / `Space` | `▲ Up Arrow` |
+| **Restart Level Cepat** | `R` | — |
+| **Ganti Karakter** | Menu Dropdown HUD | — |
+| **Pilih Level** | Dropdown Seleksi Level | — |
+
+---
+
+## 8. 📂 Struktur Repositori & Berkas
+
+```
+the-floor-is-lava/
+├── index.html              # Antarmuka web, HUD panel, canvas game container
+├── README.md               # Ringkasan cepat dan instruksi eksekusi
+├── DESKRIPSI_PROYEK.md     # Dokumen komprehensif spesifikasi & arsitektur proyek
+├── css/
+│   └── style.css           # Styling bertema vulkanik, tombol aksen lava, neon HUD
+├── js/
+│   ├── app.js              # Inisialisasi DOM, audio controller, modal popup
+│   ├── game-engine.js      # Loop game 60 FPS, state manager, level builder (20 levels)
+│   ├── platform.js         # Kelas platform (slate, moving, trampolin, crumbling)
+│   └── player.js           # Fisika pemain, AABB collision, animasi sprite & kontrol
+└── cpp/
+    └── main.cpp            # Implementasi native engine C++ berbasis terminal/desktop
+```
+
+---
+
+## 9. 🚀 Petunjuk Menjalankan Game
+
+### Menjalankan Versi Web (HTML5 Canvas):
+Buka file `index.html` langsung pada browser web (Google Chrome, Microsoft Edge, Mozilla Firefox, Safari):
+```text
+file:///C:/Users/Lenovo/OneDrive/Desktop/Sendler's/the-floor-is-lava/index.html
+```
+*Atau jalankan melalui local server:*
+```bash
+npx serve .
+# atau
+python -m http.server 8000
+```
+
+### Mengompilasi Versi Native C++:
+Gunakan compiler C++ modern (GCC/Clang/MSVC):
+```bash
+cd the-floor-is-lava
+g++ -std=c++17 -O2 -o floor_is_lava cpp/main.cpp
+./floor_is_lava
+```
+
+---
+
+## 10. 🔮 Rencana Pengembangan Mendatang (Roadmap)
+
+- [ ] **Procedural Audio Synthesizer (Web Audio API)**: Efek gemuruh magma (*sub-bass rumble*), desis uap, dan hentakan kaki di atas batu.
+- [ ] **Particle Shader Acceleration**: Shader WebGL untuk partikel bara api dinamis dan gelombang fluida lava.
+- [ ] **Local High Score Leaderboard**: Penyimpanan rekor waktu tempuh tercepat per level menggunakan `localStorage`.
+- [ ] **Level Editor Mode**: Fitur perancangan panggung kustom dengan *drag-and-drop* platform.","An interactive obstacle game turning physical spaces into hazardous lava zones, utilizing sensor detection and visual cues to require players to leap between designated safe zones.",,"1. Combine physical motion with digital game state mechanics.
+2. Implement timing windows and hazard indicators for immersive gameplay.
+3. Promote active physical movement through gamified spatial challenges.",,,Pending Link,attachment:00003044-deskripsi proyek Rahel Sendler Sianturi.zip/Proyek 3.md
+Rahel Sendler Sianturi,,,,,Institut Teknologi Del,ASAH C,ASAH C++: Interactive C++ Programming Assessment Tool,Web Application,Trivium-Rhetoric,,"An interactive programming diagnostic tool providing structured coding exercises, algorithmic quiz questions, and syntax debugging challenges in modern C++.",,"1. Assess student mastery of core C++ programming concepts (pointers, memory, loops, OOP).
+2. Provide progressive coding challenges with instantaneous error analysis.
+3. Prepare students for university computer science technical interviews.",,,Pending Link,attachment:00003044-deskripsi proyek Rahel Sendler Sianturi.zip/Proyek 2.md
+Rahel Sendler Sianturi,,,,,Institut Teknologi Del,KFC-Chat XI-4,KFC-Chat XI-4: Class Web Messaging & Social Hub,Web Application,Trivium-Rhetoric,,"A localized web messaging application crafted specifically for high school classroom communication, sharing homework announcements, study schedules, and casual peer chats.",,"1. Provide a focused, distraction-free class communication channel.
+2. Facilitate quick file exchanges and homework reminders.
+3. Cultivate digital collaboration skills within high school student cohorts.",,,Pending Link,attachment:00003044-deskripsi proyek Rahel Sendler Sianturi.zip/Proyek 1.md
+Salsalina Enoli Ginting,,,,,Institut Teknologi Del,Pulau Sintaksis: Python Quest RPG (3D WebGL Edition),Syntax Island: 3D WebGL Python Quest RPG,Interactive Game,Quadrivium-Geometry,"Pulau Sintaksis* adalah game edukasi petualangan RPG *open-world* yang dirancang untuk mengajarkan dasar-dasar pemrograman Python secara interaktif. Berlatar di sebuah pulau surealis, pemain berperan sebagai penjelajah yang terdampar dan harus memperbaiki pesawat yang rusak di tengah alun-alun pulau. Untuk mengumpulkan suku cadang pesawat, pemain harus menjelajahi berbagai wilayah pulau, menyelesaikan 10 *quest* materi Python (mulai dari sintaks dasar `print`/`input`, percabangan, fungsi, hingga *error handling*), serta menaklukkan tantangan mini-game aksi arkade (*shooter*, *platformer*, dan *dash*).","An open-world educational RPG set on a surreal island where a stranded explorer must repair their crashed airplane by solving 10 progressive Python programming quests (syntax, branching, loops, functions, error handling) and conquering arcade mini-games.","1. Menyediakan media edukasi pemrograman yang interaktif dan menyenangkan melalui konsep gamifikasi dunia terbuka (*open-world*).
+  2. Meningkatkan pemahaman algoritma dan logika koding pengguna lewat penyelesaian masalah nyata, instruksi *pseudocode*, dan validator kode langsung.
+  3. Mengasah ketangkasan sekaligus menguji fokus pengguna dengan mengintegrasikan pembelajaran koding bersama mini-game aksi arkade yang menantang.
+
+---","1. Teach Python fundamentals through an engaging open-world 3D narrative.
+2. Reinforce algorithmic thinking with in-game code validators and pseudocode puzzles.
+3. Balance intellectual learning with reflex-testing arcade mini-game challenges.",,,Pending Link,attachment:00003050-Deskripsi Proyek Salsalina E Ginting.zip/ringkasan_proyek_edukasi_interaktif.md#proyek1
+Salsalina Enoli Ginting,,,,,Institut Teknologi Del,Website Edukasi Interaktif Anatomi Otak Manusia (NeuroLearn),NeuroLearn: Interactive Human Brain Anatomy Visualizer,Educational Tool,Trivium-Rhetoric,"NeuroLearn* adalah aplikasi web pembelajaran berbasis visual yang dirancang untuk mempermudah pemahaman struktur anatomi otak manusia. Pengguna dapat mengeksplorasi model anatomi secara langsung; setiap bagian otak yang diklik akan menyorot area tersebut sekaligus menampilkan penjelasan mendalam mengenai nama ilmiah, lokasi, serta fungsi fisiologisnya secara dinamis.","A visual medical education web platform that allows users to explore a dynamic 3D anatomical model of the human brain. Clicking any brain lobe highlights the region and surfaces physiological functions, clinical pathology, and self-assessment quizzes.","1. Menyediakan media belajar biologi dan neuroanatomi yang interaktif, visual, dan mudah diakses.
+  2. Meningkatkan retensi pemahaman pengguna melalui interaksi langsung dibanding metode membaca teks statis.
+  3. Menguji pemahaman pengguna secara mandiri melalui kuis identifikasi bagian otak secara *real-time*.
+
+---","1. Make neuroanatomy accessible and intuitive through interactive 3D exploration.
+2. Increase knowledge retention compared to static textbook diagrams.
+3. Provide self-paced quiz modules to test anatomical identification in real time.",,,Pending Link,attachment:00003050-Deskripsi Proyek Salsalina E Ginting.zip/ringkasan_proyek_edukasi_interaktif.md#proyek2
+Stephen Joy Marvel Simamora,12S26031_StephenJSimamora,,12S26031,Sistem Informasi (SI),Institut Teknologi Del,Nusantara Digital Twin — Platform Simulasi & Telemetri Indonesia,Nusantara Digital Twin: Indonesia 38-Province Simulation & Telemetry Platform,Simulation & Telemetry,Quadrivium-Astronomy,"Nusantara Digital Twin adalah website interaktif yang menampilkan data penting Indonesia dari seluruh 38 provinsi dalam satu platform terpadu. Menggunakan konsep ""kembar digital"", website ini merepresentasikan kondisi nyata Indonesia—mulai dari demografi, ekonomi, pendidikan, infrastruktur, hingga lingkungan—melalui peta interaktif dan dashboard data yang mudah dipahami. Pengguna dapat menjelajahi setiap provinsi untuk melihat indikator seperti jumlah penduduk, PDB, IPM, dan luas hutan lestari. Terdapat pula fitur What-If Sandbox 2045 untuk mensimulasikan skenario kebijakan pembangunan, serta fitur Komparasi Daerah untuk membandingkan data antar provinsi secara langsung dan menyeluruh.","A unified national digital twin web platform mapping real-time demographic, economic, educational, and environmental data across Indonesia's 38 provinces. Features an interactive national map, What-If Sandbox 2045 policy simulation, and inter-regional comparative analytics.","Project ini bertujuan menyajikan data nasional Indonesia secara visual dan interaktif agar mudah dipahami oleh pelajar, peneliti, maupun masyarakat umum. Melalui fitur simulasi kebijakan, pengguna dapat memahami dampak berbagai skenario pembangunan—seperti transisi energi bersih dan investasi talenta digital—terhadap proyeksi ekonomi Indonesia hingga tahun 2045. Fitur komparasi antar provinsi juga membantu menganalisis kesenjangan pembangunan di berbagai wilayah secara lebih objektif. Secara keseluruhan, project ini diharapkan dapat meningkatkan kesadaran publik terhadap arah pembangunan nasional dan menunjukkan bagaimana teknologi digital dapat mendukung visi besar Indonesia Emas 2045.","1. Democratize access to verified regional development data across Indonesia.
+2. Model long-term socio-economic policy outcomes through interactive sandbox scenarios.
+3. Foster public policy literacy and data-driven governance understanding.",https://simamorastephen-byte.github.io/indonesia-digital/,,Complete,_chat.txt@22/09/26 15.48.56
+Stephen Joy Marvel Simamora,12S26031_StephenJSimamora,,12S26031,Sistem Informasi (SI),Institut Teknologi Del,Website Kasir,Kasir Simamora: Digital Point of Sale (POS) & Retail Transaction System,Educational Tool,Quadrivium-Arithmetic,"Kasir Simamora adalah aplikasi kasir digital (POS/Point of Sale) berbasis web yang dirancang untuk memudahkan proses transaksi jual-beli di toko, warung, atau usaha kuliner. Website ini menyediakan fitur lengkap mulai dari katalog menu dengan kategori (Makanan, Minuman, Snack, Paket Hemat, Promo Spesial), sistem keranjang pesanan, hingga berbagai metode pembayaran modern seperti QRIS, E-Money, Transfer Virtual Account, dan Tunai. Selain fitur transaksi, tersedia pula sistem manajemen menu untuk menambah, mengedit, dan menghapus produk beserta stoknya, serta fitur laporan penjualan yang menampilkan omzet, riwayat transaksi, metode pembayaran terpopuler, dan menu paling laris secara otomatis dan real-time.","A responsive web-based Point of Sale (POS) application designed to streamline retail transactions, inventory management, price calculations, and receipt generation for small businesses, eateries, and campus kiosks.","ini bertujuan menghadirkan solusi kasir digital yang praktis dan efisien bagi pelaku usaha kecil-menengah, khususnya untuk mempercepat proses transaksi dan mengurangi kesalahan pencatatan manual. Dengan adanya sistem pembayaran digital terintegrasi, usaha dapat mengikuti tren cashless payment yang semakin diminati pelanggan. Fitur manajemen stok dan laporan penjualan otomatis juga membantu pemilik usaha memantau performa bisnis secara lebih akurat dan real-time, tanpa perlu pencatatan manual di buku kas. Secara keseluruhan, project ini diharapkan dapat menjadi contoh penerapan teknologi sederhana namun fungsional untuk mendukung digitalisasi usaha kecil, sekaligus menjadi sarana pembelajaran dalam pengembangan sistem POS berbasis web.","1. Simplify daily retail checkout workflows with rapid barcode/search lookup.
+2. Automate receipt printing, discount calculations, and revenue reporting.
+3. Provide small local businesses with an offline-capable, cost-effective digital cash register.",https://simamorastephen-byte.github.io/website-kasir-stephen-simamora/,,Complete,_chat.txt@22/09/26 16.24.35
+Titania Shakila Panggabean,12S26034_Titania S.P_S1SI,,12S26034,Sistem Informasi (SI),Institut Teknologi Del,Temple-Run,Temple-Run: 3D Endless Adventure Runner,Interactive Game,Quadrivium-Geometry,"Temple Run adalah game aksi bergenre endless runner yang menghadirkan petualangan lari tanpa henti dengan mekanik gravitasi unik dan penuh tantangan. Dalam game ini, pemain diajak menelusuri lintasan dinamis sambil mengumpulkan koin sebanyak-banyaknya untuk meraih skor tertinggi. Pemain dituntut untuk bergerak lincah melalui aksi melompat, berguling, serta bergeser ke kanan dan ke kiri guna menghindari setiap rintangan yang menghalang. Game ini juga dilengkapi dengan fitur perisai pelindung (shield) yang memungkinkan pemain menerobos rintangan secara langsung tanpa perlu melakukan pergerakan menghindar selama durasi tertentu, menciptakan pengalaman bermain yang cepat, menegangkan, dan memicu adrenalin.","A browser-based 3D endless runner capturing the iconic ancient temple escape adventure. Players swipe to turn sharp corners, jump over fiery gaps, and slide under obstacles while accumulating ancient relics.","untuk menghadirkan sebuah game endless runner interaktif yang memadukan refleks ketangkasan pemain dengan mekanik elemen anti-gravitasi yang segar. Selain itu, proyek ini bertujuan untuk melatih kecepatan respons pemain melalui kontrol permainan yang intuitif, serta memberikan variasi strategi bermain dengan adanya fitur power-up seperti pelindung rintangan. Pada akhirnya, game ini dirancang untuk menciptakan daya tarik bermain ulang (replayability) yang tinggi, di mana pemain terdorong untuk terus melampaui rekor skor tertinggi mereka dan mengumpulkan koin terbanyak.","1. Deliver responsive 3D swipe controls and fluid camera perspectives on web browsers.
+2. Implement randomized obstacle generation and progressive velocity scaling.
+3. Provide thrilling arcade gameplay accessible on mobile and desktop.",,,Pending Link,_chat.txt@22/09/26 15.54.40
+Wendy Simanjuntak,12S26024_WendySimanjuntak,,12S26024,Sistem Informasi (SI),Institut Teknologi Del,KataMaster (Game Edukasi Menyusun Kata dan Kalimat),KataMaster: Gamified Language Learning & Vocabulary Building Platform,Interactive Game,Quadrivium-Arithmetic,"Nama Game: 
+KataMaster (Game Edukasi Menyusun Kata dan Kalimat)
+
+Tujuan Projek:
+Tujuan dari projek KataMaster adalah menciptakan media pembelajaran bahasa interaktif berbasis web yang mempermudah pengguna dalam menguasai kosakata dan memahami struktur tata bahasa secara aktif, mandiri, dan menyenangkan melalui metode gamifikasi.
+
+Fungsi Utama:
+a. Menyediakan antarmuka penyusunan kalimat interaktif di mana pengguna memilih dan menyusun kepingan kata dari bank kata ke baris jawaban.
+b. Menyediakan fitur pelafalan audio suara asli menggunakan teknologi Text to Speech dengan dua pilihan kecepatan, yaitu kecepatan normal dan kecepatan lambat, guna melatih pendengaran bahasa asing.
+c. Memberikan evaluasi dan umpan balik otomatis secara langsung yang menampilkan kebenaran susunan kalimat beserta kunci jawaban yang benar.
+d. Menerapkan sistem gamifikasi yang mencakup kuota lima nyawa, penghitung konsistensi belajar harian, perolehan poin pengalaman, serta jalur kurikulum lima unit pembelajaran yang tersimpan secara lokal di peramban.
+
+### Fitur & Fungsi Utama
+a. Menyediakan antarmuka penyusunan kalimat interaktif di mana pengguna memilih dan menyusun kepingan kata dari bank kata ke baris jawaban.
+b. Menyediakan fitur pelafalan audio suara asli menggunakan teknologi Text to Speech dengan dua pilihan kecepatan, yaitu kecepatan normal dan kecepatan lambat, guna melatih pendengaran bahasa asing.
+c. Memberikan evaluasi dan umpan balik otomatis secara langsung yang menampilkan kebenaran susunan kalimat beserta kunci jawaban yang benar.
+d. Menerapkan sistem gamifikasi yang mencakup kuota lima nyawa, penghitung konsistensi belajar harian, perolehan poin pengalaman, serta jalur kurikulum lima unit pembelajaran yang tersimpan secara lokal di peramban.
+
+KataMaster adalah aplikasi permainan edukasi kebahasaan interaktif yang mengadaptasi metodologi pembelajaran modern bergaya Duolingo untuk memperkaya penguasaan kosakata dan struktur kalimat. Aplikasi ini mengintegrasikan sintesis audio berbasis Web Audio dan Text-to-Speech untuk melatih pendengaran serta pelafalan kata secara tepat dan mandiri. Dirancang dengan kurikulum bertingkat sebanyak lima unit pembelajaran komprehensif, game ini menerapkan mekanisme gamifikasi yang mencakup sistem lima nyawa, poin pengalaman, runtutan hari belajar, papan peringkat, dan efek visual perayaan. Melalui pendekatan visual yang intuitif dan interaktif, KataMaster memotivasi mahasiswa untuk mempelajari tata bahasa, istilah teknologi, serta komunikasi kontekstual dengan cara yang menyenangkan, konsisten, dan terukur.","A Duolingo-inspired interactive language learning game designed to expand vocabulary and grammatical syntax through speech synthesis (Web Audio and Text-to-Speech), 5 structured learning units, hearts system, streaks, and leaderboards.","Projek:
+Tujuan dari projek KataMaster adalah menciptakan media pembelajaran bahasa interaktif berbasis web yang mempermudah pengguna dalam menguasai kosakata dan memahami struktur tata bahasa secara aktif, mandiri, dan menyenangkan melalui metode gamifikasi.","1. Make language grammar and technology vocabulary acquisition engaging and habit-forming.
+2. Train listening comprehension and accurate pronunciation through synthesized voice feedback.
+3. Measure and reward consistent daily learning progress with gamified streaks.",,,Pending Link,_chat.txt@22/09/26 16.09.42#part1
+Wendy Simanjuntak,12S26024_WendySimanjuntak,,12S26024,Sistem Informasi (SI),Institut Teknologi Del,SpotFinder IT Del (Sistem Pemantau dan Pemesanan Meja Belajar Kampus),SpotFinder IT Del: Real-Time Study Desk & Discussion Space Booking Platform,Educational Tool,Trivium-Rhetoric,"Nama Aplikasi: 
+SpotFinder IT Del (Sistem Pemantau dan Pemesanan Meja Belajar Kampus)
+
+Tujuan Projek:
+Tujuan dari projek SpotFinder IT Del adalah meningkatkan efisiensi waktu dan produktivitas mahasiswa Institut Teknologi Del dalam menemukan tempat belajar yang kosong di area perpustakaan, gedung perkuliahan, dan fasilitas kampus lainnya tanpa harus mencari secara manual.
+
+Fungsi Utama:
+a. Menampilkan informasi status ketersediaan kursi kosong secara langsung di Perpustakaan IT Del Lantai 2, Ruang Belajar Gedung 7, Lab Komputer Gedung 9, Gazebo Tepi Danau Toba, dan Kantin Utama.
+b. Menyajikan denah visual tata letak kursi individual dalam ruangan yang membedakan kursi kosong dan kursi terisi.
+c. Menyediakan sistem pengamanan kursi mandiri selama lima belas menit untuk memberikan waktu bagi mahasiswa berjalan menuju lokasi ruangan.
+d. Menyediakan fitur penyaringan lokasi berdasarkan kebutuhan fasilitas seperti ketersediaan colokan listrik, pendingin ruangan, papan tulis, zona hening skripsi, dan area terbuka.
+e. Memfasilitasi pelaporan kondisi keramaian terkini secara gotong royong oleh mahasiswa yang berada di lokasi.
+
+### Fitur & Fungsi Utama
+a. Menampilkan informasi status ketersediaan kursi kosong secara langsung di Perpustakaan IT Del Lantai 2, Ruang Belajar Gedung 7, Lab Komputer Gedung 9, Gazebo Tepi Danau Toba, dan Kantin Utama.
+b. Menyajikan denah visual tata letak kursi individual dalam ruangan yang membedakan kursi kosong dan kursi terisi.
+c. Menyediakan sistem pengamanan kursi mandiri selama lima belas menit untuk memberikan waktu bagi mahasiswa berjalan menuju lokasi ruangan.
+d. Menyediakan fitur penyaringan lokasi berdasarkan kebutuhan fasilitas seperti ketersediaan colokan listrik, pendingin ruangan, papan tulis, zona hening skripsi, dan area terbuka.
+e. Memfasilitasi pelaporan kondisi keramaian terkini secara gotong royong oleh mahasiswa yang berada di lokasi.
+
+SpotFinder IT Del adalah platform pemantauan ketersediaan tempat belajar dan ruang diskusi di lingkungan kampus Institut Teknologi Del secara langsung. Aplikasi ini menyajikan informasi keterisian meja dan kursi pada berbagai lokasi strategis, seperti Perpustakaan Lantai Dua, Ruang Belajar Gedung Kuliah, Laboratorium Komputer, Gazebo, hingga area Kantin Del. Dilengkapi peta visual denah ruangan interaktif, mahasiswa dapat melihat status kursi kosong, melakukan reservasi kilat berdurasi lima belas menit untuk mengamankan tempat saat menuju lokasi, serta menyaring ruangan berdasarkan fasilitas seperti colokan listrik dan zona hening. Sistem pelaporan partisipatif memungkinkan pengguna saling mengabarkan dinamika keramaian ruangan demi menciptakan ekosistem belajar yang efisien.","A real-time study space availability and desk reservation platform mapping open seats across IT Del's Library, Academic Buildings, Computer Labs, Gazebos, and Canteen. Includes interactive floorplans, 15-minute quick-hold reservations, facility filters (power outlets, quiet zones), and crowdsourced occupancy updates.","Projek:
+Tujuan dari projek SpotFinder IT Del adalah meningkatkan efisiensi waktu dan produktivitas mahasiswa Institut Teknologi Del dalam menemukan tempat belajar yang kosong di area perpustakaan, gedung perkuliahan, dan fasilitas kampus lainnya tanpa harus mencari secara manual.","1. Eliminate wasted time searching for study seats during exam periods.
+2. Provide transparent visual desk availability across all campus study zones.
+3. Foster an efficient, collaborative campus learning ecosystem.",,,Pending Link,_chat.txt@22/09/26 16.09.42#part2
+Wendy Simanjuntak,12S26024_WendySimanjuntak,,12S26024,Sistem Informasi (SI),Institut Teknologi Del,Teman Seperjalanan IT Del (Sistem Mobilitas dan Panggilan Jalan Bersama ke Asrama),Teman Seperjalanan IT Del: Campus Safe Ride-Sharing & Walking Companion System,Interactive Game,Quadrivium-Arithmetic,"Nama Aplikasi: 
+Teman Seperjalanan IT Del (Sistem Mobilitas dan Panggilan Jalan Bersama ke Asrama)
+
+Tujuan Projek:
+Tujuan dari projek Teman Seperjalanan IT Del adalah meningkatkan keamanan mahasiswa saat kembali ke asrama pada malam hari setelah jam belajar di perpustakaan atau laboratorium, serta memfasilitasi koordinasi tebengan kendaraan untuk menghemat biaya transportasi mahasiswa saat bepergian ke luar kampus.
+
+Fungsi Utama:
+a. Mendeteksi lokasi terkini mahasiswa di area kampus Institut Teknologi Del menggunakan integrasi GPS peramban dan jaringan kampus.
+b. Menyiarkan sinyal panggilan langsung untuk berjalan kaki bersama menuju asrama seperti Asrama Silo, Kapernaum, Anthiokia, Danau Toba, Mamre, Pniel, dan Sion dengan hitung mundur waktu keberangkatan.
+c. Memfasilitasi mahasiswa lain untuk bergabung ke dalam rombongan jalan kaki dengan menekan satu tombol konfirmasi.
+d. Menampilkan daftar tebengan kendaraan motor dan mobil untuk rute luar kampus seperti Bandara Internasional Silangit, Balige Kota, Porsea, dan Tarutung lengkap dengan informasi profil pengemudi mahasiswa.
+e. Menyediakan kalkulator pembagi biaya bahan bakar otomatis per individu untuk pembagian ongkos yang adil dan transparan.
+f. Menyediakan mini game simulasi kendaraan Eco-Ride untuk mengedukasi efisiensi mobilitas bersama di sepanjang jalur Danau Toba.
+
+### Fitur & Fungsi Utama
+a. Mendeteksi lokasi terkini mahasiswa di area kampus Institut Teknologi Del menggunakan integrasi GPS peramban dan jaringan kampus.
+b. Menyiarkan sinyal panggilan langsung untuk berjalan kaki bersama menuju asrama seperti Asrama Silo, Kapernaum, Anthiokia, Danau Toba, Mamre, Pniel, dan Sion dengan hitung mundur waktu keberangkatan.
+c. Memfasilitasi mahasiswa lain untuk bergabung ke dalam rombongan jalan kaki dengan menekan satu tombol konfirmasi.
+d. Menampilkan daftar tebengan kendaraan motor dan mobil untuk rute luar kampus seperti Bandara Internasional Silangit, Balige Kota, Porsea, dan Tarutung lengkap dengan informasi profil pengemudi mahasiswa.
+e. Menyediakan kalkulator pembagi biaya bahan bakar otomatis per individu untuk pembagian ongkos yang adil dan transparan.
+f. Menyediakan mini game simulasi kendaraan Eco-Ride untuk mengedukasi efisiensi mobilitas bersama di sepanjang jalur Danau Toba.
+
+Teman Seperjalanan adalah aplikasi mobilitas civitas akademika yang dirancang untuk mempermudah mahasiswa Institut Teknologi Del dalam menemukan rekan perjalanan bersama, baik untuk rute pulang ke asrama maupun mobilitas luar kampus. Dilengkapi dengan teknologi penunjuk lokasi berbasis geolokasi kampus, sistem ini memungkinkan mahasiswa menyiarkan panggilan jalan bersama secara langsung demi meningkatkan keamanan dan kebersamaan saat beraktivitas malam hari. Platform ini juga menyediakan fitur penjadwalan rombongan, kalkulator pembagian biaya bahan bakar secara proporsional dan adil, serta permainan arkade edukatif bertema efisiensi transportasi. Aplikasi ini berkontribusi dalam membangun budaya tolong-menolong, menekan pengeluaran transportasi mahasiswa, serta mendukung gerakan pengurangan emisi karbon di lingkungan kampus.","A campus mobility and peer-safety platform helping IT Del students find walking or ride-sharing companions for late-night journeys to dormitories or off-campus transit. Features campus geolocation broadcast, ride scheduling, split-fare fuel calculators, and transport efficiency mini-games.","Projek:
+Tujuan dari projek Teman Seperjalanan IT Del adalah meningkatkan keamanan mahasiswa saat kembali ke asrama pada malam hari setelah jam belajar di perpustakaan atau laboratorium, serta memfasilitasi koordinasi tebengan kendaraan untuk menghemat biaya transportasi mahasiswa saat bepergian ke luar kampus.","1. Enhance student safety and mutual assistance during night-time campus travel.
+2. Lower student transportation costs through transparent fair-share cost splitting.
+3. Promote eco-friendly shared campus mobility to reduce carbon emissions.",,,Pending Link,_chat.txt@22/09/26 16.09.42#part3
+Wendy Simanjuntak,12S26024_WendySimanjuntak,,12S26024,Sistem Informasi (SI),Institut Teknologi Del,PolaMatika (Game Teka-Teki Logika dan Pola Bilangan),PolaMatika: Mathematical Sequence & Logic Matrix Puzzle Game,Interactive Game,Quadrivium-Arithmetic,"Nama Game: 
+PolaMatika (Game Teka-Teki Logika dan Pola Bilangan)
+
+Tujuan Projek:
+Tujuan dari projek PolaMatika adalah melatih kemampuan penalaran logis, ketajaman analisis kuantitatif, dan kecepatan berpikir komputasional pengguna melalui pemecahan teka-teki pola barisan angka dan matriks matematika.
+
+Fungsi Utama:
+a. Menyediakan tiga mode permainan utama, yaitu Mode Petualangan tiga puluh level terstruktur, Mode Serangan Waktu enam puluh detik, dan Mode Tanpa Batas berbasis algoritma acak.
+b. Menyajikan beragam variasi pola matematika mulai dari aritmatika bertingkat, barisan geometri, deret Fibonacci, hingga matriks logika angka ukuran tiga kali tiga.
+c. Menyediakan dua metode penginputan jawaban, yaitu mode tombol pilihan ganda dan mode papan tombol angka virtual untuk pengetikan mandiri.
+d. Menampilkan visualisasi petunjuk dan pembahasan rumus matematika lengkap langkah demi langkah untuk setiap soal yang diujikan.
+e. Mencatat data statistik performa pengguna yang meliputi tingkat akurasi persentase, rekor kombo tertinggi, perolehan skor, dan penghargaan lencana prestasi. 
+
+### Fitur & Fungsi Utama
+a. Menyediakan tiga mode permainan utama, yaitu Mode Petualangan tiga puluh level terstruktur, Mode Serangan Waktu enam puluh detik, dan Mode Tanpa Batas berbasis algoritma acak.
+b. Menyajikan beragam variasi pola matematika mulai dari aritmatika bertingkat, barisan geometri, deret Fibonacci, hingga matriks logika angka ukuran tiga kali tiga.
+c. Menyediakan dua metode penginputan jawaban, yaitu mode tombol pilihan ganda dan mode papan tombol angka virtual untuk pengetikan mandiri.
+d. Menampilkan visualisasi petunjuk dan pembahasan rumus matematika lengkap langkah demi langkah untuk setiap soal yang diujikan.
+e. Mencatat data statistik performa pengguna yang meliputi tingkat akurasi persentase, rekor kombo tertinggi, perolehan skor, dan penghargaan lencana prestasi.
+
+PolaMatika adalah game teka-teki logika matematika interaktif yang difokuskan pada pengasahan daya analisis deret bilangan, pola barisan, dan matriks kecerdasan. Pemain ditantang untuk menemukan angka berikutnya pada berbagai variasi pola, seperti deret aritmatika bertingkat, barisan geometri, bilangan Fibonacci, pola kuadrat, hingga matriks logika berukuran tiga kali tiga. Dilengkapi dengan sistem bantuan petunjuk bertahap, visualisasi pemecahan masalah, modul pembahasan rumus matematis komprehensif, serta akumulasi skor dan kombo beruntun, PolaMatika dirancang sebagai sarana latihan berpikir kritis yang efektif untuk persiapan tes potensi akademik, logika komputasi, dan penalaran kuantitatif secara mandiri.","An interactive math puzzle game focusing on numerical pattern recognition, arithmetic series, geometric progressions, Fibonacci sequences, quadratic relations, and 3x3 logic matrices with progressive hints, step-by-step solution derivations, and combo streaks.","Projek:
+Tujuan dari projek PolaMatika adalah melatih kemampuan penalaran logis, ketajaman analisis kuantitatif, dan kecepatan berpikir komputasional pengguna melalui pemecahan teka-teki pola barisan angka dan matriks matematika.","1. Train sharp analytical deduction and pattern recognition for academic potential and technical tests.
+2. Reinforce foundational mathematical sequences through visual, interactive problem solving.
+3. Provide self-paced critical thinking exercises with detailed formula explanations.",,,Pending Link,_chat.txt@22/09/26 16.09.42#part4
+Wendy Simanjuntak,12S26024_WendySimanjuntak,,12S26024,Sistem Informasi (SI),Institut Teknologi Del,Roomcheck It Del,RoomCheck IT Del: Campus Dormitory Facility Maintenance & Ticketing System,Productivity Tool,Trivium-Rhetoric,"RoomCheck IT Del merupakan aplikasi pelayanan terpadu berbasis web yang menghubungkan mahasiswa penghuni asrama dengan divisi sarana dan prasarana Institut Teknologi Del. Platform ini memfasilitasi pelaporan resmi atas kerusakan fasilitas fisik mencakup saluran air, instalasi kelistrikan, kerusakan pintu kamar, kunci macet, mebel patah, dan sanitasi lingkungan. Setiap laporan yang dikirimkan mahasiswa secara otomatis menerbitkan nomor tiket resmi berformat DEL-SARPRAS, mendisposisikan tugas ke teknisi sesuai bidang keahlian, serta terhubung dengan notifikasi pesan WhatsApp langsung. Melalui dasbor kerja lapangan, teknisi dapat memantau antrean, memperbarui status penanganan dari proses verifikasi hingga selesai, serta mencatat log suku cadang, sehingga pemeliharaan asrama berlangsung cepat, akuntabel, dan transparan.","An integrated web-based facility maintenance platform connecting dormitory residents with IT Del's infrastructure and facilities division. Students report plumbing, electrical, furniture, and lock issues, generating official DEL-SARPRAS tracking tickets with instant WhatsApp notifications and technician assignment boards.",,"1. Accelerate dormitory facility repairs through automated ticketing and technician dispatch.
+2. Provide transparent, accountable maintenance status tracking for students.
+3. Enable facilities management to track spare parts inventory and service response times.",,,Pending Link,_chat.txt@22/09/26 16.47.09#part1
+Wendy Simanjuntak,12S26024_WendySimanjuntak,,12S26024,Sistem Informasi (SI),Institut Teknologi Del,Math Adventure,Math Adventure: Turn-Based RPG Arithmetic Quest,Interactive Game,Quadrivium-Arithmetic,"Math Adventure adalah game petualangan matematika berbasis permainan peran yang memadukan pemecahan logika angka dengan mekanisme pertarungan taktis berbasis giliran di Negeri Numeria. Pemain berperan sebagai pahlawan yang menjelajahi tingkatan dunia fantasi dengan menyelesaikan tantangan operasi hitung dan teka-teki logika angka untuk menaklukkan monster. Aplikasi ini dilengkapi dengan sistem perkembangan level karakter, akumulasi koin emas, inventori perlengkapan senjata dan perlindungan, petunjuk visual bertahap, serta mode petualangan terstruktur. Game ini dirancang secara khusus untuk meningkatkan ketajaman berpikir komputasional, daya analisis matematis, dan kecepatan pemecahan masalah mahasiswa melalui simulasi petualangan interaktif.","A role-playing math adventure where players explore the fantasy Realm of Numeria, battling mystical beasts by solving mental arithmetic and logic puzzles. Features hero leveling, weapon/armor gear, step-by-step hints, and quest campaigns.",,"1. Cultivate computational thinking and mathematical problem-solving through RPG mechanics.
+2. Overcome math learning reluctance by turning equations into combat spells.
+3. Deliver a structured, rewarding adventure progression.",,,Pending Link,_chat.txt@22/09/26 16.47.09#part5
+Wendy Simanjuntak,12S26024_WendySimanjuntak,,12S26024,Sistem Informasi (SI),Institut Teknologi Del,Lifequest,LifeQuest: Real-Life Productivity & Gamified Habit Tracker,Educational Tool,Quadrivium-Arithmetic,"LifeQuest adalah aplikasi produktivitas komprehensif berbasis gamifikasi yang mengonversi rutinitas dan aktivitas kehidupan nyata mahasiswa menjadi petualangan permainan peran yang dinamis. Berbagai tindakan positif seperti fokus belajar, membaca literatur ilmiah, berolahraga fisik, menjaga hidrasi air mineral, hingga pencatatan anggaran keuangan diterjemahkan menjadi perolehan poin pengalaman, kenaikan level pahlawan, serta penguatan atribut kecerdasan, kesehatan, finansial, dan disiplin. Platform ini menyediakan papan misi harian mandiri, pertarungan monster tantangan akademik semester, pengatur waktu fokus belajar metode Pomodoro, sistem pencapaian prestasi, serta toko penukaran koin dengan penghargaan di dunia nyata guna membangun kebiasaan produktif mahasiswa secara konsisten dan terarah.","A gamified productivity ecosystem that converts daily student routines (study sessions, scientific reading, workout sessions, hydration, budgeting) into character experience points, hero leveling, and attribute boosts (Intelligence, Vitality, Discipline). Features daily quest boards, semester exam boss battles, Pomodoro timers, and reward redemption.",,"1. Help university students establish consistent, productive daily habits.
+2. Gamify academic preparation and personal wellness through RPG progression.
+3. Provide tangible motivation and self-accountability through achievement tracking.",,,Pending Link,_chat.txt@22/09/26 16.47.09#part6
+Yonathan,11S26054YonathanS1_IF,,11S26054,Informatika (IF),Institut Teknologi Del,Subway Surfers,Subway Surfers: Urban Railway Endless Runner,Interactive Game,Quadrivium-Geometry,"Game Subway Surfers 
+Subway Surfers adalah salah satu game bergenre endless runner (lari tanpa akhir) paling  populer di dunia.
+Dikembangkan oleh Kiloo dan SYBO Games, game ini pertama kali dirilis pada tahun 2012 dan langsung
+menarik perhatian jutaan pemain secara global karena aspek permainannya yang adiktif, penuh warna, dan
+responsif.
+Plot dan Latar Belakang
+Permainan ini berpusat pada sekelompok remaja pembuat grafiti (karakter ikonik utamanya bernama Jake)
+yang tertangkap basah sedang mencoret-coret gerbong kereta oleh seorang Inspektur stasiun yang tegas dan
+anjingnya. Pemain harus membantu karakter tersebut melarikan diri dari kejaran sang Inspektur dengan
+menyusuri rel kereta bawah tanah yang dinamis.
+Mekanisme Gameplay
+Sebagai game lari tanpa akhir, kontrol Subway Surfers sangat sederhana namun menantang. Pemain
+menggunakan gerakan geser (swipe) pada layar untuk melompat, berguling, dan berpindah ke tiga jalur rel
+yang tersedia. Tujuannya adalah menghindari tabrakan dengan kereta yang melaju, palang rintangan, dan
+dinding pembatas sembari mengumpulkan koin emas serta berbagai item peningkat (power-ups).
+Fitur Utama Game
+• Fitur Hoverboard: Papan seluncur terbang yang memberikan perlindungan ekstra dari tabrakan selama
+beberapa detik.
+• Power-Ups Kreatif: Menyediakan item seperti Jetpack (terbang bebas hambatan), Super Sneakers
+(lompatan tinggi), Coin Magnet (menarik koin otomatis), dan Score Multiplier.
+• World Tour: Pembaruan berkala yang mengubah tema visual stasiun dan kota latar belakang berdasarkan
+kota-kota terkenal di dunia.
+• Koleksi Karakter: Pemain dapat membuka berbagai karakter unik dan kostum menarik menggunakan koin atau kunci khusus","An endless runner web game where players navigate a young graffiti artist dodging subway cars, barriers, and pursuit along vibrant train tracks, collecting gold coins and high-score multipliers.","1. Mengumpulkan Skor Tertinggi (Score Chasing)Meningkatkan Pengali Skor (Multiplier): Pemain berusaha menyelesaikan Missions (Misi) untuk menaikkan angka pengali skor hingga maksimal (biasanya 30x atau lebih). Semakin tinggi pengali, semakin cepat skor bertambah saat berlari.Bersaing di Leaderboard: Membandingkan skor tertinggi yang diraih dengan teman atau pemain lain di seluruh dunia.
+2. Mengumpulkan Koin EmasKoin yang tersebar di sepanjang rel kereta berfungsi sebagai mata uang utama dalam game.Tujuannya: Digunakan untuk membeli karakter baru, papan seluncur (hoverboard), kostum, serta melakukan upgrade durasi power-ups (seperti Jetpack, Magnet, dan Sneakers).
+3. Menyelesaikan Misi dan Tantangan HarianTantangan Harian (Daily Challenge): Mengumpulkan huruf-huruf yang tersebar di rel untuk membentuk sebuah kata (misalnya ""TRAIN"" atau ""SURF"") guna mendapatkan hadiah harian.Misi Mingguan (Weekly Hunt): Mengumpulkan objek khusus bertema kota yang sedang dikunjungi dalam World Tour untuk ditukarkan dengan hadiah besar.
+4. Mengoleksi Karakter dan HoverboardMembuka berbagai karakter unik dari seluruh dunia (seperti Jake, Tricky, Fresh, dan karakter eksklusif tiap negara).Mengoleksi berbagai jenis hoverboard yang memiliki kemampuan khusus (misalnya papan yang bisa melompat lebih tinggi atau bergerak lebih cepat).","1. Deliver fast-paced arcade entertainment with responsive lane jumping and sliding.
+2. Implement score multipliers, power-ups, and daily word letter collection challenges.
+3. Test hand-eye coordination and reflex agility under steadily increasing game speed.",,https://github.com/Yonatan123-a11/Subway-Surf,Complete,_chat.txt@22/09/26 16.10.59

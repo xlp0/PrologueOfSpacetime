@@ -48,3 +48,6 @@ service_account*.json
 *.key
 .google_workspace_mcp/
 .workspace-mcp/
+
+# Separate repositories
+abad/
