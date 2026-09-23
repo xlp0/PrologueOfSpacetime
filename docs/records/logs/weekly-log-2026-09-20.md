@@ -68,4 +68,27 @@ liberal_art: Quadrivium-Music
   - **Departmental Flavor:** Informatika (IF) prioritized Three.js 3D graphics, OpenCV computer vision, and math puzzles; Sistem Informasi (SI) prioritized enterprise/campus workflows (FIDS, POS, dormitory ticketing, study desk booking, ride sharing).
 - **Cross-References:** Cataloged in `index.md` and linked in `docs/teaching/itdel_projects/README.md`.
 
+## [2026-09-23] synthesis | Games & Educational Tools Categorized Catalogs
+
+- **Trigger:** User requested a dedicated Markdown document dividing student projects into two categorized master lists: one compiling all interactive games (organized by genre/mechanics), and one compiling all educational tools (organized by pedagogical domain).
+- **Artifact Created:** `docs/teaching/itdel_projects/games_and_educational_tools_catalogs.md` (61.5 KB).
+- **Structure & Categorization:**
+  - **Part I: Master Games Catalog (34 Projects across 7 Genres)**:
+    1. 3D WebGL Action & Endless Runners (5 projects)
+    2. Tactical Combat, Melee & RPG Adventures (7 projects)
+    3. Sports & Kinetic Reflex Simulations (5 projects)
+    4. Psychological Mystery, Social Deduction & Narrative Investigations (4 projects)
+    5. Logic, Arithmetic & Brain Puzzles (5 projects)
+    6. Linguistic, Word Association & Trivia Games (5 projects)
+    7. First-Person Simulation & Everyday Spatial Mini-Games (3 projects)
+  - **Part II: Master Educational Tools Catalog (27 Projects across 6 Domains)**:
+    1. Language, Grammar & Syntactic Learning (6 projects)
+    2. Mathematics, Logic & Computational Thinking (6 projects)
+    3. Computer Science, Programming & Developer Tools (3 projects)
+    4. Science, Ecology & Medical Visualizers (2 projects)
+    5. Academic Task Management, Focus & Study Productivity (7 projects)
+    6. Financial Literacy & Digital Commerce (3 projects)
+- **Traceability:** Full English descriptions, gameplay mechanics, educational features, student attribution, and status links for every entry. Cataloged in `index.md` and linked in `docs/teaching/itdel_projects/README.md`.
+
+
 
