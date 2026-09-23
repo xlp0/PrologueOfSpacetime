@@ -57,3 +57,15 @@ liberal_art: Quadrivium-Music
   - Re-synchronized dual CSV files (`student_projects.csv` and `student_summary.csv`).
   - Created teamwork preview draft artifact (`prompt_draft.md`) for automated multi-agent workflow verification.
 
+## [2026-09-23] synthesis | English Project Catalog & Comparative Topic Analysis
+
+- **Trigger:** User requested a dedicated Markdown file compiling all 57 student projects one-by-one with English explanations and creator attribution, along with an overarching comparative analysis of topics, archetypes, and technologies created by the students.
+- **Artifact Created:** `docs/teaching/itdel_projects/project_catalog_and_comparative_analysis.md` (63 KB).
+- **Core Findings & Structural Breakdown:**
+  - **Category Shares:** Interactive Games (32, 56.1%), Educational Tools (13, 22.8%), Web Applications (4, 7.0%), IoT & Hardware (4, 7.0%), Productivity Tools (2, 3.5%), Simulation & Telemetry (2, 3.5%).
+  - **Six Functional Topic Clusters:** 3D WebGL / Canvas action games, Smart campus living & maintenance infrastructure, Syntax/language/medical EdTech, Math cognition & logic puzzles, Embedded IoT & Computer Vision, Macro/Micro ecological and national telemetry.
+  - **Institutional Contrast:** IT Del students heavily focused on high-action 3D WebGL rendering, campus operational ticketing, and POS tools, while SMA Unggul Del students focused 100% on cognitive tools, developer utilities, and linguistic syntax engines.
+  - **Departmental Flavor:** Informatika (IF) prioritized Three.js 3D graphics, OpenCV computer vision, and math puzzles; Sistem Informasi (SI) prioritized enterprise/campus workflows (FIDS, POS, dormitory ticketing, study desk booking, ride sharing).
+- **Cross-References:** Cataloged in `index.md` and linked in `docs/teaching/itdel_projects/README.md`.
+
+

@@ -23,6 +23,7 @@ liberal_art: Quadrivium-Music
 - **Verified Deliveries**: `14`
 - **Pending Link Verification**: `43`
 - **Master Student Matrix**: [[student_project_matrix|Open Master Student-Project Matrix]]
+- **English Catalog & Topic Analysis**: [[project_catalog_and_comparative_analysis|Open English Project Catalog & Topic Analysis]]
 - **Action Reminders**: [[missing_or_pending|View Pending Link Checklist]]
 - **Lossless Chat Audit**: [[chat_audit|Open Audit Log]]
 - **Downloadable CSV Datasets**:
