@@ -247,10 +247,22 @@ This demonstrates geometry (homography transformation), observation (multi-camer
 * **[`Cubical Logic Model.md`](docs/prologue_of_spacetime_improvement/Cubical%20Logic%20Model.md)**: The formal definition of the CLM.
 * **[`Board Games as Pedagogical Engines`](docs/gameboard/Board_Games_as_Pedagogical_Engines.md)**: Authenticated board games (Monopoly, Chess, Go) as microcosms for teaching the Trivium × Quadrivium framework through play (CLM: `Spec + Impl + Exp`).
 
+### 🚀 Active Sprints Suite (in `docs/sprints/_active/`)
+* **[`Active Sprints Cockpit (README.md)`](docs/sprints/_active/README.md)**: Master dashboard orchestrating the 12 playable game sprints, 6 infrastructure sprints, the Spatiotemporal Compositionality framework, and the Player Axiom.
+* **[`Master Orchestration (SPRINT-00)`](docs/sprints/_active/SPRINT-00-MASTER-ORCHESTRATION.md)**: Alignment charter unifying relativistic tensor kinematics ($F^{\mu\nu}$), Cordis fiber execution, and character revelation.
+* **Playable Civilizational Strategy Game Sprints**:
+  - *Epoch I: Microcosmic Physics & Foundations (Ch 1–4)*: [`Sprint 01: Granular Tidepool`](docs/sprints/_active/SPRINT-01-GRANULAR-TIDEPOOL.md) · [`Sprint 02: Topographic Cell Wall`](docs/sprints/_active/SPRINT-02-TOPOGRAPHIC-CELL-WALL.md) · [`Sprint 03: Harmonic Swarm`](docs/sprints/_active/SPRINT-03-HARMONIC-SWARM.md) · [`Sprint 04: Horizon of Consensus`](docs/sprints/_active/SPRINT-04-HORIZON-OF-CONSENSUS.md)
+  - *Epoch II: Ecosystemic Emergence & Catalysis (Ch 5–8)*: [`Sprint 05: Yoneda Bazaar`](docs/sprints/_active/SPRINT-05-YONEDA-BAZAAR.md) · [`Sprint 06: Subak Meshway`](docs/sprints/_active/SPRINT-06-SUBAK-MESHWAY.md) · [`Sprint 07: Causal Monad Forge`](docs/sprints/_active/SPRINT-07-CAUSAL-MONAD-FORGE.md) · [`Sprint 08: Astrodynamic Nexus`](docs/sprints/_active/SPRINT-08-ASTRODYNAMIC-NEXUS.md)
+  - *Epoch III: Collective Computation & Stewardship (Ch 9–11)*: [`Sprint 09: Hydraulic Vault`](docs/sprints/_active/SPRINT-09-HYDRAULIC-VAULT.md) · [`Sprint 10: Rice Terrace Sheaf`](docs/sprints/_active/SPRINT-10-RICE-TERRACE-SHEAF.md) · [`Sprint 11: Zero-Queue Ceremony`](docs/sprints/_active/SPRINT-11-ZERO-QUEUE-CEREMONY.md)
+  - *Epoch IV: Cosmological Harmony & Civilizational Synthesis (Ch 12)*: [`Sprint 12: Impledicative Calendar`](docs/sprints/_active/SPRINT-12-IMPLEDICATIVE-CALENDAR.md)
+* **Architecture of Strategy (AoS) Infrastructure Sprints**: [`AoS-01: Content Inventory`](docs/sprints/_active/SPRINT-AOS-01-CONTENT-INVENTORY.md) · [`AoS-02: Mathematical Formalization`](docs/sprints/_active/SPRINT-AOS-02-MATHEMATICAL-FORMALIZATION.md) · [`AoS-03: Modularity`](docs/sprints/_active/SPRINT-AOS-03-MODULARITY-AND-DECOUPLING.md) · [`AoS-04: Cross-Domain Synthesis`](docs/sprints/_active/SPRINT-AOS-04-CROSS-DOMAIN-SYNTHESIS.md) · [`AoS-05: Verification & QA`](docs/sprints/_active/SPRINT-AOS-05-VERIFICATION-AND-QA.md) · [`AoS-06: Continuous Filtration`](docs/sprints/_active/SPRINT-AOS-06-CONTINUOUS-FILTRATION.md)
+
 ### Teaching Observations (in `docs/teaching/observations/`)
 * **[`Not Aware of Opportunities`](docs/teaching/observations/not_aware_of_opportunities.md)**: Field observation documenting how students consistently fail to recognize and act on imminent, trivially accessible opportunities — even when all resources (Bose speakers, amplifiers, local engineers, paper, tape) are physically present. Traces the root cause to conventional education suppressing agency and local resourcefulness.
 
 ### Core Narratives (in `docs/narrative/`)
+* **[Prologue of Spacetime Master Document](docs/narrative/Prologue_of_Spacetime_Master_Document.md)**: The comprehensive 313 KB foundational monograph unifying homotopy type theory, digital synesthesia, and cybernetic governance.
+* **[Prologue of Spacetime Ludic Architecture and Synesthetic Game Sprints](docs/narrative/Prologue_of_Spacetime_Ludic_Architecture_and_Synesthetic_Game_Sprints.md)**: Complete game engine and sensory matrix mapping the 12-chapter curriculum to playable strategy loops.
 * **[3E Framework](docs/concepts/3E%20Framework.md)**: The verification architecture of the Prologue — Efficacy → Efficiency → Effectiveness as the Spacetime-Confluence Closure, mapped to Curry-Howard-Lambek.
 * **[Efficacy](docs/concepts/Efficacy.md)**: First 3E dimension — "Can we do it?" — graded measurement of structural richness in the capability space.
 * **[Efficiency](docs/concepts/Efficiency.md)**: Second 3E dimension — "Can we do it within the budget?" — entropy minimization via Categorical Machine and Landauer's Principle.
@@ -363,7 +375,9 @@ This dual force—**Modularity** to divide and conquer complexity, and **Composi
 
 ### 13. Development Status & Updates
 
-* **[Weekly Changelog Index](docs/changelog/README.md)**: Automatically generated weekly logs documenting changes, timestamps, and contributors chronologically.
+* **[Root CHANGELOG.md](CHANGELOG.md)**: High-level release notes and milestone tracking for the entire project.
+* **[Weekly Operations Logs](docs/records/logs/README.md)** & **[Changelog Records](docs/records/README.md)**: Chronological records of agent operations, ingests, lints, and git history.
+* **[2026-09-26: Active Sprints Suite & Relativistic Composability](docs/records/weekly-2026-09-20.md)**: Full synthesis of the 12 playable strategy sprints, Dialect relativistic invariance ($F^{\mu\nu}$), Cordis fiber runtime composability, and the "Knowledge is free, but judgment is not" player axiom.
 * **[2026-02-11: Flow State Engineering](docs/Update_History/2026-02-11_Flow_State_Engineering.md)**: Major update integrating **Faster Interactive Learning** into the core architecture. We defined "Operational Flow" for all 12 MVP Chapters, establishing that **Local-first** (Low Latency) and **Empty Schema** (Low Rigidity) are the necessary physics for the Brain Factory.
 * **[2026-02-07: The Thermodynamic Synthesis](docs/WorkingNotes_Content_Summary_2026-02-07.md)**: Integration of Maxwell's Demon, Kenosis, and Landauer's Principle into the verification architecture.
 * **[2026-02-06: The Polynomial Architecture Update](docs/Update_History/2026-02-06_Polynomial_Architecture.md)**: A major refactor integrating Boundedness, Laplace Damping, and Economic Accounting into the core MVP logic.
@@ -439,6 +453,34 @@ sequenceDiagram
     Team->>Boss: 4. "New System Prompt Generated."
     Boss->>Team: 5. "Welcome New Artist."
 ```
+
+---
+
+### 17. Perspective and Referential Coordinates in Spacetime Compositionality
+
+* **The Relativistic Breakdown**: Conventional reductions of magnetic circulation to electrostatic attraction (Purcell/Feynman) collapse when multiple observers or non-parallel test charges are introduced (the "Crisis of the Second Test Charge"). This reflects **Frame Chauvinism**—mistaking a specific coordinate projection for invariant reality.
+* **Tensorial Invariance**: Electric and magnetic fields are observer-dependent $3+1$ projections of the invariant rank-2 **Faraday System Tensor** ($F^{\mu\nu}_{\text{sys}}$). In distributed software and multi-agent coordination, $[L]$ space (Memory/MCard) and $[T]$ space (Process/PCard) are observer-dependent projections of the 4D causal manifold. Multi-agent systems must compose over gauge-invariant scalars ($I_1 = \frac{1}{2}F_{\mu\nu}F^{\mu\nu}$, $I_2 = \frac{1}{4}F_{\mu\nu}\tilde{F}^{\mu\nu}$, and cohomology), avoiding the "Relativity Shuffle."
+* **Reference**: See [`Perspective and Referential Coordinates in Spacetime Compositionality`](docs/concepts/Perspective_and_Referential_Coordinates_in_Spacetime_Compositionality.md) and [`Dialect: Relativity Unification of Electricity and Magnetism`](docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism.md).
+
+### 18. Cordis: The Meta-Framework for Spatiotemporal Composability
+
+* **Runtime Realization**: Translates relativistic spacetime compositionality into production-grade TypeScript microkernel architecture.
+* **The Five Pillars**:
+  1. **Spatial Isolation (`ctx.isolate`)**: Scoped dependency contexts preventing cross-domain parameter poisoning.
+  2. **Temporal Reversibility (`DisposableList`)**: Strict LIFO cleanup guaranteeing that module hot-reloading (HMR) and failure recovery leave zero leaked side-effects.
+  3. **Directionality ($\text{道}$)**: Execution of non-commutative operational flows where order of disposal matters ($\text{dispose}(B) \circ \text{dispose}(A) \neq \text{dispose}(A) \circ \text{dispose}(B)$).
+  4. **Event-Driven Invariants**: State changes propagate as topological parallel transport across fibers.
+  5. **Hot-Module Replacement (HMR)**: Live code evolution as smooth geometric deformation without process restarts.
+* **Reference**: See [`Cordis: The Meta-Framework for Spatiotemporal Composability`](docs/principles/Cordis_Spatiotemporal_Composability.md).
+
+### 19. "Knowledge Is Free, But Judgment Is Not" (The Player Axiom)
+
+* **The Foundational Slogan**:
+  > *"Knowledge is free, but judgment is not! Knowledge as written or published content can be attained rather publicly in various commons, but using the knowledge in privately interested or self-resolved choices will reveal the color of that person."*
+* **The Thermodynamic Asymmetry**: Knowledge in the public commons ($[L]$ space) has zero marginal distribution cost ($\lim_{N \to \infty} \frac{\partial \text{Cost}}{\partial N} = 0$). But exercising judgment ($[V] \to [T]$ space) collapses possibility spaces, generating Landauer thermodynamic entropy ($\Delta S \ge k_B \ln 2 \cdot \Delta I$).
+* **The CLM Intentional Exponent ($B_{ik}$)**: The Category-Level Model index $B_{ik}$ represents the player's intentional 4-velocity ($u^\mu$). Neutral knowledge cannot hide moral agency; contracting perspective with world events exposes value systems.
+* **Chromatic Revelation of Character**: Private extraction shifts the player's synesthetic aura toward cold infrared shear and acoustic dissonance, dragging down the Software Lagrangian ($\Delta L_{\text{software}} < 0$). In contrast, Gotong Royong and Tri Hita Karana stewardship illuminate the aura in resonant emerald and celestial sapphire, sustaining systemic vitality.
+* **Reference**: See [`Knowledge Is Free, But Judgment Is Not`](docs/concepts/Knowledge_Is_Free_Judgment_Is_Not.md).
 
 ---
 

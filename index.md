@@ -14,8 +14,12 @@ status: stable
 - [[README|Prologue of Spacetime — README]] — top-level synthesis: the Unifying Namespace, HoTT grounding, D&D Representation Engine, 24/7 MLOps continuum. Start here.
 - [[Document_Relationship_Map|Document Relationship Map]] — graph-theoretic + conceptual map of how every page relates: topology, hubs, orphan islands, dangling-link priorities, recommended reconnection actions.
 - [[templates/README|Page Templates]] — 8 templates (concept, principle, source, synthesis, record, plan, chapter_topic, presentation_marp) for creating new wiki pages. Each enforces the AGENTS.md frontmatter schema + the seven liberal arts tag.
+- [[CHANGELOG|Project Changelog]] — milestone releases, active sprint suite history, and architectural revisions.
 
 ## Foundational concepts (`docs/` root)
+- [[docs/principles/Cordis_Spatiotemporal_Composability|Cordis: The Meta-Framework for Spatiotemporal Composability]] — architectural principle unifying spatial isolation (ctx.isolate, fiber tree) and temporal reversibility (LIFO DisposableList, HMR effect migration).
+- [[docs/concepts/Perspective_and_Referential_Coordinates_in_Spacetime_Compositionality|Perspective and Referential Coordinates in Spacetime Compositionality]] — why multi-agent systems compose over tensorial invariants rather than frame chauvinism; 3+1 CLM decomposition ([L] space vs [T] time).
+- [[docs/concepts/Knowledge_Is_Free_Judgment_Is_Not|Knowledge Is Free, But Judgment Is Not]] — player axiom and ethical mechanic: free commons knowledge ([L] space) vs. costly judgment ([V] → [T] space) revealing character color through Landauer dissipation and dynamic synesthetic aura.
 
 - [[The_Representation_Engine|The Representation Engine]] — D&D as iterative word-game loop; the Permutation Thesis (MCard → PCard → VCard → {P}C{Q} tiers).
 - [[Representability|Representability]] — the mathematical limit of expression, characterizing objects by their measurable interactions (Yoneda Lemma).
@@ -47,6 +51,7 @@ status: stable
 - Long-form docs: [[CHESS_GAME_DOCUMENTATION|Chess]] · [[GO_GAME_DOCUMENTATION|Go]] · [[MONOPOLY_GAME_DOCUMENTATION|Monopoly]] · [[Monopoly Game Board PKC story|Monopoly PKC story]]
 
 ## Source summaries (`type: source`)
+- [[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|Dialect — Relativity's Unification of Electricity and Magnetism is Pure Mathematical Fiction]] — deconstructs Purcell/Feynman reduction of magnetism to electrostatics; proves tensorial invariants and perspective define relativistic fields.
 
 - [[deep_learning_and_physics_video_note|Deep Learning & Physics — video note]] — source: `raw/transcripts/deep_learning_and_physics_transcript.txt`. Renormalization ↔ MERA ↔ deep nets; multiscale compression as the shared strategy of physics and AI.
 - *Pending source pages for the 5 PDFs in `raw/articles/` (Prologue_of_Spacetime_introduction, Cognitive_Ascent_Mission_Guide, Engineering_Awe_A_Scale-Free_Architecture, Life_Mind_Machine_Stability, The_Mirror_and_the_Algorithm).*
@@ -80,6 +85,8 @@ Each chapter has a `README` (overview) and an `MVP_The_*` (minimum viable protot
 - [[Pancasila_and_the_Five_WH|Pancasila and the Five-WH]] — mapping the 5-WH inquiry questions to Indonesian Pancasila; both as instances of the Pentadic Threshold.
 
 ## Narrative (`docs/narrative/`)
+- [[docs/narrative/Prologue_of_Spacetime_Master_Document|Prologue of Spacetime Master Document]] — comprehensive master narrative of the meta-game, Tri Hita Karana causal networks, and the 12-chapter matrix.
+- [[docs/narrative/Prologue_of_Spacetime_Ludic_Architecture_and_Synesthetic_Game_Sprints|Prologue of Spacetime: Ludic Architecture and Synesthetic Game Sprints]] — grand strategy game design, four civilizational epochs, dual-type skill lattice, and synesthetic type hierarchy.
 
 - [[Combinatorial Species|Combinatorial Species]] and [[Combinatorial Species Catalog|Species Catalog]] — the combinatorial bestiary.
 - [[Function-Number Duality|Function-Number Duality]] · [[Lambda Calculus and the Three Foundational Metrics of Representables|Lambda Calculus & 3 Metrics]] · [[Symmetry|Symmetry]] · [[Judgment|Judgment]] · [[Why Three|Why Three]] · [[TAME|TAME]].
@@ -87,6 +94,34 @@ Each chapter has a `README` (overview) and an `MVP_The_*` (minimum viable protot
 - [[Science of Approximation|Science of Approximation]] · [[Sovereign Truth and Sustainable Swarms|Sovereign Truth & Sustainable Swarms]].
 - [[PKC as an Autonomous Mesh Network|PKC as Autonomous Mesh]] · [[PTR|PTR]] · [[REPL|REPL]] · [[MVP Cards Design Rationale|MVP Cards Rationale]].
 - [[why_linguists|why linguists]] · [[xiao_yao_you|xiao yao you]].
+
+## Active Sprints (`docs/sprints/_active/`)
+
+- [[docs/sprints/_active/README|Active Sprints Workspace Overview]] — cockpit and status matrix for the civilizational strategy game sprint suite.
+- [[docs/sprints/_active/SPRINT-00-MASTER-ORCHESTRATION|Sprint 00: Master Orchestration Plan]] — civilizational strategy game, synesthetic type lattice, and Tri Hita Karana synthesis.
+- **Epoch I: The Primordial Sensorium (Why / Rhetoric Era)**
+  - [[docs/sprints/_active/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]] — discrete bitstream sieving, Shannon entropy, auditory pulse train.
+  - [[docs/sprints/_active/SPRINT-02-TOPOGRAPHIC-CELL-WALL|Sprint 02: The Topographic Cell Wall]] — geometric membrane enclosure, Gauss-Bonnet curvature, topological parallax.
+  - [[docs/sprints/_active/SPRINT-03-HARMONIC-SWARM|Sprint 03: The Harmonic Swarm]] — rhythmic cadence locking, Kuramoto phase order, harmonic dissonance perception.
+  - [[docs/sprints/_active/SPRINT-04-HORIZON-OF-CONSENSUS|Sprint 04: The Horizon of Consensus]] — multi-observer parallax triangulation, Huber loss, spectral coherence.
+- **Epoch II: The Sovereign Tribal Mesh (What / Logic Era)**
+  - [[docs/sprints/_active/SPRINT-05-YONEDA-BAZAAR|Sprint 05: The Yoneda Bazaar]] — dual-category resource allocation, Yoneda test probes, thermal haptic feedback.
+  - [[docs/sprints/_active/SPRINT-06-SUBAK-MESHWAY|Sprint 06: The Subak Meshway]] — topological Reticulum routing, max-flow min-cut, fluidic vector streams.
+  - [[docs/sprints/_active/SPRINT-07-CAUSAL-MONAD-FORGE|Sprint 07: The Causal Monad Forge]] — Petri net place-transitions, non-commutative causality, phosphorescent causal trails.
+  - [[docs/sprints/_active/SPRINT-08-ASTRODYNAMIC-NEXUS|Sprint 08: The Astrodynamic Nexus]] — Socratic forward simulation, Lyapunov exponents, attractor manifold holography.
+- **Epoch III: The Sheaf Metamaterial (How / Grammar Era)**
+  - [[docs/sprints/_active/SPRINT-09-HYDRAULIC-VAULT|Sprint 09: The Hydraulic Vault]] — typed micro-measurement, algebraic sum/product types, crystalline lattice sight.
+  - [[docs/sprints/_active/SPRINT-10-RICE-TERRACE-SHEAF|Sprint 10: The Rice Terrace Sheaf]] — topographic sheaf gluing, vanishing Čech cohomology H¹ = 0, zero-shear manifold vision.
+  - [[docs/sprints/_active/SPRINT-11-ZERO-QUEUE-CEREMONY|Sprint 11: The Zero-Queue Ceremony]] — Kotekan interlocking rhythms, Little's Law collapse W_q ≡ 0, acoustic strobe resonance.
+- **Epoch IV: The Planetary Noosphere (Transcendent Era / Synthesis)**
+  - [[docs/sprints/_active/SPRINT-12-IMPLEDICATIVE-CALENDAR|Sprint 12: The Impredicative Calendar]] — Tri Hita Karana planetary synthesis, Software Lagrangian, universal noospheric synesthesia.
+- **Algebra of Systems (AoS) Reorganization Suite**
+  - [[docs/sprints/_active/SPRINT-AOS-01-CONTENT-INVENTORY|Sprint AoS-01: Content Inventory & Topic Taxonomy]]
+  - [[docs/sprints/_active/SPRINT-AOS-02-MATHEMATICAL-FORMALIZATION|Sprint AoS-02: Mathematical Formalization & Rank-Nullity]]
+  - [[docs/sprints/_active/SPRINT-AOS-03-MODULARITY-AND-DECOUPLING|Sprint AoS-03: Modularity, Decoupling & Independence Axiom]]
+  - [[docs/sprints/_active/SPRINT-AOS-04-CROSS-DOMAIN-SYNTHESIS|Sprint AoS-04: Cross-Domain Synthesis & Real Options]]
+  - [[docs/sprints/_active/SPRINT-AOS-05-VERIFICATION-AND-QA|Sprint AoS-05: Verification & Zero-Loss QA]]
+  - [[docs/sprints/_active/SPRINT-AOS-06-CONTINUOUS-FILTRATION|Sprint AoS-06: Continuous Filtration & Loopback Mechanics]]
 
 ## Game design (`docs/game_design/`, `docs/gameboard/`)
 
