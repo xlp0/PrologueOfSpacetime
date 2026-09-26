@@ -87,6 +87,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Symplectic phase space coordinates $(\mathbf{q}, \mathbf{p}) \in T^* Q$ with canonical symplectic 2-form $\omega = \sum dq_i \wedge dp_i$. Observer worldline parameterized by proper time $\tau$.
 - **Tensorial Invariant vs. Coordinate Artifact**: Symplectic 2-form conservation $\mathcal{L}_X \omega = 0$ (Liouville theorem), the trace of the monodromy matrix $\text{Tr}(\mathcal{M})$, and the maximum Lyapunov exponent $\lambda_{\max}$ are coordinate-free orbital invariants. Instantaneous phase positions $\mathbf{q}(t)$ are frame projections.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Gravitational $N$-body resonance perturbations, solar radiation pressure, and orbital eccentricities represent spacecraft attempting to "jump between different physical realities" (chaotic orbital decay vs. hyperbolic solar ejection). The chance of coming back into a consistent, order-preserving entry (a closed periodic Keplerian orbit torus) is the chemical propellant $\Delta v$ that reaction control thrusters must burn as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-08-nexus` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ astrodynamic_orbit: Symbol('astrodynamic_orbit') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -141,6 +142,7 @@ CREATE TABLE IF NOT EXISTS mcard_astrodynamic_orbits (
 Runge-Kutta integration and Lyapunov phase portrait formulas are public tools. Forward simulation reveals an economic policy that generates massive 10x resource yields immediately, but triggers an irreversible 80% ecological collapse ten cycles later. Cashing out for short-term glory reveals an insatiable, parasitic red core that tears the attractor manifold; choosing generational equilibrium preserves the closed Lyapunov orbit in shimmering, eternal golden harmony.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

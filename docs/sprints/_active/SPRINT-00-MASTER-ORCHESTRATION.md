@@ -180,6 +180,14 @@ In our **Digital Synesthesia** engine, player reputation and moral alignment are
 ### 4.3 Judgment Dilemma in Every Sprint
 Every active sprint (S01 through S12) requires players to resolve an explicit **Judgment Dilemma**. The game provides all technical knowledge freely, but evaluates players on the moral and systemic consequences of their choices.
 
+### 4.4 Vibration, Perturbation, and the Energy Cost of Coherence
+A foundational physical insight links agent agency with non-equilibrium statistical mechanics and quantum field theory:
+> **"Vibration and perturbation are the chances for physical entities to try to demonstrate their free will to jump between different physical realities; the chance of coming back into a consistent, order-preserving entry is the cost these collective particles must pay as 'energy'."**
+
+1. **Vibrations as Proto-Agency ($\delta x(t)$)**: In Feynman path integrals ($\mathcal{Z} = \int \mathcal{D}[x(t)] e^{\frac{i}{\hbar} S}$), particles probe all off-shell trajectories. Perturbations, noise, and oscillations are not merely passive errors; they are the exploratory degrees of freedom whereby entities attempt to jump between alternative physical realities, counterfactual branches, and speculative states.
+2. **Re-coherence and the Energy Currency**: To prevent divergence into pure entropic chaos ($H \to \infty$), the collective ensemble must pull these vibrating, off-shell probes back into a consistent, order-preserving entry (a macroscopic trajectory, a shared causal history, or a monotonic ledger block).
+3. **The Definition of "Energy"**: In the *Prologue of Spacetime*, **"Energy" is precisely the cost paid by collective particles to buy back consistent order from the chaos of uncoordinated exploration.** By Landauer's Principle ($\Delta S \ge k_B \ln 2 \cdot \Delta I$), reconciling alternative paths into an idempotent, monotonic record requires energetic work. This energetic expenditure directly shapes the **Software Lagrangian** ($L_{\text{software}} = S_T - H_T$). See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
+
 ## 5. The 12-Sprint Civilizational Game Matrix
 
 The game is divided into four historical epochs matching civilizational scale:

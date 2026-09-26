@@ -93,6 +93,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Product manifold $\mathcal{M} = \mathcal{M}_{\text{pawukon}} \times \mathcal{M}_{\text{saka}} \times \mathcal{M}_{\text{solar}}$ parameterized by planetary biospheric spacetime coordinates.
 - **Tensorial Invariant vs. Coordinate Artifact**: Stationary action of the Software Lagrangian $\delta \int (S_T - H_T) dt = 0$ and the Tri Hita Karana alignment tensor are universal scalars. Local cultural calendar day names and lunar phase timestamps are coordinate projections.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Planetary orbital precession drift, calendar intercalation slippage, and societal friction oscillations represent historical communities attempting to "jump between different physical realities" (anarchic chronological divergence vs. totalitarian temporal freezing). The chance of coming back into a consistent, order-preserving entry (harmonic convergence of the 210-day Pawukon cycle with the solar year) is the whole-civilization ritual coordination and computational governance that the collective must pay as "energy" ($L_{\text{software}} = S_T - H_T$). See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-12-noosphere` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ planetary_calendar: Symbol('planetary_calendar') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -149,6 +150,7 @@ CREATE TABLE IF NOT EXISTS mcard_noospheric_calendar (
 The 210-day Pawukon cycle tables and the Software Lagrangian equations are fully revealed. The player stands at the helm of a planetary civilization: do they deploy computational power to subjugate and strip-mine nature for total mechanical supremacy ($H_T \\gg S_T$), or do they coordinate technology, community, and biosphere into an unbroken covenant of mutual flourishing? Industrial hubris suffocates the planet in entropic soot; Tri Hita Karana stewardship unlocks the Universal Noospheric Symphony, bathing the cosmos in eternal, living light.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

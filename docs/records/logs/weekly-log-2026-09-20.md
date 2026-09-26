@@ -145,5 +145,17 @@ liberal_art: Quadrivium-Music
   - `docs/sprints/_active/README.md` (prominent callout of the Player Axiom in the sprint cockpit)
   - `docs/sprints/_active/SPRINT-00-MASTER-ORCHESTRATION.md` (formal Section 4: Ludic Core & Player Axiom with flowchart and synesthetic color scale)
   - `docs/sprints/_active/SPRINT-01-GRANULAR-TIDEPOOL.md` through `SPRINT-12-IMPLEDICATIVE-CALENDAR.md` (injected sprint-specific moral dilemmas pitting private extraction against communal flourishing, character chromatic shifts, and Definition of Done gates)
-  - `index.md` (cataloged new concept under Foundational concepts)
 - **Notes:** Connected the cognitive cost of commitment to the Software Lagrangian ($L = S_T - H_T$) and the Tri Hita Karana ethical equilibrium, establishing an immutable ludic mechanic where player decisions modulate their visible synesthetic aura.
+
+## [2026-09-26] synthesis | Physical Proto-Agency: Vibration, Perturbation, and the Energy Cost of Coherence
+
+- **Trigger:** User directed the sprints to formalize that vibration and perturbation are the chances for physical entities to try to demonstrate their free will to "jump between different physical realities", and the chance of coming back into a consistent, order-preserving entry is the cost these collective particles must pay as "energy".
+- **Files created:**
+  - `docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence.md` (foundational concept connecting Feynman path-integral off-shell exploration, the fluctuation-dissipation theorem, Landauer erasure, and order-preserving state contraction to physical energy)
+- **Files refined:**
+  - `docs/sprints/_active/README.md` (added Vibration & Energy Cost of Coherence callout)
+  - `docs/sprints/_active/SPRINT-00-MASTER-ORCHESTRATION.md` (added Section 4.4 formalizing the physical proto-agency principle and its relation to the Software Lagrangian)
+  - `docs/sprints/_active/SPRINT-01-GRANULAR-TIDEPOOL.md` through `SPRINT-12-IMPLEDICATIVE-CALENDAR.md` (injected sprint-specific vibration/perturbation models, alternate realities explored, collective energetic costs of coherence, and added DoD checklist verification gates)
+  - `README.md` (added Section 20 on Vibration, Perturbation, and the Energy Cost of Coherence)
+  - `CHANGELOG.md` & `index.md` (cataloged and indexed new concept)
+- **Notes:** Harmonized microscopic fluctuations with macroscopic consensus, defining "energy" not as an abstract scalar, but as the thermodynamic and computational work required by collective ensembles to reconcile uncoordinated, free exploratory trajectories into an enduring, order-preserving reality.

@@ -88,6 +88,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: 2D Riemannian surface coordinates $(u, v)$ parameterized along the membrane manifold with metric $g_{ab}$; observer perspective moves along the boundary $\partial \Omega$ with tangent 4-vector $T^\mu$.
 - **Tensorial Invariant vs. Coordinate Artifact**: The Euler characteristic $\chi(M) = 1$ and Gauss-Bonnet integral $\int K dA + \oint k_g ds = 2\pi$ are topological invariants that hold under any spatial transformation. In contrast, local perimeter length $L$ and local boundary curvatures $k_g(s)$ undergo relativistic deformation under relative velocity.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Lipid bilayer thermal undulations and osmotic pressure fluctuations represent membrane particles attempting to "jump between different physical realities" (dissolved open solution vs. rigid crystalline cage). The chance of coming back into a consistent, order-preserving entry (a closed topological manifold preserving internal cytoplasm) is the free energy ($\Delta G_{\text{ATP}}$) that active ion pumps must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-02-cellwall` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ membrane_enclosure: Symbol('membrane_enclosure') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -140,6 +141,7 @@ CREATE TABLE IF NOT EXISTS mcard_membranes (
 The Gauss-Bonnet theorem and perimeter closure formulas cost nothing to read. But deciding where to erect the membrane (\\text{己志}) forces a profound choice: does the player enclose all local energy tokens within a selfish, impermeable fortress, or do they construct a porous sanctuary with regulated exchange gates that shelter fragile neighboring proto-cells? Building a selfish fortress produces high red boundary shear; cultivating a shared sanctuary bathes the terrain in calm, distortion-free topological emerald.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

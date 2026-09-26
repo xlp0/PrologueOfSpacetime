@@ -4,6 +4,9 @@
 > **The Player's Axiom**: *"Knowledge is free, but judgment is not! Knowledge as written or published content can be attained rather publicly in various commons, but using the knowledge in privately interested or self-resolved choices will reveal the color of that person."*
 > In this meta-game, all formulas, network protocols, and architectural models are accessible openly in the public commons. However, every sprint forces players to exercise **Judgment**—making irreversible choices between private extractive advantage and communal flourishing (Gotong Royong). These choices directly shift the player's **Synesthetic Chromatic Signature** ("the color of character") and govern their standing across the Tri Hita Karana cosmic order.
 
+> [!NOTE]
+> **Vibration, Free Will, and the Energy of Coherence**: Vibration and perturbation are the physical substrate of agency—the opportunities for physical entities to try to demonstrate their free will to "jump between different physical realities" (exploring off-shell trajectories, superposition states, and counterfactual futures). The chance of coming back into a consistent, order-preserving entry is the irreducible cost these collective particles must pay as **"energy"** (work, action, and Landauer dissipation). See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
+
 title: "Active Sprints Workspace: Prologue of Spacetime"
 date: 2026-09-26
 tags: [Sprint, Meta-Game, PrologueOfSpacetime, Civilizational-Strategy, Tri-Hita-Karana, Digital-Synesthesia]

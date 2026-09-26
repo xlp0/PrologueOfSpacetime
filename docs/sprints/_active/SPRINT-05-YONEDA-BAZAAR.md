@@ -91,6 +91,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Dual economic ledger coordinates (Inflow vs. Outflow) in the rest frame of the local enclave trading post with thermodynamic temperature $T$.
 - **Tensorial Invariant vs. Coordinate Artifact**: Net Landauer entropy dissipation $\Delta S = \Delta Q / T$ and the Yoneda natural isomorphism $h^A \cong h^B$ are frame-independent invariants. Spot commodity prices and exchange ratios are coordinate projections dependent on local enclave supply/demand frames.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Erratic bid-ask spread fluctuations, speculative volume spikes, and local liquidity shocks represent market agents attempting to "jump between different physical realities" (arbitrary valuation regimes, speculative asset bubbles, and price dislocations). The chance of coming back into a consistent, order-preserving entry (Yoneda market-clearing equilibrium $\sum \text{Inflow} = \sum \text{Outflow}$) is the liquidity reserves and settlement fees that the exchange must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-05-bazaar` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ yoneda_barter: Symbol('yoneda_barter') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -147,6 +148,7 @@ CREATE TABLE IF NOT EXISTS mcard_yoneda_exchange (
 The Yoneda Lemma and dual-ledger mathematics are public knowledge. When a neighboring enclave suffers a compute freeze during an algorithmic drought, does the player exploit their desperation with usurious price spikes, or establish a fair, reciprocal exchange that preserves mutual survival with zero Landauer heat dissipation? Predatory pricing induces burning, sticky haptic drag; cooperative barter renders controls cool, frictionless, and ice-smooth.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

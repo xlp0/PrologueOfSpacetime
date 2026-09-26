@@ -94,6 +94,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Multi-observer network where each observer $k$ carries independent 4-velocity $u^\mu_k$ and sightline 4-vector $n^\mu_k$ directed toward celestial target beacons.
 - **Tensorial Invariant vs. Coordinate Artifact**: The objective spacetime event $X^\mu_*$ of the beacon and the epistemic chi-squared residual $\chi^2$ are coordinate-free invariants. In contrast, local angular bearings $\theta_k$ are observer-dependent projections distorted by parallax and relativistic aberration (Dialect: consensus is the invariant intersection, not frame uniformity).
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Transit latency jitter, relativistic drift, and uncoordinated fork proposals represent validator nodes attempting to "jump between different physical realities" (divergent ledger timelines and conflicting state histories). The chance of coming back into a consistent, order-preserving entry (canonical monotonic Paxos/Raft log linearization) is the computational validation and cryptographic work that the network must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-04-consensus` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ parallax_consensus: Symbol('parallax_consensus') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -148,6 +149,7 @@ CREATE TABLE IF NOT EXISTS mcard_consensus_attestation (
 Celestial trigonometry and Huber loss estimators are available to all. An adversarial Sybil coalition offers the player a high-yield token reward to sign off on a false astronomical bearing. Selling the signature ($V_{\\text{post}}$) provides immediate private wealth but distorts the valley's navigation grid. Colluding with Sybils smears the visual field in murky, disorienting chromatic aberration; holding the line on geometric truth collapses the spectrum into an unforgeable, razor-sharp sapphire beam.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

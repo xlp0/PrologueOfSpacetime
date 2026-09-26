@@ -482,6 +482,15 @@ sequenceDiagram
 * **Chromatic Revelation of Character**: Private extraction shifts the player's synesthetic aura toward cold infrared shear and acoustic dissonance, dragging down the Software Lagrangian ($\Delta L_{\text{software}} < 0$). In contrast, Gotong Royong and Tri Hita Karana stewardship illuminate the aura in resonant emerald and celestial sapphire, sustaining systemic vitality.
 * **Reference**: See [`Knowledge Is Free, But Judgment Is Not`](docs/concepts/Knowledge_Is_Free_Judgment_Is_Not.md).
 
+### 20. Vibration, Perturbation, and the Energy Cost of Coherence
+
+* **The Physical Axiom**:
+  > *"Vibration and perturbation are the chances for physical entities to try to demonstrate their free will to jump between different physical realities; the chance of coming back into a consistent, order-preserving entry is the cost these collective particles must pay as 'energy'."*
+* **Exploratory Proto-Agency**: In quantum path integrals ($\mathcal{Z} = \int \mathcal{D}[x(t)] e^{\frac{i}{\hbar} S}$) and non-equilibrium fluctuations, perturbations ($\delta x(t)$) are not defects; they are the exploratory degrees of freedom where physical entities assert proto-agency—momentarily leaping off-shell to test counterfactual physical realities.
+* **Order-Preserving Contraction as Energy**: An unconstrained collection of freely vibrating entities quickly disintegrates into thermal noise. Re-cohering divergent worldlines into a single, consistent, order-preserving macroscopic record (a living cell, a stable orbit, or a consensus ledger) requires an irreversible erasure of off-shell branches. That thermodynamic toll ($W \ge k_B T \ln 2 \cdot \Delta I$) is precisely what physics defines as **"energy"**.
+* **Systemic Realization**: Across all 12 game sprints, players must balance the entities' vital need to vibrate (explore alternate realities) against the collective energetic expenditure required to maintain order-preserving coherence.
+* **Reference**: See [`Vibration, Perturbation, and the Energy Cost of Coherence`](docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence.md).
+
 ---
 
 ## Conclusion

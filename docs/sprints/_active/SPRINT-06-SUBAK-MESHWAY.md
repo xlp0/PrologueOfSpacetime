@@ -100,6 +100,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: 3D topographic terrain coordinates $(x, y, z)$ over the Balinese volcanic landscape; packet propagation parameterized by 4-momentum $p^\mu = (E/c, \mathbf{p})$.
 - **Tensorial Invariant vs. Coordinate Artifact**: The max-flow min-cut network capacity $C(s, t)$ and 4-divergence continuity $\nabla_\mu J^\mu = 0$ are geometric invariants. Per-hop transit latencies and instantaneous packet velocities are coordinate-dependent projections.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Seasonal monsoon variance, hydraulic surge turbulence, and silt accumulation represent flowing water particles attempting to "jump between different physical realities" (flash-flood washouts vs. parched drought chasms). The chance of coming back into a consistent, order-preserving entry (equitable, synchronized water delivery across all terrace weirs) is the manual Gotong Royong labor and maintenance work that the agricultural collective must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-06-meshway` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ reticulum_routing: Symbol('reticulum_routing') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -154,6 +155,7 @@ CREATE TABLE IF NOT EXISTS mcard_reticulum_routes (
 Reticulum network protocols and RF propagation models are free for anyone to inspect. Monopolistic landlord towers offer fast private transit for those who pay exorbitant tolls and accept surveillance logging. Does the player abandon the commons for private speed, or allocate local battery and antenna power to relay encrypted traffic for their peers? Toll submission darkens packets with tracking grime; mesh stewardship lights up the mountain ridges with fluidic neon streamlines.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

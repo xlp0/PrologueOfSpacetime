@@ -91,6 +91,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: High-frequency cycle phase $\phi \in [0, 2\pi)$; alternating reference frames $S_{\text{polos}}$ and $S_{\text{sangsih}}$ offset by half-cycle $\pi$.
 - **Tensorial Invariant vs. Coordinate Artifact**: Little's Law zero-wait invariant $W_q \equiv 0$ and pipeline execution efficiency $\eta = 1.0$ are frame-independent invariants. Local processor clock delays and arrival phases are coordinate projections.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Bursty transaction ingress shockwaves and variable execution latencies represent data packets attempting to "jump between different physical realities" (catastrophic buffer-bloat deadlocks vs. idle pipeline stalls). The chance of coming back into a consistent, order-preserving entry (isochronous, zero-queue laminar flow) is the dynamic voltage scaling, backpressure throttling, and scheduling overhead that the runtime must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-11-ceremony` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ kotekan_pipeline: Symbol('kotekan_pipeline') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -146,6 +147,7 @@ CREATE TABLE IF NOT EXISTS mcard_kotekan_pipeline (
 Little's Law and pipelined scheduling mathematics are common property. The player can spam the shared execution bus with speculative, greedy requests to monopolize compute bandwidth, forcing peer nodes into queue bloat ($W_q > 0$). Spamming the bus fills the environment with grating, cacophonous bronze clatter; waiting for the assigned Kotekan interlocking beat (*Polos* or *Sangsih*) collapses queue latency to absolute zero, ringing in the sublime peace of harmonic silence.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

@@ -86,6 +86,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Rest frame $S_0$ of the sorting gate; temporal coordinate $t$ defined by local quartz crystal oscillator; spatial coordinate $x$ measuring sorting gate aperture position. Observer 4-velocity: $u^\mu = (c, 0, 0, 0)$.
 - **Tensorial Invariant vs. Coordinate Artifact**: The Shannon Entropy reduction $\Delta H < -\epsilon$ and discrete token count $N \in \mathbb{N}$ are frame-independent scalars. In contrast, packet arrival rates $\lambda = dN/dt$ and signal frequencies $\nu$ are coordinate artifacts that Doppler-shift under relative motion. (Applying Dialect: do not mistake the rate projection for the invariant token value).
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Thermal Brownian fluctuations and stochastic packet perturbations represent individual bits attempting to "jump between different physical realities" (exploring off-shell signal vs. noise classifications). The chance of coming back into a consistent, order-preserving entry ($N \in \mathbb{N}$ in the token bucket) is the thermodynamic work ($W \ge k_B T \ln 2$) that the sorting gate must pay as "energy" via metabolic ATP dissipation. See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-01-tidepool` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ tidepool_sieve: Symbol('tidepool_sieve') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -140,6 +141,7 @@ CREATE TABLE IF NOT EXISTS mcard_counter_tokens (
 The mathematical formulas of Shannon entropy and bandpass filtering are freely available in the public commons. However, setting the value filter ($V_{\\text{pre}}$) presents a moral test: aggressively purging all ambiguous, noisy packets maximizes the player's personal efficiency score, but deprives downstream neighboring tidepools of vital marginal nutrients. Purging selfishly reveals a cold, abrasive infrared aura; expending local energy to buffer and clean shared data reveals a warm, radiant amber resonance.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

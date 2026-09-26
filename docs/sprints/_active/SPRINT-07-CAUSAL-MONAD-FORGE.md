@@ -91,6 +91,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Causal poset coordinates $(P, \prec)$ parameterized along relativistic light-cone coordinates $u = t - x/c$ and $v = t + x/c$.
 - **Tensorial Invariant vs. Coordinate Artifact**: Petri net liveness, boundedness, and the S-invariant conservation equation $\mathbf{y}^T M_k = \mathbf{y}^T M_0$ are frame-independent topological markings. The specific chronological interleaving order of concurrent space-like separated transitions is a coordinate artifact.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Asynchronous thread scheduling jitter and concurrent Petri net race conditions represent transition firings attempting to "jump between different physical realities" (divergent, non-deterministic causal execution posets). The chance of coming back into a consistent, order-preserving entry (linearized monadic state sequencing) is the memory-barrier cycles, lock-free CAS retries, and cache invalidation that the processor must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-07-forge` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ causal_petri_net: Symbol('causal_petri_net') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -145,6 +146,7 @@ CREATE TABLE IF NOT EXISTS mcard_petri_transitions (
 Petri net incidence matrices and transition firing rules are open to all. The player discovers a race hazard allowing them to inject their own transaction ahead of communal trade queues (front-running). Exploiting the race yields quick private tokens but induces deadlock siphons in community workflows. Front-running tears smoldering scars into the causal poset; strict chronological honesty leaves luminous, phosphorescent green light-cones of permanent honor.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

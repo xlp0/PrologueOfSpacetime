@@ -97,6 +97,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Topological open cover $\mathcal{U} = \{U_i\}$ of terrace charts with transition homeomorphisms $\psi_{ij} = \phi_j \circ \phi_i^{-1}$ between adjacent elevations.
 - **Tensorial Invariant vs. Coordinate Artifact**: The vanishing first Čech cohomology group $\check{H}^1(\mathcal{U}, \mathcal{F}) = 0$ and the zero-shear tensor norm $T_{ij} \equiv 0$ are coordinate-free sheaf invariants. Individual terrace water schedules $s_i$ are local coordinate sections.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Microclimatic fluctuations, soil nutrient gradients, and localized pest infestation shocks represent terrace patches attempting to "jump between different physical realities" (agricultural blight vs. localized hyper-abundance). The chance of coming back into a consistent, order-preserving entry (a continuous global section across the sheaf without Čech cohomology obstructions) is the coordinated ecological cultivation and organic bio-cycling that the Subak society must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-10-sheaf` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ subak_terrace_sheaf: Symbol('subak_terrace_sheaf') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -151,6 +152,7 @@ CREATE TABLE IF NOT EXISTS mcard_terrace_sheaf (
 Sheaf cohomology and restriction functors are accessible in the library. During an unexpected drought, upstream terraces can hold water to guarantee their own rich crop while lower terraces desiccate. Does the upstream player hoard water, or honor ancient Balinese Awig-Awig customary law by releasing water downstream so the entire valley starves the planthopper pests together? Hoarding creates jagged, bleeding shear lines across the hillsides; solidarity transforms the watershed into a zero-shear, radiant emerald metamaterial.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

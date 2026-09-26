@@ -89,6 +89,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Volumetric coordinate space $(V_1, V_2, \dots, V_m)$ across weir sensor nodes; mass balance parameterized by proper flow time $\tau$.
 - **Tensorial Invariant vs. Coordinate Artifact**: The total mass conservation invariant $\oint \mathbf{J} \cdot d\mathbf{A} = \frac{dM}{dt}$ and the cryptographic SHA-256 hash of the sealed MCard ledger are unalterable scalars. Local weir water levels $h(t)$ are coordinate projections.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Thermal cryptographic noise, side-channel emissions, and quantum zero-point fluctuations represent microstate variables attempting to "jump between different physical realities" (unauthorized state leakage vs. brittle decryption failure). The chance of coming back into a consistent, order-preserving entry (a valid zero-knowledge circuit satisfaction proof) is the arithmetic curve pairing and elliptic polynomial evaluation that the verifying node must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-09-vault` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ hydraulic_ledger: Symbol('hydraulic_ledger') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -145,6 +146,7 @@ CREATE TABLE IF NOT EXISTS mcard_hydraulic_ledger (
 Pacioli's double-entry bookkeeping and mass conservation equations are freely taught. A concealed fissure in the weir canal allows the player to divert 15% of public irrigation water into private fish ponds undetected. Concealing the leak exposes the hollow morality of secret theft; reporting the breach and cryptographically sealing the double-entry MCard ledger crystallizes the player's character into a flawless, transparent diamond prism.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).

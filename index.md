@@ -20,6 +20,7 @@ status: stable
 - [[docs/principles/Cordis_Spatiotemporal_Composability|Cordis: The Meta-Framework for Spatiotemporal Composability]] — architectural principle unifying spatial isolation (ctx.isolate, fiber tree) and temporal reversibility (LIFO DisposableList, HMR effect migration).
 - [[docs/concepts/Perspective_and_Referential_Coordinates_in_Spacetime_Compositionality|Perspective and Referential Coordinates in Spacetime Compositionality]] — why multi-agent systems compose over tensorial invariants rather than frame chauvinism; 3+1 CLM decomposition ([L] space vs [T] time).
 - [[docs/concepts/Knowledge_Is_Free_Judgment_Is_Not|Knowledge Is Free, But Judgment Is Not]] — player axiom and ethical mechanic: free commons knowledge ([L] space) vs. costly judgment ([V] → [T] space) revealing character color through Landauer dissipation and dynamic synesthetic aura.
+- [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]] — physical proto-agency (free will to jump between alternate realities) and the thermodynamic cost collective particles pay in energy to re-establish an order-preserving entry.
 
 - [[The_Representation_Engine|The Representation Engine]] — D&D as iterative word-game loop; the Permutation Thesis (MCard → PCard → VCard → {P}C{Q} tiers).
 - [[Representability|Representability]] — the mathematical limit of expression, characterizing objects by their measurable interactions (Yoneda Lemma).

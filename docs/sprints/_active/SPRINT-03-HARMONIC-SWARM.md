@@ -89,6 +89,7 @@ Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|D
 
 - **Referential Coordinate System & Perspective ($u^\mu$)**: Comoving reference frame $S_{\text{cm}}$ of the swarm center of mass; relative spatial coordinates $\mathbf{r}_i - \mathbf{r}_{\text{cm}}$ and relative phase angles $\theta_i \in [-\pi, \pi]$. Swarm 4-velocity: $u^\mu_{\text{swarm}}$.
 - **Tensorial Invariant vs. Coordinate Artifact**: The Kuramoto order parameter magnitude $R = |\frac{1}{N}\sum_{j=1}^N e^{i\theta_j}|$ and the Leinster diversity metric $D^Z(P)$ are gauge-invariant scalars characterizing swarm coherence. Individual oscillator phase offsets $\theta_i(t)$ and beat frequencies are frame-dependent projections.
+- **Vibration, Perturbation & Free Will vs. Energy Cost of Coherence**: Acoustic frequency detuning, velocity jitter, and stochastic chirp timings represent swarm agents attempting to "jump between different physical realities" (exploring autonomous predatory evasion vectors or alternative flight paths). The chance of coming back into a consistent, order-preserving entry (Kuramoto phase-locked collective resonance) is the transmission power and acoustic work that the collective flock must pay as "energy". See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 - **Cordis Execution Fiber Specification**:
   - **Fiber ID**: `sprint-03-swarm` operating in the hierarchical fiber tree.
   - **Context Isolation**: `ctx.isolate({ harmonic_cadence: Symbol('harmonic_cadence') })` protects the enclave's spatial namespace from cross-service pollution.
@@ -141,6 +142,7 @@ CREATE TABLE IF NOT EXISTS mcard_swarm_cadence (
 Kuramoto synchronization equations and frequency modulation algorithms are open-source. When autonomous swarm agents drift into chaotic Bayhem, the player faces a dilemma: do they emit a high-decibel master override pulse that crushes local autonomy and forces uniform compliance, or do they practice Gamelan Kotekan patience, weaving an interlocking rhythmic call that preserves Leinster diversity ($D(P) > \\theta$)? Domineering brute force emits a harsh white-hot glare; respectful polyrhythmic locking unlocks rich, consonant pentatonic resonance.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 
 - [ ] **Referential Coordinates & Perspective**: Explicitly parameterized the observer's frame and 4-velocity projection ($u^\mu$).
