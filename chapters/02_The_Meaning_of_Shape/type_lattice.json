@@ -1,0 +1,174 @@
+{
+  "$schema": "https://clm.dev/schemas/type-lattice.json",
+  "chapter": "02",
+  "title": "The Meaning of Shape",
+  "engine": "clm-kernel@0.0.1",
+  "strata": [
+    {
+      "level": 0,
+      "identifier": "U0",
+      "stratum_name": "mcard_cas",
+      "types": [
+        {
+          "id": "CoordinateVertex",
+          "category": "SpatialAtom",
+          "hott_type": "Point",
+          "symbol": "v = (x, y) ∈ ℝ²",
+          "immutable": true
+        },
+        {
+          "id": "SimplexFacet",
+          "category": "GeometricSimplex",
+          "hott_type": "Simplex_1",
+          "symbol": "e = [v_i, v_j] ∈ Δ¹",
+          "immutable": true
+        },
+        {
+          "id": "SpatialContentId",
+          "category": "CryptographicHash",
+          "hott_type": "Hash_CID",
+          "symbol": "CID_mesh(bafy...)",
+          "immutable": true
+        },
+        {
+          "id": "EuclideanDistanceMetric",
+          "category": "MetricTensor",
+          "hott_type": "Real",
+          "symbol": "d(u, v) = ‖u - v‖",
+          "immutable": true
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "identifier": "U1",
+      "stratum_name": "pcard_net",
+      "types": [
+        {
+          "id": "GeodesicPathSegment",
+          "category": "PathTransition",
+          "hott_type": "Path_Type",
+          "symbol": "γ : v_i ⇝ v_j",
+          "inputs": ["CoordinateVertex"],
+          "outputs": ["SimplexFacet"]
+        },
+        {
+          "id": "PerimeterTracerStep",
+          "category": "TraverserTransition",
+          "hott_type": "Pi_Type",
+          "symbol": "Next(v_k) = v_{k+1}",
+          "inputs": ["SimplexFacet"],
+          "outputs": ["SimplexFacet"]
+        },
+        {
+          "id": "KinectDepthProjector",
+          "category": "SensorProjector",
+          "hott_type": "Functor",
+          "symbol": "DepthMap → PointCloud",
+          "inputs": ["SpatialContentId"],
+          "outputs": ["CoordinateVertex"]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "identifier": "U2",
+      "stratum_name": "vcard_proof",
+      "types": [
+        {
+          "id": "GaussBonnetClosureProof",
+          "category": "TopologicalTheorem",
+          "hott_type": "ProofWitness",
+          "symbol": "∑(π - α_i) = 2π · χ(M)"
+        },
+        {
+          "id": "IsoperimetricBoundProof",
+          "category": "GeometricInequality",
+          "hott_type": "InequalityProof",
+          "symbol": "Q = 4πA / L² ≤ 1"
+        },
+        {
+          "id": "JordanCurveContainmentProof",
+          "category": "ContainmentWitness",
+          "hott_type": "WindingProof",
+          "symbol": "wind(P, ∂Ω) = 1"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "identifier": "U3",
+      "stratum_name": "satori_fiber",
+      "types": [
+        {
+          "id": "TopologicalParallaxPulse",
+          "category": "AudioSynesthesia",
+          "hott_type": "Audio_Fiber",
+          "symbol": "StereoPitch(Depth_z)"
+        },
+        {
+          "id": "BoundaryDefectAlert",
+          "category": "SpeechAct",
+          "hott_type": "Directive_Fiber",
+          "symbol": "Alert(CurvatureLeak)"
+        },
+        {
+          "id": "CellEnclosureChime",
+          "category": "HarmonicCelebration",
+          "hott_type": "Gamelan_Fiber",
+          "symbol": "Resonance(2π_Closed)"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "identifier": "U4",
+      "stratum_name": "membrane_ui",
+      "types": [
+        {
+          "id": "TopographicCanvasViewport",
+          "category": "CardViewport",
+          "hott_type": "UI_Container",
+          "symbol": "HTML5_Canvas(MCard_Mesh)"
+        },
+        {
+          "id": "VertexPlacementTrigger",
+          "category": "TactileTrigger",
+          "hott_type": "UI_Event",
+          "symbol": "OnClick(AddVertex)"
+        },
+        {
+          "id": "CurvatureDefectGauge",
+          "category": "TelemetryWidget",
+          "hott_type": "UI_Display",
+          "symbol": "Gauge(TotalAngle, Area, EnclosedTokens)"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "identifier": "U5",
+      "stratum_name": "meta_gamma",
+      "types": [
+        {
+          "id": "SpatialGASingFlowState",
+          "category": "PedagogicalLoop",
+          "hott_type": "Reflection_Type",
+          "symbol": "Loop_Gamma(Easy_Draw, Fun_Enclose, Enjoyable_Sanctuary)"
+        },
+        {
+          "id": "TopologicalFitness",
+          "category": "FitnessMetric",
+          "hott_type": "Quality_Measure",
+          "symbol": "Fitness = Area_protected / (Perimeter_cost + Defects)"
+        },
+        {
+          "id": "KenoticSpatialVoid",
+          "category": "AxiomaticStance",
+          "hott_type": "Null_Assumption",
+          "symbol": "Manifold_Vacuum = ∅"
+        }
+      ]
+    }
+  ]
+}

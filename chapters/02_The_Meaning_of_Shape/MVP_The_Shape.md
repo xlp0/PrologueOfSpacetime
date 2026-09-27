@@ -1,13 +1,23 @@
 ---
 title: "MVP: The Shape (Rhetoric of Geometry)"
+date: 2026-09-27
+tags: [MVP, Geometry, Rhetoric, MCard, Spatial-MCard, WKL0, Topographic-Cell-Wall]
+type: concept
 chapter: 2
 matrix: Rhetoric x Geometry
 role: The Blueprint Station
 artifact: MCard (Spatial)
 sprint: docs/sprints/epoch-01-microcosmic-physics/SPRINT-02-TOPOGRAPHIC-CELL-WALL.md
+sources:
+  - chapters/00_Structure_and_Vision.md
+  - chapters/02_The_Meaning_of_Shape/README.md
+  - docs/sprints/epoch-01-microcosmic-physics/SPRINT-02-TOPOGRAPHIC-CELL-WALL.md
+status: stable
+liberal_art: Quadrivium-Geometry
 ---
 
 # MVP: The Shape
+
 
 > *"Space is not empty; it is a relational field. In the Brain Factory, we do not just store data; we place it."*
 

@@ -1,0 +1,570 @@
+{
+  "id": {
+    "meta": {
+      "chapter": "02",
+      "chapterTitle": "Makna dari Bentuk",
+      "latticeTitle": "Kekisi Tipe CLM (Type Lattice): Bab 02",
+      "language": "Bahasa Indonesia",
+      "flag": "🇮🇩"
+    },
+    "strata": {
+      "U0": {
+        "name": "Penyimpanan Geometris Berbasis Konten (MCard CAS)",
+        "description": "Lapisan atom posisi spasial dan batas primitif; unit kebenaran bentuk sebelum ada pergerakan.",
+        "types": {
+          "CoordinateVertex": {
+            "name": "Verteks Koordinat (x, y)",
+            "desc": "Titik posisi diskrit dalam ruang manifold Euclidean; jangkar pertama penetapan lokasi.",
+            "metaphor": "Patok bambu pertama yang ditancapkan di sudut sawah adat."
+          },
+          "SimplexFacet": {
+            "name": "Faset Simpleks (Garis Tepi)",
+            "desc": "Ruas batas 1-dimensi yang menghubungkan dua verteks; dinding primitif pembatas ruang.",
+            "metaphor": "Tali ijuk yang direntangkan lurus antara dua patok batas sawah."
+          },
+          "SpatialContentId": {
+            "name": "Pengidentifikasi Konten Spasial (CID)",
+            "desc": "Sidik jari kriptografis (hash SHA-256) dari susunan jaring spasial yang tak dapat dimanipulasi.",
+            "metaphor": "Peta batas tanah desa berstempel cap segel tembaga lurah adat."
+          },
+          "EuclideanDistanceMetric": {
+            "name": "Metrik Jarak Euclidean",
+            "desc": "Jarak terpendek matematis antar dua titik posisi; dasar kalkulasi regangan dan tegangan batas.",
+            "metaphor": "Langkah kaki tetua desa saat mengukur lebar pematang sawah."
+          }
+        }
+      },
+      "U1": {
+        "name": "Perambatan Garis & Mesin Keadaan Spasial (PCard CPN)",
+        "desc": "Lapisan lintasan dinamis yang merajut titik-titik lepas menjadi keliling batas terhubung.",
+        "types": {
+          "GeodesicPathSegment": {
+            "name": "Segmen Lintasan Geodesik",
+            "desc": "Transisi garis terpendek antar verteks yang membatasi wilayah luar dan dalam.",
+            "metaphor": "Gundukan tanah pematang sawah yang menghubungkan dua sudut petak sawah."
+          },
+          "PerimeterTracerStep": {
+            "name": "Langkah Penelusur Keliling",
+            "desc": "Langkah penelusuran berurutan berlawanan arah jarum jam untuk memverifikasi keterhubungan rantai.",
+            "metaphor": "Ronda malam mengelilingi pagar desa langkah demi langkah tanpa terputus."
+          },
+          "KinectDepthProjector": {
+            "name": "Proyektor Kedalaman Sensor (Kinect)",
+            "desc": "Pengubah pindaian bayangan cahaya inframerah menjadi sebaran titik spasial nyata.",
+            "metaphor": "Sorot obor malam hari yang menampakkan lekuk bukit dan lembah."
+          }
+        }
+      },
+      "U2": {
+        "name": "Bukti Penutupan Topologis & Hukum Bentuk (VCard Proof)",
+        "desc": "Lapisan penjaga keutuhan topologis; membuktikan batas tertutup rapat tanpa celah bocor.",
+        "types": {
+          "GaussBonnetClosureProof": {
+            "name": "Bukti Penutupan Gauss-Bonnet",
+            "desc": "Bukti formal bahwa jumlah sudut luar sama dengan 2π (360°); menjamin kurva tertutup sempurna.",
+            "metaphor": "Lingkaran pagar bambu yang ujung akhirnya menyatu kembali ke tiang pangkal awal."
+          },
+          "IsoperimetricBoundProof": {
+            "name": "Bukti Batas Isoperimetrik (Q ≤ 1)",
+            "desc": "Bukti efisiensi ruang: luas area terlindung maksimal terhadap panjang keliling pematang.",
+            "metaphor": "Kendi tanah liat bundar yang memuat air paling banyak dengan bahan tanah paling hemat."
+          },
+          "JordanCurveContainmentProof": {
+            "name": "Bukti Kurva Jordan (Pencegah Bocor)",
+            "desc": "Bukti bahwa bilangan dan aset berada kokoh di dalam (winding number = 1), aman dari geseran termal.",
+            "metaphor": "Beras lumbung yang aman tersimpan di dalam lumbung berdinding rapat."
+          }
+        }
+      },
+      "U3": {
+        "name": "Jala Sensorik & Akustik Spasial (Satori Speech Acts)",
+        "desc": "Umpan balik persepsi dan suara gema spasial yang memberi tahu kondisi keutuhan batas.",
+        "types": {
+          "TopologicalParallaxPulse": {
+            "name": "Denyut Paralaks Kedalaman",
+            "desc": "Sinyal suara stereo berfrekuensi dinamis yang mencerminkan kedalaman dan jarak ruang.",
+            "metaphor": "Suara gema langkah kaki di lorong bambu yang menunjukkan jarak dinding."
+          },
+          "BoundaryDefectAlert": {
+            "name": "Peringatan Celah Robekan Batas",
+            "desc": "Tindak tutur peringatan saat ada sudut yang terbuka dan token mulai terancam bocor.",
+            "metaphor": "Teriakan ronda malam: 'Pematang jebol! Air meluap!'"
+          },
+          "CellEnclosureChime": {
+            "name": "Denting Harmoni Penutupan Sel",
+            "desc": "Suara genta gamelan merdu yang berdentang saat kurva menutup sempurna 2π.",
+            "metaphor": "Gong ageng berbunyi saat upacara pembukaan pagar desa adat selesai didirikan."
+          }
+        }
+      },
+      "U4": {
+        "name": "Membran Kanvas Antarmuka Spasial (Membrane UI)",
+        "desc": "Antarmuka visual dan sentuhan tempat pengguna merancang dan menutup perimeter ruang.",
+        "types": {
+          "TopographicCanvasViewport": {
+            "name": "Viewport Kanvas Topografi",
+            "desc": "Bale panggung MCard visual tempat titik-titik dan garis geometri dibentangkan secara interaktif.",
+            "metaphor": "Kain layar mori wayang kulit tempat peta mandala desa digambarkan."
+          },
+          "VertexPlacementTrigger": {
+            "name": "Pemicu Titik Sudut",
+            "desc": "Aksi klik atau sentuhan tangan untuk menancapkan verteks batas baru pada kanvas.",
+            "metaphor": "Menancapkan tonggak bambu baru ke dalam tanah lembap."
+          },
+          "CurvatureDefectGauge": {
+            "name": "Meteran Defek Kelengkungan",
+            "desc": "Indikator visual melingkar yang menampilkan kemajuan sudut menuju 2π dan luas tertutup.",
+            "metaphor": "Busur derajat perunggu pembuat candi penunjuk keseimbangan empat penjuru."
+          }
+        }
+      },
+      "U5": {
+        "name": "Lingkar Pembelajaran Spasial Meta-Sirkuler (Loop Γ)",
+        "desc": "Tingkat kognisi tertinggi; menjaga intuisi bentuk mengalir alami dan ruang batin tetap terbuka.",
+        "types": {
+          "SpatialGASingFlowState": {
+            "name": "GASing Keheningan Spasial",
+            "desc": "Keadaan fokus bermain: menggambar titik itu gampang, melingkari batas itu asyik, memiliki suaka berdaulat itu menyenangkan.",
+            "metaphor": "Bermain membangun istana pasir yang kokoh di pantai bersama sahabat desa."
+          },
+          "TopologicalFitness": {
+            "name": "Kebugaran Topologis",
+            "desc": "Indeks efisiensi geometri: perbandingan luas terlindung terhadap ongkos pemeliharaan pematang.",
+            "metaphor": "Sawah terasering yang paling subur dengan tanggul yang paling kuat tahan banjir."
+          },
+          "KenoticSpatialVoid": {
+            "name": "Ruang Kosong Kenosis",
+            "desc": "Manifold kosong tanpa asumsi prasangka yang siap menerima bentuk arsitektur apapun.",
+            "metaphor": "Halaman pura desa yang bersih lapang, siap menampung seluruh warga saat upacara adat."
+          }
+        }
+      }
+    }
+  },
+  "sa": {
+    "meta": {
+      "chapter": "02",
+      "chapterTitle": "रूप-रहस्यम्",
+      "latticeTitle": "CLM तत्त्व-जालक-मातृका : द्वितीयाध्यायः",
+      "language": "संस्कृतम्",
+      "flag": "🕉️"
+    },
+    "strata": {
+      "U0": {
+        "name": "स्थान-निरूपित-स्थित-संग्रहः (MCard CAS)",
+        "description": "अनपवर्त्यं स्थान-परमाणु-तत्त्वम्; सर्व-क्रियाभ्यः पूर्वं नित्यतया सिद्ध-सीमा।",
+        "types": {
+          "CoordinateVertex": {
+            "name": "स्थान-बिन्दु-परमाणुः",
+            "desc": "देशे प्रथम-निश्चित-स्थितिः; दिक्-काल-मण्डले प्रथम-स्थान-प्रतिष्ठा।",
+            "metaphor": "सीमान्ते निखातः प्रथम-वेणु-शङ्कुः।"
+          },
+          "SimplexFacet": {
+            "name": "सरल-रेखा-फलकम् (Edge)",
+            "desc": "बिन्दु-द्वय-योजिका एकायामा सीमा-रेखा; क्षेत्र-रक्षणे प्रथम-प्राकारः।",
+            "metaphor": "शङ्कु-द्वय-मध्य-प्रसारिता दृढा रज्जुः।"
+          },
+          "SpatialContentId": {
+            "name": "स्थान-मुद्रा (Spatial CID)",
+            "desc": "अभ्द्येया क्षेत्राकार-मुद्रा; शासन-पट्टे अपरिवर्तनीया दृढ-प्रमाण-सिद्धिः।",
+            "metaphor": "राज-मुद्रया अङ्कितः सीमा-ताम्र-पट्टः।"
+          },
+          "EuclideanDistanceMetric": {
+            "name": "युक्लिड-अन्तर-प्रमाणम्",
+            "desc": "बिन्दु-द्वयोरन्तराल-दीर्घता-मानम्; सीमा-विस्तार-गणन-मूलम्।",
+            "metaphor": "ग्राम-वृद्धस्य पाद-विक्षेपेण सीमा-मापनम्।"
+          }
+        }
+      },
+      "U1": {
+        "name": "सीमा-परिभ्रमण-क्रिया-चक्रम् (PCard CPN)",
+        "desc": "गतिशीला रेखा-धारा; पृथक्-बिन्दून् संयोग्य अविच्छिन्नां सीमां रचयति।",
+        "types": {
+          "GeodesicPathSegment": {
+            "name": "ऋजु-मार्ग-खण्डः",
+            "desc": "बिन्दु-द्वय-मध्यगा लघिष्ठा रेखा; बाह्याभ्यन्तर-भेदकः प्राकारः।",
+            "metaphor": "क्षेत्र-कोण-द्वयं योजयन्ती मृत्तिका-पाली।"
+          },
+          "PerimeterTracerStep": {
+            "name": "सीमा-परिक्रमण-पदम्",
+            "desc": "अपसव्य-क्रमेण सीमा-रेखान्वेषणं येन चक्राकार-संबद्धता सिध्यति।",
+            "metaphor": "ग्राम-रक्षकस्य सीमा-प्राकार-परितः क्रमिकं परिभ्रमणम्।"
+          },
+          "KinectDepthProjector": {
+            "name": "नेत्र-गम्भीरता-प्रक्षेपकः (Kinect)",
+            "desc": "अदृश्य-दीप्ति-जालेन त्रिविम-स्थान-बिन्दूनां साक्षात्करणम्।",
+            "metaphor": "निशीथे मणिक-दीपेन गिरिकन्दरा-गम्भीरता-प्रकाशनम्।"
+          }
+        }
+      },
+      "U2": {
+        "name": "प्रमाण-सीमा-प्रतिष्ठानम् (VCard Proof)",
+        "desc": "टोपोलोजि-धर्मस्य नित्य-सत्यम्; छिद्र-रहित-परिवृत-सीमा-सिद्धिः।",
+        "types": {
+          "GaussBonnetClosureProof": {
+            "name": "गौस-बोने-परिवृत्त-प्रमाणम्",
+            "desc": "बहिः-कोण-योगः २π (३६०°) इति प्रमाणम्; चक्रस्य निर्दोष-संमिलन-सिद्धिः।",
+            "metaphor": "परिवृत-वेणु-प्राकारस्य मूल-स्तम्भे पुनः संमिलनम्।"
+          },
+          "IsoperimetricBoundProof": {
+            "name": "क्षेत्र-सीमा-प्रमाणम् (Q ≤ 1)",
+            "desc": "न्यूनतम-परिधौ अधिकतम-क्षेत्र-रक्षण-सिद्धिः।",
+            "metaphor": "परिमित-मृत्तिकया निर्मितः अधिक-जल-धारकः वर्तुल-कुम्भः।"
+          },
+          "JordanCurveContainmentProof": {
+            "name": "जोर्डन-परिवेष्टन-प्रमाणम्",
+            "desc": "अन्तर्-भागे स्थापितानां द्रव्याणां बाह्य-क्षोभाद् रक्षण-सिद्धिः (winding = 1)।",
+            "metaphor": "सुगुप्त-कोष्ठे सुरक्षितः धान्य-राशिः।"
+          }
+        }
+      },
+      "U3": {
+        "name": "दिक्-ध्वनि-वाग्-व्यवहारः (Satori Speech Acts)",
+        "desc": "स्थान-स्थिति-द्योतकाः संवेद्य-शब्दाः ये सीमायाः अखण्डतां ज्ञापयन्ति।",
+        "types": {
+          "TopologicalParallaxPulse": {
+            "name": "गम्भीरता-ध्वनि-स्पन्दः",
+            "desc": "स्थान-गम्भीरता-ज्ञापको नादः; दूरासन्न-बोधकः श्रोत्र-संकेतः।",
+            "metaphor": "वेणु-वीथ्यां प्रतिध्वनितः पाद-शब्दः।"
+          },
+          "BoundaryDefectAlert": {
+            "name": "सीमा-भेद-चेतना",
+            "desc": "छिद्र-संभवे सत्वर-वारक-ध्वनिः; यन्त्र-क्षोभ-प्रतीकारः।",
+            "metaphor": "रक्षकस्य उच्चैः-क्रोशः : 'पाली भग्ना! तोयं स्रवति!' इति।"
+          },
+          "CellEnclosureChime": {
+            "name": "पूर्ण-परिवेष्टन-नादः",
+            "desc": "२π पूर्ण-संमिलने समुत्पन्नः मङ्गल-गामिलान्-घण्टा-नादः।",
+            "metaphor": "सीमा-प्रतिष्ठा-समाप्तौ मङ्गल-महा-घण्टा-नादः।"
+          }
+        }
+      },
+      "U4": {
+        "name": "स्थान-चित्र-पटलम् (Membrane UI)",
+        "desc": "दृष्टि-गोचर-पटलम् यत्र साधकः स्वायत्तां सीमां चित्रयति संवृणोति च।",
+        "types": {
+          "TopographicCanvasViewport": {
+            "name": "स्थान-चित्र-मण्डपम्",
+            "desc": "चित्र-पटलम् यत्र स्थान-बिन्दवः सीमा-रेखाश्च प्रत्यक्षं दृश्यन्ते।",
+            "metaphor": "मण्डप-भित्तिः यत्र ग्राम-मण्डलं चित्र्यते।"
+          },
+          "VertexPlacementTrigger": {
+            "name": "बिन्दु-निक्षेप-कुञ्चिका",
+            "desc": "अङ्गुलि-स्पर्शेन नवीनायाः सीमायाः दृढ-प्रतिष्ठा-क्रिया।",
+            "metaphor": "मृत्तिकायां नूतन-वेणु-शङ्कु-निखननम्।"
+          },
+          "CurvatureDefectGauge": {
+            "name": "कोण-पूर्णता-मापकम्",
+            "desc": "२π कोण-पूर्तेः क्षेत्र-विस्तारस्य च परिमाण-दर्पणः।",
+            "metaphor": "मन्दिर-शिल्पिनः दिक्-चक्र-वर्तुल-कांस्य-यन्त्रम्।"
+          }
+        }
+      },
+      "U5": {
+        "name": "परम-संविद्-परिक्रमः (Loop Γ)",
+        "desc": "अनन्त-स्थान-ज्ञान-परिवर्तः; शून्यात् आकारं, आकारात् पुनः शुद्ध-शान्तिम् आनयति।",
+        "types": {
+          "SpatialGASingFlowState": {
+            "name": "GASing स्थान-समाधिः",
+            "desc": "स्थान-रचने सुखम्; बिन्दु-पाते सुलभता, वेष्टने रतिः, स्व-क्षेत्रे च महा-शान्तिः।",
+            "metaphor": "पुलिने बालकैः सह सुखेन सिकता-प्रासाद-रचनम्।"
+          },
+          "TopologicalFitness": {
+            "name": "स्थान-शुद्धि-मानम्",
+            "desc": "रक्षित-क्षेत्र-विस्तारस्य परिधि-व्ययस्य च सामञ्जस्य-प्रमाणम्।",
+            "metaphor": "सुदृढ-पाल्या रक्षितं शालि-क्षेत्रम्।"
+          },
+          "KenoticSpatialVoid": {
+            "name": "शून्य-स्थान-पात्रम्",
+            "desc": "अपरिगृहीतं शून्य-स्थानम् यत् कामपि नूतनाम् आकृतिं धारयितुं समर्थम्।",
+            "metaphor": "निर्मलं शुभाङ्गणं यत् सर्व-जनानां संमेलनाय सज्जम्।"
+          }
+        }
+      }
+    }
+  },
+  "en": {
+    "meta": {
+      "chapter": "02",
+      "chapterTitle": "The Meaning of Shape",
+      "latticeTitle": "CLM Type Lattice: Chapter 02",
+      "language": "English",
+      "flag": "🇬🇧"
+    },
+    "strata": {
+      "U0": {
+        "name": "Content-Addressed Spatial Storage (MCard CAS)",
+        "description": "Irreducible geometric atomic layer; objective spatial truth prior to dynamic transformations.",
+        "types": {
+          "CoordinateVertex": {
+            "name": "Coordinate Vertex",
+            "desc": "Discrete point position in 2D/3D Euclidean manifold; the foundational spatial anchor.",
+            "metaphor": "The first boundary stake driven into virgin communal farmland."
+          },
+          "SimplexFacet": {
+            "name": "Simplex Facet (Edge)",
+            "desc": "1-dimensional boundary segment connecting two vertices; primitive enclosing wall.",
+            "metaphor": "A taut boundary rope stretched between two corner stakes."
+          },
+          "SpatialContentId": {
+            "name": "Spatial Content Identifier (CID)",
+            "desc": "Cryptographic hash of the topological mesh guaranteeing tamper-proof spatial blueprints.",
+            "metaphor": "An immutable surveyor's seal etched onto an official land deed."
+          },
+          "EuclideanDistanceMetric": {
+            "name": "Euclidean Distance Metric",
+            "desc": "Geodesic flat distance between coordinate anchors; basis for tension and perimeter measures.",
+            "metaphor": "The village elder's paced steps measuring the field perimeter."
+          }
+        }
+      },
+      "U1": {
+        "name": "Spatial Transitions & Boundary Tracing (PCard CPN)",
+        "desc": "Dynamic pathway layer connecting scattered points into continuous enclosing perimeters.",
+        "types": {
+          "GeodesicPathSegment": {
+            "name": "Geodesic Path Segment",
+            "desc": "Shortest transition path between boundary vertices establishing inner vs outer domain.",
+            "metaphor": "An earthen terrace bund running straight between two irrigation corners."
+          },
+          "PerimeterTracerStep": {
+            "name": "Perimeter Tracer Step",
+            "desc": "Counterclockwise traversal step verifying sequential topological connectivity.",
+            "metaphor": "A night watchman patrolling the village rampart step by contiguous step."
+          },
+          "KinectDepthProjector": {
+            "name": "Kinect Depth Projector",
+            "desc": "Functor transforming structured infrared reflections into 3D metric point clouds.",
+            "metaphor": "A lantern beam illuminating the contours of an unfamiliar cave wall."
+          }
+        }
+      },
+      "U2": {
+        "name": "Topological Closure Proofs & Invariants (VCard Proof)",
+        "desc": "Verification layer proving leak-free topological closure and perimeter efficiency.",
+        "types": {
+          "GaussBonnetClosureProof": {
+            "name": "Gauss-Bonnet Closure Proof",
+            "desc": "Formal proof that total exterior angular turning equals 2π; guarantees loop closure.",
+            "metaphor": "A boundary palisade whose final post locks seamlessly into the first gatepost."
+          },
+          "IsoperimetricBoundProof": {
+            "name": "Isoperimetric Bound Proof (Q ≤ 1)",
+            "desc": "Proof of maximum enclosed area per unit of perimeter cost; optimal membrane tension.",
+            "metaphor": "A round clay pot holding maximum water with minimal clay expenditure."
+          },
+          "JordanCurveContainmentProof": {
+            "name": "Jordan Curve Containment Proof",
+            "desc": "Topological winding proof (wind = 1) guaranteeing internal tokens cannot leak into void.",
+            "metaphor": "Grain sealed inside a granary wall, entirely protected from the blowing storm."
+          }
+        }
+      },
+      "U3": {
+        "name": "Sensory Synesthesia & Auditory Geometry (Satori Speech Acts)",
+        "desc": "Acoustic and speech-act feedback communicating topological integrity and spatial depth.",
+        "types": {
+          "TopologicalParallaxPulse": {
+            "name": "Topological Parallax Pulse",
+            "desc": "Stereo auditory pulse whose frequency shifts dynamically with distance and depth coordinates.",
+            "metaphor": "Footstep echoes reverberating down a bamboo colonnade revealing wall distances."
+          },
+          "BoundaryDefectAlert": {
+            "name": "Boundary Defect Alert",
+            "desc": "Warning directive speech act firing when an open perimeter risks token evacuation.",
+            "metaphor": "The night guard's sudden cry: 'The bund is broken! Water is spilling!'"
+          },
+          "CellEnclosureChime": {
+            "name": "Cell Enclosure Chime",
+            "desc": "Resonant gamelan gong chime triggered at the instant the perimeter closes to 2π.",
+            "metaphor": "The deep ceremonial bronze gong sounding as the village fence is consecrated."
+          }
+        }
+      },
+      "U4": {
+        "name": "Topographic Canvas Interface (Membrane UI)",
+        "desc": "Visual and tactile surface where agents design, enclose, and monitor spatial domains.",
+        "types": {
+          "TopographicCanvasViewport": {
+            "name": "Topographic Canvas Viewport",
+            "desc": "Interactive HTML5 viewport rendering vertices, edges, enclosed fields, and stress lines.",
+            "metaphor": "The white linen canvas where the sacred village mandala blueprint is drafted."
+          },
+          "VertexPlacementTrigger": {
+            "name": "Vertex Placement Trigger",
+            "desc": "Tactile click or pointer interaction driving boundary node anchor placement.",
+            "metaphor": "Driving a fresh boundary stake firmly into the damp soil."
+          },
+          "CurvatureDefectGauge": {
+            "name": "Curvature Defect Gauge",
+            "desc": "Circular telemetry dial monitoring cumulative angle turn towards 2π and enclosed area.",
+            "metaphor": "A master mason's bronze radial quadrant certifying structural squareness."
+          }
+        }
+      },
+      "U5": {
+        "name": "Meta-Circular Continuous Spatial Learning (Loop Γ)",
+        "desc": "Highest epistemic stratum; cultivating intuitive geometric flow and unconstrained spatial schemas.",
+        "types": {
+          "SpatialGASingFlowState": {
+            "name": "Spatial GASing Flow State",
+            "desc": "Playful mastery: placing points is Easy, closing loops is Fun, sovereign sanctuary is Enjoyable.",
+            "metaphor": "Children collaboratively carving an impregnable sand fortress on a tranquil shore."
+          },
+          "TopologicalFitness": {
+            "name": "Topological Fitness",
+            "desc": "Structural quality metric: ratio of protected enclosed area to perimeter construction and defect cost.",
+            "metaphor": "A terraced hillside maximizing rice yield with minimal wall erosion."
+          },
+          "KenoticSpatialVoid": {
+            "name": "Kenotic Spatial Void",
+            "desc": "An unconditioned coordinate manifold capable of hosting any morphology without preconceptions.",
+            "metaphor": "The serene empty courtyard of a sanctuary ready to welcome all pilgrims."
+          }
+        }
+      }
+    }
+  },
+  "zh-TW": {
+    "meta": {
+      "chapter": "02",
+      "chapterTitle": "形狀的意義",
+      "latticeTitle": "CLM 類型格（Type Lattice）：第 02 章",
+      "language": "正體中文",
+      "flag": "🇹🇼"
+    },
+    "strata": {
+      "U0": {
+        "name": "空間定址靜態儲存層（MCard CAS）",
+        "description": "不可約簡之空間原子幾何層；在任何形變前已確鑿存在的位置基底。",
+        "types": {
+          "CoordinateVertex": {
+            "name": "座標頂點原子",
+            "desc": "二維／三維歐幾里得流形中的離散定位點，為空間安界之基點。",
+            "metaphor": "農田邊界上打下的第一根界樁木橛。"
+          },
+          "SimplexFacet": {
+            "name": "單體邊界刻面（Edge）",
+            "desc": "連結兩頂點之一維幾何線段，構築圍成空間之基元壁壘。",
+            "metaphor": "兩木橛間拉起的第一道浸油墨線。"
+          },
+          "SpatialContentId": {
+            "name": "空間內容識別碼（CID）",
+            "desc": "基於加密雜湊之網格藍圖唯一指紋，確保地籍空間不容篡改。",
+            "metaphor": "官府地契上不可塗抹之硃砂方印。"
+          },
+          "EuclideanDistanceMetric": {
+            "name": "歐幾里得距離度量",
+            "desc": "兩點間之平直最短距離測度，為張力與周長計算之物理基準。",
+            "metaphor": "司空測繪時手中緊握之銅尺引線。"
+          }
+        }
+      },
+      "U1": {
+        "name": "空間躍遷與邊界追蹤層（PCard CPN）",
+        "desc": "將散立頂點連綴成連續閉合周界的動態路徑演進層。",
+        "types": {
+          "GeodesicPathSegment": {
+            "name": "測地路徑分段",
+            "desc": "相鄰兩頂點間的最短路徑躍遷，界定空間之內外分野。",
+            "metaphor": "田畝兩端隆起之夯土田埂。"
+          },
+          "PerimeterTracerStep": {
+            "name": "周界逆時針追蹤步進",
+            "desc": "依序巡行邊界各單元，驗證多邊形鏈條之拓撲連續性。",
+            "metaphor": "夜間守望者沿城垛巡視，步步相連。"
+          },
+          "KinectDepthProjector": {
+            "name": "深度感測投影器（Kinect）",
+            "desc": "將結構光紅外反射圖轉換為客觀三維點雲之空間函子。",
+            "metaphor": "持火把照徹暗室，使遠近深淺凹凸頓現。"
+          }
+        }
+      },
+      "U2": {
+        "name": "拓撲閉合證明與空間不變量（VCard Proof）",
+        "desc": "幾何不變量檢驗層；以純邏輯證明周界嚴密無間、無漏無缺。",
+        "types": {
+          "GaussBonnetClosureProof": {
+            "name": "高斯-博內閉合定理證明",
+            "desc": "嚴格證明外角偏轉總和恆等於 2π；確保空間周界拓撲閉合無漏。",
+            "metaphor": "環村竹籬環環相扣，終點嚴絲合縫鎖入起點門柱。"
+          },
+          "IsoperimetricBoundProof": {
+            "name": "等周定理極限證明（Q ≤ 1）",
+            "desc": "證明單位周界長度下包圍面積之最大效率比，體現膜張力極優解。",
+            "metaphor": "圓潤之陶罐，以最省之黏土包容最深廣之甘泉。"
+          },
+          "JordanCurveContainmentProof": {
+            "name": "若爾當曲線內在包孕證明",
+            "desc": "以卷繞數（wind = 1）證明數據代幣完全居於內部，抵禦外在剪切流。",
+            "metaphor": "穀物深藏於密實倉廩，暴風驟雨莫之能侵。"
+          }
+        }
+      },
+      "U3": {
+        "name": "空間聯覺與聽覺拓撲層（Satori Speech Acts）",
+        "desc": "以聲音共振與語篇反饋即時傳達邊界完整度與景深感知之知覺層。",
+        "types": {
+          "TopologicalParallaxPulse": {
+            "name": "拓撲視差深度脈衝",
+            "desc": "頻率隨三維景深動態變異之雙耳立體聲，將幾何距離轉化為音高感官。",
+            "metaphor": "足音迴盪於深巷，依回音高低辨析兩側高牆遠近。"
+          },
+          "BoundaryDefectAlert": {
+            "name": "邊界穿孔警報言語",
+            "desc": "當周界存在裂口、內部資產面臨逸散時觸發之警示言語行為。",
+            "metaphor": "更夫驟發長呼：「堤防潰決！快堵缺口！」"
+          },
+          "CellEnclosureChime": {
+            "name": "細胞閉合共鳴鐘聲",
+            "desc": "在周界旋轉角完滿閉合至 2π 之瞬間奏響之深沉甘美朗銅鑼磬音。",
+            "metaphor": "界樁落鎖、合龍竣工時，城頭鳴動之平安大梵鐘。"
+          }
+        }
+      },
+      "U4": {
+        "name": "地形畫布空間介面層（Membrane UI）",
+        "desc": "供觀測者親手布設頂點、連綴封閉周界並直觀感知之擬物化視窗。",
+        "types": {
+          "TopographicCanvasViewport": {
+            "name": "拓撲畫布視窗（MCard Viewport）",
+            "desc": "以 HTML5 Canvas 即時繪製頂點、測地線段、受護面積與應力線之交互空間。",
+            "metaphor": "工匠繪製村落風水堪輿圖所鋪展之雪白絹帛。"
+          },
+          "VertexPlacementTrigger": {
+            "name": "頂點置放觸發器",
+            "desc": "點擊畫布以落錨全新邊界節點之觸覺交互事件。",
+            "metaphor": "於界線關鍵折角處重重釘下一枚鐵心木樁。"
+          },
+          "CurvatureDefectGauge": {
+            "name": "曲率偏轉儀表盤",
+            "desc": "實時監測累計外角偏轉是否達成 2π 及封閉防護面積之儀表盤。",
+            "metaphor": "營造法式中校驗九宮方圓之青銅規矩羅盤。"
+          }
+        }
+      },
+      "U5": {
+        "name": "元循環持續空間學習層（Loop Γ）",
+        "desc": "最高階之形意自省層；維持幾何心流直覺與虛己納形之空無模式。",
+        "types": {
+          "SpatialGASingFlowState": {
+            "name": "空間 GASing 心流共振態",
+            "desc": "落點極簡（Gampang）、合圍至趣（Asyik）、自立避難所極樂（Menyenangkan）之共鳴境界。",
+            "metaphor": "沙灘上童稚忘機，嬉笑間共築金湯城堡。"
+          },
+          "TopologicalFitness": {
+            "name": "拓撲空間適應度指標",
+            "desc": "評估幾何構築之性價比：以受護面積對比周界建造維護成本之最優度量。",
+            "metaphor": "最宜居之古村落，依山抱水，費省而效弘。"
+          },
+          "KenoticSpatialVoid": {
+            "name": "虛空模式（Kenosis 空間虛心容器）",
+            "desc": "無任何預設幾何成見之純粹座標真空，能圓融相容萬千拓撲形狀。",
+            "metaphor": "太虛無形，而大象隱存；不設偏見，萬象方能來歸。"
+          }
+        }
+      }
+    }
+  }
+}

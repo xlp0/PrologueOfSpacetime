@@ -1,0 +1,318 @@
+{
+  "id": {
+    "meta": {
+      "code": "id",
+      "name": "Bahasa Indonesia",
+      "flag": "🇮🇩"
+    },
+    "header": {
+      "mainTitle": "Dinding Sel Topografi MCard: Stasiun 02",
+      "subtitle": "\"Ruang bukanlah kekosongan hampa; bataslah yang memberi makna dan kedaulatan.\"",
+      "breadcrumb": "PROLOG RUANG-WAKTU: BAB 02",
+      "stationBadge": "STASIUN 02 (DENAH & GEOMETRI)",
+      "depthBadge": "WKL₀ LEVEL 2"
+    },
+    "canvas": {
+      "title": "BALE KANVAS GEOMETRI RUANG",
+      "instruction": "Klik pada kanvas untuk menancapkan patok batas (verteks). Hubungkan minimal 3 patok dan kunci kelilingnya untuk membentuk suaka berdaulat.",
+      "emptyHint": "Kanvas masih kosong murni (Kenosis). Klik sembarang area untuk menancapkan patok pertama!",
+      "verticesCount": "Jumlah Patok: {count}",
+      "perimeterLabel": "Panjang Keliling (L): {length} px",
+      "areaLabel": "Luas Area Terlindung (A): {area} px²",
+      "isoperimetricLabel": "Efisiensi Isoperimetrik (Q): {q}"
+    },
+    "curvature": {
+      "title": "KESEIMBANGAN KELENGKUNGAN (GAUSS-BONNET)",
+      "statusClosed": "TERTUTUP SEMPURNA (2π = 360°)",
+      "statusOpen": "BELUM TERTUTUP (BOCOR)",
+      "angleSum": "Total Sudut Belok: {angle}° / 360°",
+      "defectLabel": "Celah Defek: {defect}°"
+    },
+    "vault": {
+      "title": "LUMBUNG TOKEN TERLINDUNG",
+      "tokensProtected": "Token Terselamatkan: {count}",
+      "shearPressure": "Tekanan Geser Termal Luar: {shear} Pa",
+      "leakRate": "Laju Kebocoran: {rate} token/dtk"
+    },
+    "status": {
+      "enclosed": "🛡️ Batas Tertutup Sempurna (Gauss-Bonnet 2π — Token Terlindungi)",
+      "open": "⚠️ Batas Terbuka! (Geseran Termal — Kebocoran Aset)",
+      "critical": "💥 Dinding Jebol! (Tekanan Luar Meluap — Aset Hanyut)"
+    },
+    "buttons": {
+      "addVertex": "Tancap Patok Batas",
+      "closeLoop": "Kunci Keliling (2π)",
+      "autoHex": "Pola Segi-Enam Alam",
+      "reset": "Ratakan Tanah (Reset)"
+    },
+    "gasingHint": {
+      "default": "💡 <strong>GASing Panduan Bentuk</strong>: Menancapkan patok itu <em>Gampang</em>! Klik 4–6 titik melingkar, lalu tekan 'Kunci Keliling'. <em>Asyik</em> melihat batas menyatu, dan <em>Menyenangkan</em> melihat token terlindungi rapat!",
+      "enclosed": "🌟 <strong>Suaka Berdaulat Sempurna!</strong>: Sel tertutup rapat tanpa celah. Geseran termal terpantul keluar dan seluruh hasil panen aman!",
+      "open": "⚠️ <strong>Pematang Masih Bocor!</strong>: Titik-titik belum tersambung utuh menjadi lingkaran tertutup. Tekan 'Kunci Keliling' agar air tidak terbuang.",
+      "breach": "🔥 <strong>Pematang Jebol!</strong>: Terlalu sedikit patok membuat dinding rapuh menahan tekanan luar. Tancapkan minimal 3 patok kukuh."
+    },
+    "logs": {
+      "title": "MCARD BUKU CATATAN BATAS (AKṢAYA-LEKHYAM):",
+      "entriesCount": "{count} catatan",
+      "init": "> Ruang kanvas siap. Menunggu penancapan patok batas pertama...",
+      "vertexAdded": "> Patok #{index} ditancapkan pada koordinat ({x}, {y}).",
+      "closed": "> 🌟 Keliling tertutup sempurna! Jumlah sudut belok = 2π (360°). Luas suaka: {area} px².",
+      "breached": "> 💥 PERINGATAN: Batas terbuka! Token lumbung terancam geseran termal.",
+      "reset": "> Ruang dibersihkan kembali ke keadaan kosong murni (Kenosis)."
+    },
+    "demon": {
+      "elderTitle": "--- NASIHAT JURU UKUR ADAT DESA ---",
+      "elderRoar": "Juru Ukur: \"Lihatlah tanah lapang ini. Tanpa pematang, air Subak akan mengalir liar terbuang ke jurang. Bentuklah batas yang adil dan rapat!\"",
+      "elderWarn": "Juru Ukur: \"Ingat hukum Gauss-Bonnet: jika sudut keliling tidak genap 360 derajat, angin puyuh akan menerobos celah dan melarikan panenmu!\"",
+      "actionTriggered": "Patok batas tertancap tegak. Panjang pematang bertambah {length} jengkal.",
+      "closureCelebration": "Gong Berdentang! Pematang telah melingkar penuh menjadi kesatuan yang berdaulat.",
+      "breachAlert": "*** BAHAYA: Dinding batas retak! Segera tutup keliling! ***"
+    },
+    "typeLattice": {
+      "title": "CLM Kekisi Tipe Spasial (U0-U5)",
+      "u0": "U0 (MCard CAS): Verteks Koordinat & Faset Simpleks Garis",
+      "u1": "U1 (PCard CPN): Lintasan Geodesik & Proyeksi Titik Kinect",
+      "u2": "U2 (VCard Proof): Teorema Gauss-Bonnet & Bukti Isoperimetrik",
+      "u3": "U3 (Satori): Denyut Paralaks Kedalaman & Denting Sel Tertutup",
+      "u4": "U4 (Membrane): Viewport Kanvas Topografi & Pemicu Patok",
+      "u5": "U5 (Loop Γ): GASing Keheningan Spasial & Ruang Kosong Kenosis"
+    }
+  },
+  "sa": {
+    "meta": {
+      "code": "sa",
+      "name": "संस्कृतम्",
+      "flag": "🕉️"
+    },
+    "header": {
+      "mainTitle": "MCard स्थान-प्राकारः : द्वितीय-स्थानम्",
+      "subtitle": "“आकाशो न शून्यम्; सीमैव अर्थं स्वायत्ततां च ददाति।”",
+      "breadcrumb": "काल-विश्व-प्रारम्भः : द्वितीयाध्यायः",
+      "stationBadge": "द्वितीय-स्थानम् (MCARD रेखा-चित्रम्)",
+      "depthBadge": "WKL₀ द्वितीय-सीमा"
+    },
+    "canvas": {
+      "title": "स्थान-मण्डल-चित्र-पटलम्",
+      "instruction": "पट्टे संस्पृश्य सीमा-शङ्कून् निखन। त्र्यधिक-शङ्कून् संयोग्य २π चक्रेण पिधाय स्वायत्तं क्षेत्रं पालय।",
+      "emptyHint": "पटलम् अद्यापि शून्यम् (शून्यता-पात्रम्)। प्रथम-शङ्कु-स्थापनाय यत्र कुत्रचित् स्पृश!",
+      "verticesCount": "शङ्कु-संख्या: {count}",
+      "perimeterLabel": "सीमा-दीर्घता (L): {length} px",
+      "areaLabel": "रक्षित-क्षेत्र-विस्तारः (A): {area} px²",
+      "isoperimetricLabel": "क्षेत्र-सीमा-प्रमाणम् (Q): {q}"
+    },
+    "curvature": {
+      "title": "वक्रता-साम्यम् (गौस-बोने-सिद्धान्तः)",
+      "statusClosed": "पूर्ण-परिवृतम् (२π = ३६०°)",
+      "statusOpen": "अपूर्ण-सीमा (स्रवति)",
+      "angleSum": "बहिः-कोण-योगः: {angle}° / ३६०°",
+      "defectLabel": "कोण-न्यूनता: {defect}°"
+    },
+    "vault": {
+      "title": "रक्षित-द्रव्य-कोष्ठकम्",
+      "tokensProtected": "रक्षिताः द्रव्याः: {count}",
+      "shearPressure": "बाह्य-ताप-क्षोभ-भारः: {shear} Pa",
+      "leakRate": "क्षय-वेगः: {rate} द्रव्य/क्षणे"
+    },
+    "status": {
+      "enclosed": "🛡️ परिवृत-प्राकारः (गौस-बोने २π — द्रव्याणि सुरक्षितानि)",
+      "open": "⚠️ अपूर्ण-सीमा! (ताप-क्षोभ-प्रवाहेण द्रव्य-क्षयः)",
+      "critical": "💥 प्राकार-भङ्गः! (बाह्य-वेगेन सर्वं विनष्टम्)"
+    },
+    "buttons": {
+      "addVertex": "शङ्कुं निखन",
+      "closeLoop": "सीमा-संमिलनम् (२π)",
+      "autoHex": "षट्कोण-मण्डलम्",
+      "reset": "शमित-पुनः-प्रतिष्ठा"
+    },
+    "gasingHint": {
+      "default": "💡 <strong>GASing स्थान-सूत्रम्</strong>: शङ्कु-निखननं <em>सुलभम्</em>! ४-६ बिन्दून् विन्यस्य 'सीमा-संमिलनम्' स्पृश। परिवेष्टने <em>रतिः</em>, स्व-क्षेत्रे च <em>महा-शान्तिः</em>!",
+      "enclosed": "🌟 <strong>परम-स्वायत्त-क्षेत्रम्!</strong>: प्राकारः सुदृढः संवृत्तः। बाह्य-क्षोभः प्रतिहतो द्रव्य-राशिः सुरक्षितः!",
+      "open": "⚠️ <strong>पाली छिद्रिता!</strong>: बिन्दवो न संहताः। 'सीमा-संमिलनम्' स्पृश येन जलं न स्रवेत्।",
+      "breach": "🔥 <strong>प्राकार-विदारणम्!</strong>: अपर्याप्त-शङ्कुभिः सीमा भग्ना। त्रिभ्यः अधिकान् शङ्कून् दृढं निखन।"
+    },
+    "logs": {
+      "title": "MCARD सीमा-लेख्य-पट्टिका :",
+      "entriesCount": "{count} लेख्यानि",
+      "init": "> स्थान-पटलम् अवस्थितम्। प्रथम-शङ्कु-प्रतिष्ठा प्रतीक्ष्यते...",
+      "vertexAdded": "> शङ्कुः #{index} प्रतिष्ठितः स्थान-बिन्दौ ({x}, {y})।",
+      "closed": "> 🌟 सीमा संमिलिता! बहिः-कोण-योगः = २π (३६०°)। रक्षित-क्षेत्रम्: {area} px²।",
+      "breached": "> 💥 संकट-चेतना: सीमा विदीर्णा! कोष्ठक-द्रव्याणि क्षीयन्ते।",
+      "reset": "> पटलम् पुनः शुद्ध-शून्य-भावे संस्थितम्।"
+    },
+    "demon": {
+      "elderTitle": "--- ग्राम-शिल्पि-वाक्यम् ---",
+      "elderRoar": "शिल्पी: “पश्येदं भूमि-मण्डलम्। पाल्या विना तोयं गर्ते पतति। धर्म्यानुगुणां दृढां सीमां रचय!”",
+      "elderWarn": "शिल्पी: “गौस-बोने-न्यायं स्मर: यदि कोण-योगः ३६० अंशान् न प्राप्नोति, वायुः सर्वं धान्यम् अपहरिष्यति!”",
+      "actionTriggered": "शङ्कुः निखातः। सीमा-दीर्घता {length} मात्रया वर्धिता।",
+      "closureCelebration": "महा-घण्टा-नादः! सीमा पूर्णा संवृत्ता, स्वराज्यं प्रतिष्ठितम्।",
+      "breachAlert": "*** संकट-चेतना: प्राकारः शीर्णः! सत्वरं पिधत्स्व! ***"
+    },
+    "typeLattice": {
+      "title": "CLM स्थान-तत्त्व-जालकम् (U0-U5)",
+      "u0": "U0 (MCard CAS): स्थान-बिन्दुः & सरल-रेखा-फलकम्",
+      "u1": "U1 (PCard CPN): ऋजु-मार्ग-खण्डः & नेत्र-प्रक्षेपः",
+      "u2": "U2 (VCard Proof): गौस-बोने-प्रमाणं & क्षेत्र-सीमा-सिद्धिः",
+      "u3": "U3 (Satori): गम्भीरता-स्पन्दः & पूर्ण-परिवेष्टन-नादः",
+      "u4": "U4 (Membrane): स्थान-चित्र-मण्डपं & शङ्कु-कुञ्चिका",
+      "u5": "U5 (Loop Γ): GASing स्थान-समाधिः & शून्य-स्थान-पात्रम्"
+    }
+  },
+  "en": {
+    "meta": {
+      "code": "en",
+      "name": "English",
+      "flag": "🇬🇧"
+    },
+    "header": {
+      "mainTitle": "MCard Topographic Cell Wall: Station 02",
+      "subtitle": "\"Space is not empty; boundaries define meaning, ownership, and sovereignty.\"",
+      "breadcrumb": "PROLOGUE OF SPACETIME: CH 02",
+      "stationBadge": "STATION 02 (BLUEPRINT & GEOMETRY)",
+      "depthBadge": "WKL₀ LEVEL 2"
+    },
+    "canvas": {
+      "title": "TOPOGRAPHIC GEOMETRY VIEWPORT",
+      "instruction": "Click canvas to place boundary anchor stakes (vertices). Connect at least 3 nodes and close the perimeter loop to establish a sovereign cell.",
+      "emptyHint": "Canvas is in pure Kenotic vacuum. Click anywhere to drive your first boundary anchor stake!",
+      "verticesCount": "Anchor Nodes: {count}",
+      "perimeterLabel": "Perimeter Length (L): {length} px",
+      "areaLabel": "Enclosed Area (A): {area} px²",
+      "isoperimetricLabel": "Isoperimetric Quotient (Q): {q}"
+    },
+    "curvature": {
+      "title": "CURVATURE BALANCE (GAUSS-BONNET)",
+      "statusClosed": "PERFECTLY CLOSED (2π = 360°)",
+      "statusOpen": "OPEN BOUNDARY (LEAKING)",
+      "angleSum": "Total Exterior Turn: {angle}° / 360°",
+      "defectLabel": "Angular Defect: {defect}°"
+    },
+    "vault": {
+      "title": "PROTECTED TOKEN VAULT",
+      "tokensProtected": "Protected Tokens: {count}",
+      "shearPressure": "External Thermal Shear: {shear} Pa",
+      "leakRate": "Leakage Rate: {rate} tokens/s"
+    },
+    "status": {
+      "enclosed": "🛡️ Closed Membrane Loop (Gauss-Bonnet 2π — Tokens Protected)",
+      "open": "⚠️ Open Perimeter! (Thermal Shear Inducing Token Leakage)",
+      "critical": "💥 Membrane Ruptured! (External Shear Inundation)"
+    },
+    "buttons": {
+      "addVertex": "Place Anchor Node",
+      "closeLoop": "Close Perimeter (2π)",
+      "autoHex": "Preset Hexagonal Grid",
+      "reset": "Clear Canvas"
+    },
+    "gasingHint": {
+      "default": "💡 <strong>GASing Geometry Guide</strong>: Placing vertices is <em>Easy</em>! Click 4–6 anchors in a loop, then press 'Close Perimeter'. It is <em>Fun</em> watching the loop seal, and <em>Enjoyable</em> witnessing your tokens completely sheltered!",
+      "enclosed": "🌟 <strong>Sovereign Enclave Active!</strong>: Membrane is tightly sealed. Thermal shear is deflected outwards and all tokens are preserved!",
+      "open": "⚠️ <strong>Perimeter Still Leaking!</strong>: Boundary path is incomplete. Press 'Close Perimeter' to seal the gap before tokens evaporate.",
+      "breach": "🔥 <strong>Boundary Breach!</strong>: Insufficient anchors to withstand external shear. Place at least 3 sturdy boundary nodes."
+    },
+    "logs": {
+      "title": "MCARD SPATIAL BLUEPRINT LOG:",
+      "entriesCount": "{count} events",
+      "init": "> Viewport initialized. Awaiting placement of first boundary node...",
+      "vertexAdded": "> Anchor #{index} planted at coordinate ({x}, {y}).",
+      "closed": "> 🌟 Topological closure certified! Gauss-Bonnet exterior angle sum = 2π (360°). Enclosed area: {area} px².",
+      "breached": "> 💥 WARNING: Boundary opened! Token vault exposed to thermal shear.",
+      "reset": "> Viewport reset to unconditioned Kenotic vacuum."
+    },
+    "demon": {
+      "elderTitle": "--- VILLAGE SURVEYOR COUNSEL ---",
+      "elderRoar": "Surveyor: \"Look upon this wild field. Without terrace bunds, torrential water washes the harvest into the ravine. Build a just and seamless perimeter!\"",
+      "elderWarn": "Surveyor: \"Heed the law of Gauss-Bonnet: unless your perimeter turns a full 360 degrees, thermal wind will scour your sanctuary clean!\"",
+      "actionTriggered": "Boundary anchor placed. Perimeter extended by {length} units.",
+      "closureCelebration": "Gong Resonates! The cell wall has achieved complete 2π closure. Sovereignty established.",
+      "breachAlert": "*** DANGER: Perimeter fractured! Seal the gap immediately! ***"
+    },
+    "typeLattice": {
+      "title": "CLM Spatial Type Lattice (U0-U5)",
+      "u0": "U0 (MCard CAS): Coordinate Vertex & Simplex Facet",
+      "u1": "U1 (PCard CPN): Geodesic Segment & Kinect Projection",
+      "u2": "U2 (VCard Proof): Gauss-Bonnet Theorem & Isoperimetric Bound",
+      "u3": "U3 (Satori): Parallax Pulse & Cell Enclosure Chime",
+      "u4": "U4 (Membrane): Topographic Viewport & Anchor Trigger",
+      "u5": "U5 (Loop Γ): Spatial GASing Flow & Kenotic Spatial Void"
+    }
+  },
+  "zh-TW": {
+    "meta": {
+      "code": "zh-TW",
+      "name": "正體中文",
+      "flag": "🇹🇼"
+    },
+    "header": {
+      "mainTitle": "MCard 地形細胞壁：第 02 站",
+      "subtitle": "「空間非虛空；界限方能賦予意義與主權。」",
+      "breadcrumb": "時空序章：第 02 章",
+      "stationBadge": "第 02 站（MCARD 空間藍圖）",
+      "depthBadge": "WKL₀ 第 2 級深度"
+    },
+    "canvas": {
+      "title": "空間拓撲幾何視窗",
+      "instruction": "點擊畫布以落錨邊界界樁（頂點）。連綴至少 3 枚頂點並封閉周界，即可建立自立防護細胞。",
+      "emptyHint": "畫布尚處純粹太虛（空無模式）。點擊任意處打下第一枚界樁！",
+      "verticesCount": "界樁頂點數：{count}",
+      "perimeterLabel": "周界總長（L）：{length} px",
+      "areaLabel": "封閉受護面積（A）：{area} px²",
+      "isoperimetricLabel": "等周商效率比（Q）：{q}"
+    },
+    "curvature": {
+      "title": "曲率平衡度量（高斯-博內定理）",
+      "statusClosed": "圓滿閉合（2π = 360°）",
+      "statusOpen": "未閉合孔隙（逸散中）",
+      "angleSum": "外角偏轉總和：{angle}° / 360°",
+      "defectLabel": "角虧損差：{defect}°"
+    },
+    "vault": {
+      "title": "受護代幣金庫",
+      "tokensProtected": "受護存留代幣：{count}",
+      "shearPressure": "外在環境熱剪切應力：{shear} Pa",
+      "leakRate": "代幣洩漏速率：{rate} 枚/秒"
+    },
+    "status": {
+      "enclosed": "🛡️ 周界圓滿閉合（高斯-博內 2π — 代幣完全受護）",
+      "open": "⚠️ 周界存在孔隙！（外在熱剪切引發代幣洩漏）",
+      "critical": "💥 胞壁徹底穿孔！（外在熱流倒灌摧毀金庫）"
+    },
+    "buttons": {
+      "addVertex": "落錨邊界頂點",
+      "closeLoop": "閉合周界（2π）",
+      "autoHex": "正六邊形自然胞陣",
+      "reset": "重設空間畫布"
+    },
+    "gasingHint": {
+      "default": "💡 <strong>GASing 幾何導引</strong>：落點極其<em>簡單（Gampang）</em>！環形點擊 4–6 個節點，再按下「閉合周界」。看著連線合攏非常<em>有趣（Asyik）</em>，代幣完全安居避難所更是<em>令人享受（Menyenangkan）</em>！",
+      "enclosed": "🌟 <strong>自主主權空間確立！</strong>：細胞壁嚴絲合縫無間隙。熱剪切應力盡數偏轉於外，全數代幣安然無恙！",
+      "open": "⚠️ <strong>堤防尚有缺口！</strong>：邊界未完整連綴成閉合環。請點擊「閉合周界」，防範代幣遭熱力蒸發。",
+      "breach": "🔥 <strong>胞壁潰決！</strong>：節點過少難以抵抗外在剪切應力。請至少穩固布設 3 處以上邊界界樁。"
+    },
+    "logs": {
+      "title": "MCARD 空間藍圖不變帳簿（AKṢAYA-LEKHYAM）：",
+      "entriesCount": "{count} 筆紀錄",
+      "init": "> 視窗已就緒。等待打下第一枚邊界界樁頂點...",
+      "vertexAdded": "> 界樁 #{index} 於座標 ({x}, {y}) 處落錨完成。",
+      "closed": "> 🌟 拓撲閉合認證通過！高斯-博內外角和 = 2π (360°)。受護面積：{area} px²。",
+      "breached": "> 💥 警告：邊界開啟！代幣金庫暴露於外在熱剪切流。",
+      "reset": "> 畫布重設為無假定之純粹虛空（Kenosis）。"
+    },
+    "demon": {
+      "elderTitle": "--- 鄉里勘輿匠師警語 ---",
+      "elderRoar": "匠師：「望此曠野，若無田埂土壘，洪流將捲走所有稻穀。速立方正嚴密之邊界！」",
+      "elderWarn": "匠師：「切記高斯-博內之法：若外角偏轉未滿三百六十度，狂風將自缺口直灌而入，洗劫一空！」",
+      "actionTriggered": "界樁釘入。周界長度延展 {length} 單位。",
+      "closureCelebration": "大磬長鳴！胞壁合龍成就 2π 圓滿，主權領域正式立基。",
+      "breachAlert": "*** 險兆：邊界斷裂穿孔！速合龍補隙！ ***"
+    },
+    "typeLattice": {
+      "title": "CLM 空間類型格（U0-U5）",
+      "u0": "U0 (MCard CAS): 座標頂點與單體邊界刻面",
+      "u1": "U1 (PCard CPN): 測地線段與 Kinect 深度點雲",
+      "u2": "U2 (VCard Proof): 高斯-博內定理與等周極限證明",
+      "u3": "U3 (Satori): 視差深度脈衝與胞壁閉合磬音",
+      "u4": "U4 (Membrane): 地形畫布視窗與落錨觸發器",
+      "u5": "U5 (Loop Γ): 空間 GASing 心流與空間虛空模式"
+    }
+  }
+}

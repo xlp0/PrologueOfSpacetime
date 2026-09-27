@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 02: MCard Topographic Cell Wall / Dinding Sel Topografi MCard</title>
+    <style>
+        :root {
+            --bg-page: #0b1120;
+            --bg-card: rgba(15, 23, 42, 0.85);
+            --border-card: rgba(51, 65, 85, 0.7);
+            --grid-line: rgba(30, 41, 59, 0.6);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-cyan: #06b6d4;
+            --accent-emerald: #10b981;
+            --accent-amber: #f59e0b;
+            --accent-rose: #f43f5e;
+            --accent-purple: #8b5cf6;
+            --shadow-glow: 0 0 25px rgba(6, 182, 212, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, 'Noto Sans Devanagari';
+            background: radial-gradient(circle at 50% 0%, #1e1b4b 0%, #0f172a 45%, #020617 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 1.5rem 1rem 3rem 1rem;
+        }
+
+        /* Top Header */
+        .header-bar {
+            text-align: center;
+            max-width: 840px;
+            margin-bottom: 1.2rem;
+        }
+
+        .breadcrumb-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .badge {
+            font-family: 'Courier New', monospace;
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        }
+
+        .badge-station {
+            background: rgba(6, 182, 212, 0.15);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+        }
+
+        .badge-depth {
+            background: rgba(139, 92, 246, 0.15);
+            color: var(--accent-purple);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+        }
+
+        .header-bar h1 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.3rem;
+            letter-spacing: -0.5px;
+        }
+
+        .header-bar .subtitle {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* 4-Language Switcher */
+        .lang-switch {
+            margin-top: 0.75rem;
+            display: inline-flex;
+            gap: 0.4rem;
+            background: rgba(15, 23, 42, 0.8);
+            padding: 4px;
+            border-radius: 999px;
+            border: 1px solid var(--border-card);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            border-radius: 999px;
+            padding: 4px 12px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .lang-btn.active {
+            background: linear-gradient(135deg, #0ea5e9, #10b981);
+            color: white;
+            font-weight: 700;
+            box-shadow: 0 2px 8px rgba(14, 165, 233, 0.4);
+        }
+
+        /* Main Container */
+        .main-deck {
+            width: 100%;
+            max-width: 860px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 16px;
+            box-shadow: var(--shadow-glow), 0 20px 40px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(12px);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        /* Status Banner */
+        .status-banner {
+            border-radius: 8px;
+            padding: 0.65rem 1rem;
+            font-size: 0.82rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+        }
+
+        .status-open {
+            background: rgba(245, 158, 11, 0.12);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+            color: #fcd34d;
+        }
+
+        .status-enclosed {
+            background: rgba(16, 185, 129, 0.15);
+            border: 1px solid rgba(16, 185, 129, 0.5);
+            color: #6ee7b7;
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+        }
+
+        .status-critical {
+            background: rgba(244, 63, 94, 0.18);
+            border: 1px solid rgba(244, 63, 94, 0.5);
+            color: #fda4af;
+        }
+
+        /* Viewport & Controls Grid */
+        .workbench-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.25rem;
+        }
+
+        @media (min-width: 768px) {
+            .workbench-grid {
+                grid-template-columns: 3fr 2fr;
+            }
+        }
+
+        /* Canvas Stage */
+        .canvas-container {
+            background: #030712;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .canvas-toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0.75rem;
+            background: rgba(15, 23, 42, 0.9);
+            border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            font-family: 'Courier New', monospace;
+        }
+
+        canvas {
+            width: 100%;
+            height: 380px;
+            display: block;
+            cursor: crosshair;
+        }
+
+        .canvas-overlay-instruction {
+            position: absolute;
+            bottom: 10px;
+            left: 12px;
+            right: 12px;
+            pointer-events: none;
+            background: rgba(15, 23, 42, 0.75);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 0.7rem;
+            color: #cbd5e1;
+            text-align: center;
+        }
+
+        /* Telemetry & Gauges Column */
+        .telemetry-column {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .metric-card {
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid var(--border-card);
+            border-radius: 10px;
+            padding: 0.9rem;
+        }
+
+        .metric-header {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .metric-value-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            margin-bottom: 0.35rem;
+        }
+
+        .metric-progress-bg {
+            height: 8px;
+            background: rgba(15, 23, 42, 0.8);
+            border-radius: 999px;
+            overflow: hidden;
+            border: 1px solid rgba(51, 65, 85, 0.5);
+            position: relative;
+        }
+
+        .metric-progress-fill {
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+
+        .fill-curvature {
+            background: linear-gradient(90deg, #38bdf8, #10b981);
+        }
+
+        .fill-vault {
+            background: linear-gradient(90deg, #f59e0b, #10b981);
+        }
+
+        .fill-shear {
+            background: linear-gradient(90deg, #f43f5e, #f59e0b);
+        }
+
+        /* Action Buttons */
+        .btn-deck {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .action-btn {
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid var(--border-card);
+            color: var(--text-main);
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .action-btn:hover {
+            background: rgba(30, 41, 59, 0.9);
+            border-color: var(--accent-cyan);
+            color: #ffffff;
+            transform: translateY(-1px);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #0ea5e9, #059669);
+            border: none;
+            color: white;
+            box-shadow: 0 4px 10px rgba(14, 165, 233, 0.3);
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 6px 14px rgba(14, 165, 233, 0.5);
+            background: linear-gradient(135deg, #38bdf8, #10b981);
+        }
+
+        /* GASing Pedagogic Box */
+        .gasing-box {
+            background: rgba(16, 185, 129, 0.08);
+            border: 1px dashed rgba(16, 185, 129, 0.4);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            font-size: 0.78rem;
+            line-height: 1.45;
+            color: #a7f3d0;
+        }
+
+        /* Demon / Village Surveyor Counsel */
+        .demon-box {
+            background: rgba(30, 41, 59, 0.4);
+            border-left: 3px solid var(--accent-amber);
+            border-radius: 4px;
+            padding: 0.6rem 0.85rem;
+            font-size: 0.75rem;
+            color: #fde68a;
+            font-style: italic;
+        }
+
+        /* Immutable Log Display */
+        .log-section {
+            background: #020617;
+            border: 1px solid rgba(51, 65, 85, 0.6);
+            border-radius: 10px;
+            padding: 0.75rem;
+            font-family: 'Courier New', monospace;
+        }
+
+        .log-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            margin-bottom: 0.4rem;
+            border-bottom: 1px solid rgba(51, 65, 85, 0.4);
+            padding-bottom: 0.3rem;
+            font-weight: 700;
+        }
+
+        .log-display {
+            height: 90px;
+            overflow-y: auto;
+            font-size: 0.7rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        .log-line {
+            color: #94a3b8;
+            word-break: break-all;
+        }
+
+        .log-line.highlight {
+            color: #38bdf8;
+            font-weight: bold;
+        }
+
+        .log-line.warn {
+            color: #f43f5e;
+            font-weight: bold;
+        }
+
+        /* CLM Lattice Ribbon */
+        .lattice-ribbon {
+            margin-top: 0.5rem;
+            padding-top: 0.6rem;
+            border-top: 1px dashed var(--border-card);
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+        }
+
+        .lattice-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+        }
+
+        .lattice-pill {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(51, 65, 85, 0.5);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 0.65rem;
+            font-family: 'Courier New', monospace;
+            color: var(--text-muted);
+            transition: all 0.2s ease;
+        }
+
+        .lattice-pill.active {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+            background: rgba(6, 182, 212, 0.15);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-bar">
+        <div class="breadcrumb-row">
+            <span class="badge badge-station" data-i18n="header.stationBadge">STASIUN 02 (DENAH & GEOMETRI)</span>
+            <span class="badge badge-depth" data-i18n="header.depthBadge">WKL₀ LEVEL 2</span>
+        </div>
+        <h1 data-i18n="header.mainTitle">Dinding Sel Topografi MCard: Stasiun 02</h1>
+        <p class="subtitle" data-i18n="header.subtitle">"Ruang bukanlah kekosongan hampa; bataslah yang memberi makna dan kedaulatan."</p>
+
+        <!-- 4-Language Standardized Switcher -->
+        <div class="lang-switch" id="langSwitch">
+            <button class="lang-btn active" data-lang="id" onclick="window.switchLanguage('id')">🇮🇩 Bahasa Indonesia</button>
+            <button class="lang-btn" data-lang="sa" onclick="window.switchLanguage('sa')">🕉️ संस्कृतम्</button>
+            <button class="lang-btn" data-lang="en" onclick="window.switchLanguage('en')">🇬🇧 English</button>
+            <button class="lang-btn" data-lang="zh-TW" onclick="window.switchLanguage('zh-TW')">🇹🇼 正體中文</button>
+        </div>
+    </header>
+
+    <main class="main-deck">
+        <!-- Status Banner -->
+        <div class="status-banner status-open" id="statusBanner">
+            <span id="statusText" data-i18n="status.open">⚠️ Batas Terbuka! (Geseran Termal — Kebocoran Aset)</span>
+            <span id="curvatureIndicator" style="font-family: monospace; font-size: 0.75rem;">Σθ = 0° (Defek: 360°)</span>
+        </div>
+
+        <div class="workbench-grid">
+            <!-- Canvas Column -->
+            <div class="canvas-container">
+                <div class="canvas-toolbar">
+                    <span data-i18n="canvas.title">BALE KANVAS GEOMETRI RUANG</span>
+                    <span id="mouseCoords">X: 000 | Y: 000</span>
+                </div>
+                <canvas id="topoCanvas" width="500" height="380"></canvas>
+                <div class="canvas-overlay-instruction" id="canvasInstruction" data-i18n="canvas.instruction">
+                    Klik pada kanvas untuk menancapkan patok batas (verteks). Hubungkan minimal 3 patok dan kunci kelilingnya untuk membentuk suaka berdaulat.
+                </div>
+            </div>
+
+            <!-- Telemetry Column -->
+            <div class="telemetry-column">
+                <!-- Curvature Gauss-Bonnet Metric -->
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <span data-i18n="curvature.title">KESEIMBANGAN KELENGKUNGAN (GAUSS-BONNET)</span>
+                        <span id="gbStatusBadge" style="color: var(--accent-amber);">OPEN</span>
+                    </div>
+                    <div class="metric-value-row">
+                        <span id="angleSumLabel" data-i18n="curvature.angleSum" data-i18n-params='{"angle": 0}'>Total Sudut Belok: 0° / 360°</span>
+                        <span id="defectLabel" data-i18n="curvature.defectLabel" data-i18n-params='{"defect": 360}'>Celah Defek: 360°</span>
+                    </div>
+                    <div class="metric-progress-bg">
+                        <div class="metric-progress-fill fill-curvature" id="curvatureBar" style="width: 0%;"></div>
+                    </div>
+                </div>
+
+                <!-- Protected Token Vault Metric -->
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <span data-i18n="vault.title">LUMBUNG TOKEN TERLINDUNG</span>
+                        <span id="vaultTokensVal" style="color: var(--accent-amber); font-weight: bold;">100</span>
+                    </div>
+                    <div class="metric-value-row">
+                        <span id="tokensProtectedLabel" data-i18n="vault.tokensProtected" data-i18n-params='{"count": 100}'>Token Terselamatkan: 100</span>
+                        <span id="leakRateLabel" data-i18n="vault.leakRate" data-i18n-params='{"rate": 0}'>Laju Kebocoran: 0 token/dtk</span>
+                    </div>
+                    <div class="metric-progress-bg">
+                        <div class="metric-progress-fill fill-vault" id="vaultBar" style="width: 100%;"></div>
+                    </div>
+                    <div class="metric-value-row" style="margin-top: 0.5rem; font-size: 0.72rem; color: var(--text-muted);">
+                        <span id="shearLabel" data-i18n="vault.shearPressure" data-i18n-params='{"shear": 42}'>Tekanan Geser Termal: 42 Pa</span>
+                    </div>
+                </div>
+
+                <!-- Shape Geometry Telemetry -->
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <span>METRIK POLIGON TOPOLOGIS</span>
+                    </div>
+                    <div class="metric-value-row">
+                        <span id="vertCountLabel" data-i18n="canvas.verticesCount" data-i18n-params='{"count": 0}'>Jumlah Patok: 0</span>
+                        <span id="perimeterLabel" data-i18n="canvas.perimeterLabel" data-i18n-params='{"length": 0}'>Panjang Keliling (L): 0 px</span>
+                    </div>
+                    <div class="metric-value-row">
+                        <span id="areaLabel" data-i18n="canvas.areaLabel" data-i18n-params='{"area": 0}'>Luas Area Terlindung (A): 0 px²</span>
+                        <span id="isoLabel" data-i18n="canvas.isoperimetricLabel" data-i18n-params='{"q": "0.000"}'>Efisiensi Isoperimetrik (Q): 0.000</span>
+                    </div>
+                </div>
+
+                <!-- Buttons Grid -->
+                <div class="btn-deck">
+                    <button class="action-btn" id="addVertexBtn" data-i18n="buttons.addVertex">Tancap Patok Batas</button>
+                    <button class="action-btn btn-primary" id="closeLoopBtn" data-i18n="buttons.closeLoop">Kunci Keliling (2π)</button>
+                    <button class="action-btn" id="autoHexBtn" data-i18n="buttons.autoHex">Pola Segi-Enam Alam</button>
+                    <button class="action-btn" id="resetBtn" data-i18n="buttons.reset">Ratakan Tanah (Reset)</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- GASing Pedagogic Guidance -->
+        <div class="gasing-box" id="gasingBox">
+            <span data-i18n="gasingHint.default">💡 <strong>GASing Panduan Bentuk</strong>: Menancapkan patok itu <em>Gampang</em>! Klik 4–6 titik melingkar, lalu tekan 'Kunci Keliling'. <em>Asyik</em> melihat batas menyatu, dan <em>Menyenangkan</em> melihat token terlindungi rapat!</span>
+        </div>
+
+        <!-- Demon / Surveyor Counsel -->
+        <div class="demon-box" id="demonBox">
+            <div style="font-weight: bold; margin-bottom: 2px;" data-i18n="demon.elderTitle">--- NASIHAT JURU UKUR ADAT DESA ---</div>
+            <div id="elderQuote" data-i18n="demon.elderRoar">Juru Ukur: "Lihatlah tanah lapang ini. Tanpa pematang, air Subak akan mengalir liar terbuang ke jurang. Bentuklah batas yang adil dan rapat!"</div>
+        </div>
+
+        <!-- Immutable Log (Akṣaya-Lekhyam) -->
+        <div class="log-section">
+            <div class="log-header">
+                <span data-i18n="logs.title">MCARD BUKU CATATAN BATAS (AKṢAYA-LEKHYAM):</span>
+                <span id="logCount" data-i18n="logs.entriesCount" data-i18n-params='{"count": 0}'>0 catatan</span>
+            </div>
+            <div class="log-display" id="logBox">
+                <div class="log-line">> Ruang kanvas siap. Menunggu penancapan patok batas pertama...</div>
+            </div>
+        </div>
+
+        <!-- CLM Type Lattice Ribbon (U0-U5) -->
+        <div class="lattice-ribbon">
+            <div style="display: flex; justify-content: space-between; font-weight: bold;">
+                <span data-i18n="typeLattice.title">CLM Kekisi Tipe Spasial (U0-U5)</span>
+                <span style="color: var(--accent-emerald);">MCard Station 02 Kernel</span>
+            </div>
+            <div class="lattice-pills">
+                <span class="lattice-pill active" id="pill-u0" data-i18n="typeLattice.u0">U0 (MCard CAS): Verteks Koordinat</span>
+                <span class="lattice-pill" id="pill-u1" data-i18n="typeLattice.u1">U1 (PCard CPN): Lintasan Geodesik</span>
+                <span class="lattice-pill" id="pill-u2" data-i18n="typeLattice.u2">U2 (VCard Proof): Teorema Gauss-Bonnet</span>
+                <span class="lattice-pill" id="pill-u3" data-i18n="typeLattice.u3">U3 (Satori): Denyut Paralaks Kedalaman</span>
+                <span class="lattice-pill" id="pill-u4" data-i18n="typeLattice.u4">U4 (Membrane): Viewport Kanvas</span>
+                <span class="lattice-pill" id="pill-u5" data-i18n="typeLattice.u5">U5 (Loop Γ): GASing Keheningan</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Standardized & Reusable i18n Module -->
+    <script type="module">
+        import { i18n, t, setLocale, onLocaleChange, applyToDOM } from './i18n.js';
+
+        // ==========================================
+        // Web Audio Synthesizer (Zero External Dependencies)
+        // ==========================================
+        let audioCtx = null;
+
+        function getAudioContext() {
+            if (!audioCtx) {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                audioCtx = new AudioContext();
+            }
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+            return audioCtx;
+        }
+
+        // Anchor stake plant tone (percussive plink with ascending pitch)
+        function playAnchorSound(index = 0) {
+            try {
+                const ctx = getAudioContext();
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+
+                const baseFreq = 320 + (index % 8) * 60;
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(baseFreq, ctx.currentTime);
+                osc.frequency.exponentialRampToValueAtTime(baseFreq * 1.5, ctx.currentTime + 0.08);
+
+                gain.gain.setValueAtTime(0.25, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.1);
+
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+
+                osc.start();
+                osc.stop(ctx.currentTime + 0.1);
+            } catch (e) {}
+        }
+
+        // Gauss-Bonnet 2π closure resonant temple chime / gong
+        function playClosureGong() {
+            try {
+                const ctx = getAudioContext();
+                const freqs = [261.63, 392.00, 523.25, 784.00]; // Harmonic C-G chord
+                freqs.forEach((f, idx) => {
+                    const osc = ctx.createOscillator();
+                    const gain = ctx.createGain();
+
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(f, ctx.currentTime + idx * 0.04);
+
+                    gain.gain.setValueAtTime(0.28, ctx.currentTime + idx * 0.04);
+                    gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + idx * 0.04 + 1.2);
+
+                    osc.connect(gain);
+                    gain.connect(ctx.destination);
+
+                    osc.start(ctx.currentTime + idx * 0.04);
+                    osc.stop(ctx.currentTime + idx * 0.04 + 1.2);
+                });
+            } catch (e) {}
+        }
+
+        // Thermal shear wind / hiss
+        function playShearHiss() {
+            try {
+                const ctx = getAudioContext();
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(240, ctx.currentTime);
+                osc.frequency.linearRampToValueAtTime(80, ctx.currentTime + 0.25);
+
+                gain.gain.setValueAtTime(0.2, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.25);
+
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+
+                osc.start();
+                osc.stop(ctx.currentTime + 0.25);
+            } catch (e) {}
+        }
+
+        // ==========================================
+        // Simulation State & Topographic Engine
+        // ==========================================
+        let state = {
+            vertices: [],
+            isClosed: false,
+            tokens: 100,
+            thermalShear: 42,
+            leakRate: 0,
+            perimeter: 0,
+            area: 0,
+            exteriorAngleSum: 0,
+            defect: 360,
+            isoperimetricQuotient: 0,
+            logEntries: 0
+        };
+
+        const canvas = document.getElementById('topoCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Dynamic elements
+        const statusBanner = document.getElementById('statusBanner');
+        const statusText = document.getElementById('statusText');
+        const curvatureIndicator = document.getElementById('curvatureIndicator');
+        const gbStatusBadge = document.getElementById('gbStatusBadge');
+        const angleSumLabel = document.getElementById('angleSumLabel');
+        const defectLabel = document.getElementById('defectLabel');
+        const curvatureBar = document.getElementById('curvatureBar');
+        const vaultTokensVal = document.getElementById('vaultTokensVal');
+        const tokensProtectedLabel = document.getElementById('tokensProtectedLabel');
+        const leakRateLabel = document.getElementById('leakRateLabel');
+        const vaultBar = document.getElementById('vaultBar');
+        const shearLabel = document.getElementById('shearLabel');
+        const vertCountLabel = document.getElementById('vertCountLabel');
+        const perimeterLabel = document.getElementById('perimeterLabel');
+        const areaLabel = document.getElementById('areaLabel');
+        const isoLabel = document.getElementById('isoLabel');
+        const gasingBox = document.getElementById('gasingBox');
+        const elderQuote = document.getElementById('elderQuote');
+        const logBox = document.getElementById('logBox');
+        const logCount = document.getElementById('logCount');
+        const mouseCoords = document.getElementById('mouseCoords');
+
+        // Lattice pills
+        const pills = {
+            u0: document.getElementById('pill-u0'),
+            u1: document.getElementById('pill-u1'),
+            u2: document.getElementById('pill-u2'),
+            u3: document.getElementById('pill-u3'),
+            u4: document.getElementById('pill-u4'),
+            u5: document.getElementById('pill-u5')
+        };
+
+        function setLatticeActive(level) {
+            Object.values(pills).forEach(p => p.classList.remove('active'));
+            if (pills[level]) pills[level].classList.add('active');
+        }
+
+        function appendLog(msg, type = 'normal') {
+            const line = document.createElement('div');
+            line.className = 'log-line' + (type === 'highlight' ? ' highlight' : type === 'warn' ? ' warn' : '');
+            line.textContent = msg;
+            logBox.prepend(line);
+            state.logEntries++;
+            logCount.textContent = t('logs.entriesCount', { count: state.logEntries });
+        }
+
+        // Shoelace algorithm for polygon area
+        function computeArea(pts) {
+            if (pts.length < 3) return 0;
+            let a = 0;
+            for (let i = 0; i < pts.length; i++) {
+                const j = (i + 1) % pts.length;
+                a += pts[i].x * pts[j].y - pts[j].x * pts[i].y;
+            }
+            return Math.abs(a) / 2;
+        }
+
+        // Perimeter distance calculation
+        function computePerimeter(pts, isLoop) {
+            if (pts.length < 2) return 0;
+            let p = 0;
+            const count = isLoop ? pts.length : pts.length - 1;
+            for (let i = 0; i < count; i++) {
+                const next = pts[(i + 1) % pts.length];
+                const dx = next.x - pts[i].x;
+                const dy = next.y - pts[i].y;
+                p += Math.hypot(dx, dy);
+            }
+            return p;
+        }
+
+        // Gauss-Bonnet exterior angle calculation
+        function computeCurvature(pts) {
+            if (pts.length < 3) return { sum: 0, defect: 360 };
+            let totalExterior = 0;
+            for (let i = 0; i < pts.length; i++) {
+                const prev = pts[(i - 1 + pts.length) % pts.length];
+                const curr = pts[i];
+                const next = pts[(i + 1) % pts.length];
+
+                const v1 = { x: curr.x - prev.x, y: curr.y - prev.y };
+                const v2 = { x: next.x - curr.x, y: next.y - curr.y };
+
+                const angle1 = Math.atan2(v1.y, v1.x);
+                const angle2 = Math.atan2(v2.y, v2.x);
+                let diff = angle2 - angle1;
+                while (diff <= -Math.PI) diff += 2 * Math.PI;
+                while (diff > Math.PI) diff -= 2 * Math.PI;
+
+                totalExterior += Math.abs(diff);
+            }
+            const deg = Math.round((totalExterior * 180) / Math.PI);
+            const defect = Math.max(0, 360 - deg);
+            return { sum: deg, defect: defect };
+        }
+
+        function updateCalculations() {
+            state.perimeter = Math.round(computePerimeter(state.vertices, state.isClosed));
+            state.area = state.isClosed ? Math.round(computeArea(state.vertices)) : 0;
+
+            if (state.isClosed && state.vertices.length >= 3) {
+                const c = computeCurvature(state.vertices);
+                state.exteriorAngleSum = 360; // Closed planar polygon
+                state.defect = 0;
+                // Isoperimetric quotient Q = 4 * pi * A / (L^2)
+                if (state.perimeter > 0) {
+                    state.isoperimetricQuotient = (4 * Math.PI * state.area) / (state.perimeter * state.perimeter);
+                }
+                state.leakRate = 0;
+            } else {
+                const c = computeCurvature(state.vertices);
+                state.exteriorAngleSum = Math.min(359, c.sum);
+                state.defect = 360 - state.exteriorAngleSum;
+                state.isoperimetricQuotient = 0;
+                state.leakRate = state.vertices.length >= 1 ? 2 : 0;
+            }
+
+            renderUI();
+            drawCanvas();
+        }
+
+        function renderUI() {
+            // Status Banner
+            if (state.isClosed) {
+                statusBanner.className = 'status-banner status-enclosed';
+                statusText.innerHTML = t('status.enclosed');
+                curvatureIndicator.textContent = `Σθ = 360° (2π CLOSED)`;
+                gbStatusBadge.textContent = t('curvature.statusClosed');
+                gbStatusBadge.style.color = 'var(--accent-emerald)';
+                gasingBox.innerHTML = t('gasingHint.enclosed');
+                elderQuote.textContent = t('demon.elderWarn');
+                setLatticeActive('u2');
+            } else if (state.tokens <= 20) {
+                statusBanner.className = 'status-banner status-critical';
+                statusText.innerHTML = t('status.critical');
+                curvatureIndicator.textContent = `Σθ = ${state.exteriorAngleSum}° (DEFECT: ${state.defect}°)`;
+                gbStatusBadge.textContent = t('curvature.statusOpen');
+                gbStatusBadge.style.color = 'var(--accent-rose)';
+                gasingBox.innerHTML = t('gasingHint.breach');
+                elderQuote.textContent = t('demon.breachAlert');
+                setLatticeActive('u0');
+            } else {
+                statusBanner.className = 'status-banner status-open';
+                statusText.innerHTML = t('status.open');
+                curvatureIndicator.textContent = `Σθ = ${state.exteriorAngleSum}° (DEFECT: ${state.defect}°)`;
+                gbStatusBadge.textContent = t('curvature.statusOpen');
+                gbStatusBadge.style.color = 'var(--accent-amber)';
+                gasingBox.innerHTML = state.vertices.length === 0 ? t('gasingHint.default') : t('gasingHint.open');
+                elderQuote.textContent = t('demon.elderRoar');
+                setLatticeActive(state.vertices.length > 0 ? 'u1' : 'u4');
+            }
+
+            // Gauges & Labels
+            const pctCurv = Math.min(100, Math.round((state.exteriorAngleSum / 360) * 100));
+            curvatureBar.style.width = pctCurv + '%';
+            angleSumLabel.textContent = t('curvature.angleSum', { angle: state.exteriorAngleSum });
+            defectLabel.textContent = t('curvature.defectLabel', { defect: state.defect });
+
+            vaultTokensVal.textContent = state.tokens;
+            tokensProtectedLabel.textContent = t('vault.tokensProtected', { count: state.tokens });
+            leakRateLabel.textContent = t('vault.leakRate', { rate: state.leakRate });
+            vaultBar.style.width = state.tokens + '%';
+            shearLabel.textContent = t('vault.shearPressure', { shear: state.thermalShear });
+
+            vertCountLabel.textContent = t('canvas.verticesCount', { count: state.vertices.length });
+            perimeterLabel.textContent = t('canvas.perimeterLabel', { length: state.perimeter });
+            areaLabel.textContent = t('canvas.areaLabel', { area: state.area });
+            isoLabel.textContent = t('canvas.isoperimetricLabel', { q: state.isoperimetricQuotient.toFixed(3) });
+        }
+
+        // Canvas Rendering
+        function drawCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Draw Topographic Grid
+            ctx.strokeStyle = 'rgba(30, 41, 59, 0.4)';
+            ctx.lineWidth = 1;
+            const step = 25;
+            for (let x = 0; x < canvas.width; x += step) {
+                ctx.beginPath();
+                ctx.moveTo(x, 0);
+                ctx.lineTo(x, canvas.height);
+                ctx.stroke();
+            }
+            for (let y = 0; y < canvas.height; y += step) {
+                ctx.beginPath();
+                ctx.moveTo(0, y);
+                ctx.lineTo(canvas.width, y);
+                ctx.stroke();
+            }
+
+            // Draw Contour Concentric Circles (Topographic style)
+            ctx.strokeStyle = 'rgba(6, 182, 212, 0.05)';
+            ctx.beginPath();
+            ctx.arc(canvas.width / 2, canvas.height / 2, 70, 0, Math.PI * 2);
+            ctx.arc(canvas.width / 2, canvas.height / 2, 130, 0, Math.PI * 2);
+            ctx.arc(canvas.width / 2, canvas.height / 2, 180, 0, Math.PI * 2);
+            ctx.stroke();
+
+            if (state.vertices.length === 0) return;
+
+            // Enclosed Polygon Fill
+            if (state.isClosed && state.vertices.length >= 3) {
+                ctx.fillStyle = 'rgba(16, 185, 129, 0.15)';
+                ctx.beginPath();
+                ctx.moveTo(state.vertices[0].x, state.vertices[0].y);
+                for (let i = 1; i < state.vertices.length; i++) {
+                    ctx.lineTo(state.vertices[i].x, state.vertices[i].y);
+                }
+                ctx.closePath();
+                ctx.fill();
+
+                // Centroid Sanctuary Marker
+                let cx = 0, cy = 0;
+                state.vertices.forEach(v => { cx += v.x; cy += v.y; });
+                cx /= state.vertices.length;
+                cy /= state.vertices.length;
+
+                ctx.fillStyle = 'rgba(16, 185, 129, 0.8)';
+                ctx.beginPath();
+                ctx.arc(cx, cy, 6, 0, Math.PI * 2);
+                ctx.fill();
+
+                ctx.font = '10px monospace';
+                ctx.fillStyle = '#6ee7b7';
+                ctx.fillText(`A = ${state.area} px²`, cx - 30, cy + 18);
+            }
+
+            // Draw Boundary Geodesic Edges
+            ctx.lineWidth = 2.5;
+            const count = state.isClosed ? state.vertices.length : state.vertices.length - 1;
+            for (let i = 0; i < count; i++) {
+                const p1 = state.vertices[i];
+                const p2 = state.vertices[(i + 1) % state.vertices.length];
+
+                ctx.strokeStyle = state.isClosed ? '#10b981' : '#06b6d4';
+                ctx.beginPath();
+                ctx.moveTo(p1.x, p1.y);
+                ctx.lineTo(p2.x, p2.y);
+                ctx.stroke();
+
+                // Segment mid-point length label
+                const midX = (p1.x + p2.x) / 2;
+                const midY = (p1.y + p2.y) / 2;
+                const dist = Math.round(Math.hypot(p2.x - p1.x, p2.y - p1.y));
+                ctx.font = '9px monospace';
+                ctx.fillStyle = 'rgba(148, 163, 184, 0.8)';
+                ctx.fillText(`${dist}px`, midX + 4, midY - 4);
+            }
+
+            // Draw Vertices
+            state.vertices.forEach((v, idx) => {
+                ctx.beginPath();
+                ctx.arc(v.x, v.y, 6, 0, Math.PI * 2);
+                ctx.fillStyle = state.isClosed ? '#34d399' : '#38bdf8';
+                ctx.fill();
+                ctx.strokeStyle = '#ffffff';
+                ctx.lineWidth = 1.5;
+                ctx.stroke();
+
+                // Node index number
+                ctx.font = 'bold 9px monospace';
+                ctx.fillStyle = '#ffffff';
+                ctx.fillText(`#${idx + 1}`, v.x - 6, v.y - 9);
+            });
+        }
+
+        // Add Vertex handler
+        function addVertex(x, y) {
+            getAudioContext();
+            if (state.isClosed) {
+                // If already closed, reset and start fresh
+                state.vertices = [];
+                state.isClosed = false;
+            }
+
+            const newVert = { x: Math.round(x), y: Math.round(y) };
+            state.vertices.push(newVert);
+            playAnchorSound(state.vertices.length);
+
+            appendLog(t('logs.vertexAdded', {
+                index: state.vertices.length,
+                x: newVert.x,
+                y: newVert.y
+            }));
+
+            updateCalculations();
+        }
+
+        // Close Loop (2π Gauss-Bonnet)
+        function closeLoop() {
+            getAudioContext();
+            if (state.vertices.length < 3) {
+                appendLog('⚠️ Minimal 3 patok diperlukan untuk menutup suaka!', 'warn');
+                return;
+            }
+            if (state.isClosed) return;
+
+            state.isClosed = true;
+            playClosureGong();
+            updateCalculations();
+
+            appendLog(t('logs.closed', {
+                area: state.area
+            }), 'highlight');
+        }
+
+        // Preset Hexagonal Cell (Nature's optimal isoperimetric honeycomb)
+        function createPresetHexagon() {
+            getAudioContext();
+            state.vertices = [];
+            state.isClosed = false;
+
+            const cx = canvas.width / 2;
+            const cy = canvas.height / 2;
+            const r = 110;
+
+            for (let i = 0; i < 6; i++) {
+                const angle = (i * Math.PI) / 3;
+                state.vertices.push({
+                    x: Math.round(cx + r * Math.cos(angle)),
+                    y: Math.round(cy + r * Math.sin(angle))
+                });
+            }
+
+            state.isClosed = true;
+            playClosureGong();
+            updateCalculations();
+
+            appendLog(t('logs.closed', {
+                area: state.area
+            }), 'highlight');
+        }
+
+        // Clear canvas
+        function resetCanvas() {
+            getAudioContext();
+            state.vertices = [];
+            state.isClosed = false;
+            state.tokens = 100;
+            updateCalculations();
+            appendLog(t('logs.reset'), 'highlight');
+        }
+
+        // Canvas Click Listener
+        canvas.addEventListener('click', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const scaleX = canvas.width / rect.width;
+            const scaleY = canvas.height / rect.height;
+            const x = (e.clientX - rect.left) * scaleX;
+            const y = (e.clientY - rect.top) * scaleY;
+            addVertex(x, y);
+        });
+
+        // Mouse Coordinates tracking
+        canvas.addEventListener('mousemove', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const scaleX = canvas.width / rect.width;
+            const scaleY = canvas.height / rect.height;
+            const x = Math.round((e.clientX - rect.left) * scaleX);
+            const y = Math.round((e.clientY - rect.top) * scaleY);
+            mouseCoords.textContent = `X: ${x.toString().padStart(3, '0')} | Y: ${y.toString().padStart(3, '0')}`;
+        });
+
+        // Background simulation tick: thermal shear leaks tokens if boundary is unclosed
+        setInterval(() => {
+            if (!state.isClosed && state.vertices.length > 0 && state.tokens > 0) {
+                state.tokens = Math.max(0, state.tokens - 1);
+                vaultTokensVal.textContent = state.tokens;
+                tokensProtectedLabel.textContent = t('vault.tokensProtected', { count: state.tokens });
+                vaultBar.style.width = state.tokens + '%';
+
+                if (state.tokens % 15 === 0 && state.tokens > 0) {
+                    playShearHiss();
+                    appendLog(t('logs.breached'), 'warn');
+                }
+            } else if (state.isClosed && state.tokens < 100) {
+                // Regenerate protected tokens inside closed sanctuary
+                state.tokens = Math.min(100, state.tokens + 2);
+                vaultTokensVal.textContent = state.tokens;
+                tokensProtectedLabel.textContent = t('vault.tokensProtected', { count: state.tokens });
+                vaultBar.style.width = state.tokens + '%';
+            }
+        }, 1000);
+
+        // Buttons
+        document.getElementById('addVertexBtn').addEventListener('click', () => {
+            const rx = Math.round(80 + Math.random() * (canvas.width - 160));
+            const ry = Math.round(60 + Math.random() * (canvas.height - 120));
+            addVertex(rx, ry);
+        });
+        document.getElementById('closeLoopBtn').addEventListener('click', closeLoop);
+        document.getElementById('autoHexBtn').addEventListener('click', createPresetHexagon);
+        document.getElementById('resetBtn').addEventListener('click', resetCanvas);
+
+        // Global exports for inline HTML onclick handlers
+        window.switchLanguage = (lang) => setLocale(lang);
+        window.addVertex = addVertex;
+        window.closeLoop = closeLoop;
+        window.createPresetHexagon = createPresetHexagon;
+        window.resetCanvas = resetCanvas;
+
+        // Reactive UI updates on locale change
+        onLocaleChange((locale) => {
+            // Update active state on language switcher buttons
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === locale);
+            });
+            updateCalculations();
+        });
+
+        // Initialize i18n engine and load external locales.json
+        await i18n.init('./locales.json', 'id');
+        updateCalculations();
+    </script>
+</body>
+</html>
