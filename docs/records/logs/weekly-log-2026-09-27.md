@@ -232,3 +232,23 @@ liberal_art: Quadrivium-Music
   - Ran `node chapters/02_The_Meaning_of_Shape/MCard_Cell_Wall/cell_wall.js [id|sa|en|zh-TW]` — all 4 passed with exact polygon geometry metrics and verified Gauss-Bonnet closure.
   - Ran `python3 src/civilizational_sprint_engine.py` — 100% pass across all 12 sprints + AoS test suite.
 
+## [2026-09-27] synthesis | Chapter 01: MCard Water Clock — Harmonizing Visual & Structural Style with Chapter 02
+- **Objective:** Adjust Chapter 01 to follow the exact same visual style, directory naming conventions, and telemetry architecture as Chapter 02:
+  1. Standardized stack directory naming to `MCard_Water_Clock/` (mirrored in `HyperCard_Water_Clock/` for backwards compatibility).
+  2. Redesigned `index.html` to adopt the dark glassmorphic laboratory aesthetic (`#0b1120`, `#0f172a`), station breadcrumb badges (`STASIUN 01 (INVENTARIS)`, `RCA₀ LEVEL 1`), responsive 2-column workbench grid, gradient header titles, 4-language switcher pills (`🇮🇩 Bahasa Indonesia`, `🕉️ संस्कृतम्`, `🇬🇧 English`, `🇹🇼 正體中文`), and dynamic CLM Type Lattice ribbon ($U_0 \dots U_5$) highlighting active strata in real-time.
+  3. Added structured Section 6 CLI Execution & Reproducibility and Section 7 Automated Mathematical Certification to `README.md`.
+  4. Updated `MVP_The_Counter.md` frontmatter to conform to the full wiki schema.
+  5. Updated `type_lattice.js` and `index.md` to reference `MCard_Water_Clock`.
+- **Pages Touched:**
+  - `chapters/01_The_Value_of_Counting/MCard_Water_Clock/` (created with `index.html`, `locales.json`, `i18n.js`, `water_clock.js`, `README.md`).
+  - `chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html` (updated to match new dark glassmorphic design).
+  - `chapters/01_The_Value_of_Counting/type_lattice.js` (updated to include `MCard_Water_Clock` in chapter artifact judgments).
+  - `chapters/01_The_Value_of_Counting/README.md` (updated with standardized sections 6 and 7 and MCard paths).
+  - `chapters/01_The_Value_of_Counting/MVP_The_Counter.md` (updated frontmatter to full schema).
+  - `index.md` (updated catalog entry).
+- **Verification:**
+  - Ran `node chapters/01_The_Value_of_Counting/type_lattice.js [id|sa|en|zh-TW]` — all 4 passed with 100% stratification and valid MCard hash (`4363d2ba...`).
+  - Ran `node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js [id|sa|en|zh-TW]` — all 4 passed with verified thermodynamic simulation.
+  - Ran `python3 src/civilizational_sprint_engine.py` — 100% pass across all 12 sprints + AoS suite.
+
+

@@ -53,7 +53,7 @@ Sebelum menyelami rumus dan formalisme sistem, mari kita rasakan esensi menghitu
   * Itulah asal mula dari semua komputasi digital di muka bumi: **mengubah aliran alam yang bersambung menjadi satuan-satuan nyata yang bisa dinamai dan dipertanggungjawabkan**.
 
 * 🎮 **ASYIK (Fun — Bermain dengan Ritme & Umpan Balik Langsung)**:
-  * Jangan hanya membaca teori—mainkan langsung! Buka simulator web kami di [`HyperCard_Water_Clock/index.html`](HyperCard_Water_Clock/index.html).
+  * Jangan hanya membaca teori—mainkan langsung! Buka simulator web kami di [`MCard_Water_Clock/index.html`](MCard_Water_Clock/index.html).
   * Di sana, Anda berperan sebagai penjaga pintu air (*Maxwell's Demon*). Tugas Anda: klik tombol tepat saat tetesan air terbentuk.
   * Rasakan iramanya: jika Anda memencet dalam tempo yang tenang dan teratur (aliran tenang / *laminar*), Anda akan mendengar denting gamelan yang merdu dan mesin tetap sejuk. Namun jika Anda panik dan memencet sembarangan terlalu cepat (*spam clicking*), gesekan akan membuat mesin mendesis panas (*overheat*)! Belajar termodinamika dan logika komputer jadi seperti bermain kendang atau gamelan tradisi.
 
@@ -68,10 +68,10 @@ In accordance with [[chapters/00_Structure_and_Vision|00_Structure_and_Vision.md
 
 | Language | Code | Cultural / Civilizational Grounding | Files |
 | :--- | :--- | :--- | :--- |
-| **Bahasa Indonesia** | `id` | Nusantara everyday life, gotong royong, Subak irrigation, and GASing pedagogics | [`locales.json`](HyperCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
-| **Sanskerta Bali** | `sa` | Balinese sacred tradition (Pasraman), Vedic/Agamic metaphysical rigor (*Pramāṇa*, *Jala-Ghaṭikā*, *Śūnyatā*, *Ṛta*) | [`locales.json`](HyperCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
-| **English** | `en` | International mathematical logic, HoTT, category theory, and thermodynamic computing | [`locales.json`](HyperCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
-| **正體中文** | `zh-TW` | Classical Chinese mathematical philosophy, Book of Changes (*I Ching*), strictly standardized on **MCard** | [`locales.json`](HyperCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+| **Bahasa Indonesia** | `id` | Nusantara everyday life, gotong royong, Subak irrigation, and GASing pedagogics | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+| **संस्कृतम् (Sanskerta Bali)** | `sa` | Balinese sacred tradition (Pasraman), Vedic/Agamic metaphysical rigor (*Pramāṇa*, *Jala-Ghaṭikā*, *Śūnyatā*, *Ṛta*) strictly in Devanagari | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+| **English** | `en` | International mathematical logic, HoTT, category theory, and thermodynamic computing | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+| **正體中文** | `zh-TW` | Classical Chinese mathematical philosophy, Book of Changes (*I Ching*), strictly standardized on **MCard** / **單子卡** | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
 
 All state machines (`water_clock.js`, `type_lattice.js`), web UI components (`index.html`), and verification routines operate purely on abstract tokens, consuming natural language exclusively via these external JSON dictionaries.
 
@@ -140,7 +140,7 @@ Chapter 01 is organized as an authenticated cube in the Cubical Logic Model:
   * [`type_lattice_locales.json`](type_lattice_locales.json): Decoupled multilingual translation repository (🇮🇩 `id`, 🇬🇧 `en`, 🇹🇼 `zh-TW`).
 * **Implementation (Impl)**:
   * [`type_lattice.js`](type_lattice.js): Executable Type Lattice verification engine powered by **`clm-kernel`** (`UniverseLevel`, `isStratified`, `TypeInterpreter`, `MCard`).
-  * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/): Working browser and Node.js simulation of Maxwell's Demon observing droplets with thermodynamic dissipation.
+  * [`MCard_Water_Clock/`](MCard_Water_Clock/): Working browser and Node.js simulation of Maxwell's Demon observing droplets with thermodynamic dissipation (also mirrored in `HyperCard_Water_Clock/` for backwards compatibility).
   * [`water_clock_mechanics.md`](water_clock_mechanics.md): Technical breakdown of the Water Clock Analog-to-Digital Converter (ADC).
 * **Experimentation (Exp)**:
   * [`HoTT_Math_Course/`](HoTT_Math_Course/): 7 foundational video lesson notes detailing Homotopy Type Theory, universes, $\Pi$-types, $\Sigma$-types, and inductive types.
@@ -236,28 +236,60 @@ Players experience Chapter 01 through the **Auditory Pulse Train**:
 
 ---
 
-## 9. Chapter Roadmap & Sub-Modules
+## 6. CLI Execution & Reproducibility
 
-To master Chapter 01, follow this structured trajectory:
+Chapter 01 provides complete command-line reproducibility for all engines across all four supported languages:
 
-1. **Read Core Specification**:
-   * [`MVP_The_Counter.md`](MVP_The_Counter.md) — The philosophical definition of the MCard and the Kenosis principle.
-   * [`arithmetic_as_protocol.md`](arithmetic_as_protocol.md) — The Fundamental Theorem of Arithmetic and Pacioli's accounting SSOT.
-2. **Explore Mechanics & Physics**:
-   * [`water_clock_mechanics.md`](water_clock_mechanics.md) — The physical architecture of the water clock as an analog-to-digital converter.
-   * [`thermodynamics_of_counting.md`](thermodynamics_of_counting.md) — Maxwell's Demon, Landauer's bound, and Brownian free will.
-3. **Execute Simulations & Math (Four-Language Quad-Standard 🇮🇩 🕉️ 🇬🇧 🇹🇼)**:
-   * [`type_lattice.js`](type_lattice.js) — Run the CLM Type Lattice engine powered by **`clm-kernel`** to verify stratified HoTT universe levels ($U_0 \dots U_5$) across all four canonical languages:
-     * 🇮🇩 Indonesian: `node type_lattice.js id`
-     * 🕉️ Balinese Sanskrit: `node type_lattice.js sa`
-     * 🇬🇧 English: `node type_lattice.js en`
-     * 🇹🇼 Orthodox Traditional Chinese: `node type_lattice.js zh-TW`
-   * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/) — Run the interactive simulation in your browser or Node.js with standardized decoupled i18n (`locales.json`):
-     * Browser: Open `index.html` and switch between the 4 flags: 🇮🇩, 🕉️, 🇬🇧, 🇹🇼.
-     * Node CLI: `node HyperCard_Water_Clock/water_clock.js [id|sa|en|zh-TW]`
-   * [`HoTT_Math_Course/`](HoTT_Math_Course/) — Study formal Homotopy Type Theory foundations of $\mathbb{N}$.
-4. **Play the Operational Sprint**:
-   * [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]] — Execute the playable strategy sprint and verify against `src/civilizational_sprint_engine.py`.
+### Run the Chapter Type Lattice Verification Engine:
+```bash
+# Verify CLM stratification and mint Chapter 01 MCard witness in Indonesian (default)
+node chapters/01_The_Value_of_Counting/type_lattice.js id
+
+# Verify in Sanskrit (Devanagari script)
+node chapters/01_The_Value_of_Counting/type_lattice.js sa
+
+# Verify in English
+node chapters/01_The_Value_of_Counting/type_lattice.js en
+
+# Verify in Traditional Chinese
+node chapters/01_The_Value_of_Counting/type_lattice.js zh-TW
+```
+
+### Run the MCard Water Clock Headless Simulator:
+```bash
+# Run Maxwell's Demon state machine in Indonesian
+node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js id
+
+# Run in Sanskrit
+node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js sa
+
+# Run in English
+node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js en
+
+# Run in Traditional Chinese
+node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js zh-TW
+```
+
+### Launch the Web Application:
+```bash
+# Open in your web browser:
+open http://localhost:8099/chapters/01_The_Value_of_Counting/MCard_Water_Clock/index.html
+# (Backwards-compatible legacy path http://localhost:8099/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html is also maintained)
+```
+
+---
+
+## 7. Automated Mathematical Certification
+
+All invariants of Chapter 01 are verified automatically via `civilizational_sprint_engine.py`:
+```bash
+python3 src/civilizational_sprint_engine.py
+```
+* **Certified Invariants**:
+  1. Entropy reduction gate $\Delta H < 0$.
+  2. Conservation of mass/charge across counting ticks.
+  3. Bounded Landauer dissipation.
+  4. Complete 0.0 error tolerance across Sprint 01 test matrix.
 
 ---
 

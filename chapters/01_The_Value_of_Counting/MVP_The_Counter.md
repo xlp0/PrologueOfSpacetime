@@ -1,10 +1,17 @@
 ---
 title: "MVP: The Counter (Rhetoric of Arithmetic)"
+date: 2026-09-27
+tags: [MVP, Arithmetic, Rhetoric, MCard, Memory-MCard, RCA0, Granular-Tidepool]
+type: concept
 chapter: 1
 matrix: Rhetoric x Arithmetic
 role: The Inventory Station
 artifact: MCard (Memory)
 sprint: docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL.md
+sources:
+  - chapters/00_Structure_and_Vision.md
+  - chapters/01_The_Value_of_Counting/README.md
+  - docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL.md
 status: stable
 liberal_art: Trivium-Rhetoric
 ---
