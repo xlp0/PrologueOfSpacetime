@@ -220,5 +220,79 @@
       "u4": "U4 (Membrane): MCard 水鐘視窗與捕獲水滴按鈕",
       "u5": "U5 (Loop Γ): GASing 心流共振態與空無模式"
     }
+  },
+  "sa": {
+    "meta": {
+      "code": "sa",
+      "name": "Sanskerta Bali (संस्कृतम्)",
+      "flag": "🕉️"
+    },
+    "header": {
+      "mainTitle": "MCard Jala-Ghaṭikā: Prathama-Sthānam (जलघटिका)",
+      "subtitle": "\"Gaṇanaṁ nāma dṛk-karma yat prāṇa-vyayaṁ kṣamate.\"",
+      "breadcrumb": "KĀLA-VIŚVA-PRĀRAMBHAḤ: CH 01",
+      "stationBadge": "PRATHAMA-STHĀNAM (MCARD KOṢAḤ)",
+      "depthBadge": "RCA₀ PRATHAMA-SĪMĀ"
+    },
+    "spigot": {
+      "banner": "[═══ VEṆU-DHĀRĀ AVYĀKṚTA-PRAVĀHAḤ ═══]",
+      "reservoirLabel": "Veṇu-Droṇyāṁ Jala-Sañcayaḥ:"
+    },
+    "counter": {
+      "title": "Gaṇita-Jala-Bindavaḥ (MCard-Lekhyam)",
+      "cidPrefix": "Vastu-Mudrā CID"
+    },
+    "meters": {
+      "energyLabel": "Draṣṭṛ-Prāṇa-Śaktiḥ (E)",
+      "entropyLabel": "Tāpa-Kṣobha-Vikāraḥ (H)"
+    },
+    "status": {
+      "laminar": "💧 Śānta-Pravāhaḥ (Samāhitaḥ & Anukūlaḥ — ΔH < 0)",
+      "turbulent": "⚡ Kṣubhita-Pravāhaḥ (Ati-Tīvraḥ! Tāpa-Gharṣaṇaḥ)",
+      "overheat": "⚠️ Yantra-Dāhaḥ: Pramāṇa-Kṣobha-Visphoṭaḥ!"
+    },
+    "buttons": {
+      "startFlow": "Pravāhaṁ Pravartaya",
+      "stopFlow": "Pravāhaṁ Nivartaya",
+      "catchDrop": "💧 Binduṁ Gṛhāṇa",
+      "reset": "Śamita-Punaḥ-Pratiṣṭhā"
+    },
+    "gasingHint": {
+      "default": "💡 <strong>GASing Sūtra (Sukha-Mūlam)</strong>: 'Pravāhaṁ Pravartaya' spṛśitvā veṇu-binduṁ paśya. Pūrṇa-bindau 'Binduṁ Gṛhāṇa' spṛśa. Samāhita-tālena (~1 kṣaṇe) cala, tāpa-kṣobho mā bhūt!",
+      "laminar": "🌟 <strong>Śreṣṭha-Layaḥ!</strong>: Layaḥ samyak sthitaḥ. Śānta-pravāhena kṣobha-praśamanaṁ bhavati!",
+      "fast": "⚠️ <strong>Gharṣaṇa-Cetanā!</strong>: Ati-drutaṁ spṛśasi! Landauer-nyāyena: jñāna-mārjane prāṇa-dāho jāyate.",
+      "slow": "🌊 <strong>Jala-Pramādaḥ!</strong>: Binduḥ agaṇita eva patitaḥ. Laye manaḥ samādhatsva.",
+      "dead": "🔥 <strong>Yantra-Mūrcchā!</strong>: Prāṇaḥ kṣīṇaḥ. 'Śamita-Punaḥ-Pratiṣṭhā' spṛśitvā punar-ujjīvaya."
+    },
+    "logs": {
+      "title": "MCARD AKṢAYA-LEKHYAM (IMMUTABLE LOG):",
+      "entriesCount": "{count} lekhyāni",
+      "init": "> Yantraṁ samāhitam. Jala-pravāhaḥ pratīkṣyate...",
+      "flowStart": "> Veṇu-dvāraṁ muktam. Avyākṛta-jala-dhārā pravahati...",
+      "flowStop": "> Dvāraṁ baddham. Pravāhaḥ sthagitaḥ.",
+      "reset": "> Yantraṁ śamitam. Prāṇaḥ 100% punar-āpannaḥ, kṣobhaḥ śūnyaḥ kṛtaḥ.",
+      "milestone": "🎉 [MAHOTSAVAḤ] {count} Bindavaḥ Pramāṇīkṛtāḥ! Gamelan-Nāda-Śāntiḥ pravṛttā.",
+      "mcardTick": "[MCard #{count}] Δt: {delta}ms | E: {energy}% | H: {entropy}% | CID: {cid}",
+      "criticalOverheat": "💥 [SAṄKAṬA-GHOṢAṆĀ] Draṣṭṛ-kṣobhaḥ parāṁ kāṣṭhām agāt. Pravāhaḥ sthambitaḥ."
+    },
+    "demon": {
+      "elderTitle": "--- PURA-VṚDDHA-VĀKYAM (Nasihat Tetua Desa) ---",
+      "elderRoar": "Vṛddhaḥ: \"Śṛṇu. Tvam jalasya garjanaṁ śṛṇoṣi kim? Sa eva avyākṛta-pravāhaḥ. Tam gaṇayituṁ kṣaṇaṁ virāmaya.\"",
+      "elderWarn": "Vṛddhaḥ: \"Kintu smara: Dṛṣṭiḥ prāṇaṁ yācate. Ati-drutaṁ dahyase, ati-mandaṁ nimajjasi!\"",
+      "actionTriggered": "Karma: Dṛk-Spandaḥ Pravartitaḥ (Antaram: {delta}ms)",
+      "feedbackSound": "Prati-dhvaniḥ: *Jala-Bindu-Lahariḥ* ~ *Gamelan-Nāda-Śāntiḥ*",
+      "overheatAlert": "*** SAṄKAṬA-CETANĀ: Draṣṭṛ-Yantra-Dāhaḥ ***",
+      "elderSurrender": "Vṛddhaḥ: \"Tvaṁ kṣobhāya samarpitaḥ. Nadī sarvaṁ plāvayati.\"",
+      "gateCollapse": "Vṛttāntaḥ: Draṣṭṛ-dvāraṁ dāha-bhāreṇa bhinnam."
+    },
+    "typeLattice": {
+      "title": "CLM Tattva-Jālakam (U0-U5)",
+      "u0": "U0 (MCard CAS): Bindu-Paramāṇuḥ & Prākṛtika-Saṅkhyā (ℕ)",
+      "u1": "U1 (PCard CPN): Jala-Ghaṭikā-Spandaḥ & Peano-Padaḥ",
+      "u2": "U2 (VCard Proof): Śānta-Dhārā-Pramāṇaṁ & Landauer-Sūktam",
+      "u3": "U3 (Satori): Vṛddha-Vākyam & Bindu-Nāda-Spandaḥ",
+      "u4": "U4 (Membrane): Jala-Ghaṭikā-Maṇḍapam & Bindu-Grahaṇam",
+      "u5": "U5 (Loop Γ): GASing Sahaja-Samādhi & Śūnyatā-Pātram"
+    }
   }
 }

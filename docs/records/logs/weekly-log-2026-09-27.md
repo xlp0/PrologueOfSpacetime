@@ -173,4 +173,35 @@ liberal_art: Quadrivium-Music
   - Successfully executed `node chapters/01_The_Value_of_Counting/type_lattice.js [id|en|zh-TW]` with 100% stratification validation.
   - Successfully ran `python3 src/civilizational_sprint_engine.py` (all 12 sprints passing).
   - Reloaded Google Chrome tab (`http://localhost:8099`) with updated UI and live ribbon.
+## [2026-09-27] feature | Formalized Four-Language Quad-Standard (Indonesian, Balinese Sanskrit, English, Traditional Chinese) in Chapter 00 and Chapter 01
+
+- **Trigger:** User mandated in `chapters/00_Structure_and_Vision.md` that in this cycle of content production, all content must be written in four languages: Indonesian (`id`), Sanskrit as taught and preserved in Bali (`sa`), English (`en`), and Traditional Chinese (`zh-TW`), and implemented in `chapters/01_The_Value_of_Counting`.
+- **Architectural Enhancements:**
+  - **`chapters/00_Structure_and_Vision.md`**:
+    - Formally updated **Section 3.2: Decoupled Multilingual Translation Architecture (Externalized JSON & Four-Language Standard)**:
+      - 🇮🇩 **Bahasa Indonesia (`id`)**: Grounded in Nusantara everyday life, gotong royong, Subak irrigation, and GASing pedagogics.
+      - 🕉️ **Sanskrit / Balinese Sanskrit (`sa`)**: Sacred language preserved in Balinese Pasraman, contributing foundational metaphysical rigor (*Tri Hita Karana*, *Pramāṇa*, *Jala-Ghaṭikā*, *Śūnyatā*, *Ṛta*).
+      - 🇬🇧 **English (`en`)**: International mathematical logic, HoTT, category theory, and thermodynamic computing.
+      - 🇹🇼 **Traditional Chinese (`zh-TW`)**: 正體中文 / 繁體中文, strictly utilizing **MCard** / **單子卡** and classical Chinese philosophical rigor.
+    - Mandated strict decoupling: state machines, lattices, and logic remain pristine while natural language resides in externalized JSON dictionaries.
+  - **`chapters/01_The_Value_of_Counting/` Implementation**:
+    - **`type_lattice_locales.json`**: Implemented complete Balinese Sanskrit (`sa`) stratum and type dictionaries across all six universe levels ($U_0 \dots U_5$) with authentic Balinese Pasraman philosophical definitions and agricultural metaphors:
+      - $U_0$: *Viṣaya-Nirūpita-Sthita-Saṅgrahaḥ* (*Jala-Bindu-Paramāṇuḥ*, *Prākṛtika-Saṅkhyā*, *Vastu-Lakṣaṇa-Mudrā*, *Landauer-Tāpa-Mātrā*).
+      - $U_1$: *Pariṇāma-Kriyā-Sūtra-Cakram* (*Jala-Ghaṭikā-Spandaḥ*, *Peano-Anukrama-Padaḥ*, *Maxwell-Draṣṭṛ-Saṅkalpaḥ*).
+      - $U_2$: *Pramāṇa-Sīmā-Pratiṣṭhānam* (*Śānta-Dhārā-Pramāṇa-Dvāram*, *Landauer-Maryādā-Sūktam*, *Yugma-Lekhyā-Pacioli-Pramāṇam*).
+      - $U_3$: *Saṅgha-Sañcāra-Vāg-Vyavahāraḥ* (*Vṛddha-Śāsana-Vākyam*, *Bindu-Nāda-Spandaḥ*, *Daśaka-Gamelan-Ghaṇṭā-Nādaḥ*).
+      - $U_4$: *Draṣṭṛ-Yantra-Saṅgama-Paṭalam* (*Jala-Ghaṭikā-MCard-Maṇḍapam*, *Bindu-Grahaṇa-Kuñcikā*, *Prāṇa-Tāpa-Māpakam*).
+      - $U_5$: *Parama-Saṁvid-Parikramaḥ* (*GASing Sahaja-Samādhi*, *Pramāṇa-Śuddhiḥ*, *Śūnyatā-Pātram*).
+    - **`type_lattice.js`**: Enhanced CLI resolver to recognize `sa`, `sa-bali`, `sanskrit`, and `bali`, printing dynamically across all available locales.
+    - **`HyperCard_Water_Clock/locales.json`**: Authored full Balinese Sanskrit block (`sa`) with 100% key parity (50/50 keys matching `id`, `en`, and `zh-TW`), including Elder dialogue, thermodynamic telemetry, and type lattice summary.
+    - **`HyperCard_Water_Clock/index.html`**: Added `🕉️ Sanskerta (Bali)` button to `.lang-switch`, verified complete 14/14 `data-i18n` binding coverage.
+    - **`HyperCard_Water_Clock/i18n.js`**: Extended `setLocale` to seamlessly handle `sa` and its aliases.
+    - **`HyperCard_Water_Clock/water_clock.js`**: Updated simulation runner to accept `sa` locale and output authentic Balinese Sanskrit thermodynamic logs.
+    - **`README.md`**: Added Section 1.2 on Four-Language Quad-Standard Architecture and documented CLI execution commands for all 4 languages.
+- **Verification:**
+  - Ran `node chapters/01_The_Value_of_Counting/type_lattice.js sa` (and across `id`, `en`, `zh-TW`) with 100% stratification and typing success.
+  - Ran `node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js sa` with verified thermodynamic simulation and Elder dialogue in Balinese Sanskrit.
+  - Programmatically audited 100% key parity across `locales.json` (50/50 keys in all 4 languages) and `type_lattice_locales.json` (74/74 keys in all 4 languages).
+  - Launched and loaded in Google Chrome (`http://localhost:8099/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html`).
+  - Executed `python3 src/civilizational_sprint_engine.py`: 100% pass across all 12 sprints + AoS suite.
 

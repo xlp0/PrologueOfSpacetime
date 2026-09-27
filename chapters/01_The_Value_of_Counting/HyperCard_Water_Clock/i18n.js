@@ -64,8 +64,9 @@ export async function loadLocales(source) {
  * @returns {string} The active language code
  */
 export function setLocale(lang) {
-  const target = (lang === 'zh') ? 'zh-TW' : lang;
-  if (localesData[target] || target === 'id' || target === 'en' || target === 'zh-TW') {
+  let target = (lang === 'zh' || lang === 'zh-tw' || lang === 'zh-hant') ? 'zh-TW' : lang;
+  if (target === 'sa-bali' || target === 'sanskrit' || target === 'bali') target = 'sa';
+  if (localesData[target] || target === 'id' || target === 'en' || target === 'zh-TW' || target === 'sa') {
     currentLocale = target;
     if (typeof document !== 'undefined') {
       applyToDOM();

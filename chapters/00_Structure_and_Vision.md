@@ -155,20 +155,22 @@ In accordance with Voevodsky's univalence axiom and Martin-Löf type theory, the
 $$\text{Level}(A) \le \text{Level}(B) \implies A \text{ can embed into } B$$
 Verified programmatically by `isStratified(innerLevel, outerLevel)` from `clm-kernel`, ensuring no circular impredicative leaks occur below the foundational strata.
 
-### 3.2 Decoupled Multilingual Translation Architecture (Externalized JSON)
+### 3.2 Decoupled Multilingual Translation Architecture (Externalized JSON & Four-Language Standard)
 
-To uphold the **Local-First** and **Frictionless Entry** principles across international boundaries—specifically welcoming learners from Indonesia, Greater China, and the global English-speaking community—all chapters enforce a strict **Decoupling Mandate**:
+To uphold the **Local-First** and **Frictionless Entry** principles across international boundaries and civilizational traditions, **in this cycle of content production, all content must be written in four languages**:
 
+1. 🇮🇩 **Bahasa Indonesia (`id`)**: Accessible, warm, grounded in Nusantara everyday life and agricultural engineering metaphors (e.g. Subak water allocation, gotong royong, bamboo sluice ADC).
+2. 🕉️ **Sanskrit / Balinese Sanskrit (`sa`)**: The classical sacred language as taught and preserved in Bali (Pasraman and traditional academies), providing foundational etymological rigor, metaphysical precision (*Tri Hita Karana*, *Pramāṇa*, *Jala-Ghaṭikā*, *Śūnyatā*, *Karma-Phala*), and the civilizational bridge between ancient cosmic order (*Ṛta*) and computational type theory.
+3. 🇬🇧 **English (`en`)**: Rigorous, technical, aligned with international scientific, category-theoretic, and HoTT terminology.
+4. 🇹🇼 **Traditional Chinese (`zh-TW`)**: 正體中文 / 繁體中文 — culturally resonant, mathematically precise, strictly utilizing `MCard` / `單子卡` (strictly prohibiting the erroneous literal mistranslation `超卡`).
+
+#### The Decoupling Mandate
 1. **Pristine Mathematical & Execution Logic**:
    - The Type Lattice structure, state machine code, thermodynamic equations, and audio synthesis routines must NEVER contain hardcoded natural-language prose, UI labels, or localized strings.
-2. **Externalized Multilingual Repository (`locales.json`)**:
-   - Every chapter must provide its complete natural language explanations, Elder dialogues, telemetry alerts, pedagogical hints, and UI titles in an external, standardized JSON file (e.g. `locales.json` or `type_lattice_locales.json`).
-   - The repository must simultaneously support:
-     * 🇮🇩 **Bahasa Indonesia (`id`)**: Accessible, warm, grounded in Nusantara metaphors (Subak, gotong royong, bamboo sluice).
-     * 🇬🇧 **English (`en`)**: Rigorous, technical, aligned with international scientific and categorical terminology.
-     * 🇹🇼 **Orthodox Chinese (`zh-TW`)**: Culturally resonant, mathematically precise, strictly utilizing `MCard` / `單子卡` (prohibiting the erroneous literal mistranslation `超卡`).
+2. **Externalized Multilingual Repository (`locales.json` & `type_lattice_locales.json`)**:
+   - Every chapter must provide its complete natural language explanations, Elder dialogues, telemetry alerts, pedagogical hints, and UI titles in an external, standardized JSON file simultaneously populated across all four canonical languages (`id`, `sa`, `en`, `zh-TW`).
 3. **Zero-Code-Change Expansion**:
-   - Adding a new language (e.g. Japanese `ja`, German `de`, or Arabic `ar`) requires only appending a translation keyblock to the JSON file. The underlying `clm-kernel` Type Lattice, Node.js scripts, and browser simulations remain untouched and 100% verified.
+   - Adding additional languages in subsequent cycles (e.g. Japanese `ja`, German `de`, or Arabic `ar`) requires only appending a new language keyblock to the external JSON files. The underlying `clm-kernel` Type Lattice, Node.js scripts, and browser simulations remain untouched and 100% verified.
 
 ## 4. The Engine: GASing and the Kenosis Principle
 

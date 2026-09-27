@@ -2,7 +2,11 @@
  * Chapter 01: The Value of Counting — Type Lattice Engine
  * Powered by clm-kernel (Universe Stratification U0-U5)
  * 
- * Multilingual Architecture: Indonesian (id), English (en), Orthodox Chinese (zh-TW)
+ * Multilingual Architecture:
+ * - Indonesian (id)
+ * - Balinese Sanskrit (sa)
+ * - English (en)
+ * - Orthodox Traditional Chinese (zh-TW)
  */
 
 import fs from 'fs';
@@ -34,6 +38,8 @@ if (rawLang === 'en') {
   targetLang = 'en';
 } else if (rawLang === 'zh' || rawLang === 'zh-tw' || rawLang === 'zh-hant') {
   targetLang = 'zh-TW';
+} else if (rawLang === 'sa' || rawLang === 'sa-bali' || rawLang === 'sanskrit' || rawLang === 'bali') {
+  targetLang = 'sa';
 } else if (latticeLocales[rawLang]) {
   targetLang = rawLang;
 }
@@ -111,4 +117,4 @@ const chapterMCard = MCard.create("mcard:chapter/01/lattice", chapterMCardPayloa
 console.log(` > Chapter MCard URI          : ${chapterMCard.uri}`);
 console.log(` > Chapter MCard Content Hash : ${chapterMCard.hash.toString()}`);
 console.log(` > State Machine Verified     : TRUE (Noetherian Bounded)`);
-console.log(` > Decoupled Multi-Lingual SSOT: SUCCESS [id, en, zh-TW]\n`);
+console.log(` > Decoupled Multi-Lingual SSOT: SUCCESS [${Object.keys(latticeLocales).join(', ')}]\n`);

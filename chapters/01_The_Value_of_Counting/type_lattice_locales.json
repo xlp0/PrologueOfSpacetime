@@ -424,5 +424,148 @@
         }
       }
     }
+  },
+  "sa": {
+    "meta": {
+      "chapter": "01",
+      "chapterTitle": "Gaṇana-Mūlyam (गणना-मूल्यम्)",
+      "latticeTitle": "CLM Jāla-Padārtha-Mātṛkā (Type Lattice): Prathama-Adhyāyaḥ",
+      "language": "Sanskerta Bali (संस्कृतम्)",
+      "flag": "🕉️"
+    },
+    "strata": {
+      "U0": {
+        "name": "Viṣaya-Nirūpita-Sthita-Saṅgrahaḥ (MCard CAS — वस्तु-लक्षण-संग्रहः)",
+        "description": "Anapavartyam paramāṇu-tattvam; sarva-kriyābhyaḥ pūrvam nityatayā vidyamāna-siddhiḥ (Lapisan data atomik tanpa reduksi; kebenaran hakiki sebelum tindakan).",
+        "types": {
+          "DropletAtom": {
+            "name": "Jala-Bindu-Paramāṇuḥ (जल-बिन्दु-परमाणुः)",
+            "desc": "Veṇu-nāḍa-pravāhāt pṛthag-bhūto vinduḥ; trailokye prathama-vyakta-pārthiva-ghaṭanā (Satu tetes air murni terpisah dari pancuran bambu; kejadian diskrit pertama).",
+            "metaphor": "Tāmbūla-patre patitaḥ prātaḥ-śiśira-binduḥ, śāly-agra-kaṇo vā (Setetes embun fajar di atas daun talas atau sebutir gabah padi di tampah bambu)."
+          },
+          "NaturalNumber": {
+            "name": "Prākṛtika-Saṅkhyā (प्राकृतिक-संख्या — ℕ)",
+            "desc": "Śūnyāt samutpannā krama-vṛddhiḥ; nityam anatikramaṇīyā gaṇanā (Bilangan asli yang tumbuh teratur dari titik hening Śūnya).",
+            "metaphor": "Śūnya-kumbhe ekaika-guṭikā-prakṣepaḥ (Menaruh batu kerikil suci satu per satu ke dalam kendi persembahan)."
+          },
+          "ContentId": {
+            "name": "Vastu-Lakṣaṇa-Mudrā (CID — वस्तु-लक्षण-मुद्रा)",
+            "desc": "Abhedyā gupta-mudrā (SHA-256/BLAKE3); śāsana-lekhye a-parivartanīyā dṛḍha-pramāṇa-siddhiḥ (Segel tanda bukti kriptografis tak terhapuskan prasasti desa).",
+            "metaphor": "Purā-rājñām a-khaṇḍitā tāmra-śāsana-mudrā (Cap lak stempel tembaga raja pada prasasti lempengan tembaga)."
+          },
+          "ThermalQuantum": {
+            "name": "Landauer-Tāpa-Mātrā (तपस्-मात्रा)",
+            "desc": "Bindu-grahaṇe lekhane vā kṣayīyamānā prāṇa-śaktiḥ; tāpa-vikāra-lakṣaṇam (Satuan energi termal dan panas Landauer yang dibutuhkan saat mencatat informasi).",
+            "metaphor": "Karmādhikāre svedodbhedo vṛkṣa-chāyāyām (Tetesan keringat hangat kakek pemahat saat mengukir aksara lontar di bawah rindang beringin)."
+          }
+        }
+      },
+      "U1": {
+        "name": "Pariṇāma-Kriyā-Sūtra-Cakram (PCard CPN — परिणाम-क्रिया-चक्रम्)",
+        "desc": "Gatimat-pariṇāma-dhārā; sthiti-bhedāt sthity-antaram prāpayatīti karma-kriyā-sūktiḥ (Rantai perubahan dinamis yang memindahkan satu keadaan laksana cakra karma).",
+        "types": {
+          "ClepsydraTick": {
+            "name": "Jala-Ghaṭikā-Spandaḥ (जलघटिका-स्पन्दः — ADC)",
+            "desc": "Avirata-jala-dhārāyāḥ spanda-rūpeṇa vibhāgaḥ; prathama-kāla-māpaka-yantram (Pengubah aliran air alami tanpa henti menjadi ketukan waktu diskrit).",
+            "metaphor": "Pūrṇa-jala-veṇu-kāṣṭhasya nimeṣeṇa tūryopari patana-nādaḥ 'Ṭaṅ!' (Dentang bilah bambu jungkit yang penuh lalu membentur batu kali)."
+          },
+          "PeanoSuccessor": {
+            "name": "Peano-Anukrama-Padaḥ (अनुक्रम-पदः — Succ)",
+            "desc": "A-vilopena eka-saṅkhyā-vṛddhi-kriyā; padāt padam avikalpena prayāṇam (Melangkah maju tepat satu bilangan tanpa melompati titian).",
+            "metaphor": "Kramikā dīpa-mālāyām ekaikasya dīpasya prajvālanam (Menyalakan deretan dian pelita persembahan satu demi satu tanpa melompat)."
+          },
+          "DemonObservation": {
+            "name": "Maxwell-Draṣṭṛ-Saṅkalpaḥ (द्रष्टृ-संकल्पः)",
+            "desc": "Draṣṭuḥ caitanya-kriyā yayā bindor grahaṇam kriyate prāṇa-vyayena (Tindakan sadar pengamat yang menangkap tetesan dengan mempersembahkan prāṇa energi).",
+            "metaphor": "Subak-pālakasya sa-jāgṛtatayā toyālaya-dvāra-rakṣaṇam (Penjaga pintu air Subak yang waspada menjaga keselarasan pembagian air di bendungan)."
+          }
+        }
+      },
+      "U2": {
+        "name": "Pramāṇa-Sīmā-Pratiṣṭhānam (VCard Proof — प्रमाण-सीमा-प्रतिष्ठानम्)",
+        "desc": "Dharmasya nitya-satyam; sarva-gaṇita-maryādāyā a-lopatā-nirṇayaḥ (Penjaga kebenaran abadi dan batas-batas kekekalan dharma; hukum konservasi semesta).",
+        "types": {
+          "LaminarConservationGate": {
+            "name": "Śānta-Dhārā-Pramāṇa-Dvāram (शान्त-धारा-प्रमाणम्)",
+            "desc": "Rhythm-rakṣaṇena tāpa-kṣobha-nirākaraṇam (Gerbang aliran laminer yang meredam gejolak panas dan menjaga kesetimbangan prāṇa).",
+            "metaphor": "Subak-praṇālyām avikṣubhitasya payasaḥ samāna-vibhaktiḥ (Aliran air sawah subak yang tenang merata membelah tanpa riak bergejolak)."
+          },
+          "LandauerBoundProof": {
+            "name": "Landauer-Maryādā-Sūktam (तपो-मर्यादा-सूक्तम्)",
+            "desc": "Jñāna-grahaṇe tāpa-kṣayeṇa vinā nāsti muktir iti bhautika-dharmasya pramāṇam (Dalil termodinamika bahwa tiada pengetahuan tanpa pengorbanan panas kB T ln 2).",
+            "metaphor": "Homāgnau tilāhūti-dānam; tyāgena vinā phala-prāptir na bhavati (Mempersembahkan sesaji ke dalam api homa; tiada hasil tanpa persembahan suci)."
+          },
+          "PacioliDoubleEntryReceipt": {
+            "name": "Yugma-Lekhyā-Pacioli-Pramāṇam (युग्म-लेख्या-प्रमाणम्)",
+            "desc": "Āya-vyaya-samatā-lekhyam; karma-kāṇḍe ṛṇa-dhana-samīkaraṇam (Keseimbangan pembukuan berpasangan; hukum karma phala neraca debit dan kredit seimbang).",
+            "metaphor": "Karma-phala-tulā; yat kṛtam tat phalam avaśyam anveti (Timbangan karma-phala di hadapan Hyang Yamadipati; sebutir perbuatan seimbang dengan buahnya)."
+          }
+        }
+      },
+      "U3": {
+        "name": "Saṅgha-Sañcāra-Vāg-Vyavahāraḥ (Satori Speech Acts — वाग्-व्यवहारः)",
+        "desc": "Guhyāt prakāśam prāptaḥ saṅketaḥ; guror upadeśaḥ śiṣyāya vāg-rūpeṇa (Jaringan tutur kata dan sabda luhur dari tetua sangha kepada para cantrik).",
+        "types": {
+          "ElderWarningAct": {
+            "name": "Vṛddha-Śāsana-Vākyam (वृद्ध-शासन-वाक्यम्)",
+            "desc": "Kṣobha-kāle prajñāvato vṛddhasya tarjana-vākyam (Peringatan kasih tetua adat saat pengamat terburu-buru dan memanaskan bejana).",
+            "metaphor": "Śiśoḥ pāṇi-dāhe mātus tvaritā vāk 'Mā kuru!' (Pekikan sang ibu saat tangan si kecil hampir menyentuh bara dupa: 'Eling! Hati-hati!')."
+          },
+          "AuditoryPulseAct": {
+            "name": "Bindu-Nāda-Spandaḥ (बिन्दु-नाद-स्पन्दः)",
+            "desc": "Bindu-patane śrūyamāṇo laghu-praṇavaḥ; dhyāna-nimagna-cetasā gṛhītaḥ (Gema getaran suara 'tik' tetesan air yang menenangkan batin semadi).",
+            "metaphor": "Pūrṇa-kumbhe patitasya toya-vindor madhuro dhvaniḥ 'Ṭik' (Dentang merdu tetes tirtha ke dalam bejana perunggu)."
+          },
+          "MilestoneChimeAct": {
+            "name": "Daśaka-Gamelan-Ghaṇṭā-Nādaḥ (घण्टा-नादः)",
+            "desc": "Daśa-gaṇanā-pūrtau prāptaḥ pūrṇa-kalyāṇa-nādaḥ (Gamelan suci pengumuman bahwa sepuluh hitungan telah genap).",
+            "metaphor": "Daśa-vāra-parikrama-pūrṇatāyām maṅgala-śaṅkha-dhvaniḥ (Tiupan sangkakala dan genta perunggu saat pradaksina genap putarannya)."
+          }
+        }
+      },
+      "U4": {
+        "name": "Draṣṭṛ-Yantra-Saṅgama-Paṭalam (Membrane UI — यन्त्र-संगम-पटलम्)",
+        "desc": "Nara-yantrayor yoga-dvāram; indriyebhyo gocara-rūpa-kalpanā (Selaput antarmuka yang mempertemukan indra manusia dengan detak mesin).",
+        "types": {
+          "WaterClockStack": {
+            "name": "Jala-Ghaṭikā-MCard-Maṇḍapam (जलघटिका-मण्डपम्)",
+            "desc": "Citrānvita-stambha-paṭalam yatra sarvam karma dṛśyate (Bale panggung MCard tempat segala peristiwa jam air terbentang jelas).",
+            "metaphor": "Vāyaṅ-kulit-vastra-paṭaḥ yatra chāyā-nṛtyam pravartate (Kelir kain layar wayang tempat bayangan tata surya dimainkan)."
+          },
+          "CatchDropTrigger": {
+            "name": "Bindu-Grahaṇa-Kuñcikā (बिन्दु-ग्रहण-कुञ्चिका)",
+            "desc": "Aṅguly-agreṇa sparśa-kriyā yayā karma pravartate (Tombol tangkap tetesan di mana sentuhan jemari memulai siklus semesta).",
+            "metaphor": "Gamelan-vādane reṅkēp-tāḍanam (Pukulan pertama penabuh gamelan pada bilah gangsa)."
+          },
+          "ThermodynamicGauge": {
+            "name": "Prāṇa-Tāpa-Māpakam (प्राण-तपस्-मापकम्)",
+            "desc": "Prāṇa-śaktir tāpa-kṣobhaś ca yayā daṇḍa-mātrayā nirdiśyate (Alat ukur visual daya prana dan gejolak panas Landauer).",
+            "metaphor": "Dīpasya vartir tailasya ca parimāṇa-darpaṇaḥ (Kaca pengukur sisa minyak dan nyala api pelita pelataran)."
+          }
+        }
+      },
+      "U5": {
+        "name": "Parama-Saṁvid-Parikramaḥ (Loop Γ — संविद्-परिक्रमः)",
+        "desc": "Ananta-jñāna-parivartaḥ; anubhavāt satyam, satyāt punaḥ śuddham jñānam iti nitya-parikramā (Lingkar meta-kognisi pembelajaran tanpa henti dari pengalaman menuju pencerahan).",
+        "types": {
+          "GASingFlowState": {
+            "name": "GASing Sahaja-Samādhi (सहज-समाधि — Gampang, Asyik, Menyenangkan)",
+            "desc": "Ayatna-siddhir ānando viśrāntiś ca; jala-dhārayā saha aikya-bhāvaḥ (Keadaan hening dan mengalir leluasa di mana belajar terasa gampang, asyik, dan menyenangkan).",
+            "metaphor": "Gaṅgā-pravāhe su-sukham taraṇam (Berenang santai tanpa melawan arus sungai yang jernih)."
+          },
+          "EpistemicFitness": {
+            "name": "Pramāṇa-Śuddhiḥ (प्रमाण-शुद्धिः)",
+            "desc": "Pratyakṣa-dharmasya nirmalatā; jñānasya yathārthatā-mānam (Ketepatan epistemik sejauh mana persepsi selaras dengan hukum alam nyata).",
+            "metaphor": "Kāñcanasya nikaṣa-pāṣāṇe śuddhatā-parīkṣā (Menggosok emas murni pada batu uji untuk memastikan kemurnian karatnya)."
+          },
+          "KenoticEmptySchema": {
+            "name": "Śūnyatā-Pātram (शून्यता-पात्रम्)",
+            "desc": "Sarva-grahaṇa-śakti-yutam a-parigṛhītam śūnya-rūpam (Wadah kosong murni yang siap menampung pengetahuan semesta tanpa prasangka).",
+            "metaphor": "Śūnya-kumbhaḥ pūrṇasya vāridhasya grahaṇāya samarthaḥ (Kendi kosong bersih yang siap menadah limpahan air tirtha amerta suci)."
+          }
+        }
+      }
+    }
   }
 }
+

@@ -2,7 +2,7 @@
  * MCard Stack: The Water Clock
  * Chapter: 01 - The Value of Counting
  * 
- * Powered by i18n Standard (Indonesian, English, Chinese)
+ * Powered by i18n Standard (Indonesian, Balinese Sanskrit, English, Traditional Chinese)
  * "Counting is an act of observation that requires energy."
  */
 
@@ -83,8 +83,9 @@ class MaxwellsDemon {
 // Simulation of User Interaction aka "Vibe Coding"
 const isMain = process.argv[1] && process.argv[1].endsWith('water_clock.js');
 if (isMain) {
-  const cliLang = process.argv[2] || 'id';
-  console.log(`[i18n] Running Maxwell's Demon simulation with locale: '${cliLang}' (Supported: 'id', 'en', 'zh-TW')\n`);
+  let cliLang = process.argv[2] || 'id';
+  if (cliLang === 'sa-bali' || cliLang === 'sanskrit' || cliLang === 'bali') cliLang = 'sa';
+  console.log(`[i18n] Running Maxwell's Demon simulation with locale: '${cliLang}' (Supported: 'id', 'sa', 'en', 'zh-TW')\n`);
   const demon = new MaxwellsDemon({ locale: cliLang });
 
   // Simulate a "Good Rhythm" (Laminar Flow)

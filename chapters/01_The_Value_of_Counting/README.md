@@ -62,6 +62,19 @@ Sebelum menyelami rumus dan formalisme sistem, mari kita rasakan esensi menghitu
   * Menghitung adalah akar dari **Kedaulatan Data** dan **Keadilan Sosial (Sila ke-5 Pancasila)**. Di Bali, para petani mengelola irigasi sawah terasering melalui sistem **Subak** selama lebih dari seribu tahun. Setiap tetes air dari danau pegunungan dibagi secara transparan di pintu pembagi air (*taku*). Tidak ada yang bisa mencurangi takaran air karena perhitungannya terbuka untuk seluruh warga desa.
   * Ketika Anda belajar menghitung di Bab ini, Anda tidak sekadar belajar angka matematika; Anda sedang mempelajari cara membangun teknologi yang **Amanah, Transparan, Berkeadilan, dan Bergotong Royong**!
 
+### 1.2 The Four-Language Quad-Standard Architecture
+
+In accordance with [[chapters/00_Structure_and_Vision|00_Structure_and_Vision.md (Section 3.2)]], Chapter 01 implements the full **Four-Language Quad-Standard** with 100% externalized, decoupled linguistic repositories:
+
+| Language | Code | Cultural / Civilizational Grounding | Files |
+| :--- | :--- | :--- | :--- |
+| **Bahasa Indonesia** | `id` | Nusantara everyday life, gotong royong, Subak irrigation, and GASing pedagogics | [`locales.json`](HyperCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+| **Sanskerta Bali** | `sa` | Balinese sacred tradition (Pasraman), Vedic/Agamic metaphysical rigor (*Pramāṇa*, *Jala-Ghaṭikā*, *Śūnyatā*, *Ṛta*) | [`locales.json`](HyperCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+| **English** | `en` | International mathematical logic, HoTT, category theory, and thermodynamic computing | [`locales.json`](HyperCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+| **正體中文** | `zh-TW` | Classical Chinese mathematical philosophy, Book of Changes (*I Ching*), strictly standardized on **MCard** | [`locales.json`](HyperCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+
+All state machines (`water_clock.js`, `type_lattice.js`), web UI components (`index.html`), and verification routines operate purely on abstract tokens, consuming natural language exclusively via these external JSON dictionaries.
+
 ---
 
 ## 2. Reverse Mathematics Proof-Theoretic Depth: Level 1 ($RCA_0$)
@@ -233,9 +246,15 @@ To master Chapter 01, follow this structured trajectory:
 2. **Explore Mechanics & Physics**:
    * [`water_clock_mechanics.md`](water_clock_mechanics.md) — The physical architecture of the water clock as an analog-to-digital converter.
    * [`thermodynamics_of_counting.md`](thermodynamics_of_counting.md) — Maxwell's Demon, Landauer's bound, and Brownian free will.
-3. **Execute Simulations & Math**:
-   * [`type_lattice.js`](type_lattice.js) — Run the CLM Type Lattice engine powered by **`clm-kernel`** to verify stratified HoTT universe levels ($U_0 \dots U_5$) in Indonesian 🇮🇩, English 🇬🇧, or Orthodox Chinese 🇹🇼.
-   * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/) — Run the interactive simulation in your browser or Node.js (with standardized i18n supporting Indonesian 🇮🇩, English 🇬🇧, and Orthodox Chinese 🇹🇼).
+3. **Execute Simulations & Math (Four-Language Quad-Standard 🇮🇩 🕉️ 🇬🇧 🇹🇼)**:
+   * [`type_lattice.js`](type_lattice.js) — Run the CLM Type Lattice engine powered by **`clm-kernel`** to verify stratified HoTT universe levels ($U_0 \dots U_5$) across all four canonical languages:
+     * 🇮🇩 Indonesian: `node type_lattice.js id`
+     * 🕉️ Balinese Sanskrit: `node type_lattice.js sa`
+     * 🇬🇧 English: `node type_lattice.js en`
+     * 🇹🇼 Orthodox Traditional Chinese: `node type_lattice.js zh-TW`
+   * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/) — Run the interactive simulation in your browser or Node.js with standardized decoupled i18n (`locales.json`):
+     * Browser: Open `index.html` and switch between the 4 flags: 🇮🇩, 🕉️, 🇬🇧, 🇹🇼.
+     * Node CLI: `node HyperCard_Water_Clock/water_clock.js [id|sa|en|zh-TW]`
    * [`HoTT_Math_Course/`](HoTT_Math_Course/) — Study formal Homotopy Type Theory foundations of $\mathbb{N}$.
 4. **Play the Operational Sprint**:
    * [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]] — Execute the playable strategy sprint and verify against `src/civilizational_sprint_engine.py`.
