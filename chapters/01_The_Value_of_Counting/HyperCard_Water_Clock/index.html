@@ -506,227 +506,9 @@
         </div>
     </div>
 
-    <!-- Embedded i18n Standard Dictionary & Engine -->
-    <script>
-        // ==========================================
-        // i18n Standard Dictionary (id, en, zh)
-        // ==========================================
-        const I18N_LOCALES = {
-            id: {
-                meta: { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' },
-                header: {
-                    mainTitle: 'Pancuran Jam Air: Stasiun 01',
-                    subtitle: '"Menghitung adalah tindakan mengamati yang membutuhkan energi."',
-                    breadcrumb: 'PROLOGUE OF SPACETIME: CH 01',
-                    stationBadge: 'STASIUN 01 (INVENTARIS)',
-                    depthBadge: 'RCA₀ LEVEL 1'
-                },
-                spigot: {
-                    banner: '[═══ PANCURAN BAMBU ALIRAN ANALOG ═══]',
-                    reservoirLabel: 'Akumulasi Air di Bilah Bambu:'
-                },
-                counter: {
-                    title: 'Jumlah Tetesan Terhitung (MCard)',
-                    cidPrefix: 'CID'
-                },
-                meters: {
-                    energyLabel: 'Energi Pengamat (E)',
-                    entropyLabel: 'Entropi / Suhu (H)'
-                },
-                status: {
-                    laminar: '💧 Aliran Laminar (Tenang & Optimal — ΔH < 0)',
-                    turbulent: '⚡ Aliran Turbulen (Terlalu Cepat! Gesekan Panas)',
-                    overheat: '⚠️ SYSTEM FAILURE: Sensor Kepanasan! Entropi Meledak'
-                },
-                buttons: {
-                    startFlow: 'Mulai Aliran',
-                    stopFlow: 'Hentikan Aliran',
-                    catchDrop: '💧 Tangkap Tetesan',
-                    reset: 'Dinginkan / Reset'
-                },
-                gasingHint: {
-                    default: '💡 <strong>Prinsip GASing (Asyik)</strong>: Buka kran air dengan tombol "Mulai Aliran", lalu perhatikan tetesan bambu. Klik "Tangkap Tetesan" tepat saat air penuh. Jaga irama tenang (~1 detik sekali) agar mesin tidak kepanasan!',
-                    laminar: '🌟 <strong>Hebat! (Gampang & Nikmat)</strong>: Irama Anda seimbang sempurna. Aliran laminar tercapai, entropi terkendali!',
-                    fast: '⚠️ <strong>Awas! (Gesekan Panas)</strong>: Anda memencet terlalu cepat! Prinsip Landauer: gesekan informasi membakar energi dan menciptakan panas.',
-                    slow: '🌊 <strong>Hati-hati!</strong>: Air meluap dari bilah bambu sebelum sempat dicatat. Fokus pada ritme tetesan.',
-                    dead: '🔥 <strong>Sensor Mogok!</strong>: Energi terkuras habis. Klik tombol "Dinginkan / Reset" untuk menyegarkan kembali sistem.'
-                },
-                logs: {
-                    title: 'BUKU KAS MCARD (IMMUTABLE LOG):',
-                    entriesCount: '{count} entri',
-                    init: '> Sistem diinisialisasi. Menunggu aliran air...',
-                    flowStart: '> Kran dibuka. Air analog mengalir dari pancuran bambu...',
-                    flowStop: '> Kran ditutup. Aliran air terhenti.',
-                    reset: '> Sistem didinginkan. Energi dipulihkan ke 100%, Entropi dinetralkan.',
-                    milestone: '🎉 [MILESTONE] {count} Tetesan Terverifikasi! Harmoni Gamelan Berbunyi.',
-                    mcardTick: '[MCard #{count}] Δt: {delta}ms | E: {energy}% | H: {entropy}% | CID: {cid}',
-                    criticalOverheat: '💥 [CRITICAL ALERT] Sensor Kepanasan! Entropi melampaui kapasitas pengamat. Aliran dihentikan.'
-                }
-            },
-
-            en: {
-                meta: { code: 'en', name: 'English', flag: '🇬🇧' },
-                header: {
-                    mainTitle: 'HyperCard Water Clock: Station 01',
-                    subtitle: '"Counting is an act of observation that requires energy."',
-                    breadcrumb: 'PROLOGUE OF SPACETIME: CH 01',
-                    stationBadge: 'STATION 01 (INVENTORY)',
-                    depthBadge: 'RCA₀ LEVEL 1'
-                },
-                spigot: {
-                    banner: '[═══ CONTINUOUS ANALOG BAMBOO SLUICE ═══]',
-                    reservoirLabel: 'Water Accumulation in Bamboo Sluice:'
-                },
-                counter: {
-                    title: 'Counted Droplets (MCard Ledger)',
-                    cidPrefix: 'CID'
-                },
-                meters: {
-                    energyLabel: 'Observer Energy (E)',
-                    entropyLabel: 'Entropy / Thermal Heat (H)'
-                },
-                status: {
-                    laminar: '💧 Laminar Flow (Calm & Optimal — ΔH < 0)',
-                    turbulent: '⚡ Turbulent Flow (Too Fast! Thermal Friction)',
-                    overheat: '⚠️ SYSTEM FAILURE: Demon Overheated! Sensor Burnout'
-                },
-                buttons: {
-                    startFlow: 'Start Flow',
-                    stopFlow: 'Stop Flow',
-                    catchDrop: '💧 Catch Drop',
-                    reset: 'Cool Down / Reset'
-                },
-                gasingHint: {
-                    default: '💡 <strong>GASing Principle</strong>: Turn on the flow, observe the bamboo drop, and click "Catch Drop" in a steady ~1s cadence. Maintain laminar flow without overheating!',
-                    laminar: '🌟 <strong>Optimal Rhythm!</strong>: Locked in resonance. Minimal energy dissipation, entropy stabilized.',
-                    fast: '⚠️ <strong>Warning!</strong>: Clicking too fast! By Landauer\'s Principle, rapid discrimination dissipates severe thermal friction.',
-                    slow: '🌊 <strong>Overflow!</strong>: Droplet detached unmeasured. Maintain focus on the cadence.',
-                    dead: '🔥 <strong>Sensor Offline!</strong>: Energy depleted. Click "Cool Down / Reset" to recover observational capacity.'
-                },
-                logs: {
-                    title: 'MCARD IMMUTABLE LEDGER:',
-                    entriesCount: '{count} entries',
-                    init: '> System initialized. Awaiting fluid flow...',
-                    flowStart: '> Sluice opened. Continuous analog stream flowing...',
-                    flowStop: '> Sluice closed. Flow paused.',
-                    reset: '> System cooled down. Energy restored to 100%, entropy cleared.',
-                    milestone: '🎉 [MILESTONE] {count} Droplets Verified! Harmonic Chime Emitted.',
-                    mcardTick: '[MCard #{count}] Δt: {delta}ms | E: {energy}% | H: {entropy}% | CID: {cid}',
-                    criticalOverheat: '💥 [CRITICAL ALERT] Demon Overheated! Entropy exceeds observer threshold. Flow halted.'
-                }
-            },
-
-            zh: {
-                meta: { code: 'zh', name: '中文 (简体)', flag: '🇨🇳' },
-                header: {
-                    mainTitle: '超卡水钟：第01工位（竹节滴漏）',
-                    subtitle: '“计数是一种需要消耗物理能量的观测行为。”',
-                    breadcrumb: '时空序章：第 01 章',
-                    stationBadge: '第 01 工位（记忆库存 MCARD）',
-                    depthBadge: 'RCA₀ 递归可计算（第一级）'
-                },
-                spigot: {
-                    banner: '[═══ 连续模拟竹筒流水 ═══]',
-                    reservoirLabel: '竹节凹槽水流积累：'
-                },
-                counter: {
-                    title: '已验证水滴总数（MCard 账本）',
-                    cidPrefix: '内容哈希 CID'
-                },
-                meters: {
-                    energyLabel: '观测者能量储备 (E)',
-                    entropyLabel: '系统熵增 / 温度 (H)'
-                },
-                status: {
-                    laminar: '💧 层流状态（平稳谐振，熵减 ΔH < 0）',
-                    turbulent: '⚡ 湍流摩擦（点击过快！热耗散加剧）',
-                    overheat: '⚠️ 系统崩溃：麦克斯韦妖过热！熵增失控'
-                },
-                buttons: {
-                    startFlow: '开启流水',
-                    stopFlow: '暂停流水',
-                    catchDrop: '💧 捕获水滴',
-                    reset: '冷却重置'
-                },
-                gasingHint: {
-                    default: '💡 <strong>GASing 理念（寓教于乐）</strong>：点击“开启流水”，静心观察竹尖成滴。在水滴饱满时点击“捕获水滴”。保持约1秒一次的平稳节奏，系统将保持清凉高效！',
-                    laminar: '🌟 <strong>节奏绝佳！</strong>：进入层流谐振状态，以最小能耗锁定水滴，系统熵持续下降！',
-                    fast: '⚠️ <strong>过载警告！</strong>：点击过频！兰道尔原理生效：高频信息抹除剧烈耗散能量并产生热量。',
-                    slow: '🌊 <strong>水流溢出！</strong>：水滴未及观测即流失。请专注于周期律动。',
-                    dead: '🔥 <strong>传感器熔断！</strong>：能量耗尽，熵增过载。请点击“冷却重置”恢复观测能力。'
-                },
-                logs: {
-                    title: 'MCARD 不可变账本记录：',
-                    entriesCount: '{count} 条记录',
-                    init: '> 系统初始化完毕，等待水流注入...',
-                    flowStart: '> 竹闸开启，模拟水流持续涌入...',
-                    flowStop: '> 竹闸关闭，水流暂停。',
-                    reset: '> 系统完成冷却降温，能量恢复至100%，熵归零。',
-                    milestone: '🎉【里程碑】{count} 滴水滴验证通过！泛音谐振响起。',
-                    mcardTick: '[MCard #{count}] 观测间隔: {delta}ms | 能量: {energy}% | 熵: {entropy}% | CID: {cid}',
-                    criticalOverheat: '💥【紧急警报】传感器过热！系统熵超越观测者极限，水流强行中断。'
-                }
-            }
-        };
-
-        // Standard i18n Lookup Function
-        let currentLang = 'id';
-
-        function t(key, params = {}) {
-            const dict = I18N_LOCALES[currentLang] || I18N_LOCALES.en || I18N_LOCALES.id;
-            const parts = key.split('.');
-            let val = dict;
-
-            for (const part of parts) {
-                if (val && typeof val === 'object' && part in val) {
-                    val = val[part];
-                } else {
-                    // Fallback to English
-                    let fallback = I18N_LOCALES.en;
-                    for (const p of parts) {
-                        if (fallback && typeof fallback === 'object' && p in fallback) {
-                            fallback = fallback[p];
-                        } else {
-                            return key;
-                        }
-                    }
-                    val = fallback;
-                    break;
-                }
-            }
-
-            if (typeof val !== 'string') return key;
-            return val.replace(/\{(\w+)\}/g, (_, k) => (k in params ? params[k] : `{${k}}`));
-        }
-
-        // Apply translations to all DOM elements with data-i18n attributes
-        function applyI18n() {
-            document.documentElement.lang = currentLang;
-
-            // Update language switcher buttons
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
-            });
-
-            // Update all elements with data-i18n
-            document.querySelectorAll('[data-i18n]').forEach(el => {
-                const key = el.getAttribute('data-i18n');
-                el.innerHTML = t(key);
-            });
-
-            // Update toggle flow button text based on state
-            toggleFlowBtn.textContent = state.isFlowing ? t('buttons.stopFlow') : t('buttons.startFlow');
-
-            // Update live status visuals
-            updateStatusVisuals(currentFeedback);
-        }
-
-        function switchLanguage(lang) {
-            if (I18N_LOCALES[lang]) {
-                currentLang = lang;
-                applyI18n();
-            }
-        }
+    <!-- Standardized & Reusable i18n Module -->
+    <script type="module">
+        import { i18n, t, setLocale, onLocaleChange, applyToDOM } from './i18n.js';
 
         // ==========================================
         // Web Audio Synthesizer (Zero External Dependencies)
@@ -1023,8 +805,39 @@
             appendLog(t('logs.reset'), 'highlight');
         }
 
-        // Initialize i18n
-        applyI18n();
+        // Window exports for backwards compatibility with inline HTML onclick handlers
+        window.switchLanguage = (lang) => setLocale(lang);
+        window.toggleFlow = toggleFlow;
+        window.catchDrop = catchDrop;
+        window.resetSystem = resetSystem;
+        window.t = t;
+        window.setLocale = setLocale;
+        window.applyI18n = () => applyToDOM();
+        window.i18n = i18n;
+
+        // Reactive UI updates on locale change
+        onLocaleChange(() => {
+            if (toggleFlowBtn) {
+                toggleFlowBtn.textContent = state.isFlowing ? t('buttons.stopFlow') : t('buttons.startFlow');
+            }
+            if (logCountEl) {
+                logCountEl.textContent = t('logs.entriesCount', { count: state.entriesCount });
+            }
+            if (cidPreviewEl && state.count > 0) {
+                const cidSnippet = `bafybeig${(Math.sin(state.count) * 1e16).toString(36).replace('.', '').slice(0, 10)}${state.count.toString().padStart(3, '0')}`;
+                cidPreviewEl.textContent = `${t('counter.cidPrefix')}: ${cidSnippet}`;
+            }
+            updateStatusVisuals(currentFeedback);
+        });
+
+        // Event listeners for modern DOM handling
+        toggleFlowBtn.addEventListener('click', toggleFlow);
+        catchBtn.addEventListener('click', catchDrop);
+        resetBtn.addEventListener('click', resetSystem);
+
+        // Initialize i18n engine and load external locales.json
+        await i18n.init('./locales.json', 'id');
+        updateStatusVisuals('laminar');
     </script>
 </body>
 </html>

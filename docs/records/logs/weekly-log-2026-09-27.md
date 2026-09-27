@@ -106,4 +106,22 @@ liberal_art: Quadrivium-Music
   - Executed `node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js` across `id`, `en`, and `zh` with exit code 0, verifying localized elder dialogues and thermodynamic telemetry.
   - Verified `python3 src/civilizational_sprint_engine.py` with 100% test passage across all 12 sprints and AoS test suite.
 
+## [2026-09-27] refactor | Externalized Linguistic Statements and Decoupled i18n Engine for Water Clock
+
+- **Trigger:** User directed refining `chapters/01_The_Value_of_Counting/HyperCard_Water_Clock` further to move all language translations and `i18n.js` to a standardized and reusable module, and load the linguistic statements from a separate, external JSON file, so that all other code segments remain stable.
+- **Deliverables & Architecture:**
+  - **`locales.json`**: Created externalized repository ([`chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/locales.json`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/locales.json)) containing all linguistic statements for Indonesian (`id`), English (`en`), and Chinese (`zh`) across 10 functional domains (`meta`, `header`, `spigot`, `counter`, `meters`, `status`, `buttons`, `gasingHint`, `logs`, `demon`).
+  - **`i18n.js`**: Standardized into an isomorphic, decoupled module ([`chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/i18n.js`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/i18n.js)) providing:
+    - `loadLocales(source)`: Dynamic asynchronous loading via browser `fetch` or Node `fs`.
+    - `init(source, defaultLang)`: Lifecycle initialization and auto-binding.
+    - `applyToDOM(container)` & `bindLanguageSwitcher(container)`: Declarative zero-overhead DOM localization for all `[data-i18n]` elements and `.lang-btn[data-lang]` buttons.
+    - `onLocaleChange(fn)`: Reactive subscription for simulation-dependent UI updates.
+    - `t(key, params, lang)`: Dot-notation resolution with parameter interpolation and fallback chain.
+  - **`index.html`**: Decoupled from hardcoded dictionaries ([`chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html)), importing `i18n.js` as an ES Module and initializing from `./locales.json` without altering physics simulation, Web Audio synthesizers, or state monad logic.
+  - **`README.md`**: Updated documentation ([`chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/README.md)) explaining the decoupled JSON architecture and zero-code-change language extension workflow.
+- **Verification:**
+  - Ran `node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js [id|en|zh]`—verified correct multi-language terminal simulation.
+  - Ran `python3 src/civilizational_sprint_engine.py`—verified 100% test passage across all invariants.
+
+
 

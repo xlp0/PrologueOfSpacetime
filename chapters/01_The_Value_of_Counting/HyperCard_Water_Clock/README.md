@@ -5,6 +5,8 @@ tags: [HyperCard, Water-Clock, Simulation, Interactive, JavaScript, Chapter-01]
 type: note
 sources:
   - chapters/01_The_Value_of_Counting/README.md
+  - chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/locales.json
+  - chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/i18n.js
   - chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js
   - chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html
 status: stable
@@ -21,28 +23,35 @@ This directory houses the **HyperCard Water Clock** implementation stack—an in
 
 ## 1. Stack Components
 
-1. **`i18n.js`**: Standardized Internationalization (i18n) engine supporting:
+1. **`locales.json`**: The Single Source of Truth (SSOT) external linguistic repository:
    * 🇮🇩 **Indonesian (`id`)**: Bahasa Indonesia
    * 🇬🇧 **English (`en`)**: English
    * 🇨🇳 **Chinese (`zh`)**: 中文 (简体)
-   * Isomorphic module exportable to Node.js and Browser environments, with dot-notation key lookup (`t('header.mainTitle')`) and parameter interpolation (`t('logs.milestone', { count: 10 })`).
-2. **`index.html`**: A retro HyperCard-style browser application featuring:
+   * Decouples all natural-language statements, Elder dialogues, thermodynamic telemetry alerts, and pedagogical hints from executable logic.
+2. **`i18n.js`**: Standardized, reusable, isomorphic Internationalization (i18n) module:
+   * Dynamically loads linguistic statements from `locales.json` via HTTP `fetch` in browsers or synchronous `fs` in Node.js.
+   * Provides dot-notation key lookup (`t('header.mainTitle')`) and parameter interpolation (`t('logs.milestone', { count: 10 })`).
+   * Provides automatic DOM localization bindings (`applyToDOM()`) and language switcher event listeners (`bindLanguageSwitcher()`).
+   * Emits change events (`onLocaleChange`) for reactive UI updates without touching core game loops.
+3. **`index.html`**: A retro HyperCard-style browser application featuring:
    * Real-time water accumulation bar (Bamboo reservoir).
    * Monotonic counter display ($n \in \mathbb{N}$).
    * Tactile manual capture trigger (`[ Catch the Drop ]` button).
    * Thermodynamic feedback display: Energy remaining, Entropy generated, and Laminar vs. Turbulent flow indicator.
    * Standardized i18n multilingual switcher (🇮🇩 Bahasa Indonesia / 🇬🇧 English / 🇨🇳 中文).
    * Pure Web Audio API procedural sound synthesis (no external assets required).
-3. **`water_clock.js`**: Node.js executable module implementing the underlying `MaxwellsDemon` class, delta-timing logic, thermodynamic dissipation equations, and multilingual CLI output driven by `i18n.js`.
+4. **`water_clock.js`**: Node.js executable module implementing the underlying `MaxwellsDemon` class, delta-timing logic, thermodynamic dissipation equations, and multilingual CLI output driven by `i18n.js`.
 
 ---
 
 ## 2. How to Run
 
 ### Option A: Browser (Interactive Multilingual UI)
-Simply open `index.html` in any standard web browser:
+Serve or open `index.html` in any standard web browser:
 ```bash
-open chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html
+# Serve locally via Python or your preferred dev server
+python3 -m http.server 8000
+# Navigate to: http://localhost:8000/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/
 ```
 Click the language switch buttons at the top to toggle instantly between **🇮🇩 Bahasa Indonesia**, **🇬🇧 English**, and **🇨🇳 中文**!
 
@@ -63,20 +72,20 @@ node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js zh
 
 ## 3. Extending the i18n Standard (Adding New Languages)
 
-To add another language (e.g. Japanese `ja` or Spanish `es`):
-1. Open [`i18n.js`](i18n.js).
-2. Add a new key under `locales`:
-   ```javascript
-   export const locales = {
-     // ... existing id, en, zh ...
-     ja: {
-       meta: { code: 'ja', name: '日本語', flag: '🇯🇵' },
-       header: { mainTitle: '水時計：ステーション01', ... },
+Because linguistic statements are externalized into `locales.json`, application code remains 100% stable:
+1. Open [`locales.json`](locales.json).
+2. Add your new language key (e.g., `ja` for Japanese or `de` for German):
+   ```json
+   {
+     "ja": {
+       "meta": { "code": "ja", "name": "日本語", "flag": "🇯🇵" },
+       "header": { "mainTitle": "超卡水钟：第01工位（竹节滴漏）", ... },
        ...
      }
-   };
+   }
    ```
-3. In `index.html`, add `<button class="lang-btn" data-lang="ja" onclick="switchLanguage('ja')">🇯🇵 日本語</button>`. The `data-i18n` binding engine will handle the rest automatically!
+3. In `index.html`, add `<button class="lang-btn" data-lang="ja" onclick="switchLanguage('ja')">🇯🇵 日本語</button>`.
+No changes to `water_clock.js`, physics simulation, or audio synthesizers are required!
 
 ---
 
