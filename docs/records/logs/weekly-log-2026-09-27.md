@@ -122,6 +122,28 @@ liberal_art: Quadrivium-Music
 - **Verification:**
   - Ran `node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js [id|en|zh]`—verified correct multi-language terminal simulation.
   - Ran `python3 src/civilizational_sprint_engine.py`—verified 100% test passage across all invariants.
+## [2026-09-27] standard | Unified HyperCard / 超卡 to MCard Across All Locales and Authored mcard-specification Skill
 
-
-
+- **Trigger:** User directed unifying Hypercard (超卡) across Chinese (`zh-TW`), English (`en`), and Indonesian (`id`) to **`MCard`**, and writing this standard into the repository Skills system.
+- **Root Cause & Rationale:**
+  - Machine translation erroneously translated Bill Atkinson's HyperCard as "超卡".
+  - In *Prologue of Spacetime*, the foundational primitive is an **`MCard` (Monadic Card)**—grounded in Leibniz's Monadology, Wadler's computational monads, and Homotopy Type Theory $\Sigma$-types ($\sum_{x:A} B(x)$).
+  - All localized references must anchor to `MCard` (e.g. `Jam Air MCard`, `MCard Water Clock`, `MCard 水鐘`), with `超卡` strictly prohibited.
+- **Deliverables:**
+  - **`locales.json`**:
+    - `id.header.mainTitle`: `"Jam Air MCard: Stasiun 01"`
+    - `en.header.mainTitle`: `"MCard Water Clock: Station 01"`
+    - `zh-TW.header.mainTitle`: `"MCard 水鐘：第01工位（竹節滴漏）"`
+  - **`index.html`**:
+    - `<title>`: `Chapter 01: MCard Water Clock / Jam Air MCard / MCard 水鐘`
+    - Header & comments updated to MCard.
+  - **`water_clock.js` & `README.md`**:
+    - Header comments, frontmatter, descriptions, and code examples updated to MCard.
+  - **`chapters/01_The_Value_of_Counting/`**:
+    - Synchronized `MVP_The_Counter.md`, `README.md`, and `water_clock_mechanics.md` to `MCard Water Clock`.
+  - **Agent Skills**:
+    - Created [`.agents/skills/mcard-specification/SKILL.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/.agents/skills/mcard-specification/SKILL.md) and mirrored in [`.agent/skills/mcard-specification/SKILL.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/.agent/skills/mcard-specification/SKILL.md), defining canonical forms, strict prohibitions, HoTT $\Sigma$-type grounding, Representation Engine Tier 1 mapping, and audit checklists.
+- **Verification:**
+  - Verified `node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js` across `id`, `en`, and `zh-TW`.
+  - Reloaded live Google Chrome browser session on `http://localhost:8099`.
+  - Formally certified 100% pass across all 12 sprints via `python3 src/civilizational_sprint_engine.py`.

@@ -1,5 +1,5 @@
 /**
- * HyperCard Stack: The Water Clock
+ * MCard Stack: The Water Clock
  * Chapter: 01 - The Value of Counting
  * 
  * Powered by i18n Standard (Indonesian, English, Chinese)

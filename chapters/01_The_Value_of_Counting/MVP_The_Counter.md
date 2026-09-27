@@ -69,7 +69,7 @@ Every tick of The Counter emits a canonical, content-addressed **MCard**:
     "shannon_entropy_drop": -0.1002,
     "provenance": {
       "observer": "MaxwellsDemon_v01",
-      "hardware": "HyperCard_Water_Clock_Sensor",
+      "hardware": "MCard_Water_Clock_Sensor",
       "timestamp_utc": "2026-09-27T07:54:00Z"
     }
   },
@@ -137,4 +137,4 @@ The Counter is engineered to maintain cognitive **Flow State**:
   where $S = \{\text{Continuum}, \text{Bitstream}, \text{Token}, \text{Entropy}\}$, $\Omega = \{\text{sense}, \text{sieve}, \text{measure}\}$, and $\mathcal{E} = \{\Delta H < 0\}$.
 * **Baldwin Modular Operator**: **Splitting** (sifting raw continuous waves into discrete, countable tokens).
 * **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Participants must choose whether to hoard counts for extractive private profit or commit them to the communal Subak cistern.
-* **Physical & Digital Substrate**: HyperCard Water Clock simulation, RF pulse counter, formally verified with 0.0 error in `src/civilizational_sprint_engine.py`.
+* **Physical & Digital Substrate**: MCard Water Clock simulation, RF pulse counter, formally verified with 0.0 error in `src/civilizational_sprint_engine.py`.

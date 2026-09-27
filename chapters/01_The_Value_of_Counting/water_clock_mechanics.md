@@ -20,7 +20,7 @@ liberal_art: Quadrivium-Arithmetic
 
 ---
 
-## 1. The Physical Archetype: Clepsydra to HyperCard
+## 1. The Physical Archetype: Clepsydra to MCard Stacks
 
 The **Clepsydra (Water Clock)** is one of humanity's earliest precision instruments for civilizational coordination. From the ancient water clocks of Babylon and Alexandria to the synchronized irrigation weirs of the Balinese **Subak**, water clocks solve a foundational problem: **How do we measure the passage of continuous time through discrete physical events?**
 

@@ -1,7 +1,7 @@
 ---
-title: "HyperCard Water Clock: Interactive Demonstration"
+title: "MCard Water Clock: Interactive Demonstration"
 date: 2026-09-27
-tags: [HyperCard, Water-Clock, Simulation, Interactive, JavaScript, Chapter-01]
+tags: [MCard, Water-Clock, Simulation, Interactive, JavaScript, Chapter-01]
 type: note
 sources:
   - chapters/01_The_Value_of_Counting/README.md
@@ -13,11 +13,11 @@ status: stable
 liberal_art: Quadrivium-Arithmetic
 ---
 
-# HyperCard Water Clock: Interactive Demonstration
+# MCard Water Clock: Interactive Demonstration
 
 > *"Observation costs energy. Count too fast, and you burn. Count too slow, and you drown."*
 
-This directory houses the **HyperCard Water Clock** implementation stack—an interactive analog-to-digital converter (ADC) and Maxwellian Demon simulator realizing **Station 01 (The Inventory Station)** of Chapter 01.
+This directory houses the **MCard Water Clock** implementation stack—an interactive analog-to-digital converter (ADC) and Maxwellian Demon simulator realizing **Station 01 (The Inventory Station)** of Chapter 01.
 
 ---
 
@@ -33,7 +33,7 @@ This directory houses the **HyperCard Water Clock** implementation stack—an in
    * Provides dot-notation key lookup (`t('header.mainTitle')`) and parameter interpolation (`t('logs.milestone', { count: 10 })`).
    * Provides automatic DOM localization bindings (`applyToDOM()`) and language switcher event listeners (`bindLanguageSwitcher()`).
    * Emits change events (`onLocaleChange`) for reactive UI updates without touching core game loops.
-3. **`index.html`**: A retro HyperCard-style browser application featuring:
+3. **`index.html`**: A retro MCard-style browser application featuring:
    * Real-time water accumulation bar (Bamboo reservoir).
    * Monotonic counter display ($n \in \mathbb{N}$).
    * Tactile manual capture trigger (`[ Catch the Drop ]` button).
@@ -79,7 +79,7 @@ Because linguistic statements are externalized into `locales.json`, application 
    {
      "ja": {
        "meta": { "code": "ja", "name": "日本語", "flag": "🇯🇵" },
-       "header": { "mainTitle": "超卡水钟：第01工位（竹节滴漏）", ... },
+       "header": { "mainTitle": "MCard 水鐘：第01工位（竹節滴漏）", ... },
        ...
      }
    }

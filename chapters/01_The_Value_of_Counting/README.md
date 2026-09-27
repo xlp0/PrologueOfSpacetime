@@ -99,7 +99,7 @@ flowchart LR
 ```
 
 * **$\{P\} = VCard_{\text{pre}}$**: Raw, turbulent analog flow. $H_{\text{initial}} > 0$. Drops are uncounted; provenance is untrusted.
-* **$C = PCard$ (The Counter)**: The physical or simulated discriminator (e.g. [[chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js|HyperCard Water Clock]]). It takes an observation window $\Delta t$, verifies threshold $\theta$, and emits a discrete tick.
+* **$C = PCard$ (The Counter)**: The physical or simulated discriminator (e.g. [[chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js|MCard Water Clock]]). It takes an observation window $\Delta t$, verifies threshold $\theta$, and emits a discrete tick.
 * **$\{Q\} = VCard_{\text{post}}$**: A verified, immutable **[[chapters/01_The_Value_of_Counting/MVP_The_Counter|MCard (Memory Card)]]**. The droplet count is permanently recorded in the ledger, with content-addressed hash, timestamp, and signature:
   $$\Delta H < 0, \quad \text{Count}_{\text{post}} = \text{Count}_{\text{pre}} + 1$$
 
@@ -116,7 +116,7 @@ Chapter 01 is organized as an authenticated cube in the Cubical Logic Model:
                        /               \
                       /                 \
   [Spec: Specification] ---------------- [Impl: Implementation]
-  README & MVP_The_Counter           HyperCard Water Clock Engine
+  README & MVP_The_Counter           MCard Water Clock Engine
 ```
 
 * **Specification (Spec)**:
@@ -206,7 +206,7 @@ To master Chapter 01, follow this structured trajectory:
    * [`water_clock_mechanics.md`](water_clock_mechanics.md) — The physical architecture of the water clock as an analog-to-digital converter.
    * [`thermodynamics_of_counting.md`](thermodynamics_of_counting.md) — Maxwell's Demon, Landauer's bound, and Brownian free will.
 3. **Execute Simulations & Math**:
-   * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/) — Run the interactive simulation in your browser or Node.js (with standardized i18n supporting Indonesian 🇮🇩, English 🇬🇧, and Chinese 🇨🇳).
+   * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/) — Run the interactive simulation in your browser or Node.js (with standardized i18n supporting Indonesian 🇮🇩, English 🇬🇧, and Orthodox Chinese 🇹🇼).
    * [`HoTT_Math_Course/`](HoTT_Math_Course/) — Study formal Homotopy Type Theory foundations of $\mathbb{N}$.
 4. **Play the Operational Sprint**:
    * [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]] — Execute the playable strategy sprint and verify against `src/civilizational_sprint_engine.py`.
@@ -223,7 +223,7 @@ This chapter is directly implemented and playable via **[[docs/sprints/epoch-01-
 * **AoS Domain Triad**: $\langle P, C, B \rangle = \langle [L]^0, [T]^0, \text{Energy} \rangle$
 * **Active Baldwin Operator**: **Splitting** (sifting raw continuous wave into discrete countable tokens)
 * **Digital Synesthesia**: Auditory Pulse Train (auditory perception of entropy drop $\Delta H < 0$)
-* **Hardware Realization**: HyperCard Water Clock, RF pulse counter, physical water droplets
+* **Hardware Realization**: MCard Water Clock, RF pulse counter, physical water droplets
 * **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Participants decide whether to hoard discrete counts for private advantage or commit them to the communal water ledger.
 * **Vibration & Free Will**: Brownian thermal fluctuations of droplets represent the agent's agency to explore counterfactual realities; re-establishing order and coherence requires expenditure of Landauer energy.
 * **Automated Verification**: Formally certified with 0.0 error in `src/civilizational_sprint_engine.py` (`SPRINT-01` test suite).
