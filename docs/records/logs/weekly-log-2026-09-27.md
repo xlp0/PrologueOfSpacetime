@@ -251,4 +251,20 @@ liberal_art: Quadrivium-Music
   - Ran `node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js [id|sa|en|zh-TW]` — all 4 passed with verified thermodynamic simulation.
   - Ran `python3 src/civilizational_sprint_engine.py` — 100% pass across all 12 sprints + AoS suite.
 
+## [2026-09-27] refactor | Complete Elimination of Legacy HyperCard_Water_Clock Path
+- **Objective:** Permanently remove the legacy `chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/` directory and update all remaining inbound references, wikilinks, code judgments, and documentation to point exclusively to `chapters/01_The_Value_of_Counting/MCard_Water_Clock/`.
+- **Actions Taken:**
+  1. Removed `chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/` directory and all its files (`README.md`, `i18n.js`, `index.html`, `locales.json`, `water_clock.js`).
+  2. Updated `chapters/01_The_Value_of_Counting/type_lattice.js` to eliminate all legacy artifact path references from `chapterFiles` array, keeping only canonical `MCard_Water_Clock` files for `clm-kernel` TypeInterpreter evaluation.
+  3. Updated `chapters/01_The_Value_of_Counting/water_clock_mechanics.md` frontmatter `sources` and section 2 wikilink to reference `MCard_Water_Clock/water_clock.js`.
+  4. Updated `chapters/01_The_Value_of_Counting/MCard_Water_Clock/README.md` frontmatter `sources`, component list, web URL, and CLI run commands to reference `MCard_Water_Clock` and document all 4 supported languages (`id`, `sa`, `en`, `zh-TW`).
+  5. Updated `chapters/01_The_Value_of_Counting/README.md` lines 115, 140, 143, and 277 to eliminate all legacy path mentions.
+  6. Updated `chapters/00_Structure_and_Vision.md` GASing flowchart to reference `MCard Water Clock`.
+  7. Updated `docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL.md` line 39 to link to `[[chapters/01_The_Value_of_Counting/MCard_Water_Clock|MCard Water Clock]]`.
+- **Verification:**
+  - Ran `node chapters/01_The_Value_of_Counting/type_lattice.js [id|sa|en|zh-TW]` — all 4 passed with 100% stratification and valid canonical MCard hash.
+  - Ran `node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js [id|sa|en|zh-TW]` — all 4 passed with complete thermodynamic simulation output.
+  - Ran `python3 src/civilizational_sprint_engine.py` — all 12 sprints certified passing.
+
+
 

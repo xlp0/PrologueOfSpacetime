@@ -91,10 +91,7 @@ const chapterFiles = [
   'type_lattice_locales.json',
   'MCard_Water_Clock/water_clock.js',
   'MCard_Water_Clock/locales.json',
-  'MCard_Water_Clock/index.html',
-  'HyperCard_Water_Clock/water_clock.js',
-  'HyperCard_Water_Clock/locales.json',
-  'HyperCard_Water_Clock/index.html'
+  'MCard_Water_Clock/index.html'
 ];
 
 for (const rel of chapterFiles) {

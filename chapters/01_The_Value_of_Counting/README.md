@@ -112,7 +112,7 @@ flowchart LR
 ```
 
 * **$\{P\} = VCard_{\text{pre}}$**: Raw, turbulent analog flow. $H_{\text{initial}} > 0$. Drops are uncounted; provenance is untrusted.
-* **$C = PCard$ (The Counter)**: The physical or simulated discriminator (e.g. [[chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js|MCard Water Clock]]). It takes an observation window $\Delta t$, verifies threshold $\theta$, and emits a discrete tick.
+* **$C = PCard$ (The Counter)**: The physical or simulated discriminator (e.g. [[chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js|MCard Water Clock]]). It takes an observation window $\Delta t$, verifies threshold $\theta$, and emits a discrete tick.
 * **$\{Q\} = VCard_{\text{post}}$**: A verified, immutable **[[chapters/01_The_Value_of_Counting/MVP_The_Counter|MCard (Memory Card)]]**. The droplet count is permanently recorded in the ledger, with content-addressed hash, timestamp, and signature:
   $$\Delta H < 0, \quad \text{Count}_{\text{post}} = \text{Count}_{\text{pre}} + 1$$
 
@@ -137,10 +137,10 @@ Chapter 01 is organized as an authenticated cube in the Cubical Logic Model:
   * [`MVP_The_Counter.md`](MVP_The_Counter.md): The philosophical and technical specification of the MCard atom.
   * [`arithmetic_as_protocol.md`](arithmetic_as_protocol.md): The Fundamental Theorem of Arithmetic (FTA) and Pacioli's double-entry invariant as SSOT verification.
   * [`type_lattice.json`](type_lattice.json): Canonical CLM Type Lattice specification defining nodes and relationships across $U_0 \dots U_5$.
-  * [`type_lattice_locales.json`](type_lattice_locales.json): Decoupled multilingual translation repository (🇮🇩 `id`, 🇬🇧 `en`, 🇹🇼 `zh-TW`).
+  * [`type_lattice_locales.json`](type_lattice_locales.json): Decoupled multilingual translation repository (🇮🇩 `id`, 🕉️ `sa`, 🇬🇧 `en`, 🇹🇼 `zh-TW`).
 * **Implementation (Impl)**:
   * [`type_lattice.js`](type_lattice.js): Executable Type Lattice verification engine powered by **`clm-kernel`** (`UniverseLevel`, `isStratified`, `TypeInterpreter`, `MCard`).
-  * [`MCard_Water_Clock/`](MCard_Water_Clock/): Working browser and Node.js simulation of Maxwell's Demon observing droplets with thermodynamic dissipation (also mirrored in `HyperCard_Water_Clock/` for backwards compatibility).
+  * [`MCard_Water_Clock/`](MCard_Water_Clock/): Working browser and Node.js simulation of Maxwell's Demon observing droplets with thermodynamic dissipation.
   * [`water_clock_mechanics.md`](water_clock_mechanics.md): Technical breakdown of the Water Clock Analog-to-Digital Converter (ADC).
 * **Experimentation (Exp)**:
   * [`HoTT_Math_Course/`](HoTT_Math_Course/): 7 foundational video lesson notes detailing Homotopy Type Theory, universes, $\Pi$-types, $\Sigma$-types, and inductive types.
@@ -274,7 +274,6 @@ node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js zh-TW
 ```bash
 # Open in your web browser:
 open http://localhost:8099/chapters/01_The_Value_of_Counting/MCard_Water_Clock/index.html
-# (Backwards-compatible legacy path http://localhost:8099/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html is also maintained)
 ```
 
 ---

@@ -36,7 +36,7 @@ liberal_art: Quadrivium-Arithmetic
 | **Reverse Math Depth** | **Level 1: $RCA_0$ (Recursive Comprehension Axiom) — Computable counting, discrete states, GASing** |
 | **Wuxing Phase & Tribe** | **Wood (木) — Branching state initiation & Symbolist data representation** |
 | **Historical Archetype** | **Gottfried Wilhelm Leibniz — Monadology & binary characteristica universalis** |
-| **Physical & IoT Realization** | [[chapters/01_The_Value_of_Counting/HyperCard_Water_Clock|HyperCard Water Clock]] & [[chapters/01_The_Value_of_Counting/HoTT_Math_Course|HoTT Math Course]] |
+| **Physical & IoT Realization** | [[chapters/01_The_Value_of_Counting/MCard_Water_Clock|MCard Water Clock]] & [[chapters/01_The_Value_of_Counting/HoTT_Math_Course|HoTT Math Course]] |
 
 ---
 

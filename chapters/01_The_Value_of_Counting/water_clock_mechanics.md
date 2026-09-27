@@ -6,7 +6,7 @@ type: concept
 sources:
   - chapters/00_Structure_and_Vision.md
   - chapters/01_The_Value_of_Counting/README.md
-  - chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js
+  - chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js
 status: stable
 liberal_art: Quadrivium-Arithmetic
 ---
@@ -39,7 +39,7 @@ flowchart LR
 
 ## 2. Maxwellian Demon Architecture in `water_clock.js`
 
-The computational realization of the Water Clock is implemented in [[chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js|HyperCard_Water_Clock/water_clock.js]]. The core entity is **Maxwell's Demon**, an active observer that pauses the chaotic flow to extract discrete information.
+The computational realization of the Water Clock is implemented in [[chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js|MCard_Water_Clock/water_clock.js]]. The core entity is **Maxwell's Demon**, an active observer that pauses the chaotic flow to extract discrete information.
 
 > 💡 **Intuitif Pemula — Menjaga Irama Aliran (Laminar vs Turbulen)**:  
 > Bayangkan Anda sedang menuang teh panas ke dalam cangkir. Jika tangan Anda tenang dan stabil, teh mengalir anggun dan sejuk tanpa tumpah (*Aliran Laminar*). Tetapi jika Anda gugup, tangan Anda bergetar cepat dan air muncrat ke mana-mana (*Aliran Turbulen*). Di dalam simulasi `water_clock.js`, kita belajar menjaga ketenangan: menangkap tetesan air dalam tempo teratur (~1 detik sekali). Jika Anda panik dan memencet tombol terlalu cepat, energi pengamat akan terkuras habis dan mesin mengalami *overheat* (kepanasan)!

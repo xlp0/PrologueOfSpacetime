@@ -234,7 +234,7 @@ Di banyak ruang kelas dan institusi pendidikan formal di Indonesia, matematika d
 flowchart TD
     subgraph GASing["Siklus Belajar GASing Nusantara"]
         A["1. Gampang (Konkret & Intuitif)<br/>Mulai dari benda nyata di sekitar:<br/>Tetesan air talang, butir beras di lumbung, warung kelontong.<br/>'Kamu pasti bisa, konsep dasarnya sangat sederhana!'"]
-        --> B["2. Asyik (Eksplorasi & Gamifikasi)<br/>Belajar lewat ritme dan simulasi interaktif:<br/>HyperCard Water Clock, detak berbunyi seperti gamelan,<br/>bebas salah tanpa dihakimi, mencari aliran tenang (laminar)."]
+        --> B["2. Asyik (Eksplorasi & Gamifikasi)<br/>Belajar lewat ritme dan simulasi interaktif:<br/>MCard Water Clock, detak berbunyi seperti gamelan,<br/>bebas salah tanpa dihakimi, mencari aliran tenang (laminar)."]
         --> C["3. Menyenangkan (Makna Luhur & Kedaulatan)<br/>Menghubungkan keadilan sosial & gotong royong:<br/>Sistem Subak Bali, kedaulatan data desa, Tri Hita Karana.<br/>Mengetahui bahwa ilmu ini membebaskan kita menjadi mandiri."]
     end
     C -->|"Mengisi Wadah Kognitif"| A
