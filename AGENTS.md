@@ -132,6 +132,11 @@ Every page gets a `liberal_art` frontmatter field + matching tag (one of the sev
 - **Quadrivium-Music**: rhythm, harmony, pipelines, flow (e.g. CI/CD, business-OS wiring, canary shifts)
 - **Quadrivium-Astronomy**: motion, time, worlds, physical AI (e.g. world models, robotics, memory)
 
+### 4.6 Language and Documentation Discipline (Strict Monolingual English READMEs)
+
+- **`README.md` files must be strictly English-only**: Across all directories and subdirectories, every `README.md` must be written entirely and exclusively in English. **Never** mix Indonesian (Bahasa Indonesia), Chinese, Sanskrit, or other natural languages into `README.md` prose or section headings.
+- **Multilingual Content belongs in Decoupled SSOT Repositories**: All non-English pedagogical texts, dialogues, and UI statements belong in dedicated external multilingual repositories (such as `locales.json`, `type_lattice_locales.json`, or dedicated localized guides under `docs/`), preserving clean architectural separation of concerns and preventing language fragmentation in technical overviews.
+
 ## 5. The two special files
 
 ### index.md — content catalog (LLM updates on every ingest)

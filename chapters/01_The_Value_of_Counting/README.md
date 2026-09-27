@@ -16,8 +16,8 @@ liberal_art: Trivium-Rhetoric
 
 > *"To count is to define. In the continuous roar of chaotic reality, nothing exists for an agent until it is separated, bounded, and assigned a hash."*
 
-> 🇮🇩 **Panduan Awal untuk Pembelajar Pemula Indonesia**:  
-> *Selamat datang di Bab 01! Jika Anda memulai dari titik nol mutlak tanpa latar belakang matematika tinggi atau ilmu komputer canggih, jangan khawatir. Di sini kita tidak akan menghafal rumus mati. Kita akan memulai dari hal yang paling akrab dalam hidup kita: suara tetesan air hujan di talang bambu, butir-butir beras di lumbung desa, dan buku kas warung kelontong. Dengan metode **GASing (Gampang, Asyik, Menyenangkan)**, Anda akan melihat bahwa komputer paling canggih di dunia bekerja dengan prinsip sederhana yang sama persis dengan apa yang Anda pelajari di sini!*
+> **Beginner's Orientation**:  
+> *Welcome to Chapter 01! If you are starting from ground zero without an advanced mathematics or computer science background, do not worry. Here, we do not memorize dead formulas. We begin from the most familiar elements of physical reality: the rhythm of raindrops dripping through a bamboo spout, grains of rice stored in a village granary, and the double-entry tally book of a local market stall. Through the **GASing** methodology (Easy, Fun, Enjoyable), you will discover that the world's most advanced computing architectures operate upon the exact same transparent principles you explore right here!*
 
 🔬 **Logical Depth**: Level 1 ($RCA_0$ — Computable Mathematics / Recursive Comprehension)  
 📐 **CLM Coordinates**: $X$: Rhetoric (Value/Why) $\times$ $Y$: Arithmetic (Naming/Distinction) $\times$ $Z$: [Spec + Impl + Exp]  
@@ -43,24 +43,24 @@ flowchart LR
 2. **Logic (Process / What)**: We introduce the dynamic mechanism of distinction: the **Maxwellian Sieve Demon** pausing the flow to register discrete "Drops" ($1 \neq 0$). The player experiences counting as a physical, energetic action with real thermodynamic costs.
 3. **Grammar (Structure / How)**: Only after experiencing the necessity and cost of counting do we formalize the structural laws: the **Natural Numbers ($\mathbb{N}$)** as an inductive type in HoTT, content-addressed hashing (MCard CIDs), and the double-entry invariant.
 
-### 1.1 Pendekatan GASing Nusantara: Menghitung dari Titik Nol
+### 1.1 The GASing Pedagogical Approach: Counting from Ground Zero
 
-Sebelum menyelami rumus dan formalisme sistem, mari kita rasakan esensi menghitung melalui tiga pilar **GASing**:
+Before delving into formal type systems and equations, we experience the essence of counting through the three pillars of **GASing**:
 
-* 💡 **GAMPANG (Easy — Konsep Nyata & Intuitif)**:
-  * **Apa itu Menghitung?** Menghitung bukanlah rumus rumit; menghitung adalah **tindakan memberi batas yang tegas**.
-  * Bayangkan Anda sedang duduk di beranda rumah pedesaan saat hujan lebat. Air mengalir deras tanpa jeda di pekarangan—itu adalah aliran liar (kontinu/analog). Kita tidak mungkin menghitung seluruh air yang jatuh sekaligus. Tetapi jika kita meletakkan bilah bambu atau cangkir di bawah talang: *Tetes... Tetes... Tetes...* Tiba-tiba, aliran yang liar tadi terpecah menjadi butir-butir yang terpisah: *Satu tetes, dua tetes, tiga tetes!*
-  * Itulah asal mula dari semua komputasi digital di muka bumi: **mengubah aliran alam yang bersambung menjadi satuan-satuan nyata yang bisa dinamai dan dipertanggungjawabkan**.
+* 💡 **EASY (Gampang — Concrete & Intuitive Concepts)**:
+  * **What is Counting?** Counting is not an abstract formula; counting is **the physical act of establishing an unambiguous boundary**.
+  * Imagine sitting on the veranda during a tropical downpour. Water flows relentlessly across the courtyard—that is continuous, analog reality. One cannot count the flood all at once. But place a notched bamboo conduit or bowl beneath the eaves: *Drip... Drip... Drip...* Suddenly, the turbulent continuum resolves into distinct, tangible units: *One drop, two drops, three drops!*
+  * This is the origin of all digital computation: **transforming an unconditioned natural flow into discrete, accountable units that can be named and verified**.
 
-* 🎮 **ASYIK (Fun — Bermain dengan Ritme & Umpan Balik Langsung)**:
-  * Jangan hanya membaca teori—mainkan langsung! Buka simulator web kami di [`MCard_Water_Clock/index.html`](MCard_Water_Clock/index.html).
-  * Di sana, Anda berperan sebagai penjaga pintu air (*Maxwell's Demon*). Tugas Anda: klik tombol tepat saat tetesan air terbentuk.
-  * Rasakan iramanya: jika Anda memencet dalam tempo yang tenang dan teratur (aliran tenang / *laminar*), Anda akan mendengar denting gamelan yang merdu dan mesin tetap sejuk. Namun jika Anda panik dan memencet sembarangan terlalu cepat (*spam clicking*), gesekan akan membuat mesin mendesis panas (*overheat*)! Belajar termodinamika dan logika komputer jadi seperti bermain kendang atau gamelan tradisi.
+* 🎮 **FUN (Asyik — Active Play with Immediate Multimodal Feedback)**:
+  * Do not merely read theory—play with it directly! Open our web simulator at [`MCard_Water_Clock/index.html`](MCard_Water_Clock/index.html).
+  * You embody the gatekeeper (*Maxwell's Demon*). Your task: trigger the observation button precisely as each water droplet forms.
+  * Feel the rhythm: clicking within a calm, regular tempo (laminar flow) triggers clear resonant chimes while keeping thermal dissipation minimal. But clicking frantically generates frictional heat that overheats the sensor! Exploring thermodynamics and computational logic becomes as intuitive and musical as playing a traditional percussion instrument.
 
-* 🌺 **MENYENANGKAN (Enjoyable — Makna Luhur, Kedaulatan, & Keadilan Sosial)**:
-  * **Mengapa Menghitung itu Membebaskan?** *"Siapa yang tidak bisa menghitung hasil panennya sendiri, akan selalu diperdaya oleh tengkulak."*
-  * Menghitung adalah akar dari **Kedaulatan Data** dan **Keadilan Sosial (Sila ke-5 Pancasila)**. Di Bali, para petani mengelola irigasi sawah terasering melalui sistem **Subak** selama lebih dari seribu tahun. Setiap tetes air dari danau pegunungan dibagi secara transparan di pintu pembagi air (*taku*). Tidak ada yang bisa mencurangi takaran air karena perhitungannya terbuka untuk seluruh warga desa.
-  * Ketika Anda belajar menghitung di Bab ini, Anda tidak sekadar belajar angka matematika; Anda sedang mempelajari cara membangun teknologi yang **Amanah, Transparan, Berkeadilan, dan Bergotong Royong**!
+* 🌺 **ENJOYABLE (Menyenangkan — Meaningful Purpose, Sovereignty, & Social Fairness)**:
+  * **Why Does Counting Liberate?** *"Those who cannot audit their own harvest remain permanently vulnerable to exploitation."*
+  * Counting is the bedrock of **Data Sovereignty and Distributed Equity**. Across Bali, farmers have managed terraced irrigation through the **Subak** commons for over a millennium. Every droplet channeled from crater lakes is allocated transparently through calibrated wooden division gates (*taku*). No authority can manipulate water allotments because accounting is open to all community members.
+  * In this chapter, counting is not an academic chore; it is the path to constructing technology that is **Verifiable, Sovereign, Fair, and Cooperatively Audited**!
 
 ### 1.2 The Four-Language Quad-Standard Architecture
 
@@ -96,11 +96,11 @@ Following the core physics of the Brain Factory, we do not merely execute action
 
 $$\{P\} \quad C \quad \{Q\}$$
 
-> 💡 **Intuitif Pemula — Tiga Langkah Pasti (Hoare Triple)**:
-> Jangan bingung dengan simbol matematika di atas! Ini hanyalah cara formal untuk mengatakan tiga hal yang biasa kita lakukan sehari-hari:
-> 1. **$\{P\}$ Kondisi Awal (Precondition)**: Air masih mengalir liar di talang bambu, belum diukur, belum dicatat.
-> 2. **$C$ Perintah / Tindakan (Command)**: Penjaga pintu air mengamati dan menangkap satu tetesan air (*Klik!*).
-> 3. **$\{Q\}$ Hasil Akhir (Postcondition)**: Tetesan itu sekarang resmi tercatat dalam kartu memori (**MCard**) yang tidak bisa diubah-ubah lagi!
+> 💡 **Beginner's Intuition — Three Verifiable Steps (Hoare Triple)**:
+> The formal notation above represents three concrete phases of any measurement:
+> 1. **$\{P\}$ Precondition**: Water flows unmeasured through the bamboo spout—continuous, analog, and unrecorded.
+> 2. **$C$ Command**: The observer discriminates and captures a discrete droplet (*Tick!*).
+> 3. **$\{Q\}$ Postcondition**: The droplet count is permanently committed to an immutable memory card (**MCard**) with cryptographic content addressing!
 
 For **Station 01 (The Counter)**:
 
@@ -151,24 +151,27 @@ Chapter 01 is organized as an authenticated cube in the Cubical Logic Model:
 
 Chapter 01 is formally structured into six stratified universe levels via the `clm-kernel` npm package:
 
-| Stratum | CLM Coordinate | Chapter 01 Types & Invariants | Physical / Nusantara Metaphor |
+| Stratum | CLM Coordinate | Chapter 01 Types & Invariants | Physical / Civilizational Metaphor |
 |:---|:---|:---|:---|
-| **$U_0$** | **`mcard_cas`** | `DropletAtom`, `NaturalNumber` ($n \in \mathbb{N}$), `ContentId` (CID), `ThermalQuantum` | Butir beras di tampah, kerikil dalam kaleng, segel lilin adat |
-| **$U_1$** | **`pcard_net`** | `ClepsydraTick` (ADC), `PeanoSuccessor` ($\text{Succ}(n) = n+1$), `DemonObservation` | Tetesan menumpahkan bilah bambu jungkit (*添水 / Shishi-odoshi*) |
-| **$U_2$** | **`vcard_proof`** | `LaminarConservationGate` ($\Delta H < 0$), `LandauerBoundProof`, `PacioliDoubleEntryReceipt` | Pintu air Subak Bali: debit air masuk $\equiv$ debit keluar |
-| **$U_3$** | **`satori_fiber`** | `ElderWarningAct`, `AuditoryPulseAct` (440Hz Plink), `MilestoneChimeAct` | Nasihat sesepuh adat balai desa, denting gamelan panen |
-| **$U_4$** | **`membrane_ui`** | `WaterClockStack` (MCard UI), `CatchDropTrigger` ($<100\text{ms}$), `ThermodynamicGauge` | Pondok ukur bambu, wadah penampung air sejuk |
-| **$U_5$** | **`meta_gamma`** | `GASingFlowState` (Easy, Fun, Enjoyable), `EpistemicFitness`, `KenoticEmptySchema` | Keheningan batin dalang wayang, cangkir teh kosong siap diisi |
+| **$U_0$** | **`mcard_cas`** | `DropletAtom`, `NaturalNumber` ($n \in \mathbb{N}$), `ContentId` (CID), `ThermalQuantum` | Rice grains on a winnowing tray, pebbles in an accounting jar, wax seal on an ancestral record |
+| **$U_1$** | **`pcard_net`** | `ClepsydraTick` (ADC), `PeanoSuccessor` ($\text{Succ}(n) = n+1$), `DemonObservation` | Tipping bamboo rocker conduit (*添水 / Shishi-odoshi*) clicking against stone |
+| **$U_2$** | **`vcard_proof`** | `LaminarConservationGate` ($\Delta H < 0$), `LandauerBoundProof`, `PacioliDoubleEntryReceipt` | Subak division weir: inflow volume strictly matches distributed outflow |
+| **$U_3$** | **`satori_fiber`** | `ElderWarningAct`, `AuditoryPulseAct` (440Hz Plink), `MilestoneChimeAct` | Village elder's guidance from the council pavilion, harmonic harvest chimes |
+| **$U_4$** | **`membrane_ui`** | `WaterClockStack` (MCard UI), `CatchDropTrigger` ($<100\text{ms}$), `ThermodynamicGauge` | Bamboo measurement station, serene reservoir basin |
+| **$U_5$** | **`meta_gamma`** | `GASingFlowState` (Easy, Fun, Enjoyable), `EpistemicFitness`, `KenoticEmptySchema` | Calm mindfulness of the master puppeteer (*Dalang*), empty cup awaiting tea |
 
 To execute and verify the Chapter 01 Type Lattice in any supported language:
 ```bash
-# Indonesian (Default)
+# Indonesian (id)
 node chapters/01_The_Value_of_Counting/type_lattice.js id
 
-# English
+# Sanskrit (sa)
+node chapters/01_The_Value_of_Counting/type_lattice.js sa
+
+# English (en)
 node chapters/01_The_Value_of_Counting/type_lattice.js en
 
-# Orthodox Chinese
+# Orthodox Chinese (zh-TW)
 node chapters/01_The_Value_of_Counting/type_lattice.js zh-TW
 ```
 

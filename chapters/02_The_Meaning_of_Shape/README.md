@@ -15,8 +15,8 @@ liberal_art: Quadrivium-Geometry
 
 > *"Space is not empty; it is the relational canvas where boundaries define meaning, ownership, and sovereignty."*
 
-> 🇮🇩 **Panduan Awal untuk Pembelajar Pemula Indonesia**:  
-> *Selamat datang di Bab 02! Jika di Bab 01 kita belajar menghitung butir tetesan air dan beras (Aritmatika), di Bab 02 ini kita melangkah ke tahap berikutnya: **Geometri (Bentuk Ruang)**. Tanpa batas, hasil panen yang kita hitung akan tersapu banjir atau dicuri orang. Melalui kearifan lokal **Pematang Sawah Subak** dan pagar bambu pekarangan gotong royong, kita akan mempelajari bagaimana garis batas tertutup menciptakan ruang suaka yang aman dan berdaulat. Dengan metode **GASing (Gampang, Asyik, Menyenangkan)**, Anda akan melihat bahwa konsep topologi dan matematika modern sesungguhnya berakar dari cara leluhur kita menjaga tanah air mereka!*
+> **Beginner's Orientation**:  
+> *Welcome to Chapter 02! While Chapter 01 explored discrete counting of water droplets and grains (Arithmetic), Chapter 02 advances to the next foundational domain: **Geometry (Spatial Form)**. Without boundaries, counted assets remain vulnerable to ambient dissipation and loss. Rooted in the timeless wisdom of terraced field berms (*Subak*) and communal fencing, we study how closed boundary loops establish secure, sovereign sanctuary. Through the **GASing** methodology (Easy, Fun, Enjoyable), learners discover that modern topology and differential geometry originate from the basic human intuition of safeguarding what is sacred and valuable.*
 
 🔬 **Logical Depth**: Level 2 ($WKL_0$ — Weak Kőnig's Lemma / Compactness / Boundary Enclosure)  
 📐 **CLM Coordinates**: $X$: Rhetoric (Value/Why) $\times$ $Y$: Geometry (Boundary/Relation) $\times$ $Z$: [Spec + Impl + Exp]  
@@ -44,24 +44,24 @@ flowchart LR
 
 ---
 
-### 1.1 Pendekatan GASing Nusantara: Batas Ruang dari Titik Nol
+### 1.1 The GASing Pedagogical Approach: Spatial Boundaries from Ground Zero
 
-Sebelum menyelami formalisme topologi dan kalkulus kurvatur, mari kita rasakan esensi bentuk dan batas ruang melalui tiga pilar **GASing**:
+Before delving into formal topology and curvature calculus, we explore the physical intuition of form and spatial boundaries through the three pillars of **GASing**:
 
-* 💡 **GAMPANG (Easy — Konsep Nyata & Intuitif)**:
-  * **Apa itu Bentuk & Batas?** Bentuk bukanlah sekadar gambar di atas kertas; bentuk adalah **pematang yang memisahkan milik kita dari kekacauan luar**.
-  * Bayangkan sawah terasering di lereng perbukitan Bali atau Jawa. Jika tanah dibiarkan rata tanpa pematang (*galengan/pematang sawah*), air irigasi yang dialirkan dari hulu gunung akan mengalir liar, hanyut ke jurang, dan mengikis tanah subur. Namun ketika para petani menancapkan patok-patok kayu lalu menimbun tanah liat menjadi lingkaran pematang yang rapat: *Air tertahan tenang di petak sawah, benih padi tumbuh subur, dan lumpur berharga tidak hilang!*
-  * Itulah asal mula dari semua geometri di alam semesta: **menancapkan titik-titik acuan untuk mengurung dan melindungi apa yang berharga**.
+* 💡 **EASY (Gampang — Concrete & Intuitive Concepts)**:
+  * **What is Form and Boundary?** A geometric shape is not merely an abstract drawing on paper; it is a **functional perimeter separating internal sovereignty from external chaos**.
+  * Consider terraced rice fields across the hillsides of Bali or Java. If left flat without raised earthen berms (*galengan* / *pematang sawah*), irrigation water channeled from mountain springs rushes wildly down the ravines, eroding fertile topsoil. But when farmers drive wooden stakes and pack clay into an unbroken closed berm loop: *water settles serenely across the terrace, rice seedlings flourish, and precious nutrients remain contained.*
+  * This is the origin of all spatial geometry: **establishing reference vertices to enclose and protect what is valuable**.
 
-* 🎮 **ASYIK (Fun — Bermain dengan Ritme & Umpan Balik Langsung)**:
-  * Jangan hanya membayangkan teori—mainkan langsung! Buka simulator web kami di [`MCard_Cell_Wall/index.html`](MCard_Cell_Wall/index.html).
-  * Di sana, Anda berperan sebagai juru ukur desa. Klik pada kanvas untuk menancapkan patok-patok batas keliling pekarangan.
-  * Rasakan keasyikannya: setiap kali patok ditancapkan, garis pematang bercahaya biru neon akan tersambung. Tekan tombol **Kunci Keliling (2π)**, dan dengarkan suara genta/gong yang berdentang menandakan pematang tertutup sempurna ($360^\circ$). Seketika itu juga, kubah pelindung hijau emerald menyala, dan lumbung token Anda 100% terlindung dari badai panas luar!
+* 🎮 **FUN (Asyik — Active Play with Immediate Multimodal Feedback)**:
+  * Rather than passively absorbing theorems, learners interact directly with the simulation: open [`MCard_Cell_Wall/index.html`](MCard_Cell_Wall/index.html).
+  * The user acts as a village surveyor, clicking on the canvas to place boundary vertices around an exposed perimeter.
+  * Experience the tactile progression: each placed vertex extends a glowing cyan boundary line. Clicking **"Close Perimeter (2π)"** plays a resonant ceremonial gong confirming complete $360^\circ$ closure. Instantly, an emerald sanctuary shield activates, deflecting external thermal shear and protecting the token vault with zero leakage!
 
-* 🌺 **MENYENANGKAN (Enjoyable — Makna Luhur, Kedaulatan, & Gotong Royong)**:
-  * **Mengapa Batas Ruang itu Membawa Kedamaian?** *"Pagar yang kokoh dan adil menciptakan tetangga yang rukun."*
-  * Batas bukanlah tembok pemisah angkuh yang mengisolasi diri, melainkan instrumen **Kedaulatan Ruang dan Kepastian Hak**. Dalam tradisi Nusantara, pemasangan patok batas tanah desa selalu dilakukan secara gotong royong dengan saksi para tetua adat. Ketika batas disepakati secara transparan dan diverifikasi secara matematis, tidak ada ruang bagi sengketa dan keserakahan.
-  * Ketika Anda belajar geometri di Bab ini, Anda sedang mempelajari cara membangun arsitektur digital yang **Aman, Berdaulat, Transparan, dan Membawa Ketenteraman Kolektif**!
+* 🌺 **ENJOYABLE (Menyenangkan — Meaningful Purpose, Sovereignty, & Collaboration)**:
+  * **Why Do Clear Boundaries Foster Peace?** *"Good fences make good neighbors."*
+  * A boundary is not a hostile wall of isolation, but an instrument of **Spatial Sovereignty and Mutual Assurance**. In agrarian traditions, staking village parcel boundaries has always been conducted collaboratively with village elders witnessing every turn. When perimeters are agreed upon transparently and verified mathematically, room for dispute and exploitation evaporates.
+  * Studying geometry in this chapter equips learners to architect digital systems that are **Secure, Sovereign, Transparent, and Grounded in Collective Trust**!
 
 ---
 
@@ -101,10 +101,10 @@ Following the core physics of the Brain Factory, spatial transformations are gov
 
 $$\{P\} \quad C \quad \{Q\}$$
 
-> 💡 **Intuitif Pemula — Tiga Langkah Pasti (Hoare Triple)**:
-> 1. **$\{P\}$ Kondisi Awal (Precondition)**: Tanah lapang masih terbuka lebar, angin panas bertiup kencang, dan hasil panen (token) terancam hilang tersapu badai.
-> 2. **$C$ Perintah / Tindakan (Command)**: Juru ukur menancapkan patok-patok batas dan menyambungkannya menjadi lingkaran tertutup $360^\circ$ (**Dinding Sel Topografi**).
-> 3. **$\{Q\}$ Hasil Akhir (Postcondition)**: Tercipta suaka yang sah dan berdaulat. Token tersimpan aman di lumbung, dan sertifikat batas resmi diterbitkan dalam kartu memori spasial (**Spatial MCard**)!
+> 💡 **Beginner's Intuition — Three Verifiable Steps (Hoare Triple)**:
+> 1. **$\{P\}$ Precondition**: An open expanse exposed to thermal shear winds, where unshielded tokens risk environmental dissipation.
+> 2. **$C$ Command**: The surveyor places boundary vertices and connects them into a closed $360^\circ$ perimeter (**Topographic Cell Wall**).
+> 3. **$\{Q\}$ Postcondition**: A certified sovereign sanctuary is established. Tokens are safely sheltered in the vault, and an official spatial boundary receipt is minted as a **Spatial MCard**!
 
 For **Station 02 (The Blueprint Station)**:
 
@@ -157,14 +157,14 @@ Chapter 02 is organized as an authenticated cube in the Cubical Logic Model:
 
 Chapter 02 is formally structured into six stratified universe levels via the `clm-kernel` npm package:
 
-| Stratum | CLM Coordinate | Chapter 02 Types & Invariants | Physical / Nusantara Metaphor |
+| Stratum | CLM Coordinate | Chapter 02 Types & Invariants | Physical / Civilizational Metaphor |
 |:---|:---|:---|:---|
-| **$U_0$** | **`mcard_cas`** | `CoordinateVertex` ($(x,y) \in \mathbb{R}^2$), `SimplexFacet` (1-simplex line), `SpatialContentId` (CID) | Patok kayu ulin, tali ijuk penanda batas, segel cap tanah adat |
-| **$U_1$** | **`pcard_net`** | `EuclideanDistanceMetric`, `GeodesicPathSegment`, `PerimeterTracerStep`, `KinectDepthProjector` | Langkah kaki juru ukur desa, bentangan tali penarik garis lurus |
-| **$U_2$** | **`vcard_proof`** | `GaussBonnetClosureProof` ($\sum \theta_i = 2\pi$), `IsoperimetricBoundProof` ($Q \le 1$), `JordanCurveContainmentProof` | Pematang Subak melingkar utuh: air tertampung tanpa bocor sedikit pun |
-| **$U_3$** | **`satori_fiber`** | `TopologicalParallaxPulse` (tactile depth), `BoundaryDefectAlert`, `CellEnclosureChime` | Suara genta sesepuh desa, denting gong peresmian batas suaka |
-| **$U_4$** | **`membrane_ui`** | `TopographicCanvasViewport`, `VertexPlacementTrigger`, `CurvatureDefectGauge` | Bale panggung sanggar ukur, papan denah pekarangan warga |
-| **$U_5$** | **`loop_gamma`** | `SpatialGASingFlowState`, `TopologicalFitness`, `KenoticSpatialVoid` | Keheningan batin ruang kosong (*Kenosis*), ketenteraman tanah berdaulat |
+| **$U_0$** | **`mcard_cas`** | `CoordinateVertex` ($(x,y) \in \mathbb{R}^2$), `SimplexFacet` (1-simplex line), `SpatialContentId` (CID) | Hardwood boundary stakes, palm-fiber surveyor cords, ancestral territory seal |
+| **$U_1$** | **`pcard_net`** | `EuclideanDistanceMetric`, `GeodesicPathSegment`, `PerimeterTracerStep`, `KinectDepthProjector` | Surveyor's pacing strides, taut cord drawing straight geodesic lines |
+| **$U_2$** | **`vcard_proof`** | `GaussBonnetClosureProof` ($\sum \theta_i = 2\pi$), `IsoperimetricBoundProof` ($Q \le 1$), `JordanCurveContainmentProof` | Continuous Subak terrace berm: water held securely with zero leakage |
+| **$U_3$** | **`satori_fiber`** | `TopologicalParallaxPulse` (tactile depth), `BoundaryDefectAlert`, `CellEnclosureChime` | Elder's temple bell, ceremonial gong confirming sanctuary perimeter closure |
+| **$U_4$** | **`membrane_ui`** | `TopographicCanvasViewport`, `VertexPlacementTrigger`, `CurvatureDefectGauge` | Surveyor's pavilion workbench, communal perimeter blueprint map |
+| **$U_5$** | **`loop_gamma`** | `SpatialGASingFlowState`, `TopologicalFitness`, `KenoticSpatialVoid` | Contemplative calm of bounded open space (*Kenosis*), tranquility of sovereign land |
 
 ---
 

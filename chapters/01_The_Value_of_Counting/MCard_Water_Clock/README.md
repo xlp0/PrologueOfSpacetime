@@ -93,27 +93,28 @@ No changes to `water_clock.js`, physics simulation, or audio synthesizers are re
 
 ---
 
-## 3. Pedagogical Mechanics & GASing Gameplay
+## 4. Pedagogical Mechanics & GASing Gameplay
 
-* **Laminar Resonance ($\Delta t \in [500\text{ms}, 1500\text{ms}]$)**: Clicking in rhythm with the droplet formation consumes minimal energy ($-5\%$ per click) and stabilizes entropy ($\Delta H < 0$).
+* **Laminar Resonance ($\Delta t \in [500\text{ms}, 1500\text{ms}]$)**: Clicking in rhythm with droplet formation consumes minimal energy ($-5\%$ per click) and stabilizes entropy ($\Delta H < 0$).
 * **Turbulent Friction ($\Delta t < 200\text{ms}$)**: Clicking too rapidly creates friction, consuming $20\%$ energy per click and generating $+15\%$ heat, simulating sensor saturation and cognitive burnout.
 * **Under-Sampling ($\Delta t > 2000\text{ms}$)**: Clicking too slowly causes the bamboo reservoir to overflow unmeasured.
 * **Failure State**: When energy hits $0\%$ or entropy exceeds $50\%$, the Demon overheats, representing the collapse of local observational sovereignty into chaotic noise.
 
 ---
 
-## 4. 🇮🇩 Panduan Bermain GASing untuk Pemula (Gampang, Asyik, Menyenangkan)
+## 5. Beginner's GASing Gameplay Guide (Easy, Fun, Enjoyable)
 
-1. **Gampang Dimulai**:
-   * Buka berkas `index.html` langsung di peramban favorit Anda (Chrome, Safari, Firefox). Tanpa perlu instalasi rumit!
-   * Klik tombol **"Mulai Aliran / Start Flow"**.
-2. **Asyik Dimainkan**:
-   * Perhatikan animasi tetesan air dari pancuran bambu ke wadah penampung.
-   * Setiap kali tetesan terbentuk, klik tombol **"Tangkap Tetesan / Catch Drop"** untuk mencatat 1 hitungan (*MCard*).
-   * **Dengarkan Suaranya**: Simulator dilengkapi sintesis suara Web Audio:
-     * 💧 Denting renyah tetesan air (*plink*) saat Anda memencet dalam ritme tenang (*laminar*).
-     * 🔔 Denting gamelan merdu saat Anda mencapai kelipatan 10 tetesan!
-     * ♨️ Desisan uap panas jika Anda memencet terlalu cepat membabi-buta (*turbulent friction*).
-3. **Menyenangkan Diresapi**:
-   * Amati indikator termometer Entropi dan Energi.
-   * Menemukan tempo yang tepat mengajarkan Anda seni **ketenangan kognitif** (*Flow State*): tidak panik, tidak lamban, tetapi mengalir selaras dengan alam semesta. Tetesan yang Anda kumpulkan di sini adalah modal dasar yang kelak menjadi token energi di Bab 05!
+1. **Easy to Start (*Gampang*)**:
+   * Open `index.html` directly in any modern web browser (Chrome, Safari, Firefox). No complex dependencies or installation steps required!
+   * Click the **"Start Flow"** button.
+2. **Fun to Play (*Asyik*)**:
+   * Observe the water droplet accumulation animation flowing from the bamboo spout into the reservoir.
+   * Each time a droplet forms, click the **"Catch Drop"** button to record one discrete count (*MCard*).
+   * **Listen to the Synthesized Audio**: The simulator incorporates real-time Web Audio API synthesis:
+     * 💧 A crisp water droplet *plink* when clicked within a calm, resonant rhythm (*laminar* flow).
+     * 🔔 A resonant gamelan chime upon reaching multiples of 10 droplets!
+     * ♨️ A steamy hiss if clicking too rapidly (*turbulent friction*).
+3. **Enjoyable Mastery (*Menyenangkan*)**:
+   * Monitor the Entropy and Energy telemetry gauges.
+   * Finding the steady tempo teaches the art of **cognitive flow state**: neither frantic nor sluggish, flowing in harmony with physical rate limits. The droplets collected here serve as foundational accounting records that evolve into energy tokens in Chapter 05!
+

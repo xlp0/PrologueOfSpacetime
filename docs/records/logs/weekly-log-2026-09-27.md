@@ -266,5 +266,15 @@ liberal_art: Quadrivium-Music
   - Ran `node chapters/01_The_Value_of_Counting/MCard_Water_Clock/water_clock.js [id|sa|en|zh-TW]` — all 4 passed with complete thermodynamic simulation output.
   - Ran `python3 src/civilizational_sprint_engine.py` — all 12 sprints certified passing.
 
-
-
+## [2026-09-27] rule | Enforce Strict Monolingual English READMEs Across All Activities
+- **Objective:** Establish the inviolable architectural rule that all `README.md` files must be written strictly and exclusively in English (no mixing Indonesian or other languages into README prose), and update affected README files across Chapter 01 and Chapter 02.
+- **Actions Taken:**
+  1. Updated `AGENTS.md` (Section 4.6): Added explicit schema rule requiring all `README.md` files across the repository to be written exclusively in English, delegating multilingual content to decoupled external repositories (`locales.json`, `type_lattice_locales.json`).
+  2. Fixed `chapters/01_The_Value_of_Counting/MCard_Water_Clock/README.md`: Corrected section numbering, translated Section 5 (Beginner's GASing Gameplay Guide) completely into English, eliminating Indonesian text blocks.
+  3. Fixed `chapters/02_The_Meaning_of_Shape/README.md`: Translated beginner orientation, Section 1.1 (GASing approach), Section 3 Hoare triple intuition, and Section 4.1 stratum metaphor table from Indonesian to English.
+  4. Fixed `chapters/01_The_Value_of_Counting/README.md`: Translated beginner orientation, Section 1.1 (GASing approach), Section 3 Hoare triple intuition, Section 4.1 stratum metaphor table, and CLI execution commands from Indonesian to English.
+- **Verification:**
+  - Grep audit confirmed zero non-English narrative prose remaining in active `README.md` files.
+  - Ran `node chapters/01_The_Value_of_Counting/type_lattice.js id` — 100% stratification, valid MCard hash.
+  - Ran `node chapters/02_The_Meaning_of_Shape/type_lattice.js id` — 100% stratification, valid MCard hash.
+  - Ran `python3 src/civilizational_sprint_engine.py` — 100% pass across all 12 sprints.
