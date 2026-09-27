@@ -224,75 +224,75 @@
   "sa": {
     "meta": {
       "code": "sa",
-      "name": "Sanskerta Bali (संस्कृतम्)",
+      "name": "संस्कृतम्",
       "flag": "🕉️"
     },
     "header": {
-      "mainTitle": "MCard Jala-Ghaṭikā: Prathama-Sthānam (जलघटिका)",
-      "subtitle": "\"Gaṇanaṁ nāma dṛk-karma yat prāṇa-vyayaṁ kṣamate.\"",
-      "breadcrumb": "KĀLA-VIŚVA-PRĀRAMBHAḤ: CH 01",
-      "stationBadge": "PRATHAMA-STHĀNAM (MCARD KOṢAḤ)",
-      "depthBadge": "RCA₀ PRATHAMA-SĪMĀ"
+      "mainTitle": "MCard जलघटिका : प्रथम-स्थानम्",
+      "subtitle": "“गणना नाम दृक्-कर्म यत् प्राण-व्ययं क्षमते।”",
+      "breadcrumb": "काल-विश्व-प्रारम्भः : प्रथमाध्यायः",
+      "stationBadge": "प्रथम-स्थानम् (MCARD कोशः)",
+      "depthBadge": "RCA₀ प्रथम-सीमा"
     },
     "spigot": {
-      "banner": "[═══ VEṆU-DHĀRĀ AVYĀKṚTA-PRAVĀHAḤ ═══]",
-      "reservoirLabel": "Veṇu-Droṇyāṁ Jala-Sañcayaḥ:"
+      "banner": "[═══ वेणु-धारा अव्याकृत-प्रवाहः ═══]",
+      "reservoirLabel": "वेणु-द्रोण्यां जल-संचयः :"
     },
     "counter": {
-      "title": "Gaṇita-Jala-Bindavaḥ (MCard-Lekhyam)",
-      "cidPrefix": "Vastu-Mudrā CID"
+      "title": "गणिताः जल-बिन्दवः (MCard-लेख्यम्)",
+      "cidPrefix": "वस्तु-मुद्रा CID"
     },
     "meters": {
-      "energyLabel": "Draṣṭṛ-Prāṇa-Śaktiḥ (E)",
-      "entropyLabel": "Tāpa-Kṣobha-Vikāraḥ (H)"
+      "energyLabel": "द्रष्टृ-प्राण-शक्तिः (E)",
+      "entropyLabel": "ताप-क्षोभ-विकारः (H)"
     },
     "status": {
-      "laminar": "💧 Śānta-Pravāhaḥ (Samāhitaḥ & Anukūlaḥ — ΔH < 0)",
-      "turbulent": "⚡ Kṣubhita-Pravāhaḥ (Ati-Tīvraḥ! Tāpa-Gharṣaṇaḥ)",
-      "overheat": "⚠️ Yantra-Dāhaḥ: Pramāṇa-Kṣobha-Visphoṭaḥ!"
+      "laminar": "💧 शान्त-प्रवाहः (समाहितः अनुकूलश्च — ΔH < 0)",
+      "turbulent": "⚡ क्षुभित-प्रवाहः (अति-तीव्रः! ताप-घर्षणः)",
+      "overheat": "⚠️ यन्त्र-दाहः : प्रमाण-क्षोभ-विस्फोटः!"
     },
     "buttons": {
-      "startFlow": "Pravāhaṁ Pravartaya",
-      "stopFlow": "Pravāhaṁ Nivartaya",
-      "catchDrop": "💧 Binduṁ Gṛhāṇa",
-      "reset": "Śamita-Punaḥ-Pratiṣṭhā"
+      "startFlow": "प्रवाहं प्रवर्तय",
+      "stopFlow": "प्रवाहं निवर्तय",
+      "catchDrop": "💧 बिन्दुं गृहाण",
+      "reset": "शमित-पुनः-प्रतिष्ठा"
     },
     "gasingHint": {
-      "default": "💡 <strong>GASing Sūtra (Sukha-Mūlam)</strong>: 'Pravāhaṁ Pravartaya' spṛśitvā veṇu-binduṁ paśya. Pūrṇa-bindau 'Binduṁ Gṛhāṇa' spṛśa. Samāhita-tālena (~1 kṣaṇe) cala, tāpa-kṣobho mā bhūt!",
-      "laminar": "🌟 <strong>Śreṣṭha-Layaḥ!</strong>: Layaḥ samyak sthitaḥ. Śānta-pravāhena kṣobha-praśamanaṁ bhavati!",
-      "fast": "⚠️ <strong>Gharṣaṇa-Cetanā!</strong>: Ati-drutaṁ spṛśasi! Landauer-nyāyena: jñāna-mārjane prāṇa-dāho jāyate.",
-      "slow": "🌊 <strong>Jala-Pramādaḥ!</strong>: Binduḥ agaṇita eva patitaḥ. Laye manaḥ samādhatsva.",
-      "dead": "🔥 <strong>Yantra-Mūrcchā!</strong>: Prāṇaḥ kṣīṇaḥ. 'Śamita-Punaḥ-Pratiṣṭhā' spṛśitvā punar-ujjīvaya."
+      "default": "💡 <strong>GASing सूत्रम् (सुख-मूलम्)</strong>: 'प्रवाहं प्रवर्तय' संस्पृश्य वेणु-बिन्दुं पश्य। पूर्ण-बिन्दौ 'बिन्दुं गृहाण' स्पृश। समाहित-तालेन (~१ क्षणे) चल, ताप-क्षोभो मा भूत्!",
+      "laminar": "🌟 <strong>श्रेष्ठ-लयः!</strong>: लयः सम्यक् स्थितः। शान्त-प्रवाहेन क्षोभ-प्रशमनं भवति!",
+      "fast": "⚠️ <strong>घर्षण-चेतना!</strong>: अति-द्रुतं स्पृशसि! लाण्डौवर-न्यायेन: ज्ञान-मार्जने प्राण-दाहो जायते।",
+      "slow": "🌊 <strong>जल-प्रमादः!</strong>: बिन्दुः अगणित एव पतितः। लये मनः समाधत्स्व।",
+      "dead": "🔥 <strong>यन्त्र-मूर्च्छा!</strong>: प्राणः क्षीणः। 'शमित-पुनः-प्रतिष्ठा' संस्पृश्य पुनरुज्जीवय।"
     },
     "logs": {
-      "title": "MCARD AKṢAYA-LEKHYAM (IMMUTABLE LOG):",
-      "entriesCount": "{count} lekhyāni",
-      "init": "> Yantraṁ samāhitam. Jala-pravāhaḥ pratīkṣyate...",
-      "flowStart": "> Veṇu-dvāraṁ muktam. Avyākṛta-jala-dhārā pravahati...",
-      "flowStop": "> Dvāraṁ baddham. Pravāhaḥ sthagitaḥ.",
-      "reset": "> Yantraṁ śamitam. Prāṇaḥ 100% punar-āpannaḥ, kṣobhaḥ śūnyaḥ kṛtaḥ.",
-      "milestone": "🎉 [MAHOTSAVAḤ] {count} Bindavaḥ Pramāṇīkṛtāḥ! Gamelan-Nāda-Śāntiḥ pravṛttā.",
+      "title": "MCARD अक्षय-लेख्यम् :",
+      "entriesCount": "{count} लेख्यानि",
+      "init": "> यन्त्रं समाहितम्। जल-प्रवाहः प्रतीक्ष्यते...",
+      "flowStart": "> वेणु-द्वारं मुक्तम्। अव्याकृत-जल-धारा प्रवहति...",
+      "flowStop": "> द्वारं बद्धम्। प्रवाहः स्थगितः।",
+      "reset": "> यन्त्रं शमितम्। प्राणः १००% पुनरापन्नः, क्षोभः शून्यः कृतः।",
+      "milestone": "🎉 [महोत्सवः] {count} बिन्दवः प्रमाणीकृताः! गामिलान्-नाद-शान्तिः प्रवृत्ता।",
       "mcardTick": "[MCard #{count}] Δt: {delta}ms | E: {energy}% | H: {entropy}% | CID: {cid}",
-      "criticalOverheat": "💥 [SAṄKAṬA-GHOṢAṆĀ] Draṣṭṛ-kṣobhaḥ parāṁ kāṣṭhām agāt. Pravāhaḥ sthambitaḥ."
+      "criticalOverheat": "💥 [संकट-घोषणा] द्रष्टृ-क्षोभः परां काष्ठामगात्। प्रवाहः स्तम्भितः।"
     },
     "demon": {
-      "elderTitle": "--- PURA-VṚDDHA-VĀKYAM (Nasihat Tetua Desa) ---",
-      "elderRoar": "Vṛddhaḥ: \"Śṛṇu. Tvam jalasya garjanaṁ śṛṇoṣi kim? Sa eva avyākṛta-pravāhaḥ. Tam gaṇayituṁ kṣaṇaṁ virāmaya.\"",
-      "elderWarn": "Vṛddhaḥ: \"Kintu smara: Dṛṣṭiḥ prāṇaṁ yācate. Ati-drutaṁ dahyase, ati-mandaṁ nimajjasi!\"",
-      "actionTriggered": "Karma: Dṛk-Spandaḥ Pravartitaḥ (Antaram: {delta}ms)",
-      "feedbackSound": "Prati-dhvaniḥ: *Jala-Bindu-Lahariḥ* ~ *Gamelan-Nāda-Śāntiḥ*",
-      "overheatAlert": "*** SAṄKAṬA-CETANĀ: Draṣṭṛ-Yantra-Dāhaḥ ***",
-      "elderSurrender": "Vṛddhaḥ: \"Tvaṁ kṣobhāya samarpitaḥ. Nadī sarvaṁ plāvayati.\"",
-      "gateCollapse": "Vṛttāntaḥ: Draṣṭṛ-dvāraṁ dāha-bhāreṇa bhinnam."
+      "elderTitle": "--- पुर-वृद्ध-वाक्यम् ---",
+      "elderRoar": "वृद्धः : “शृणु। त्वं जलस्य गर्जनं शृणोषि किम्? स एव अव्याकृत-प्रवाहः। तं गणयितुं क्षणं विरामय।”",
+      "elderWarn": "वृद्धः : “किन्तु स्मर : दृष्टिः प्राणं याचते। अति-द्रुतं दह्यसे, अति-मन्दं निमज्जसि!”",
+      "actionTriggered": "कर्म : दृक्-स्पन्दः प्रवर्तितः (अन्तरम्: {delta}ms)",
+      "feedbackSound": "प्रतिध्वनिः : *जल-बिन्दु-लहरी* ~ *गामिलान्-नाद-शान्तिः*",
+      "overheatAlert": "*** संकट-चेतना : द्रष्टृ-यन्त्र-दाहः ***",
+      "elderSurrender": "वृद्धः : “त्वं क्षोभाय समर्पितः। नदी सर्वं प्लावयति।”",
+      "gateCollapse": "वृत्तान्तः : द्रष्टृ-द्वारं दाह-भारेण भिन्नम्।"
     },
     "typeLattice": {
-      "title": "CLM Tattva-Jālakam (U0-U5)",
-      "u0": "U0 (MCard CAS): Bindu-Paramāṇuḥ & Prākṛtika-Saṅkhyā (ℕ)",
-      "u1": "U1 (PCard CPN): Jala-Ghaṭikā-Spandaḥ & Peano-Padaḥ",
-      "u2": "U2 (VCard Proof): Śānta-Dhārā-Pramāṇaṁ & Landauer-Sūktam",
-      "u3": "U3 (Satori): Vṛddha-Vākyam & Bindu-Nāda-Spandaḥ",
-      "u4": "U4 (Membrane): Jala-Ghaṭikā-Maṇḍapam & Bindu-Grahaṇam",
-      "u5": "U5 (Loop Γ): GASing Sahaja-Samādhi & Śūnyatā-Pātram"
+      "title": "CLM तत्त्व-जालकम् (U0-U5)",
+      "u0": "U0 (MCard CAS): बिन्दु-परमाणुः & प्राकृतिक-संख्या (ℕ)",
+      "u1": "U1 (PCard CPN): जलघटिका-स्पन्दः & पीयानो-पदः",
+      "u2": "U2 (VCard Proof): शान्त-धारा-प्रमाणं & लाण्डौवर-सूक्तम्",
+      "u3": "U3 (Satori): वृद्ध-वाक्यं & बिन्दु-नाद-स्पन्दः",
+      "u4": "U4 (Membrane): जलघटिका-मण्डपं & बिन्दु-ग्रहणम्",
+      "u5": "U5 (Loop Γ): GASing सहज-समाधिः & शून्यता-पात्रम्"
     }
   }
 }

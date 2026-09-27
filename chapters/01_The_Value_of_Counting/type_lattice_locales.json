@@ -428,140 +428,140 @@
   "sa": {
     "meta": {
       "chapter": "01",
-      "chapterTitle": "Gaṇana-Mūlyam (गणना-मूल्यम्)",
-      "latticeTitle": "CLM Jāla-Padārtha-Mātṛkā (Type Lattice): Prathama-Adhyāyaḥ",
-      "language": "Sanskerta Bali (संस्कृतम्)",
+      "chapterTitle": "गणना-मूल्यम्",
+      "latticeTitle": "CLM तत्त्व-जालक-मातृका : प्रथमाध्यायः",
+      "language": "संस्कृतम्",
       "flag": "🕉️"
     },
     "strata": {
       "U0": {
-        "name": "Viṣaya-Nirūpita-Sthita-Saṅgrahaḥ (MCard CAS — वस्तु-लक्षण-संग्रहः)",
-        "description": "Anapavartyam paramāṇu-tattvam; sarva-kriyābhyaḥ pūrvam nityatayā vidyamāna-siddhiḥ (Lapisan data atomik tanpa reduksi; kebenaran hakiki sebelum tindakan).",
+        "name": "विषय-निरूपित-स्थित-संग्रहः (MCard CAS)",
+        "description": "अनपवर्त्यं परमाणु-तत्त्वम्; सर्व-क्रियाभ्यः पूर्वं नित्यतया विद्यमान-वस्तु-सिद्धिः।",
         "types": {
           "DropletAtom": {
-            "name": "Jala-Bindu-Paramāṇuḥ (जल-बिन्दु-परमाणुः)",
-            "desc": "Veṇu-nāḍa-pravāhāt pṛthag-bhūto vinduḥ; trailokye prathama-vyakta-pārthiva-ghaṭanā (Satu tetes air murni terpisah dari pancuran bambu; kejadian diskrit pertama).",
-            "metaphor": "Tāmbūla-patre patitaḥ prātaḥ-śiśira-binduḥ, śāly-agra-kaṇo vā (Setetes embun fajar di atas daun talas atau sebutir gabah padi di tampah bambu)."
+            "name": "जल-बिन्दु-परमाणुः",
+            "desc": "वेणु-नाल-प्रवाहात् पृथग्-भूतो विन्दुः; त्रैलोक्ये प्रथम-व्यक्त-पार्थिव-घटना।",
+            "metaphor": "ताम्बूल-पत्रे पतितः प्रातः-शिशिर-बिन्दुः, शाल्य-अग्र-कणो वा।"
           },
           "NaturalNumber": {
-            "name": "Prākṛtika-Saṅkhyā (प्राकृतिक-संख्या — ℕ)",
-            "desc": "Śūnyāt samutpannā krama-vṛddhiḥ; nityam anatikramaṇīyā gaṇanā (Bilangan asli yang tumbuh teratur dari titik hening Śūnya).",
-            "metaphor": "Śūnya-kumbhe ekaika-guṭikā-prakṣepaḥ (Menaruh batu kerikil suci satu per satu ke dalam kendi persembahan)."
+            "name": "प्राकृतिक-संख्या (ℕ)",
+            "desc": "शून्यात् समुत्पन्ना क्रम-वृद्धिः; नित्यम् अनतिक्रमणीया गणना।",
+            "metaphor": "शून्य-कुम्भे एकैक-गुटिका-प्रक्षेपः।"
           },
           "ContentId": {
-            "name": "Vastu-Lakṣaṇa-Mudrā (CID — वस्तु-लक्षण-मुद्रा)",
-            "desc": "Abhedyā gupta-mudrā (SHA-256/BLAKE3); śāsana-lekhye a-parivartanīyā dṛḍha-pramāṇa-siddhiḥ (Segel tanda bukti kriptografis tak terhapuskan prasasti desa).",
-            "metaphor": "Purā-rājñām a-khaṇḍitā tāmra-śāsana-mudrā (Cap lak stempel tembaga raja pada prasasti lempengan tembaga)."
+            "name": "वस्तु-लक्षण-मुद्रा (CID)",
+            "desc": "अभ्द्येया गुप्ता मुद्रा (SHA-256/BLAKE3); शासन-लेख्ये अपरिवर्तनीया दृढ-प्रमाण-सिद्धिः।",
+            "metaphor": "पुरा-राज्ञां ताम्र-पत्रे उत्कीर्णा अपरिवर्तनीया मुद्रा।"
           },
           "ThermalQuantum": {
-            "name": "Landauer-Tāpa-Mātrā (तपस्-मात्रा)",
-            "desc": "Bindu-grahaṇe lekhane vā kṣayīyamānā prāṇa-śaktiḥ; tāpa-vikāra-lakṣaṇam (Satuan energi termal dan panas Landauer yang dibutuhkan saat mencatat informasi).",
-            "metaphor": "Karmādhikāre svedodbhedo vṛkṣa-chāyāyām (Tetesan keringat hangat kakek pemahat saat mengukir aksara lontar di bawah rindang beringin)."
+            "name": "तपो-मात्रा (Thermal Quantum)",
+            "desc": "बिन्दु-ग्रहणे लेखने वा क्षीयमाणा प्राण-शक्तिः; ताप-विकार-लक्षणम्।",
+            "metaphor": "कर्माधिकारे स्वेदोद्भेदो वृक्ष-छायायाम्।"
           }
         }
       },
       "U1": {
-        "name": "Pariṇāma-Kriyā-Sūtra-Cakram (PCard CPN — परिणाम-क्रिया-चक्रम्)",
-        "desc": "Gatimat-pariṇāma-dhārā; sthiti-bhedāt sthity-antaram prāpayatīti karma-kriyā-sūktiḥ (Rantai perubahan dinamis yang memindahkan satu keadaan laksana cakra karma).",
+        "name": "परिणाम-क्रिया-सूत्र-चक्रम् (PCard CPN)",
+        "desc": "गतिमत्-परिणाम-धारा; स्थिति-भेदात् स्थित्य-अन्तरं प्रापयतीति कर्म-क्रिया-सूक्तिः।",
         "types": {
           "ClepsydraTick": {
-            "name": "Jala-Ghaṭikā-Spandaḥ (जलघटिका-स्पन्दः — ADC)",
-            "desc": "Avirata-jala-dhārāyāḥ spanda-rūpeṇa vibhāgaḥ; prathama-kāla-māpaka-yantram (Pengubah aliran air alami tanpa henti menjadi ketukan waktu diskrit).",
-            "metaphor": "Pūrṇa-jala-veṇu-kāṣṭhasya nimeṣeṇa tūryopari patana-nādaḥ 'Ṭaṅ!' (Dentang bilah bambu jungkit yang penuh lalu membentur batu kali)."
+            "name": "जलघटिका-स्पन्दः (ADC)",
+            "desc": "अविरत-जल-धारायाः स्पन्द-रूपेण विभागः; प्रथम-काल-मापक-यन्त्रम्।",
+            "metaphor": "पूर्ण-जल-वेणु-काष्ठस्य निमेषेण तूर्योपरि पतन-नादः 'टङ्!' इति।"
           },
           "PeanoSuccessor": {
-            "name": "Peano-Anukrama-Padaḥ (अनुक्रम-पदः — Succ)",
-            "desc": "A-vilopena eka-saṅkhyā-vṛddhi-kriyā; padāt padam avikalpena prayāṇam (Melangkah maju tepat satu bilangan tanpa melompati titian).",
-            "metaphor": "Kramikā dīpa-mālāyām ekaikasya dīpasya prajvālanam (Menyalakan deretan dian pelita persembahan satu demi satu tanpa melompat)."
+            "name": "पीयानो-अनुक्रम-पदः (Succ)",
+            "desc": "अविलोपेन एक-संख्या-वृद्धि-क्रिया; पदात् पदम् अविकल्पेन प्रयाणम्।",
+            "metaphor": "क्रमिकायां दीप-मालायां दीपस्य प्रज्वालनम्।"
           },
           "DemonObservation": {
-            "name": "Maxwell-Draṣṭṛ-Saṅkalpaḥ (द्रष्टृ-संकल्पः)",
-            "desc": "Draṣṭuḥ caitanya-kriyā yayā bindor grahaṇam kriyate prāṇa-vyayena (Tindakan sadar pengamat yang menangkap tetesan dengan mempersembahkan prāṇa energi).",
-            "metaphor": "Subak-pālakasya sa-jāgṛtatayā toyālaya-dvāra-rakṣaṇam (Penjaga pintu air Subak yang waspada menjaga keselarasan pembagian air di bendungan)."
+            "name": "माक्सवेल-द्रष्टृ-संकल्पः",
+            "desc": "द्रष्टुः चैतन्य-क्रिया यया बिन्दोः ग्रहणं क्रियते प्राण-व्ययेन।",
+            "metaphor": "सुबक-पालकस्य सजगता तोयालय-द्वार-रक्षणे।"
           }
         }
       },
       "U2": {
-        "name": "Pramāṇa-Sīmā-Pratiṣṭhānam (VCard Proof — प्रमाण-सीमा-प्रतिष्ठानम्)",
-        "desc": "Dharmasya nitya-satyam; sarva-gaṇita-maryādāyā a-lopatā-nirṇayaḥ (Penjaga kebenaran abadi dan batas-batas kekekalan dharma; hukum konservasi semesta).",
+        "name": "प्रमाण-सीमा-प्रतिष्ठानम् (VCard Proof)",
+        "desc": "धर्मस्य नित्य-सत्यम्; सर्व-गणित-मर्यादाया अलोपता-निर्णयः।",
         "types": {
           "LaminarConservationGate": {
-            "name": "Śānta-Dhārā-Pramāṇa-Dvāram (शान्त-धारा-प्रमाणम्)",
-            "desc": "Rhythm-rakṣaṇena tāpa-kṣobha-nirākaraṇam (Gerbang aliran laminer yang meredam gejolak panas dan menjaga kesetimbangan prāṇa).",
-            "metaphor": "Subak-praṇālyām avikṣubhitasya payasaḥ samāna-vibhaktiḥ (Aliran air sawah subak yang tenang merata membelah tanpa riak bergejolak)."
+            "name": "शान्त-धारा-प्रमाण-द्वारम्",
+            "desc": "लय-रक्षणेन ताप-क्षोभ-निराकरणम्।",
+            "metaphor": "सुबक-प्रणाल्याम् अविक्षुभितस्य पयसः समाना विभक्तिः।"
           },
           "LandauerBoundProof": {
-            "name": "Landauer-Maryādā-Sūktam (तपो-मर्यादा-सूक्तम्)",
-            "desc": "Jñāna-grahaṇe tāpa-kṣayeṇa vinā nāsti muktir iti bhautika-dharmasya pramāṇam (Dalil termodinamika bahwa tiada pengetahuan tanpa pengorbanan panas kB T ln 2).",
-            "metaphor": "Homāgnau tilāhūti-dānam; tyāgena vinā phala-prāptir na bhavati (Mempersembahkan sesaji ke dalam api homa; tiada hasil tanpa persembahan suci)."
+            "name": "लाण्डौवर-मर्यादा-सूक्तम्",
+            "desc": "ज्ञान-मार्जने ताप-व्ययेन विना नास्ति मुक्तिरिति भौतिक-धर्मस्य प्रमाणम्।",
+            "metaphor": "होमाग्नौ तिलाहूति-दानम्; त्यागेन विना फल-प्राप्तिर्न भवति।"
           },
           "PacioliDoubleEntryReceipt": {
-            "name": "Yugma-Lekhyā-Pacioli-Pramāṇam (युग्म-लेख्या-प्रमाणम्)",
-            "desc": "Āya-vyaya-samatā-lekhyam; karma-kāṇḍe ṛṇa-dhana-samīkaraṇam (Keseimbangan pembukuan berpasangan; hukum karma phala neraca debit dan kredit seimbang).",
-            "metaphor": "Karma-phala-tulā; yat kṛtam tat phalam avaśyam anveti (Timbangan karma-phala di hadapan Hyang Yamadipati; sebutir perbuatan seimbang dengan buahnya)."
+            "name": "युग्म-लेख्या-पाचोली-प्रमाणम्",
+            "desc": "आय-व्यय-समता-लेख्यम्; कर्म-काण्डे ऋण-धन-समीकरणम्।",
+            "metaphor": "कर्म-फल-तुला; यत् कृतं तत् फलम् अवश्यम् अन्वेति।"
           }
         }
       },
       "U3": {
-        "name": "Saṅgha-Sañcāra-Vāg-Vyavahāraḥ (Satori Speech Acts — वाग्-व्यवहारः)",
-        "desc": "Guhyāt prakāśam prāptaḥ saṅketaḥ; guror upadeśaḥ śiṣyāya vāg-rūpeṇa (Jaringan tutur kata dan sabda luhur dari tetua sangha kepada para cantrik).",
+        "name": "संघ-संचार-वाग्-व्यवहारः (Satori Speech Acts)",
+        "desc": "गुह्यात् प्रकाशं प्राप्तः संकेतह्; गुरोरुपदेशः शिष्याय वाग्-रूपेण।",
         "types": {
           "ElderWarningAct": {
-            "name": "Vṛddha-Śāsana-Vākyam (वृद्ध-शासन-वाक्यम्)",
-            "desc": "Kṣobha-kāle prajñāvato vṛddhasya tarjana-vākyam (Peringatan kasih tetua adat saat pengamat terburu-buru dan memanaskan bejana).",
-            "metaphor": "Śiśoḥ pāṇi-dāhe mātus tvaritā vāk 'Mā kuru!' (Pekikan sang ibu saat tangan si kecil hampir menyentuh bara dupa: 'Eling! Hati-hati!')."
+            "name": "वृद्ध-शासन-वाक्यम्",
+            "desc": "क्षोभ-काले प्रज्ञावतो वृद्धस्य तर्जन-वाक्यम्।",
+            "metaphor": "शिशोः पाणि-दाहे मातुस्त्वरिता वाक् 'मा कुरु!' इति।"
           },
           "AuditoryPulseAct": {
-            "name": "Bindu-Nāda-Spandaḥ (बिन्दु-नाद-स्पन्दः)",
-            "desc": "Bindu-patane śrūyamāṇo laghu-praṇavaḥ; dhyāna-nimagna-cetasā gṛhītaḥ (Gema getaran suara 'tik' tetesan air yang menenangkan batin semadi).",
-            "metaphor": "Pūrṇa-kumbhe patitasya toya-vindor madhuro dhvaniḥ 'Ṭik' (Dentang merdu tetes tirtha ke dalam bejana perunggu)."
+            "name": "बिन्दु-नाद-स्पन्दः",
+            "desc": "बिन्दु-पतने श्रूयमाणो लघु-प्रणवः; ध्यान-निमग्न-चेतसा गृहीतः।",
+            "metaphor": "पूर्ण-कुम्भे पतितस्य तोय-विन्दोर्मधुरो ध्वनिः 'टिक्' इति।"
           },
           "MilestoneChimeAct": {
-            "name": "Daśaka-Gamelan-Ghaṇṭā-Nādaḥ (घण्टा-नादः)",
-            "desc": "Daśa-gaṇanā-pūrtau prāptaḥ pūrṇa-kalyāṇa-nādaḥ (Gamelan suci pengumuman bahwa sepuluh hitungan telah genap).",
-            "metaphor": "Daśa-vāra-parikrama-pūrṇatāyām maṅgala-śaṅkha-dhvaniḥ (Tiupan sangkakala dan genta perunggu saat pradaksina genap putarannya)."
+            "name": "दशक-गामिलान्-घण्टा-नादः",
+            "desc": "दश-गणना-पूर्तौ प्राप्तः पूर्ण-कल्याण-नादः।",
+            "metaphor": "दश-वार-परिक्रमा-पूर्णतायां मङ्गल-शङ्ख-ध्वनिः।"
           }
         }
       },
       "U4": {
-        "name": "Draṣṭṛ-Yantra-Saṅgama-Paṭalam (Membrane UI — यन्त्र-संगम-पटलम्)",
-        "desc": "Nara-yantrayor yoga-dvāram; indriyebhyo gocara-rūpa-kalpanā (Selaput antarmuka yang mempertemukan indra manusia dengan detak mesin).",
+        "name": "द्रष्टृ-यन्त्र-संगम-पटलम् (Membrane UI)",
+        "desc": "नर-यन्त्रयोर् योग-द्वारम्; इन्द्रियेभ्यो गोचर-रूप-कल्पना।",
         "types": {
           "WaterClockStack": {
-            "name": "Jala-Ghaṭikā-MCard-Maṇḍapam (जलघटिका-मण्डपम्)",
-            "desc": "Citrānvita-stambha-paṭalam yatra sarvam karma dṛśyate (Bale panggung MCard tempat segala peristiwa jam air terbentang jelas).",
-            "metaphor": "Vāyaṅ-kulit-vastra-paṭaḥ yatra chāyā-nṛtyam pravartate (Kelir kain layar wayang tempat bayangan tata surya dimainkan)."
+            "name": "जलघटिका-MCard-मण्डपम्",
+            "desc": "चित्रान्वित-स्तम्भ-पटलं यत्र सर्वं कर्म दृश्यते।",
+            "metaphor": "छाया-नाटकस्य वस्त्र-पटो यत्र छाया-नृत्यं प्रवर्तते।"
           },
           "CatchDropTrigger": {
-            "name": "Bindu-Grahaṇa-Kuñcikā (बिन्दु-ग्रहण-कुञ्चिका)",
-            "desc": "Aṅguly-agreṇa sparśa-kriyā yayā karma pravartate (Tombol tangkap tetesan di mana sentuhan jemari memulai siklus semesta).",
-            "metaphor": "Gamelan-vādane reṅkēp-tāḍanam (Pukulan pertama penabuh gamelan pada bilah gangsa)."
+            "name": "बिन्दु-ग्रहण-कुञ्चिका",
+            "desc": "अङ्गुल्य-अग्रेण स्पर्श-क्रिया यया कर्म प्रवर्तते।",
+            "metaphor": "गामिलान्-वादने रेङ्केप्-ताडनम्।"
           },
           "ThermodynamicGauge": {
-            "name": "Prāṇa-Tāpa-Māpakam (प्राण-तपस्-मापकम्)",
-            "desc": "Prāṇa-śaktir tāpa-kṣobhaś ca yayā daṇḍa-mātrayā nirdiśyate (Alat ukur visual daya prana dan gejolak panas Landauer).",
-            "metaphor": "Dīpasya vartir tailasya ca parimāṇa-darpaṇaḥ (Kaca pengukur sisa minyak dan nyala api pelita pelataran)."
+            "name": "प्राण-तपस्-मापकम्",
+            "desc": "प्राण-शक्तिस्ताप-क्षोभश्च यया दण्ड-मात्रया निर्दिश्यते।",
+            "metaphor": "दीपस्य वर्तिस्तैलस्य च परिमाण-दर्पणः।"
           }
         }
       },
       "U5": {
-        "name": "Parama-Saṁvid-Parikramaḥ (Loop Γ — संविद्-परिक्रमः)",
-        "desc": "Ananta-jñāna-parivartaḥ; anubhavāt satyam, satyāt punaḥ śuddham jñānam iti nitya-parikramā (Lingkar meta-kognisi pembelajaran tanpa henti dari pengalaman menuju pencerahan).",
+        "name": "परम-संविद्-परिक्रमः (Loop Γ)",
+        "desc": "अनन्त-ज्ञान-परिवर्तः; अनुभवात् सत्यं, सत्यात् पुनः शुद्धं ज्ञानमिति नित्य-परिक्रमा।",
         "types": {
           "GASingFlowState": {
-            "name": "GASing Sahaja-Samādhi (सहज-समाधि — Gampang, Asyik, Menyenangkan)",
-            "desc": "Ayatna-siddhir ānando viśrāntiś ca; jala-dhārayā saha aikya-bhāvaḥ (Keadaan hening dan mengalir leluasa di mana belajar terasa gampang, asyik, dan menyenangkan).",
-            "metaphor": "Gaṅgā-pravāhe su-sukham taraṇam (Berenang santai tanpa melawan arus sungai yang jernih)."
+            "name": "GASing सहज-समाधिः",
+            "desc": "अयत्न-सिद्धिर् आनन्दो विश्रान्तिश्च; जल-धारया सहैक्य-भावः।",
+            "metaphor": "गङ्गा-प्रवाहे सु-सुखं तरणम्।"
           },
           "EpistemicFitness": {
-            "name": "Pramāṇa-Śuddhiḥ (प्रमाण-शुद्धिः)",
-            "desc": "Pratyakṣa-dharmasya nirmalatā; jñānasya yathārthatā-mānam (Ketepatan epistemik sejauh mana persepsi selaras dengan hukum alam nyata).",
-            "metaphor": "Kāñcanasya nikaṣa-pāṣāṇe śuddhatā-parīkṣā (Menggosok emas murni pada batu uji untuk memastikan kemurnian karatnya)."
+            "name": "प्रमाण-शुद्धिः",
+            "desc": "प्रत्यक्ष-धर्मस्य निर्मलता; ज्ञानस्य यथार्थता-मानम्।",
+            "metaphor": "काञ्चनस्य निकष-पाषाणे शुद्धता-परीक्षा।"
           },
           "KenoticEmptySchema": {
-            "name": "Śūnyatā-Pātram (शून्यता-पात्रम्)",
-            "desc": "Sarva-grahaṇa-śakti-yutam a-parigṛhītam śūnya-rūpam (Wadah kosong murni yang siap menampung pengetahuan semesta tanpa prasangka).",
-            "metaphor": "Śūnya-kumbhaḥ pūrṇasya vāridhasya grahaṇāya samarthaḥ (Kendi kosong bersih yang siap menadah limpahan air tirtha amerta suci)."
+            "name": "शून्यता-पात्रम्",
+            "desc": "सर्व-ग्रहण-शक्ति-युक्तम् अपरिगृहीतं शून्य-रूपम्।",
+            "metaphor": "शून्य-कुम्भः पूर्णस्य वारिधो ग्रहणाय समर्थः।"
           }
         }
       }
