@@ -79,7 +79,8 @@ class MaxwellsDemon {
 }
 
 // Simulation of User Interaction aka "Vibe Coding"
-if (require.main === module) {
+const isMain = process.argv[1] && process.argv[1].endsWith('water_clock.js');
+if (isMain) {
   const demon = new MaxwellsDemon();
 
   // Simulate a "Good Rhythm"
@@ -93,4 +94,5 @@ if (require.main === module) {
   setTimeout(() => demon.tick(), 1350);
 }
 
-module.exports = MaxwellsDemon;
+export default MaxwellsDemon;
+export { MaxwellsDemon };
