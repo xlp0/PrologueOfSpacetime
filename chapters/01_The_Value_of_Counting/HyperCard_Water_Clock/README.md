@@ -21,28 +21,62 @@ This directory houses the **HyperCard Water Clock** implementation stack—an in
 
 ## 1. Stack Components
 
-1. **`index.html`**: A retro HyperCard-style browser application featuring:
+1. **`i18n.js`**: Standardized Internationalization (i18n) engine supporting:
+   * 🇮🇩 **Indonesian (`id`)**: Bahasa Indonesia
+   * 🇬🇧 **English (`en`)**: English
+   * 🇨🇳 **Chinese (`zh`)**: 中文 (简体)
+   * Isomorphic module exportable to Node.js and Browser environments, with dot-notation key lookup (`t('header.mainTitle')`) and parameter interpolation (`t('logs.milestone', { count: 10 })`).
+2. **`index.html`**: A retro HyperCard-style browser application featuring:
    * Real-time water accumulation bar (Bamboo reservoir).
    * Monotonic counter display ($n \in \mathbb{N}$).
    * Tactile manual capture trigger (`[ Catch the Drop ]` button).
    * Thermodynamic feedback display: Energy remaining, Entropy generated, and Laminar vs. Turbulent flow indicator.
-2. **`water_clock.js`**: Node.js executable module implementing the underlying `MaxwellsDemon` class, delta-timing logic, and thermodynamic dissipation equations.
+   * Standardized i18n multilingual switcher (🇮🇩 Bahasa Indonesia / 🇬🇧 English / 🇨🇳 中文).
+   * Pure Web Audio API procedural sound synthesis (no external assets required).
+3. **`water_clock.js`**: Node.js executable module implementing the underlying `MaxwellsDemon` class, delta-timing logic, thermodynamic dissipation equations, and multilingual CLI output driven by `i18n.js`.
 
 ---
 
 ## 2. How to Run
 
-### Option A: Browser (Interactive UI)
+### Option A: Browser (Interactive Multilingual UI)
 Simply open `index.html` in any standard web browser:
 ```bash
 open chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/index.html
 ```
+Click the language switch buttons at the top to toggle instantly between **🇮🇩 Bahasa Indonesia**, **🇬🇧 English**, and **🇨🇳 中文**!
 
-### Option B: Node.js CLI (Simulation Script)
-Run the automated Maxwell's Demon simulation script:
+### Option B: Node.js CLI (Simulation Script with i18n)
+Run the automated Maxwell's Demon simulation script with your preferred locale:
 ```bash
-node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js
+# Default (Indonesian)
+node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js id
+
+# English
+node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js en
+
+# Chinese
+node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js zh
 ```
+
+---
+
+## 3. Extending the i18n Standard (Adding New Languages)
+
+To add another language (e.g. Japanese `ja` or Spanish `es`):
+1. Open [`i18n.js`](i18n.js).
+2. Add a new key under `locales`:
+   ```javascript
+   export const locales = {
+     // ... existing id, en, zh ...
+     ja: {
+       meta: { code: 'ja', name: '日本語', flag: '🇯🇵' },
+       header: { mainTitle: '水時計：ステーション01', ... },
+       ...
+     }
+   };
+   ```
+3. In `index.html`, add `<button class="lang-btn" data-lang="ja" onclick="switchLanguage('ja')">🇯🇵 日本語</button>`. The `data-i18n` binding engine will handle the rest automatically!
 
 ---
 

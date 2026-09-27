@@ -2,22 +2,26 @@
  * HyperCard Stack: The Water Clock
  * Chapter: 01 - The Value of Counting
  * 
+ * Powered by i18n Standard (Indonesian, English, Chinese)
  * "Counting is an act of observation that requires energy."
  */
 
+import { i18n, t, setLocale } from './i18n.js';
+
 class MaxwellsDemon {
-  constructor() {
+  constructor(options = {}) {
+    this.locale = options.locale || 'id';
+    setLocale(this.locale);
+
     this.energy = 100;
     this.entropy = 0;
     this.ticks = 0;
     this.lastTickTime = Date.now();
     this.isOverheated = false;
 
-    console.log("--- TETUA DESA / VILLAGE ELDER ---");
-    console.log("Sesepuh: \"Dengarkan. Kau dengar gemuruh air itu? Itu adalah Aliran Liar. Untuk menghitungnya, kau harus menjedanya sejenak.\"");
-    console.log("Elder: \"Listen. Do you hear the roar? That is the Raw Flow. To count it, you must pause it.\"");
-    console.log("Sesepuh: \"Tapi ingat: Mengamati butuh Energi. Terlalu cepat, mesinmu terbakar. Terlalu lambat, kau tenggelam!\"");
-    console.log("Elder: \"Observation costs Energy. Count too fast, and you burn. Count too slow, and you drown.\"");
+    console.log(t('demon.elderTitle'));
+    console.log(t('demon.elderRoar'));
+    console.log(t('demon.elderWarn'));
     console.log("---------------------------------");
   }
 
@@ -27,7 +31,7 @@ class MaxwellsDemon {
    */
   tick() {
     if (this.isOverheated) {
-      console.log("!! SYSTEM FAILURE: Demon Overheated. Entropy Exceeds Information. !!");
+      console.log(`!! ${t('status.overheat')} !!`);
       return;
     }
 
@@ -39,16 +43,15 @@ class MaxwellsDemon {
     let entropyGenerated = 1;
 
     if (delta < 200) {
-      console.log("[!] Too Fast! Friction generates Heat.");
+      console.log(`[!] ${t('gasingHint.fast').replace(/<[^>]+>/g, '')}`);
       cost = 20;
       entropyGenerated = 15;
     } else if (delta > 2000) {
-      console.log("... Too Slow. The pattern washes away ...");
+      console.log(`... ${t('gasingHint.slow').replace(/<[^>]+>/g, '')} ...`);
       entropyGenerated = 5;
     }
 
     // Apply State Changes ( The Monadic Bind )
-    // We are 'binding' the current state to the new state through the 'tick' transformation.
     this.energy -= cost;
     this.entropy += entropyGenerated;
     this.ticks += 1;
@@ -60,36 +63,35 @@ class MaxwellsDemon {
     // Check Failure Mode
     if (this.energy <= 0 || this.entropy > 50) {
       this.isOverheated = true;
-      console.log("\n*** CRITICAL ALERT ***");
-      console.log("Elder: \"You have surrendered to Chaos. The river floods.\"");
-      console.log("Narrative: The gate collapses under the weight of the heat.");
+      console.log(`\n${t('demon.overheatAlert')}`);
+      console.log(t('demon.elderSurrender'));
+      console.log(t('demon.gateCollapse'));
     }
   }
 
   renderState(delta) {
     console.log(`\n[Tick #${this.ticks}]`);
-    console.log(` > Action: Click Triggered (Delta: ${delta}ms)`);
-    console.log(` > Feedback: *Ripple* ~ *Harmonic Chime*`);
+    console.log(` > ${t('demon.actionTriggered', { delta })}`);
+    console.log(` > ${t('demon.feedbackSound')}`);
     console.log(` > State Monad: { Energy: ${this.energy}% | Entropy: ${this.entropy}% }`);
 
-    if (this.energy > 80 && this.entropy < 10) {
-      console.log(" > Status: 💧 Aliran Laminar / Laminar Flow (Tenang & Optimal — ΔH < 0)");
-    } else {
-      console.log(" > Status: ⚡ Aliran Turbulen / Turbulent Friction (Peringatan Panas!)");
-    }
+    const statusKey = (this.energy > 80 && this.entropy < 10) ? 'status.laminar' : 'status.turbulent';
+    console.log(` > Status: ${t(statusKey)}`);
   }
 }
 
 // Simulation of User Interaction aka "Vibe Coding"
 const isMain = process.argv[1] && process.argv[1].endsWith('water_clock.js');
 if (isMain) {
-  const demon = new MaxwellsDemon();
+  const cliLang = process.argv[2] || 'id';
+  console.log(`[i18n] Running Maxwell's Demon simulation with locale: '${cliLang}' (Supported: 'id', 'en', 'zh')\n`);
+  const demon = new MaxwellsDemon({ locale: cliLang });
 
-  // Simulate a "Good Rhythm"
+  // Simulate a "Good Rhythm" (Laminar Flow)
   setTimeout(() => demon.tick(), 500);
   setTimeout(() => demon.tick(), 1100);
 
-  // Simulate "Panic/Chaos" (Clicking too fast)
+  // Simulate "Panic/Chaos" (Clicking too fast - Turbulent Friction)
   setTimeout(() => demon.tick(), 1200);
   setTimeout(() => demon.tick(), 1250);
   setTimeout(() => demon.tick(), 1300);
@@ -97,4 +99,4 @@ if (isMain) {
 }
 
 export default MaxwellsDemon;
-export { MaxwellsDemon };
+export { MaxwellsDemon, i18n };

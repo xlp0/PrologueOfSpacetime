@@ -98,10 +98,12 @@ liberal_art: Quadrivium-Music
     - `water_clock_mechanics.md`: Explained Analog-to-Digital Converter (ADC) mechanics via traditional water spigots (Pancuran Bambu & Subak Taku) and laminar vs turbulent flow sensations.
     - `thermodynamics_of_counting.md`: Linked Maxwell's Demon and Landauer dissipation to *menampi beras* with tampah bambu, and framed particle vibration/free will and coherence energy costs via traditional market bargaining.
     - `arithmetic_as_protocol.md`: Reframed Single Source of Truth (SSOT) from distant foreign databases to verifiable community protocols (Pacioli double-entry, Amanah, and Subak fair water division).
-    - `HyperCard_Water_Clock/README.md`: Added step-by-step Indonesian beginner gameplay instructions.
-    - `HyperCard_Water_Clock/index.html`: Transformed into a retro HyperCard-style bilingual (Indonesian & English) web application with Web Audio API sound synthesis (bamboo water plink, gamelan milestone chime, and turbulent friction steam hiss), live thermodynamic meters, and adaptive GASing feedback banners.
-    - `HyperCard_Water_Clock/water_clock.js`: Added bilingual narrative elder dialogues and state telemetry.
+    - `HyperCard_Water_Clock/i18n.js`: Implemented an isomorphic i18n runtime dictionary and lookup engine supporting Indonesian (`id`), English (`en`), and Chinese (`zh`) with dot-notation keys and parameter interpolation.
+    - `HyperCard_Water_Clock/README.md`: Added step-by-step Indonesian beginner gameplay instructions and guide for extending the i18n engine with new languages.
+    - `HyperCard_Water_Clock/index.html`: Transformed into a retro HyperCard-style multilingual web application implementing standardized `data-i18n` binding and dynamic language switching between Indonesian (🇮🇩), English (🇬🇧), and Chinese (🇨🇳), with Web Audio API procedural sound synthesis (bamboo water plink, gamelan milestone chime, and turbulent friction steam hiss), live thermodynamic meters, and adaptive GASing feedback banners.
+    - `HyperCard_Water_Clock/water_clock.js`: Parameterized with i18n standard supporting CLI execution in Indonesian, English, and Chinese (`node water_clock.js [id|en|zh]`).
 - **Verification & Status**:
-  - Executed `node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js` with exit code 0 and verified bilingual console logs.
+  - Executed `node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js` across `id`, `en`, and `zh` with exit code 0, verifying localized elder dialogues and thermodynamic telemetry.
   - Verified `python3 src/civilizational_sprint_engine.py` with 100% test passage across all 12 sprints and AoS test suite.
+
 

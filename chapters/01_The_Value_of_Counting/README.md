@@ -206,7 +206,7 @@ To master Chapter 01, follow this structured trajectory:
    * [`water_clock_mechanics.md`](water_clock_mechanics.md) — The physical architecture of the water clock as an analog-to-digital converter.
    * [`thermodynamics_of_counting.md`](thermodynamics_of_counting.md) — Maxwell's Demon, Landauer's bound, and Brownian free will.
 3. **Execute Simulations & Math**:
-   * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/) — Run the interactive simulation in your browser or Node.js.
+   * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/) — Run the interactive simulation in your browser or Node.js (with standardized i18n supporting Indonesian 🇮🇩, English 🇬🇧, and Chinese 🇨🇳).
    * [`HoTT_Math_Course/`](HoTT_Math_Course/) — Study formal Homotopy Type Theory foundations of $\mathbb{N}$.
 4. **Play the Operational Sprint**:
    * [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]] — Execute the playable strategy sprint and verify against `src/civilizational_sprint_engine.py`.
