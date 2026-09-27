@@ -15,6 +15,9 @@ liberal_art: Quadrivium-Arithmetic
 
 > *"In the physical world, water flows as an analog continuum. In the computational world, decisions require discrete bits. The Water Clock is the boundary converter where continuum collapses into countable time."*
 
+> 🇮🇩 **Catatan Pemula — Dari Pancuran Bambu ke Komputer Modern**:  
+> *Apa hubungan antara air pancuran bambu di pedesaan dan komputer super canggih? Komputer digital hanya mengerti data diskrit (terputus-putus): angka 0 atau 1. Namun alam semesta ini bergerak secara mengalir tanpa henti (kontinu / analog): air sungai yang mengalir, hembusan angin, atau cahaya matahari. **Jam Air (Water Clock / Clepsydra)** adalah jembatan penjelas: ia mengubah aliran air yang bersambung menjadi butir tetesan demi tetesan yang bisa dihitung dengan pasti (*TIK, TIK, TIK!*). Dalam dunia teknik, ini disebut **ADC (Analog-to-Digital Converter)**. Konsepnya sangat alami dan mudah dipahami!*
+
 ---
 
 ## 1. The Physical Archetype: Clepsydra to HyperCard
@@ -37,6 +40,9 @@ flowchart LR
 ## 2. Maxwellian Demon Architecture in `water_clock.js`
 
 The computational realization of the Water Clock is implemented in [[chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js|HyperCard_Water_Clock/water_clock.js]]. The core entity is **Maxwell's Demon**, an active observer that pauses the chaotic flow to extract discrete information.
+
+> 💡 **Intuitif Pemula — Menjaga Irama Aliran (Laminar vs Turbulen)**:  
+> Bayangkan Anda sedang menuang teh panas ke dalam cangkir. Jika tangan Anda tenang dan stabil, teh mengalir anggun dan sejuk tanpa tumpah (*Aliran Laminar*). Tetapi jika Anda gugup, tangan Anda bergetar cepat dan air muncrat ke mana-mana (*Aliran Turbulen*). Di dalam simulasi `water_clock.js`, kita belajar menjaga ketenangan: menangkap tetesan air dalam tempo teratur (~1 detik sekali). Jika Anda panik dan memencet tombol terlalu cepat, energi pengamat akan terkuras habis dan mesin mengalami *overheat* (kepanasan)!
 
 ### 2.1 The Thermodynamic State Machine
 The Demon maintains an internal state tuple:

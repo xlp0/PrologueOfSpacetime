@@ -16,6 +16,9 @@ liberal_art: Trivium-Grammar
 
 > *"The Single Source of Truth is not a database. It is a dynamically evolving, contextually dependent protocol for determining what counts as truth in a given system."*
 
+> 🇮🇩 **Catatan Pemula — Kebenaran yang Bisa Diuji Sendiri (SSOT Bukan Server Asing)**:  
+> *Banyak orang mengira bahwa 'Kebenaran Tunggal' (Single Source of Truth / SSOT) adalah sebuah pangkalan data (database) raksasa milik korporasi teknologi di luar negeri. Itu keliru! Kebenaran yang sejati bukanlah lokasi penyimpanan rahasia, melainkan **protokol verifikasi bersama yang bisa diuji oleh siapa saja secara mandiri**. Bayangkan sistem pembukuan warung kelontong atau pembagian air Subak: kebenaran hadir karena aturannya transparan, dapat dihitung ulang oleh setiap warga, dan hasilnya selalu sama tanpa perlu bergantung pada bos atau perantara!*
+
 ---
 
 ## 1. Tao Generates One: The Origin of Protocol SSOT
@@ -65,6 +68,9 @@ In Chapter 01 of the *Prologue of Spacetime*, Pacioli's invariant is embedded in
 * When The Counter ticks, the **Communal Cistern** is debited $1\text{ drop}$.
 * The **Subak Weir Reservoir** is credited $1\text{ drop}$.
 * The net balance of physical water is strictly conserved: $\Delta V = 0$.
+
+> 💡 **Intuitif Pemula — Amanah dan Neraca Seimbang**:  
+> Di warung kelontong, jika kas berkurang Rp 10.000, harus ada barang senilai Rp 10.000 yang keluar atau bertambah di tangan pembeli. Nilai tidak pernah lenyap ke ruang hampa. Di sistem Subak, jika saluran sawah Pak Wayan menerima 2 takaran air, maka saluran induk berkurang tepat 2 takaran air. Inilah makna terdalam dari **Amanah**: tidak ada yang disunat di tengah jalan, tidak ada manipulasi!
 
 ---
 

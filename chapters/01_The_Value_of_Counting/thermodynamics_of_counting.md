@@ -16,6 +16,9 @@ liberal_art: Trivium-Logic
 
 > *"Counting is not a costless mental abstraction. To distinguish one particle from another requires a physical interaction; to erase an unneeded bit requires the dissipation of heat. Information is physical."*
 
+> 🇮🇩 **Catatan Pemula — Mengapa Menghitung Memerlukan Tenaga Fisik?**  
+> *Pernahkah Anda bertanya mengapa ponsel pintar atau laptop Anda menjadi hangat saat dipakai berpikir keras? Kebanyakan orang mengira bahwa 'berpikir' atau 'menghitung' itu murni dunia batin yang gratis. Namun para fisikawan membuktikan kebalikannya: **Informasi itu adalah benda fisik!** Setiap kali Anda membedakan satu huruf atau menghapus satu berkas di memori, komputer harus melepaskan sedikit panas ke udara (Prinsip Landauer). Sama seperti ketika ibu di dapur menampi beras menggunakan tampah bambu: tangan mengayun, mata memilah gabah kosong, dan tubuh berkeringat. Menghitung adalah kerja fisik yang nyata!*
+
 ---
 
 ## 1. The Physicality of Information: From Szilard to Landauer
@@ -67,6 +70,9 @@ In the automated test harness `src/civilizational_sprint_engine.py`, Sprint 01 v
 
 > [!NOTE]
 > **The Metaphysics of Physical Jitter**: In the *Prologue of Spacetime*, thermal vibration and Brownian perturbation are not regarded as mere "noise" to be suppressed; they are the **physical substrate of agency**.
+
+> 💡 **Intuitif Pemula — Getaran, Kehendak Bebas, dan Biaya Gotong Royong**:  
+> Bayangkan suasana pasar tradisional yang ramai di pagi hari. Setiap pedagang dan pembeli bergerak bebas, menawar harga, dan mencoba berbagai kemungkinan lorong jalan. Gerakan acak dan getaran ini bukanlah kesalahan; itu adalah wujud **kebebasan untuk menjelajah (*free will*)**. Namun, jika semua orang terus berteriak tanpa pernah menyepakati harga, pasar akan bubar dalam kekacauan. Kesepakatan harga di timbangan dan pencatatan di buku kas adalah momen ketika getaran bebas itu bersatu kembali dalam keteraturan yang disepakati bersama. Biaya tenaga dan kesabaran untuk bersepakat itulah yang disebut **ongkos energi koherensi**!
 
 1. **Jumping Between Physical Realities**: At the microscopic scale, molecules and drops undergo continuous thermal perturbations ($\delta x(t)$). These fluctuations represent physical entities exploring off-shell trajectories, superposition paths, and counterfactual futures—the capacity of physical matter to "try out" alternate realities.
 2. **The Cost of Returning to Order**: While perturbation allows free exploration, an agent or civilization cannot persist in pure unrestrained jitter without dissolving into thermal noise. The act of coming together into a mutually consistent, order-preserving entry in an immutable ledger is the **energy cost** that collective particles must pay.

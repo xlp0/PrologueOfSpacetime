@@ -13,10 +13,12 @@ class MaxwellsDemon {
     this.lastTickTime = Date.now();
     this.isOverheated = false;
 
-    console.log("--- VILLAGE ELDER ---");
+    console.log("--- TETUA DESA / VILLAGE ELDER ---");
+    console.log("Sesepuh: \"Dengarkan. Kau dengar gemuruh air itu? Itu adalah Aliran Liar. Untuk menghitungnya, kau harus menjedanya sejenak.\"");
     console.log("Elder: \"Listen. Do you hear the roar? That is the Raw Flow. To count it, you must pause it.\"");
-    console.log("Elder: \"But be warned: Observation costs Energy. Count too fast, and you burn. Count too slow, and you drown.\"");
-    console.log("---------------------");
+    console.log("Sesepuh: \"Tapi ingat: Mengamati butuh Energi. Terlalu cepat, mesinmu terbakar. Terlalu lambat, kau tenggelam!\"");
+    console.log("Elder: \"Observation costs Energy. Count too fast, and you burn. Count too slow, and you drown.\"");
+    console.log("---------------------------------");
   }
 
   /**
@@ -71,9 +73,9 @@ class MaxwellsDemon {
     console.log(` > State Monad: { Energy: ${this.energy}% | Entropy: ${this.entropy}% }`);
 
     if (this.energy > 80 && this.entropy < 10) {
-      console.log(" > Status: Flow is Laminar (Optimal)");
+      console.log(" > Status: 💧 Aliran Laminar / Laminar Flow (Tenang & Optimal — ΔH < 0)");
     } else {
-      console.log(" > Status: Flow is Turbulent (Warning)");
+      console.log(" > Status: ⚡ Aliran Turbulen / Turbulent Friction (Peringatan Panas!)");
     }
   }
 }
