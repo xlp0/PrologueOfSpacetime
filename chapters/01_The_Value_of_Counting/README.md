@@ -71,7 +71,7 @@ In accordance with [[chapters/00_Structure_and_Vision|00_Structure_and_Vision.md
 | **Bahasa Indonesia** | `id` | Nusantara everyday life, gotong royong, Subak irrigation, and GASing pedagogics | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
 | **संस्कृतम् (Sanskerta Bali)** | `sa` | Balinese sacred tradition (Pasraman), Vedic/Agamic metaphysical rigor (*Pramāṇa*, *Jala-Ghaṭikā*, *Śūnyatā*, *Ṛta*) strictly in Devanagari | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
 | **English** | `en` | International mathematical logic, HoTT, category theory, and thermodynamic computing | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
-| **正體中文** | `zh-TW` | Classical Chinese mathematical philosophy, Book of Changes (*I Ching*), strictly standardized on **MCard** / **單子卡** | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
+| **正體中文** | `zh-TW` | Classical Chinese mathematical philosophy, Book of Changes (*I Ching*), strictly standardized on **MCard** / **單子牌** | [`locales.json`](MCard_Water_Clock/locales.json), [`type_lattice_locales.json`](type_lattice_locales.json) |
 
 All state machines (`water_clock.js`, `type_lattice.js`), web UI components (`index.html`), and verification routines operate purely on abstract tokens, consuming natural language exclusively via these external JSON dictionaries.
 

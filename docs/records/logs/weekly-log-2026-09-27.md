@@ -182,7 +182,7 @@ liberal_art: Quadrivium-Music
       - 🇮🇩 **Bahasa Indonesia (`id`)**: Grounded in Nusantara everyday life, gotong royong, Subak irrigation, and GASing pedagogics.
       - 🕉️ **Sanskrit / Balinese Sanskrit (`sa`)**: Sacred language preserved in Balinese Pasraman, contributing foundational metaphysical rigor (*Tri Hita Karana*, *Pramāṇa*, *Jala-Ghaṭikā*, *Śūnyatā*, *Ṛta*).
       - 🇬🇧 **English (`en`)**: International mathematical logic, HoTT, category theory, and thermodynamic computing.
-      - 🇹🇼 **Traditional Chinese (`zh-TW`)**: 正體中文 / 繁體中文, strictly utilizing **MCard** / **單子卡** and classical Chinese philosophical rigor.
+      - 🇹🇼 **Traditional Chinese (`zh-TW`)**: 正體中文 / 繁體中文, strictly utilizing **MCard** / **單子牌** and classical Chinese philosophical rigor.
     - Mandated strict decoupling: state machines, lattices, and logic remain pristine while natural language resides in externalized JSON dictionaries.
   - **`chapters/01_The_Value_of_Counting/` Implementation**:
     - **`type_lattice_locales.json`**: Implemented complete Balinese Sanskrit (`sa`) stratum and type dictionaries across all six universe levels ($U_0 \dots U_5$) with authentic Balinese Pasraman philosophical definitions and agricultural metaphors:

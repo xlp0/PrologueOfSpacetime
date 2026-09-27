@@ -5,7 +5,7 @@ description: Standardizes MCard (Monadic Card) nomenclature, HoTT Σ-type semant
 
 # MCard Specification & Multilingual Terminology Standard
 
-> **The Sovereign Rule**: In the *Prologue of Spacetime*, all cards and computational stacks previously referred to as *HyperCard* or *超卡* are strictly unified as **`MCard`** (Monadic Card / 單子卡) across English (`en`), Indonesian (`id`), and Orthodox Chinese (`zh-TW`).
+> **The Sovereign Rule**: In the *Prologue of Spacetime*, all cards and computational stacks previously referred to as *HyperCard* or *超卡* are strictly unified as **`MCard`** (Monadic Card / 單子牌) across English (`en`), Indonesian (`id`), and Orthodox Chinese (`zh-TW`).
 
 ---
 
@@ -15,12 +15,12 @@ description: Standardizes MCard (Monadic Card) nomenclature, HoTT Σ-type semant
 |:---|:---|:---|:---|
 | **English (`en`)** | `MCard` | `MCard Water Clock`, `MCard Stack`, `MCard Ledger` | `HyperCard` / `Hypercard` *(Permitted only when citing 1987 Bill Atkinson software)* |
 | **Indonesian (`id`)** | `MCard` | `Jam Air MCard`, `Buku Kas MCard`, `Kartu Monadik MCard` | `Pancuran Jam Air` *(unanchored)*, `HyperCard` |
-| **Orthodox Chinese (`zh-TW`)** | `MCard` | `MCard 水鐘`, `MCard 帳本`, `單子卡` | ❌ **`超卡`** *(Strictly prohibited literal mistranslation)*, `HyperCard` |
+| **Orthodox Chinese (`zh-TW`)** | `MCard` | `MCard 水鐘`, `MCard 帳本`, `單子牌` | ❌ **`超卡`** *(Strictly prohibited literal mistranslation)*, `HyperCard` |
 
 ### 1.1 The Proscription of "超卡"
 - **Root Cause**: Machine translation historically rendered Apple's 1987 "HyperCard" as "超卡" (Super/Hyper Card).
 - **Architectural Reality**: In *Prologue of Spacetime*, the card primitive is an **`MCard`**—derived from Leibniz's *Monadology*, Wadler's computational monads, and Homotopy Type Theory $\Sigma$-types.
-- **Enforcement**: Any appearance of "超卡" in Chinese docs, comments, UI strings, or logs is a critical lint violation and must be replaced with `MCard` (or `單子卡` in formal philosophical taxonomy).
+- **Enforcement**: Any appearance of "超卡" in Chinese docs, comments, UI strings, or logs is a critical lint violation and must be replaced with `MCard` (or `單子牌` in formal philosophical taxonomy).
 
 ---
 
