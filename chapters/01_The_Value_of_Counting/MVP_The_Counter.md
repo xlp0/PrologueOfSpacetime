@@ -4,6 +4,7 @@ chapter: 1
 matrix: Rhetoric x Arithmetic
 role: The Inventory Station
 artifact: MCard (Memory)
+sprint: docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL.md
 ---
 
 # MVP: The Counter
@@ -59,3 +60,11 @@ How does **The Counter** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster
 *   **Result**: The user can "Count" their thoughts as fast as they occur, maintaining the **Rhythm** of discovery.
 
 > **"The Counter is the origin of sovereignty. If you cannot count your own assets (and their cost), you do not own them."**
+
+## 7. Ludic Realization: Sprint 01 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]] (Epoch I)
+* **Dominant Mental Model**: The Sieve Demon / Maxwellian Tidepool Gate
+* **Algebraic Signature**: $\Sigma_{\text{Tidepool}} = (S, \Omega, \mathcal{E})$ with Baldwin operator **Splitting**
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Every count reveals the player's chromatic signature between extraction and stewardship.
+* **Physical & Digital Substrate**: HyperCard Water Clock, RF pulse counter, verified via `src/civilizational_sprint_engine.py`.

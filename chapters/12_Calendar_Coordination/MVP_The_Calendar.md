@@ -4,6 +4,7 @@ chapter: 12
 matrix: Grammar x Astronomy
 role: The Coordination Station
 artifact: VCard (Constitution)
+sprint: docs/sprints/epoch-04-cosmological-harmony/SPRINT-12-IMPLEDICATIVE-CALENDAR.md
 ---
 
 # MVP: The Calendar
@@ -68,3 +69,13 @@ Instead of endless negotiation, the group aligns with a **cosmic clock**:
 - **Low entropy**: One decision, infinite sessions
 
 > **"He who holds the Calendar holds the Mind. Sovereignty is the ability to align your Energy Expenditure with the Universal Clock."**
+
+
+## Ludic Realization: SPRINT-12 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-04-cosmological-harmony/SPRINT-12-IMPLEDICATIVE-CALENDAR|Sprint 12: The Impredicative Calendar]] (Epoch IV: The Planetary Noosphere)
+* **Dominant Mental Model**: The Cosmic Astrolabe / The Multi-Temporal Loom
+* **Algebraic Signature**: $\Sigma_{\text{ImpredicativeCalendar}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\delta \mathcal{S}_{\text{THK}} > 0\}$ (Tri Hita Karana stationary action principle)
+* **Active Baldwin Operator**: **Augmenting** (augmenting lunar, solar, and Pawukon temporal cycles into a self-referential calendar sheaf)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Supreme synthesis of character, cosmic order, and collective destiny across Tri Hita Karana.
+* **Physical & Digital Substrate**: Digital sundials, multi-calendar ephemeris engines, verified via `src/civilizational_sprint_engine.py`.

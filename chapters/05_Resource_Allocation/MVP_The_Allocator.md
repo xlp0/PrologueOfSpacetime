@@ -4,6 +4,7 @@ chapter: 5
 matrix: Logic x Arithmetic
 role: The Scheduling Station
 artifact: PCard (Scheduler)
+sprint: docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-05-YONEDA-BAZAAR.md
 ---
 
 # MVP: The Allocator
@@ -56,3 +57,13 @@ How does **The Allocator** sustain **[[Hub/Theory/Integration/Flow in PKC - Fast
 *   **Fluid Scaling (Empty Schema)**: We do not force users to configure "Instance Types" or "Memory Limits." The Allocator dynamically adjusts resources based on the intensity of the "Game State," removing administrative friction from the creative process.
 
 > **"A Sovereign brain does not waste energy. To Allocate is to draw the boundary between the Possible and the Real."**
+
+
+## Ludic Realization: SPRINT-05 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-05-YONEDA-BAZAAR|Sprint 05: The Yoneda Bazaar]] (Epoch II: The Sovereign Tribal Mesh)
+* **Dominant Mental Model**: The Scale of Probes / The Yoneda Marketplace
+* **Algebraic Signature**: $\Sigma_{\text{Bazaar}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\text{Nat}(\mathcal{C}(A, -), F) \cong F(A)\}$ (Yoneda lemma test probe evaluation)
+* **Active Baldwin Operator**: **Porting** (porting allocation tokens across heterogeneous economic domains)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Private hoarding of tokens vs providing liquidity to communal development (Gotong Royong).
+* **Physical & Digital Substrate**: IoT motor control, Nitinol shape-memory VR goggles, verified via `src/civilizational_sprint_engine.py`.

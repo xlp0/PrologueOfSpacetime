@@ -4,6 +4,7 @@ chapter: 9
 matrix: Grammar x Arithmetic
 role: The Standards Station
 artifact: MCard (Schema)
+sprint: docs/sprints/epoch-03-collective-computation/SPRINT-09-HYDRAULIC-VAULT.md
 ---
 
 # MVP: The Schema (Water Count)
@@ -56,3 +57,13 @@ How does **The Schema** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster 
 *   **Instant Validation (Local-first)**: The "Type Checker" runs locally in the background, providing **<16ms** feedback on correctness. The user sees errors as "Red Squiggles" instantly, allowing them to fix grammar without breaking the train of thought.
 
 > **"If you define the Schema, you define the Cost Structure. Sovereignty is the right to reject data you cannot afford to process."**
+
+
+## Ludic Realization: SPRINT-09 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-03-collective-computation/SPRINT-09-HYDRAULIC-VAULT|Sprint 09: The Hydraulic Vault]] (Epoch III: The Sheaf Metamaterial)
+* **Dominant Mental Model**: The Crystal Clepsydra / The Typed Balance
+* **Algebraic Signature**: $\Sigma_{\text{HydraulicVault}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\int Q_{\text{in}} dt - \int Q_{\text{out}} dt = \Delta V\}$ (Typed double-entry conservation)
+* **Active Baldwin Operator**: **Inverting** (inverting continuous fluid measurements into typed algebraic sum/product tokens)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Strict algebraic conservation in commons resource governance.
+* **Physical & Digital Substrate**: Subak weir flowmeters, ZK water valves, verified via `src/civilizational_sprint_engine.py`.

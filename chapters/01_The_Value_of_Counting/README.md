@@ -43,3 +43,20 @@ Counting begins at the **Empty Set** ($\emptyset$)—the unique Initial Object f
 2.  **Univalence**: Treating different drops as equal in value.
 3.  **The Ledger**: Recording the history of the count (The genesis of `history`).
 4.  **Protocol Verification**: Understanding that truth is *constructible* (anyone can count) and *verifiable* (check your own work).
+
+---
+
+## 🎮 Operational Realization: Playable Game Sprint
+
+This chapter is directly implemented and playable via **[[docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]]** in **Epoch I: The Primordial Sensorium**.
+
+* **Assembly Line Station**: Inventory Station (`MCard: Memory`)
+* **Dominant Mental Model**: The Sieve Demon / Maxwellian Tidepool Gate
+* **Formal Algebraic Signature**: $\Sigma_{\text{Tidepool}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\Delta H < 0\}$ (Shannon entropy sieving)
+* **AoS Domain Triad**: $\langle P, C, B \rangle = \langle [L]^0, [T]^0, \text{Energy} \rangle$
+* **Active Baldwin Operator**: **Splitting** (sifting raw continuous wave into discrete countable tokens)
+* **Digital Synesthesia**: Auditory Pulse Train (auditory perception of entropy drop $\Delta H < 0$)
+* **Hardware Realization**: HyperCard Water Clock, RF pulse counter, physical water droplets
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Participants decide whether to hoard discrete counts for private advantage or commit them to the communal water ledger.
+* **Vibration & Free Will**: Brownian thermal fluctuations of droplets represent the agent's agency to explore counterfactual realities; re-establishing order and coherence requires expenditure of Landauer energy.
+* **Automated Verification**: Verified with 0.0 error in `src/civilizational_sprint_engine.py` (`SPRINT-01` test suite).

@@ -4,6 +4,7 @@ chapter: 6
 matrix: Logic x Geometry
 role: The Routing Station
 artifact: PCard (Router)
+sprint: docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-06-SUBAK-MESHWAY.md
 ---
 
 # MVP: The Navigator
@@ -56,3 +57,13 @@ How does **The Navigator** sustain **[[Hub/Theory/Integration/Flow in PKC - Fast
 *   **Adaptive Paths (Empty Schema)**: The network topology is fluid. If a primary link fails, the Navigator instantly re-routes via the Mesh (P2P) without interrupting the user's session. The "Path" adapts to the "Goal," not the other way around.
 
 > **"The Navigator turns 'Distance' into 'Latency'. A well-routed network is a hyper-connected brain that conserves its calories."**
+
+
+## Ludic Realization: SPRINT-06 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-06-SUBAK-MESHWAY|Sprint 06: The Subak Meshway]] (Epoch II: The Sovereign Tribal Mesh)
+* **Dominant Mental Model**: The Capillary Riverbed / The Water Channel Sluice
+* **Algebraic Signature**: $\Sigma_{\text{Meshway}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\max |f| = \min c(S, T)\}$ (Edmonds-Karp max-flow min-cut theorem)
+* **Active Baldwin Operator**: **Splitting** (splitting bulk traffic across multi-path Reticulum LoRa mesh networks)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Subak water justice—ensuring zero packet/water starvation at downstream peripheral nodes.
+* **Physical & Digital Substrate**: Reticulum / Yggdrasil LoRa mesh nodes, verified via `src/civilizational_sprint_engine.py`.

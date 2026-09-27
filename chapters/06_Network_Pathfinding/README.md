@@ -59,3 +59,20 @@ Pathfinding introduces the **Connectionist** learning paradigm (data → feature
 For a detailed breakdown of the 12-Factor Agent patterns, specifically designed for TypeScript/Software Engineers, see:
 
 *   [**Agent Design Patterns**](agent_patterns.md)
+
+
+---
+
+## 🎮 Operational Realization: Playable Game Sprint
+
+This chapter is directly implemented and playable via **[[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-06-SUBAK-MESHWAY|Sprint 06: The Subak Meshway]]** in **Epoch II: The Sovereign Tribal Mesh (What / Logic Era)**.
+
+* **Assembly Line Station**: Routing Station (`PCard: Router`)
+* **Dominant Mental Model**: The Capillary Riverbed / The Water Channel Sluice
+* **Formal Algebraic Signature**: $\Sigma_{\text{Meshway}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\max |f| = \min c(S, T)\}$ (Edmonds-Karp max-flow min-cut theorem)
+* **Active Baldwin Operator**: **Splitting** (splitting bulk traffic across multi-path Reticulum LoRa mesh networks)
+* **Digital Synesthesia**: Fluidic Streamlines (visualizing packet routes as laminar vs turbulent water flows)
+* **Hardware Realization**: Reticulum / Yggdrasil LoRa mesh nodes
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Subak water justice—ensuring zero packet/water starvation at downstream peripheral nodes.
+* **Vibration & Free Will**: Packet routing deviations explore path alternatives; settling into the minimum-cut bottleneck requires network switching action.
+* **Automated Verification**: Formally certified with 0.0 error in `src/civilizational_sprint_engine.py` (`SPRINT-06` test suite).

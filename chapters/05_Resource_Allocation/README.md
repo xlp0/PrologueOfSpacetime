@@ -98,3 +98,20 @@ Each combat encounter requires the player to optimize spell usage:
 Just like Monopoly teaches cash flow management, D&D teaches **energy budgeting**. Players who waste spell slots on trivial encounters find themselves defenseless against major threats. Players who hoard resources never impact the game. The optimal strategy requires **dynamic allocation** based on context.
 
 This is the same reasoning required for LLM token budgets, memory allocation, and energy distribution in IoT systems.
+
+
+---
+
+## 🎮 Operational Realization: Playable Game Sprint
+
+This chapter is directly implemented and playable via **[[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-05-YONEDA-BAZAAR|Sprint 05: The Yoneda Bazaar]]** in **Epoch II: The Sovereign Tribal Mesh (What / Logic Era)**.
+
+* **Assembly Line Station**: Scheduling Station (`PCard: Scheduler`)
+* **Dominant Mental Model**: The Scale of Probes / The Yoneda Marketplace
+* **Formal Algebraic Signature**: $\Sigma_{\text{Bazaar}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\text{Nat}(\mathcal{C}(A, -), F) \cong F(A)\}$ (Yoneda lemma test probe evaluation)
+* **Active Baldwin Operator**: **Porting** (porting allocation tokens across heterogeneous economic domains)
+* **Digital Synesthesia**: Thermal Haptic Drag (perceiving market liquidity resistance via Nitinol VR actuators)
+* **Hardware Realization**: IoT motor control, Nitinol shape-memory VR goggles
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Private hoarding of tokens vs providing liquidity to communal development (Gotong Royong).
+* **Vibration & Free Will**: Market price fluctuations represent economic trial actions; returning to balanced double-entry clearing dissipates transaction energy.
+* **Automated Verification**: Formally certified with 0.0 error in `src/civilizational_sprint_engine.py` (`SPRINT-05` test suite).

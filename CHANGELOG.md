@@ -31,6 +31,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **Workspace Graduation & Navigation Refinement**:
   - Successfully graduated all 19 sprint files out of `docs/sprints/_active/`, establishing [`docs/sprints/_active/README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/_active/README.md) cleanly as the intake board / staging cockpit for future sprints.
   - Refined all 11 domain directory `README.md` files, [`docs/sprints/README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/README.md), [`README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/README.md), and [`index.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/index.md).
+- **Curriculum Chapter-to-Sprint Integration (`chapters/`)**:
+  - Fully integrated and bi-directionally linked all 12 curriculum chapters (`chapters/01_The_Value_of_Counting` through `chapters/12_Calendar_Coordination`) with their corresponding playable strategy sprints in `docs/sprints/`.
+  - Updated all 12 chapter `README.md` files and all 12 `MVP_The_*.md` cards with operational sprint realization sections, formal algebraic signatures $\Sigma = (S, \Omega, \mathcal{E})$, Baldwin modular operators, and physical hardware realizations.
+  - Enriched [`chapters/00_Structure_and_Vision.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/chapters/00_Structure_and_Vision.md) with the playable 12-sprint matrix, the Four Civilizational Epochs, the Player's Axiom (*"Knowledge is free, but judgment is not!"*), and the Vibration/Perturbation Free Will & Coherence Energy Cost principle.
 
 ## [2026-09-27] — Full 12-Chapter Structural Integration & Dual-Track Sprint Allocation Taxonomy
 

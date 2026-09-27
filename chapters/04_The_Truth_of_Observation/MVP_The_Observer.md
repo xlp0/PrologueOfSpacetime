@@ -4,6 +4,7 @@ chapter: 4
 matrix: Rhetoric x Astronomy
 role: The Quality Control Station
 artifact: VCard (Witness)
+sprint: docs/sprints/epoch-01-microcosmic-physics/SPRINT-04-HORIZON-OF-CONSENSUS.md
 ---
 
 # MVP: The Observer
@@ -59,3 +60,13 @@ How does **The Observer** sustain **[[Hub/Theory/Integration/Flow in PKC - Faste
 *   **Cognitive Clarity (Empty Schema)**: Verification focuses on **Content** (Logic), not just **Form** (Schema). The user isn't blocked by rigid "formatting errors" while trying to express a valid idea. The system adapts to verify what is *there*.
 
 > **"The Observer implies the Observed. Sovereignty is the ability to Pay for the Verification of your own reality."**
+
+
+## Ludic Realization: SPRINT-04 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-04-HORIZON-OF-CONSENSUS|Sprint 04: The Horizon of Consensus]] (Epoch I: The Primordial Sensorium)
+* **Dominant Mental Model**: The Triangulation Sextant / Parallax Lens
+* **Algebraic Signature**: $\Sigma_{\text{Consensus}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\arg\min_\theta \sum \rho_\delta(y_i - \theta) \to \text{Truth}\}$ (Huber loss consensus)
+* **Active Baldwin Operator**: **Inverting** (inverting noisy local observations to reconstruct invariant consensus coordinates)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Relativistic perspective ($u^\mu$) vs invariant consensus—choosing between distorting evidence for private advantage or bearing true witness.
+* **Physical & Digital Substrate**: Drone telemetry, Grafana OpenTelemetry dashboards, verified via `src/civilizational_sprint_engine.py`.

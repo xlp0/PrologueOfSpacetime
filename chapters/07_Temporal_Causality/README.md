@@ -47,3 +47,20 @@ In the **Miner-Coder-Trader Triad**, temporal causality is the Trader's **logica
 
 ### Five Tribes: The Evolutionary Mode
 Temporal causality introduces the **Evolutionary** learning paradigm (variants → survival). Event logs are populations of state transitions; the system selects the fittest causal chains (those that maintain consistency) and prunes the rest. Students should frame the "Iterative Refinement Loop" explicitly as evolution—generating multiple event orderings and selecting the one that preserves causality.
+
+
+---
+
+## 🎮 Operational Realization: Playable Game Sprint
+
+This chapter is directly implemented and playable via **[[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-07-CAUSAL-MONAD-FORGE|Sprint 07: The Causal Monad Forge]]** in **Epoch II: The Sovereign Tribal Mesh (What / Logic Era)**.
+
+* **Assembly Line Station**: Debugging Station (`VCard: Log`)
+* **Dominant Mental Model**: The Domino Web / The Causal Petri Net
+* **Formal Algebraic Signature**: $\Sigma_{\text{MonadForge}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{M' = M + C \cdot \vec{t}, \; A \circ B \neq B \circ A\}$ (Non-commutative Petri net firing)
+* **Active Baldwin Operator**: **Augmenting** (augmenting linear event logs with branched partial-order causality)
+* **Digital Synesthesia**: Phosphorescent Light-Cones (visualizing past/future event cones)
+* **Hardware Realization**: MQTT broker, Petri Net microcontrollers
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Immutable auditability vs revisionist rewriting of history.
+* **Vibration & Free Will**: Asynchronous race conditions offer execution branches; collapsing into an immutable linear trace pays the entropy of committed state.
+* **Automated Verification**: Formally certified with 0.0 error in `src/civilizational_sprint_engine.py` (`SPRINT-07` test suite).

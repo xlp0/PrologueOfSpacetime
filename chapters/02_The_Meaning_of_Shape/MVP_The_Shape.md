@@ -4,6 +4,7 @@ chapter: 2
 matrix: Rhetoric x Geometry
 role: The Blueprint Station
 artifact: MCard (Spatial)
+sprint: docs/sprints/epoch-01-microcosmic-physics/SPRINT-02-TOPOGRAPHIC-CELL-WALL.md
 ---
 
 # MVP: The Shape
@@ -69,3 +70,13 @@ How does **The Shape** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster I
 A well-shaped party is **resilient**—no single point of failure. If one character falls, others can adapt. This is the same principle as **distributed systems**: redundancy through geometric diversity.
 
 > **"The Shape of the network determines the Shape of the society. We build Bounded Geometries to ensure Distributed Power."**
+
+
+## Ludic Realization: SPRINT-02 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-02-TOPOGRAPHIC-CELL-WALL|Sprint 02: The Topographic Cell Wall]] (Epoch I: The Primordial Sensorium)
+* **Dominant Mental Model**: The Fortress Membrane / Geometric Bounding Box
+* **Algebraic Signature**: $\Sigma_{\text{CellWall}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\sum (\pi - \alpha_i) = 2\pi\}$ (Gauss-Bonnet curvature closure)
+* **Active Baldwin Operator**: **Augmenting** (extending 2D polygonal boundary into 3D spatial enclosure)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Choosing boundary permeability—permeable sharing vs extractive walled hoarding.
+* **Physical & Digital Substrate**: Kinect v2 depth sensing, 3D point-cloud topological printing, verified via `src/civilizational_sprint_engine.py`.

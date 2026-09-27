@@ -4,6 +4,7 @@ chapter: 10
 matrix: Grammar x Geometry
 role: The Infrastructure Station
 artifact: MCard (Graph)
+sprint: docs/sprints/epoch-03-collective-computation/SPRINT-10-RICE-TERRACE-SHEAF.md
 ---
 
 # MVP: The Topology
@@ -71,3 +72,13 @@ Each character has **local knowledge** (what they can see/know). The party's **g
 - **Decentralized**: No single point of failure (even if leader dies)
 
 > **"A Sovereign Nation must own its wires. The Topology is the physical manifestation of the Energy Budget."**
+
+
+## Ludic Realization: SPRINT-10 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-03-collective-computation/SPRINT-10-RICE-TERRACE-SHEAF|Sprint 10: The Rice Terrace Sheaf]] (Epoch III: The Sheaf Metamaterial)
+* **Dominant Mental Model**: The Interlocking Terrace / The Sheaf Quilt
+* **Algebraic Signature**: $\Sigma_{\text{RiceSheaf}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{H^1(\mathcal{U}, \mathcal{F}) = 0\}$ (Vanishing Čech cohomology / zero-shear obstruction)
+* **Active Baldwin Operator**: **Porting** (porting local topographic elevation patches into a globally glued sheaf section)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Coordinated terrace leveling vs catastrophic individual terrace collapse.
+* **Physical & Digital Substrate**: Sheaf cohomology solvers, LiDAR terrace mesh, verified via `src/civilizational_sprint_engine.py`.

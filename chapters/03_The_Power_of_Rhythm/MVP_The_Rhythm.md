@@ -4,6 +4,7 @@ chapter: 3
 matrix: Rhetoric x Music
 role: The Metronome Station
 artifact: PCard (Process)
+sprint: docs/sprints/epoch-01-microcosmic-physics/SPRINT-03-HARMONIC-SWARM.md
 ---
 
 # MVP: The Rhythm
@@ -59,3 +60,13 @@ How does **The Rhythm** sustain **[[Hub/Theory/Integration/Flow in PKC - Faster 
 *   **Adaptive Rhythm (Empty Schema)**: We do not impose rigid workflows (Complex Jira Schemas) on day one. The user starts with a simple pulse (Note-taking) and evolves into complex polyrhythms (Project Management) only when their skill level allows.
 
 > **"Music is not just art; it is the discipline of Time. A synchronized factory is an Energy-Efficient factory."**
+
+
+## Ludic Realization: SPRINT-03 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-03-HARMONIC-SWARM|Sprint 03: The Harmonic Swarm]] (Epoch I: The Primordial Sensorium)
+* **Dominant Mental Model**: The Flocking Swarm / Metronome Array
+* **Algebraic Signature**: $\Sigma_{\text{Swarm}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{r(t) = |\frac{1}{N}\sum e^{i\theta_j}| \to 1\}$ (Kuramoto phase order parameter)
+* **Active Baldwin Operator**: **Substituting** (substituting uncoordinated individual phase clocks with locked oscillator harmonics)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Deciding when to align with the collective tempo versus preserving independent rhythm.
+* **Physical & Digital Substrate**: ESP32 sonic emitters, Gamelan synchronization, verified via `src/civilizational_sprint_engine.py`.

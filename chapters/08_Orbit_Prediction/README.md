@@ -46,3 +46,20 @@ Orbit Prediction is where all three roles of the **Miner-Coder-Trader Triad** co
 
 ### Five Tribes: The Bayesian Mode
 Prediction introduces the **Bayesian** learning paradigm (prior → posterior). Every orbit prediction is a **belief update**: we start with a prior (historical trajectory), observe new data, and update our posterior (predicted future). Students should explicitly model uncertainty through confidence intervals—recognizing that prediction is not certainty but *calibrated belief*.
+
+
+---
+
+## 🎮 Operational Realization: Playable Game Sprint
+
+This chapter is directly implemented and playable via **[[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-08-ASTRODYNAMIC-NEXUS|Sprint 08: The Astrodynamic Nexus]]** in **Epoch II: The Sovereign Tribal Mesh (What / Logic Era)**.
+
+* **Assembly Line Station**: Simulation Station (`PCard: Model`)
+* **Dominant Mental Model**: The Gravitational Slingshot / The Attractor Funnel
+* **Formal Algebraic Signature**: $\Sigma_{\text{Nexus}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\text{Tr}(\mathcal{M}) < 2, \; \lambda_{\max} \le 0\}$ (Monodromy orbital stability matrix trace)
+* **Active Baldwin Operator**: **Substituting** (substituting chaotic drift with resonant orbital transfer manifolds)
+* **Digital Synesthesia**: Attractor Holography (visualizing phase space basins of attraction)
+* **Hardware Realization**: OpenClaw orbital simulator, analog compute nodes
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Long-term ecological orbital foresight vs short-term trajectory extraction.
+* **Vibration & Free Will**: Orbital perturbations allow slingshot escape maneuvers; returning to stable limit cycle requires delta-V propellant energy.
+* **Automated Verification**: Formally certified with 0.0 error in `src/civilizational_sprint_engine.py` (`SPRINT-08` test suite).

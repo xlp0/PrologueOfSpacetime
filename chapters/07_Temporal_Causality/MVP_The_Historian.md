@@ -4,6 +4,7 @@ chapter: 7
 matrix: Logic x Music
 role: The Debugging Station
 artifact: VCard (Log)
+sprint: docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-07-CAUSAL-MONAD-FORGE.md
 ---
 
 # MVP: The Historian
@@ -61,3 +62,13 @@ D&D **post-session analysis** demonstrates causal reasoning through event logs:
 This is the same as Git history—every commit (event) builds on the previous state to create the current reality.
 
 > **"To debug is to exercise power over time. The Sovereign remembers what matters and forgets what is noise."**
+
+
+## Ludic Realization: SPRINT-07 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-07-CAUSAL-MONAD-FORGE|Sprint 07: The Causal Monad Forge]] (Epoch II: The Sovereign Tribal Mesh)
+* **Dominant Mental Model**: The Domino Web / The Causal Petri Net
+* **Algebraic Signature**: $\Sigma_{\text{MonadForge}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{M' = M + C \cdot \vec{t}, \; A \circ B \neq B \circ A\}$ (Non-commutative Petri net firing)
+* **Active Baldwin Operator**: **Augmenting** (augmenting linear event logs with branched partial-order causality)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Immutable auditability vs revisionist rewriting of history.
+* **Physical & Digital Substrate**: MQTT broker, Petri Net microcontrollers, verified via `src/civilizational_sprint_engine.py`.

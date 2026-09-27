@@ -4,6 +4,7 @@ chapter: 8
 matrix: Logic x Astronomy
 role: The Simulation Station
 artifact: PCard (Model)
+sprint: docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-08-ASTRODYNAMIC-NEXUS.md
 ---
 
 # MVP: The Predictor
@@ -55,3 +56,13 @@ How does **The Predictor** sustain **[[Hub/Theory/Integration/Flow in PKC - Fast
 *   **Hypothesis Play (Empty Schema)**: We encourage "What If?" exploration. The user can fork the "World State" to test radical scenarios without breaking the production model. The "Future" is malleable until it is committed.
 
 > **"Sovereignty is not knowing everything; it is knowing enough to make the next move safely."**
+
+
+## Ludic Realization: SPRINT-08 Integration
+
+* **Playable Game Sprint**: [[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-08-ASTRODYNAMIC-NEXUS|Sprint 08: The Astrodynamic Nexus]] (Epoch II: The Sovereign Tribal Mesh)
+* **Dominant Mental Model**: The Gravitational Slingshot / The Attractor Funnel
+* **Algebraic Signature**: $\Sigma_{\text{Nexus}} = (S, \Omega, \mathcal{E})$ where $\mathcal{E} = \{\text{Tr}(\mathcal{M}) < 2, \; \lambda_{\max} \le 0\}$ (Monodromy orbital stability matrix trace)
+* **Active Baldwin Operator**: **Substituting** (substituting chaotic drift with resonant orbital transfer manifolds)
+* **The Player's Axiom**: *"Knowledge is free, but judgment is not!"* — Long-term ecological orbital foresight vs short-term trajectory extraction.
+* **Physical & Digital Substrate**: OpenClaw orbital simulator, analog compute nodes, verified via `src/civilizational_sprint_engine.py`.
