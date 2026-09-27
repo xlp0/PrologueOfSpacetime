@@ -1,21 +1,6 @@
----
-title: 'Sprint Category 04: Cross-Domain Synthesis'
-date: 2026-09-27
-tags: [sprints, archive, 04-cross-domain-synthesis]
-type: overview
-status: stable
-liberal_art: Trivium-Rhetoric
----
+# 04: Cross-Domain Synthesis (Miller Index 4)
 
-# Sprint Category 04: Cross-Domain Synthesis
+This domain directory houses graduated sprints aligning theoretical mathematics with practical engineering implementations and digital synesthesia.
 
-> **Domain Scope**: Interdisciplinary bridges, multi-paradigm harmonization, world models (JEPA/Atlas), and aligning mathematical rigor with engineering realities.
-
-## Sprints Allocated to this Domain
-
-| Active Sprint | Current State | Target Domain | Allocation Policy |
-| :--- | :--- | :--- | :--- |
-| **[[SPRINT-AOS-04-CROSS-DOMAIN-SYNTHESIS.md]]** | Active in `_active/` | Sprint Category 04: Cross-Domain Synthesis | Upon Definition of Done certification, sprint artifact will be archived to this folder. |
-
----
-*Maintained under the Sprint System Taxonomy.*
+## Allocated Graduated Sprints
+- [[SPRINT-AOS-04-CROSS-DOMAIN-SYNTHESIS|Sprint AoS-04: Cross-Domain Synthesis]] — Relational Function Composition, LeCun JEPA manifolds, Knowledge Production Workflow, and Digital Synesthesia compilation. Status: **Graduated / Done**.

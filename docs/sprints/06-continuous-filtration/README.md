@@ -1,21 +1,6 @@
----
-title: 'Sprint Category 06: Continuous Filtration and Loopback'
-date: 2026-09-27
-tags: [sprints, archive, 06-continuous-filtration]
-type: overview
-status: stable
-liberal_art: Quadrivium-Music
----
+# 06: Continuous Filtration and Ingestion (Miller Index 6)
 
-# Sprint Category 06: Continuous Filtration and Loopback
+This domain directory houses graduated sprints executing continuous literature ingestion, loopback mechanics, and candidate harvesting.
 
-> **Domain Scope**: Continuous literature ingestion, candidate MCard harvesting, sheaf cohomology audits, and closed-loop feedback trace Tr(M).
-
-## Sprints Allocated to this Domain
-
-| Active Sprint | Current State | Target Domain | Allocation Policy |
-| :--- | :--- | :--- | :--- |
-| **[[SPRINT-AOS-06-CONTINUOUS-FILTRATION.md]]** | Active in `_active/` | Sprint Category 06: Continuous Filtration and Loopback | Upon Definition of Done certification, sprint artifact will be archived to this folder. |
-
----
-*Maintained under the Sprint System Taxonomy.*
+## Allocated Graduated Sprints
+- [[SPRINT-AOS-06-CONTINUOUS-FILTRATION|Sprint AoS-06: Continuous Filtration & Ingestion]] — Closed-loop feedback traces, Maxwell demonic literature filtration, and Sheaf cohomological Betti loop audits. Status: **Graduated / Done**.

@@ -131,20 +131,38 @@ Each chapter has a `README` (overview) and an `MVP_The_*` (minimum viable protot
 ## Sprint Architecture & Graduated Repositories (`docs/sprints/`)
 
 - [[docs/sprints/README|Sprints Master Directory Architecture]] — Dual-track organization: George A. Miller's Magic Seven Taxonomy and Four Civilizational Epochs.
-- **Track A: George A. Miller's Magic Seven Taxonomy**
-  - [[docs/sprints/01-inventory-and-taxonomy/README|01: Inventory and Taxonomy]] — Content inventory, vault catalog, and topic boundaries.
-    - [[docs/sprints/01-inventory-and-taxonomy/SPRINT-AOS-01-CONTENT-INVENTORY|Sprint AoS-01: Content Inventory & Topic Taxonomy]] [Graduated / Done]
-  - [[docs/sprints/02-mathematical-formalization/README|02: Mathematical Formalization]] — Rank-nullity, KaTeX invariants, and theorem bridges.
-  - [[docs/sprints/03-modularity-and-decoupling/README|03: Modularity and Decoupling]] — Baldwin operators, Axiomatic Design, and Maxwell gatekeepers.
-  - [[docs/sprints/04-cross-domain-synthesis/README|04: Cross-Domain Synthesis]] — Relational composition, Real Options, and synesthesia maps.
-  - [[docs/sprints/05-verification-and-qa/README|05: Verification and QA]] — Zero-loss QA, cross-link repair, and invariant testing.
-  - [[docs/sprints/06-continuous-filtration/README|06: Continuous Filtration]] — Literature extraction, loopback pipelines, and research ingestion.
-  - [[docs/sprints/07-master-orchestration/README|07: Master Orchestration]] — Master roadmaps, meta-sprints, and system integration.
-- **Track B: The Four Civilizational Epochs**
-  - [[docs/sprints/epoch-01-microcosmic-physics/README|Epoch 01: Microcosmic Physics & The Sensorium]] (Sprints 01–04)
-  - [[docs/sprints/epoch-02-ecosystemic-emergence/README|Epoch 02: Ecosystemic Emergence & Tribal Mesh]] (Sprints 05–08)
-  - [[docs/sprints/epoch-03-collective-computation/README|Epoch 03: Collective Computation & Sheaf Metamaterial]] (Sprints 09–11)
-  - [[docs/sprints/epoch-04-cosmological-harmony/README|Epoch 04: Cosmological Harmony & Planetary Noosphere]] (Sprint 12)
+- **Track A: George A. Miller's Magic Seven Taxonomy (AoS Infrastructure)**
+  - [[docs/sprints/01-inventory-and-taxonomy/README|01: Inventory and Taxonomy]]
+    - [[docs/sprints/01-inventory-and-taxonomy/SPRINT-AOS-01-CONTENT-INVENTORY|Sprint AoS-01: Content Inventory & Topic Taxonomy]] [Completed]
+  - [[docs/sprints/02-mathematical-formalization/README|02: Mathematical Formalization]]
+    - [[docs/sprints/02-mathematical-formalization/SPRINT-AOS-02-MATHEMATICAL-FORMALIZATION|Sprint AoS-02: Mathematical Formalization]] [Completed]
+  - [[docs/sprints/03-modularity-and-decoupling/README|03: Modularity and Decoupling]]
+    - [[docs/sprints/03-modularity-and-decoupling/SPRINT-AOS-03-MODULARITY-AND-DECOUPLING|Sprint AoS-03: Modularity & Decoupling]] [Completed]
+  - [[docs/sprints/04-cross-domain-synthesis/README|04: Cross-Domain Synthesis]]
+    - [[docs/sprints/04-cross-domain-synthesis/SPRINT-AOS-04-CROSS-DOMAIN-SYNTHESIS|Sprint AoS-04: Cross-Domain Synthesis]] [Completed]
+  - [[docs/sprints/05-verification-and-qa/README|05: Verification and QA]]
+    - [[docs/sprints/05-verification-and-qa/SPRINT-AOS-05-VERIFICATION-AND-QA|Sprint AoS-05: Verification & Zero-Loss QA]] [Completed]
+  - [[docs/sprints/06-continuous-filtration/README|06: Continuous Filtration]]
+    - [[docs/sprints/06-continuous-filtration/SPRINT-AOS-06-CONTINUOUS-FILTRATION|Sprint AoS-06: Continuous Filtration & Ingestion]] [Completed]
+  - [[docs/sprints/07-master-orchestration/README|07: Master Orchestration]]
+    - [[docs/sprints/07-master-orchestration/SPRINT-00-MASTER-ORCHESTRATION|Sprint 00: Master Orchestration Plan]] [Completed]
+- **Track B: The Four Civilizational Epochs (Playable Game Sprints)**
+  - [[docs/sprints/epoch-01-microcosmic-physics/README|Epoch 01: Microcosmic Physics & The Sensorium]] (Rhetoric / Why: Ch 01–04)
+    - [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]] [Completed]
+    - [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-02-TOPOGRAPHIC-CELL-WALL|Sprint 02: The Topographic Cell Wall]] [Completed]
+    - [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-03-HARMONIC-SWARM|Sprint 03: The Harmonic Swarm]] [Completed]
+    - [[docs/sprints/epoch-01-microcosmic-physics/SPRINT-04-HORIZON-OF-CONSENSUS|Sprint 04: The Horizon of Consensus]] [Completed]
+  - [[docs/sprints/epoch-02-ecosystemic-emergence/README|Epoch 02: Ecosystemic Emergence & Tribal Mesh]] (Logic / What: Ch 05–08)
+    - [[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-05-YONEDA-BAZAAR|Sprint 05: The Yoneda Bazaar]] [Completed]
+    - [[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-06-SUBAK-MESHWAY|Sprint 06: The Subak Meshway]] [Completed]
+    - [[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-07-CAUSAL-MONAD-FORGE|Sprint 07: The Causal Monad Forge]] [Completed]
+    - [[docs/sprints/epoch-02-ecosystemic-emergence/SPRINT-08-ASTRODYNAMIC-NEXUS|Sprint 08: The Astrodynamic Nexus]] [Completed]
+  - [[docs/sprints/epoch-03-collective-computation/README|Epoch 03: Collective Computation & Sheaf Metamaterial]] (Grammar / How: Ch 09–11)
+    - [[docs/sprints/epoch-03-collective-computation/SPRINT-09-HYDRAULIC-VAULT|Sprint 09: The Hydraulic Vault]] [Completed]
+    - [[docs/sprints/epoch-03-collective-computation/SPRINT-10-RICE-TERRACE-SHEAF|Sprint 10: The Rice Terrace Sheaf]] [Completed]
+    - [[docs/sprints/epoch-03-collective-computation/SPRINT-11-ZERO-QUEUE-CEREMONY|Sprint 11: The Zero-Queue Ceremony]] [Completed]
+  - [[docs/sprints/epoch-04-cosmological-harmony/README|Epoch 04: Cosmological Harmony & Planetary Noosphere]] (Synthesis / Spacetime: Ch 12)
+    - [[docs/sprints/epoch-04-cosmological-harmony/SPRINT-12-IMPLEDICATIVE-CALENDAR|Sprint 12: The Impredicative Calendar]] [Completed]
 
 ## Game design (`docs/game_design/`, `docs/gameboard/`)
 

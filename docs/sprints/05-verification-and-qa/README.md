@@ -1,21 +1,6 @@
----
-title: 'Sprint Category 05: Verification and QA'
-date: 2026-09-27
-tags: [sprints, archive, 05-verification-and-qa]
-type: overview
-status: stable
-liberal_art: Trivium-Logic
----
+# 05: Verification and Zero-Loss QA (Miller Index 5)
 
-# Sprint Category 05: Verification and QA
+This domain directory houses graduated sprints providing test suites, invariant verification gates, and syntax certification.
 
-> **Domain Scope**: Zero-loss content audits, bidirectional link verification, KaTeX/Mermaid syntax validation, and automated regression testing.
-
-## Sprints Allocated to this Domain
-
-| Active Sprint | Current State | Target Domain | Allocation Policy |
-| :--- | :--- | :--- | :--- |
-| **[[SPRINT-AOS-05-VERIFICATION-AND-QA.md]]** | Active in `_active/` | Sprint Category 05: Verification and QA | Upon Definition of Done certification, sprint artifact will be archived to this folder. |
-
----
-*Maintained under the Sprint System Taxonomy.*
+## Allocated Graduated Sprints
+- [[SPRINT-AOS-05-VERIFICATION-AND-QA|Sprint AoS-05: Verification & Zero-Loss QA]] — Relational Functional Invariance Protocol, Static Gates GATE-A through GATE-D, Jev typed projection verification, and 100% link resolution. Status: **Graduated / Done**.

@@ -1,21 +1,6 @@
----
-title: 'Sprint Category 03: Modularity and Decoupling'
-date: 2026-09-27
-tags: [sprints, archive, 03-modularity-and-decoupling]
-type: overview
-status: stable
-liberal_art: Trivium-Grammar
----
+# 03: Modularity and Decoupling (Miller Index 3)
 
-# Sprint Category 03: Modularity and Decoupling
+This domain directory houses graduated sprints implementing Axiomatic Design, curvature annihilation, and modular operator decoupling.
 
-> **Domain Scope**: Axiomatic design, curvature annihilation (R=0), Baldwin modular operators, thin crossing points, and task-factor-zone decoupling.
-
-## Sprints Allocated to this Domain
-
-| Active Sprint | Current State | Target Domain | Allocation Policy |
-| :--- | :--- | :--- | :--- |
-| **[[SPRINT-AOS-03-MODULARITY-AND-DECOUPLING.md]]** | Active in `_active/` | Sprint Category 03: Modularity and Decoupling | Upon Definition of Done certification, sprint artifact will be archived to this folder. |
-
----
-*Maintained under the Sprint System Taxonomy.*
+## Allocated Graduated Sprints
+- [[SPRINT-AOS-03-MODULARITY-AND-DECOUPLING|Sprint AoS-03: Modularity & Decoupling]] — Curvature Annihilation ($R = 0$), Yu Deng's Recollision Pruning, Maxwell Demonic Gating, and the Six Baldwin Modular Operators. Status: **Graduated / Done**.

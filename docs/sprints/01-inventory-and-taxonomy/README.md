@@ -1,21 +1,6 @@
----
-title: 'Sprint Category 01: Inventory and Taxonomy (Archived Completed Sprints)'
-date: 2026-09-27
-tags: [sprints, archive, inventory, taxonomy, aos]
-type: overview
-status: stable
-liberal_art: Trivium-Grammar
----
+# 01: Inventory and Taxonomy (Miller Index 1)
 
-# Sprint Category 01: Inventory and Taxonomy
+This domain directory houses graduated sprints that audit, catalog, and boundary-map knowledge vaults, system manifolds, and heterogeneous types.
 
-> **Domain Scope**: Discovery, content audits, structural inventories, topic taxonomies, semantic boundaries, and metadata compliance. Grounded in George A. Miller's cognitive chunking architecture.
-
-## Allocated Completed Sprints
-
-| Sprint Document | Title | Status | Execution Date | Key Deliverables |
-| :--- | :--- | :--- | :--- | :--- |
-| **[[SPRINT-AOS-01-CONTENT-INVENTORY|SPRINT-AOS-01]]** | Content Inventory & Topic Taxonomy — Systems as Manifolds, Multi-Scale Decisions, and Heterogeneous Types | **Done** (Verified) | 2026-09-27 | 22-row / 29-file audit completed; `docs/WorkingNotes` symlink re-anchored; [[docs/concepts/The_Knowledge_Production_Workflow|The Knowledge Production Workflow]] (27.8 KB) and [[docs/concepts/AoS_The_Interaction_Manifold_and_Software_Lagrangian|AoS: Interaction Manifold & Software Lagrangian]] (7.1 KB) materialized. |
-
----
-*Archived from `docs/sprints/_active/` upon Definition of Done certification on 2026-09-27.*
+## Allocated Graduated Sprints
+- [[SPRINT-AOS-01-CONTENT-INVENTORY|Sprint AoS-01: Content Inventory & Topic Taxonomy]] — Content inventory, 22-roster-row audit, symlink re-anchoring, and materialization of the Knowledge Production Workflow. Status: **Graduated / Done**.

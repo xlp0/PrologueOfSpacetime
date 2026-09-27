@@ -1,21 +1,10 @@
----
-title: 'Epoch IV: Cosmological Harmony & Synthesis (Chapter 12)'
-date: 2026-09-27
-tags: [sprints, archive, epoch-04-cosmological-harmony]
-type: overview
-status: stable
-liberal_art: Quadrivium-Astronomy
----
+# Epoch 04: Cosmological Harmony & The Planetary Noosphere (Transcendent Era / Synthesis)
 
-# Epoch IV: Cosmological Harmony & Synthesis (Chapter 12)
+This epoch houses graduated game sprints achieving multi-scale cosmological synthesis, multi-calendar ephemeris resonance, and Tri Hita Karana ecological equilibrium.
 
-> **Domain Scope**: Poly-temporal calendar synchronization, impredicative self-reference, noospheric coherence, and Tri Hita Karana equilibrium.
+## Curriculum Chapter Alignment
+- Cell: **Astronomy × Grammar (Spacetime / Structure)**
+- Culmination Chapter: Chapter 12: Calendar Coordination ($\Pi^1_1\text{-}CA_0$ | Phase: Water)
 
-## Sprints Allocated to this Domain
-
-| Active Sprint | Current State | Target Domain | Allocation Policy |
-| :--- | :--- | :--- | :--- |
-| **[[SPRINT-12]]** | Active in `_active/` | Epoch IV: Cosmological Harmony & Synthesis (Chapter 12) | Upon Definition of Done certification, sprint artifact will be archived to this folder. |
-
----
-*Maintained under the Sprint System Taxonomy.*
+## Allocated Graduated Sprints
+- [[SPRINT-12-IMPLEDICATIVE-CALENDAR|Sprint 12: The Impredicative Calendar]] — Tri Hita Karana planetary synthesis, stationary action of the Software Lagrangian ($\delta \mathcal{S}_{\text{THK}} = 0$), multi-calendar ephemeris computers, and universal noospheric synesthesia. Chapter 12. Status: **Graduated / Done**.

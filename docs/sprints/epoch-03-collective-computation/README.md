@@ -1,21 +1,12 @@
----
-title: 'Epoch III: Collective Computation & Stewardship (Chapters 09–11)'
-date: 2026-09-27
-tags: [sprints, archive, epoch-03-collective-computation]
-type: overview
-status: stable
-liberal_art: Quadrivium-Arithmetic
----
+# Epoch 03: Collective Computation & The Sheaf Metamaterial (How / Grammar Era)
 
-# Epoch III: Collective Computation & Stewardship (Chapters 09–11)
+This epoch houses graduated game sprints covering micro-measurement ledgers, terrace sheaf gluing, and zero-queue high-throughput synchronization.
 
-> **Domain Scope**: Zero-knowledge cryptographic water vaults, sheaf cohomology over agricultural terraces, and zero-queue ceremonial pipelining.
+## Curriculum Chapter Alignment
+- Row: **Grammar (Structure / How)**
+- Columns: Arithmetic (Ch 9), Geometry (Ch 10), Music (Ch 11)
 
-## Sprints Allocated to this Domain
-
-| Active Sprint | Current State | Target Domain | Allocation Policy |
-| :--- | :--- | :--- | :--- |
-| **[[SPRINT-09 through SPRINT-11]]** | Active in `_active/` | Epoch III: Collective Computation & Stewardship (Chapters 09–11) | Upon Definition of Done certification, sprint artifact will be archived to this folder. |
-
----
-*Maintained under the Sprint System Taxonomy.*
+## Allocated Graduated Sprints
+- [[SPRINT-09-HYDRAULIC-VAULT|Sprint 09: The Hydraulic Vault]] — Typed double-entry water ledger conservation ($\int Q_{\text{in}} dt - \int Q_{\text{out}} dt = \Delta V$), algebraic sum/product types, and crystalline gemstone sight. Chapter 9 ($RCA_0$). Status: **Graduated / Done**.
+- [[SPRINT-10-RICE-TERRACE-SHEAF|Sprint 10: The Rice Terrace Sheaf]] — Topographic sheaf gluing, vanishing Čech cohomology obstruction ($H^1(\mathcal{U}, \mathcal{F}) = 0$), and zero-shear manifold vision. Chapter 10 ($WKL_0$). Status: **Graduated / Done**.
+- [[SPRINT-11-ZERO-QUEUE-CEREMONY|Sprint 11: The Zero-Queue Ceremony]] — Little's Law pipeline throughput ($W_q \equiv 0$), Kotekan interlocking clock synthesizers, and acoustic strobe resonance. Chapter 11 ($ACA_0$). Status: **Graduated / Done**.
