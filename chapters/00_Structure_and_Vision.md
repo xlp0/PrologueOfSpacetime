@@ -162,7 +162,7 @@ To uphold the **Local-First** and **Frictionless Entry** principles across inter
 1. 🇮🇩 **Bahasa Indonesia (`id`)**: Accessible, warm, grounded in Nusantara everyday life and agricultural engineering metaphors (e.g. Subak water allocation, gotong royong, bamboo sluice ADC).
 2. 🕉️ **Sanskrit / Balinese Sanskrit (`sa`)**: The classical sacred language as taught and preserved in Bali (Pasraman and traditional academies), providing foundational etymological rigor, metaphysical precision (*Tri Hita Karana*, *Pramāṇa*, *Jala-Ghaṭikā*, *Śūnyatā*, *Karma-Phala*), and the civilizational bridge between ancient cosmic order (*Ṛta*) and computational type theory.
 3. 🇬🇧 **English (`en`)**: Rigorous, technical, aligned with international scientific, category-theoretic, and HoTT terminology.
-4. 🇹🇼 **Traditional Chinese (`zh-TW`)**: 正體中文 / 繁體中文 — culturally resonant, mathematically precise, strictly utilizing `MCard` / `單子牌` (strictly prohibiting the erroneous literal mistranslation `超卡`).
+4. 🇹🇼 **Traditional Chinese (`zh-TW`)**: 正體中文 / 繁體中文 — culturally resonant, mathematically precise, strictly utilizing `MCard` / `單子牌`, always translating `Hypercard` as **`超媒體卡牌`** (and strictly prohibiting the erroneous literal mistranslation `超卡`).
 
 #### The Decoupling Mandate
 1. **Pristine Mathematical & Execution Logic**:

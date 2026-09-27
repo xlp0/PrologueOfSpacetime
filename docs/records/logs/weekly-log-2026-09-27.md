@@ -278,3 +278,18 @@ liberal_art: Quadrivium-Music
   - Ran `node chapters/01_The_Value_of_Counting/type_lattice.js id` — 100% stratification, valid MCard hash.
   - Ran `node chapters/02_The_Meaning_of_Shape/type_lattice.js id` — 100% stratification, valid MCard hash.
   - Ran `python3 src/civilizational_sprint_engine.py` — 100% pass across all 12 sprints.
+
+## [2026-09-27] standard | Codified Chinese Translation of Hypercard as 超媒體卡牌 and MCard as 單子牌
+- **Objective:** Establish and enforce the standard Traditional Chinese (`zh-TW`) translation of `Hypercard` / `HyperCard` as **「超媒體卡牌」** (Hypermedia Card), reinforce `MCard` as **「單子牌」** (Monadic Card), and strictly prohibit erroneous literal machine translations like 「超卡」 across all documentation, skill configurations, and schemas.
+- **Actions Taken:**
+  1. Updated `.agent/skills/mcard-specification/SKILL.md`:
+     - Updated YAML frontmatter description and Sovereign Rule to explicitly state that whenever `Hypercard` / `HyperCard` is translated into Chinese, it must always be translated as **「超媒體卡牌」**, and `MCard` as **「單子牌」**.
+     - Expanded Section 1 table and added Section 1.1 distinguishing historical 1987 software (`HyperCard` $\to$ 「超媒體卡牌」) from the project's HoTT computational atom (`MCard` $\to$ 「單子牌」), making 「超卡」 an actionable lint violation.
+  2. Updated `chapters/00_Structure_and_Vision.md` (Section 3.2 item 4): Codified the mandate that all Traditional Chinese (`zh-TW`) translations must strictly utilize `MCard` / `單子牌`, always translate `Hypercard` as **`超媒體卡牌`**, and strictly prohibit `超卡`.
+  3. Updated `AGENTS.md` (Section 4.6): Added Chinese Terminology Standard enshrining `Hypercard` $\to$ **`超媒體卡牌`** and `MCard` $\to$ **`單子牌`** in the repository schema.
+- **Verification:**
+  - Verified zero occurrences of `超卡` outside of proscriptive rules.
+  - Verified `node chapters/01_The_Value_of_Counting/type_lattice.js zh-TW` — 100% stratification and valid MCard hash.
+  - Verified `node chapters/02_The_Meaning_of_Shape/type_lattice.js zh-TW` — 100% stratification and valid MCard hash.
+  - Verified `python3 src/civilizational_sprint_engine.py` — 100% pass across all 12 sprints.
+

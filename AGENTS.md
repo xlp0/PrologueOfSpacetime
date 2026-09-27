@@ -136,6 +136,10 @@ Every page gets a `liberal_art` frontmatter field + matching tag (one of the sev
 
 - **`README.md` files must be strictly English-only**: Across all directories and subdirectories, every `README.md` must be written entirely and exclusively in English. **Never** mix Indonesian (Bahasa Indonesia), Chinese, Sanskrit, or other natural languages into `README.md` prose or section headings.
 - **Multilingual Content belongs in Decoupled SSOT Repositories**: All non-English pedagogical texts, dialogues, and UI statements belong in dedicated external multilingual repositories (such as `locales.json`, `type_lattice_locales.json`, or dedicated localized guides under `docs/`), preserving clean architectural separation of concerns and preventing language fragmentation in technical overviews.
+- **Chinese Terminology Standard**:
+  - `Hypercard` / `HyperCard` **MUST ALWAYS** be translated as **「超媒體卡牌」** (Hypermedia Card).
+  - `MCard` translates to **「單子牌」** (Monadic Card).
+  - The literal rendering **「超卡」** is strictly prohibited across all documentation, UI strings, and codebases.
 
 ## 5. The two special files
 

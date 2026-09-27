@@ -1,11 +1,11 @@
 ---
 name: mcard-specification
-description: Standardizes MCard (Monadic Card) nomenclature, HoTT Σ-type semantics, and multilingual representations across English, Indonesian, and Orthodox Chinese locales. Prohibits erroneous "HyperCard" and "超卡" translations.
+description: Standardizes MCard (Monadic Card) nomenclature, HoTT Σ-type semantics, and multilingual representations across English, Indonesian, and Orthodox Chinese locales. Mandates translation of Hypercard as "超媒體卡牌" and MCard as "單子牌", strictly prohibiting "超卡".
 ---
 
 # MCard Specification & Multilingual Terminology Standard
 
-> **The Sovereign Rule**: In the *Prologue of Spacetime*, all cards and computational stacks previously referred to as *HyperCard* or *超卡* are strictly unified as **`MCard`** (Monadic Card / 單子牌) across English (`en`), Indonesian (`id`), and Orthodox Chinese (`zh-TW`).
+> **The Sovereign Rule**: In the *Prologue of Spacetime*, all cards and computational stacks previously referred to as *HyperCard* or *超卡* are strictly unified as **`MCard`** (Monadic Card / 單子牌) across English (`en`), Indonesian (`id`), and Orthodox Chinese (`zh-TW`). Whenever *Hypercard* / *HyperCard* is translated into Chinese, it **MUST ALWAYS** be translated as **「超媒體卡牌」** (Hypermedia Card), and the literal mistranslation 「超卡」 is strictly prohibited.
 
 ---
 
@@ -15,12 +15,15 @@ description: Standardizes MCard (Monadic Card) nomenclature, HoTT Σ-type semant
 |:---|:---|:---|:---|
 | **English (`en`)** | `MCard` | `MCard Water Clock`, `MCard Stack`, `MCard Ledger` | `HyperCard` / `Hypercard` *(Permitted only when citing 1987 Bill Atkinson software)* |
 | **Indonesian (`id`)** | `MCard` | `Jam Air MCard`, `Buku Kas MCard`, `Kartu Monadik MCard` | `Pancuran Jam Air` *(unanchored)*, `HyperCard` |
-| **Orthodox Chinese (`zh-TW`)** | `MCard` | `MCard 水鐘`, `MCard 帳本`, `單子牌` | ❌ **`超卡`** *(Strictly prohibited literal mistranslation)*, `HyperCard` |
+| **Orthodox Chinese (`zh-TW`)** | `MCard` / `單子牌` | `MCard 水鐘`, `MCard 帳本`, `單子牌` | ❌ **`超卡`** *(Strictly prohibited; Hypercard must always be translated as 「超媒體卡牌」)* |
 
-### 1.1 The Proscription of "超卡"
-- **Root Cause**: Machine translation historically rendered Apple's 1987 "HyperCard" as "超卡" (Super/Hyper Card).
-- **Architectural Reality**: In *Prologue of Spacetime*, the card primitive is an **`MCard`**—derived from Leibniz's *Monadology*, Wadler's computational monads, and Homotopy Type Theory $\Sigma$-types.
-- **Enforcement**: Any appearance of "超卡" in Chinese docs, comments, UI strings, or logs is a critical lint violation and must be replaced with `MCard` (or `單子牌` in formal philosophical taxonomy).
+### 1.1 Hypercard Translation Standard & The Proscription of "超卡"
+- **Mandatory Translation**: Whenever *Hypercard* or *HyperCard* (referring to Bill Atkinson's 1987 software or the hypermedia card paradigm) is translated into Chinese, it **MUST ALWAYS** be translated as **「超媒體卡牌」** (Hypermedia Card).
+- **The Proscription of "超卡"**: Machine translation historically rendered Apple's 1987 "HyperCard" literally as "超卡" (Super/Hyper Card). Any appearance of "超卡" in Chinese docs, comments, UI strings, or logs is a critical lint violation and is strictly forbidden.
+- **Architectural Distinction**:
+  - **`HyperCard` $\to$ 「超媒體卡牌」**: The historical 1987 hypermedia software and paradigm.
+  - **`MCard` $\to$ 「單子牌」**: The foundational computational atom of *Prologue of Spacetime*, grounded in Leibniz's *Monadology*, Wadler's monadic computing, and Homotopy Type Theory $\Sigma$-types.
+- **Enforcement**: Any appearance of "超卡" must be eradicated and replaced with either `超媒體卡牌` (when referring to Hypercard) or `MCard` / `單子牌` (when referring to the computational atom).
 
 ---
 
