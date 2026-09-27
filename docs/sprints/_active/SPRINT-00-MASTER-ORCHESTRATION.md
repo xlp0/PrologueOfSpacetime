@@ -226,75 +226,112 @@ A foundational physical insight links agent agency with non-equilibrium statisti
 
 ## 6. The 12-Sprint Civilizational Game Matrix
 
-The game is divided into four historical epochs matching civilizational scale:
+The game is divided into four historical epochs matching civilizational scale, structured along the 3 Trivium rows (Rhetoric/Why, Logic/What, Grammar/How) and 4 Quadrivium columns (Arithmetic, Geometry, Music, Astronomy), executed across the Brain Factory Assembly Line:
 
 ### Epoch I: The Primordial Sensorium (Rhetoric Era / Why)
 - **[[SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]]** (*Spore* Tidepool analogue)
-  - Chapter: [[chapters/01_The_Value_of_Counting|Chapter 1: The Value of Counting]] (Arithmetic × Rhetoric)
-  - Puzzle: Sieve stochastic bitstreams; separate thermodynamic white noise ($H \to \infty$) into discrete integer token buckets ($\mathbb{N}$).
-  - Invariant Victory: Shannon entropy reduction $\Delta H < -\epsilon$.
-  - Synesthesia: **Auditory Pulse Train (Level 1)**.
+  - **Curriculum Chapter**: [[chapters/01_The_Value_of_Counting|Chapter 1: The Value of Counting]] (Arithmetic × Rhetoric: Number / Value)
+  - **Brain Factory Station**: Inventory Station (`MCard: Memory`)
+  - **Reverse Math & Wuxing**: $RCA_0$ (Level 1: Computable) | Phase: Wood (Mù / Growth)
+  - **Physical Hardware Realization**: HyperCard Water Clock, discrete HoTT pulse counters, 433MHz RF sensor nodes
+  - **Puzzle**: Sieve stochastic bitstreams; separate thermodynamic white noise ($H \to \infty$) into discrete integer token buckets ($\mathbb{N}$).
+  - **Invariant Victory**: Shannon entropy reduction $\Delta H < -\epsilon$.
+  - **Synesthesia**: **Auditory Pulse Train (Level 1)**.
 - **[[SPRINT-02-TOPOGRAPHIC-CELL-WALL|Sprint 02: The Topographic Cell Wall]]** (Cellular boundary analogue)
-  - Chapter: [[chapters/02_The_Meaning_of_Shape|Chapter 2: The Meaning of Shape]] (Geometry × Rhetoric)
-  - Puzzle: Geometric place-making; shelter tokens from hostile environmental entropy gradients.
-  - Invariant Victory: Gauss-Bonnet curvature closure around protected tokens.
-  - Synesthesia: **Topological Parallax (Level 2)**.
+  - **Curriculum Chapter**: [[chapters/02_The_Meaning_of_Shape|Chapter 2: The Meaning of Shape]] (Geometry × Rhetoric: Space / Value)
+  - **Brain Factory Station**: Blueprint Station (`MCard: Spatial`)
+  - **Reverse Math & Wuxing**: $WKL_0$ (Level 2: Compact / Choice) | Phase: Fire (Huǒ / Illumination)
+  - **Physical Hardware Realization**: Kinect v2 depth sensing, 3D topology point-cloud printing, LiDAR spatial boundaries
+  - **Puzzle**: Geometric place-making; shelter tokens from hostile environmental entropy gradients.
+  - **Invariant Victory**: Gauss-Bonnet curvature closure around protected tokens.
+  - **Synesthesia**: **Topological Parallax (Level 2)**.
 - **[[SPRINT-03-HARMONIC-SWARM|Sprint 03: The Harmonic Swarm]]** (Tribal flocking analogue)
-  - Chapter: [[chapters/03_The_Power_of_Rhythm|Chapter 3: The Power of Rhythm]] (Music × Rhetoric)
-  - Puzzle: Rhythmic cadence locking; coordinate autonomous swarm nodes against chaotic "Bayhem."
-  - Invariant Victory: Leinster diversity measure $D(P) > \theta$.
-  - Synesthesia: **Harmonic Dissonance Perception (Level 3)**.
+  - **Curriculum Chapter**: [[chapters/03_The_Power_of_Rhythm|Chapter 3: The Power of Rhythm]] (Music × Rhetoric: Time / Value)
+  - **Brain Factory Station**: Metronome Station (`PCard: Process`)
+  - **Reverse Math & Wuxing**: $ACA_0$ (Level 3: Arithmetical / Convergence / Turing Jump) | Phase: Earth (Tǔ / Grounding)
+  - **Physical Hardware Realization**: ESP32 sonic pulse emitters, piezo acoustic microphones, Gamelan Kotekan synchronized oscillators
+  - **Puzzle**: Rhythmic cadence locking; coordinate autonomous swarm nodes against chaotic "Bayhem."
+  - **Invariant Victory**: Leinster diversity measure $D(P) > \theta$.
+  - **Synesthesia**: **Harmonic Dissonance Perception (Level 3)**.
 - **[[SPRINT-04-HORIZON-OF-CONSENSUS|Sprint 04: The Horizon of Consensus]]** (Megalithic skywatching analogue)
-  - Chapter: [[chapters/04_The_Truth_of_Observation|Chapter 4: The Truth of Observation]] (Astronomy × Rhetoric)
-  - Puzzle: Multi-observer parallax triangulation; establish a Single Source of Truth without central authority.
-  - Invariant Victory: Epistemic variance $\sigma^2_{\text{truth}} \to 0$.
-  - Synesthesia: **Spectral Coherence (Level 4)**.
+  - **Curriculum Chapter**: [[chapters/04_The_Truth_of_Observation|Chapter 4: The Truth of Observation]] (Astronomy × Rhetoric: Spacetime / Value)
+  - **Brain Factory Station**: Quality Control Station (`VCard: Witness`)
+  - **Reverse Math & Wuxing**: $ATR_0$ (Level 4: Transfinite Iteration) | Phase: Metal (Jīn / Precision)
+  - **Physical Hardware Realization**: Multi-drone telemetry stations, OpenTelemetry consensus collectors, Grafana edge dashboards
+  - **Puzzle**: Multi-observer parallax triangulation; establish a Single Source of Truth without central authority.
+  - **Invariant Victory**: Epistemic variance $\sigma^2_{\text{truth}} \to 0$.
+  - **Synesthesia**: **Spectral Coherence (Level 4)**.
 
 ### Epoch II: The Sovereign Tribal Mesh (Logic Era / What)
 - **[[SPRINT-05-YONEDA-BAZAAR|Sprint 05: The Yoneda Bazaar]]** (Tribal barter analogue)
-  - Chapter: [[chapters/05_Resource_Allocation|Chapter 5: Resource Allocation]] (Arithmetic × Logic)
-  - Puzzle: Dual-category resource exchange; allocate compute, water, and bandwidth via test probes $\text{Hom}(-, A)$.
-  - Invariant Victory: Zero deadweight loss; $\sum \text{Inflow} = \sum \text{Outflow}$.
-  - Synesthesia: **Thermal Haptic Drag (Level 5)**.
+  - **Curriculum Chapter**: [[chapters/05_Resource_Allocation|Chapter 5: Resource Allocation]] (Arithmetic × Logic: Number / Process)
+  - **Brain Factory Station**: Scheduling Station (`PCard: Scheduler`)
+  - **Reverse Math & Wuxing**: $RCA_0$ (Level 1: Computable) | Phase: Wood (Mù / Exchange)
+  - **Physical Hardware Realization**: IoT motor actuators, Nitinol wire haptic feedback goggles, SPI flash Engram memory
+  - **Puzzle**: Dual-category resource exchange; allocate compute, water, and bandwidth via test probes $\text{Hom}(-, A)$.
+  - **Invariant Victory**: Zero deadweight loss; $\sum \text{Inflow} = \sum \text{Outflow}$.
+  - **Synesthesia**: **Thermal Haptic Drag (Level 5)**.
 - **[[SPRINT-06-SUBAK-MESHWAY|Sprint 06: The Subak Meshway]]** (Irrigation canal & Silk Road analogue)
-  - Chapter: [[chapters/06_Network_Pathfinding|Chapter 6: Network Pathfinding]] (Geometry × Logic)
-  - Puzzle: Ad-hoc mesh routing over [[Reticulum Network|Reticulum]]; route around jamming and toll gates.
-  - Invariant Victory: Zero packet starvation across all edge nodes.
-  - Synesthesia: **Fluidic Vector Streams (Level 6)**.
+  - **Curriculum Chapter**: [[chapters/06_Network_Pathfinding|Chapter 6: Network Pathfinding]] (Geometry × Logic: Space / Process)
+  - **Brain Factory Station**: Routing Station (`PCard: Router`)
+  - **Reverse Math & Wuxing**: $WKL_0$ (Level 2: Compact / Choice) | Phase: Fire (Huǒ / Signaling)
+  - **Physical Hardware Realization**: Reticulum & Yggdrasil LoRa mesh radio transceivers, directional packet antennas
+  - **Puzzle**: Ad-hoc mesh routing over [[Reticulum Network|Reticulum]]; route around jamming and toll gates.
+  - **Invariant Victory**: Zero packet starvation across all edge nodes.
+  - **Synesthesia**: **Fluidic Vector Streams (Level 6)**.
 - **[[SPRINT-07-CAUSAL-MONAD-FORGE|Sprint 07: The Causal Monad Forge]]** (Bronze Age law & metallurgy analogue)
-  - Chapter: [[chapters/07_Temporal_Causality|Chapter 7: Temporal Causality]] (Music × Logic)
-  - Puzzle: Petri Net Place-Transition execution; fire transitions respecting non-commutative causality ($A \circ B \neq B \circ A$).
-  - Invariant Victory: Petri net liveness and boundedness preserved without deadlock.
-  - Synesthesia: **Phosphorescent Causal Trails (Level 7)**.
+  - **Curriculum Chapter**: [[chapters/07_Temporal_Causality|Chapter 7: Temporal Causality]] (Music × Logic: Time / Process)
+  - **Brain Factory Station**: Debugging Station (`VCard: Log`)
+  - **Reverse Math & Wuxing**: $ACA_0$ (Level 3: Arithmetical / Convergence / Turing Jump) | Phase: Earth (Tǔ / Ledger)
+  - **Physical Hardware Realization**: MQTT broker hardware, distributed Petri Net controllers, immutable flash audit logs
+  - **Puzzle**: Petri Net Place-Transition execution; fire transitions respecting non-commutative causality ($A \circ B \neq B \circ A$).
+  - **Invariant Victory**: Petri net liveness and boundedness preserved without deadlock.
+  - **Synesthesia**: **Phosphorescent Causal Trails (Level 7)**.
 - **[[SPRINT-08-ASTRODYNAMIC-NEXUS|Sprint 08: The Astrodynamic Nexus]]** (Classical navigation analogue)
-  - Chapter: [[chapters/08_Orbit_Prediction|Chapter 8: Orbit Prediction]] (Astronomy × Logic)
-  - Puzzle: Socratic feedback loops; forecast ecological and economic collapses via forward simulation.
-  - Invariant Victory: Closed stable limit cycle in system phase portrait ($\text{Tr}(\mathcal{M}) < 2$).
-  - Synesthesia: **Attractor Manifold Holography (Level 8)**.
+  - **Curriculum Chapter**: [[chapters/08_Orbit_Prediction|Chapter 8: Orbit Prediction]] (Astronomy × Logic: Spacetime / Process)
+  - **Brain Factory Station**: Simulation Station (`PCard: Model`)
+  - **Reverse Math & Wuxing**: $ATR_0$ (Level 4: Transfinite Iteration) | Phase: Metal (Jīn / Trajectory)
+  - **Physical Hardware Realization**: OpenClaw autonomous orbital simulator, n-body analog computing engines, celestial trackers
+  - **Puzzle**: Socratic feedback loops; forecast ecological and economic collapses via forward simulation.
+  - **Invariant Victory**: Closed stable limit cycle in system phase portrait ($\text{Tr}(\mathcal{M}) < 2$).
+  - **Synesthesia**: **Attractor Manifold Holography (Level 8)**.
 
 ### Epoch III: The Sheaf Metamaterial (Grammar Era / How)
 - **[[SPRINT-09-HYDRAULIC-VAULT|Sprint 09: The Hydraulic Vault]]** (Double-entry water ledger analogue)
-  - Chapter: [[chapters/09_Counting_Water|Chapter 9: Counting Water]] (Arithmetic × Grammar)
-  - Puzzle: Typed micro-measurement; serialize volumetric water flows into immutable MCards using sum/product types.
-  - Invariant Victory: Zero-leakage invariant $\int Q_{\text{in}} dt - \int Q_{\text{out}} dt = \Delta V_{\text{storage}}$.
-  - Synesthesia: **Crystalline Lattice Sight (Level 9)**.
+  - **Curriculum Chapter**: [[chapters/09_Counting_Water|Chapter 9: Counting Water]] (Arithmetic × Grammar: Number / Structure)
+  - **Brain Factory Station**: Standards Station (`MCard: Schema`)
+  - **Reverse Math & Wuxing**: $RCA_0$ (Level 1: Computable) | Phase: Wood (Mù / Standard)
+  - **Physical Hardware Realization**: Balinese Subak weir flowmeters, ZK water metering valves, hydraulic telemetry nodes
+  - **Puzzle**: Typed micro-measurement; serialize volumetric water flows into immutable MCards using sum/product types.
+  - **Invariant Victory**: Zero-leakage invariant $\int Q_{\text{in}} dt - \int Q_{\text{out}} dt = \Delta V_{\text{storage}}$.
+  - **Synesthesia**: **Crystalline Lattice Sight (Level 9)**.
 - **[[SPRINT-10-RICE-TERRACE-SHEAF|Sprint 10: The Rice Terrace Sheaf]]** (Subak federated watershed analogue)
-  - Chapter: [[chapters/10_Rice_Terrace_Topology|Chapter 10: Rice Terrace Topology]] (Geometry × Grammar)
-  - Puzzle: Sheaf gluing across terrace boundaries; stitch local water rules into global valley policies.
-  - Invariant Victory: Sheaf cohomology obstruction vanishes: $H^1(\mathcal{U}, \mathcal{F}) = 0$.
-  - Synesthesia: **Zero-Shear Manifold Vision (Level 10)**.
+  - **Curriculum Chapter**: [[chapters/10_Rice_Terrace_Topology|Chapter 10: Rice Terrace Topology]] (Geometry × Grammar: Space / Structure)
+  - **Brain Factory Station**: Infrastructure Station (`MCard: Graph`)
+  - **Reverse Math & Wuxing**: $WKL_0$ (Level 2: Compact / Choice) | Phase: Fire (Huǒ / Topology)
+  - **Physical Hardware Realization**: Sheaf cohomology boundary solvers, LiDAR terrace elevation maps, watershed mesh routers
+  - **Puzzle**: Sheaf gluing across terrace boundaries; stitch local water rules into global valley policies.
+  - **Invariant Victory**: Sheaf cohomology obstruction vanishes: $H^1(\mathcal{U}, \mathcal{F}) = 0$.
+  - **Synesthesia**: **Zero-Shear Manifold Vision (Level 10)**.
 - **[[SPRINT-11-ZERO-QUEUE-CEREMONY|Sprint 11: The Zero-Queue Ceremony]]** (High-throughput automation analogue)
-  - Chapter: [[chapters/11_Ceremonial_Beats|Chapter 11: Ceremonial Beats]] (Music × Grammar)
-  - Puzzle: Pipeline latency elimination; synchronize distributed compute with Balinese Gamelan Kotekan interlocking rhythms.
-  - Invariant Victory: Little's Law collapse: queue wait time $W_q \equiv 0$ at $100\%$ throughput.
-  - Synesthesia: **Acoustic Strobe Resonance (Level 11)**.
+  - **Curriculum Chapter**: [[chapters/11_Ceremonial_Beats|Chapter 11: Ceremonial Beats]] (Music × Grammar: Time / Structure)
+  - **Brain Factory Station**: Protocol Station (`PCard: Protocol`)
+  - **Reverse Math & Wuxing**: $ACA_0$ (Level 3: Arithmetical / Convergence / Turing Jump) | Phase: Earth (Tǔ / Pulse)
+  - **Physical Hardware Realization**: Balinese Gamelan Kotekan interlocking clock synthesizers, FreeRTOS deterministic task queues
+  - **Puzzle**: Pipeline latency elimination; synchronize distributed compute with Balinese Gamelan Kotekan interlocking rhythms.
+  - **Invariant Victory**: Little's Law collapse: queue wait time $W_q \equiv 0$ at $100\%$ throughput.
+  - **Synesthesia**: **Acoustic Strobe Resonance (Level 11)**.
 
 ### Epoch IV: The Planetary Noosphere (Transcendent Era / Synthesis)
 - **[[SPRINT-12-IMPLEDICATIVE-CALENDAR|Sprint 12: The Impredicative Calendar]]** (Planetary harmony analogue)
-  - Chapter: [[chapters/12_Calendar_Coordination|Chapter 12: Calendar Coordination]] (Astronomy × Grammar)
-  - Puzzle: [[Tri Hita Karana]] ecological-cultural-technological equilibrium; reconcile self-referential multi-calendar cycles.
-  - Invariant Victory: Stationary action of the Software Lagrangian:
-  - Synesthesia: **Universal Noospheric Synesthesia (Level 12)**.
+  - **Curriculum Chapter**: [[chapters/12_Calendar_Coordination|Chapter 12: Calendar Coordination]] (Astronomy × Grammar: Spacetime / Structure)
+  - **Brain Factory Station**: Coordination Station (`VCard: Constitution`)
+  - **Reverse Math & Wuxing**: $\Pi^1_1\text{-}CA_0$ (Level 5: Impredicative Comprehension) | Phase: Water (Shuǐ / Culmination)
+  - **Physical Hardware Realization**: Multi-calendar ephemeris computers, digital sundials, Tri Hita Karana ecological balancing engine
+  - **Puzzle**: [[Tri Hita Karana]] ecological-cultural-technological equilibrium; reconcile self-referential multi-calendar cycles.
+  - **Invariant Victory**: Stationary action of the Software Lagrangian:
+    $$\delta \mathcal{S}_{\text{THK}} = 0$$
+  - **Synesthesia**: **Universal Noospheric Synesthesia (Level 12)**.
 
 ---
 

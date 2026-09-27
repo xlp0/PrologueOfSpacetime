@@ -21,6 +21,23 @@ liberal_art: Quadrivium-Geometry
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/02_The_Meaning_of_Shape/README\|Chapter 02: The Meaning of Shape]] |
+| **Matrix Coordinates** | **Rhetoric × Geometry (Value of Space)** |
+| **Brain Factory Role** | **The Blueprint Station — Placing counts into relational spatial fields** |
+| **MVP Artifact** | `MCard: Spatial` ([[chapters/02_The_Meaning_of_Shape/MVP_The_Shape|MVP The Shape]]) |
+| **Reverse Math Depth** | **Level 2: $WKL_0$ (Weak Kőnig's Lemma) — Compactness, boundary formation, spatial optimization** |
+| **Wuxing Phase & Tribe** | **Fire (火) — Spatial phase transformation & Connectionist geometric embeddings** |
+| **Historical Archetype** | **John Amos Comenius — Orbis Pictus visual spatial pedagogy** |
+| **Physical & IoT Realization** | [[chapters/02_The_Meaning_of_Shape/depth_sensing_kinect|Kinect v2 Depth Sensing]], [[chapters/02_The_Meaning_of_Shape/topology_printing|3D Topology Printing]] |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/02_The_Meaning_of_Shape|Chapter 2: The Meaning of Shape]]

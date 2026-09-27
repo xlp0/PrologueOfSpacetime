@@ -22,6 +22,23 @@ liberal_art: Quadrivium-Astronomy
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/04_The_Truth_of_Observation/README\|Chapter 04: The Truth of Observation]] |
+| **Matrix Coordinates** | **Rhetoric × Astronomy (Value of Spacetime Consensus)** |
+| **Brain Factory Role** | **The Quality Control Station — Checking process output against ground truth** |
+| **MVP Artifact** | `VCard: Witness` ([[chapters/04_The_Truth_of_Observation/MVP_The_Observer|MVP The Observer]]) |
+| **Reverse Math Depth** | **Level 4: $ATR_0$ (Arithmetical Transfinite Recursion) — Transfinite iteration, well-orderings, observer consensus** |
+| **Wuxing Phase & Tribe** | **Metal (金) — Precision verification & Bayesian causal consensus** |
+| **Historical Archetype** | **Gottfried Wilhelm Leibniz — Pre-established harmony across independent observational frames** |
+| **Physical & IoT Realization** | [[chapters/04_The_Truth_of_Observation/edge_observation_architecture|Edge Observation Architecture]], [[chapters/04_The_Truth_of_Observation/grafana_dashboard|Grafana Dashboards]], [[chapters/04_The_Truth_of_Observation/drone_explorer|Drone Explorer]] |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/04_The_Truth_of_Observation|Chapter 4: The Truth of Observation]]

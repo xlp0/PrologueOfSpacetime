@@ -22,6 +22,23 @@ liberal_art: Quadrivium-Music
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/07_Temporal_Causality/README\|Chapter 07: Temporal Causality]] |
+| **Matrix Coordinates** | **Logic × Music (Process of Time)** |
+| **Brain Factory Role** | **The Debugging Station — Analyzing causal sequences in temporal event streams** |
+| **MVP Artifact** | `VCard: Log` ([[chapters/07_Temporal_Causality/MVP_The_Historian|MVP The Historian]]) |
+| **Reverse Math Depth** | **Level 3: $ACA_0$ (Arithmetical Comprehension) — Causal ordering, Turing jump, Petri net reachability** |
+| **Wuxing Phase & Tribe** | **Earth (土) — Immutable log grounding & Evolutionary event replay** |
+| **Historical Archetype** | **C.A.R. Hoare — Trace semantics and non-commutative causality laws** |
+| **Physical & IoT Realization** | [[chapters/07_Temporal_Causality/mqtt_event_bus|MQTT Event Bus]], [[chapters/07_Temporal_Causality/high_availability|High Availability]], [[chapters/07_Temporal_Causality/backup_recovery|Backup Recovery]] |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/07_Temporal_Causality|Chapter 7: Temporal Causality]] (The Rhythm of Process)

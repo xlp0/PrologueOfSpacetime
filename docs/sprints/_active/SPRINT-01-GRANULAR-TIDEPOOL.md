@@ -23,6 +23,23 @@ liberal_art: Quadrivium-Arithmetic
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/01_The_Value_of_Counting/README\|Chapter 01: The Value of Counting]] |
+| **Matrix Coordinates** | **Rhetoric × Arithmetic (Value of Numbers)** |
+| **Brain Factory Role** | **The Inventory Station — Accounting for existence and state hashing** |
+| **MVP Artifact** | `MCard: Memory` ([[chapters/01_The_Value_of_Counting/MVP_The_Counter|MVP The Counter]]) |
+| **Reverse Math Depth** | **Level 1: $RCA_0$ (Recursive Comprehension Axiom) — Computable counting, discrete states, GASing** |
+| **Wuxing Phase & Tribe** | **Wood (木) — Branching state initiation & Symbolist data representation** |
+| **Historical Archetype** | **Gottfried Wilhelm Leibniz — Monadology & binary characteristica universalis** |
+| **Physical & IoT Realization** | [[chapters/01_The_Value_of_Counting/HyperCard_Water_Clock|HyperCard Water Clock]] & [[chapters/01_The_Value_of_Counting/HoTT_Math_Course|HoTT Math Course]] |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/01_The_Value_of_Counting|Chapter 1: The Value of Counting]]

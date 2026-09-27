@@ -22,6 +22,23 @@ liberal_art: Quadrivium-Astronomy
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/08_Orbit_Prediction/README\|Chapter 08: Orbit Prediction]] |
+| **Matrix Coordinates** | **Logic × Astronomy (Process of Spacetime)** |
+| **Brain Factory Role** | **The Simulation Station — Simulating future states via symplectic physical laws** |
+| **MVP Artifact** | `PCard: Model` ([[chapters/08_Orbit_Prediction/MVP_The_Predictor|MVP The Predictor]]) |
+| **Reverse Math Depth** | **Level 4: $ATR_0$ (Arithmetical Transfinite Recursion) — Transfinite numerical integration of orbital paths** |
+| **Wuxing Phase & Tribe** | **Metal (金) — Geodesic precision & Bayesian orbit estimation** |
+| **Historical Archetype** | **Gottfried Wilhelm Leibniz — Calculus of variations & celestial mechanics** |
+| **Physical & IoT Realization** | [[chapters/08_Orbit_Prediction/openclaw_skills|OpenClaw Autonomous Skills]] & Symplectic Orbital Simulator |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/08_Orbit_Prediction|Chapter 8: Orbit Prediction]] (The Law of Gravity)

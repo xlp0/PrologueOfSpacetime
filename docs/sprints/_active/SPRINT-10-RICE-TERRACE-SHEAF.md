@@ -22,6 +22,49 @@ liberal_art: Quadrivium-Geometry
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/10_Rice_Terrace_Topology/README|Chapter 10: Rice Terrace Topology]] |
+| **Matrix Coordinates** | **Grammar × Geometry** (Structure of Space) |
+| **Brain Factory Role** | **The Infrastructure Station** — Defining the topological network and sheaf spaces |
+| **MVP Artifact** | `MCard: Graph` ([[chapters/10_Rice_Terrace_Topology/MVP_The_Topology|MVP The Topology]]) |
+| **Reverse Math Depth** | **Level 2: $WKL_0$ (Weak Kőnig's Lemma)** — Compactness, boundary gluing, and open covers |
+| **Wuxing Phase & Tribe** | **Fire (火)** — Topological phase transformations & Connectionist spatial embeddings |
+| **Historical Archetype** | **John Amos Comenius** — Universal didactic spatial hierarchy and visual mapping |
+| **Physical & IoT Realization** | Balinese Subak spatial elevation contour lidar scans, hydraulic weir topological sensors |
+
+---
+
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+### 1. Dominant Mental Model (Notional Machine)
+The **Terraced Rice Paddy / Watershed Sheaf**: A mountainside carved into cascading tiers where water, nutrients, and ecological health are local properties ($U_i$) that must smoothly restrict ($operatorname{res}_{U, V}$) down the slope and glue into a globally coherent ecological state ($mathcal{H}^0$). Boundary conflicts occur only when neighboring terrace boundaries fail to satisfy sheaf gluing conditions.
+
+### 2. Matching Formal Algebraic Signature
+$\Sigma_{\text{Sheaf}} = ((\text{Opens}, \text{Sections}, \text{Restrictions}), \operatorname{res}_{U,V}, \operatorname{glue}, \mathcal{H}^0)$
+- **Sorts ($S$)**: $\text{OpenCover}$ (spatial terrace patches $U_i$), $\text{LocalSection}$ (soil/water states $s_i \in \mathcal{F}(U_i)$), $\text{GlobalSection}$ (watershed state $s \in \mathcal{F}(X)$).
+- **Operations ($\Omega$)**:
+  - $\operatorname{res}_{U, V}: \mathcal{F}(U) \to \mathcal{F}(V)$ for $V \subseteq U$ (downstream water flow restriction).
+  - $\operatorname{glue}: \left(\{s_i \in \mathcal{F}(U_i) \mid s_i|_{U_i \cap U_j} = s_j|_{U_i \cap U_j}\}\right) \to \mathcal{F}(\bigcup U_i)$ (basin coherence reconstruction).
+  - $\mathcal{H}^0: \text{Sheaf} \to \text{GlobalSections}$ (zeroth cohomology group measuring unbroken global flow).
+- **Equational Laws ($\mathcal{E}$)**:
+  - Identity restriction: $\operatorname{res}_{U, U} = \operatorname{id}$.
+  - Transitivity: $\operatorname{res}_{V, W} \circ \operatorname{res}_{U, V} = \operatorname{res}_{U, W}$.
+  - Sheaf Locality & Gluing: Agreement on pairwise overlaps guarantees unique global section.
+
+### 3. AoS Triad Domain & Real Options Scale
+- **AoS Domain**: **Properties ($P$, Space / $[L]$) $\times$ Boolean ($B$, Boundaries / $[V]$)**.
+- **Real Options Scale**: **Meso Scale (Modular Real Options "in" systems)** — Terraces can be individually re-sculpted, fallowed, or replanted without invalidating the watershed's global water rights.
+
+### 4. Active Baldwin Modularity Operator
+- **Splitting ($\times$) & Porting ($\operatorname{Lan}_K F$)**: Factoring the mountainside into autonomous sub-catchment sheaves, and porting irrigation models across varying regional topographies via Left Kan Extension.
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/10_Rice_Terrace_Topology|Chapter 10: Rice Terrace Topology]] (The Metamaterial of Space)
@@ -152,6 +195,7 @@ CREATE TABLE IF NOT EXISTS mcard_terrace_sheaf (
 Sheaf cohomology and restriction functors are accessible in the library. During an unexpected drought, upstream terraces can hold water to guarantee their own rich crop while lower terraces desiccate. Does the upstream player hoard water, or honor ancient Balinese Awig-Awig customary law by releasing water downstream so the entire valley starves the planthopper pests together? Hoarding creates jagged, bleeding shear lines across the hillsides; solidarity transforms the watershed into a zero-shear, radiant emerald metamaterial.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the sheaf mental model compiles to the formal algebraic signature $\Sigma_{\text{Sheaf}}$ without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

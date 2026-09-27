@@ -22,6 +22,23 @@ liberal_art: Quadrivium-Geometry
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/06_Network_Pathfinding/README\|Chapter 06: Network Pathfinding]] |
+| **Matrix Coordinates** | **Logic × Geometry (Process of Space)** |
+| **Brain Factory Role** | **The Routing Station — Computing optimal flows through network topologies** |
+| **MVP Artifact** | `PCard: Router` ([[chapters/06_Network_Pathfinding/MVP_The_Navigator|MVP The Navigator]]) |
+| **Reverse Math Depth** | **Level 2: $WKL_0$ (Weak Kőnig's Lemma) — Path existence in infinite networks & spatial flow optimization** |
+| **Wuxing Phase & Tribe** | **Fire (火) — Dynamic routing & Connectionist flow gradients** |
+| **Historical Archetype** | **John Amos Comenius — Connected navigation from local nodes to global domains** |
+| **Physical & IoT Realization** | [[chapters/06_Network_Pathfinding/vpn_mesh_network|Reticulum/Yggdrasil Mesh Networks]], [[chapters/06_Network_Pathfinding/agent_patterns|Agent Patterns]] |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/06_Network_Pathfinding|Chapter 6: Network Pathfinding]] (The Boundary of Form)

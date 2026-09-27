@@ -22,6 +22,23 @@ liberal_art: Quadrivium-Arithmetic
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/05_Resource_Allocation/README\|Chapter 05: Resource Allocation]] |
+| **Matrix Coordinates** | **Logic × Arithmetic (Process of Numbers)** |
+| **Brain Factory Role** | **The Scheduling Station — Connecting supply queues to demand pools** |
+| **MVP Artifact** | `PCard: Scheduler` ([[chapters/05_Resource_Allocation/MVP_The_Allocator|MVP The Allocator]]) |
+| **Reverse Math Depth** | **Level 1: $RCA_0$ (Recursive Comprehension Axiom) — Computable resource scheduling & token accounting** |
+| **Wuxing Phase & Tribe** | **Wood (木) — Branching token allocations & Symbolist scheduling trees** |
+| **Historical Archetype** | **C.A.R. Hoare — Resource allocation invariants and non-blocking queue scheduling** |
+| **Physical & IoT Realization** | [[chapters/05_Resource_Allocation/iot_motor_control|IoT Motor Control]], [[chapters/05_Resource_Allocation/nitinol_vr_goggles|Nitinol VR Goggles]], [[chapters/05_Resource_Allocation/engram_memory|Engram Memory]] |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/05_Resource_Allocation|Chapter 5: Resource Allocation]] (The Calculus of Options)

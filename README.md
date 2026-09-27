@@ -524,6 +524,15 @@ sequenceDiagram
 * **Algebraic Closure**: Guarantees zero-downtime evolution by anchoring the base state in the Empty Schema ($\bot$), ensuring that every intermediate developmental step is an order-preserving approximation in a Dana Scott continuous lattice.
 * **Reference**: See [`Generalized Algebraic Theory of Programming`](docs/concepts/Generalized_Algebraic_Theory_of_Programming.md).
 
+### 23. Dual-Track Sprint Architecture & Graduated Repositories
+
+* **Active Sprints Workspace (`docs/sprints/_active/`)**: The live operational cockpit hosting the 12 civilizational strategy game sprints (`SPRINT-01` to `SPRINT-12`) grounded in the 12 chapters, along with the foundational Algebra of Systems infrastructure suite.
+* **Graduated Sprint Allocation (`docs/sprints/`)**: Once completed and audited against the Definition of Done, sprints graduate into permanent domain directories organized under two complementary tracks:
+  - **Track A (George A. Miller's Magic Seven Taxonomy $7 \pm 2$)**: 7 systemic infrastructure repositories (`01-inventory-and-taxonomy/`, `02-mathematical-formalization/`, `03-modularity-and-decoupling/`, `04-cross-domain-synthesis/`, `05-verification-and-qa/`, `06-continuous-filtration/`, `07-master-orchestration/`).
+  - **Track B (The Four Civilizational Epochs)**: 4 historical epoch repositories (`epoch-01-microcosmic-physics/`, `epoch-02-ecosystemic-emergence/`, `epoch-03-collective-computation/`, `epoch-04-cosmological-harmony/`) housing graduated civilizational gameplay arcs.
+  - **Current Graduated Sprints**: `SPRINT-AOS-01-CONTENT-INVENTORY.md` has formally graduated into [`docs/sprints/01-inventory-and-taxonomy/`](docs/sprints/01-inventory-and-taxonomy/).
+* **Reference**: See [`Sprints Master Directory Architecture`](docs/sprints/README.md).
+
 ---
 
 ## Conclusion

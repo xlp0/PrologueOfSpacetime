@@ -128,6 +128,24 @@ Each chapter has a `README` (overview) and an `MVP_The_*` (minimum viable protot
   - [[docs/sprints/_active/SPRINT-AOS-05-VERIFICATION-AND-QA|Sprint AoS-05: Verification & Zero-Loss QA]]
   - [[docs/sprints/_active/SPRINT-AOS-06-CONTINUOUS-FILTRATION|Sprint AoS-06: Continuous Filtration & Loopback Mechanics]]
 
+## Sprint Architecture & Graduated Repositories (`docs/sprints/`)
+
+- [[docs/sprints/README|Sprints Master Directory Architecture]] — Dual-track organization: George A. Miller's Magic Seven Taxonomy and Four Civilizational Epochs.
+- **Track A: George A. Miller's Magic Seven Taxonomy**
+  - [[docs/sprints/01-inventory-and-taxonomy/README|01: Inventory and Taxonomy]] — Content inventory, vault catalog, and topic boundaries.
+    - [[docs/sprints/01-inventory-and-taxonomy/SPRINT-AOS-01-CONTENT-INVENTORY|Sprint AoS-01: Content Inventory & Topic Taxonomy]] [Graduated / Done]
+  - [[docs/sprints/02-mathematical-formalization/README|02: Mathematical Formalization]] — Rank-nullity, KaTeX invariants, and theorem bridges.
+  - [[docs/sprints/03-modularity-and-decoupling/README|03: Modularity and Decoupling]] — Baldwin operators, Axiomatic Design, and Maxwell gatekeepers.
+  - [[docs/sprints/04-cross-domain-synthesis/README|04: Cross-Domain Synthesis]] — Relational composition, Real Options, and synesthesia maps.
+  - [[docs/sprints/05-verification-and-qa/README|05: Verification and QA]] — Zero-loss QA, cross-link repair, and invariant testing.
+  - [[docs/sprints/06-continuous-filtration/README|06: Continuous Filtration]] — Literature extraction, loopback pipelines, and research ingestion.
+  - [[docs/sprints/07-master-orchestration/README|07: Master Orchestration]] — Master roadmaps, meta-sprints, and system integration.
+- **Track B: The Four Civilizational Epochs**
+  - [[docs/sprints/epoch-01-microcosmic-physics/README|Epoch 01: Microcosmic Physics & The Sensorium]] (Sprints 01–04)
+  - [[docs/sprints/epoch-02-ecosystemic-emergence/README|Epoch 02: Ecosystemic Emergence & Tribal Mesh]] (Sprints 05–08)
+  - [[docs/sprints/epoch-03-collective-computation/README|Epoch 03: Collective Computation & Sheaf Metamaterial]] (Sprints 09–11)
+  - [[docs/sprints/epoch-04-cosmological-harmony/README|Epoch 04: Cosmological Harmony & Planetary Noosphere]] (Sprint 12)
+
 ## Game design (`docs/game_design/`, `docs/gameboard/`)
 
 - [[game_board_concept_and_story|Game board concept & story]] · [[story_chapters_overview|Story chapters overview]] · [[game_board_based_learning|Game-board-based learning]] · [[blindsight_integration|Blindsight integration]] · [[presentation_he_mengxin|Presentation: He Mengxin]].

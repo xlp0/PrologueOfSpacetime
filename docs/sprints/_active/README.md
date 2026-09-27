@@ -85,36 +85,36 @@ Following the **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnet
 
 ## 3. Active Sprint Matrix & Status Board
 
-| Sprint | Code | Title | Curriculum Chapter | Matrix Position | Physical Type | Social Type | Digital Synesthesia | Status |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| **00** | `ORCH` | [[SPRINT-00-MASTER-ORCHESTRATION|Master Orchestration Plan]] | Meta-Architecture | Master Charter | Multi-Scale | Tri Hita Karana | Holistic Telemetry | **Active** |
-| **01** | `S01` | [[SPRINT-01-GRANULAR-TIDEPOOL|The Granular Tidepool]] | [[chapters/01_The_Value_of_Counting|Ch 1: The Value of Counting]] | Arithmetic × Rhetoric | `Countable` | `Precondition` | Auditory Pulse Train | **Active** |
-| **02** | `S02` | [[SPRINT-02-TOPOGRAPHIC-CELL-WALL|The Topographic Cell Wall]] | [[chapters/02_The_Meaning_of_Shape|Ch 2: The Meaning of Shape]] | Geometry × Rhetoric | `SpatialSheaf` | `AgencyResidual` (己志) | Topological Parallax | **Active** |
-| **03** | `S03` | [[SPRINT-03-HARMONIC-SWARM|The Harmonic Swarm]] | [[chapters/03_The_Power_of_Rhythm|Ch 3: The Power of Rhythm]] | Music × Rhetoric | `TemporalCadence` | `SpeechAct` | Harmonic Dissonance | **Active** |
-| **04** | `S04` | [[SPRINT-04-HORIZON-OF-CONSENSUS|The Horizon of Consensus]] | [[chapters/04_The_Truth_of_Observation|Ch 4: The Truth of Observation]] | Astronomy × Rhetoric | `Kinematic` | `Attestation` | Spectral Coherence | **Active** |
-| **05** | `S05` | [[SPRINT-05-YONEDA-BAZAAR|The Yoneda Bazaar]] | [[chapters/05_Resource_Allocation|Ch 5: Resource Allocation]] | Arithmetic × Logic | `Thermodynamic` | `Precondition` & `SpeechAct` | Thermal Haptic Drag | **Active** |
-| **06** | `S06` | [[SPRINT-06-SUBAK-MESHWAY|The Subak Meshway]] | [[chapters/06_Network_Pathfinding|Ch 6: Network Pathfinding]] | Geometry × Logic | `SpatialSheaf` | `AgencyResidual` | Fluidic Streamlines | **Active** |
-| **07** | `S07` | [[SPRINT-07-CAUSAL-MONAD-FORGE|The Causal Monad Forge]] | [[chapters/07_Temporal_Causality|Ch 7: Temporal Causality]] | Music × Logic | `TemporalCadence` | `DialecticalTurn` | Phosphorescent Light-Cones | **Active** |
-| **08** | `S08` | [[SPRINT-08-ASTRODYNAMIC-NEXUS|The Astrodynamic Nexus]] | [[chapters/08_Orbit_Prediction|Ch 8: Orbit Prediction]] | Astronomy × Logic | `Kinematic` | `DialecticalTurn` | Attractor Holography | **Active** |
-| **09** | `S09` | [[SPRINT-09-HYDRAULIC-VAULT|The Hydraulic Vault]] | [[chapters/09_Counting_Water|Ch 9: Counting Water]] | Arithmetic × Grammar | `Countable` | `Attestation` | Crystalline Type Gemstones | **Active** |
-| **10** | `S10` | [[SPRINT-10-RICE-TERRACE-SHEAF|The Rice Terrace Sheaf]] | [[chapters/10_Rice_Terrace_Topology|Ch 10: Rice Terrace Topology]] | Geometry × Grammar | `SpatialSheaf` | `AgencyResidual` & `Attestation` | Zero-Shear Manifolds | **Active** |
-| **11** | `S11` | [[SPRINT-11-ZERO-QUEUE-CEREMONY|The Zero-Queue Ceremony]] | [[chapters/11_Ceremonial_Beats|Ch 11: Ceremonial Beats]] | Music × Grammar | `TemporalCadence` | `DialecticalTurn` | Acoustic Strobe Resonance | **Active** |
-| **12** | `S12` | [[SPRINT-12-IMPLEDICATIVE-CALENDAR|The Impredicative Calendar]] | [[chapters/12_Calendar_Coordination|Ch 12: Calendar Coordination]] | Astronomy × Grammar | `Kinematic` & `SpatialSheaf` | `AgencyResidual` & `Attestation` | Universal Noospheric Symphony | **Active** |
+| Sprint | Code | Title | Curriculum Chapter | Matrix Position | Reverse Math | Brain Factory Station | Hardware Realization | Digital Synesthesia | Status |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| **00** | `ORCH` | [[SPRINT-00-MASTER-ORCHESTRATION|Master Orchestration Plan]] | Meta-Architecture | Master Charter | Multi-Scale | Multi-Station Coordinator | Heterogeneous Testbed | Holistic Telemetry | **Active** |
+| **01** | `S01` | [[SPRINT-01-GRANULAR-TIDEPOOL|The Granular Tidepool]] | [[chapters/01_The_Value_of_Counting|Ch 1: The Value of Counting]] | Arithmetic × Rhetoric | $RCA_0$ | Inventory Station (`MCard: Memory`) | HyperCard Water Clock, RF pulse counter | Auditory Pulse Train | **Active** |
+| **02** | `S02` | [[SPRINT-02-TOPOGRAPHIC-CELL-WALL|The Topographic Cell Wall]] | [[chapters/02_The_Meaning_of_Shape|Ch 2: The Meaning of Shape]] | Geometry × Rhetoric | $WKL_0$ | Blueprint Station (`MCard: Spatial`) | Kinect v2 depth sensing, 3D point-clouds | Topological Parallax | **Active** |
+| **03** | `S03` | [[SPRINT-03-HARMONIC-SWARM|The Harmonic Swarm]] | [[chapters/03_The_Power_of_Rhythm|Ch 3: The Power of Rhythm]] | Music × Rhetoric | $ACA_0$ | Metronome Station (`PCard: Process`) | ESP32 sonic emitters, Gamelan sync | Harmonic Dissonance | **Active** |
+| **04** | `S04` | [[SPRINT-04-HORIZON-OF-CONSENSUS|The Horizon of Consensus]] | [[chapters/04_The_Truth_of_Observation|Ch 4: The Truth of Observation]] | Astronomy × Rhetoric | $ATR_0$ | Quality Control (`VCard: Witness`) | Drone telemetry, Grafana OpenTelemetry | Spectral Coherence | **Active** |
+| **05** | `S05` | [[SPRINT-05-YONEDA-BAZAAR|The Yoneda Bazaar]] | [[chapters/05_Resource_Allocation|Ch 5: Resource Allocation]] | Arithmetic × Logic | $RCA_0$ | Scheduling Station (`PCard: Scheduler`) | IoT motor control, Nitinol VR goggles | Thermal Haptic Drag | **Active** |
+| **06** | `S06` | [[SPRINT-06-SUBAK-MESHWAY|The Subak Meshway]] | [[chapters/06_Network_Pathfinding|Ch 6: Network Pathfinding]] | Geometry × Logic | $WKL_0$ | Routing Station (`PCard: Router`) | Reticulum / Yggdrasil LoRa mesh nodes | Fluidic Streamlines | **Active** |
+| **07** | `S07` | [[SPRINT-07-CAUSAL-MONAD-FORGE|The Causal Monad Forge]] | [[chapters/07_Temporal_Causality|Ch 7: Temporal Causality]] | Music × Logic | $ACA_0$ | Debugging Station (`VCard: Log`) | MQTT broker, Petri Net microcontrollers | Phosphorescent Light-Cones | **Active** |
+| **08** | `S08` | [[SPRINT-08-ASTRODYNAMIC-NEXUS|The Astrodynamic Nexus]] | [[chapters/08_Orbit_Prediction|Ch 8: Orbit Prediction]] | Astronomy × Logic | $ATR_0$ | Simulation Station (`PCard: Model`) | OpenClaw orbital simulator, analog compute | Attractor Holography | **Active** |
+| **09** | `S09` | [[SPRINT-09-HYDRAULIC-VAULT|The Hydraulic Vault]] | [[chapters/09_Counting_Water|Ch 9: Counting Water]] | Arithmetic × Grammar | $RCA_0$ | Standards Station (`MCard: Schema`) | Subak weir flowmeters, ZK water valves | Crystalline Type Gemstones | **Active** |
+| **10** | `S10` | [[SPRINT-10-RICE-TERRACE-SHEAF|The Rice Terrace Sheaf]] | [[chapters/10_Rice_Terrace_Topology|Ch 10: Rice Terrace Topology]] | Geometry × Grammar | $WKL_0$ | Infrastructure Station (`MCard: Graph`) | Sheaf cohomology solvers, LiDAR terrace mesh | Zero-Shear Manifolds | **Active** |
+| **11** | `S11` | [[SPRINT-11-ZERO-QUEUE-CEREMONY|The Zero-Queue Ceremony]] | [[chapters/11_Ceremonial_Beats|Ch 11: Ceremonial Beats]] | Music × Grammar | $ACA_0$ | Protocol Station (`PCard: Protocol`) | Kotekan clock synthesizers, FreeRTOS queues | Acoustic Strobe Resonance | **Active** |
+| **12** | `S12` | [[SPRINT-12-IMPLEDICATIVE-CALENDAR|The Impredicative Calendar]] | [[chapters/12_Calendar_Coordination|Ch 12: Calendar Coordination]] | Astronomy × Grammar | $\Pi^1_1\text{-}CA_0$ | Coordination Station (`VCard: Constitution`) | Digital sundials, multi-calendar ephemeris | Universal Noospheric Symphony | **Active** |
 
 ---
 
-## 4. Vault & Mathematical Foundation Sprints (AoS Suite)
+## 4. Vault & Mathematical Foundation Sprints (AoS Suite) & Graduation Architecture
 
-Supporting the game sprints is the vault reorganization and mathematical formalization suite derived from the **Algebra of Systems (AoS)**:
+Supporting the game sprints is the vault reorganization and mathematical formalization suite derived from the **Algebra of Systems (AoS)**. Once completed, audited, and verified against the Definition of Done, sprints graduate from `docs/sprints/_active/` into permanent domain directories organized under **George A. Miller's Magic Seven ($7 \pm 2$) Taxonomy** and the **Four Civilizational Epochs** (detailed in [[docs/sprints/README|docs/sprints/README.md]]):
 
-| Sprint | Code | Title | Core Focus | Deliverable | Status |
+| Sprint | Code | Title | Core Focus | Deliverable | Status & Graduated Allocation |
 |:---|:---|:---|:---|:---|:---|
-| **AoS-01** | `AOS1` | [[SPRINT-AOS-01-CONTENT-INVENTORY|Content Inventory & Taxonomy]] | Systems as Manifolds & Multi-Scale Decisions | Content Audit, Boundary Catalog & Index | **Graduated** |
-| **AoS-02** | `AOS2` | [[SPRINT-AOS-02-MATHEMATICAL-FORMALIZATION|Mathematical Formalization]] | Rank-Nullity Theorem & Function Refinement | Formal KaTeX Invariants & Theorem Bridges | **Graduated** |
-| **AoS-03** | `AOS3` | [[SPRINT-AOS-03-MODULARITY-AND-DECOUPLING|Modularity & Decoupling]] | Independence Axiom & Curvature Annihilation | Decoupling Matrix, Maxwell Gatekeepers | **Graduated** |
-| **AoS-04** | `AOS4` | [[SPRINT-AOS-04-CROSS-DOMAIN-SYNTHESIS|Cross-Domain Synthesis]] | Axiomatic Design & Real Options Integration | Relational Composition & Synesthesia Maps | **Graduated** |
-| **AoS-05** | `AOS5` | [[SPRINT-AOS-05-VERIFICATION-AND-QA|Verification & Zero-Loss QA]] | Relational Functional Invariance Protocol | Cross-Link Repair, Zero-Dangling Audit | **Graduated** |
-| **AoS-06** | `AOS6` | [[SPRINT-AOS-06-CONTINUOUS-FILTRATION|Continuous Filtration & Ingestion]] | Continuous Loopback & Paper Ingestion | Literature Extraction Pipelines | **Graduated** |
+| **AoS-01** | `AOS1` | [[SPRINT-AOS-01-CONTENT-INVENTORY|Content Inventory & Taxonomy]] | Systems as Manifolds & Multi-Scale Decisions | Content Audit, Boundary Catalog & Index | **Graduated** → [[docs/sprints/01-inventory-and-taxonomy/SPRINT-AOS-01-CONTENT-INVENTORY\|01-inventory-and-taxonomy]] |
+| **AoS-02** | `AOS2` | [[SPRINT-AOS-02-MATHEMATICAL-FORMALIZATION|Mathematical Formalization]] | Rank-Nullity Theorem & Function Refinement | Formal KaTeX Invariants & Theorem Bridges | Ready for Execution → `docs/sprints/02-mathematical-formalization/` |
+| **AoS-03** | `AOS3` | [[SPRINT-AOS-03-MODULARITY-AND-DECOUPLING|Modularity & Decoupling]] | Independence Axiom & Curvature Annihilation | Decoupling Matrix, Maxwell Gatekeepers | Ready for Execution → `docs/sprints/03-modularity-and-decoupling/` |
+| **AoS-04** | `AOS4` | [[SPRINT-AOS-04-CROSS-DOMAIN-SYNTHESIS|Cross-Domain Synthesis]] | Axiomatic Design & Real Options Integration | Relational Composition & Synesthesia Maps | Ready for Execution → `docs/sprints/04-cross-domain-synthesis/` |
+| **AoS-05** | `AOS5` | [[SPRINT-AOS-05-VERIFICATION-AND-QA|Verification & Zero-Loss QA]] | Relational Functional Invariance Protocol | Cross-Link Repair, Zero-Dangling Audit | Ready for Execution → `docs/sprints/05-verification-and-qa/` |
+| **AoS-06** | `AOS6` | [[SPRINT-AOS-06-CONTINUOUS-FILTRATION|Continuous Filtration & Ingestion]] | Continuous Loopback & Paper Ingestion | Literature Extraction Pipelines | Ready for Execution → `docs/sprints/06-continuous-filtration/` |
 
 ---
 

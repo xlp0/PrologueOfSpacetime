@@ -22,6 +22,48 @@ liberal_art: Quadrivium-Astronomy
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/12_Calendar_Coordination/README|Chapter 12: Calendar Coordination]] |
+| **Matrix Coordinates** | **Grammar × Astronomy** (Structure of Spacetime) |
+| **Brain Factory Role** | **The Coordination Station** — Aligning internal execution with planetary and ecological cycles |
+| **MVP Artifact** | `VCard: Constitution` ([[chapters/12_Calendar_Coordination/MVP_The_Calendar|MVP The Calendar]]) |
+| **Reverse Math Depth** | **Level 5: $\Pi^1_1\text{-}CA_0$ (Impredicative Comprehension)** — Self-referential networks, Tri Hita Karana |
+| **Wuxing Phase & Tribe** | **Water (水)** — Deep flow, cosmological equilibrium, Analogizer holistic synthesis |
+| **Historical Archetype** | **Leibniz & Comenius** — Universal cosmological harmony, Didactic world-scale synchronization |
+| **Physical & IoT Realization** | [[chapters/12_Calendar_Coordination/digital_sundial|Digital Sundial]] IoT light-sensor arrays, multi-calendar solar/lunar ephemeris synchronizers |
+
+---
+
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+### 1. Dominant Mental Model (Notional Machine)
+The **Astrolabe / Poly-Temporal Cosmic Calendar**: A concentric gear train of nested solar, lunar, and social calendars (such as the Balinese 210-day Pawukon and 365-day Saka systems). No single clock dominates; rather, societal harmony and ecological sustainability emerge as fixed points of an impredicatively closed system of mutual temporal constraints.
+
+### 2. Matching Formal Algebraic Signature
+$\Sigma_{\text{Calendar}} = ((\text{Epochs}, \text{Cycles}, \text{Constitutions}), \operatorname{sync}, \operatorname{reconcile}, \operatorname{THK}, \text{FixedPoint})$
+- **Sorts ($S$)**: $\text{Epoch}$ (macro historical era), $\text{Cycle}$ (recurrent temporal period $\mathbb{Z}/N\mathbb{Z}$), $\text{Constitution}$ (self-referential invariant set $\mathcal{C}$).
+- **Operations ($\Omega$)**:
+  - $\operatorname{sync}: \prod_{i} \text{Cycle}_i \to \text{SpacetimeCoordinate}$ (multi-calendar phase alignment).
+  - $\operatorname{reconcile}: \text{LocalSchedule} \times \text{CosmicSeason} \to \text{PermittedAction}$ (ecological constraint enforcement).
+  - $\operatorname{THK}: \text{Human} \times \text{Nature} \times \text{Divine} \to [0, 1]$ (Tri Hita Karana triadic equilibrium invariant).
+- **Equational Laws ($\mathcal{E}$)**:
+  - Impredicative Closure: The validity of the calendar is defined by the set of all sets of actions it coordinates ($\{x \in X \mid \phi(x, \mathcal{C})\}$).
+  - Harmonic Confluence: $\operatorname{THK}(\operatorname{state}) = 1$ is the non-negotiable fixed point for civilizational survival.
+
+### 3. AoS Triad Domain & Real Options Scale
+- **AoS Domain**: **Complete Triad $\langle P, C, B \rangle$ at Cosmological Scale**.
+- **Real Options Scale**: **Macro Scale (Strategic Real Options "on" systems)** — Exercising civilizational paradigm transitions while preserving cultural continuity.
+
+### 4. Active Baldwin Modularity Operator
+- **Substituting ($\simeq \implies =$) & Inverting (Platform Adjunction)**: Univalent swapping of underlying calendar algorithms without interrupting societal rituals, and lifting governance rules into sovereign smart contracts.
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/12_Calendar_Coordination|Chapter 12: Calendar Coordination]] (The Architecture of Cosmos)
@@ -150,6 +192,7 @@ CREATE TABLE IF NOT EXISTS mcard_noospheric_calendar (
 The 210-day Pawukon cycle tables and the Software Lagrangian equations are fully revealed. The player stands at the helm of a planetary civilization: do they deploy computational power to subjugate and strip-mine nature for total mechanical supremacy ($H_T \\gg S_T$), or do they coordinate technology, community, and biosphere into an unbroken covenant of mutual flourishing? Industrial hubris suffocates the planet in entropic soot; Tri Hita Karana stewardship unlocks the Universal Noospheric Symphony, bathing the cosmos in eternal, living light.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the calendar mental model compiles to the formal algebraic signature $\Sigma_{\text{Calendar}}$ without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

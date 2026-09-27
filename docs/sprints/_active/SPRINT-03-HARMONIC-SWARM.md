@@ -22,6 +22,23 @@ liberal_art: Quadrivium-Music
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/03_The_Power_of_Rhythm/README\|Chapter 03: The Power of Rhythm]] |
+| **Matrix Coordinates** | **Rhetoric × Music (Value of Time)** |
+| **Brain Factory Role** | **The Metronome Station — Synchronizing blueprints into dynamic execution workflows** |
+| **MVP Artifact** | `PCard: Process` ([[chapters/03_The_Power_of_Rhythm/MVP_The_Rhythm|MVP The Rhythm]]) |
+| **Reverse Math Depth** | **Level 3: $ACA_0$ (Arithmetical Comprehension) — Harmonic convergence, Turing jump, Kuramoto synchronization** |
+| **Wuxing Phase & Tribe** | **Earth (土) — Rhythmic stabilization & Evolutionary swarming dynamics** |
+| **Historical Archetype** | **C.A.R. Hoare — Communicating Sequential Processes (CSP) & Hoare Logic** |
+| **Physical & IoT Realization** | [[chapters/03_The_Power_of_Rhythm/sonic_synchronization|ESP32 Sonic Synchronization]] & Synesthetic Audio |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/03_The_Power_of_Rhythm|Chapter 3: The Power of Rhythm]]

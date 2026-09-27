@@ -22,6 +22,23 @@ liberal_art: Quadrivium-Arithmetic
 
 ---
 
+---
+
+## Chapter Grounding & Brain Factory Assembly Line
+
+| Dimension | Specification & Chapter Grounding |
+| :--- | :--- |
+| **Curriculum Chapter** | [[chapters/09_Counting_Water/README\|Chapter 09: Counting Water]] |
+| **Matrix Coordinates** | **Grammar × Arithmetic (Structure of Numbers)** |
+| **Brain Factory Role** | **The Standards Station — Rigid schema definition of verified truth and cryptographic types** |
+| **MVP Artifact** | `MCard: Schema` ([[chapters/09_Counting_Water/MVP_The_Water_Count|MVP The Schema]]) |
+| **Reverse Math Depth** | **Level 1: $RCA_0$ (Recursive Comprehension Axiom) — Computable schema validation & ZK proof verification** |
+| **Wuxing Phase & Tribe** | **Wood (木) — Rigid type hierarchies & Symbolist schema grammars** |
+| **Historical Archetype** | **John Amos Comenius — Universal didactic terminology and grammar standardization** |
+| **Physical & IoT Realization** | Balinese Subak irrigation weir flow equations & ZK water metering verification contracts |
+
+---
+
 ## 1. Executive Summary & Curriculum Alignment
 
 - **Curriculum Chapter**: [[chapters/09_Counting_Water|Chapter 9: Counting Water]] (The Ledger of Eternity)
