@@ -193,5 +193,70 @@
       "elderSurrender": "长者：“你已向混乱屈服，江河吞没了防线。”",
       "gateCollapse": "叙事：观测闸门在炽热的过载能量下崩塌。"
     }
+  },
+  "zh-TW": {
+    "meta": {
+      "code": "zh-TW",
+      "name": "繁體中文",
+      "flag": "🇹🇼"
+    },
+    "header": {
+      "mainTitle": "超卡水鐘：第01工位（竹節滴漏）",
+      "subtitle": "「計數是一種需要消耗物理能量的觀測行為。」",
+      "breadcrumb": "時空序章：第 01 章",
+      "stationBadge": "第 01 工位（記憶庫存 MCARD）",
+      "depthBadge": "RCA₀ 遞迴可計算（第一級）"
+    },
+    "spigot": {
+      "banner": "[═══ 連續類比竹筒流水 ═══]",
+      "reservoirLabel": "竹節凹槽水流累積："
+    },
+    "counter": {
+      "title": "已驗證水滴總數（MCard 帳本）",
+      "cidPrefix": "內容雜湊 CID"
+    },
+    "meters": {
+      "energyLabel": "觀測者能量儲備 (E)",
+      "entropyLabel": "系統熵增 / 溫度 (H)"
+    },
+    "status": {
+      "laminar": "💧 層流狀態（平穩諧振，熵減 ΔH < 0）",
+      "turbulent": "⚡ 湍流摩擦（點擊過快！熱耗散加劇）",
+      "overheat": "⚠️ 系統崩潰：馬克士威妖過熱！熵增失控"
+    },
+    "buttons": {
+      "startFlow": "開啟流水",
+      "stopFlow": "暫停流水",
+      "catchDrop": "💧 捕獲水滴",
+      "reset": "冷卻重置"
+    },
+    "gasingHint": {
+      "default": "💡 <strong>GASing 理念（寓教於樂）</strong>：點擊「開啟流水」，靜心觀察竹尖成滴。在水滴飽滿時點擊「捕獲水滴」。保持約1秒一次的平穩節奏，系統將保持清涼高效！",
+      "laminar": "🌟 <strong>節奏絕佳！</strong>：進入層流諧振狀態，以最小能耗鎖定水滴，系統熵持續下降！",
+      "fast": "⚠️ <strong>過載警告！</strong>：點擊過頻！蘭道爾原理生效：高頻資訊抹除劇烈耗散能量並產生熱量。",
+      "slow": "🌊 <strong>水流溢出！</strong>：水滴未及觀測即流失。請專注於週期律動。",
+      "dead": "🔥 <strong>感測器熔斷！</strong>：能量耗盡，熵增過載。請點擊「冷卻重置」恢復觀測能力。"
+    },
+    "logs": {
+      "title": "MCARD 不可變帳本記錄：",
+      "entriesCount": "{count} 條記錄",
+      "init": "> 系統初始化完畢，等待水流注入...",
+      "flowStart": "> 竹閘開啟，類比水流持續湧入...",
+      "flowStop": "> 竹閘關閉，水流暫停。",
+      "reset": "> 系統完成冷卻降溫，能量恢復至100%，熵歸零。",
+      "milestone": "🎉【里程碑】{count} 滴水滴驗證通過！泛音諧振響起。",
+      "mcardTick": "[MCard #{count}] 觀測間隔: {delta}ms | 能量: {energy}% | 熵: {entropy}% | CID: {cid}",
+      "criticalOverheat": "💥【緊急警報】感測器過熱！系統熵超越觀測者極限，水流強行中斷。"
+    },
+    "demon": {
+      "elderTitle": "--- 村落長者 ---",
+      "elderRoar": "長者：「傾聽那轟鳴的水聲吧。那是混沌的原始之流。若要計數它，你必須先定格它。」",
+      "elderWarn": "長者：「但切記：觀測需要能耗。過快，系統焚毀；過慢，洪流滅頂！」",
+      "actionTriggered": "動作：點擊觀測觸發（間隔：{delta}毫秒）",
+      "feedbackSound": "反饋：*水波微漾* ~ *磬樂諧振*",
+      "overheatAlert": "*** 緊急警報：馬克士威妖過熱 ***",
+      "elderSurrender": "長者：「你已向混亂屈服，江河吞沒了防線。」",
+      "gateCollapse": "敘事：觀測閘門在熾熱的過載能量下崩塌。"
+    }
   }
 }

@@ -26,7 +26,8 @@ This directory houses the **HyperCard Water Clock** implementation stack—an in
 1. **`locales.json`**: The Single Source of Truth (SSOT) external linguistic repository:
    * 🇮🇩 **Indonesian (`id`)**: Bahasa Indonesia
    * 🇬🇧 **English (`en`)**: English
-   * 🇨🇳 **Chinese (`zh`)**: 中文 (简体)
+   * 🇨🇳 **Simplified Chinese (`zh`)**: 中文 (简体)
+   * 🇹🇼 **Traditional Chinese (`zh-TW`)**: 繁體中文
    * Decouples all natural-language statements, Elder dialogues, thermodynamic telemetry alerts, and pedagogical hints from executable logic.
 2. **`i18n.js`**: Standardized, reusable, isomorphic Internationalization (i18n) module:
    * Dynamically loads linguistic statements from `locales.json` via HTTP `fetch` in browsers or synchronous `fs` in Node.js.
@@ -38,7 +39,7 @@ This directory houses the **HyperCard Water Clock** implementation stack—an in
    * Monotonic counter display ($n \in \mathbb{N}$).
    * Tactile manual capture trigger (`[ Catch the Drop ]` button).
    * Thermodynamic feedback display: Energy remaining, Entropy generated, and Laminar vs. Turbulent flow indicator.
-   * Standardized i18n multilingual switcher (🇮🇩 Bahasa Indonesia / 🇬🇧 English / 🇨🇳 中文).
+   * Standardized i18n multilingual switcher (🇮🇩 Bahasa Indonesia / 🇬🇧 English / 🇨🇳 简体中文 / 🇹🇼 繁體中文).
    * Pure Web Audio API procedural sound synthesis (no external assets required).
 4. **`water_clock.js`**: Node.js executable module implementing the underlying `MaxwellsDemon` class, delta-timing logic, thermodynamic dissipation equations, and multilingual CLI output driven by `i18n.js`.
 

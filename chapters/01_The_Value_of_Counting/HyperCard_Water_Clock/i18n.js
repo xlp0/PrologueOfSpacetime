@@ -64,7 +64,7 @@ export async function loadLocales(source) {
  * @returns {string} The active language code
  */
 export function setLocale(lang) {
-  if (localesData[lang] || lang === 'id' || lang === 'en' || lang === 'zh') {
+  if (localesData[lang] || lang === 'id' || lang === 'en' || lang === 'zh' || lang === 'zh-TW') {
     currentLocale = lang;
     if (typeof document !== 'undefined') {
       applyToDOM();
