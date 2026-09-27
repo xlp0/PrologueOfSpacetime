@@ -85,6 +85,23 @@ $$\forall t \in T, \quad \exists M' \in [M_0\rangle : M' \xrightarrow{t}$$
 
 ---
 
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+Applying the **[[docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping|Algebra of Systems]]** and **[[docs/concepts/Generalized_Algebraic_Theory_of_Programming|GAT-P]]**, this sprint bridges the player's intuitive understanding with formal algebraic typing:
+
+- **Dominant Mental Model**: **The Bronze Age Lawmaker / Metallurgy Forge**. An artisan striking hot bronze on an anvil; every hammer blow permanently and irreversibly deforms the metal, establishing an immutable chronological sequence where the order of strikes changes the final blade.
+- **Matching Formal Algebra Signature $\Sigma = (S, \Omega, \mathcal{E})$**:
+  - **Sorts ($S$)**: $\text{Place}$, $\text{Transition}$, $\text{TokenMarking}$, $\text{StateMonad}$
+  - **Operations ($\Omega$)**:
+    - $\text{fire}: \text{Marking} \times \text{Transition} \to \text{Marking}'$
+    - $\text{bind}: M(A) \times (A \to M(B)) \to M(B)$
+    - $\text{fence}: \text{Poset} \to \text{MonotonicHistory}$
+  - **Equational Invariants ($\mathcal{E}$)**: $M_k = M_0 + \mathbf{W}\vec{\sigma}$, $A \circ B \neq B \circ A$, $\text{DeadlockFreedom} = \text{true}$.
+- **Algebra of Systems Domain (Koo 2009)**: **Composition ($C$) at Micro/Meso Scale**. Enforces strict non-commutative causality and bitemporal transaction commitments.
+- **Active Baldwin Operator (GAT-P)**: **Splitting ($\times$) & Excluding ($-$)**. Separates independent concurrent places across execution threads; prunes non-deterministic race hazards from the causal poset.
+
+---
+
 ## Perspective, Referential Coordinates, and Cordis Spatiotemporal Fiber
 
 Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|Dialect's relativistic critique]]** and **[[docs/principles/Cordis_Spatiotemporal_Composability|Cordis spatiotemporal composability]]**, this sprint is grounded in coordinate invariance and rigorous execution lifecycle:
@@ -146,6 +163,7 @@ CREATE TABLE IF NOT EXISTS mcard_petri_transitions (
 Petri net incidence matrices and transition firing rules are open to all. The player discovers a race hazard allowing them to inject their own transaction ahead of communal trade queues (front-running). Exploiting the race yields quick private tokens but induces deadlock siphons in community workflows. Front-running tears smoldering scars into the causal poset; strict chronological honesty leaves luminous, phosphorescent green light-cones of permanent honor.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the sprint's intuitive mental model correctly compiles to the formal algebraic signature $\Sigma = (S, \Omega, \mathcal{E})$ and exercises its active Baldwin operator without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

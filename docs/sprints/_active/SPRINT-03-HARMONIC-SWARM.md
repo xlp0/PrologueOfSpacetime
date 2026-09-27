@@ -83,6 +83,23 @@ $$R = \left| \frac{1}{N} \sum_{j=1}^N e^{i \theta_j} \right| \ge 0.95$$
 
 ---
 
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+Applying the **[[docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping|Algebra of Systems]]** and **[[docs/concepts/Generalized_Algebraic_Theory_of_Programming|GAT-P]]**, this sprint bridges the player's intuitive understanding with formal algebraic typing:
+
+- **Dominant Mental Model**: **The Flocking Swarm / Resonant Orchestra**. The player conceptualizes their agents as an ensemble of acoustic musicians who must synchronize tempo and cadence through peer listening without a centralized conductor.
+- **Matching Formal Algebra Signature $\Sigma = (S, \Omega, \mathcal{E})$**:
+  - **Sorts ($S$)**: $\text{AgentOscillator}$, $\text{Phase} \in S^1$, $\text{Frequency} \in \mathbb{R}^+$, $\text{CouplingWeight}$
+  - **Operations ($\Omega$)**:
+    - $\text{chirp}: \text{Phase} \to \text{AcousticPulse}$
+    - $\text{couple}: \text{Phase}_i \times \text{Phase}_j \times K \to \Delta \theta$
+    - $\text{order}: \text{Swarm} \to \text{OrderParameter } R$
+  - **Equational Invariants ($\mathcal{E}$)**: $\frac{d\theta_i}{dt} = \omega_i + \frac{K}{N}\sum_{j=1}^N \sin(\theta_j - \theta_i)$, $R e^{i\psi} = \frac{1}{N}\sum_{j=1}^N e^{i\theta_j}$, Leinster Diversity $D(P) > \theta$.
+- **Algebra of Systems Domain (Koo 2009)**: **Composition ($C$) at Meso Scale (Modular Architecture Options)**. Synchronizes distributed temporal execution without centralized locking.
+- **Active Baldwin Operator (GAT-P)**: **Augmenting ($+$) & Inverting (Adjunction)**. Adds peer nodes without hierarchical locking; exposes local phase offsets as public synchronization hooks.
+
+---
+
 ## Perspective, Referential Coordinates, and Cordis Spatiotemporal Fiber
 
 Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|Dialect's relativistic critique]]** and **[[docs/principles/Cordis_Spatiotemporal_Composability|Cordis spatiotemporal composability]]**, this sprint is grounded in coordinate invariance and rigorous execution lifecycle:
@@ -142,6 +159,7 @@ CREATE TABLE IF NOT EXISTS mcard_swarm_cadence (
 Kuramoto synchronization equations and frequency modulation algorithms are open-source. When autonomous swarm agents drift into chaotic Bayhem, the player faces a dilemma: do they emit a high-decibel master override pulse that crushes local autonomy and forces uniform compliance, or do they practice Gamelan Kotekan patience, weaving an interlocking rhythmic call that preserves Leinster diversity ($D(P) > \\theta$)? Domineering brute force emits a harsh white-hot glare; respectful polyrhythmic locking unlocks rich, consonant pentatonic resonance.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the sprint's intuitive mental model correctly compiles to the formal algebraic signature $\Sigma = (S, \Omega, \mathcal{E})$ and exercises its active Baldwin operator without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

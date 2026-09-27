@@ -489,7 +489,40 @@ sequenceDiagram
 * **Exploratory Proto-Agency**: In quantum path integrals ($\mathcal{Z} = \int \mathcal{D}[x(t)] e^{\frac{i}{\hbar} S}$) and non-equilibrium fluctuations, perturbations ($\delta x(t)$) are not defects; they are the exploratory degrees of freedom where physical entities assert proto-agency—momentarily leaping off-shell to test counterfactual physical realities.
 * **Order-Preserving Contraction as Energy**: An unconstrained collection of freely vibrating entities quickly disintegrates into thermal noise. Re-cohering divergent worldlines into a single, consistent, order-preserving macroscopic record (a living cell, a stable orbit, or a consensus ledger) requires an irreversible erasure of off-shell branches. That thermodynamic toll ($W \ge k_B T \ln 2 \cdot \Delta I$) is precisely what physics defines as **"energy"**.
 * **Systemic Realization**: Across all 12 game sprints, players must balance the entities' vital need to vibrate (explore alternate realities) against the collective energetic expenditure required to maintain order-preserving coherence.
-* **Reference**: See [`Vibration, Perturbation, and the Energy Cost of Coherence`](docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence.md).
+### 21. The Algebra of Systems (AoS) and Mental Model Mapping
+
+* **The Foundational Problem**: Human learners and AI coding agents naturally reason via **Mental Models** (intuitive notional machines—such as Maxwell's Demon, fortress walls, swarming boids, or celestial slingshots). When left ungrounded, these intuitive models degenerate into subjective "vibe coding", category errors, and architectural drift.
+* **The AoS Triad $\langle P, C, B \rangle$ (Koo 2009 MIT)**: Grounded in Benjamin Koo's MIT doctoral thesis *Algebra of Systems*, every engineering architecture is unified across three fundamental dimensions:
+  1. **Properties ($P$, Space / $[L]$, Micro)**: Concrete state representations, metrics, and memory schemas (grounded in `MCard`).
+  2. **Composition ($C$, Time / $[T]$, Meso)**: Non-commutative dynamic wiring, pipeline sequencing, and relational morphisms (grounded in `PCard`).
+  3. **Boolean ($B$, Energy / $[V]$, Macro)**: Valuation constraints, invariant satisfaction, and verification boundaries (grounded in `VCard`).
+* **Multi-Scale Real Options Valuation (ROV)**:
+  - **Macro Scale**: Strategic Real Options *"on"* systems (switching platforms, portfolio abandonment).
+  - **Meso Scale**: Modular Real Options *"in"* systems (Baldwin-Clark Task-Factor-Zone decoupling, swapping algorithms behind thin crossing points).
+  - **Micro Scale**: Operational Real Options (real-time dispatch, reactive retry, dynamic resource shedding).
+* **The 4-Stage Learning Protocol**: Bridges human intuition and machine-checkable rigor:
+  1. *Elicitation & Intuitive Metaphor*: Identify the student's or agent's dominant mental model.
+  2. *Formal Algebraic Signature*: Construct the mathematical tuple $\Sigma = (S, \Omega, \mathcal{E})$ specifying Sorts $S$, Operations $\Omega$, and Equational Laws $\mathcal{E}$.
+  3. *Equational Invariant Verification*: Formulate and verify algebraic invariants (boundary preservation, conservation laws, commutative squares).
+  4. *Constructive Synthesis & Real Options Anchoring*: Implement the algebra as verified code and anchor its option value across the $\langle P, C, B \rangle$ triad.
+* **Reference**: See [`Algebra of Systems and Mental Model Mapping`](docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping.md).
+
+### 22. Generalized Algebraic Theory of Programming (GAT-P)
+
+* **Homotopical Modularity under CLM**: Synthesizes Carliss Baldwin's *Design Rules* with Voevodsky's Univalence Axiom, Dana Scott's Domain Theory, and Joyal's combinatorial species into a rigorous mathematical foundation for software composition.
+* **MVP Cards as Automata and Type-Theoretic Simplicials**:
+  - **MCard (0-Simplex / Point)**: Monadic State container, modeled as a **Moore Machine** whose output depends strictly on current state; type-theoretically a dependent pair ($\Sigma$-type).
+  - **PCard (1-Simplex / Morphism)**: Process transformer, modeled as a **Mealy Machine** whose output depends on both state and input stimulus; type-theoretically a polynomial functor $P(X) = \sum_{s \in S} X^{O(s)}$ ($\Pi$-type).
+  - **VCard (2-Simplex / 2-Cell)**: Verification contract, modeled as a **Kan Filler** evaluating homotopical path coherence between intention and execution; type-theoretically an Identity Type ($\operatorname{Id}_A(a, b)$).
+* **The Six Baldwin Modular Operators**:
+  1. **Splitting ($\times$)**: Factoring monoliths into Cartesian products of decoupled sub-polynomials.
+  2. **Substituting ($\simeq \implies =$)**: Swapping an internal implementation for an isomorphic equivalent via Voevodsky univalence with zero downtime.
+  3. **Augmenting ($+$)**: Extending capability space via coproduct coproduct injection ($P \oplus \Delta$).
+  4. **Excluding ($-$)**: Annihilating dead branches, deprecated protocols, or high-entropy noise.
+  5. **Inverting (Curry / Exponentiation)**: Lifting a buried component into an autonomous, reusable platform service ($B^A$).
+  6. **Porting ($\operatorname{Lan}_K F$)**: Re-anchoring a component onto a new substrate via categorical Left Kan Extension.
+* **Algebraic Closure**: Guarantees zero-downtime evolution by anchoring the base state in the Empty Schema ($\bot$), ensuring that every intermediate developmental step is an order-preserving approximation in a Dana Scott continuous lattice.
+* **Reference**: See [`Generalized Algebraic Theory of Programming`](docs/concepts/Generalized_Algebraic_Theory_of_Programming.md).
 
 ---
 

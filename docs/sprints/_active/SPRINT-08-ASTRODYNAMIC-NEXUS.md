@@ -81,6 +81,23 @@ ensuring zero trajectories cross the ecological extinction boundary $\mathcal{B}
 
 ---
 
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+Applying the **[[docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping|Algebra of Systems]]** and **[[docs/concepts/Generalized_Algebraic_Theory_of_Programming|GAT-P]]**, this sprint bridges the player's intuitive understanding with formal algebraic typing:
+
+- **Dominant Mental Model**: **The Celestial Clock / Gravity Slingshot**. Navigating a fleet through deep space by timing slingshot burns through the gravitational fields of moving planets, turning orbital geometry into free propellant.
+- **Matching Formal Algebra Signature $\Sigma = (S, \Omega, \mathcal{E})$**:
+  - **Sorts ($S$)**: $\text{OrbitalState } (q, p)$, $\text{SymplecticManifold } T^*Q$, $\text{Hamiltonian } H$, $\text{DeltaVBurn}$
+  - **Operations ($\Omega$)**:
+    - $\text{propagate}: T^*Q \times \Delta t \to T^*Q$
+    - $\text{burn}: \text{State} \times \Delta \vec{v} \to \text{State}'$
+    - $\text{slingshot}: \text{State} \times \text{Body} \to \text{HyperbolicFlyby}$
+  - **Equational Invariants ($\mathcal{E}$)**: $\dot{q} = \frac{\partial H}{\partial p}$, $\dot{p} = -\frac{\partial H}{\partial q}$, $\mathcal{L}_{\vec{X}_H} \omega = 0$, $\text{Tr}(\mathcal{M}) < 2 \text{ (Orbital Stability)}$.
+- **Algebra of Systems Domain (Koo 2009)**: **Composition ($C$) & Boolean ($B$) at Macro Scale (Strategic Real Options)**. Manages trajectory real options via celestial Hamiltonian mechanics.
+- **Active Baldwin Operator (GAT-P)**: **Inverting (Platform Adjunction)**. Exposes planetary gravity wells as public velocity-boost platform interfaces.
+
+---
+
 ## Perspective, Referential Coordinates, and Cordis Spatiotemporal Fiber
 
 Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|Dialect's relativistic critique]]** and **[[docs/principles/Cordis_Spatiotemporal_Composability|Cordis spatiotemporal composability]]**, this sprint is grounded in coordinate invariance and rigorous execution lifecycle:
@@ -142,6 +159,7 @@ CREATE TABLE IF NOT EXISTS mcard_astrodynamic_orbits (
 Runge-Kutta integration and Lyapunov phase portrait formulas are public tools. Forward simulation reveals an economic policy that generates massive 10x resource yields immediately, but triggers an irreversible 80% ecological collapse ten cycles later. Cashing out for short-term glory reveals an insatiable, parasitic red core that tears the attractor manifold; choosing generational equilibrium preserves the closed Lyapunov orbit in shimmering, eternal golden harmony.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the sprint's intuitive mental model correctly compiles to the formal algebraic signature $\Sigma = (S, \Omega, \mathcal{E})$ and exercises its active Baldwin operator without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

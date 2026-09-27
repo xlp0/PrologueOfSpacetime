@@ -82,6 +82,23 @@ with an isoperimetric efficiency $Q = \frac{4\pi A}{L^2} \ge 0.85$ and zero toke
 
 ---
 
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+Applying the **[[docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping|Algebra of Systems]]** and **[[docs/concepts/Generalized_Algebraic_Theory_of_Programming|GAT-P]]**, this sprint bridges the player's intuitive understanding with formal algebraic typing:
+
+- **Dominant Mental Model**: **The Semi-Permeable Fortress / Membrane**. The player conceptualizes their system as a fragile biological cell that must establish an unbroken geometric wall to shelter internal resources against external osmotic storms.
+- **Matching Formal Algebra Signature $\Sigma = (S, \Omega, \mathcal{E})$**:
+  - **Sorts ($S$)**: $\text{InternalCytoplasm}$, $\text{ExtracellularEnv}$, $\text{LipidBilayer}$, $\text{PoreChannel}$
+  - **Operations ($\Omega$)**:
+    - $\text{enclose}: \text{Lattice} \to \text{Manifold}$
+    - $\text{modulate\_pore}: \text{Channel} \times \text{ATP} \to \text{Permeability}$
+    - $\text{clamp}: \text{Boundary} \to \text{Curvature}$
+  - **Equational Invariants ($\mathcal{E}$)**: $\oint_{\partial M} k_g ds + \iint_M K dA = 2\pi \chi(M)$, $\text{InternalLeakage} = 0$.
+- **Algebra of Systems Domain (Koo 2009)**: **Properties ($P$) & Boolean ($B$) Boundary at Micro/Meso Scale**. Enforces topological containment and spatial boundary preservation.
+- **Active Baldwin Operator (GAT-P)**: **Splitting ($\times$)**. Carves internal cytoplasm from hostile extracellular space across a thin crossing point.
+
+---
+
 ## Perspective, Referential Coordinates, and Cordis Spatiotemporal Fiber
 
 Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|Dialect's relativistic critique]]** and **[[docs/principles/Cordis_Spatiotemporal_Composability|Cordis spatiotemporal composability]]**, this sprint is grounded in coordinate invariance and rigorous execution lifecycle:
@@ -141,6 +158,7 @@ CREATE TABLE IF NOT EXISTS mcard_membranes (
 The Gauss-Bonnet theorem and perimeter closure formulas cost nothing to read. But deciding where to erect the membrane (\\text{己志}) forces a profound choice: does the player enclose all local energy tokens within a selfish, impermeable fortress, or do they construct a porous sanctuary with regulated exchange gates that shelter fragile neighboring proto-cells? Building a selfish fortress produces high red boundary shear; cultivating a shared sanctuary bathes the terrain in calm, distortion-free topological emerald.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the sprint's intuitive mental model correctly compiles to the formal algebraic signature $\Sigma = (S, \Omega, \mathcal{E})$ and exercises its active Baldwin operator without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

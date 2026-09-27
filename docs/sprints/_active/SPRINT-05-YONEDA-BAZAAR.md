@@ -85,6 +85,23 @@ $$\sum_{k} \text{Inflow}_k = \sum_{k} \text{Outflow}_k \quad \text{and} \quad \D
 
 ---
 
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+Applying the **[[docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping|Algebra of Systems]]** and **[[docs/concepts/Generalized_Algebraic_Theory_of_Programming|GAT-P]]**, this sprint bridges the player's intuitive understanding with formal algebraic typing:
+
+- **Dominant Mental Model**: **The Caravan Bazaar / Double-Auction Trading Pit**. Determining the true intrinsic value of an unfamiliar, exotic object by observing how all other merchants offer to barter for it.
+- **Matching Formal Algebra Signature $\Sigma = (S, \Omega, \mathcal{E})$**:
+  - **Sorts ($S$)**: $\text{Commodity}$, $\text{Probe} \in \text{Hom}(-, A)$, $\text{PricePolynomial}$, $\text{TradeClearing}$
+  - **Operations ($\Omega$)**:
+    - $\text{probe}: \text{TestGood} \times \text{Target} \to \text{Valuation}$
+    - $\text{curry}: (A \times B \to C) \to (A \to C^B)$
+    - $\text{clear}: \text{Supply} \times \text{Demand} \to \text{Settlement}$
+  - **Equational Invariants ($\mathcal{E}$)**: $\text{Nat}(y(A), F) \cong F(A)$, $\sum \text{Inflow} = \sum \text{Outflow}$, $\text{DeadweightLoss} = 0$.
+- **Algebra of Systems Domain (Koo 2009)**: **Composition ($C$) at Meso Scale (Real Options Valuation)**. Evaluates modular trade options $\max(V_T - I, 0)$ and eliminates economic deadweight loss.
+- **Active Baldwin Operator (GAT-P)**: **Substituting ($\simeq$) & Inverting (Curry / Exponentiation)**. Hot-swaps interchangeable goods and promotes private liquidity pools into public automated market maker interfaces.
+
+---
+
 ## Perspective, Referential Coordinates, and Cordis Spatiotemporal Fiber
 
 Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|Dialect's relativistic critique]]** and **[[docs/principles/Cordis_Spatiotemporal_Composability|Cordis spatiotemporal composability]]**, this sprint is grounded in coordinate invariance and rigorous execution lifecycle:
@@ -148,6 +165,7 @@ CREATE TABLE IF NOT EXISTS mcard_yoneda_exchange (
 The Yoneda Lemma and dual-ledger mathematics are public knowledge. When a neighboring enclave suffers a compute freeze during an algorithmic drought, does the player exploit their desperation with usurious price spikes, or establish a fair, reciprocal exchange that preserves mutual survival with zero Landauer heat dissipation? Predatory pricing induces burning, sticky haptic drag; cooperative barter renders controls cool, frictionless, and ice-smooth.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the sprint's intuitive mental model correctly compiles to the formal algebraic signature $\Sigma = (S, \Omega, \mathcal{E})$ and exercises its active Baldwin operator without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

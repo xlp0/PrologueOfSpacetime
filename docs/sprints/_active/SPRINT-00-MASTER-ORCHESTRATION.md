@@ -144,10 +144,46 @@ To ground this relativistic physics in runnable software, the sprint suite adopt
 
 ---
 
+## 4. The Algebra of Systems (AoS) and GAT-P: Mapping Mental Models to Matching Algebras
+
+The curriculum and game mechanics are formally powered by **Dr. Benjamin Koo's Algebra of Systems (MIT 2009)** and the **Generalized Algebraic Theory of Programming (GAT-P)**. This infrastructure bridges human intuitive metaphors with type-safe algebraic signatures.
+
+### 4.1 Koo's Triadic Rosetta Stone: Space, Time, and Energy
+Under AoS, all computational, physical, and organizational phenomena decompose into three invariant domains:
+- **Properties ($P$) / Space**: Micro Scale. Static types, memory buffers, content-addressed data, 0-simplex `MCard` ($\Sigma$-type).
+- **Composition ($C$) / Time**: Meso Scale. Dynamic causal execution, process functions, 1-simplex `PCard` ($\Pi$-type / polynomial functor).
+- **Boolean ($B$) / Energy**: Macro Scale. Physical referee, invariant proof, strategic real options, 2-simplex `VCard` (Id-type / Kan filler).
+
+### 4.2 The Six Baldwin Modular Operators
+GAT-P formalizes software evolution through Carliss Baldwin's six modular operators as algebraic transformations over polynomial functors:
+1. **Splitting ($\times$)**: Tensor product decomposition of a monolith into independent modules across a thin crossing point.
+2. **Substituting ($\simeq \implies =$)**: Univalent hot-swapping of equivalent implementations under an invariant specification.
+3. **Augmenting ($+$)**: Coproduct addition of an orthogonal capability without namespace collision.
+4. **Excluding ($-$)**: Projecting failed or deprecated paths into the algebraic kernel / null space.
+5. **Inverting (Adjunction)**: Currying internal states into reusable public platform interfaces ($\text{Hom}(A \times B, C) \cong \text{Hom}(A, C^B)$).
+6. **Porting ($\operatorname{Lan}_K F$)**: Change-of-base left Kan extension transporting code to new hardware/substrates without information loss.
+
+### 4.3 Mapping Mental Models to Matching Algebras
+Human players and AI agents intuitively reason through **Mental Models** (notional machines). To prevent "vibe coding" category errors, each sprint anchors an intuitive model to its formal mathematical signature $\Sigma = (S, \Omega, \mathcal{E})$:
+
+| Sprint | Mental Model (Intuitive Machine) | Matching Formal Algebra $\Sigma = (S, \Omega, \mathcal{E})$ | AoS Domain | Active Baldwin Operator |
+| :--- | :--- | :--- | :--- | :--- |
+| **S01. Tidepool** | Sieve / Maxwell's Demon | Discrete Monoid & Shannon Filtration $(\mathbb{N}, +, 0, \le)$ | Properties ($P$) | Splitting ($\times$) & Excluding ($-$) |
+| **S02. Cell Wall** | Semi-Permeable Fortress | Heyting Algebra & Boundary Topology $(\mathcal{O}(X), \cap, \cup, \text{Int}, \partial)$ | Properties ($P$) / Boolean ($B$) | Splitting ($\times$) |
+| **S03. Swarm** | Flocking Birds / Orchestra | Kuramoto Lie-Group Phase Action $(S^1, \oplus, \omega_i)$ | Composition ($C$) | Augmenting ($+$) & Inverting (Adj) |
+| **S04. Consensus** | Megalithic Observatory | Causal Poset & Univalent Identity Types $(E, \prec, \equiv)$ | Boolean ($B$) / Composition ($C$) | Substituting ($\simeq \implies =$) |
+| **S05. Bazaar** | Open Marketplace / Barter | Polynomial Functors & Yoneda Lemma $y(A) = \text{Hom}(-, A)$ | Composition ($C$) | Substituting ($\simeq$) & Inverting (Curry) |
+| **S06. Subak** | Water Temple / Mesh Router | Symmetric Monoidal Flow Network $(\text{Canals}, \otimes, I, \text{Weir})$ | Properties ($P$) $\to$ Composition ($C$) | Porting ($\operatorname{Lan}_K F$) |
+| **S07. Monad** | Metallurgy Forge / Petri Net | State Monad & Petri Net Incidence Algebra $(S \to (A, S), \mathbf{W})$ | Composition ($C$) | Splitting ($\times$) & Excluding ($-$) |
+| **S08. Nexus** | Celestial Clock / Orbit | Hamiltonian Symplectic Manifold $(T^*Q, \omega = dq \wedge dp, \{H, -\})$ | Composition ($C$) / Boolean ($B$) | Inverting (Platform Adjunction) |
+| **S09. Vault** | Secret Water Clock / Citadel | Elliptic Curve Pairing & Circuit Ideal $(\mathbb{G}_1 \times \mathbb{G}_2 \to \mathbb{G}_T)$ | Boolean ($B$) | Substituting ($\simeq$) & Excluding ($-$) |
+| **S10. Sheaf** | Terrace Hillside Ecology | Sheaf Cohomology & Čech Nerve $(\mathcal{F}(U), \text{res}_{U,V}, \check{H}^1 = 0)$ | Properties ($P$) $\to$ Boolean ($B$) | Splitting ($\times$) & Augmenting ($+$) |
+| **S11. Ceremony** | Precision Transit Turnstile | Queueing Algebra & Tropical Semiring $(\mathbb{R} \cup \{\infty\}, \min, +)$ | Composition ($C$) | Substituting ($\simeq$) & Porting ($\operatorname{Lan}$) |
+| **S12. Calendar** | Cosmic Spiral / Harmonics | Software Lagrangian & Poly-Temporal Category ($L = S_T - H_T$) | Master $\langle P, C, B \rangle$ | Full Baldwin Suite |
 
 ---
 
-## 4. The Judgment Principle: "Knowledge Is Free, But Judgment Is Not"
+## 5. The Judgment Principle: "Knowledge Is Free, But Judgment Is Not"
 
 The ultimate pedagogy of the *Prologue of Spacetime* is summarized in a core slogan that every player must confront:
 
@@ -188,7 +224,7 @@ A foundational physical insight links agent agency with non-equilibrium statisti
 2. **Re-coherence and the Energy Currency**: To prevent divergence into pure entropic chaos ($H \to \infty$), the collective ensemble must pull these vibrating, off-shell probes back into a consistent, order-preserving entry (a macroscopic trajectory, a shared causal history, or a monotonic ledger block).
 3. **The Definition of "Energy"**: In the *Prologue of Spacetime*, **"Energy" is precisely the cost paid by collective particles to buy back consistent order from the chaos of uncoordinated exploration.** By Landauer's Principle ($\Delta S \ge k_B \ln 2 \cdot \Delta I$), reconciling alternative paths into an idempotent, monotonic record requires energetic work. This energetic expenditure directly shapes the **Software Lagrangian** ($L_{\text{software}} = S_T - H_T$). See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 
-## 5. The 12-Sprint Civilizational Game Matrix
+## 6. The 12-Sprint Civilizational Game Matrix
 
 The game is divided into four historical epochs matching civilizational scale:
 
@@ -258,12 +294,11 @@ The game is divided into four historical epochs matching civilizational scale:
   - Chapter: [[chapters/12_Calendar_Coordination|Chapter 12: Calendar Coordination]] (Astronomy × Grammar)
   - Puzzle: [[Tri Hita Karana]] ecological-cultural-technological equilibrium; reconcile self-referential multi-calendar cycles.
   - Invariant Victory: Stationary action of the Software Lagrangian:
-    $$\delta \int (S_T - H_T) \, dt = 0$$
   - Synesthesia: **Universal Noospheric Synesthesia (Level 12)**.
 
 ---
 
-## 6. The Dual-Type Skill Lattice
+## 7. The Dual-Type Skill Lattice
 
 Player competencies are formalized as types within a bounded lattice $[\bot, \top]$:
 
@@ -300,7 +335,7 @@ $$\text{Action}: \text{PhysicalType} \times \text{SocialType} \to \text{State}'$
 
 ---
 
-## 7. The Three Guides & The Gamelan Orchestration Model
+## 8. The Three Guides & The Gamelan Orchestration Model
 
 The game balances player progression using three archetypal guides drawn from Balinese philosophy and Western computational science:
 
@@ -312,11 +347,14 @@ The game balances player progression using three archetypal guides drawn from Ba
 
 ---
 
-## 8. Master Definition of Done (DoD) Checklist
+## 9. Master Definition of Done (DoD) Checklist
 
 All sprints across this active workspace must satisfy this master checklist:
 
-### Architectural & Mathematical Gates
+### Algebraic & Systems Architecture Gates
+- [ ] **Algebraic Signature & Mental Model Grounding**: Verified that the sprint's intuitive mental model maps to an exact algebraic signature $\Sigma = (S, \Omega, \mathcal{E})$ within Koo's AoS Triad $\langle P, C, B \rangle$ and formalizes its active Baldwin modular operator.
+- [ ] **Baldwin Modularity Operator**: Formally identified the modular transformation ($\times, \simeq, +, -, \text{Curry}, \operatorname{Lan}$) executing in the sprint.
+
 ### Relativistic & Spatiotemporal Invariance Gates
 - [ ] **Judgment Dilemma & Character Color**: Incorporated an explicit, consequential moral choice pitting private extraction against communal stewardship, dynamically shifting the player's synesthetic color signature.
 

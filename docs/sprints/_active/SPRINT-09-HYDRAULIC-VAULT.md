@@ -83,6 +83,23 @@ with 100% cryptographic attestation coverage across all physical weirs.
 
 ---
 
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+Applying the **[[docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping|Algebra of Systems]]** and **[[docs/concepts/Generalized_Algebraic_Theory_of_Programming|GAT-P]]**, this sprint bridges the player's intuitive understanding with formal algebraic typing:
+
+- **Dominant Mental Model**: **The Secret Water Clock / Cryptographic Citadel**. A massive underground subterranean cistern protected by high stone walls; officials verify that water storage matches official ledgers through sealed acoustic resonance tubes without opening the vault gates.
+- **Matching Formal Algebra Signature $\Sigma = (S, \Omega, \mathcal{E})$**:
+  - **Sorts ($S$)**: $\text{PublicInput } x$, $\text{SecretWitness } w$, $\text{ArithmeticCircuit } C$, $\text{ZKProof } \pi$
+  - **Operations ($\Omega$)**:
+    - $\text{prove}: C \times x \times w \to \pi$
+    - $\text{verify}: C \times x \times \pi \to \{0, 1\}$
+    - $\text{commit}: \text{Storage} \times \text{State} \to \text{MCardCommitment}$
+  - **Equational Invariants ($\mathcal{E}$)**: $e(A, B) = e(\alpha, \beta) \cdot e(x, \gamma) \cdot e(C, \delta)$, $\text{Soundness}: P(\text{FakeProof}) < 2^{-\lambda}$, $\text{ZeroKnowledge}: \mathcal{I}(w; \pi) = 0$.
+- **Algebra of Systems Domain (Koo 2009)**: **Boolean ($B$) at Macro Scale (Zero-Leakage Invariant Verification)**. Guarantees absolute mathematical verification with zero information leakage.
+- **Active Baldwin Operator (GAT-P)**: **Substituting ($\simeq \implies =$) & Excluding ($-$)**. Proves computational integrity through zero-knowledge equivalence without exposing underlying witness state; zeroes leakage paths into the cryptographic null space.
+
+---
+
 ## Perspective, Referential Coordinates, and Cordis Spatiotemporal Fiber
 
 Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|Dialect's relativistic critique]]** and **[[docs/principles/Cordis_Spatiotemporal_Composability|Cordis spatiotemporal composability]]**, this sprint is grounded in coordinate invariance and rigorous execution lifecycle:
@@ -146,6 +163,7 @@ CREATE TABLE IF NOT EXISTS mcard_hydraulic_ledger (
 Pacioli's double-entry bookkeeping and mass conservation equations are freely taught. A concealed fissure in the weir canal allows the player to divert 15% of public irrigation water into private fish ponds undetected. Concealing the leak exposes the hollow morality of secret theft; reporting the breach and cryptographically sealing the double-entry MCard ledger crystallizes the player's character into a flawless, transparent diamond prism.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the sprint's intuitive mental model correctly compiles to the formal algebraic signature $\Sigma = (S, \Omega, \mathcal{E})$ and exercises its active Baldwin operator without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

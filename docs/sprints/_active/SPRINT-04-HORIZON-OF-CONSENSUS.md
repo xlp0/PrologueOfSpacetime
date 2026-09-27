@@ -88,6 +88,23 @@ $$\chi^2 = \sum_{i=1}^M \frac{(\theta_i - \hat{\theta}_i)^2}{\sigma_i^2} < \chi^
 
 ---
 
+## Mental Model, Matching Formal Algebra, and Baldwin Modularity
+
+Applying the **[[docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping|Algebra of Systems]]** and **[[docs/concepts/Generalized_Algebraic_Theory_of_Programming|GAT-P]]**, this sprint bridges the player's intuitive understanding with formal algebraic typing:
+
+- **Dominant Mental Model**: **The Megalithic Skywatching Observatory**. Disparate ancient astronomers across distant mountain peaks peer through moving cloud cover to agree on the true astronomical position of a star.
+- **Matching Formal Algebra Signature $\Sigma = (S, \Omega, \mathcal{E})$**:
+  - **Sorts ($S$)**: $\text{ObserverNode}$, $\text{ObservationEvent}$, $\text{LightCone}$, $\text{QuorumCertificate}$
+  - **Operations ($\Omega$)**:
+    - $\text{observe}: \text{Frame} \times \text{Sky} \to \text{Angle}$
+    - $\text{triangulate}: \text{Obs}_1 \times \text{Obs}_2 \times \text{Obs}_3 \to \text{Position}$
+    - $\text{certify}: \text{Quorum} \to \text{Truth}$
+  - **Equational Invariants ($\mathcal{E}$)**: $\sigma^2_{\text{truth}} \to 0$, $Q_1 \cap Q_2 \neq \emptyset$, $\text{BranchDivergence} = 0$.
+- **Algebra of Systems Domain (Koo 2009)**: **Boolean ($B$) & Composition ($C$) at Meso/Macro Scale**. Collapses epistemic variance into univalent truth.
+- **Active Baldwin Operator (GAT-P)**: **Substituting ($\simeq \implies =$)**. Canonical linearization; replaces conflicting fork proposals with the verified univalent block under Voevodsky equivalence.
+
+---
+
 ## Perspective, Referential Coordinates, and Cordis Spatiotemporal Fiber
 
 Applying **[[docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism|Dialect's relativistic critique]]** and **[[docs/principles/Cordis_Spatiotemporal_Composability|Cordis spatiotemporal composability]]**, this sprint is grounded in coordinate invariance and rigorous execution lifecycle:
@@ -149,6 +166,7 @@ CREATE TABLE IF NOT EXISTS mcard_consensus_attestation (
 Celestial trigonometry and Huber loss estimators are available to all. An adversarial Sybil coalition offers the player a high-yield token reward to sign off on a false astronomical bearing. Selling the signature ($V_{\\text{post}}$) provides immediate private wealth but distorts the valley's navigation grid. Colluding with Sybils smears the visual field in murky, disorienting chromatic aberration; holding the line on geometric truth collapses the spectrum into an unforgeable, razor-sharp sapphire beam.
 
 ## 8. Definition of Done (DoD) Checklist
+- [ ] **Algebraic Signature & Mental Model Verification**: Verified that the sprint's intuitive mental model correctly compiles to the formal algebraic signature $\Sigma = (S, \Omega, \mathcal{E})$ and exercises its active Baldwin operator without category errors.
 - [ ] **Vibration & Coherence Energy Balance**: Verified that entity fluctuations (free will to explore alternate realities) and the collective energetic cost to restore order-preserving coherence are explicitly modeled and balanced.
 - [ ] **Judgment Dilemma & Character Color**: Resolved the sprint's ethical dilemma between private extraction and communal flourishing, recording the resulting chromatic shift in the player's synesthetic profile.
 

@@ -7,12 +7,18 @@
 > [!NOTE]
 > **Vibration, Free Will, and the Energy of Coherence**: Vibration and perturbation are the physical substrate of agency—the opportunities for physical entities to try to demonstrate their free will to "jump between different physical realities" (exploring off-shell trajectories, superposition states, and counterfactual futures). The chance of coming back into a consistent, order-preserving entry is the irreducible cost these collective particles must pay as **"energy"** (work, action, and Landauer dissipation). See [[docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence|Vibration, Perturbation, and the Energy Cost of Coherence]].
 
+> [!TIP]
+> **Algebra of Systems & Mental Model Mapping**: Every sprint explicitly pairs an intuitive **Mental Model** (notional machine / metaphor) with its matching **Formal Algebra Signature** $\Sigma = (S, \Omega, \mathcal{E})$, governed by **Koo's Algebra of Systems Triad** $\langle P, C, B \rangle$ and the **Generalized Algebraic Theory of Programming** (Baldwin modular operators: Splitting, Substituting, Augmenting, Excluding, Inverting, Porting). See [[docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping|Algebra of Systems and Mental Model Mapping]] and [[docs/concepts/Generalized_Algebraic_Theory_of_Programming|Generalized Algebraic Theory of Programming]].
+
 title: "Active Sprints Workspace: Prologue of Spacetime"
-date: 2026-09-26
-tags: [Sprint, Meta-Game, PrologueOfSpacetime, Civilizational-Strategy, Tri-Hita-Karana, Digital-Synesthesia]
+date: 2026-09-27
+tags: [Sprint, Meta-Game, PrologueOfSpacetime, Civilizational-Strategy, Tri-Hita-Karana, Digital-Synesthesia, Algebra-of-Systems, GAT]
 type: note
 sources:
+  - docs/concepts/Generalized_Algebraic_Theory_of_Programming.md
+  - docs/concepts/Algebra_of_Systems_and_Mental_Model_Mapping.md
   - docs/concepts/Knowledge_Is_Free_Judgment_Is_Not.md
+  - docs/concepts/Vibration_Perturbation_and_the_Energy_Cost_of_Coherence.md
   - docs/sources/Dialect_Relativity_Unification_Electricity_Magnetism.md
   - docs/concepts/Perspective_and_Referential_Coordinates_in_Spacetime_Compositionality.md
   - docs/principles/Cordis_Spatiotemporal_Composability.md
