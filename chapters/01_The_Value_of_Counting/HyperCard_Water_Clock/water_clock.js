@@ -84,7 +84,7 @@ class MaxwellsDemon {
 const isMain = process.argv[1] && process.argv[1].endsWith('water_clock.js');
 if (isMain) {
   const cliLang = process.argv[2] || 'id';
-  console.log(`[i18n] Running Maxwell's Demon simulation with locale: '${cliLang}' (Supported: 'id', 'en', 'zh')\n`);
+  console.log(`[i18n] Running Maxwell's Demon simulation with locale: '${cliLang}' (Supported: 'id', 'en', 'zh-TW')\n`);
   const demon = new MaxwellsDemon({ locale: cliLang });
 
   // Simulate a "Good Rhythm" (Laminar Flow)

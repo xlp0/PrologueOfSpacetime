@@ -64,8 +64,9 @@ export async function loadLocales(source) {
  * @returns {string} The active language code
  */
 export function setLocale(lang) {
-  if (localesData[lang] || lang === 'id' || lang === 'en' || lang === 'zh' || lang === 'zh-TW') {
-    currentLocale = lang;
+  const target = (lang === 'zh') ? 'zh-TW' : lang;
+  if (localesData[target] || target === 'id' || target === 'en' || target === 'zh-TW') {
+    currentLocale = target;
     if (typeof document !== 'undefined') {
       applyToDOM();
     }
@@ -114,7 +115,8 @@ export function onLocaleChange(fn) {
  * @returns {string} Translated string or fallback
  */
 export function t(key, params = {}, lang = currentLocale) {
-  const dict = localesData[lang] || localesData.en || localesData.id || {};
+  const targetLang = (lang === 'zh') ? 'zh-TW' : lang;
+  const dict = localesData[targetLang] || localesData.en || localesData.id || {};
   const parts = key.split('.');
   let val = dict;
 

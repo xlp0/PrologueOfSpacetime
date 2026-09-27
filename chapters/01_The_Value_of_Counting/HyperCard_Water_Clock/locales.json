@@ -129,75 +129,10 @@
       "gateCollapse": "Narrative: The gate collapses under the weight of the heat."
     }
   },
-  "zh": {
-    "meta": {
-      "code": "zh",
-      "name": "中文 (简体)",
-      "flag": "🇨🇳"
-    },
-    "header": {
-      "mainTitle": "超卡水钟：第01工位（竹节滴漏）",
-      "subtitle": "“计数是一种需要消耗物理能量的观测行为。”",
-      "breadcrumb": "时空序章：第 01 章",
-      "stationBadge": "第 01 工位（记忆库存 MCARD）",
-      "depthBadge": "RCA₀ 递归可计算（第一级）"
-    },
-    "spigot": {
-      "banner": "[═══ 连续模拟竹筒流水 ═══]",
-      "reservoirLabel": "竹节凹槽水流积累："
-    },
-    "counter": {
-      "title": "已验证水滴总数（MCard 账本）",
-      "cidPrefix": "内容哈希 CID"
-    },
-    "meters": {
-      "energyLabel": "观测者能量储备 (E)",
-      "entropyLabel": "系统熵增 / 温度 (H)"
-    },
-    "status": {
-      "laminar": "💧 层流状态（平稳谐振，熵减 ΔH < 0）",
-      "turbulent": "⚡ 湍流摩擦（点击过快！热耗散加剧）",
-      "overheat": "⚠️ 系统崩溃：麦克斯韦妖过热！熵增失控"
-    },
-    "buttons": {
-      "startFlow": "开启流水",
-      "stopFlow": "暂停流水",
-      "catchDrop": "💧 捕获水滴",
-      "reset": "冷却重置"
-    },
-    "gasingHint": {
-      "default": "💡 <strong>GASing 理念（寓教于乐）</strong>：点击“开启流水”，静心观察竹尖成滴。在水滴饱满时点击“捕获水滴”。保持约1秒一次的平稳节奏，系统将保持清凉高效！",
-      "laminar": "🌟 <strong>节奏绝佳！</strong>：进入层流谐振状态，以最小能耗锁定水滴，系统熵持续下降！",
-      "fast": "⚠️ <strong>过载警告！</strong>：点击过频！兰道尔原理生效：高频信息抹除剧烈耗散能量并产生热量。",
-      "slow": "🌊 <strong>水流溢出！</strong>：水滴未及观测即流失。请专注于周期律动。",
-      "dead": "🔥 <strong>传感器熔断！</strong>：能量耗尽，熵增过载。请点击“冷却重置”恢复观测能力。"
-    },
-    "logs": {
-      "title": "MCARD 不可变账本记录：",
-      "entriesCount": "{count} 条记录",
-      "init": "> 系统初始化完毕，等待水流注入...",
-      "flowStart": "> 竹闸开启，模拟水流持续涌入...",
-      "flowStop": "> 竹闸关闭，水流暂停。",
-      "reset": "> 系统完成冷却降温，能量恢复至100%，熵归零。",
-      "milestone": "🎉【里程碑】{count} 滴水滴验证通过！泛音谐振响起。",
-      "mcardTick": "[MCard #{count}] 观测间隔: {delta}ms | 能量: {energy}% | 熵: {entropy}% | CID: {cid}",
-      "criticalOverheat": "💥【紧急警报】传感器过热！系统熵超越观测者极限，水流强行中断。"
-    },
-    "demon": {
-      "elderTitle": "--- 村落长者 ---",
-      "elderRoar": "长者：“倾听那轰鸣的水声吧。那是混沌的原始之流。若要计数它，你必须先定格它。”",
-      "elderWarn": "长者：“但切记：观测需要能耗。过快，系统焚毁；过慢，洪流灭顶！”",
-      "actionTriggered": "动作：点击观测触发（间隔：{delta}毫秒）",
-      "feedbackSound": "反馈：*水波微漾* ~ *磬乐谐振*",
-      "overheatAlert": "*** 紧急警报：麦克斯韦妖过热 ***",
-      "elderSurrender": "长者：“你已向混乱屈服，江河吞没了防线。”",
-      "gateCollapse": "叙事：观测闸门在炽热的过载能量下崩塌。"
-    }
-  },
   "zh-TW": {
     "meta": {
       "code": "zh-TW",
-      "name": "繁體中文",
+      "name": "正體中文",
       "flag": "🇹🇼"
     },
     "header": {

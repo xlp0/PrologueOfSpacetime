@@ -26,8 +26,7 @@ This directory houses the **HyperCard Water Clock** implementation stack—an in
 1. **`locales.json`**: The Single Source of Truth (SSOT) external linguistic repository:
    * 🇮🇩 **Indonesian (`id`)**: Bahasa Indonesia
    * 🇬🇧 **English (`en`)**: English
-   * 🇨🇳 **Simplified Chinese (`zh`)**: 中文 (简体)
-   * 🇹🇼 **Traditional Chinese (`zh-TW`)**: 繁體中文
+   * 🇹🇼 **Orthodox Chinese (`zh-TW`)**: 正體中文
    * Decouples all natural-language statements, Elder dialogues, thermodynamic telemetry alerts, and pedagogical hints from executable logic.
 2. **`i18n.js`**: Standardized, reusable, isomorphic Internationalization (i18n) module:
    * Dynamically loads linguistic statements from `locales.json` via HTTP `fetch` in browsers or synchronous `fs` in Node.js.
@@ -39,7 +38,7 @@ This directory houses the **HyperCard Water Clock** implementation stack—an in
    * Monotonic counter display ($n \in \mathbb{N}$).
    * Tactile manual capture trigger (`[ Catch the Drop ]` button).
    * Thermodynamic feedback display: Energy remaining, Entropy generated, and Laminar vs. Turbulent flow indicator.
-   * Standardized i18n multilingual switcher (🇮🇩 Bahasa Indonesia / 🇬🇧 English / 🇨🇳 简体中文 / 🇹🇼 繁體中文).
+   * Standardized i18n multilingual switcher (🇮🇩 Bahasa Indonesia / 🇬🇧 English / 🇹🇼 正體中文).
    * Pure Web Audio API procedural sound synthesis (no external assets required).
 4. **`water_clock.js`**: Node.js executable module implementing the underlying `MaxwellsDemon` class, delta-timing logic, thermodynamic dissipation equations, and multilingual CLI output driven by `i18n.js`.
 
@@ -54,7 +53,7 @@ Serve or open `index.html` in any standard web browser:
 python3 -m http.server 8000
 # Navigate to: http://localhost:8000/chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/
 ```
-Click the language switch buttons at the top to toggle instantly between **🇮🇩 Bahasa Indonesia**, **🇬🇧 English**, and **🇨🇳 中文**!
+Click the language switch buttons at the top to toggle instantly between **🇮🇩 Bahasa Indonesia**, **🇬🇧 English**, and **🇹🇼 正體中文**!
 
 ### Option B: Node.js CLI (Simulation Script with i18n)
 Run the automated Maxwell's Demon simulation script with your preferred locale:
@@ -65,8 +64,8 @@ node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js id
 # English
 node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js en
 
-# Chinese
-node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js zh
+# Orthodox Chinese (zh-TW or zh)
+node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js zh-TW
 ```
 
 ---
