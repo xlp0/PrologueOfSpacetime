@@ -13,14 +13,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 - **Completed & Certified All 12 Civilizational Game Sprints (`SPRINT-01` to `SPRINT-12`)**:
-  - Certified all 13 Definition of Done gates, verified formal algebraic signatures $\Sigma$, and appended execution audit logs in [`SPRINT-01-GRANULAR-TIDEPOOL.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/_active/SPRINT-01-GRANULAR-TIDEPOOL.md) through [`SPRINT-12-IMPLEDICATIVE-CALENDAR.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/_active/SPRINT-12-IMPLEDICATIVE-CALENDAR.md).
-  - Allocated all 12 completed game sprints into their designated epoch directories:
+  - Certified all 13 Definition of Done gates, verified formal algebraic signatures $\Sigma$, and appended execution audit logs across all 12 game sprints.
+  - Graduated all 12 completed game sprints out of `docs/sprints/_active/` into their designated epoch directories:
     - [`epoch-01-microcosmic-physics/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/epoch-01-microcosmic-physics/) (Sprints 01–04)
     - [`epoch-02-ecosystemic-emergence/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/epoch-02-ecosystemic-emergence/) (Sprints 05–08)
     - [`epoch-03-collective-computation/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/epoch-03-collective-computation/) (Sprints 09–11)
     - [`epoch-04-cosmological-harmony/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/epoch-04-cosmological-harmony/) (Sprint 12)
 - **Completed & Certified All 6 AoS Infrastructure Sprints (`SPRINT-AOS-01` to `06`) & Master Plan**:
-  - Certified all gates and allocated all infrastructure sprints into Track A Miller directories:
+  - Certified all gates and graduated all infrastructure sprints out of `docs/sprints/_active/` into Track A Miller directories:
     - [`01-inventory-and-taxonomy/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/01-inventory-and-taxonomy/) (`SPRINT-AOS-01`)
     - [`02-mathematical-formalization/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/02-mathematical-formalization/) (`SPRINT-AOS-02`)
     - [`03-modularity-and-decoupling/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/03-modularity-and-decoupling/) (`SPRINT-AOS-03`)
@@ -28,8 +28,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
     - [`05-verification-and-qa/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/05-verification-and-qa/) (`SPRINT-AOS-05`)
     - [`06-continuous-filtration/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/06-continuous-filtration/) (`SPRINT-AOS-06`)
     - [`07-master-orchestration/`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/07-master-orchestration/) ([`SPRINT-00-MASTER-ORCHESTRATION.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/07-master-orchestration/SPRINT-00-MASTER-ORCHESTRATION.md))
-- **Updated Vault Navigation & Cataloging**:
-  - Refined all 11 domain directory `README.md` files, [`docs/sprints/_active/README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/_active/README.md), [`docs/sprints/README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/README.md), and [`index.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/index.md).
+- **Workspace Graduation & Navigation Refinement**:
+  - Successfully graduated all 19 sprint files out of `docs/sprints/_active/`, establishing [`docs/sprints/_active/README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/_active/README.md) cleanly as the intake board / staging cockpit for future sprints.
+  - Refined all 11 domain directory `README.md` files, [`docs/sprints/README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/docs/sprints/README.md), [`README.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/README.md), and [`index.md`](file:///Users/bkoo/Documents/Development/GovTech/PKC/PrologueOfSpacetime/index.md).
 
 ## [2026-09-27] — Full 12-Chapter Structural Integration & Dual-Track Sprint Allocation Taxonomy
 

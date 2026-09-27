@@ -80,4 +80,5 @@ liberal_art: Quadrivium-Music
   - Allocated all verified sprint snapshots into their respective graduated directories:
     - **Track A (Miller Magic Seven)**: `01-inventory-and-taxonomy/` through `07-master-orchestration/`.
     - **Track B (Four Civilizational Epochs)**: `epoch-01-microcosmic-physics/` through `epoch-04-cosmological-harmony/`.
-  - Updated `README.md` in all 11 graduated directories, `docs/sprints/_active/README.md`, `docs/sprints/README.md`, and `index.md`.
+  - Graduated all 19 completed sprint documents out of `docs/sprints/_active/`, establishing `docs/sprints/_active/README.md` as the dedicated active staging cockpit and intake queue for newly chartered sprints.
+  - Updated `README.md` across all 11 graduated directories, `docs/sprints/_active/README.md`, `docs/sprints/README.md`, `README.md`, and `index.md`.

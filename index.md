@@ -102,31 +102,7 @@ Each chapter has a `README` (overview) and an `MVP_The_*` (minimum viable protot
 
 ## Active Sprints (`docs/sprints/_active/`)
 
-- [[docs/sprints/_active/README|Active Sprints Workspace Overview]] — cockpit and status matrix for the civilizational strategy game sprint suite.
-- [[docs/sprints/_active/SPRINT-00-MASTER-ORCHESTRATION|Sprint 00: Master Orchestration Plan]] — civilizational strategy game, synesthetic type lattice, and Tri Hita Karana synthesis.
-- **Epoch I: The Primordial Sensorium (Why / Rhetoric Era)**
-  - [[docs/sprints/_active/SPRINT-01-GRANULAR-TIDEPOOL|Sprint 01: The Granular Tidepool]] — discrete bitstream sieving, Shannon entropy, auditory pulse train.
-  - [[docs/sprints/_active/SPRINT-02-TOPOGRAPHIC-CELL-WALL|Sprint 02: The Topographic Cell Wall]] — geometric membrane enclosure, Gauss-Bonnet curvature, topological parallax.
-  - [[docs/sprints/_active/SPRINT-03-HARMONIC-SWARM|Sprint 03: The Harmonic Swarm]] — rhythmic cadence locking, Kuramoto phase order, harmonic dissonance perception.
-  - [[docs/sprints/_active/SPRINT-04-HORIZON-OF-CONSENSUS|Sprint 04: The Horizon of Consensus]] — multi-observer parallax triangulation, Huber loss, spectral coherence.
-- **Epoch II: The Sovereign Tribal Mesh (What / Logic Era)**
-  - [[docs/sprints/_active/SPRINT-05-YONEDA-BAZAAR|Sprint 05: The Yoneda Bazaar]] — dual-category resource allocation, Yoneda test probes, thermal haptic feedback.
-  - [[docs/sprints/_active/SPRINT-06-SUBAK-MESHWAY|Sprint 06: The Subak Meshway]] — topological Reticulum routing, max-flow min-cut, fluidic vector streams.
-  - [[docs/sprints/_active/SPRINT-07-CAUSAL-MONAD-FORGE|Sprint 07: The Causal Monad Forge]] — Petri net place-transitions, non-commutative causality, phosphorescent causal trails.
-  - [[docs/sprints/_active/SPRINT-08-ASTRODYNAMIC-NEXUS|Sprint 08: The Astrodynamic Nexus]] — Socratic forward simulation, Lyapunov exponents, attractor manifold holography.
-- **Epoch III: The Sheaf Metamaterial (How / Grammar Era)**
-  - [[docs/sprints/_active/SPRINT-09-HYDRAULIC-VAULT|Sprint 09: The Hydraulic Vault]] — typed micro-measurement, algebraic sum/product types, crystalline lattice sight.
-  - [[docs/sprints/_active/SPRINT-10-RICE-TERRACE-SHEAF|Sprint 10: The Rice Terrace Sheaf]] — topographic sheaf gluing, vanishing Čech cohomology H¹ = 0, zero-shear manifold vision.
-  - [[docs/sprints/_active/SPRINT-11-ZERO-QUEUE-CEREMONY|Sprint 11: The Zero-Queue Ceremony]] — Kotekan interlocking rhythms, Little's Law collapse W_q ≡ 0, acoustic strobe resonance.
-- **Epoch IV: The Planetary Noosphere (Transcendent Era / Synthesis)**
-  - [[docs/sprints/_active/SPRINT-12-IMPLEDICATIVE-CALENDAR|Sprint 12: The Impredicative Calendar]] — Tri Hita Karana planetary synthesis, Software Lagrangian, universal noospheric synesthesia.
-- **Algebra of Systems (AoS) Reorganization Suite**
-  - [[docs/sprints/_active/SPRINT-AOS-01-CONTENT-INVENTORY|Sprint AoS-01: Content Inventory & Topic Taxonomy]]
-  - [[docs/sprints/_active/SPRINT-AOS-02-MATHEMATICAL-FORMALIZATION|Sprint AoS-02: Mathematical Formalization & Rank-Nullity]]
-  - [[docs/sprints/_active/SPRINT-AOS-03-MODULARITY-AND-DECOUPLING|Sprint AoS-03: Modularity, Decoupling & Independence Axiom]]
-  - [[docs/sprints/_active/SPRINT-AOS-04-CROSS-DOMAIN-SYNTHESIS|Sprint AoS-04: Cross-Domain Synthesis & Real Options]]
-  - [[docs/sprints/_active/SPRINT-AOS-05-VERIFICATION-AND-QA|Sprint AoS-05: Verification & Zero-Loss QA]]
-  - [[docs/sprints/_active/SPRINT-AOS-06-CONTINUOUS-FILTRATION|Sprint AoS-06: Continuous Filtration & Loopback Mechanics]]
+- [[docs/sprints/_active/README|Active Sprints Cockpit & Intake Queue]] — operational staging area and status matrix for newly chartered and in-flight sprints. (All prior 19 sprints have achieved 100% Definition of Done verification and graduated to their permanent domain repositories listed below under `docs/sprints/`).
 
 ## Sprint Architecture & Graduated Repositories (`docs/sprints/`)
 
