@@ -1,0 +1,189 @@
+{
+  "$schema": "https://clm.dev/schemas/type-lattice.json",
+  "chapter": "01",
+  "title": "The Value of Counting",
+  "engine": "clm-kernel@0.0.1",
+  "strata": [
+    {
+      "level": 0,
+      "identifier": "U0",
+      "stratum_name": "mcard_cas",
+      "types": [
+        {
+          "id": "DropletAtom",
+          "category": "AtomicData",
+          "hott_type": "Sigma_Type",
+          "symbol": "δ : Droplet",
+          "immutable": true
+        },
+        {
+          "id": "NaturalNumber",
+          "category": "InductiveData",
+          "hott_type": "Nat",
+          "symbol": "n ∈ ℕ",
+          "immutable": true
+        },
+        {
+          "id": "ContentId",
+          "category": "CryptographicHash",
+          "hott_type": "Hash_CID",
+          "symbol": "CIDv1(bafy...)",
+          "immutable": true
+        },
+        {
+          "id": "ThermalQuantum",
+          "category": "PhysicalMeasure",
+          "hott_type": "Real",
+          "symbol": "E = kB · T · ln 2",
+          "immutable": true
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "identifier": "U1",
+      "stratum_name": "pcard_net",
+      "types": [
+        {
+          "id": "ClepsydraTick",
+          "category": "ADC_Transition",
+          "hott_type": "Pi_Type",
+          "symbol": "Continuum → Discrete",
+          "inputs": ["DropletAtom"],
+          "outputs": ["NaturalNumber"]
+        },
+        {
+          "id": "PeanoSuccessor",
+          "category": "PolynomialFunctor",
+          "hott_type": "Succ",
+          "symbol": "Succ(n) = n + 1",
+          "inputs": ["NaturalNumber"],
+          "outputs": ["NaturalNumber"]
+        },
+        {
+          "id": "DemonObservation",
+          "category": "ObserverFunctor",
+          "hott_type": "State_Transition",
+          "symbol": "⟨E, H⟩ ↦ ⟨E - ΔE, H + ΔH⟩",
+          "inputs": ["ThermalQuantum"],
+          "outputs": ["ThermalQuantum"]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "identifier": "U2",
+      "stratum_name": "vcard_proof",
+      "types": [
+        {
+          "id": "LaminarConservationGate",
+          "category": "HoareGate",
+          "hott_type": "Id_Type",
+          "symbol": "{Δt ∈ [500ms, 1500ms]} Tick {ΔH < 0}",
+          "precondition": "Delta_T_In_Laminar_Band",
+          "postcondition": "Entropy_Reduced"
+        },
+        {
+          "id": "LandauerBoundProof",
+          "category": "ThermodynamicReceipt",
+          "hott_type": "ProofWitness",
+          "symbol": "Q_erased ≥ kB · T · ln 2",
+          "precondition": "Turbulent_Sampling",
+          "postcondition": "Thermal_Friction_Witnessed"
+        },
+        {
+          "id": "PacioliDoubleEntryReceipt",
+          "category": "AuditWitness",
+          "hott_type": "EquivalenceProof",
+          "symbol": "Debit(Communal) ≡ Credit(Subak)",
+          "precondition": "Uncommitted_Count",
+          "postcondition": "Ledger_Committed"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "identifier": "U3",
+      "stratum_name": "satori_fiber",
+      "types": [
+        {
+          "id": "ElderWarningAct",
+          "category": "SpeechAct",
+          "hott_type": "Directive_Fiber",
+          "symbol": "Act(Directive, ElderRoar)",
+          "channel": "Elder_Voice"
+        },
+        {
+          "id": "AuditoryPulseAct",
+          "category": "SynestheticPulse",
+          "hott_type": "Audio_Fiber",
+          "symbol": "Pulse(440Hz, Plink)",
+          "channel": "WebAudio_Plink"
+        },
+        {
+          "id": "MilestoneChimeAct",
+          "category": "HarmonicCelebration",
+          "hott_type": "Gamelan_Fiber",
+          "symbol": "Chime(DecadeMultiples)",
+          "channel": "WebAudio_Gamelan"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "identifier": "U4",
+      "stratum_name": "membrane_ui",
+      "types": [
+        {
+          "id": "WaterClockStack",
+          "category": "CardViewport",
+          "hott_type": "UI_Container",
+          "symbol": "MCardStack(HTML5)",
+          "component": ".card-stack"
+        },
+        {
+          "id": "CatchDropTrigger",
+          "category": "TactileTrigger",
+          "hott_type": "UI_Event",
+          "symbol": "OnClick(CatchDrop)",
+          "component": "#btnCatchDrop"
+        },
+        {
+          "id": "ThermodynamicGauge",
+          "category": "TelemetryWidget",
+          "hott_type": "UI_Display",
+          "symbol": "Meter(Energy, Entropy)",
+          "component": ".thermometer-container"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "identifier": "U5",
+      "stratum_name": "meta_gamma",
+      "types": [
+        {
+          "id": "GASingFlowState",
+          "category": "PedagogicalLoop",
+          "hott_type": "Reflection_Type",
+          "symbol": "Loop_Gamma(Easy, Fun, Enjoyable)",
+          "objective": "Zero_Cognitive_Friction"
+        },
+        {
+          "id": "EpistemicFitness",
+          "category": "FitnessMetric",
+          "hott_type": "Quality_Measure",
+          "symbol": "Fitness = N_laminar / (N_total + H)",
+          "objective": "Optimal_Observer_Resonance"
+        },
+        {
+          "id": "KenoticEmptySchema",
+          "category": "AxiomaticStance",
+          "hott_type": "Null_Assumption",
+          "symbol": "Schema = ∅",
+          "objective": "Pure_Receptivity"
+        }
+      ]
+    }
+  ]
+}

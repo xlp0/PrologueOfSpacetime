@@ -89,6 +89,17 @@ $$\text{Inventory} = \sum_{k} c_k \cdot \text{MCard}_k$$
 * **$\phi_k$ (Basis Vector)**: The MCard cryptographic CID acting as the orthogonal unit of meaning.
 * **Laplace Damping**: Maintenance of MCards requires memory quantums. If $c_k < \text{Cost}_{\text{maintain}}$, the card is pruned (decayed), preserving system boundedness.
 
+### 3.2 Formal CLM Type Lattice Stratification (Powered by `clm-kernel`)
+The Counter's entities and operational invariants are formally encoded in the Chapter 01 **Type Lattice** ([`type_lattice.json`](type_lattice.json)), verified by the executable engine ([`type_lattice.js`](type_lattice.js)) across six universe strata:
+* **$U_0$ (`mcard_cas`)**: `DropletAtom`, `NaturalNumber` ($n \in \mathbb{N}$), `ContentId` (CIDv1), `ThermalQuantum`.
+* **$U_1$ (`pcard_net`)**: `ClepsydraTick` (ADC), `PeanoSuccessor` ($\text{Succ}(n) = n+1$), `DemonObservation`.
+* **$U_2$ (`vcard_proof`)**: `LaminarConservationGate` ($\Delta H < 0$), `LandauerBoundProof`, `PacioliDoubleEntryReceipt`.
+* **$U_3$ (`satori_fiber`)**: `ElderWarningAct`, `AuditoryPulseAct`, `MilestoneChimeAct`.
+* **$U_4$ (`membrane_ui`)**: `WaterClockStack`, `CatchDropTrigger`, `ThermodynamicGauge`.
+* **$U_5$ (`meta_gamma`)**: `GASingFlowState`, `EpistemicFitness`, `KenoticEmptySchema`.
+
+All linguistic interpretations are completely externalized in [`type_lattice_locales.json`](type_lattice_locales.json) across Indonesian (`id`), English (`en`), and Orthodox Chinese (`zh-TW`).
+
 ---
 
 ## 4. GASing Strategy & The Kenosis Principle

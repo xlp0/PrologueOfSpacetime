@@ -147,3 +147,30 @@ liberal_art: Quadrivium-Music
   - Verified `node chapters/01_The_Value_of_Counting/HyperCard_Water_Clock/water_clock.js` across `id`, `en`, and `zh-TW`.
   - Reloaded live Google Chrome browser session on `http://localhost:8099`.
   - Formally certified 100% pass across all 12 sprints via `python3 src/civilizational_sprint_engine.py`.
+
+## [2026-09-27] feature | Formalized Chapter Type Lattice Principle and Integrated clm-kernel into Chapter 01
+
+- **Trigger:** User directed in `chapters/00_Structure_and_Vision.md` to explain that every Chapter must have a Type Lattice specifically focused on its relevant content, with multilingual translations in a separate JSON file, incorporating the `clm-kernel` npm package and applying this to the existing sample in `chapters/01_The_Value_of_Counting`.
+- **Architectural Enhancements:**
+  - **`chapters/00_Structure_and_Vision.md`**:
+    - Added **Section 3.1: Chapter Architecture: The Type Lattice Principle (CLM Stratification U0–U5)**: Mandating that every chapter possesses a dedicated Type Lattice stratified into six HoTT universe levels powered by `clm-kernel`:
+      - $U_0$ (`mcard_cas`): Static Content-Addressable Storage (immutable basis atoms/tokens/CIDs).
+      - $U_1$ (`pcard_net`): Linear Dynamic Transitions & State Machines (ADC transitions, polynomials).
+      - $U_2$ (`vcard_proof`): Cryptographic Verification & Hoare Receipts (conservation gates, thermodynamic bounds).
+      - $U_3$ (`satori_fiber`): Distributed Reticulum Mesh & Satori Speech Acts (multi-agent protocols, synesthesia).
+      - $U_4$ (`membrane_ui`): Omnichannel Interaction Surface & Generative Hypermedia (UI components, viewports).
+      - $U_5$ (`meta_gamma`): Meta-Circular Continuous Learning Stratum (Loop $\Gamma$, epistemic fitness, GASing Flow State).
+      - Enforced monotonic sub-universe embedding via `isStratified(inner, outer)`.
+    - Added **Section 3.2: Decoupled Multilingual Translation Architecture (Externalized JSON)**: Mandating that mathematical type structures remain pristine while all natural-language strings are externalized in dedicated JSON files supporting Indonesian (`id`), English (`en`), and Orthodox Chinese (`zh-TW`).
+  - **Chapter 01 Application & Exemplar (`chapters/01_The_Value_of_Counting/`)**:
+    - Installed and integrated the **`clm-kernel`** npm package (`package.json`).
+    - Authored **`type_lattice.json`**: Formal canonical specification mapping Chapter 01 entities across $U_0 \dots U_5$.
+    - Authored **`type_lattice_locales.json`**: Decoupled multilingual repository with full translations and Nusantara cultural metaphors for every stratum and type node in `id`, `en`, and `zh-TW`.
+    - Authored **`type_lattice.js`**: Executable verification engine importing `clm-kernel`, validating universe stratification, executing `TypeInterpreter` judgments, and minting canonical `MCard` content-addressed hashes.
+    - Updated **`HyperCard_Water_Clock/locales.json`** & **`index.html`**: Enriched with `typeLattice` metadata and rendered a live footer ribbon.
+    - Updated **`README.md`** & **`MVP_The_Counter.md`**: Integrated Chapter 01 Type Lattice documentation, CLI execution instructions, and mathematical specifications.
+- **Verification:**
+  - Successfully executed `node chapters/01_The_Value_of_Counting/type_lattice.js [id|en|zh-TW]` with 100% stratification validation.
+  - Successfully ran `python3 src/civilizational_sprint_engine.py` (all 12 sprints passing).
+  - Reloaded Google Chrome tab (`http://localhost:8099`) with updated UI and live ribbon.
+

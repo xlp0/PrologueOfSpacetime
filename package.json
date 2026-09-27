@@ -1,0 +1,9 @@
+{
+  "name": "prologue-of-spacetime",
+  "version": "1.0.0",
+  "description": "Prologue of Spacetime - LLM Wiki, Curricular Assembly Line, and HoTT Meta-Game",
+  "type": "module",
+  "dependencies": {
+    "clm-kernel": "^0.0.1"
+  }
+}

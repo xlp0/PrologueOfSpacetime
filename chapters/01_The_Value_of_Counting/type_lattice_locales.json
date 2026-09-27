@@ -1,0 +1,428 @@
+{
+  "id": {
+    "meta": {
+      "chapter": "01",
+      "chapterTitle": "Nilai dari Berhitung",
+      "latticeTitle": "Kekisi Tipe CLM (Type Lattice): Bab 01",
+      "language": "Bahasa Indonesia",
+      "flag": "🇮🇩"
+    },
+    "strata": {
+      "U0": {
+        "name": "Penyimpanan Berbasis Konten (MCard CAS)",
+        "description": "Lapisan data atomik yang tidak dapat dipecah lagi; unit kebenaran mendasar sebelum ada proses.",
+        "types": {
+          "DropletAtom": {
+            "name": "Atom Tetesan Air",
+            "desc": "Tetesan air individual yang jatuh dari pancuran bambu; kejadian fisik diskrit pertama dari kontinum air alam semesta.",
+            "metaphor": "Satu butir beras di tampah bambu atau satu tetes embun pagi."
+          },
+          "NaturalNumber": {
+            "name": "Bilangan Asli (ℕ)",
+            "desc": "Indeks hitungan diskrit yang bertambah secara teratur dari titik awal kosong (Zero).",
+            "metaphor": "Menaruh batu kerikil satu per satu ke dalam kaleng kosong."
+          },
+          "ContentId": {
+            "name": "Pengidentifikasi Konten (CID)",
+            "desc": "Sidik jari kriptografis (hash SHA-256 / BLAKE3) yang menjamin catatan tidak bisa dimanipulasi.",
+            "metaphor": "Cap segel adat yang tak terhapuskan pada prasasti desa."
+          },
+          "ThermalQuantum": {
+            "name": "Kuantum Termal",
+            "desc": "Satuan energi fisik dan panas Landauer yang dibutuhkan untuk mencatat dan menghapus informasi.",
+            "metaphor": "Keringat dan kehangatan telapak tangan saat bekerja menampi beras."
+          }
+        }
+      },
+      "U1": {
+        "name": "Transisi Linear & Mesin Keadaan (PCard CPN)",
+        "desc": "Lapisan proses dinamis yang mengubah satu keadaan menjadi keadaan berikutnya.",
+        "types": {
+          "ClepsydraTick": {
+            "name": "Detak Jam Air (ADC)",
+            "desc": "Pengubah Aliran Kontinu menjadi Sinyal Diskrit (Analog-to-Digital Converter).",
+            "metaphor": "Bunyi 'tik!' saat air penuh dan menumpahkan bilah bambu jungkit."
+          },
+          "PeanoSuccessor": {
+            "name": "Penerus Peano (Succ)",
+            "desc": "Operasi penambahan satu satuan hitungan tanpa melompati urutan.",
+            "metaphor": "Melangkah tepat satu jengkal ke depan."
+          },
+          "DemonObservation": {
+            "name": "Pengamatan Maxwellian Demon",
+            "desc": "Aksi sadar pengamat yang membedakan tetesan dengan mengorbankan sebagian energi.",
+            "metaphor": "Penjaga pintu air yang fokus menyaring sampah ranting dari aliran sungai."
+          }
+        }
+      },
+      "U2": {
+        "name": "Verifikasi Kriptografis & Bukti Batas (VCard Proof)",
+        "desc": "Lapisan penjaga kebenaran dan hukum kekekalan; memastikan sistem adil dan seimbang.",
+        "types": {
+          "LaminarConservationGate": {
+            "name": "Gerbang Kekekalan Aliran Laminar",
+            "desc": "Batas ketenangan: mengamati dengan ritme stabil (~1 detik) menurunkan entropi sistem.",
+            "metaphor": "Aliran air tenang yang menyuburkan petak sawah tanpa merusak pematang."
+          },
+          "LandauerBoundProof": {
+            "name": "Bukti Batas Landauer",
+            "desc": "Kepastian termodinamika bahwa memencet terburu-buru menimbulkan gesekan panas berlebih.",
+            "metaphor": "Gesekan telapak tangan yang memerah panas jika digosok terlalu kencang."
+          },
+          "PacioliDoubleEntryReceipt": {
+            "name": "Resi Pembukuan Berpasangan Pacioli",
+            "desc": "Bukti kekekalan bahwa air yang keluar dari bilah bambu sama persis dengan air yang masuk ke lumbung desa.",
+            "metaphor": "Pembagian air Subak: debit masuk wajib sama persis dengan debit keluar."
+          }
+        }
+      },
+      "U3": {
+        "name": "Jala Terdistribusi & Tindak Tutur (Satori Speech Acts)",
+        "desc": "Lapisan komunikasi dan sinestesia; interaksi multi-agen dan umpan balik suara.",
+        "types": {
+          "ElderWarningAct": {
+            "name": "Petuah Tetua Desa",
+            "desc": "Tindak tutur arahan dan peringatan moral agar pengamat tidak serakah atau panik.",
+            "metaphor": "Nasihat sesepuh adat di balai desa saat musim tanam tiba."
+          },
+          "AuditoryPulseAct": {
+            "name": "Detak Audio Sinestetik",
+            "desc": "Umpan balik suara plink yang membuat telinga merasakan penurunan entropi.",
+            "metaphor": "Denting tetesan air di tempayan tanah liat hening."
+          },
+          "MilestoneChimeAct": {
+            "name": "Harmoni Gamelan Milestone",
+            "desc": "Perayaan musikal saat kelipatan sepuluh tetesan berhasil dicatat secara sah.",
+            "metaphor": "Tabuhan gong penutup pada upacara syukur panen."
+          }
+        }
+      },
+      "U4": {
+        "name": "Membran Antarmuka Manusia-Mesin (Membrane UI)",
+        "desc": "Lapisan presentasi visual dan tombol taktil yang dapat disentuh langsung oleh pembelajar.",
+        "types": {
+          "WaterClockStack": {
+            "name": "Tumpukan Kartu Jam Air MCard",
+            "desc": "Wadah visual retro bergaya MCard tempat seluruh simulasi berlangsung.",
+            "metaphor": "Pondok bambu tempat alat ukur air diletakkan rapi."
+          },
+          "CatchDropTrigger": {
+            "name": "Tombol Tangkap Tetesan",
+            "desc": "Pemicu taktil instan (<100ms) untuk merekam jatuhnya air secara sadar.",
+            "metaphor": "Menadah air sejuk dengan telapak tangan tepat pada waktunya."
+          },
+          "ThermodynamicGauge": {
+            "name": "Termometer Termodinamika",
+            "desc": "Pengukur visual sisa energi pengamat dan kenaikan suhu sistem.",
+            "metaphor": "Indikator panas air rebusan yang siap mendidih."
+          }
+        }
+      },
+      "U5": {
+        "name": "Lingkar Pembelajaran Meta-Sirkuler (Loop Γ)",
+        "desc": "Lapisan refleksi kognitif tertinggi; penyempurnaan diri dan kenikmatan belajar tanpa rasa takut.",
+        "types": {
+          "GASingFlowState": {
+            "name": "Kondisi Alir GASing (Flow State)",
+            "desc": "Keseimbangan sempurna antara tantangan dan keahlian pembelajar (Gampang, Asyik, Menyenangkan).",
+            "metaphor": "Keheningan batin seorang dalang wayang yang menyatu dengan irama gamelan."
+          },
+          "EpistemicFitness": {
+            "name": "Kebugaran Epistemik",
+            "desc": "Ukuran kecerdasan sistem: perbandingan antara keputusan jernih dan kebisingan.",
+            "metaphor": "Kebersihan air mata air pegunungan yang tidak tercemar lumpur."
+          },
+          "KenoticEmptySchema": {
+            "name": "Skema Kosong (Kenosis)",
+            "desc": "Sikap mengosongkan asumsi agar pikiran siap menerima kebenaran baru apa pun bentuknya.",
+            "metaphor": "Cangkir kosong yang siap diisi air teh segar nan harum."
+          }
+        }
+      }
+    }
+  },
+  "en": {
+    "meta": {
+      "chapter": "01",
+      "chapterTitle": "The Value of Counting",
+      "latticeTitle": "CLM Type Lattice: Chapter 01",
+      "language": "English",
+      "flag": "🇬🇧"
+    },
+    "strata": {
+      "U0": {
+        "name": "Content-Addressable Storage (MCard CAS)",
+        "description": "Irreducible atomic state data layer; raw immutable existential witnesses prior to transformation.",
+        "types": {
+          "DropletAtom": {
+            "name": "Droplet Atom",
+            "desc": "Individual droplet event pinched off from continuous bamboo sluice; fundamental discrete event.",
+            "metaphor": "A single grain of sand or single drop of morning dew."
+          },
+          "NaturalNumber": {
+            "name": "Natural Number (ℕ)",
+            "desc": "Monotonically increasing discrete index initialized at Zero.",
+            "metaphor": "Placing pebbles one by one into an empty container."
+          },
+          "ContentId": {
+            "name": "Content Identifier (CID)",
+            "desc": "Cryptographic content hash (SHA-256 / BLAKE3) guaranteeing tamper-evident immutability.",
+            "metaphor": "An indelible wax seal stamped onto an ancient treaty."
+          },
+          "ThermalQuantum": {
+            "name": "Thermal Quantum",
+            "desc": "Physical unit of Landauer energy and dissipation heat required to observe and erase information.",
+            "metaphor": "The thermal warmth radiating from physical work."
+          }
+        }
+      },
+      "U1": {
+        "name": "Linear Transitions & State Machines (PCard CPN)",
+        "desc": "Dynamic computational stratum executing state transformations across discrete time steps.",
+        "types": {
+          "ClepsydraTick": {
+            "name": "Water Clock Tick (ADC)",
+            "desc": "Analog-to-Digital Converter collapsing fluid accumulation into discrete pinch-off event.",
+            "metaphor": "The crisp click of an escapement gear turning by one tooth."
+          },
+          "PeanoSuccessor": {
+            "name": "Peano Successor (Succ)",
+            "desc": "Unit increment operator advancing count without skipping intermediate positions.",
+            "metaphor": "Stepping forward by exactly one pace."
+          },
+          "DemonObservation": {
+            "name": "Maxwell's Demon Observation",
+            "desc": "Conscious discriminatory act expending observer energy to record a verified tick.",
+            "metaphor": "A watchful lock keeper directing flow through canal gates."
+          }
+        }
+      },
+      "U2": {
+        "name": "Cryptographic Verification & Proof Boundaries (VCard Proof)",
+        "desc": "Conservation law boundaries and Hoare logic correctness gates guaranteeing systemic invariants.",
+        "types": {
+          "LaminarConservationGate": {
+            "name": "Laminar Conservation Gate",
+            "desc": "Resonance condition: steady observation rhythm (~1s cadence) guarantees negative entropy dissipation (ΔH < 0).",
+            "metaphor": "Calm, smooth water flow nourishing crops without eroding banks."
+          },
+          "LandauerBoundProof": {
+            "name": "Landauer Bound Proof",
+            "desc": "Thermodynamic proof that high-frequency clicking dissipates destructive friction heat (Q ≥ kB T ln 2).",
+            "metaphor": "The hot friction of rubbing hands together too violently."
+          },
+          "PacioliDoubleEntryReceipt": {
+            "name": "Pacioli Double-Entry Receipt",
+            "desc": "Conservation witness verifying debited reservoir matches credited communal cistern.",
+            "metaphor": "Double-entry bookkeeping balancing debits and credits to zero error."
+          }
+        }
+      },
+      "U3": {
+        "name": "Distributed Mesh & Speech Acts (Satori Speech Acts)",
+        "desc": "Agentic communication and synesthetic audio streams connecting actors across space and time.",
+        "types": {
+          "ElderWarningAct": {
+            "name": "Village Elder Warning Act",
+            "desc": "Directive speech act counseling the operator against greed, panic, and cognitive burnout.",
+            "metaphor": "The calm counsel of an experienced navigator during a storm."
+          },
+          "AuditoryPulseAct": {
+            "name": "Synesthetic Audio Pulse Act",
+            "desc": "Real-time acoustic feedback rendering entropy reductions audible as clear water plinks.",
+            "metaphor": "The resonant ring of a drop hitting a still water basin."
+          },
+          "MilestoneChimeAct": {
+            "name": "Milestone Gamelan Chime Act",
+            "desc": "Harmonic multi-frequency chime celebrating verified decade multiples of counted tokens.",
+            "metaphor": "A ceremonial temple gong sounding across the valley."
+          }
+        }
+      },
+      "U4": {
+        "name": "Human-Machine Interaction Surface (Membrane UI)",
+        "desc": "Omnichannel presentation surface providing tactile controls and immediate visual feedback.",
+        "types": {
+          "WaterClockStack": {
+            "name": "MCard Water Clock Stack Viewport",
+            "desc": "Retro MCard canvas housing physical simulation, meters, and event logs.",
+            "metaphor": "A master carpenter's tidy workbench."
+          },
+          "CatchDropTrigger": {
+            "name": "Catch Drop Trigger",
+            "desc": "Sub-100ms low-latency tactile button capturing drops at the crest of meniscus detachment.",
+            "metaphor": "Cupping hands under a cool waterfall at the precise moment of flow."
+          },
+          "ThermodynamicGauge": {
+            "name": "Thermodynamic Dual Gauge",
+            "desc": "Twin physical meters displaying observer energy reserve and accumulated system heat.",
+            "metaphor": "A precision boiler steam gauge monitoring pressure and fuel."
+          }
+        }
+      },
+      "U5": {
+        "name": "Meta-Circular Continuous Learning Stratum (Loop Γ)",
+        "desc": "Highest cognitive reflection layer monitoring learning feedback and sovereign intelligence formation.",
+        "types": {
+          "GASingFlowState": {
+            "name": "GASing Flow State",
+            "desc": "Cognitive resonance equilibrium eliminating friction between student intention and tool response.",
+            "metaphor": "An archer whose breath, bow, and target merge into a single stillness."
+          },
+          "EpistemicFitness": {
+            "name": "Epistemic Fitness Metric",
+            "desc": "Systemic intelligence score measuring ratio of coherent laminar observations to turbulent noise.",
+            "metaphor": "The clarity of high alpine mountain springs untainted by sediment."
+          },
+          "KenoticEmptySchema": {
+            "name": "Kenotic Empty Schema",
+            "desc": "Self-emptying epistemological posture welcoming any well-formed data without prior prejudice.",
+            "metaphor": "An empty vessel ready to receive fresh mountain rain."
+          }
+        }
+      }
+    }
+  },
+  "zh-TW": {
+    "meta": {
+      "chapter": "01",
+      "chapterTitle": "計數的價值",
+      "latticeTitle": "CLM 類型格（Type Lattice）：第 01 章",
+      "language": "正體中文",
+      "flag": "🇹🇼"
+    },
+    "strata": {
+      "U0": {
+        "name": "內容定址靜態儲存層（MCard CAS）",
+        "description": "不可約簡的原子級資料本體層；在任何運算前已確鑿存在的客觀見證對。",
+        "types": {
+          "DropletAtom": {
+            "name": "水滴本體原子",
+            "desc": "自竹筒連續水流中因表面張力夾斷而生的獨立物理水滴，為離散事件之始。",
+            "metaphor": "竹篩上的一粒飽滿稻穀，或晨曦竹尖凝結的一滴甘露。"
+          },
+          "NaturalNumber": {
+            "name": "自然數（ℕ）",
+            "desc": "自空無起始、嚴格單調遞增的離散計數索引。",
+            "metaphor": "將算籌一根一根置入空竹筒中。"
+          },
+          "ContentId": {
+            "name": "內容識別碼（CID）",
+            "desc": "基於 SHA-256 / BLAKE3 雜湊之不可篡改指紋，確保帳本記錄萬世不移。",
+            "metaphor": "青銅鼎上銘刻的族徽與銘文印記。"
+          },
+          "ThermalQuantum": {
+            "name": "熱力學量子",
+            "desc": "蘭道爾極限下擦除或記錄一比特資訊所必耗之物理能量與熵變。",
+            "metaphor": "農夫在田間揮鎬勞作時額頭滲出的微溫汗水。"
+          }
+        }
+      },
+      "U1": {
+        "name": "線性躍遷與動態狀態機（PCard CPN）",
+        "desc": "執行時間步躍遷與狀態轉換之動態運算層（Polynomial Functor）。",
+        "types": {
+          "ClepsydraTick": {
+            "name": "漏刻鐘擺滴答（ADC 轉換）",
+            "desc": "將連續類比流體累積轉換為離散脈衝之模數轉換器（Analog-to-Digital Converter）。",
+            "metaphor": "竹節水滿自傾、敲擊青石發出的清脆「嗒」聲（添水 / Shishi-odoshi）。"
+          },
+          "PeanoSuccessor": {
+            "name": "皮亞諾後繼算子（Succ）",
+            "desc": "嚴格將當前計數推遞至下一單位的後繼函數（n ↦ n + 1）。",
+            "metaphor": "棋盤上下定不移的一著前進。"
+          },
+          "DemonObservation": {
+            "name": "馬克士威妖觀測躍遷",
+            "desc": "觀測者消耗本體儲備能量、以主動識別水滴的狀態轉移過程。",
+            "metaphor": "水閘巡守人在激流前凝神定格每一朵浪花。"
+          }
+        }
+      },
+      "U2": {
+        "name": "密碼學驗證與邊界證明（VCard Proof）",
+        "desc": "守恆定律與霍爾三元組 {P} C {Q} 之檢驗邊界，杜絕系統虛擬幻覺與債務膨脹。",
+        "types": {
+          "LaminarConservationGate": {
+            "name": "層流諧振守恆閘門",
+            "desc": "穩定節律（約1秒間隔）下觸發之熵減閘門，確保系統維持層流負熵（ΔH < 0）。",
+            "metaphor": "心平氣和時如鏡湖止水，波瀾不驚卻潤澤萬物。"
+          },
+          "LandauerBoundProof": {
+            "name": "蘭道爾極限證明",
+            "desc": "證明日誌過載高頻點擊時，資訊抹除必然釋放劇烈熱耗散之物理定律。",
+            "metaphor": "雙手劇烈摩擦必然灼熱生痛。"
+          },
+          "PacioliDoubleEntryReceipt": {
+            "name": "帕喬利複式記帳收據",
+            "desc": "證明竹筒流出之水滴總量與村落水窖收納量嚴格相等的守恆收據。",
+            "metaphor": "天平兩端：出入平衡，分毫不差。"
+          }
+        }
+      },
+      "U3": {
+        "name": "分散式網絡與言語行為（Satori Speech Acts）",
+        "desc": "多代理人協作、儀式性發言與聽覺微波反饋之共鳴層。",
+        "types": {
+          "ElderWarningAct": {
+            "name": "村落長者警世言語行為",
+            "desc": "長者發布之指令性與警示性言語行為，提醒觀測者勿陷於躁進焚身或怠惰滅頂。",
+            "metaphor": "族中尊長於村廟晨鐘後的諄諄訓誡。"
+          },
+          "AuditoryPulseAct": {
+            "name": "聽覺波紋脈衝行為",
+            "desc": "以 Web Audio 即時合成之水滴微漾聲，將抽象的熵減化為清冽聽覺感受。",
+            "metaphor": "清泉滴入石臼的幽咽空靈。"
+          },
+          "MilestoneChimeAct": {
+            "name": "里程碑磬樂諧振行為",
+            "desc": "每逢十進位水滴驗證通過時響起之泛音和弦，強化集體秩序達成感。",
+            "metaphor": "宗廟編磬齊鳴，慶賀秋收祭典圓滿。"
+          }
+        }
+      },
+      "U4": {
+        "name": "人機互動介面薄膜層（Membrane UI）",
+        "desc": "人機交界之實體化薄膜；賦予學習者觸手可及的操縱感與沉浸式儀表板。",
+        "types": {
+          "WaterClockStack": {
+            "name": "MCard 水鐘卡片視窗",
+            "desc": "承載物理流體模擬、實時儀表與歷史日誌的復古風格 MCard 容器。",
+            "metaphor": "工匠精心打造的儀器木盒。"
+          },
+          "CatchDropTrigger": {
+            "name": "捕獲水滴觸發按鈕",
+            "desc": "反應延遲小於100毫秒的實體按鈕，讓觀測者在水滴飽滿瞬間定格捕捉。",
+            "metaphor": "陶壺注水，恰至壺沿時輕輕收手。"
+          },
+          "ThermodynamicGauge": {
+            "name": "熱力學雙聯溫度儀",
+            "desc": "直觀展示觀測者能量消耗與系統熵溫累積之擬物化刻度表。",
+            "metaphor": "鍋爐上的銅製壓力與水溫聯動計。"
+          }
+        }
+      },
+      "U5": {
+        "name": "元循環持續學習躍遷層（Loop Γ）",
+        "desc": "最高階之認知自省層；維繫 GASing 心流與無假定虛心狀態。",
+        "types": {
+          "GASingFlowState": {
+            "name": "GASing 心流共振態（Flow State）",
+            "desc": "學習者在簡單（Gampang）、趣味（Asyik）、享受（Menyenangkan）間達成的心智共鳴狀態。",
+            "metaphor": "庖丁解牛，神凝於刃，遊刃有餘。"
+          },
+          "EpistemicFitness": {
+            "name": "認識論適應度指標",
+            "desc": "評估系統信噪比：以層流純度對比無序擾動之智慧純淨度度量。",
+            "metaphor": "高山雪水之清澈度，澄澈見底而無纖塵。"
+          },
+          "KenoticEmptySchema": {
+            "name": "空無模式（Kenosis 自我虛空）",
+            "desc": "不預設立場的歸零本心，以極小假定包容萬千真實數據的開放容器。",
+            "metaphor": "虛堂懸鏡，物來則照，物去則空。"
+          }
+        }
+      }
+    }
+  }
+}

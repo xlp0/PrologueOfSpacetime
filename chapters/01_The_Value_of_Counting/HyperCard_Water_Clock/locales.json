@@ -62,6 +62,15 @@
       "overheatAlert": "*** PERINGATAN KRITIS: Sensor Kepanasan ***",
       "elderSurrender": "Sesepuh: \"Kau telah menyerah pada Kekacauan. Sungai meluap.\"",
       "gateCollapse": "Narasi: Gerbang sensor runtuh di bawah beban panas membara."
+    },
+    "typeLattice": {
+      "title": "Kekisi Tipe CLM (U0-U5)",
+      "u0": "U0 (MCard CAS): Atom Tetesan & Bilangan Asli (ℕ)",
+      "u1": "U1 (PCard CPN): Transisi Jam Air & Penerus Peano (Succ)",
+      "u2": "U2 (VCard Proof): Gerbang Laminar & Bukti Batas Landauer",
+      "u3": "U3 (Satori): Petuah Tetua & Detak Audio Sinestetik",
+      "u4": "U4 (Membrane): Tumpukan Jam Air & Tombol Tangkap",
+      "u5": "U5 (Loop Γ): Kondisi Alir GASing & Skema Kosong"
     }
   },
   "en": {
@@ -127,6 +136,15 @@
       "overheatAlert": "*** CRITICAL ALERT: Demon Overheated ***",
       "elderSurrender": "Elder: \"You have surrendered to Chaos. The river floods.\"",
       "gateCollapse": "Narrative: The gate collapses under the weight of the heat."
+    },
+    "typeLattice": {
+      "title": "CLM Type Lattice (U0-U5)",
+      "u0": "U0 (MCard CAS): Droplet Atom & Natural Number (ℕ)",
+      "u1": "U1 (PCard CPN): Water Clock Tick & Peano Successor",
+      "u2": "U2 (VCard Proof): Laminar Gate & Landauer Bound Proof",
+      "u3": "U3 (Satori): Elder Warning Act & Synesthetic Audio",
+      "u4": "U4 (Membrane): Water Clock Stack & Catch Drop Button",
+      "u5": "U5 (Loop Γ): GASing Flow State & Kenotic Empty Schema"
     }
   },
   "zh-TW": {
@@ -192,6 +210,15 @@
       "overheatAlert": "*** 緊急警報：馬克士威妖過熱 ***",
       "elderSurrender": "長者：「你已向混亂屈服，江河吞沒了防線。」",
       "gateCollapse": "敘事：觀測閘門在熾熱的過載能量下崩塌。"
+    },
+    "typeLattice": {
+      "title": "CLM 類型格（U0-U5）",
+      "u0": "U0 (MCard CAS): 水滴原子與自然數 (ℕ)",
+      "u1": "U1 (PCard CPN): 漏刻滴答 ADC 與皮亞諾後繼",
+      "u2": "U2 (VCard Proof): 層流守恆閘門與蘭道爾極限證明",
+      "u3": "U3 (Satori): 村落長者警世言語與聽覺微波",
+      "u4": "U4 (Membrane): MCard 水鐘視窗與捕獲水滴按鈕",
+      "u5": "U5 (Loop Γ): GASing 心流共振態與空無模式"
     }
   }
 }

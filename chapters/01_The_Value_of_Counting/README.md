@@ -123,13 +123,41 @@ Chapter 01 is organized as an authenticated cube in the Cubical Logic Model:
   * [`README.md`](README.md): High-level chapter charter and Reverse Trivium trajectory.
   * [`MVP_The_Counter.md`](MVP_The_Counter.md): The philosophical and technical specification of the MCard atom.
   * [`arithmetic_as_protocol.md`](arithmetic_as_protocol.md): The Fundamental Theorem of Arithmetic (FTA) and Pacioli's double-entry invariant as SSOT verification.
+  * [`type_lattice.json`](type_lattice.json): Canonical CLM Type Lattice specification defining nodes and relationships across $U_0 \dots U_5$.
+  * [`type_lattice_locales.json`](type_lattice_locales.json): Decoupled multilingual translation repository (🇮🇩 `id`, 🇬🇧 `en`, 🇹🇼 `zh-TW`).
 * **Implementation (Impl)**:
+  * [`type_lattice.js`](type_lattice.js): Executable Type Lattice verification engine powered by **`clm-kernel`** (`UniverseLevel`, `isStratified`, `TypeInterpreter`, `MCard`).
   * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/): Working browser and Node.js simulation of Maxwell's Demon observing droplets with thermodynamic dissipation.
   * [`water_clock_mechanics.md`](water_clock_mechanics.md): Technical breakdown of the Water Clock Analog-to-Digital Converter (ADC).
 * **Experimentation (Exp)**:
   * [`HoTT_Math_Course/`](HoTT_Math_Course/): 7 foundational video lesson notes detailing Homotopy Type Theory, universes, $\Pi$-types, $\Sigma$-types, and inductive types.
   * [`thermodynamics_of_counting.md`](thermodynamics_of_counting.md): Empirical verification of Landauer dissipation and Shannon entropy reduction.
   * `src/civilizational_sprint_engine.py`: Automated numerical unit test verifying Sprint 01 mathematical invariants.
+
+### 4.1 Chapter 01 Type Lattice Stratification (Powered by `clm-kernel`)
+
+Chapter 01 is formally structured into six stratified universe levels via the `clm-kernel` npm package:
+
+| Stratum | CLM Coordinate | Chapter 01 Types & Invariants | Physical / Nusantara Metaphor |
+|:---|:---|:---|:---|
+| **$U_0$** | **`mcard_cas`** | `DropletAtom`, `NaturalNumber` ($n \in \mathbb{N}$), `ContentId` (CID), `ThermalQuantum` | Butir beras di tampah, kerikil dalam kaleng, segel lilin adat |
+| **$U_1$** | **`pcard_net`** | `ClepsydraTick` (ADC), `PeanoSuccessor` ($\text{Succ}(n) = n+1$), `DemonObservation` | Tetesan menumpahkan bilah bambu jungkit (*添水 / Shishi-odoshi*) |
+| **$U_2$** | **`vcard_proof`** | `LaminarConservationGate` ($\Delta H < 0$), `LandauerBoundProof`, `PacioliDoubleEntryReceipt` | Pintu air Subak Bali: debit air masuk $\equiv$ debit keluar |
+| **$U_3$** | **`satori_fiber`** | `ElderWarningAct`, `AuditoryPulseAct` (440Hz Plink), `MilestoneChimeAct` | Nasihat sesepuh adat balai desa, denting gamelan panen |
+| **$U_4$** | **`membrane_ui`** | `WaterClockStack` (MCard UI), `CatchDropTrigger` ($<100\text{ms}$), `ThermodynamicGauge` | Pondok ukur bambu, wadah penampung air sejuk |
+| **$U_5$** | **`meta_gamma`** | `GASingFlowState` (Easy, Fun, Enjoyable), `EpistemicFitness`, `KenoticEmptySchema` | Keheningan batin dalang wayang, cangkir teh kosong siap diisi |
+
+To execute and verify the Chapter 01 Type Lattice in any supported language:
+```bash
+# Indonesian (Default)
+node chapters/01_The_Value_of_Counting/type_lattice.js id
+
+# English
+node chapters/01_The_Value_of_Counting/type_lattice.js en
+
+# Orthodox Chinese
+node chapters/01_The_Value_of_Counting/type_lattice.js zh-TW
+```
 
 ---
 
@@ -206,6 +234,7 @@ To master Chapter 01, follow this structured trajectory:
    * [`water_clock_mechanics.md`](water_clock_mechanics.md) — The physical architecture of the water clock as an analog-to-digital converter.
    * [`thermodynamics_of_counting.md`](thermodynamics_of_counting.md) — Maxwell's Demon, Landauer's bound, and Brownian free will.
 3. **Execute Simulations & Math**:
+   * [`type_lattice.js`](type_lattice.js) — Run the CLM Type Lattice engine powered by **`clm-kernel`** to verify stratified HoTT universe levels ($U_0 \dots U_5$) in Indonesian 🇮🇩, English 🇬🇧, or Orthodox Chinese 🇹🇼.
    * [`HyperCard_Water_Clock/`](HyperCard_Water_Clock/) — Run the interactive simulation in your browser or Node.js (with standardized i18n supporting Indonesian 🇮🇩, English 🇬🇧, and Orthodox Chinese 🇹🇼).
    * [`HoTT_Math_Course/`](HoTT_Math_Course/) — Study formal Homotopy Type Theory foundations of $\mathbb{N}$.
 4. **Play the Operational Sprint**:

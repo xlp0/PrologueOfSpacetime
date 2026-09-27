@@ -10,6 +10,9 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Node.js dependencies
+node_modules/
+
 # PlatformIO build artifacts
 .pio/
 

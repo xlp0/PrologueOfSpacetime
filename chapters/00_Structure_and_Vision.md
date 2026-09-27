@@ -132,6 +132,44 @@ In the Brain Factory, we achieve **Consensus** not by endless debating (negotiat
 * If your **Abstract Spec** (Intent) and your **Concrete Impl** (Code) and your **Balanced Expectations** (Tests) are aligned in the CLM Vector Space, you have achieved **Correctness**.
 * This makes CLM the **Protocol of Truth**—a language that is equally readable by Humans (Language), Machines (Code), and Institutions (Law).
 
+### 3.1 Chapter Architecture: The Type Lattice Principle (CLM Stratification U0–U5)
+
+Every chapter in the 12-Chapter Matrix is not merely a collection of essays; it is a **formally verifiable Type Space**. To prevent semantic drift and ensure rigorous computability, **every Chapter must have a dedicated Type Lattice** specifically focused on and tailored to the relevant concepts, physical instruments, mathematical entities, and invariants of that chapter.
+
+#### The 6-Tier Universe Stratification (Powered by `clm-kernel`)
+
+Grounded in Homotopy Type Theory (HoTT) universe stratification and operationalized programmatically by the **`clm-kernel`** npm package, each chapter's Type Lattice is organized into six ascending Universe Levels ($U_0$ through $U_5$):
+
+| Universe Level | CLM Stratum (`clm-kernel`) | Architectural Role | Chapter Entity Manifestation |
+|:---|:---|:---|:---|
+| **$U_0$** | **`mcard_cas`** | **Static Content-Addressable Storage (CAS)** | The irreducible, windowless atomic data units; cryptographic hashes (CIDs), raw tokens, discrete coordinates. |
+| **$U_1$** | **`pcard_net`** | **Linear Transitions & Dynamic State Machines** | The state transformation functions, Colored Petri Net (CPN) firings, polynomial functors, physical/simulated ADC transitions. |
+| **$U_2$** | **`vcard_proof`** | **Cryptographic Verification & Hoare Receipts** | The boundary conditions, Hoare sandwiches $\{P\} C \{Q\}$, Landauer dissipation limits, conservation laws, invariant proofs. |
+| **$U_3$** | **`satori_fiber`** | **Distributed Reticulum Mesh & Satori Speech Acts** | Dialectic turns, multi-agent protocol messages, auditory/visual pulse streams, elder guidance speech acts. |
+| **$U_4$** | **`membrane_ui`** | **Omnichannel Interaction Surface & Generative Hypermedia** | The human-machine interaction membrane; interactive browser applications, tactile buttons, real-time meter visualizations. |
+| **$U_5$** | **`meta_gamma`** | **Meta-Circular Continuous Learning Stratum (Loop $\Gamma$)** | Pedagogical feedback loops, epistemic fitness evaluation, parameter adaptation between laminar and turbulent regimes, GASing Flow State. |
+
+#### Structural Rule: Stratified Embedding
+
+In accordance with Voevodsky's univalence axiom and Martin-Löf type theory, the Type Lattice enforces strict stratification via `clm-kernel`:
+$$\text{Level}(A) \le \text{Level}(B) \implies A \text{ can embed into } B$$
+Verified programmatically by `isStratified(innerLevel, outerLevel)` from `clm-kernel`, ensuring no circular impredicative leaks occur below the foundational strata.
+
+### 3.2 Decoupled Multilingual Translation Architecture (Externalized JSON)
+
+To uphold the **Local-First** and **Frictionless Entry** principles across international boundaries—specifically welcoming learners from Indonesia, Greater China, and the global English-speaking community—all chapters enforce a strict **Decoupling Mandate**:
+
+1. **Pristine Mathematical & Execution Logic**:
+   - The Type Lattice structure, state machine code, thermodynamic equations, and audio synthesis routines must NEVER contain hardcoded natural-language prose, UI labels, or localized strings.
+2. **Externalized Multilingual Repository (`locales.json`)**:
+   - Every chapter must provide its complete natural language explanations, Elder dialogues, telemetry alerts, pedagogical hints, and UI titles in an external, standardized JSON file (e.g. `locales.json` or `type_lattice_locales.json`).
+   - The repository must simultaneously support:
+     * 🇮🇩 **Bahasa Indonesia (`id`)**: Accessible, warm, grounded in Nusantara metaphors (Subak, gotong royong, bamboo sluice).
+     * 🇬🇧 **English (`en`)**: Rigorous, technical, aligned with international scientific and categorical terminology.
+     * 🇹🇼 **Orthodox Chinese (`zh-TW`)**: Culturally resonant, mathematically precise, strictly utilizing `MCard` / `單子卡` (prohibiting the erroneous literal mistranslation `超卡`).
+3. **Zero-Code-Change Expansion**:
+   - Adding a new language (e.g. Japanese `ja`, German `de`, or Arabic `ar`) requires only appending a translation keyblock to the JSON file. The underlying `clm-kernel` Type Lattice, Node.js scripts, and browser simulations remain untouched and 100% verified.
+
 ## 4. The Engine: GASing and the Kenosis Principle
 
  The **Prologue of Spacetime** is **Powered by GASing**—a pedagogical engine that drives the user through the CLM dimensions. This methodology is grounded in the operational theology of **Kenosis** (Self-Emptying).
